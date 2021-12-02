@@ -1,0 +1,220 @@
+@import 
+url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+
+body{
+    background-color:rgb(22,22,22);
+}
+
+.title {
+    color:orange;
+    transform-style: preserve-3d;
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+    margin-top: 7em ;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 3em;
+    z-index: 1;
+
+    
+}
+
+p{
+  color:rgb(0, 0, 0);
+  font-family:  Verdana;
+
+}
+
+.tensor{
+  position: absolute;
+  left: 10em;
+  height:100px;
+  width:400px;
+  text-align:center;
+  background-color:rgb(255, 178, 34);
+  border-radius:40px;
+  border-width: 10em;
+}
+
+
+.sandrinoz{
+  position: absolute;
+  width: 100%;
+  height: 38em;
+  
+}
+
+
+
+section {
+  position: relative;
+  width: 100%;
+  height: 12em;
+}
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%;
+
+}
+
+.anim-typewriter{
+    animation: typewriter 2.5s steps(40) 1s 1 normal both,
+               blinkTextCursor 500ms steps(40) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 18em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+
+
+
+
+h1::after {
+  position: absolute;
+  top: calc(50% + .5*0.775em);
+  right: 0;
+  width: calc(100% + 50vw);
+  height: 0.075em;
+  border-radius: 0 0.25em 0.125em 0;
+  background: white;
+  animation: slide 4.5s ;
+  content: "";
+}
+
+@keyframes slide {
+  92% {
+    transform: translate(-100%);
+  }
+}
+
+
+
+.scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}
+
+
+
+
+.square {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 60em; 
+  top: -2em;
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0,0);
+	}
+	100% {
+		transform: scale(1,1);
+	}
+}
+@keyframes translate-from-left {
+  0% {
+    transform: translateX(-100%);
+    opacity:0.1;
+  }
+  100% {
+		transform: translateX(0);
+    opacity:1;
+	}
+}
+@keyframes translate-from-right {
+  0% {
+    transform: translateX(200%);
+    opacity:0.1;
+  }
+  100% {
+
+    opacity:1;
+	}
+}
+@media (prefers-reduced-motion: no-preference) {
+  .square {
+    animation-name: translate-from-right ;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+  }
+  .tensor {
+    animation-name: translate-from-left;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+  }
+
+
+}
+
+
+
+
+.demo a {
+  position: absolute;
+  left: 47%;
+  top: 15em;
+  z-index: 2;
+  display: inline-block;
+  opacity: 0;
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 4.5s;
+  -webkit-animation-fill-mode: forwards;
+  color: orange;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.demo a:hover{
+  opacity: 0.5;
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#section01 a {
+  padding-top: 60px;
+}
+#section01 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+
+
