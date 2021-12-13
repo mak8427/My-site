@@ -1,18 +1,40 @@
 @import 
 url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 @import 
+<<<<<<< HEAD
 url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap');
 @charset "UTF-8";
+=======
+url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+>>>>>>> 744596a472ec5e6cc2711b604084b9f2933d9acf
 
 * { 
-  margin: 0;
-  box-sizing: border-box;
 }
 
 body{
-    width: 100%;
-    height: 100%;
+    overflow-x: hidden;
     background-color:rgb(22,22,22);
+}
+
+
+.first_half{
+  color:orange;
+  position:relative;
+  top: 2em;
+  left: 11em;
+  font-family: 'Readex Pro', sans-serif;
+  font-size:52px;
+  overflow: relative;
+
+}
+.second_half{
+  color:orange;
+  position:relative;
+  top: 0.09em;
+  left: 15em;  font-family: 'Readex Pro', sans-serif;
+  font-size:52px;
+  overflow: hidden;
+
 }
 
 .title {
@@ -63,8 +85,22 @@ p{
   
 }
 
-
-
+.chad{
+  position: absolute;
+  top: 57.2em;
+  left: 31.3em;
+  width:450px;
+  height:450px;
+}
+.chad-div{
+	margin: auto;
+  width:320px;
+  height:168px;
+  background-color:orange;
+  border:3px solid violet;
+  border-radius: 29px;
+  text-align:center;
+}
 section {
   position: relative;
   width: 100%;
@@ -97,7 +133,11 @@ section::after {
 
 
 
+<<<<<<< HEAD
  h1::after {
+=======
+.name::after {
+>>>>>>> 744596a472ec5e6cc2711b604084b9f2933d9acf
   position: absolute;
   top: calc(50% + .5*0.775em);
   right: 0;
@@ -156,7 +196,7 @@ section::after {
 }
 @keyframes translate-from-right {
   0% {
-    transform: translateX(200%);
+    transform: translateX(100%);
     opacity:0.1;
   }
   100% {
@@ -164,14 +204,28 @@ section::after {
     opacity:1;
 	}
 }
+@keyframes translate-from-below {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  .square {
+  .second_half {
     animation-name: translate-from-right ;
     animation-duration: 2.5s;
     animation-iteration-count: 1;
   }
-  .tensor {
+  .first_half {
     animation-name: translate-from-left;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+  }
+  .giga-chad{
+    animation-name: translate-from-below;
     animation-duration: 2.5s;
     animation-iteration-count: 1;
   }
