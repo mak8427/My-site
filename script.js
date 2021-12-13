@@ -1,22 +1,15 @@
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    const square = entry.target.querySelector('.chad');
 
-
-
-const rogi = document.querySelectorAll(".wipe-enter");
-
-observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.intersectionRatio > 0) {
-      entry.target.style.animation = `anim1 2s ${entry.target.dataset.delay} forwards ease-out`;
-    } else {
-      entry.target.style.animation = "none";
+    if (entry.isIntersecting) {
+      square.classList.add('giga-chad');
+	  return; // if we added the class, exit the function
     }
+
+    // We're not intersecting, so remove the class!
+    square.classList.remove('giga-chad');
   });
 });
 
-rogi.forEach((image) => {
-  observer.observe(image);
-});
-
-
-
-
+observer.observe(document.querySelector('.chad-div'));
