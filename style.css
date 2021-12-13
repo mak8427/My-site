@@ -1,5 +1,8 @@
 @import 
 url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap');
+@charset "UTF-8";
 
 * { 
   margin: 0;
@@ -35,19 +38,21 @@ body{
 
 p{
   color:rgb(0, 0, 0);
-  font-family:  Verdana;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
 
 }
 
 .tensor{
   position: absolute;
   left: 10em;
-  height:100px;
-  width:400px;
+  height:130px;
+  width:600px;
   text-align:center;
   background-color:rgb(255, 178, 34);
+  border: 12px solid rgb(255, 178, 34);
   border-radius:40px;
-  border-width: 10em;
+
 }
 
 
@@ -92,7 +97,7 @@ section::after {
 
 
 
-h1::after {
+ h1::after {
   position: absolute;
   top: calc(50% + .5*0.775em);
   right: 0;
@@ -127,7 +132,7 @@ h1::after {
   position: relative;
   width: 200px;
   height: 200px;
-  left: 60em; 
+  left: 90em; 
   top: -2em;
 }
 
@@ -223,3 +228,26 @@ h1::after {
 
 
 
+#container
+{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+#container .effect-text-container
+{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-top: -10px;
+}
+
+#container .effect-text-container h1
+{
+	font-family: "Open Sans";
+	font-weight: 900;
+	font-size: 15px;
+	letter-spacing: 5px;
+	color: white;
+}
