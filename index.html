@@ -1,49 +1,41 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-
-
-
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- For IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- For Mobile -->
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquaries.css">
+</head>
 <body>
-        <span>
-            <h1 class='name anim-typewriter title'>D a v i d e &emsp; M a t t i o l i</h1>
-
-        </span>
-        <section id="section01" class="demo">
-            <a href="#section02"><span></span>Scroll</a>
-        </section>
-
-    <section id='section02'></section>
-    <section id='section02'></section>
-<<<<<<< HEAD
-    <div id="container" >
-        <div class="effect-text-container">
-    <h2> My Story</h2>
-</div>
-     </div>
-    <div >
-        <p class='tensor'>this is my project that i done using tensor flow, 
-=======
+<nav id="desktop-nav">
+    <div class = "logo"> Davide Mattioli </div>
     <div>
-        <h1 class='first_half'>My </h1>
-        <h1 class='second_half'>Story</h1>
+        <ul class="nav-links">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
-    <div class='chad-div'>
-        <img class='chad' src='Chad.png'>
+</nav>
+<nav id="hamburger-nav">
+    <div class = "logo"> Davide Mattioli </div>
+    <div class="ham-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()" >
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+         <div class="menu-links">
+            <li><a href="#about-me"onclick="toggleMenu()" >About Me</a></li>
+            <li><a href="#skills"onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects"onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>
+        </div>
     </div>
-    <!----               
-    <div class='tensor'>
-        <p>this is my project that i done using tensor flow,
->>>>>>> 744596a472ec5e6cc2711b604084b9f2933d9acf
-            i really hope you appriciate it. it's a really good
-            looking one especially the machine learning part
-        </p>
-    </div>
-    <div> <img class='square ' src='tensor.png'></img></div>
-    -->
-    <div class='sandrinoz'></div>
-
+</nav>
+<script src="script.js"></script>
 </body>
-
 </html>
