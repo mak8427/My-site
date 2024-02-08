@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.dark-mode a {
+    color: #ddd; /* Change anchor tag color in dark mode */
+}
 
 
 body {
