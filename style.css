@@ -358,7 +358,11 @@ article .icon {
     width: 90%;
     height: 90%;
 }
-
+.Efficient-frontier-img {
+    border-radius: 2rem;
+  height: 410px;
+  width: 410px;
+}
 .project-title {
     margin: 1rem;
     color: black;
