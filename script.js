@@ -4,3 +4,6 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+document.getElementById('mode-switcher').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
