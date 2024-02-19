@@ -9,7 +9,8 @@ class Portfolio:
         self.cash = cash
         self.weights= self.random_weight_initialise()
     def random_weight_initialise(self):
-        weights=np.random.randint(0,10, size=(10))/10
+        weights = np.random.random(len(self.assets))
+        weights /= weights.sum()
         return weights
 
 
