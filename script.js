@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
         icon.addEventListener('click', toggleMenu);
     }
-    let darkModeToggle = document.getElementById('dark-mode-toggle');
+
 
     // Theme toggle functionality
     const themeToggleButton = document.getElementById('themeToggleButton');
