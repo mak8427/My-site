@@ -1,0 +1,27 @@
+body {
+    background: #1D1E22;
+    color: white;
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    flex-direction: column; /* Stack items vertically */
+    min-height: 100vh; /* Make the body fill the screen height */
+    padding: 40px 0; /* Add padding to the top and bottom */
+}
+
+
+pre {
+  transform: scale(1.5); /* Makes the donut bigger */
+  transform-origin: center;
+  margin: 0 auto;
+}
+.work-in-progress {
+    font-family: 'Roboto', sans-serif; /* This uses Google Fonts. Alternatively, use a web-safe font like Arial or Helvetica if you prefer */
+    font-size: 40px; /* Adjust size as needed */
+    color: #FFFFFF; /* White color for the text */
+    text-align: center; /* Center the label */
+    width: 100%; /* Ensure it spans the full width */
+    padding: 20px 0; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    margin-bottom: 150px; /* Increase as needed */
+}
