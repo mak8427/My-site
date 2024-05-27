@@ -12,23 +12,23 @@ header, footer {
 }
 
 .dark-mode {
-    background-color: #20232a;
-    color: #61dafb;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
 }
 
 .dark-mode header, .dark-mode footer {
-    background-color: #61dafb;
-    color: #20232a;
+    background-color: #333; /* Darker black for contrast */
+    color: #fff; /* White text */
 }
 
 .light-mode {
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
 }
 
 .light-mode header, .light-mode footer {
-    background-color: #20232a;
-    color: #61dafb;
+    background-color: #eee; /* Light grey for contrast */
+    color: #000; /* Black text */
 }
 
 main {
@@ -41,7 +41,7 @@ main {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: inherit; /* Use the body's background color */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     width: 80%;
@@ -62,19 +62,19 @@ button {
 }
 
 .dark-mode button {
-    background-color: #61dafb;
-    color: white;
+    background-color: #555; /* Dark gray */
+    color: #fff; /* White */
 }
 
 .dark-mode button:hover {
-    background-color: #4f90c1;
+    background-color: #777; /* Lighter gray */
 }
 
 .light-mode button {
-    background-color: #4f90c1;
-    color: white;
+    background-color: #ddd; /* Light gray */
+    color: #000; /* Black */
 }
 
 .light-mode button:hover {
-    background-color: #61dafb;
+    background-color: #bbb; /* Darker gray */
 }
