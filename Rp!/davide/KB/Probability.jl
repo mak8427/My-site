@@ -207,23 +207,11 @@ begin
 	vline!([low_mean], label="Mean", color=:red, linewidth=2)
 end
 
-# ╔═╡ 31f944d5-804e-4f36-b0ed-9c333fe40ec5
-
-
-# ╔═╡ 2cecbf3d-0acd-42f3-9056-9afb71a94f1d
-
-
 # ╔═╡ 4b4696fa-d857-425a-8745-d3da59765c87
 begin
 	hist_mid = histogram(mid_tier_results, bins=30, alpha=0.5, legend=:topright, title="Mid Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
 	vline!([mid_mean], label="Mean", color=:red, linewidth=2)
 end
-
-# ╔═╡ 947c0773-447b-488a-b3d4-536fdd5f244f
-
-
-# ╔═╡ fef3e4bb-a0d5-429f-8b4d-25eac42e6777
-
 
 # ╔═╡ 0d8bbf54-c905-451f-baf4-0a6abba392e4
 begin
@@ -231,13 +219,6 @@ begin
 	vline!([high_mean], label="Mean", color=:red, linewidth=2)
 	
 end
-
-# ╔═╡ 72c90f61-5b19-4faa-8099-12681b6ae0a1
-
-
-# ╔═╡ 974c1156-1ddd-4d9f-82f2-eb5a4e840c0c
-
-# Plotting results for Highest Tier
 
 # ╔═╡ 94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
 begin
@@ -376,7 +357,12 @@ begin
 end
 
 # ╔═╡ 141ab069-4445-4332-83e8-0267b4290918
-
+begin
+	# Plotting results
+	histogram(results, bins=30, alpha=0.5, legend=:topright, title="Distribution of Spell Results", xlabel="Spell Result", ylabel="Frequency")
+	vline!([mean_result], label="Mean", color=:red, linewidth=2)
+	
+end
 
 # ╔═╡ bf44b030-79d7-4a3a-b74a-9f8da7b3967c
 
@@ -1690,20 +1676,14 @@ version = "1.4.1+1"
 # ╠═11ada8e1-0b92-4cf9-9972-009f104c6a12
 # ╠═742741fe-3296-4262-8a5c-f339229eb657
 # ╠═945fb8c1-921c-4b57-9ddb-d7b644608a80
-# ╠═59f05df0-b176-4895-a956-ad8471483434
-# ╠═9a58b8d1-3812-48f9-8558-ee526970e3e6
-# ╠═31f944d5-804e-4f36-b0ed-9c333fe40ec5
-# ╠═2cecbf3d-0acd-42f3-9056-9afb71a94f1d
-# ╠═4b4696fa-d857-425a-8745-d3da59765c87
-# ╠═947c0773-447b-488a-b3d4-536fdd5f244f
-# ╠═fef3e4bb-a0d5-429f-8b4d-25eac42e6777
-# ╠═0d8bbf54-c905-451f-baf4-0a6abba392e4
-# ╠═72c90f61-5b19-4faa-8099-12681b6ae0a1
-# ╠═974c1156-1ddd-4d9f-82f2-eb5a4e840c0c
-# ╠═94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
-# ╠═e139bbc9-c756-4c0e-af84-a63b8f94fdc8
-# ╠═406bb956-81b6-468c-bbab-097393ad4bb9
-# ╠═c722c142-1af5-4eec-af13-2788ee55fc98
+# ╟─59f05df0-b176-4895-a956-ad8471483434
+# ╟─9a58b8d1-3812-48f9-8558-ee526970e3e6
+# ╟─4b4696fa-d857-425a-8745-d3da59765c87
+# ╟─0d8bbf54-c905-451f-baf4-0a6abba392e4
+# ╟─94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
+# ╟─e139bbc9-c756-4c0e-af84-a63b8f94fdc8
+# ╟─406bb956-81b6-468c-bbab-097393ad4bb9
+# ╟─c722c142-1af5-4eec-af13-2788ee55fc98
 # ╟─880d9cdd-a6da-4b57-af07-467d1192ab85
 # ╟─91bd14b4-0eef-438e-8d52-8dbcd59f1ccf
 # ╟─f22af50a-1492-47dd-bcad-6136b27762b3
@@ -1717,7 +1697,7 @@ version = "1.4.1+1"
 # ╟─10bbd767-e4e5-415b-a975-658d5748e241
 # ╟─72a96961-937d-4075-9fd2-698c1ed49ba7
 # ╟─9a70ac3c-8af7-47c4-baa9-1e99964036cf
-# ╠═141ab069-4445-4332-83e8-0267b4290918
+# ╟─141ab069-4445-4332-83e8-0267b4290918
 # ╠═bf44b030-79d7-4a3a-b74a-9f8da7b3967c
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
