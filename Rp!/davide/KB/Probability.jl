@@ -41,7 +41,19 @@ function simulate_spell_casts(n_simulations::Int, possible_values::Vector{Int}, 
 
     for _ in 1:n_simulations
         # Calculate the sum of dice, handling exploding dice
-        sum_dice = sum(exploding_dice_roll(rand(possible_values)) for _ in 1:y)
+        dice_rolls = [exploding_dice_roll(rand(possible_values)) for _ in 1:y]
+
+        # Tira il Dado del Destino
+        fate_die = rand(1:6)
+
+        # Sostituisci il peggior tiro con il risultato del Dado del Destino
+        min_roll_index = argmin(dice_rolls)
+		if dice_rolls[min_roll_index]<=fate_die
+        	dice_rolls[min_roll_index] = fate_die
+		end
+
+        # Calcola la somma dei tiri di dado
+        sum_dice = sum(dice_rolls)
         # Apply the adjusted formula with weights
         result = sum_dice - (y^2  +y+ (p-1)*y)+3 
         push!(results, result)
@@ -202,26 +214,50 @@ end
 begin
 	# Plotting results for Low Tier
 	hist_low = histogram(low_tier_results, bins=30, alpha=0.5, legend=:topright, title="Low Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-	vline!([low_mean], label="Mean", color=:red, linewidth=2)
+		vline!([4], label="Mean", color=:blue, linewidth=2)
+	if low_mean<4
+		vline!([low_mean], label="Mean", color=:red, linewidth=4)
+	else
+		vline!([low_mean], label="Mean", color=:green, linewidth=4)
+	end
+
 end
 
 # ╔═╡ 4b4696fa-d857-425a-8745-d3da59765c87
 begin
 	hist_mid = histogram(mid_tier_results, bins=30, alpha=0.5, legend=:topright, title="Mid Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-	vline!([mid_mean], label="Mean", color=:red, linewidth=2)
+		vline!([4], label="Mean", color=:blue, linewidth=2)
+	if mid_mean<4
+		vline!([mid_mean], label="Mean", color=:red, linewidth=4)
+	else
+		vline!([mid_mean], label="Mean", color=:green, linewidth=4)
+	end
 end
 
 # ╔═╡ 0d8bbf54-c905-451f-baf4-0a6abba392e4
 begin
 	hist_high = histogram(high_tier_results, bins=30, alpha=0.5, legend=:topright, title="High Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-	vline!([high_mean], label="Mean", color=:red, linewidth=2)
+		vline!([4], label="Mean", color=:blue, linewidth=2)	
+	if high_mean<4
+		vline!([high_mean], label="Mean", color=:red, linewidth=4)
+	else
+		vline!([high_mean], label="Mean", color=:green, linewidth=4)
+	end
 	
 end
+
+# ╔═╡ af657200-2df7-4a46-8454-32fe836a33bf
+
 
 # ╔═╡ 94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
 begin
 	hist_highest = histogram(highest_tier_results, bins=30, alpha=0.5, legend=:topright, title="Highest Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-	vline!([highest_mean], label="Mean", color=:red, linewidth=2)
+		vline!([4], label="Mean", color=:blue, linewidth=2)	
+			if highest_mean<4
+		vline!([highest_mean], label="Mean", color=:red, linewidth=4)
+	else
+		vline!([highest_mean], label="Mean", color=:green, linewidth=4)
+	end
 
 end
 
@@ -393,7 +429,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.10.3"
 manifest_format = "2.0"
-project_hash = "c7fec7ea18272dc66d9ee43b2ba589ded9589393"
+project_hash = "d14fdf59a58a8548cb748d9ae1db5043a8ce2ae6"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -1492,15 +1528,16 @@ version = "1.4.1+1"
 # ╟─945fb8c1-921c-4b57-9ddb-d7b644608a80
 # ╟─59f05df0-b176-4895-a956-ad8471483434
 # ╠═19a59798-3502-4dd6-88ec-7c299b7f07ef
-# ╠═9a58b8d1-3812-48f9-8558-ee526970e3e6
+# ╟─9a58b8d1-3812-48f9-8558-ee526970e3e6
 # ╟─4b4696fa-d857-425a-8745-d3da59765c87
 # ╟─0d8bbf54-c905-451f-baf4-0a6abba392e4
-# ╟─94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
+# ╠═af657200-2df7-4a46-8454-32fe836a33bf
+# ╠═94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
 # ╟─e139bbc9-c756-4c0e-af84-a63b8f94fdc8
 # ╟─406bb956-81b6-468c-bbab-097393ad4bb9
 # ╟─c722c142-1af5-4eec-af13-2788ee55fc98
 # ╟─880d9cdd-a6da-4b57-af07-467d1192ab85
-# ╠═91bd14b4-0eef-438e-8d52-8dbcd59f1ccf
+# ╟─91bd14b4-0eef-438e-8d52-8dbcd59f1ccf
 # ╟─e8127a09-c66b-43f7-a47d-3ae5cbea0491
 # ╟─b0baae3b-1582-48a7-b94a-153ff1b7e201
 # ╟─b35b1d70-b0de-4a92-a28e-f54c61a99f5c
