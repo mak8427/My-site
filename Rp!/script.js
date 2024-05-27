@@ -20,7 +20,7 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
 
 // Typing effect for the heading
 const heading = document.getElementById('animated-heading');
-const headingText = 'Welcome to Our Roleplay Wikis'; // The text to be animated
+const headingText = ' Roleplay Wikis'; // The text to be animated
 let i = 0;
 
 function typeWriter() {
