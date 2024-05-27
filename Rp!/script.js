@@ -1,14 +1,14 @@
-const themeToggleButton = document.getElementById('theme-toggle');
-const body = document.body;
+document.getElementById('theme-toggle').addEventListener('click', function() {
+    const body = document.body;
+    const button = this;
+    const icon = button.querySelector('i');
+    const isDarkMode = body.classList.contains('dark-mode');
 
-themeToggleButton.addEventListener('click', function() {
-    if (body.classList.contains('dark-mode')) {
+    if (isDarkMode) {
         body.classList.replace('dark-mode', 'light-mode');
-        themeToggleButton.textContent = 'Switch to Dark Mode';
+        icon.className = 'fas fa-sun';
+        button.innerHTML = '<i class="fas fa-sun"></i> Switch to Dark Mode';
     } else {
         body.classList.replace('light-mode', 'dark-mode');
-        themeToggleButton.textContent = 'Switch to Light Mode';
-    }
-});
+        icon.className = 'fas fa-moon';
 
-// Initialize the button

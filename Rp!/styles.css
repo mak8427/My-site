@@ -2,72 +2,42 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #000; /* Dark background for dark mode */
+    color: #fff; /* White text for dark mode */
     transition: background-color 0.3s, color 0.3s;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
 }
 
 header, footer {
     text-align: center;
     padding: 1rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.dark-mode {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text */
-}
-
-.dark-mode header, .dark-mode footer {
-    background-color: #333; /* Darker black for contrast */
-    color: #fff; /* White text */
-}
-
-.light-mode {
-    background-color: #fff; /* White background */
-    color: #000; /* Black text */
-}
-
-.light-mode header, .light-mode footer {
-    background-color: #eee; /* Light grey for contrast */
-    color: #000; /* Black text */
-}
-
-main {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: inherit; /* Use the body's background color */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    width: 80%;
-    max-width: 600px;
-    transition: background-color 0.3s;
-}
-
-h1, h2 {
-    color: inherit;
+    background-color: #333; /* Slightly lighter black for contrast */
+    color: #fff;
 }
 
 button {
     padding: 10px 20px;
+    background-color: #555; /* Dark gray */
+    color: #fff; /* White */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.dark-mode button {
-    background-color: #555; /* Dark gray */
-    color: #fff; /* White */
+button:hover {
+    background-color: #777; /* Lighter gray */
 }
 
-.dark-mode button:hover {
-    background-color: #777; /* Lighter gray */
+/* Specific styles for light mode */
+.light-mode {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+}
+
+.light-mode header, .light-mode footer {
+    background-color: #eee; /* Light grey */
+    color: #000; /* Black */
 }
 
 .light-mode button {
