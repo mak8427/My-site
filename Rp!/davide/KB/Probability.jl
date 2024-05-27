@@ -365,6 +365,60 @@ begin
 end
 
 # ╔═╡ bf44b030-79d7-4a3a-b74a-9f8da7b3967c
+function plot_mean_distribution(n_simulations::Int, y::Int, z::Int, p::Int, w_y::Float64, w_z::Float64, w_p::Float64, tier_mage::Int)
+    # Define dice values for each tier
+    low_tier_values = [4, 6, 8]
+    mid_tier_values = [6, 8, 10, 12]
+    high_tier_values = [10, 12]
+    highest_tier_values = [12]
+    
+    # Function to calculate the sum of dice rolls
+    function sum_dice_rolls(possible_values::Vector{Int}, y::Int)
+        sum_dice = sum(exploding_dice_roll(rand(possible_values)) for _ in 1:y)
+        return sum_dice
+    end
+    
+    # Run simulations for each tier
+    low_tier_sums = [sum_dice_rolls(low_tier_values, y) for _ in 1:n_simulations]
+    mid_tier_sums = [sum_dice_rolls(mid_tier_values, y) for _ in 1:n_simulations]
+    high_tier_sums = [sum_dice_rolls(high_tier_values, y) for _ in 1:n_simulations]
+    highest_tier_sums = [sum_dice_rolls(highest_tier_values, y) for _ in 1:n_simulations]
+    
+    # Calculate mean of the sums for each tier
+    low_mean, low_success_rate = mean(low_tier_sums), sum(x -> x >= 4, low_tier_sums) / n_simulations
+    mid_mean, mid_success_rate = mean(mid_tier_sums), sum(x -> x >= 4, mid_tier_sums) / n_simulations
+    high_mean, high_success_rate = mean(high_tier_sums), sum(x -> x >= 4, high_tier_sums) / n_simulations
+    highest_mean, highest_success_rate = mean(highest_tier_sums), sum(x -> x >= 4, highest_tier_sums) / n_simulations
+
+    # Plot distributions based on selected tier
+    if tier_mage == 1
+        histogram(low_tier_sums, bins=30, alpha=0.5, label="Low Tier", legend=:topright, title="Distribution of Sum of Dice Rolls", xlabel="Sum of Dice", ylabel="Frequency")
+        vline!([low_mean], label="Mean", color=:red, linewidth=2)
+
+    elseif tier_mage == 2
+        histogram(mid_tier_sums, bins=30, alpha=0.5, label="Mid Tier", legend=:topright, title="Distribution of Sum of Dice Rolls", xlabel="Sum of Dice", ylabel="Frequency")
+        vline!([mid_mean], label="Mean", color=:red, linewidth=2)
+
+    elseif tier_mage == 3
+        histogram(high_tier_sums, bins=30, alpha=0.5, label="High Tier", legend=:topright, title="Distribution of Sum of Dice Rolls", xlabel="Sum of Dice", ylabel="Frequency")
+        vline!([high_mean], label="Mean", color=:red, linewidth=2)
+
+    elseif tier_mage == 4
+        histogram(highest_tier_sums, bins=30, alpha=0.5, label="Highest Tier", legend=:topright, title="Distribution of Sum of Dice Rolls", xlabel="Sum of Dice", ylabel="Frequency")
+        vline!([highest_mean], label="Mean", color=:red, linewidth=2)
+
+    else
+        error("Invalid tier_mage value. It should be 1 (Low), 2 (Mid), 3 (High), or 4 (Highest).")
+    end
+end
+
+
+# ╔═╡ 16ddba3c-e66b-4133-bd11-f0183c42b820
+# Call the function to plot the distribution of the mean sum of dice rolls
+plot_mean_distribution(n_simulations, y, z, p, w_y_opt, w_z_opt, w_p_opt,4)
+
+
+# ╔═╡ a71cba9f-e619-45a2-a027-06b9cd6790b3
 
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -1694,10 +1748,12 @@ version = "1.4.1+1"
 # ╟─ce19ff05-196c-47c9-9414-4b75aab20bdb
 # ╟─d28a629d-2193-4bcf-bbfd-7de8afbc2e73
 # ╟─0bbdaf37-2d83-4b1a-87e3-d97f926bf5f1
-# ╟─10bbd767-e4e5-415b-a975-658d5748e241
+# ╠═10bbd767-e4e5-415b-a975-658d5748e241
 # ╟─72a96961-937d-4075-9fd2-698c1ed49ba7
 # ╟─9a70ac3c-8af7-47c4-baa9-1e99964036cf
 # ╟─141ab069-4445-4332-83e8-0267b4290918
 # ╠═bf44b030-79d7-4a3a-b74a-9f8da7b3967c
+# ╠═16ddba3c-e66b-4133-bd11-f0183c42b820
+# ╠═a71cba9f-e619-45a2-a027-06b9cd6790b3
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
