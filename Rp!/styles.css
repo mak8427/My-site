@@ -1,24 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Dark background for dark mode */
-    color: #fff; /* White text for dark mode */
+    background-color: #000;
+    color: #fff;
     transition: background-color 0.3s, color 0.3s;
-    scroll-behavior: smooth; /* Enables smooth scrolling */
+    scroll-behavior: smooth;
 }
 
 header, footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333; /* Slightly lighter black for contrast */
+    background-color: #333;
     color: #fff;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #555; /* Dark gray */
-    color: #fff; /* White */
+    background-color: #555;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -26,25 +26,56 @@ button {
 }
 
 button:hover {
-    background-color: #777; /* Lighter gray */
+    background-color: #777;
 }
 
-/* Specific styles for light mode */
-.light-mode {
-    background-color: #fff; /* White background */
-    color: #000; /* Black text */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.light-mode header, .light-mode footer {
-    background-color: #eee; /* Light grey */
-    color: #000; /* Black */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: inherit;
+    border: 2px solid #777;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+    transition: background-color 0.3s;
 }
 
-.light-mode button {
-    background-color: #ddd; /* Light gray */
-    color: #000; /* Black */
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+        margin: 10px;
+    }
+
+    header, footer {
+        padding: 0.5rem;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
 }
 
-.light-mode button:hover {
-    background-color: #bbb; /* Darker gray */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+#animated-heading {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the text on a single line */
+    width: 0; /* Start with zero width */
+    animation: typing 3.5s steps(40, end), blink-caret .75
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
 }

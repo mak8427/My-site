@@ -11,4 +11,21 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     } else {
         body.classList.replace('light-mode', 'dark-mode');
         icon.className = 'fas fa-moon';
+        button.innerHTML = '<i class="fas fa-moon"></i> Switch to Light Mode';
+    }
+});
 
+// Typing effect for the heading
+const heading = document.getElementById('animated-heading');
+const headingText = 'Welcome to Our Roleplay Wikis'; // The text to be animated
+let i = 0;
+
+function typeWriter() {
+    if (i < headingText.length) {
+        heading.textContent += headingText.charAt(i);
+        i++;
+        setTimeout(typeWriter, 150); // Adjust typing speed
+    }
+}
+
+document.addEventListener('DOMContentLoaded', typeWriter); // Start typing effect once the DOM is fully loaded
