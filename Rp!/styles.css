@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #20232a;
+    color: #61dafb;
+}
+
+.dark-mode header, .dark-mode footer {
+    background-color: #61dafb;
+    color: #20232a;
+}
+
+.light-mode {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.light-mode header, .light-mode footer {
+    background-color: #20232a;
+    color: #61dafb;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+    transition: background-color 0.3s;
+}
+
+h1, h2 {
+    color: inherit;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dark-mode button {
+    background-color: #61dafb;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background-color: #4f90c1;
+}
+
+.light-mode button {
+    background-color: #4f90c1;
+    color: white;
+}
+
+.light-mode button:hover {
+    background-color: #61dafb;
+}
