@@ -41,9 +41,21 @@ function simulate_spell_casts(n_simulations::Int, possible_values::Vector{Int}, 
 
     for _ in 1:n_simulations
         # Calculate the sum of dice, handling exploding dice
-        sum_dice = sum(exploding_dice_roll(rand(possible_values)) for _ in 1:y)
+        dice_rolls = [exploding_dice_roll(rand(possible_values)) for _ in 1:y]
+
+        # Tira il Dado del Destino
+        fate_die = rand(1:6)
+
+        # Sostituisci il peggior tiro con il risultato del Dado del Destino
+        min_roll_index = argmin(dice_rolls)
+		if dice_rolls[min_roll_index]<=fate_die
+        	dice_rolls[min_roll_index] = fate_die
+		end
+
+        # Calcola la somma dei tiri di dado
+        sum_dice = sum(dice_rolls)
         # Apply the adjusted formula with weights
-        result = sum_dice - (w_y * 2^y + w_z * z + w_p * p)
+        result = sum_dice - (y^2  +y+ (p-1)*y)+3 
         push!(results, result)
     end
 
@@ -63,42 +75,33 @@ end
 using PlutoUI  # For interactive widgets
 	# Number of simulations
 
-# ╔═╡ 10bbd767-e4e5-415b-a975-658d5748e241
-begin
-	using Optim  # For optimization
+# ╔═╡ 3b65652e-debf-4829-a793-189d522a75dc
+md"Parrallel spell"
 
-	# Define the optimization function
-	function optimization_function(weights)
-	    w_y, w_z, w_p = weights
-	    results = simulate_spell_casts(n_simulations, possible_values, y, z, p, w_y, w_z, w_p)
-	    _, success_rate = calculate_statistics(results)
-	    target_success_rate = if tier_ == "Low"
-	        0.7
-	    elseif tier_ == "Mid"
-	        0.6
-	    elseif tier_ == "High"
-	        0.5
-	    else
-	        0.4
-	    end
-	    return (success_rate - target_success_rate)^2
-	end
+
+# ╔═╡ 498db34a-09f6-4f3a-adaf-a71f5a1cabb2
+@bind p Slider(1:10, show_value=true, default=3)
+#parallel circles
 	
-	# Perform the optimization
-	initial_weights = [1.0, 1.0, 1.0]
-	result = optimize(optimization_function, initial_weights, NelderMead())
-	optimal_weights = Optim.minimizer(result)
-	w_y_opt, w_z_opt, w_p_opt = optimal_weights
-	
-end
+
+# ╔═╡ 2a63fe40-9e94-4731-9807-21985212c79c
+md"Color Number"
+
+
+# ╔═╡ c5d02952-4c3d-4632-b8ed-cbb17aba6afe
+@bind y Slider(1:5, show_value=true, default=5)
+#n of colors
+
+# ╔═╡ a0523728-8019-4d6a-bcec-258cf4dca3aa
+md"Simulation number"
+
+# ╔═╡ 3100b1ff-d9ad-4a18-9001-cdb800b42ccf
+@bind n_simulations Slider(100:100:10000, show_value=true, default=1000)
+#n of simulations
 
 # ╔═╡ 742741fe-3296-4262-8a5c-f339229eb657
 begin
-	# Define the parameters for different tiers
-	n_simulations = 1000
-	y = 5  # Number of colors used
-	z = 5  # Level of the magic circle
-	p = 3  # Number of parallel circles
+	z=1
 	
 	# Low tier: dice from 4 to 8
 	low_tier_values = [4, 6, 8]
@@ -156,26 +159,7 @@ begin
 	
 	# Markdown description of the script
 	md"""
-	# Spell Casting Simulation for Different Tiers
-	
-	This script simulates the casting of spells 1000 times for different tiers of mages using a mathematical formula that incorporates exploding dice mechanics. The tiers are defined as follows:
-	- **Low tier**: Dice from 4 to 8
-	- **Mid tier**: Dice from 6 to 12
-	- **High tier**: Dice from 10 to 12
-	- **Highest tier**: All dice are 12
-	
-	The parameters include:
-	- **y**: Number of colors used (5 in this example)
-	- **z**: Level of the magic circle (5 in this example)
-	- **p**: Number of parallel circles (3 in this example)
-	
-	The formula for the spell effect is computed as:
-	\[
-	\left( \sum_{i=1}^y d_{x_i} - (2^y + z + p) \right)
-	\]
-	where \( d_{x_i} \) are exploding dice rolls.
-	
-	The script also calculates the mean and success rate of all simulation results to provide an average effect of the spell casting for each tier. Furthermore, the success rate of spells achieving a result of 4 or greater is computed and displayed.
+
 	
 	**Low Tier Results:**
 	- First 10 simulation results: $low_first_10
@@ -196,53 +180,84 @@ begin
 	- First 10 simulation results: $highest_first_10
 	- Mean of all results: $highest_mean
 	- Success rate: $highest_success_rate
+
+	# Spell Casting Simulation for Different Tiers
+	
+	This script simulates the casting of spells 1000 times for different tiers of mages using a mathematical formula that incorporates exploding dice mechanics. The tiers are defined as follows:
+	- **Low tier**: Dice from 4 to 8
+	- **Mid tier**: Dice from 6 to 12
+	- **High tier**: Dice from 10 to 12
+	- **Highest tier**: All dice are 12
+	
+	The parameters include:
+	- **y**: Number of colors used (5 in this example)
+	- **z**: Level of the magic circle (5 in this example)
+	- **p**: Number of parallel circles (3 in this example)
+	
+	The formula for the spell effect is computed as:
+	\[
+	\left( \sum_{i=1}^y d_{x_i} - (2^y + z + p) \right)
+	\]
+	where \( d_{x_i} \) are exploding dice rolls.
+	
+	The script also calculates the mean and success rate of all simulation results to provide an average effect of the spell casting for each tier. Furthermore, the success rate of spells achieving a result of 4 or greater is computed and displayed.
+
+	
 	"""
 	
 end
+
+# ╔═╡ 19a59798-3502-4dd6-88ec-7c299b7f07ef
+
 
 # ╔═╡ 9a58b8d1-3812-48f9-8558-ee526970e3e6
 begin
 	# Plotting results for Low Tier
 	hist_low = histogram(low_tier_results, bins=30, alpha=0.5, legend=:topright, title="Low Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-	vline!([low_mean], label="Mean", color=:red, linewidth=2)
+		vline!([4], label="Mean", color=:blue, linewidth=2)
+	if low_mean<4
+		vline!([low_mean], label="Mean", color=:red, linewidth=4)
+	else
+		vline!([low_mean], label="Mean", color=:green, linewidth=4)
+	end
+
 end
-
-# ╔═╡ 31f944d5-804e-4f36-b0ed-9c333fe40ec5
-
-
-# ╔═╡ 2cecbf3d-0acd-42f3-9056-9afb71a94f1d
-
 
 # ╔═╡ 4b4696fa-d857-425a-8745-d3da59765c87
 begin
 	hist_mid = histogram(mid_tier_results, bins=30, alpha=0.5, legend=:topright, title="Mid Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-	vline!([mid_mean], label="Mean", color=:red, linewidth=2)
+		vline!([4], label="Mean", color=:blue, linewidth=2)
+	if mid_mean<4
+		vline!([mid_mean], label="Mean", color=:red, linewidth=4)
+	else
+		vline!([mid_mean], label="Mean", color=:green, linewidth=4)
+	end
 end
-
-# ╔═╡ 947c0773-447b-488a-b3d4-536fdd5f244f
-
-
-# ╔═╡ fef3e4bb-a0d5-429f-8b4d-25eac42e6777
-
 
 # ╔═╡ 0d8bbf54-c905-451f-baf4-0a6abba392e4
 begin
 	hist_high = histogram(high_tier_results, bins=30, alpha=0.5, legend=:topright, title="High Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-	vline!([high_mean], label="Mean", color=:red, linewidth=2)
+		vline!([4], label="Mean", color=:blue, linewidth=2)	
+	if high_mean<4
+		vline!([high_mean], label="Mean", color=:red, linewidth=4)
+	else
+		vline!([high_mean], label="Mean", color=:green, linewidth=4)
+	end
 	
 end
 
-# ╔═╡ 72c90f61-5b19-4faa-8099-12681b6ae0a1
+# ╔═╡ af657200-2df7-4a46-8454-32fe836a33bf
 
-
-# ╔═╡ 974c1156-1ddd-4d9f-82f2-eb5a4e840c0c
-
-# Plotting results for Highest Tier
 
 # ╔═╡ 94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
 begin
 	hist_highest = histogram(highest_tier_results, bins=30, alpha=0.5, legend=:topright, title="Highest Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-	vline!([highest_mean], label="Mean", color=:red, linewidth=2)
+		vline!([4], label="Mean", color=:blue, linewidth=2)	
+			if highest_mean<4
+		vline!([highest_mean], label="Mean", color=:red, linewidth=4)
+	else
+		vline!([highest_mean], label="Mean", color=:green, linewidth=4)
+	end
 
 end
 
@@ -263,14 +278,6 @@ md"Number of simulations"
 @bind y_ Slider(1:5, show_value=true, default=5)
 	
 
-# ╔═╡ f22af50a-1492-47dd-bcad-6136b27762b3
-md"Number of  circle level"
-
-# ╔═╡ aa124669-9868-4b3d-a6fd-259c3b686c05
-@bind z_ Slider(1:10, show_value=true, default=5)
-	
-	# Number of  circle level
-
 # ╔═╡ e8127a09-c66b-43f7-a47d-3ae5cbea0491
 md"Number of parallel circles"
 
@@ -288,7 +295,7 @@ md"Mage Level"
 # ╔═╡ d28a629d-2193-4bcf-bbfd-7de8afbc2e73
 begin
 	# Define dice values for each tier
-
+	z_=1
 	# Select dice values based on chosen tier
 	possible_values = if tier_ == "Low"
 	    low_tier_values
@@ -334,65 +341,84 @@ begin
 	
 end
 
-# ╔═╡ 72a96961-937d-4075-9fd2-698c1ed49ba7
-begin
-	# Define dice values for each tier
-	
-	# Run the simulation with optimized weights
-	results_ = simulate_spell_casts(n_simulations, possible_values, y, z, p, w_y_opt, w_z_opt, w_p_opt)
-	
-	# Calculate statistics
-	mean_result_, success_rate_ = calculate_statistics(results)
-	
-end
-
-# ╔═╡ 9a70ac3c-8af7-47c4-baa9-1e99964036cf
-begin
-	# Print results
-	println("Optimized weights: w_y = ", w_y_opt, ", w_z = ", w_z_opt, ", w_p = ", w_p_opt)
-	println("Mean of all results: ", mean_result)
-	println("Success rate: ", success_rate)
-	w=0
-	
-	# Markdown description of the script
-	md"""
-	# Interactive Spell Casting Simulation with Optimized Weights
-	
-	This script simulates the casting of spells based on adjustable parameters and optimizes the weights to achieve the desired success rates for different tiers of mages.
-	
-	The parameters include:
-	- **Number of simulations**: Adjust the number of simulations from 100 to 5000.
-	- **Number of colors used**: Adjust the number of colors used in the spell from 1 to 10.
-	- **Level of the magic circle**: Adjust the level of the magic circle from 1 to 10.
-	- **Number of parallel circles**: Adjust the number of parallel circles from 1 to 10.
-	- **Tier selection**: Choose from Low, Mid, High, and Highest tiers which affect the dice values.
-	
-	**Optimized Results:**
-	- Optimized weights: w_y = $w_y_opt, w_z = $w_z_opt, w_p = $w_p_opt
-	- Mean of all results: $mean_result
-	- Success rate: $success_rate
-	"""
-	
-end
-
 # ╔═╡ 141ab069-4445-4332-83e8-0267b4290918
-
+begin
+	# Plotting results
+	histogram(results, bins=30, alpha=0.5, legend=:topright, title="Distribution of Spell Results", xlabel="Spell Result", ylabel="Frequency")
+	vline!([mean_result], label="Mean", color=:red, linewidth=2)
+	
+end
 
 # ╔═╡ bf44b030-79d7-4a3a-b74a-9f8da7b3967c
+function plot_mean_distribution(n_simulations::Int, y::Int, z::Int, p::Int, w_y::Float64, w_z::Float64, w_p::Float64, tier_mage::Int)
+    # Define dice values for each tier
+    low_tier_values = [4, 6, 8]
+    mid_tier_values = [6, 8, 10, 12]
+    high_tier_values = [10, 12]
+    highest_tier_values = [12]
+    
+    # Function to calculate the sum of dice rolls
+    function sum_dice_rolls(possible_values::Vector{Int}, y::Int)
+        sum_dice = sum(exploding_dice_roll(rand(possible_values)) for _ in 1:y)
+        return sum_dice
+    end
+    
+    # Run simulations for each tier
+    low_tier_sums = [sum_dice_rolls(low_tier_values, y) for _ in 1:n_simulations]
+    mid_tier_sums = [sum_dice_rolls(mid_tier_values, y) for _ in 1:n_simulations]
+    high_tier_sums = [sum_dice_rolls(high_tier_values, y) for _ in 1:n_simulations]
+    highest_tier_sums = [sum_dice_rolls(highest_tier_values, y) for _ in 1:n_simulations]
+    
+    # Calculate mean of the sums for each tier
+    low_mean, low_success_rate = mean(low_tier_sums), sum(x -> x >= 4, low_tier_sums) / n_simulations
+    mid_mean, mid_success_rate = mean(mid_tier_sums), sum(x -> x >= 4, mid_tier_sums) / n_simulations
+    high_mean, high_success_rate = mean(high_tier_sums), sum(x -> x >= 4, high_tier_sums) / n_simulations
+    highest_mean, highest_success_rate = mean(highest_tier_sums), sum(x -> x >= 4, highest_tier_sums) / n_simulations
+
+    # Plot distributions based on selected tier
+    if tier_mage == 1
+        histogram(low_tier_sums, bins=30, alpha=0.5, label="Low Tier", legend=:topright, title="Distribution of Sum of Dice Rolls", xlabel="Sum of Dice", ylabel="Frequency")
+        vline!([low_mean], label="Mean", color=:red, linewidth=2)
+
+    elseif tier_mage == 2
+        histogram(mid_tier_sums, bins=30, alpha=0.5, label="Mid Tier", legend=:topright, title="Distribution of Sum of Dice Rolls", xlabel="Sum of Dice", ylabel="Frequency")
+        vline!([mid_mean], label="Mean", color=:red, linewidth=2)
+
+    elseif tier_mage == 3
+        histogram(high_tier_sums, bins=30, alpha=0.5, label="High Tier", legend=:topright, title="Distribution of Sum of Dice Rolls", xlabel="Sum of Dice", ylabel="Frequency")
+        vline!([high_mean], label="Mean", color=:red, linewidth=2)
+
+    elseif tier_mage == 4
+        histogram(highest_tier_sums, bins=30, alpha=0.5, label="Highest Tier", legend=:topright, title="Distribution of Sum of Dice Rolls", xlabel="Sum of Dice", ylabel="Frequency")
+        vline!([highest_mean], label="Mean", color=:red, linewidth=2)
+
+    else
+        error("Invalid tier_mage value. It should be 1 (Low), 2 (Mid), 3 (High), or 4 (Highest).")
+    end
+end
+
+
+# ╔═╡ 16ddba3c-e66b-4133-bd11-f0183c42b820
+# Call the function to plot the distribution of the mean sum of dice rolls
+plot_mean_distribution(n_simulations, y, z, p, 1.0, 1.0, 1.0,3)
+
+
+# ╔═╡ b18f5d4d-ec5d-46ce-8967-b12bcecca51d
+
+
+# ╔═╡ a71cba9f-e619-45a2-a027-06b9cd6790b3
 
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [compat]
-Optim = "~1.9.4"
 Plots = "~1.40.4"
 PlutoUI = "~0.7.59"
 """
@@ -403,7 +429,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.10.3"
 manifest_format = "2.0"
-project_hash = "96a6fbf26d5e11c39ff212618a2432e116460e89"
+project_hash = "c7fec7ea18272dc66d9ee43b2ba589ded9589393"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -411,49 +437,9 @@ git-tree-sha1 = "6e1d2a35f2f90a4bc7c2ed98079b2ba09c35b83a"
 uuid = "6e696c72-6542-2067-7265-42206c756150"
 version = "1.3.2"
 
-[[deps.Adapt]]
-deps = ["LinearAlgebra", "Requires"]
-git-tree-sha1 = "6a55b747d1812e699320963ffde36f1ebdda4099"
-uuid = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-version = "4.0.4"
-
-    [deps.Adapt.extensions]
-    AdaptStaticArraysExt = "StaticArrays"
-
-    [deps.Adapt.weakdeps]
-    StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
 version = "1.1.1"
-
-[[deps.ArrayInterface]]
-deps = ["Adapt", "LinearAlgebra", "SparseArrays", "SuiteSparse"]
-git-tree-sha1 = "133a240faec6e074e07c31ee75619c90544179cf"
-uuid = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
-version = "7.10.0"
-
-    [deps.ArrayInterface.extensions]
-    ArrayInterfaceBandedMatricesExt = "BandedMatrices"
-    ArrayInterfaceBlockBandedMatricesExt = "BlockBandedMatrices"
-    ArrayInterfaceCUDAExt = "CUDA"
-    ArrayInterfaceCUDSSExt = "CUDSS"
-    ArrayInterfaceChainRulesExt = "ChainRules"
-    ArrayInterfaceGPUArraysCoreExt = "GPUArraysCore"
-    ArrayInterfaceReverseDiffExt = "ReverseDiff"
-    ArrayInterfaceStaticArraysCoreExt = "StaticArraysCore"
-    ArrayInterfaceTrackerExt = "Tracker"
-
-    [deps.ArrayInterface.weakdeps]
-    BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
-    BlockBandedMatrices = "ffab5731-97b5-5995-9138-79e8c1846df0"
-    CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-    CUDSS = "45b445bb-4962-46a0-9369-b4df9d0f772e"
-    ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
-    GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
-    ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
-    StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
-    Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -501,22 +487,18 @@ deps = ["ColorTypes", "FixedPointNumbers", "LinearAlgebra", "Requires", "Statist
 git-tree-sha1 = "a1f44953f2382ebb937d60dafbe2deea4bd23249"
 uuid = "c3611d14-8923-5661-9e6a-0046d554d3a4"
 version = "0.10.0"
-weakdeps = ["SpecialFunctions"]
 
     [deps.ColorVectorSpace.extensions]
     SpecialFunctionsExt = "SpecialFunctions"
+
+    [deps.ColorVectorSpace.weakdeps]
+    SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 [[deps.Colors]]
 deps = ["ColorTypes", "FixedPointNumbers", "Reexport"]
 git-tree-sha1 = "362a287c3aa50601b0bc359053d5c2468f0e7ce0"
 uuid = "5ae59095-9a9b-59fe-a467-6f913c188581"
 version = "0.12.11"
-
-[[deps.CommonSubexpressions]]
-deps = ["MacroTools", "Test"]
-git-tree-sha1 = "7b8a93dba8af7e3b42fecabf646260105ac373f7"
-uuid = "bbf7d656-a473-5ed7-a52c-81e309532950"
-version = "0.3.0"
 
 [[deps.Compat]]
 deps = ["TOML", "UUIDs"]
@@ -538,20 +520,6 @@ deps = ["Serialization", "Sockets"]
 git-tree-sha1 = "6cbbd4d241d7e6579ab354737f4dd95ca43946e1"
 uuid = "f0e56b4a-5159-44fe-b623-3e5288b988bb"
 version = "2.4.1"
-
-[[deps.ConstructionBase]]
-deps = ["LinearAlgebra"]
-git-tree-sha1 = "260fd2400ed2dab602a7c15cf10c1933c59930a2"
-uuid = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
-version = "1.5.5"
-
-    [deps.ConstructionBase.extensions]
-    ConstructionBaseIntervalSetsExt = "IntervalSets"
-    ConstructionBaseStaticArraysExt = "StaticArrays"
-
-    [deps.ConstructionBase.weakdeps]
-    IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
-    StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 [[deps.Contour]]
 git-tree-sha1 = "439e35b0b36e2e5881738abc8857bd92ad6ff9a8"
@@ -578,22 +546,6 @@ deps = ["Mmap"]
 git-tree-sha1 = "9e2f36d3c96a820c678f2f1f1782582fcf685bae"
 uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 version = "1.9.1"
-
-[[deps.DiffResults]]
-deps = ["StaticArraysCore"]
-git-tree-sha1 = "782dd5f4561f5d267313f23853baaaa4c52ea621"
-uuid = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
-version = "1.1.0"
-
-[[deps.DiffRules]]
-deps = ["IrrationalConstants", "LogExpFunctions", "NaNMath", "Random", "SpecialFunctions"]
-git-tree-sha1 = "23163d55f885173722d1e4cf0f6110cdbaf7e272"
-uuid = "b552c78f-8df3-52c6-915a-8e097449b14b"
-version = "1.15.1"
-
-[[deps.Distributed]]
-deps = ["Random", "Serialization", "Sockets"]
-uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[deps.DocStringExtensions]]
 deps = ["LibGit2"]
@@ -639,38 +591,6 @@ version = "4.4.4+1"
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
-[[deps.FillArrays]]
-deps = ["LinearAlgebra"]
-git-tree-sha1 = "0653c0a2396a6da5bc4766c43041ef5fd3efbe57"
-uuid = "1a297f60-69ca-5386-bcde-b61e274b549b"
-version = "1.11.0"
-
-    [deps.FillArrays.extensions]
-    FillArraysPDMatsExt = "PDMats"
-    FillArraysSparseArraysExt = "SparseArrays"
-    FillArraysStatisticsExt = "Statistics"
-
-    [deps.FillArrays.weakdeps]
-    PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
-    SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-    Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-
-[[deps.FiniteDiff]]
-deps = ["ArrayInterface", "LinearAlgebra", "Requires", "Setfield", "SparseArrays"]
-git-tree-sha1 = "2de436b72c3422940cbe1367611d137008af7ec3"
-uuid = "6a86dc24-6348-571c-b903-95158fe2bd41"
-version = "2.23.1"
-
-    [deps.FiniteDiff.extensions]
-    FiniteDiffBandedMatricesExt = "BandedMatrices"
-    FiniteDiffBlockBandedMatricesExt = "BlockBandedMatrices"
-    FiniteDiffStaticArraysExt = "StaticArrays"
-
-    [deps.FiniteDiff.weakdeps]
-    BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
-    BlockBandedMatrices = "ffab5731-97b5-5995-9138-79e8c1846df0"
-    StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
 [[deps.FixedPointNumbers]]
 deps = ["Statistics"]
 git-tree-sha1 = "05882d6995ae5c12bb5f36dd2ed3f61c98cbb172"
@@ -688,18 +608,6 @@ git-tree-sha1 = "9c68794ef81b08086aeb32eeaf33531668d5f5fc"
 uuid = "1fa38f19-a742-5d3f-a2b9-30dd87b9d5f8"
 version = "1.3.7"
 
-[[deps.ForwardDiff]]
-deps = ["CommonSubexpressions", "DiffResults", "DiffRules", "LinearAlgebra", "LogExpFunctions", "NaNMath", "Preferences", "Printf", "Random", "SpecialFunctions"]
-git-tree-sha1 = "cf0fe81336da9fb90944683b8c41984b08793dad"
-uuid = "f6369f11-7733-5829-9624-2563aa707210"
-version = "0.10.36"
-
-    [deps.ForwardDiff.extensions]
-    ForwardDiffStaticArraysExt = "StaticArrays"
-
-    [deps.ForwardDiff.weakdeps]
-    StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
 [[deps.FreeType2_jll]]
 deps = ["Artifacts", "Bzip2_jll", "JLLWrappers", "Libdl", "Zlib_jll"]
 git-tree-sha1 = "d8db6a5a2fe1381c1ea4ef2cab7c69c2de7f9ea0"
@@ -711,10 +619,6 @@ deps = ["Artifacts", "JLLWrappers", "Libdl"]
 git-tree-sha1 = "1ed150b39aebcc805c26b93a8d0122c940f64ce2"
 uuid = "559328eb-81f9-559d-9380-de523a88c83c"
 version = "1.0.14+0"
-
-[[deps.Future]]
-deps = ["Random"]
-uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 
 [[deps.GLFW_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libglvnd_jll", "Xorg_libXcursor_jll", "Xorg_libXi_jll", "Xorg_libXinerama_jll", "Xorg_libXrandr_jll"]
@@ -938,12 +842,6 @@ git-tree-sha1 = "5ee6203157c120d79034c748a2acba45b82b8807"
 uuid = "38a345b3-de98-5d2b-a5d3-14cd9215e700"
 version = "2.40.1+0"
 
-[[deps.LineSearches]]
-deps = ["LinearAlgebra", "NLSolversBase", "NaNMath", "Parameters", "Printf"]
-git-tree-sha1 = "7bbea35cec17305fc70a0e5b4641477dc0789d9d"
-uuid = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
-version = "7.2.0"
-
 [[deps.LinearAlgebra]]
 deps = ["Libdl", "OpenBLAS_jll", "libblastrampoline_jll"]
 uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -1017,12 +915,6 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
 version = "2023.1.10"
 
-[[deps.NLSolversBase]]
-deps = ["DiffResults", "Distributed", "FiniteDiff", "ForwardDiff"]
-git-tree-sha1 = "a0b464d183da839699f4c79e7606d9d186ec172c"
-uuid = "d41bc354-129a-5804-8e4c-c37616107c6c"
-version = "7.8.3"
-
 [[deps.NaNMath]]
 deps = ["OpenLibm_jll"]
 git-tree-sha1 = "0877504529a3e5c3343c6f8b4c0381e57e4387e4"
@@ -1061,24 +953,6 @@ git-tree-sha1 = "3da7367955dcc5c54c1ba4d402ccdc09a1a3e046"
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
 version = "3.0.13+1"
 
-[[deps.OpenSpecFun_jll]]
-deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "13652491f6856acfd2db29360e1bbcd4565d04f1"
-uuid = "efe28fd5-8261-553b-a9e1-b2916fc3738e"
-version = "0.5.5+0"
-
-[[deps.Optim]]
-deps = ["Compat", "FillArrays", "ForwardDiff", "LineSearches", "LinearAlgebra", "NLSolversBase", "NaNMath", "Parameters", "PositiveFactorizations", "Printf", "SparseArrays", "StatsBase"]
-git-tree-sha1 = "d9b79c4eed437421ac4285148fcadf42e0700e89"
-uuid = "429524aa-4258-5aef-a3af-852621145aeb"
-version = "1.9.4"
-
-    [deps.Optim.extensions]
-    OptimMOIExt = "MathOptInterface"
-
-    [deps.Optim.weakdeps]
-    MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-
 [[deps.Opus_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
 git-tree-sha1 = "51a08fb14ec28da2ec7a927c4337e4332c2a4720"
@@ -1094,12 +968,6 @@ version = "1.6.3"
 deps = ["Artifacts", "Libdl"]
 uuid = "efcefdf7-47ab-520b-bdef-62a2eaa19f15"
 version = "10.42.0+1"
-
-[[deps.Parameters]]
-deps = ["OrderedCollections", "UnPack"]
-git-tree-sha1 = "34c0e9ad262e5f7fc75b10a9952ca7692cfc5fbe"
-uuid = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-version = "0.12.3"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
@@ -1160,12 +1028,6 @@ deps = ["AbstractPlutoDingetjes", "Base64", "ColorTypes", "Dates", "FixedPointNu
 git-tree-sha1 = "ab55ee1510ad2af0ff674dbcced5e94921f867a9"
 uuid = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 version = "0.7.59"
-
-[[deps.PositiveFactorizations]]
-deps = ["LinearAlgebra"]
-git-tree-sha1 = "17275485f373e6673f7e7f97051f703ed5b15b20"
-uuid = "85a6dd25-e78a-55b7-8502-1745935b8125"
-version = "0.2.4"
 
 [[deps.PrecompileTools]]
 deps = ["Preferences"]
@@ -1239,12 +1101,6 @@ version = "1.2.1"
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
-[[deps.Setfield]]
-deps = ["ConstructionBase", "Future", "MacroTools", "StaticArraysCore"]
-git-tree-sha1 = "e2cc6d8c88613c05e1defb55170bf5ff211fbeac"
-uuid = "efcf1570-3423-57d1-acb7-fd33fddbac46"
-version = "1.1.1"
-
 [[deps.Showoff]]
 deps = ["Dates", "Grisu"]
 git-tree-sha1 = "91eddf657aca81df9ae6ceb20b959ae5653ad1de"
@@ -1270,23 +1126,6 @@ deps = ["Libdl", "LinearAlgebra", "Random", "Serialization", "SuiteSparse_jll"]
 uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 version = "1.10.0"
 
-[[deps.SpecialFunctions]]
-deps = ["IrrationalConstants", "LogExpFunctions", "OpenLibm_jll", "OpenSpecFun_jll"]
-git-tree-sha1 = "2f5d4697f21388cbe1ff299430dd169ef97d7e14"
-uuid = "276daf66-3868-5448-9aa4-cd146d93841b"
-version = "2.4.0"
-
-    [deps.SpecialFunctions.extensions]
-    SpecialFunctionsChainRulesCoreExt = "ChainRulesCore"
-
-    [deps.SpecialFunctions.weakdeps]
-    ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-
-[[deps.StaticArraysCore]]
-git-tree-sha1 = "36b3d696ce6366023a0ea192b4cd442268995a0d"
-uuid = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
-version = "1.4.2"
-
 [[deps.Statistics]]
 deps = ["LinearAlgebra", "SparseArrays"]
 uuid = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -1303,10 +1142,6 @@ deps = ["DataAPI", "DataStructures", "LinearAlgebra", "LogExpFunctions", "Missin
 git-tree-sha1 = "5cf7606d6cef84b543b483848d4ae08ad9832b21"
 uuid = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 version = "0.34.3"
-
-[[deps.SuiteSparse]]
-deps = ["Libdl", "LinearAlgebra", "Serialization", "SparseArrays"]
-uuid = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 
 [[deps.SuiteSparse_jll]]
 deps = ["Artifacts", "Libdl", "libblastrampoline_jll"]
@@ -1355,11 +1190,6 @@ version = "1.5.1"
 [[deps.UUIDs]]
 deps = ["Random", "SHA"]
 uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
-
-[[deps.UnPack]]
-git-tree-sha1 = "387c1f73762231e86e0c9c5443ce3b4a0a9a0c2b"
-uuid = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
-version = "1.0.2"
 
 [[deps.Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
@@ -1688,36 +1518,36 @@ version = "1.4.1+1"
 
 # ╔═╡ Cell order:
 # ╠═11ada8e1-0b92-4cf9-9972-009f104c6a12
-# ╠═742741fe-3296-4262-8a5c-f339229eb657
-# ╠═945fb8c1-921c-4b57-9ddb-d7b644608a80
-# ╠═59f05df0-b176-4895-a956-ad8471483434
-# ╠═9a58b8d1-3812-48f9-8558-ee526970e3e6
-# ╠═31f944d5-804e-4f36-b0ed-9c333fe40ec5
-# ╠═2cecbf3d-0acd-42f3-9056-9afb71a94f1d
-# ╠═4b4696fa-d857-425a-8745-d3da59765c87
-# ╠═947c0773-447b-488a-b3d4-536fdd5f244f
-# ╠═fef3e4bb-a0d5-429f-8b4d-25eac42e6777
-# ╠═0d8bbf54-c905-451f-baf4-0a6abba392e4
-# ╠═72c90f61-5b19-4faa-8099-12681b6ae0a1
-# ╠═974c1156-1ddd-4d9f-82f2-eb5a4e840c0c
+# ╟─3b65652e-debf-4829-a793-189d522a75dc
+# ╟─498db34a-09f6-4f3a-adaf-a71f5a1cabb2
+# ╟─2a63fe40-9e94-4731-9807-21985212c79c
+# ╟─c5d02952-4c3d-4632-b8ed-cbb17aba6afe
+# ╟─a0523728-8019-4d6a-bcec-258cf4dca3aa
+# ╟─3100b1ff-d9ad-4a18-9001-cdb800b42ccf
+# ╟─742741fe-3296-4262-8a5c-f339229eb657
+# ╟─945fb8c1-921c-4b57-9ddb-d7b644608a80
+# ╟─59f05df0-b176-4895-a956-ad8471483434
+# ╠═19a59798-3502-4dd6-88ec-7c299b7f07ef
+# ╟─9a58b8d1-3812-48f9-8558-ee526970e3e6
+# ╟─4b4696fa-d857-425a-8745-d3da59765c87
+# ╟─0d8bbf54-c905-451f-baf4-0a6abba392e4
+# ╠═af657200-2df7-4a46-8454-32fe836a33bf
 # ╠═94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
-# ╠═e139bbc9-c756-4c0e-af84-a63b8f94fdc8
-# ╠═406bb956-81b6-468c-bbab-097393ad4bb9
-# ╠═c722c142-1af5-4eec-af13-2788ee55fc98
+# ╟─e139bbc9-c756-4c0e-af84-a63b8f94fdc8
+# ╟─406bb956-81b6-468c-bbab-097393ad4bb9
+# ╟─c722c142-1af5-4eec-af13-2788ee55fc98
 # ╟─880d9cdd-a6da-4b57-af07-467d1192ab85
 # ╟─91bd14b4-0eef-438e-8d52-8dbcd59f1ccf
-# ╟─f22af50a-1492-47dd-bcad-6136b27762b3
-# ╟─aa124669-9868-4b3d-a6fd-259c3b686c05
 # ╟─e8127a09-c66b-43f7-a47d-3ae5cbea0491
 # ╟─b0baae3b-1582-48a7-b94a-153ff1b7e201
 # ╟─b35b1d70-b0de-4a92-a28e-f54c61a99f5c
 # ╟─ce19ff05-196c-47c9-9414-4b75aab20bdb
 # ╟─d28a629d-2193-4bcf-bbfd-7de8afbc2e73
 # ╟─0bbdaf37-2d83-4b1a-87e3-d97f926bf5f1
-# ╟─10bbd767-e4e5-415b-a975-658d5748e241
-# ╟─72a96961-937d-4075-9fd2-698c1ed49ba7
-# ╟─9a70ac3c-8af7-47c4-baa9-1e99964036cf
-# ╠═141ab069-4445-4332-83e8-0267b4290918
+# ╟─141ab069-4445-4332-83e8-0267b4290918
 # ╠═bf44b030-79d7-4a3a-b74a-9f8da7b3967c
+# ╠═16ddba3c-e66b-4133-bd11-f0183c42b820
+# ╠═b18f5d4d-ec5d-46ce-8967-b12bcecca51d
+# ╠═a71cba9f-e619-45a2-a027-06b9cd6790b3
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
