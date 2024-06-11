@@ -30,9 +30,14 @@ Simon nel bosco
 ![image info](https://i.ibb.co/JzK8pky/sessione-02-simon-nel-bosco.jpg)
 
 Le Flevre
-![image info](https://i.ibb.co/Cw36yMp/le-flevre.png)"
+![image info](https://i.ibb.co/Cw36yMp/le-flevre.png)
 
+Furgone abbandonato vicino alla falegnameria
+![image info](https://i.ibb.co/hBmSqKV/furgone-nel-bosco-copia.jpg)"
+
+# ╔═╡ a5acbbc5-03cd-49b0-977d-589df771f889
 
 
 # ╔═╡ Cell order:
 # ╟─a0cf9640-1c38-11ef-0c60-0feceb9a024c
+# ╠═a5acbbc5-03cd-49b0-977d-589df771f889
