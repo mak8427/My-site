@@ -346,6 +346,8 @@ begin
 	# Plotting results
 	histogram(results, bins=30, alpha=0.5, legend=:topright, title="Distribution of Spell Results", xlabel="Spell Result", ylabel="Frequency")
 	vline!([mean_result], label="Mean", color=:red, linewidth=2)
+	vline!([4], label="Success", color=:blue, linewidth=2)
+
 	
 end
 
@@ -404,9 +406,52 @@ plot_mean_distribution(n_simulations, y, z, p, 1.0, 1.0, 1.0,3)
 
 
 # ╔═╡ b18f5d4d-ec5d-46ce-8967-b12bcecca51d
+begin 
+n_simulations_2 = 10000
+matrixes=Dict()
+for tier_2 in ["Low", "Mid", "High", "Highest"]
+	possible_values_2 = if tier_2 == "Low"
+	    low_tier_values
+	elseif tier_2 == "Mid"
+	    mid_tier_values
+	elseif tier_2 == "High"
+	    high_tier_values
+	else
+	    highest_tier_values
+	end
+	success_rate_matrix= zeros(10, 5)
+	for p_2 in 1:10
+		for y_2 in 1:5
+			results = simulate_spell_casts(n_simulations_2, possible_values_2, y_2, z_, p_2,1.0,1.0,1.0)
+			# Calculate statistics
+			mean_result, success_rate = calculate_statistics(results)
+			success_rate_matrix[p_2,y_2] = success_rate
+		end
+	end
+		matrixes[tier_2]=success_rate_matrix
 
+end
+end
+	
+
+# ╔═╡ a254062e-186f-4db9-8b2a-d7c998ddd8fc
+@bind tiers__ Select(["Low", "Mid", "High", "Highest"])
 
 # ╔═╡ a71cba9f-e619-45a2-a027-06b9cd6790b3
+begin
+rotated_matrix = rotr90(rotr90(rotr90(rotr90(matrixes[tiers__]))))
+# Create a grid for the x and y coordinates
+x_list = 1:size(rotated_matrix, 2)
+y_list = 1:size(rotated_matrix, 1)
+
+# Reverse the y_list to match the rotated matrix
+y_list = reverse(y_list)
+
+# Generate the 3D plot
+surface(x_list, y_list, rotated_matrix, title="3D Surface Plot (Y-axis Rotated)", xlabel="Number of Colors", ylabel="Parallel Spells", zlabel="P", legend=false)
+end
+
+# ╔═╡ a51b62b7-8a85-471c-94fc-14a06d8a1f01
 
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -1528,26 +1573,28 @@ version = "1.4.1+1"
 # ╟─945fb8c1-921c-4b57-9ddb-d7b644608a80
 # ╟─59f05df0-b176-4895-a956-ad8471483434
 # ╠═19a59798-3502-4dd6-88ec-7c299b7f07ef
-# ╟─9a58b8d1-3812-48f9-8558-ee526970e3e6
-# ╟─4b4696fa-d857-425a-8745-d3da59765c87
-# ╟─0d8bbf54-c905-451f-baf4-0a6abba392e4
-# ╠═af657200-2df7-4a46-8454-32fe836a33bf
-# ╠═94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
+# ╠═9a58b8d1-3812-48f9-8558-ee526970e3e6
+# ╠═4b4696fa-d857-425a-8745-d3da59765c87
+# ╠═0d8bbf54-c905-451f-baf4-0a6abba392e4
+# ╟─af657200-2df7-4a46-8454-32fe836a33bf
+# ╟─94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
 # ╟─e139bbc9-c756-4c0e-af84-a63b8f94fdc8
 # ╟─406bb956-81b6-468c-bbab-097393ad4bb9
-# ╟─c722c142-1af5-4eec-af13-2788ee55fc98
+# ╠═c722c142-1af5-4eec-af13-2788ee55fc98
 # ╟─880d9cdd-a6da-4b57-af07-467d1192ab85
-# ╟─91bd14b4-0eef-438e-8d52-8dbcd59f1ccf
+# ╠═91bd14b4-0eef-438e-8d52-8dbcd59f1ccf
 # ╟─e8127a09-c66b-43f7-a47d-3ae5cbea0491
-# ╟─b0baae3b-1582-48a7-b94a-153ff1b7e201
+# ╠═b0baae3b-1582-48a7-b94a-153ff1b7e201
 # ╟─b35b1d70-b0de-4a92-a28e-f54c61a99f5c
-# ╟─ce19ff05-196c-47c9-9414-4b75aab20bdb
-# ╟─d28a629d-2193-4bcf-bbfd-7de8afbc2e73
+# ╠═ce19ff05-196c-47c9-9414-4b75aab20bdb
+# ╠═d28a629d-2193-4bcf-bbfd-7de8afbc2e73
 # ╟─0bbdaf37-2d83-4b1a-87e3-d97f926bf5f1
-# ╟─141ab069-4445-4332-83e8-0267b4290918
-# ╠═bf44b030-79d7-4a3a-b74a-9f8da7b3967c
-# ╠═16ddba3c-e66b-4133-bd11-f0183c42b820
+# ╠═141ab069-4445-4332-83e8-0267b4290918
+# ╟─bf44b030-79d7-4a3a-b74a-9f8da7b3967c
+# ╟─16ddba3c-e66b-4133-bd11-f0183c42b820
 # ╠═b18f5d4d-ec5d-46ce-8967-b12bcecca51d
+# ╠═a254062e-186f-4db9-8b2a-d7c998ddd8fc
 # ╠═a71cba9f-e619-45a2-a027-06b9cd6790b3
+# ╠═a51b62b7-8a85-471c-94fc-14a06d8a1f01
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
