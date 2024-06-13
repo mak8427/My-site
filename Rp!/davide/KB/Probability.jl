@@ -442,17 +442,42 @@ begin
 rotated_matrix = rotr90(rotr90(rotr90(rotr90(matrixes[tiers__]))))
 # Create a grid for the x and y coordinates
 x_list = 1:size(rotated_matrix, 2)
-y_list = 1:size(rotated_matrix, 1)
+y_list = 1:10
 
 # Reverse the y_list to match the rotated matrix
 y_list = reverse(y_list)
 
 # Generate the 3D plot
-surface(x_list, y_list, rotated_matrix, title="3D Surface Plot (Y-axis Rotated)", xlabel="Number of Colors", ylabel="Parallel Spells", zlabel="P", legend=false)
+custom_cgrad = cgrad([:red, :yellow, :green], [0.0, 0.5, 1.0])
+
+# Generate the 3D surface plot with reversed labels, increased size, and custom colors
+surface(
+    x_list, 
+    y_list, 
+    rotated_matrix, 
+    title="3D Surface Plot (X and Y-axis Rotated)", 
+    xlabel="Number of Colors", 
+    ylabel="Parallel Spells", 
+    zlabel="P", 
+    legend=false, 
+    color=custom_cgrad, 
+    xticks=(1:5, reverse(1:5)),
+    yticks=(1:10, reverse(1:10)),
+    size=(1000, 800)  # Increase the size of the plot
+)
 end
 
 # ╔═╡ a51b62b7-8a85-471c-94fc-14a06d8a1f01
-
+heatmap(
+    x_list, 
+    y_list, 
+    rotated_matrix, 
+    title="Heatmap (X and Y-axis Rotated)", 
+    xlabel="Number of Colors", 
+    ylabel="Parallel Spells", 
+    color=:viridis, 
+ # Increase the size of the heatmap
+)
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1593,7 +1618,7 @@ version = "1.4.1+1"
 # ╟─bf44b030-79d7-4a3a-b74a-9f8da7b3967c
 # ╟─16ddba3c-e66b-4133-bd11-f0183c42b820
 # ╠═b18f5d4d-ec5d-46ce-8967-b12bcecca51d
-# ╠═a254062e-186f-4db9-8b2a-d7c998ddd8fc
+# ╟─a254062e-186f-4db9-8b2a-d7c998ddd8fc
 # ╠═a71cba9f-e619-45a2-a027-06b9cd6790b3
 # ╠═a51b62b7-8a85-471c-94fc-14a06d8a1f01
 # ╟─00000000-0000-0000-0000-000000000001
