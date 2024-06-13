@@ -214,7 +214,7 @@ end
 begin
 	# Plotting results for Low Tier
 	hist_low = histogram(low_tier_results, bins=30, alpha=0.5, legend=:topright, title="Low Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-		vline!([4], label="Mean", color=:blue, linewidth=2)
+		vline!([4], label="Success", color=:blue, linewidth=2)
 	if low_mean<4
 		vline!([low_mean], label="Mean", color=:red, linewidth=4)
 	else
@@ -226,7 +226,7 @@ end
 # ╔═╡ 4b4696fa-d857-425a-8745-d3da59765c87
 begin
 	hist_mid = histogram(mid_tier_results, bins=30, alpha=0.5, legend=:topright, title="Mid Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-		vline!([4], label="Mean", color=:blue, linewidth=2)
+		vline!([4], label="Success", color=:blue, linewidth=2)
 	if mid_mean<4
 		vline!([mid_mean], label="Mean", color=:red, linewidth=4)
 	else
@@ -237,7 +237,7 @@ end
 # ╔═╡ 0d8bbf54-c905-451f-baf4-0a6abba392e4
 begin
 	hist_high = histogram(high_tier_results, bins=30, alpha=0.5, legend=:topright, title="High Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-		vline!([4], label="Mean", color=:blue, linewidth=2)	
+		vline!([4], label="Success", color=:blue, linewidth=2)	
 	if high_mean<4
 		vline!([high_mean], label="Mean", color=:red, linewidth=4)
 	else
@@ -252,7 +252,7 @@ end
 # ╔═╡ 94b38997-f8c1-4f0f-b4e6-e1ed8edfc5df
 begin
 	hist_highest = histogram(highest_tier_results, bins=30, alpha=0.5, legend=:topright, title="Highest Tier Distribution", xlabel="Spell Result", ylabel="Frequency")
-		vline!([4], label="Mean", color=:blue, linewidth=2)	
+		vline!([4], label="Success", color=:blue, linewidth=2)	
 			if highest_mean<4
 		vline!([highest_mean], label="Mean", color=:red, linewidth=4)
 	else
@@ -468,16 +468,8 @@ surface(
 end
 
 # ╔═╡ a51b62b7-8a85-471c-94fc-14a06d8a1f01
-heatmap(
-    x_list, 
-    y_list, 
-    rotated_matrix, 
-    title="Heatmap (X and Y-axis Rotated)", 
-    xlabel="Number of Colors", 
-    ylabel="Parallel Spells", 
-    color=:viridis, 
- # Increase the size of the heatmap
-)
+
+
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
