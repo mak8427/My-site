@@ -12,6 +12,9 @@ Si presenza come un signore sui 50 anni con una lunga barba bainca che lui sosti
 Nonostante La sua vasta conoscenza in quest'ambito non ha praticamente esperienza nello studio pratico della Magia, e fa solo affidamento alloo studio teorico della magia per andare avanti
 "
 
+# ╔═╡ 3f9cb882-42e9-4e20-b465-41eed4837d22
+md" ------ "
+
 # ╔═╡ f32e1b00-2804-11ef-1c80-5ffb1716167f
 md"Diario dell'erborista"
 
@@ -33,6 +36,7 @@ project_hash = "da39a3ee5e6b4b0d3255bfef95601890afd80709"
 
 # ╔═╡ Cell order:
 # ╟─ed0fcef9-6f15-4059-b649-8d50d282d325
+# ╠═3f9cb882-42e9-4e20-b465-41eed4837d22
 # ╟─f32e1b00-2804-11ef-1c80-5ffb1716167f
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
