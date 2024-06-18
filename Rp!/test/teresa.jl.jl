@@ -20,6 +20,7 @@ Nonostante La sua vasta conoscenza in quest'ambito non ha praticamente esperienz
 
 
 ![image info](https://i.ibb.co/2PsWsgd/Oleandro.png)
+![image info](https://i.ibb.co/F37XTzj/Belladonna.png)
 "
 
 # ╔═╡ 3f9cb882-42e9-4e20-b465-41eed4837d22
