@@ -1,6 +1,8 @@
 ### A Pluto.jl notebook ###
 # v0.19.42
 
+#> [frontmatter]
+
 using Markdown
 using InteractiveUtils
 
