@@ -39,5 +39,5 @@ Furgone abbandonato vicino alla falegnameria
 
 
 # ╔═╡ Cell order:
-# ╟─a0cf9640-1c38-11ef-0c60-0feceb9a024c
+# ╠═a0cf9640-1c38-11ef-0c60-0feceb9a024c
 # ╠═a5acbbc5-03cd-49b0-977d-589df771f889
