@@ -4,7 +4,7 @@
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ 438c5b54-c504-4f19-92a2-f0b0bc1da2ed
+# ??? a0cf9640-1c38-11ef-0c60-0feceb9a024c
 md"Loran Pertic
 ![image info](https://i.ibb.co/jfSrssC/avant-avant-il-giornale-del-kersei.png)
 
@@ -44,6 +44,9 @@ Documenti di Loran
 Intervista ad Alfonso de Portago - P.A.I.N
 ![image info](https://i.ibb.co/2snYPj8/intervista-ad-alfonso.png)"
 
+# ??? a5acbbc5-03cd-49b0-977d-589df771f889
 
-# ╔═╡ Cell order:
-# ╠═438c5b54-c504-4f19-92a2-f0b0bc1da2ed
+
+# ??? Cell order:
+# ??a0cf9640-1c38-11ef-0c60-0feceb9a024c
+# ??a5acbbc5-03cd-49b0-977d-589df771f889
