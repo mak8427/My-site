@@ -1,0 +1,6 @@
+[submodule "ML/Albion_API"]
+	path = ML/Albion_API
+	url = https://github.com/mak8427/Albion_Online_Market
+[submodule "ML/Albion_Data"]
+	path = ML/Albion_Data
+	url = https://github.com/mak8427/Albion_Online_Market
