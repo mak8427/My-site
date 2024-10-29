@@ -4,7 +4,7 @@
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ a0cf9640-1c38-11ef-0c60-0feceb9a024c
+# ╔═╡ 438c5b54-c504-4f19-92a2-f0b0bc1da2ed
 md"Loran Pertic
 ![image info](https://i.ibb.co/jfSrssC/avant-avant-il-giornale-del-kersei.png)
 
@@ -33,11 +33,17 @@ Le Flevre
 ![image info](https://i.ibb.co/Cw36yMp/le-flevre.png)
 
 Furgone abbandonato vicino alla falegnameria
-![image info](https://i.ibb.co/hBmSqKV/furgone-nel-bosco-copia.jpg)"
+![image info](https://i.ibb.co/hBmSqKV/furgone-nel-bosco-copia.jpg)
 
-# ╔═╡ a5acbbc5-03cd-49b0-977d-589df771f889
+Erec cabarettista di Lassoy
+![image info](https://i.ibb.co/6gVNSqV/erec-cabaret-lassoy.jpg)
+
+Documenti di Loran
+![image info](https://i.ibb.co/wy2q6d3/documenti-loran-copia.png)
+
+Intervista ad Alfonso de Portago - P.A.I.N
+![image info](https://i.ibb.co/2snYPj8/intervista-ad-alfonso.png)"
 
 
 # ╔═╡ Cell order:
-# ╠═a0cf9640-1c38-11ef-0c60-0feceb9a024c
-# ╠═a5acbbc5-03cd-49b0-977d-589df771f889
+# ╠═438c5b54-c504-4f19-92a2-f0b0bc1da2ed
