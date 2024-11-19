@@ -288,9 +288,12 @@ section {
 }
 
 .about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    display: flex; /* Flexbox for child elements */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 15px; /* Reduce spacing between portals */
+    flex-wrap: wrap; /* Ensure items wrap if the screen is narrow */
+    margin: 0; /* Remove additional margins */
 }
 
 .about-details-container {
@@ -359,10 +362,16 @@ section {
     color: #f5f5f5; /* Light color for dark theme */
 }
 .experience-details-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    padding: 0; /* Remove any default padding */
+    margin: 0 auto; /* Remove extra margins */
 }
+
+
+
+
 
 .article-container {
     display: flex;
@@ -399,11 +408,28 @@ article .icon {
     background: #333; /* Darker background */
 }
 
-
+/* Enforce uniform image size */
 .project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    display: block; /* Ensure the image is treated as a block-level element */
+    width: 300px; /* Set a fixed width for all images */
+    height: 300px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth hover effect */
+}
+
+.image-link {
+    display: inline-block; /* Ensure proper layout */
+    padding: 10px; /* Add padding around images */
+    border: 2px solid #FFFFFF; /* Add a border for a button effect */
+    border-radius: 12px; /* Match image border radius */
+    overflow: hidden; /* Prevent content overflow */
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+.image-link:hover {
+    border-color: #0056b3; /* Change border color on hover */
+    transform: scale(1.05); /* Slightly enlarge the image link on hover */
 }
 .Efficient-frontier-img {
     border-radius: 2rem;
@@ -470,3 +496,4 @@ footer {
 footer p {
     text-align: center;
 }
+
