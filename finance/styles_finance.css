@@ -154,3 +154,72 @@ body.dark-theme .project-title {
 body.dark-theme .project-description {
     color: #ccc; /* Lighter gray for description */
 }
+
+
+
+/* Header Buttons Container */
+.header-buttons {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* Style for Both Buttons */
+#backButton,
+#themeToggleButton {
+    background-color: transparent;
+    color: #f5f5f5; /* Adjust color based on theme */
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+/* Hover Effects */
+#backButton:hover,
+#themeToggleButton:hover {
+    color: #4CAF50;
+}
+
+/* Light Theme Adjustments */
+body:not(.dark-theme) #backButton,
+body:not(.dark-theme) #themeToggleButton {
+    color: #333;
+}
+
+
+/* Header Buttons Container */
+.header-buttons {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* Style for Both Buttons */
+#backButton,
+#themeToggleButton {
+    background-color: transparent;
+    color: #f5f5f5; /* Adjust color based on theme */
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+/* Hover Effects */
+#backButton:hover,
+#themeToggleButton:hover {
+    color: #4CAF50;
+}
+
+/* Light Theme Adjustments */
+body:not(.dark-theme) #backButton,
+body:not(.dark-theme) #themeToggleButton {
+    color: #333;
+}
