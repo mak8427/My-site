@@ -87,9 +87,13 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+      width: 80%;                /* Adjust width for smaller screens */
+      max-width: 150px;
+      margin: 0 auto 20px;       /* Center image and add bottom margin */
+  }
+  .section__pic-container img {
+      width: 100%;
+      height: auto;
   }
   .section__text__p2 {
     font-size: 1.25rem;

@@ -1,88 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<html lang="en">
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="../style.css"/>
+    <title>My Portfolio - Projects</title>
+    <link rel="stylesheet" href="styles_finance.css"/>
     <link rel="stylesheet" href="../mediaqueries.css"/>
 </head>
-<body>
+<body class="dark-theme">
 <section id="projects">
-    <p class="section__text__p1">Financial Analysis</p>
-    <h1 class="title">Articles</h1>
-    <button id="themeToggleButton">🌙</button>
-    <div class="experience-details-container">
-        <div class="about-containers">
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img
-                            src="../assets/Efficient-frontier.png"
-                            alt="Efficient frontier"
-                            class="Efficient-frontier-img"
-                    />
-                </div>
-                <h2 class="experience-sub-title project-title">Markowitz Asset Analysis</h2>
-                <div class="btn-container">
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='Portfolios/Portfolio1/portfolio1.html'"
-                    >
-                        Go To
-                    </button>
-
-                </div>
+    <header>
+        <h1 class="title">My Projects</h1>
+        <button id="themeToggleButton">☀️</button>
+    </header>
+    <div class="projects-container">
+        <!-- Project Card 1 -->
+        <a href="Portfolios/Portfolio1/portfolio1.html" class="project-card-link">
+            <div class="project-card">
+                <img src="../assets/Efficient-frontier.png" alt="Markowitz Asset Analysis" class="project-img"/>
+                <h2 class="project-title">Markowitz Asset Analysis</h2>
+                <p class="project-description">
+                    An in-depth analysis of portfolio optimization using the Markowitz model.
+                </p>
             </div>
-
-
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img
-                            src="../assets/placeholder1.jpg"
-                            alt="Project 2"
-                            class="project-img"
-                    />
-                </div>
-                <h2 class="experience-sub-title project-title">Portfolio 2</h2>
-                <div class="btn-container">
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='Portfolios/Portfolio2/portfolio2.html'"
-                    >
-                        Go To
-                    </button>
-                </div>
+        </a>
+        <!-- Project Card 2 -->
+        <a href="Portfolios/Portfolio2/portfolio2.html" class="project-card-link">
+            <div class="project-card">
+                <img src="../assets/placeholder1.jpg" alt="Time Series Forecasting" class="project-img"/>
+                <h2 class="project-title">Time Series Forecasting</h2>
+                <p class="project-description">
+                    Predictive modeling and analysis of financial time series data.
+                </p>
             </div>
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img
-                            src="../assets/placeholder1.jpg"
-                            alt="Project 3"
-                            class="project-img"
-                    />
-                </div>
-                <h2 class="experience-sub-title project-title">Portfolio 3</h2>
-                <div class="btn-container">
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='Portfolios/Portfolio3/portfolio3.html'"
-                    >
-                        Go To
-                    </button>
-                </div>
+        </a>
+        <!-- Project Card 3 -->
+        <a href="Portfolios/Portfolio3/portfolio3.html" class="project-card-link">
+            <div class="project-card">
+                <img src="../assets/placeholder1.jpg" alt="Machine Learning Pipeline" class="project-img"/>
+                <h2 class="project-title">Machine Learning Pipeline</h2>
+                <p class="project-description">
+                    Development of a scalable machine learning pipeline for data analysis.
+                </p>
             </div>
-        </div>
+        </a>
+        <!-- Add more project cards as needed -->
     </div>
-    <img
-            src="../assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            onclick="location.href='./#contact'"
-    />
-</section>
-<script src="../script.js"></script>
 
+</section>
+<script src="finance_script.js"></script>
 </body>
 </html>
