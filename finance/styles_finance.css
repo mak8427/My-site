@@ -194,11 +194,14 @@ body:not(.dark-theme) #themeToggleButton {
 /* Header Buttons Container */
 .header-buttons {
     display: flex;
-    align-items: center;
+    justify-content: space-between; /* Spread buttons across the available space */
     position: fixed;
     top: 20px;
-    right: 20px;
+    width: 100%; /* Make the container span the entire width */
+    padding: 0 20px; /* Add padding for spacing */
+    box-sizing: border-box;
 }
+
 
 /* Style for Both Buttons */
 #backButton,
