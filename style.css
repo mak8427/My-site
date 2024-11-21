@@ -290,7 +290,7 @@ section {
 .about-containers {
     display: flex; /* Flexbox for child elements */
     justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    align-items: stretch; /* Center items vertically */
     gap: 15px; /* Reduce spacing between portals */
     flex-wrap: wrap; /* Ensure items wrap if the screen is narrow */
     margin: 0; /* Remove additional margins */
@@ -322,6 +322,7 @@ section {
     padding: 1.5rem;
     flex: 1;
     background: white;
+     flex-direction: column; /* Stack items vertically */
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
