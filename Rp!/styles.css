@@ -68,3 +68,26 @@ section {
     to { width: 100% }
 }
 
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+body.light-mode header, body.light-mode footer {
+    background-color: #ddd;
+    color: #000;
+}
+
+body.light-mode button {
+    background-color: #ccc;
+    color: #000;
+}
+
+body.light-mode button:hover {
+    background-color: #bbb;
+}
+
+body.light-mode section {
+    background-color: #f9f9f9;
+    border-color: #ccc;
+}
