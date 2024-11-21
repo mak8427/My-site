@@ -1,4 +1,4 @@
-document.getElementById('theme-toggle').addEventListener('click', function () {
+document.getElementById('themeToggleButton').addEventListener('click', function () {
     const body = document.body;
     const button = this;
     const icon = button.getElementsByTagName('i')[0];
@@ -32,3 +32,11 @@ function typeWriter() {
 }
 
 document.addEventListener('DOMContentLoaded', typeWriter); // Start typing effect once the DOM is fully loaded
+
+
+// Back button functionality
+const backButton = document.getElementById('backButton');
+
+backButton.addEventListener('click', () => {
+    window.history.back();
+});

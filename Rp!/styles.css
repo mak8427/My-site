@@ -11,7 +11,7 @@ body {
 header, footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333;
+    background-color: #000;
     color: #fff;
 }
 
@@ -39,13 +39,14 @@ main {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: inherit;
+    background-color: #111;
     border: 2px solid #777;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     width: 80%;
     max-width: 600px;
     transition: background-color 0.3s;
+
 }
 
 @media (max-width: 768px) {
@@ -74,7 +75,7 @@ body.light-mode {
 }
 
 body.light-mode header, body.light-mode footer {
-    background-color: #ddd;
+    background-color: #fff;
     color: #000;
 }
 
@@ -90,4 +91,56 @@ body.light-mode button:hover {
 body.light-mode section {
     background-color: #f9f9f9;
     border-color: #ccc;
+}
+
+/* Header Buttons Container */
+.header-buttons {
+    display: flex;
+    justify-content: space-between; /* Spread buttons across the available space */
+    position: fixed;
+    top: 20px;
+    width: 100%; /* Make the container span the entire width */
+    padding: 0 20px; /* Add padding for spacing */
+    box-sizing: border-box;
+}
+
+
+/* Style for Both Buttons */
+#backButton,
+#themeToggleButton {
+    background-color: transparent;
+    color: #f5f5f5; /* Adjust color based on theme */
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+/* Hover Effects */
+#backButton:hover,
+#themeToggleButton:hover {
+    color: #4CAF50;
+}
+
+/* Light Theme Adjustments */
+body:not(.dark-theme) #backButton,
+body:not(.dark-theme) #themeToggleButton {
+    color: #333;
+}
+
+#themeToggleButton {
+    background-color: transparent;
+    color: #333; /* Dark icon color for light mode */
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    transition: color 0.3s;
+}
+
+#themeToggleButton:hover {
+    color: #4CAF50;
 }
