@@ -1,14 +1,17 @@
 
 # Characters
 
-## Kaelen Roth
+
+
+## Players
+### Kaelen Roth
 The story begins on the University Campus where Kaelen invites everyone to have an introductory meeting before their expedition into a forgotten teleportation magician's lab in the Kingdom of Anor.
 
 This expedition is crucial to Kaelen as he is on the brink of failing college due to his failed, yet ambitious, personal projects. His groundbreaking experiments always seem to run out of "funding." Kaelen is in his fourth year of his Bachelor's in Applied Magic.
 
 ---
 
-## Darwin Sagehorn
+### Darwin Sagehorn
 **Introduction**  
 Darwin is the son of Duke Markus Sagehorn, one of the leaders in the campaign against the beastmen in the south. These beastmen have been recently dubbed the "Green Wave," given their greenish appearance and relentless waves against the kingdom of Corinthar.
 
@@ -17,12 +20,19 @@ Darwin embodies "Noblesse oblige," striving to help anyone in trouble. Humble co
 
 ---
 
-## Anduril Wallace
+### Anduril Wallace
 These disgraced and exiled elf brothers once enjoyed the company of the greatest elf [missing detail]. However, due to an incident [missing detail], they now attempt to regain their reputation.
 
 ---
 
-## Edmund Wallace
+### Edmund Wallace
 Further details about Edmund are not yet included.
 
 ---
+
+
+## NPCs
+
+### Professor Baelin
+Professor Baelin is the head of the Department of Applied Magic and Professor of the Course
+of Magic Combat and survival. He is an Immortal human like goat creature with a long beard and immense power. He is the one who summons Kaelen to his office to discuss the expedition to the ruins of the teleportation mage's laboratory.
