@@ -4,3 +4,6 @@
 [submodule "ML/Albion_Data"]
 	path = ML/Albion_Data
 	url = https://github.com/mak8427/Albion_Online_Market
+[submodule "ML/Poe2"]
+	path = ML/Poe2
+	url = https://github.com/mak8427/PoE2.git
