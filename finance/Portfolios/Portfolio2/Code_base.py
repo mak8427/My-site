@@ -3,20 +3,27 @@ import numpy as np
 import numpy.random
 import yfinance as yf
 class Portfolio:
-    import numpy as np
-    def __init__(self, code, cash, assets_df, weights):
+    def __init__(self, code, cash, assets_df, assets):
         self.code = code
-        self.asset_df = assets_df
+        self.assets = assets  # List of tickers
+        self.asset_df = assets_df  # DataFrame of percentage changes
         self.cash = cash
         self.weights = self.random_weight_initialise()
+        self.iteration = 0
 
     def random_weight_initialise(self):
-        weights = np.random.random(len(self.assets))
-        weights /= weights.sum()
+        weights = np.random.random(len(self.assets))  # Random weights for assets
+        weights /= weights.sum()  # Normalize weights
         return weights
-    def simulation:
+
+    def simulation_step(self):
+        # Simulate portfolio cash value for a single step
+        returns = self.asset_df.iloc[self.iteration].values  # Current returns
+        self.cash = self.cash * (1 + np.dot(self.weights, returns))  # Update cash
+        self.iteration += 1
+        return self.cash
 
 
 
-Portfolios = Portfolio(1, 1, ["s", "S"], 3)
-print(Portfolios.weights)
+
+#%%
