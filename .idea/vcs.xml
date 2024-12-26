@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ML/Albion_Data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ML/Poe2" vcs="Git" />
   </component>
 </project>

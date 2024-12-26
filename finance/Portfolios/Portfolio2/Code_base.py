@@ -16,6 +16,7 @@ class Portfolio:
         weights = np.random.random(len(self.tickers))  # Random weights for assets
         weights /= weights.sum()  # Normalize weights
         return weights
+
     def initialise_portfolio(self):
         self.assets = [self.cash * x  for x in self.weights]  # Initial asset values
         self.assets = np.array(self.assets)
@@ -39,9 +40,6 @@ class Portfolio:
                         amount -= self.assets[i]
                         self.assets[i] = 0
 
-
-
-
                 print(f"Asset sold Withdrawn:  {np.subtract(_,self.assets)}   for a total of: {np.sum(np.subtract(_,self.assets))}" )
             else:
                 print("Not Enough assets")
@@ -49,9 +47,6 @@ class Portfolio:
         else:
             self.cash -= amount
             print("Too Poor")
-
-
-
 
     def simulation_step(self):
         # Simulate portfolio cash value for a single step
