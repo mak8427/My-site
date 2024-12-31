@@ -6,6 +6,7 @@ class Portfolio:
     def __init__(self, code, cash, assets_df, tickers):
         self.assets = None
         self.code = code
+        self.assets_history =  pd.DataFrame(columns=tickers)
         self.tickers = tickers  # List of tickers
         self.asset_df = assets_df  # DataFrame of percentage changes
         self.cash = cash
@@ -52,6 +53,7 @@ class Portfolio:
         # Simulate portfolio cash value for a single step
         returns = self.asset_df.iloc[self.iteration].values  # Current returns
         self.assets = [self.assets[i] * (1 + returns[i]) for i in range(len(self.tickers))]
+        self.assets_history.loc[self.iteration] = self.assets
         self.iteration += 1
         return self.cash
 
