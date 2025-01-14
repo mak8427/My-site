@@ -2,7 +2,8 @@
 
 ## Players
 ### Kaelen Roth
-<img src="_images/Kaelen.png" alt="Kaelen" width="350" height="600">
+<img src="_images/Kaelen.png" alt="Kaelen" style="max-width: 100%;">
+
 
 The story begins on the University Campus where Kaelen invites everyone to have an introductory meeting before their expedition into a forgotten teleportation magician's lab in the Kingdom of Anor.
 
@@ -11,7 +12,7 @@ This expedition is crucial to Kaelen as he is on the brink of failing college du
 ---
 
 ### Darwin Sagehorn
-<img src="_images/Darwin.png" alt="Darwin" width="350" height="600">
+<img src="_images/Darwin.png" alt="Darwin" style="max-width: 100%;">
 
 **Introduction**  
 Darwin is the son of Duke Markus Sagehorn, one of the leaders in the campaign against the beastmen in the south. These beastmen have been recently dubbed the "Green Wave," given their greenish appearance and relentless waves against the kingdom of Corinthar.
@@ -22,43 +23,53 @@ Darwin embodies "Noblesse oblige," striving to help anyone in trouble. Humble co
 ---
 
 ### Anduril Wallace
-<img src="_images/Anduril.jpg" alt="Anduril" width="350" height="600">
+<img src="_images/Anduril.jpg" alt="Anduril" style="max-width: 30%;">
 
 These disgraced and exiled elf brothers once enjoyed the company of the greatest elf [missing detail]. However, due to an incident [missing detail], they now attempt to regain their reputation.
 
 ---
 
 ### Edmund Wallace
-<img src="_images/Edmund Wallace.png" alt="Edmund" width="350" height="600">
+<img src="_images/Edmund Wallace.png" alt="Edmund" style="max-width: 30%;">
 
 Further details about Edmund are not yet included.
 
 ---
 
 ## NPCs
-### Paul Egdar
-<img src="_images/Paul.jpg" alt="Paul Egdar" width="350" height="600">
+### Paul Egdar: Gnome Alchemist and Teaching Assistan
+<img src="_images/Paul Edgar.png" alt="Paul Edgar" style="max-width: 100%;">
 
-Paul Egdar
+
+**Paul Egdar**, a skilled **gnome alchemist** from **Generasi** (*Mark of the Fool*), was sent there by **Professor Baelin** to refine his mastery of **Earth Magic**. Now a **teaching assistant** in the **Department of Applied Alchemy and Elemental Magic**, Paul is known for his inventive methods and approachable demeanor.
+
+#### Role in the Expedition
+- **Rappresent the University in the expedition** to the ruins of the teleportation mage's laboratory.   
+- **Earth Magic Specialist**: Uses his control over minerals and terrain for navigation and defense.
+- **Alchemical Innovator**: Crafts potions and tools by blending earth magic with alchemical science.
+- **Problem-Solver**: Resourceful and steady, he’s essential in adapting to challenges.
+
+Popular among students for his creativity and charisma, Paul is both a rising star in academia and a vital asset to the expedition.
+
 
 ---
 
 ### The Wanderer
-<img src="_images/The Wanderer.jpg" alt="Wanderer" width="350" height="600">
+<img src="_images/The Wanderer.jpg" alt="Wanderer" style="max-width: 30%;">
 
 We don't know much about the Wanderer yet, but they seem to have information about the upcoming meeting with the Duke, involving the ceremonial orcs and the immortal Almister, head of the Council of Mages.
 
 ---
 
 ### Professor Baelin
-<img src="_images/Baelin.jpg" alt="Baelin" width="350" height="600">
+<img src="_images/Baelin.jpg" alt="Baelin" style="max-width: 30%;">
 
 Professor Baelin is the head of the Department of Applied Magic and Professor of the Course of Magic Combat and survival. He is an Immortal human-like goat creature with a long beard and immense power. He is the one who summons Kaelen to his office to discuss the expedition to the ruins of the teleportation mage's laboratory.
 
 ---
 
 ### Duke Marlowe Greystone: The Reluctant Steward
-<img src="_images/Duke" alt="Duke Marlowe Greystone" width="350" height="600">
+<img src="_images/Duke" alt="Duke Marlowe Greystone" style="max-width: 30%;">
 
 Duke Marlowe Greystone, once a squire during the **War of the Sorcerer-King**, rose to power unexpectedly after Duke Harland Greystone, his distant cousin, named him heir following the tragic deaths of his own children during the Orc Wars.
 
@@ -69,7 +80,7 @@ However, his reliance on strict rationing and mercenary forces has drawn critici
 ---
 
 ### Elminster Aumar: President of the Council of Magical Universities
-<img src="_images/Elmister.jpg" alt="Elmister" width="350" height="600">
+<img src="_images/Elmister.jpg" alt="Elmister" style="max-width: 30%;">
 
 Elminster Aumar, known as **Elminster the Arcane**, serves as the **President of the Council of Magical Universities** in Anbennar. Renowned as one of the strongest mages in the realm, he is a unifying figure in magical academia and a staunch advocate for ethical magic use and innovation.
 
