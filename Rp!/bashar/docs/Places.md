@@ -25,7 +25,19 @@ With the evangelizing efforts of **Dominic of Gallowspeak** and **Lothane**, **C
 when **Castellos's** death was revealed during the **Age of Unraveling**, the center of the new **Corinite faith**.
 
 ## Cities
-## Cities
+
+### **Oldhaven**
+
+Located near the **Gate of Escann**, Oldhaven is a city of ancient origins now burdened by the challenges of war and survival. It is ruled by **Duke Marlowe Greystone**, whose authority is confined to the city and its immediate surroundings. Despite his limited power, Duke Greystone's leadership is critical as Oldhaven faces a growing influx of refugees fleeing orc invasions, compounding an already dire food shortage.
+
+The city is divided into three distinct districts:
+
+- **Highspire Quarter**: Home to **Skyward Keep**, the Duke's seat of power, and the **Oldhaven Academy of Tactics and Lore**, preserving the traditions of Escann.
+- **Riversmeet**: A bustling commercial hub along the **Alderflow River**, now overwhelmed by overcrowding and scarcity of resources.
+- **The Hollow**: A historic and shadowy district known for its artisans and rumors of hidden cults.
+
+Despite its struggles, Oldhaven remains the host of the famed **Trial by Chivalry Tournaments**, held in the **Plains of Valor** just outside its walls. These tournaments offer fleeting unity and hope in a city grappling with the effects of the ongoing **war between Cast and Anor**.
+
 
 ### **Generasi**
 ![Generasi](images/genrasi.webp)
