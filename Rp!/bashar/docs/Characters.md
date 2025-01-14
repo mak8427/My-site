@@ -2,7 +2,7 @@
 
 ## Players
 ### Kaelen Roth
-<img src="images/Kaelen.png" alt="Kaelen" width="200" height="200">
+<img src="_images/Kaelen.png" alt="Kaelen" width="200" height="200">
 
 The story begins on the University Campus where Kaelen invites everyone to have an introductory meeting before their expedition into a forgotten teleportation magician's lab in the Kingdom of Anor.
 
@@ -11,7 +11,7 @@ This expedition is crucial to Kaelen as he is on the brink of failing college du
 ---
 
 ### Darwin Sagehorn
-<img src="images/Darwin.png" alt="Darwin" width="200" height="200">
+<img src="_images/Darwin.png" alt="Darwin" width="200" height="200">
 
 **Introduction**  
 Darwin is the son of Duke Markus Sagehorn, one of the leaders in the campaign against the beastmen in the south. These beastmen have been recently dubbed the "Green Wave," given their greenish appearance and relentless waves against the kingdom of Corinthar.
@@ -22,14 +22,14 @@ Darwin embodies "Noblesse oblige," striving to help anyone in trouble. Humble co
 ---
 
 ### Anduril Wallace
-<img src="images/Anduril.jpg" alt="Anduril" width="200" height="200">
+<img src="_images/Anduril.jpg" alt="Anduril" width="200" height="200">
 
 These disgraced and exiled elf brothers once enjoyed the company of the greatest elf [missing detail]. However, due to an incident [missing detail], they now attempt to regain their reputation.
 
 ---
 
 ### Edmund Wallace
-<img src="images/Edmund Wallace.png" alt="Edmund" width="200" height="200">
+<img src="_images/Edmund Wallace.png" alt="Edmund" width="200" height="200">
 
 Further details about Edmund are not yet included.
 
@@ -37,28 +37,28 @@ Further details about Edmund are not yet included.
 
 ## NPCs
 ### Paul Egdar
-<img src="images/Paul.jpg" alt="Paul Egdar" width="200" height="200">
+<img src="_images/Paul.jpg" alt="Paul Egdar" width="200" height="200">
 
 Paul Egdar
 
 ---
 
 ### The Wanderer
-<img src="images/The Wanderer.jpg" alt="Wanderer" width="200" height="200">
+<img src="_images/The Wanderer.jpg" alt="Wanderer" width="200" height="200">
 
 We don't know much about the Wanderer yet, but they seem to have information about the upcoming meeting with the Duke, involving the ceremonial orcs and the immortal Almister, head of the Council of Mages.
 
 ---
 
 ### Professor Baelin
-<img src="images/Baelin.jpg" alt="Baelin" width="200" height="200">
+<img src="_images/Baelin.jpg" alt="Baelin" width="200" height="200">
 
 Professor Baelin is the head of the Department of Applied Magic and Professor of the Course of Magic Combat and survival. He is an Immortal human-like goat creature with a long beard and immense power. He is the one who summons Kaelen to his office to discuss the expedition to the ruins of the teleportation mage's laboratory.
 
 ---
 
 ### Duke Marlowe Greystone: The Reluctant Steward
-<img src="images/Duke" alt="Duke Marlowe Greystone" width="200" height="200">
+<img src="_images/Duke" alt="Duke Marlowe Greystone" width="200" height="200">
 
 Duke Marlowe Greystone, once a squire during the **War of the Sorcerer-King**, rose to power unexpectedly after Duke Harland Greystone, his distant cousin, named him heir following the tragic deaths of his own children during the Orc Wars.
 
@@ -69,7 +69,7 @@ However, his reliance on strict rationing and mercenary forces has drawn critici
 ---
 
 ### Elminster Aumar: President of the Council of Magical Universities
-<img src="images/Elmister.jpg" alt="Elmister" width="200" height="200">
+<img src="_images/Elmister.jpg" alt="Elmister" width="200" height="200">
 
 Elminster Aumar, known as **Elminster the Arcane**, serves as the **President of the Council of Magical Universities** in Anbennar. Renowned as one of the strongest mages in the realm, he is a unifying figure in magical academia and a staunch advocate for ethical magic use and innovation.
 
