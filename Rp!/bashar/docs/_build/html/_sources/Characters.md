@@ -41,15 +41,43 @@ Further details about Edmund are not yet included.
 
 
 ## NPCs
+### Paul Egdar
+![Paul](images/Paul.jpg)
+Paul Egdar 
+
+### The Wanderer
+![Wanderer](images/The Wanderer.jpg)
+We don't know much about the Wanderer yet, but they seem to have information about the upcoming meeting with the Duke, involving the ceremonial orcs and the immortal Almister, head of the Council of Mages.
 
 ### Professor Baelin
+![Baelin](images/Baelin.jpg)
 Professor Baelin is the head of the Department of Applied Magic and Professor of the Course
 of Magic Combat and survival. He is an Immortal human like goat creature with a long beard and immense power. He is the one who summons Kaelen to his office to discuss the expedition to the ruins of the teleportation mage's laboratory.
 
 ### Duke Marlowe Greystone: The Reluctant Steward
+![Duke Marlowe Greystone](images/Duke)
 
-Duke Marlowe Greystone was not born into power but thrust into it by fate. The youngest son of a minor noble family, his early years were spent as a squire during the **War of the Sorcerer-King**, where he earned a reputation for resourcefulness and calm under pressure. His service caught the eye of Duke Harland Greystone, a distant cousin and ruler of Oldhaven, who named Marlowe his heir after the tragic deaths of his own children during the Orc Wars.
-When Duke Harland succumbed to illness, Marlowe inherited the title during one of the city's darkest periods. Refugees flooded Oldhaven's gates as orcish hordes razed the countryside, and the ongoing **war between Cast and Anor** left the city isolated, with allies too preoccupied to send aid.
-Marlowe's leadership is marked by pragmatism and empathy. He has worked tirelessly to forge fragile alliances with local mercenary bands and nearby towns, believing cooperation is the key to survival. Under his direction, the **Oldhaven Academy of Tactics and Lore** was reopened, reflecting his conviction that knowledge and strategy are as vital as swords in the city’s defense.
-Despite his efforts, his reign has not been without controversy. Strict rationing policies and reliance on mercenaries have drawn ire from the city's nobility, who accuse him of neglecting their interests in favor of the common folk. At the same time, his refusal to align Oldhaven with either side in the **Cast-Anor conflict** has fueled rumors that he harbors sympathies for one faction or the other.
-Through it all, Duke Marlowe remains steadfast in his mission: to preserve Oldhaven as a sanctuary for all who seek refuge, even as the city teeters on the brink of crisis.
+Duke Marlowe Greystone, once a squire during the **War of the Sorcerer-King**, rose to power unexpectedly after Duke Harland Greystone, his distant cousin, named him heir following the tragic deaths of his own children during the Orc Wars.
+
+Marlowe took the title during one of Oldhaven's darkest periods, with refugees flooding the city and the **war between Cast and Anor** isolating it from potential allies. His pragmatic leadership has focused on forging alliances with mercenaries and nearby towns, as well as reopening the **Oldhaven Academy of Tactics and Lore**, emphasizing strategy and cooperation for survival.
+
+However, his reliance on strict rationing and mercenary forces has drawn criticism from the nobility, while his neutrality in the **Cast-Anor conflict** fuels rumors of hidden loyalties. Despite these challenges, Marlowe remains committed to keeping Oldhaven a sanctuary amidst the chaos.
+
+###  Elminster Aumar: President of the Council of Magical Universities
+![Elmister](images/Elmister.jpg)
+
+Elminster Aumar, known as **Elminster the Arcane**, serves as the **President of the Council of Magical Universities** in Anbennar. Renowned as one of the strongest mages in the realm, he is a unifying figure in magical academia and a staunch advocate for ethical magic use and innovation.
+
+#### Origins and Power
+Born in Damenohr, Elminster's tragic early life inspired his pursuit of justice and mastery of the arcane. Unlike traditional mages, he doesn't rely on spell formulas. Instead, he wields unmatched talent in manipulating mana, improvising spells on the spot by bending magic to his will. His innovative approach to magic solidifies his reputation as a living legend.
+
+#### Role and Vision
+As President, Elminster leads the coalition of magical universities, including the prestigious **Imperial Academy in Anbenncóst** and the **Tower of the Eightfold Eminence** on Adraíl. His vision emphasizes:
+- **Unity Through Education**: Fostering collaboration across Cannor’s magical institutions.
+- **Preservation of Heritage**: Safeguarding ancient artifacts and arcane knowledge.
+- **Ethical Advancement**: Promoting responsible research and innovation.
+
+#### Legacy
+Elminster’s unique mastery of magic and visionary leadership have made the Council of Magical Universities a beacon of progress. A symbol of innovation and unity, he strives to ensure that magic serves as a tool for enlightenment and peace in Anbennar.
+
+**"Magic is the canvas; the mind is the brush. Let no spell be bound by formula, for true art defies repetition."** – Elminster Aumar
