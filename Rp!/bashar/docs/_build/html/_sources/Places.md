@@ -18,17 +18,37 @@ these were codified into what is now known as the **Trial by Chivalry**.
 ---
 
 ## Countries
+
+### **Cast**
+The Kingdom of Cast emerged as a successor state to the Castanorian Empire following the War of the Sorcerer-King. After **Alex Roth**, a legendary hero, slew the Sorcerer-King of Castanor, the empire fractured, and Cast became the stronghold of the original royal family, claiming legitimacy as the rightful heir to the empire’s legacy.
+
+Centered in the fertile heartlands of Inner Castanor, Cast clung to traditions of divine right and imperial order. Its capital, **Brightspire**, symbolized the old empire’s grandeur, featuring the **Grand Castanorian Cathedral**, where kings were crowned.
+
+During the civil war with Anor, Cast maintained a rigid hierarchy, emphasizing the monarchy’s central authority. However, internal dissent and noble rivalries weakened its unity. The kingdom’s disciplined knights and the renowned **Castanorian Vanguard** upheld its military strength, fighting to restore the empire’s glory.
+
+---
+
+### **Anor**
+The Kingdom of Anor arose alongside Cast, forming a rival successor state after the Sorcerer-King’s fall. Rejecting the monarchy’s central authority, Anor was founded by powerful nobles advocating decentralized governance, claiming they were the true stewards of Castanorian ideals.
+
+The capital, **Goldvale**, became a thriving trade hub, home to the **Golden Exchange** and the **Hall of Lords**, where Anor’s nobility shaped policy. Anor’s leaders promoted shared power and regional autonomy, directly challenging Cast’s claim to imperial legitimacy.
+
+Anor relied heavily on mercenaries and adventurers, with alliances strengthening its flexibility on the battlefield. However, inconsistent loyalty among its forces often undermined its campaigns. The rivalry with Cast became a struggle not just for power, but for defining Castanor’s legacy—imperial monarchy versus noble autonomy.
+
+
 ### **Corintar**
 
 Founded shortly after **Corin's** death at the **Battle of Castonath**, the **Corintar order** was at first, simply one of many adventuring groups attempting to reclaim **Escann** from **The Greentide**.
 With the evangelizing efforts of **Dominic of Gallowspeak** and **Lothane**, **Corintar** became the center first of **Corin's** ascension to the **Regent Court pantheon** and later, 
 when **Castellos's** death was revealed during the **Age of Unraveling**, the center of the new **Corinite faith**.
 
+
+---
 ## Cities
 
 
 ### **Oldhaven**
-![Generasi](images/genrasi.webp)
+![Oldhaven](images/OldHaven.jpg)
 
 Located near the **Gate of Escann**, Oldhaven is a city of ancient origins now burdened by the challenges of war and survival. It is ruled by **Duke Marlowe Greystone**, whose authority is confined to the city and its immediate surroundings. Despite his limited power, Duke Greystone's leadership is critical as Oldhaven faces a growing influx of refugees fleeing orc invasions, compounding an already dire food shortage.
 
