@@ -1,0 +1,173 @@
+Traceback (most recent call last):
+  File "/home/mak/.conda/envs/UAV-2/lib/python3.12/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/mak/.local/lib/python3.12/site-packages/nbclient/client.py", line 1319, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mak/.local/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mak/.conda/envs/UAV-2/lib/python3.12/asyncio/base_events.py", line 685, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/mak/.local/lib/python3.12/site-packages/nbclient/client.py", line 709, in async_execute
+    await self.async_execute_cell(
+  File "/home/mak/.local/lib/python3.12/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/mak/.local/lib/python3.12/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+
+# Import custom functions
+def to_numpy2(transform):
+    return np.array([
+        transform.a, transform.b, transform.c,
+        transform.d, transform.e, transform.f,
+        0, 0, 1
+    ], dtype='float64').reshape((3, 3))
+
+def xy_np(transform, rows, cols, offset='center'):
+    if isinstance(rows, int) and isinstance(cols, int):
+        pts = np.array([[rows, cols, 1]]).T
+    else:
+        assert len(rows) == len(cols)
+        pts = np.ones((3, len(rows)), dtype=int)
+        pts[0] = rows
+        pts[1] = cols
+
+    if offset == 'center':
+        coff, roff = (0.5, 0.5)
+    elif offset == 'ul':
+        coff, roff = (0, 0)
+    elif offset == 'ur':
+        coff, roff = (1, 0)
+    elif offset == 'll':
+        coff, roff = (0, 1)
+    elif offset == 'lr':
+        coff, roff = (1, 1)
+    else:
+        raise ValueError("Invalid offset")
+
+    _transnp = to_numpy2(transform)
+    _translt = to_numpy2(transform.translation(coff, roff))
+    locs = _transnp @ _translt @ pts
+    return locs[0].tolist(), locs[1].tolist()
+
+# Original Code Function (Fixed)
+def original_code(transform, rows_flat, cols_flat):
+    res_dem = [
+        (transform * (col, row)) for row, col in tqdm(zip(rows_flat, cols_flat), total=len(rows_flat), desc="Original Code")
+    ]
+    x_coords, y_coords = zip(*res_dem)
+    return np.array(x_coords), np.array(y_coords)
+
+# Create a synthetic DEM-like array
+width, height = 1000, 1000  # Adjust size for testing
+dem_array = np.random.rand(height, width)
+
+# Define an affine transformation
+transform = from_origin(0, 10000, 1, -1)  # Origin (0, 10000), pixel size 1x1
+
+# Create a meshgrid of row and column indices
+rows, cols = np.indices(dem_array.shape)
+rows_flat = rows.ravel()
+cols_flat = cols.ravel()
+
+# Benchmarking with timeit
+print("\nRunning Benchmarks...")
+
+rasterio_time = timeit.timeit(
+    stmt="rio.transform.xy(transform, rows, cols, offset='center', precision=1)",
+    globals=globals(),
+    number=10
+) / 10
+
+custom_time = timeit.timeit(
+    stmt="xy_np(transform, rows_flat, cols_flat, offset='center')",
+    globals=globals(),
+    number=10
+) / 10
+
+original_time = timeit.timeit(
+    stmt="original_code(transform, rows_flat, cols_flat)",
+    globals=globals(),
+    number=10
+) / 10
+
+# Results
+print("\nBenchmark Results (average over 10 runs):")
+print(f"Rasterio transform.xy time: {rasterio_time:.4f} seconds")
+print(f"Custom xy_np time: {custom_time:.4f} seconds")
+print(f"Original code time: {original_time:.4f} seconds")
+
+# Validation of Results
+print("\nValidating Results...")
+x_coords_rasterio, y_coords_rasterio = rio.transform.xy(transform, rows, cols, offset='center', precision=1)
+x_coords_rasterio = np.array(x_coords_rasterio).ravel()
+y_coords_rasterio = np.array(y_coords_rasterio).ravel()
+
+x_coords_custom, y_coords_custom = xy_np(transform, rows_flat, cols_flat, offset='center')
+x_coords_original, y_coords_original = original_code(transform, rows_flat, cols_flat)
+
+x_diff_custom = np.max(np.abs(x_coords_rasterio - x_coords_custom))
+y_diff_custom = np.max(np.abs(y_coords_rasterio - y_coords_custom))
+x_diff_original = np.max(np.abs(x_coords_rasterio - x_coords_original))
+y_diff_original = np.max(np.abs(y_coords_rasterio - y_coords_original))
+
+print(f"Custom function - Max X difference: {x_diff_custom}, Max Y difference: {y_diff_custom}")
+print(f"Original code - Max X difference: {x_diff_original}, Max Y difference: {y_diff_original}")
+
+------------------
+
+----- stdout -----
+
+Running Benchmarks...
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+Cell [0;32mIn[2], line 71[0m
+[1;32m     59[0m rasterio_time [38;5;241m=[39m timeit[38;5;241m.[39mtimeit(
+[1;32m     60[0m     stmt[38;5;241m=[39m[38;5;124m"[39m[38;5;124mrio.transform.xy(transform, rows, cols, offset=[39m[38;5;124m'[39m[38;5;124mcenter[39m[38;5;124m'[39m[38;5;124m, precision=1)[39m[38;5;124m"[39m,
+[1;32m     61[0m     [38;5;28mglobals[39m[38;5;241m=[39m[38;5;28mglobals[39m(),
+[1;32m     62[0m     number[38;5;241m=[39m[38;5;241m10[39m
+[1;32m     63[0m ) [38;5;241m/[39m [38;5;241m10[39m
+[1;32m     65[0m custom_time [38;5;241m=[39m timeit[38;5;241m.[39mtimeit(
+[1;32m     66[0m     stmt[38;5;241m=[39m[38;5;124m"[39m[38;5;124mxy_np(transform, rows_flat, cols_flat, offset=[39m[38;5;124m'[39m[38;5;124mcenter[39m[38;5;124m'[39m[38;5;124m)[39m[38;5;124m"[39m,
+[1;32m     67[0m     [38;5;28mglobals[39m[38;5;241m=[39m[38;5;28mglobals[39m(),
+[1;32m     68[0m     number[38;5;241m=[39m[38;5;241m10[39m
+[1;32m     69[0m ) [38;5;241m/[39m [38;5;241m10[39m
+[0;32m---> 71[0m original_time [38;5;241m=[39m [43mtimeit[49m[38;5;241;43m.[39;49m[43mtimeit[49m[43m([49m
+[1;32m     72[0m [43m    [49m[43mstmt[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43moriginal_code(transform, rows_flat, cols_flat)[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m     73[0m [43m    [49m[38;5;28;43mglobals[39;49m[38;5;241;43m=[39;49m[38;5;28;43mglobals[39;49m[43m([49m[43m)[49m[43m,[49m
+[1;32m     74[0m [43m    [49m[43mnumber[49m[38;5;241;43m=[39;49m[38;5;241;43m10[39;49m
+[1;32m     75[0m [43m)[49m [38;5;241m/[39m [38;5;241m10[39m
+[1;32m     77[0m [38;5;66;03m# Results[39;00m
+[1;32m     78[0m [38;5;28mprint[39m([38;5;124m"[39m[38;5;130;01m\n[39;00m[38;5;124mBenchmark Results (average over 10 runs):[39m[38;5;124m"[39m)
+
+File [0;32m~/.conda/envs/UAV-2/lib/python3.12/timeit.py:237[0m, in [0;36mtimeit[0;34m(stmt, setup, timer, number, globals)[0m
+[1;32m    234[0m [38;5;28;01mdef[39;00m[38;5;250m [39m[38;5;21mtimeit[39m(stmt[38;5;241m=[39m[38;5;124m"[39m[38;5;124mpass[39m[38;5;124m"[39m, setup[38;5;241m=[39m[38;5;124m"[39m[38;5;124mpass[39m[38;5;124m"[39m, timer[38;5;241m=[39mdefault_timer,
+[1;32m    235[0m            number[38;5;241m=[39mdefault_number, [38;5;28mglobals[39m[38;5;241m=[39m[38;5;28;01mNone[39;00m):
+[1;32m    236[0m [38;5;250m    [39m[38;5;124;03m"""Convenience function to create Timer object and call timeit method."""[39;00m
+[0;32m--> 237[0m     [38;5;28;01mreturn[39;00m [43mTimer[49m[43m([49m[43mstmt[49m[43m,[49m[43m [49m[43msetup[49m[43m,[49m[43m [49m[43mtimer[49m[43m,[49m[43m [49m[38;5;28;43mglobals[39;49m[43m)[49m[38;5;241;43m.[39;49m[43mtimeit[49m[43m([49m[43mnumber[49m[43m)[49m
+
+File [0;32m~/.conda/envs/UAV-2/lib/python3.12/timeit.py:180[0m, in [0;36mTimer.timeit[0;34m(self, number)[0m
+[1;32m    178[0m gc[38;5;241m.[39mdisable()
+[1;32m    179[0m [38;5;28;01mtry[39;00m:
+[0;32m--> 180[0m     timing [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43minner[49m[43m([49m[43mit[49m[43m,[49m[43m [49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mtimer[49m[43m)[49m
+[1;32m    181[0m [38;5;28;01mfinally[39;00m:
+[1;32m    182[0m     [38;5;28;01mif[39;00m gcold:
+
+File [0;32m<timeit-src>:6[0m, in [0;36minner[0;34m(_it, _timer)[0m
+
+Cell [0;32mIn[2], line 39[0m, in [0;36moriginal_code[0;34m(transform, rows_flat, cols_flat)[0m
+[1;32m     37[0m [38;5;28;01mdef[39;00m[38;5;250m [39m[38;5;21moriginal_code[39m(transform, rows_flat, cols_flat):
+[1;32m     38[0m     res_dem [38;5;241m=[39m [
+[0;32m---> 39[0m         (transform [38;5;241m*[39m (col, row)) [38;5;28;01mfor[39;00m row, col [38;5;129;01min[39;00m [43mtqdm[49m([38;5;28mzip[39m(rows_flat, cols_flat), total[38;5;241m=[39m[38;5;28mlen[39m(rows_flat), desc[38;5;241m=[39m[38;5;124m"[39m[38;5;124mOriginal Code[39m[38;5;124m"[39m)
+[1;32m     40[0m     ]
+[1;32m     41[0m     x_coords, y_coords [38;5;241m=[39m [38;5;28mzip[39m([38;5;241m*[39mres_dem)
+[1;32m     42[0m     [38;5;28;01mreturn[39;00m np[38;5;241m.[39marray(x_coords), np[38;5;241m.[39marray(y_coords)
+
+[0;31mNameError[0m: name 'tqdm' is not defined
+

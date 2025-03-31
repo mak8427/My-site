@@ -1,0 +1,84 @@
+Traceback (most recent call last):
+  File "/home/mak/.conda/envs/UAV-2/lib/python3.12/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/mak/.local/lib/python3.12/site-packages/nbclient/client.py", line 1319, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mak/.local/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mak/.conda/envs/UAV-2/lib/python3.12/asyncio/base_events.py", line 685, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/mak/.local/lib/python3.12/site-packages/nbclient/client.py", line 709, in async_execute
+    await self.async_execute_cell(
+  File "/home/mak/.local/lib/python3.12/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/mak/.local/lib/python3.12/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+import polars as pl
+import pandas as pd
+import geopandas as gpd
+from shapely.geometry import Point
+import numpy as np
+# Path to the Parquet file
+file_path = r"D:\20241207_week5_products_uav_data\output\extract\20241029_week8_project_0_IMG_0002_6.tif.parquet"
+
+# Load the Parquet file into a Polars DataFrame
+df = pl.read_parquet(file_path)
+
+# Display the first few rows
+max(df["band2"])
+
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+Cell [0;32mIn[1], line 10[0m
+[1;32m      7[0m file_path [38;5;241m=[39m [38;5;124mr[39m[38;5;124m"[39m[38;5;124mD:[39m[38;5;124m\[39m[38;5;124m20241207_week5_products_uav_data[39m[38;5;124m\[39m[38;5;124moutput[39m[38;5;124m\[39m[38;5;124mextract[39m[38;5;124m\[39m[38;5;124m20241029_week8_project_0_IMG_0002_6.tif.parquet[39m[38;5;124m"[39m
+[1;32m      9[0m [38;5;66;03m# Load the Parquet file into a Polars DataFrame[39;00m
+[0;32m---> 10[0m df [38;5;241m=[39m [43mpl[49m[38;5;241;43m.[39;49m[43mread_parquet[49m[43m([49m[43mfile_path[49m[43m)[49m
+[1;32m     12[0m [38;5;66;03m# Display the first few rows[39;00m
+[1;32m     13[0m [38;5;28mmax[39m(df[[38;5;124m"[39m[38;5;124mband2[39m[38;5;124m"[39m])
+
+File [0;32m~/.conda/envs/UAV-2/lib/python3.12/site-packages/polars/_utils/deprecation.py:119[0m, in [0;36mdeprecate_renamed_parameter.<locals>.decorate.<locals>.wrapper[0;34m(*args, **kwargs)[0m
+[1;32m    114[0m [38;5;129m@wraps[39m(function)
+[1;32m    115[0m [38;5;28;01mdef[39;00m[38;5;250m [39m[38;5;21mwrapper[39m([38;5;241m*[39margs: P[38;5;241m.[39margs, [38;5;241m*[39m[38;5;241m*[39mkwargs: P[38;5;241m.[39mkwargs) [38;5;241m-[39m[38;5;241m>[39m T:
+[1;32m    116[0m     _rename_keyword_argument(
+[1;32m    117[0m         old_name, new_name, kwargs, function[38;5;241m.[39m[38;5;18m__qualname__[39m, version
+[1;32m    118[0m     )
+[0;32m--> 119[0m     [38;5;28;01mreturn[39;00m [43mfunction[49m[43m([49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
+
+File [0;32m~/.conda/envs/UAV-2/lib/python3.12/site-packages/polars/_utils/deprecation.py:119[0m, in [0;36mdeprecate_renamed_parameter.<locals>.decorate.<locals>.wrapper[0;34m(*args, **kwargs)[0m
+[1;32m    114[0m [38;5;129m@wraps[39m(function)
+[1;32m    115[0m [38;5;28;01mdef[39;00m[38;5;250m [39m[38;5;21mwrapper[39m([38;5;241m*[39margs: P[38;5;241m.[39margs, [38;5;241m*[39m[38;5;241m*[39mkwargs: P[38;5;241m.[39mkwargs) [38;5;241m-[39m[38;5;241m>[39m T:
+[1;32m    116[0m     _rename_keyword_argument(
+[1;32m    117[0m         old_name, new_name, kwargs, function[38;5;241m.[39m[38;5;18m__qualname__[39m, version
+[1;32m    118[0m     )
+[0;32m--> 119[0m     [38;5;28;01mreturn[39;00m [43mfunction[49m[43m([49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
+
+File [0;32m~/.conda/envs/UAV-2/lib/python3.12/site-packages/polars/io/parquet/functions.py:252[0m, in [0;36mread_parquet[0;34m(source, columns, n_rows, row_index_name, row_index_offset, parallel, use_statistics, hive_partitioning, glob, schema, hive_schema, try_parse_hive_dates, rechunk, low_memory, storage_options, credential_provider, retries, use_pyarrow, pyarrow_options, memory_map, include_file_paths, allow_missing_columns)[0m
+[1;32m    249[0m     [38;5;28;01melse[39;00m:
+[1;32m    250[0m         lf [38;5;241m=[39m lf[38;5;241m.[39mselect(columns)
+[0;32m--> 252[0m [38;5;28;01mreturn[39;00m [43mlf[49m[38;5;241;43m.[39;49m[43mcollect[49m[43m([49m[43m)[49m
+
+File [0;32m~/.conda/envs/UAV-2/lib/python3.12/site-packages/polars/_utils/deprecation.py:93[0m, in [0;36mdeprecate_streaming_parameter.<locals>.decorate.<locals>.wrapper[0;34m(*args, **kwargs)[0m
+[1;32m     89[0m         kwargs[[38;5;124m"[39m[38;5;124mengine[39m[38;5;124m"[39m] [38;5;241m=[39m [38;5;124m"[39m[38;5;124min-memory[39m[38;5;124m"[39m
+[1;32m     91[0m     [38;5;28;01mdel[39;00m kwargs[[38;5;124m"[39m[38;5;124mstreaming[39m[38;5;124m"[39m]
+[0;32m---> 93[0m [38;5;28;01mreturn[39;00m [43mfunction[49m[43m([49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
+
+File [0;32m~/.conda/envs/UAV-2/lib/python3.12/site-packages/polars/lazyframe/frame.py:2188[0m, in [0;36mLazyFrame.collect[0;34m(self, type_coercion, _type_check, predicate_pushdown, projection_pushdown, simplify_expression, slice_pushdown, comm_subplan_elim, comm_subexpr_elim, cluster_with_columns, collapse_joins, no_optimization, engine, background, _check_order, _eager, **_kwargs)[0m
+[1;32m   2186[0m [38;5;66;03m# Only for testing purposes[39;00m
+[1;32m   2187[0m callback [38;5;241m=[39m _kwargs[38;5;241m.[39mget([38;5;124m"[39m[38;5;124mpost_opt_callback[39m[38;5;124m"[39m, callback)
+[0;32m-> 2188[0m [38;5;28;01mreturn[39;00m wrap_df([43mldf[49m[38;5;241;43m.[39;49m[43mcollect[49m[43m([49m[43mengine[49m[43m,[49m[43m [49m[43mcallback[49m[43m)[49m)
+
+[0;31mFileNotFoundError[0m: No such file or directory (os error 2): ...7_week5_products_uav_data\output\extract\20241029_week8_project_0_IMG_0002_6.tif.parquet
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'sink'
+
+
