@@ -15,3 +15,8 @@ to escape the growing tensions in Cannor by establishing a refuge in the newly r
 Powerful, paranoid, and calculating, 
 Zorian now leads efforts to protect magically marked individuals like the player characters—believing they are key to the future, 
 and to something even darker lurking beneath the surface of the known world.
+
+
+## Arthus 
+Arthus is the village leader
+<img src="_images/Arthus.jpg" alt="Darwin" style="max-width: 100%;">

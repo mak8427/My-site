@@ -1,10 +1,7 @@
 # Npcs
 
-## Zorian kazinski
-
-<img src="_images/Zorian-AI1.webp" alt="Darwin" style="max-width: 100%;">
-
 ## **Zorian Kazinski – The Runed Exile**
+<img src="_images/Zorian-AI1.webp" alt="Darwin" style="max-width: 100%;">
 
 Zorian Kazinski is a half-elf mage of immense talent, originally born in western Dameria. 
 His family was wiped out during the final stages of the Lilac Wars, when Lorentish armies sacked his homeland. 
@@ -18,3 +15,8 @@ to escape the growing tensions in Cannor by establishing a refuge in the newly r
 Powerful, paranoid, and calculating, 
 Zorian now leads efforts to protect magically marked individuals like the player characters—believing they are key to the future, 
 and to something even darker lurking beneath the surface of the known world.
+
+
+## Arthus 
+Arthus is the village leader
+<img src="_images/Arthus.jpg" alt="Darwin" style="max-width: 100%;">
