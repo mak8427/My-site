@@ -1,9 +1,7 @@
 
 # Brave New World
 
-This story follows 1000 years after the events of *Mark of the Fool* (one of the greatest magic fantasy novels of all time) and follows the adventures of a party of four individuals: Kaelen Roths, Darwin Sagehorn, Anduril Wallace, and Edmund Wallace.
-
-
+the story of 4 adventurer
 
 
 
