@@ -1,10 +1,7 @@
 # Npcs
 
-## Zorian kazinski
-
-<img src="_images/Zorian-AI1.webp" alt="Darwin" style="max-width: 100%;">
-
 ## **Zorian Kazinski – The Runed Exile**
+<img src="_images/Zorian-AI1.webp" alt="Darwin" style="max-width: 100%;">
 
 Zorian Kazinski is a half-elf mage of immense talent, originally born in western Dameria. 
 His family was wiped out during the final stages of the Lilac Wars, when Lorentish armies sacked his homeland. 
