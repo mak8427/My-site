@@ -34,11 +34,8 @@
 - They teleport to the **southern reaches of Cannor**.
 - The group communicates with **Zorian Kazinski**, who reveals:
   - A secret organization is being formed to escape persecution.
-  - A golem is targeting individuals with Aelantir connections, abducting or killing them.
+  - The magisterium is targeting individuals with Aelantir connections, abducting or killing them.
   - Magic from Aelantir is a potential power source that corrupt forces want to exploit.
 - The party begins helping Zorian to organize a mass escape to **Aelantir**.
 - They start prepping ships and gathering goods to found a new settlement before they’re found again.
 
----
-
-Let me know if you want character-specific summaries or formatting for handouts/logs!

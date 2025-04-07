@@ -18,5 +18,5 @@ and to something even darker lurking beneath the surface of the known world.
 
 
 ## Arthus 
-Arthus is the village leader
 <img src="_images/Arthus.jpg" alt="Darwin" style="max-width: 100%;">
+Arthus is the village leader of the settlement escaped from Damesear to Neckeliffe 
