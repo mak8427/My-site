@@ -35,11 +35,9 @@ warnings—with them.
 ## Arthus
 
 <img src="_images/Arthus.jpg" alt="Arthus" style="height: 300px; object-fit: contain;">
+
 Arthus is the village leader of the settlement escaped from Damesear to Neckeliffe 
-
-
-Here's the additional character information formatted similarly to your current layout:
-
+we don't know much about him
 ---
 
 ## **Admiral Thaelon – The Watchful Navigator**
