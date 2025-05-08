@@ -2,7 +2,7 @@
 
 ## **Zorian Kazinski – The Runed Exile**
 
-<img src="_images/Zorian-AI1.webp" alt="Darwin" style="max-width: 100%;">
+<img src="_images/Zorian-AI1.webp" alt="Zorian Kazinski" style="height: 300px; object-fit: contain;">
 
 Zorian Kazinski is a half-elf mage of immense talent, originally from western Dameria. His life was shattered during the
 final stages of the **Lilac Wars**, when Lorentish forces razed his homeland and killed his family. In a moment of
@@ -34,7 +34,7 @@ warnings—with them.
 
 ## Arthus
 
-<img src="_images/Arthus.jpg" alt="Darwin" style="max-width: 100%;">
+<img src="_images/Arthus.jpg" alt="Arthus" style="height: 300px; object-fit: contain;">
 Arthus is the village leader of the settlement escaped from Damesear to Neckeliffe 
 
 
@@ -44,7 +44,7 @@ Here's the additional character information formatted similarly to your current 
 
 ## **Admiral Thaelon – The Watchful Navigator**
 
-<img src="_images/Thaelon.png" alt="Darwin" style="max-width: 100%;">
+<img src="_images/Thaelon.png" alt="Admiral Thaelon" style="height: 300px; object-fit: contain;">
 
 Admiral Thaelon Duskmere is the authoritative and pragmatic elven leader of Venail and a **low-ranking member of the
 covert organization** aiding magically marked individuals. Strategic and diplomatic, he urges the party to remain
@@ -62,7 +62,7 @@ the volatile path to the New World.
 
 ## **Small Jonas – The Insightful Rascal**
 
-<img src="_images/Small Jonas.png" alt="Darwin" style="max-width: 100%;">
+<img src="_images/Small Jonas.png" alt="Small Jonas" style="height: 300px; object-fit: contain;">
 
 Small Jonas is a talkative and occasionally irritating presence aboard the party’s ship, yet beneath his endless chatter
 lies perceptive insights. Despite his frequent annoyances, Jonas offers valuable advice concealed within his rambling
@@ -72,7 +72,7 @@ conversations, subtly guiding the group's decisions as they journey towards Aela
 
 ## **Swen – The Silent Protector**
 
-<img src="_images/Swen.jpg" alt="Darwin" style="max-width: 100%;">
+<img src="_images/Swen.jpg" alt="Swen" style="height: 300px; object-fit: contain;">
 
 Swen is a mysterious and reserved human aboard the ship, calling himself the protector. Skilled with the sword, he keeps
 largely to himself and rarely interacts directly with the party or other passengers. His motives and past remain
@@ -82,7 +82,7 @@ enigmatic, but his capability and reliability in times of danger make him an ess
 
 ## **William – The Shipwright Mage**
 
-<img src="_images/William.png" alt="Darwin" style="max-width: 100%;">
+<img src="_images/William.png" alt="William" style="height: 300px; object-fit: contain;">
 
 Paul is the skilled carpenter and shipbuilder working at Venail’s dockyard, tasked with reinforcing and preparing the
 party’s ship for their voyage across the ocean to the continent of Aelantir. Though not yet directly encountered by the
@@ -103,7 +103,7 @@ colony.
 
 ## **Elmisteer – Theoretical Mastermind**
 
-<img src="_images/Elminster_CLB_alt.webp" alt="Darwin" style="max-width: 100%;">
+<img src="_images/Elminster_CLB_alt.webp" alt="Elmisteer" style="height: 300px; object-fit: contain;">
 
 Elmisteer is an iconic mage, celebrated as one of the original founders of the Magisterium and revered for his
 unparalleled theoretical mastery of magic. Known for his extraordinary intellect and meticulous approach, Elmisteer has
