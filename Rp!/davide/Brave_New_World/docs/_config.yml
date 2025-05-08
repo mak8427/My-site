@@ -2,8 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Brave New World
-author: Davide Mattioli & Bashar (ThisHermit)
-logo: logo.png
+author: Davide Mattioli
+logo:
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
