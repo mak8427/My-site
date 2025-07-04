@@ -104,4 +104,28 @@
   .text-container {
     text-align: justify;
   }
+  .project-img {
+    width: 90%;                /* Scale down project images for small screens */
+    max-width: 250px;          /* Set a reasonable maximum size */
+    height: auto;              /* Maintain aspect ratio */
+  }
+  .image-link {
+    padding: 5px;              /* Reduce padding to save space */
+    margin: 5px;               /* Add small margin for spacing */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project-img {
+    width: 85%;                /* Even smaller on very small screens */
+    max-width: 200px;          /* Smaller maximum for tiny screens */
+    height: auto;              /* Maintain aspect ratio */
+  }
+  .image-link {
+    padding: 3px;              /* Minimal padding on very small screens */
+    margin: 3px;               /* Minimal margin for spacing */
+  }
+  .about-containers {
+    gap: 10px;                 /* Reduce gap between project items */
+  }
 }
