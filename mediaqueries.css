@@ -23,22 +23,21 @@
   .experience-details-container {
     margin-top: 2rem;
   }
-  /* Keep profile as flex but reduce gap and image size for tablets */
   #profile {
-    gap: 1rem; /* Further reduce gap to prevent text overlap */
-    padding: 0 2rem; /* Add horizontal padding */
+    gap: 2rem;
+    padding: 0 2rem;
   }
   .section__pic-container {
-    width: 280px; /* Further reduce from 300px */
-    height: 280px; /* Further reduce from 300px */
-    margin: auto 0;
+    width: 250px;
+    height: 250px;
+    margin: 0;
   }
   .section__pic-container img {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
   }
   .title {
-    font-size: 2.2rem; /* Smaller title to prevent overlap */
+    font-size: 2rem;
   }
   .arrow {
     display: none;
@@ -69,6 +68,7 @@
   #profile,
   .section-container {
     display: block;
+    height: auto;
   }
   .arrow {
     display: none;

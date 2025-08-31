@@ -30,16 +30,16 @@
 <nav id="hamburger-nav">
     <div class="logo">Davide Mattioli</div>
     <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+        <button class="hamburger-icon" aria-label="Toggle menu">
             <span></span>
             <span></span>
             <span></span>
-        </div>
+        </button>
         <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </div>
     </div>
 </nav>
@@ -54,11 +54,10 @@
         <div class="btn-container">
             <button
                     class="btn btn-color-2"
-                    onclick="window.open('./assets/CV.pdf')"
             >
                 Download CV
             </button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            <button class="btn btn-color-1">
                 Contact Info
             </button>
         </div>
@@ -67,13 +66,11 @@
                     src="./assets/linkedin.png"
                     alt="My LinkedIn profile"
                     class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/davide-mattioli-605ab41b3/'"
             />
             <img
                     src="./assets/github.png"
                     alt="My Github profile"
                     class="icon"
-                    onclick="location.href='https://github.com/mak8427'"
             />
         </div>
     </div>
@@ -130,7 +127,7 @@
             src="./assets/arrow.png"
             alt="Arrow icon"
             class="icon arrow"
-            onclick="location.href='./#experience'"
+            data-href="#experience"
     />
 </section>
 <section id="experience">
@@ -285,12 +282,12 @@
             src="./assets/arrow.png"
             alt="Arrow icon"
             class="icon arrow"
-            onclick="location.href='./#projects'"
+            data-href="#projects"
     />
 </section>
 <section id="projects">
     <p class="section__text__p1">Browse My </p>
-    <h1 class="title">Interests</h1>
+    <h1 class="title">Projects</h1>
     <div class="experience-details-container">
         <div class="about-containers">
             <a href="https://github.com/mak8427" class="image-link">
@@ -306,12 +303,11 @@
             </a>
         </div>
     </div>
-    </div>
     <img
             src="./assets/arrow.png"
             alt="Arrow icon"
             class="icon arrow"
-            onclick="location.href='./#contact'"
+            data-href="#contact"
     />
 </section>
 <section id="contact">

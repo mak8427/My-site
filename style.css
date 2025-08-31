@@ -1,24 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --secondary-text-color: rgb(85, 85, 85);
+  --primary-border-color: rgb(163, 163, 163);
+  --secondary-border-color: rgb(53, 53, 53);
+  --hover-bg-color: rgb(53, 53, 53);
+  --hover-text-color: white;
+  --project-card-bg: rgb(250, 250, 250);
+  --text-container-bg: #f9f9f9;
+  --text-container-strong-color: #0056b3;
+  --hamburger-icon-color: black;
+  --menu-links-bg-color: white;
+}
+
+body.dark-theme {
+    --bg-color: #1D1E22;
+    --text-color: white;
+    --secondary-text-color: #f5f5f5;
+    --primary-border-color: #555;
+    --secondary-border-color: #f5f5f5;
+    --hover-bg-color: #f5f5f5;
+    --hover-text-color: #333;
+    --project-card-bg: #333;
+    --text-container-bg: #2c2c2c;
+    --text-container-strong-color: #66a3ff;
+    --hamburger-icon-color: white;
+    --menu-links-bg-color: #333;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-        #themeToggleButton {
-            background-color: transparent;
-            color: inherit;
-            font-size: 24px;
-            cursor: pointer;
-            border: none;
-            transition: color 0.3s;
-        }
-    #themeToggleButton:hover {
-        color: #4CAF50;
-    }
+#themeToggleButton {
+    background-color: transparent;
+    color: inherit;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    transition: color 0.3s;
+}
+#themeToggleButton:hover {
+    color: #4CAF50;
+}
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 html {
@@ -26,11 +58,9 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: var(--secondary-text-color);
 }
-p.dark-theme {
-    color: #f5f5f5; /* Light color for dark theme */
-}
+
 /* TRANSITION */
 
 a,
@@ -58,13 +88,11 @@ nav {
 }
 
 a {
-    color: black;
+    color: var(--text-color);
     text-decoration: none;
     text-decoration-color: white;
 }
-a.dark-theme {
-    color: #f5f5f5; /* Light color for dark theme */
-}
+
 a:hover {
     color: #8c92ac;
     text-decoration: underline;
@@ -103,7 +131,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: var(--hamburger-icon-color);
     transition: all 0.3 ease-in-out;
 }
 
@@ -111,7 +139,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: var(--menu-links-bg-color);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -123,7 +151,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: var(--text-color);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -245,34 +273,17 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
-    background: white;
+    border: var(--secondary-border-color) 0.1rem solid;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 
 
 .btn-color-1:hover ,
 .btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white;
+    background: var(--hover-bg-color);
+    color: var(--hover-text-color);
     cursor: pointer;
-}
-
-
-
-.btn.dark-theme {
-    color: #f5f5f5; /* Light color for dark theme */
-}
-.btn-color-1.dark-theme,
-.btn-color-2.dark-theme {
-    border: #f5f5f5 0.1rem solid; /* Light border color for dark theme */
-    background: #333; /* Dark background for dark theme */
-    color: #f5f5f5; /* Light color for dark theme */
-}
-
-.btn-color-1.dark-theme:hover,
-.btn-color-2.dark-theme:hover {
-    background: #f5f5f5; /* Light background for hover state in dark theme */
-    color: #333; /* Dark color for hover state in dark theme */
 }
 
 .btn-container {
@@ -319,22 +330,14 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: var(--bg-color);
      flex-direction: column; /* Stack items vertically */
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border: var(--secondary-border-color) 0.1rem solid;
+    border-color: var(--primary-border-color);
     text-align: center;
 }
-.details-container-dark {
-    padding: 1.5rem;
-    flex: 1;
-    background: #333; /* Dark background */
-    border-radius: 2rem;
-    border: 0.1rem solid #555; /* Darker border for contrast */
-    color: #FFF; /* Light text color for readability */
-    text-align: center;
-}
+
 .section-container {
     gap: 4rem;
     height: 80%;
@@ -356,14 +359,12 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(85, 85, 85);
+    color: var(--secondary-text-color);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
-.experience-sub-title.dark-theme {
-    color: #f5f5f5; /* Light color for dark theme */
-}
+
 .experience-details-container {
     display: flex; /* Flexbox layout */
     justify-content: center; /* Center the items horizontally */
@@ -372,23 +373,18 @@ section {
     margin: 0 auto; /* Remove extra margins */
 }
 
-
-
-
-
 .article-container {
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
-    flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
     gap: 0.5rem;
 }
 
@@ -403,12 +399,8 @@ article .icon {
 }
 
 .color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
-}
-.color-container-dark {
-    border-color: #555; /* Darker border color */
-    background: #333; /* Darker background */
+    border-color: var(--primary-border-color);
+    background: var(--project-card-bg);
 }
 
 /* Enforce uniform image size */
@@ -462,9 +454,9 @@ article .icon {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    background: (250, 250, 250);
+    border: var(--secondary-border-color) 0.1rem solid;
+    border-color: var(--primary-border-color);
+    background: var(--project-card-bg);
     margin: 2rem auto;
     padding: 0.5rem;
 }
@@ -500,3 +492,28 @@ footer p {
     text-align: center;
 }
 
+.text-container {
+    margin-top: 20px; /* Add some space above the text */
+    padding: 15px; /* Add padding inside the container */
+    border: 1px solid var(--primary-border-color); /* Add a border */
+    border-radius: 8px; /* Round the corners */
+    background-color: var(--text-container-bg); /* Light background color */
+}
+
+.text-container h2 {
+    margin-bottom: 10px; /* Space below the heading */
+    color: var(--text-color); /* Darker color for the heading */
+}
+
+.text-container ul {
+    list-style-type: disc; /* Use disc for bullet points */
+    margin-left: 20px; /* Indent the list */
+}
+
+.text-container li {
+    margin-bottom: 8px; /* Space between list items */
+}
+
+.text-container strong {
+    color: var(--text-container-strong-color); /* Highlight strong text */
+}
