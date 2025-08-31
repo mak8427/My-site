@@ -53,9 +53,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadSections() {
         if (!mainContent) return;
+        const names = sections.slice();
         const results = await Promise.allSettled(
-            sections.map(name => fetch(`sections/${name}.html`).then(r => r.ok ? r.text() : Promise.reject(r.status)))
+            names.map(name => fetch(`sections/${name}.html`).then(r => r.ok ? r.text() : Promise.reject(r.status)))
         );
+        // Debug: log any missing sections
+        results.forEach((r, i) => {
+            if (r.status !== 'fulfilled') {
+                console.warn('[Sections] Failed to load', names[i], r.reason);
+            }
+        });
         const htmls = results
             .map(r => (r.status === 'fulfilled' ? r.value : ''))
             .filter(Boolean);
@@ -74,6 +81,12 @@ document.addEventListener('DOMContentLoaded', () => {
         bindHamburger();
         bindThemeToggle();
         initScrollProgress();
+
+        // Normalize vertical spacing between sections to avoid any visual crop/overlap
+        normalizeSectionSpacing(32); // ensure at least 32px between adjacent sections
+        window.addEventListener('resize', () => normalizeSectionSpacing(32));
+        window.addEventListener('load', () => normalizeSectionSpacing(32));
+        setTimeout(() => normalizeSectionSpacing(32), 100);
 
         // Optional dev checks
         try {
@@ -207,6 +220,30 @@ function initScrollProgress() {
     window.addEventListener('scroll', update, { passive: true });
     window.addEventListener('resize', update);
     setTimeout(update, 50);
+}
+
+// Ensure each section has at least `minGap` px gap from the previous one.
+// This dynamically compensates for absolute-positioned elements and varying content heights.
+function normalizeSectionSpacing(minGap = 24) {
+    const sections = Array.from(document.querySelectorAll('main section'));
+    if (!sections.length) return;
+    // Reset any previously applied margins to measure fresh
+    sections.forEach(s => { s.style.marginTop = ''; });
+    let prevBottom = null;
+    const scrollY = window.scrollY || window.pageYOffset || 0;
+    sections.forEach((sec, i) => {
+        const rect = sec.getBoundingClientRect();
+        const top = rect.top + scrollY;
+        const bottom = rect.bottom + scrollY;
+        if (prevBottom !== null) {
+            const needed = prevBottom + minGap - top;
+            if (needed > 0) {
+                // Apply only the extra needed spacing; preserve existing CSS margins implicitly
+                sec.style.marginTop = `${needed}px`;
+            }
+        }
+        prevBottom = Math.max(prevBottom === null ? -Infinity : prevBottom, bottom);
+    });
 }
 
 // Build layered gradient bands on the center timeline to proportionally map time ranges.
