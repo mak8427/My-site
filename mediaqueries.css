@@ -49,6 +49,10 @@
   section {
     margin: 0 5%;
   }
+  /* Stack About layout on medium screens */
+  #about .about-layout {
+    display: block;
+  }
   .about-containers {
     margin-top: 0;
   }
@@ -80,11 +84,18 @@
   section {
     margin: 0 5%;
   }
+  /* Stack About layout on small screens */
+  #about .about-layout {
+    display: block;
+  }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto 2rem;
   }
+  /* Smaller project portals on tablets */
+  #projects .project-img { width: 200px; height: 200px; }
+  #projects .image-link { padding: 4px; }
   .about-containers {
     margin-top: 0;
   }
@@ -144,6 +155,9 @@
   .title {
     font-size: 2rem;
   }
+  /* Even smaller portals on phones */
+  #projects .project-img { width: 160px; height: 160px; }
+  #projects .image-link { padding: 3px; }
   .text-container {
     text-align: justify;
   }
