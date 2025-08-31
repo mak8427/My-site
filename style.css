@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
   --bg-color: white;
@@ -13,10 +14,49 @@
   --text-container-strong-color: #0056b3;
   --hamburger-icon-color: black;
   --menu-links-bg-color: white;
+  /* Category accents */
+  --exp-accent: #4F46E5;  /* indigo */
+  --edu-accent: #059669;  /* emerald */
+  --vol-accent: #D97706;  /* amber */
+  /* Gold gradient palette for animated titles */
+  --gold-1: #FFF1B5;
+  --gold-2: #FFD367;
+  --gold-3: #E7B74A;
+  --gold-4: #C99A2E;
+  --gold-shadow: rgba(233, 185, 73, 0.35);
+  /* Title glow defaults (gold for Experience) */
+  --title-shadow: var(--gold-shadow);
+  --title-sheen-color: var(--gold-2);
+  /* Section title palettes */
+  --title-about-1: #C8FACC;
+  --title-about-2: #8FE78A;
+  --title-about-3: #4ED26F;
+  --title-about-4: #2EBF4F;
+  --title-technologies-1: #67E8F9;
+  --title-technologies-2: #22D3EE;
+  --title-technologies-3: #60A5FA;
+  --title-technologies-4: #3B82F6;
+  --title-projects-1: #F9A8D4;
+  --title-projects-2: #F472B6;
+  --title-projects-3: #FB7185;
+  --title-projects-4: #EC4899;
+  --title-publications-1: #A78BFA;
+  --title-publications-2: #8B5CF6;
+  --title-publications-3: #6366F1;
+  --title-publications-4: #4F46E5;
+  --title-contact-1: #5EEAD4;
+  --title-contact-2: #2DD4BF;
+  --title-contact-3: #14B8A6;
+  --title-contact-4: #06B6D4;
+  --title-profile-1: #93C5FD;
+  --title-profile-2: #60A5FA;
+  --title-profile-3: #818CF8;
+  --title-profile-4: #A78BFA;
 }
 
 body.dark-theme {
-    --bg-color: #1D1E22;
+    /* Slightly lighter charcoal */
+    --bg-color: #181A1F;
     --text-color: white;
     --secondary-text-color: #f5f5f5;
     --primary-border-color: #555;
@@ -28,6 +68,17 @@ body.dark-theme {
     --text-container-strong-color: #66a3ff;
     --hamburger-icon-color: white;
     --menu-links-bg-color: #333;
+    /* Keep category accents consistent in dark mode */
+    --exp-accent: #6366F1;
+    --edu-accent: #10B981;
+    --vol-accent: #F59E0B;
+    /* Slightly warmer golds in dark mode */
+    --gold-1: #FFE8A3;
+    --gold-2: #FFC44D;
+    --gold-3: #E0A73A;
+    --gold-4: #BD8C2A;
+    --gold-shadow: rgba(255, 196, 77, 0.28);
+    /* Optional: tweak section palettes for dark mode if desired */
 }
 
 * {
@@ -81,11 +132,77 @@ nav {
     height: 17vh;
 }
 
+/* Top navs scroll normally (not sticky) */
+#desktop-nav, #hamburger-nav { position: static; }
+
 .nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
 }
+
+/* Active link highlight */
+.nav-links a.active {
+    color: var(--nav-accent, var(--text-container-strong-color));
+}
+
+/* Developer-style bracket hover effect (desktop, mobile, footer) */
+.nav-links a,
+#hamburger-nav .menu-links a,
+footer .nav-links a {
+    position: relative;
+    display: inline-block;
+    line-height: 1.2;
+    padding-left: 1.1ch;  /* reserve space for '<' */
+    padding-right: 1ch; /* reserve space for '>' */
+}
+.nav-links a::before,
+.nav-links a::after,
+#hamburger-nav .menu-links a::before,
+#hamburger-nav .menu-links a::after,
+footer .nav-links a::before,
+footer .nav-links a::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(0.9);
+    opacity: 0;
+    color: var(--nav-accent, var(--text-container-strong-color));
+    font-family: var(--code-font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-weight: 600;
+    transition: transform 180ms ease, opacity 160ms ease;
+    pointer-events: none;
+}
+.nav-links a::before,
+#hamburger-nav .menu-links a::before,
+footer .nav-links a::before { content: '<'; left: 0; }
+.nav-links a::after,
+#hamburger-nav .menu-links a::after,
+footer .nav-links a::after  { content: '>'; right: 0; left: auto; }
+.nav-links a:hover::before,
+.nav-links a:focus-visible::before,
+.nav-links a.active::before,
+.nav-links a:hover::after,
+.nav-links a:focus-visible::after,
+.nav-links a.active::after,
+#hamburger-nav .menu-links a:hover::before,
+#hamburger-nav .menu-links a:focus-visible::before,
+#hamburger-nav .menu-links a.active::before,
+#hamburger-nav .menu-links a:hover::after,
+#hamburger-nav .menu-links a:focus-visible::after,
+#hamburger-nav .menu-links a.active::after,
+footer .nav-links a:hover::before,
+footer .nav-links a:focus-visible::before,
+footer .nav-links a.active::before,
+footer .nav-links a:hover::after,
+footer .nav-links a:focus-visible::after,
+footer .nav-links a.active::after {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+}
+
+/* Hide nav indicator until positioned */
+#nav-indicator { opacity: 0; }
+#desktop-nav.indicator-ready #nav-indicator { opacity: 1; }
 
 a {
     color: var(--text-color);
@@ -98,6 +215,19 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
+}
+
+/* Override global hover underline for nav links */
+#desktop-nav .nav-links a:hover,
+#desktop-nav .nav-links a:focus-visible,
+#hamburger-nav .menu-links a:hover,
+#hamburger-nav .menu-links a:focus-visible,
+footer .nav-links a:hover,
+footer .nav-links a:focus-visible {
+    color: var(--text-color);
+    text-decoration: none;
+    text-underline-offset: 0;
+    text-decoration-color: transparent;
 }
 
 .logo {
@@ -126,6 +256,8 @@ a:hover {
     height: 24px;
     width: 30px;
     cursor: pointer;
+    background: transparent;
+    border: none;
 }
 
 .hamburger-icon span {
@@ -144,7 +276,16 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    z-index: 1100;
+    border: 1px solid var(--primary-border-color);
+    border-radius: 10px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    transform-origin: top right;
+    transform: scaleY(0.96);
+    opacity: 0.98;
 }
+
+.menu-links ul { margin: 0; padding: 0; }
 
 .menu-links a {
     display: block;
@@ -161,7 +302,8 @@ a:hover {
 }
 
 .menu-links.open {
-    max-height: 300px;
+    max-height: 340px;
+    transform: scaleY(1);
 }
 
 .hamburger-icon.open span:first-child {
@@ -191,12 +333,33 @@ a:hover {
 /* SECTIONS */
 
 section {
+    position: relative; /* scope absolutely positioned children like .arrow */
     padding-top: 4vh;
-    height: 96vh;
+    min-height: 96vh; /* allow content to grow without clipping */
+    height: auto;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
 }
+
+/* Make Publications and Projects more compact */
+#publications,
+#projects {
+  min-height: auto;
+  padding-top: 2vh;
+  padding-bottom: 8vh; /* add extra space below to avoid visual clash */
+}
+
+#publications .title,
+#projects .title {
+  font-size: 2.25rem;
+}
+
+#publications .experience-details-container .details-container {
+  padding: 1rem;
+}
+
+#publications .experience-sub-title { font-size: 1.25rem; }
+#publications h3 { font-size: 1rem; }
 
 .section-container {
     display: flex;
@@ -207,6 +370,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5rem;
     height: 80vh;
 }
@@ -239,6 +403,19 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    background-image:
+      linear-gradient(-45deg, var(--gold-1), var(--gold-2), var(--gold-3), var(--gold-4)), /* base */
+      linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%); /* stronger, narrower sheen */
+    background-size: 100% 100%, 300% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 0%, -200% 0%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: gold-sheen 12s linear infinite; /* clear left-to-right */
+    text-shadow: 0 2px 14px var(--title-shadow), 0 0 18px color-mix(in srgb, var(--title-sheen-color) 50%, transparent);
+    will-change: background-position;
 }
 
 #socials-container {
@@ -253,6 +430,37 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+
+/* Scroll progress bar */
+#scroll-progress {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    width: 0%;
+    z-index: 1200;
+    background: linear-gradient(90deg,
+      color-mix(in srgb, var(--nav-accent, var(--text-container-strong-color)) 85%, white),
+      var(--nav-accent, var(--text-container-strong-color)));
+    box-shadow: 0 2px 8px color-mix(in srgb, var(--nav-accent, #66a3ff) 40%, transparent);
+    transition: width 0.15s ease-out;
+}
+
+/* Dynamic nav indicator (desktop) */
+#desktop-nav {
+    position: relative;
+}
+#nav-indicator {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    height: 4px;
+    width: var(--nav-indicator-w, 0px);
+    transform: translateX(var(--nav-indicator-x, 0px));
+    background: linear-gradient(90deg, var(--nav-accent, var(--text-container-strong-color)), color-mix(in srgb, var(--nav-accent, #66a3ff) 60%, white));
+    border-radius: 999px;
+    transition: transform 250ms cubic-bezier(.2,.8,.2,1), width 250ms cubic-bezier(.2,.8,.2,1), background 200ms linear;
+    pointer-events: none;
 }
 
 /* BUTTONS */
@@ -273,17 +481,18 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: var(--secondary-border-color) 0.1rem solid;
+    border: 1px solid var(--primary-border-color);
     background: var(--bg-color);
     color: var(--text-color);
+    transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
 }
 
-
-.btn-color-1:hover ,
+.btn-color-1:hover,
 .btn-color-2:hover {
-    background: var(--hover-bg-color);
-    color: var(--hover-text-color);
     cursor: pointer;
+    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--text-container-strong-color) 50%, var(--primary-border-color));
+    box-shadow: 0 8px 20px color-mix(in srgb, var(--text-container-strong-color) 20%, transparent);
 }
 
 .btn-container {
@@ -294,6 +503,94 @@ section {
 
 #about {
     position: relative;
+}
+
+/* Section accent mapping for nav/indicator to pick up */
+#about { --section-accent: var(--text-container-strong-color); }
+#experience { --section-accent: var(--exp-accent); }
+#technologies { --section-accent: var(--edu-accent); }
+#projects { --section-accent: var(--vol-accent); }
+#publications { --section-accent: var(--edu-accent); }
+#contact { --section-accent: var(--text-container-strong-color); }
+
+#about {
+    font-family: "Inter", "Poppins", system-ui, -apple-system, sans-serif;
+}
+
+/* Make About more compact vertically */
+#about {
+    min-height: auto;
+    padding-top: 3vh;      /* a little more breathing room */
+    padding-bottom: 6vh;
+}
+
+/* New two-column layout for About */
+.about-layout {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 1.5rem;   /* slightly wider gap */
+    align-items: stretch;
+}
+
+/* Single-column variant when cards are removed */
+.about-layout.single {
+    grid-template-columns: 1fr;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* About hero (headline + tagline + chips) */
+.about-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.about-headline {
+    font-size: 1.9rem;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.about-tagline {
+    font-size: 1.1rem;
+    line-height: 1.7; /* a touch more spacing */
+    color: var(--secondary-text-color);
+}
+
+.pill-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.pill {
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    border: 1px solid color-mix(in srgb, var(--exp-accent) 35%, var(--primary-border-color));
+    background: linear-gradient(90deg,
+      color-mix(in srgb, var(--exp-accent) 12%, var(--text-container-bg)) 0%,
+      color-mix(in srgb, var(--edu-accent) 12%, var(--text-container-bg)) 100%);
+}
+
+.about-cta { display: flex; gap: 0.75rem; }
+
+#about .title {
+    font-weight: 700;
+}
+
+/* Subtle gradient polish for the About section */
+#about .gradient-text {
+    background: linear-gradient(90deg, var(--exp-accent), var(--edu-accent), var(--vol-accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Ensure extra breathing room below experience to avoid visual overlap */
+#experience {
+    padding-bottom: 4rem;
 }
 
 .about-containers {
@@ -336,6 +633,22 @@ section {
     border: var(--secondary-border-color) 0.1rem solid;
     border-color: var(--primary-border-color);
     text-align: center;
+}
+
+/* Only enhance About cards with a soft gradient, keep others unchanged */
+#about .details-container {
+    background: linear-gradient(180deg,
+        color-mix(in srgb, var(--exp-accent) 8%, var(--bg-color)) 0%,
+        color-mix(in srgb, var(--edu-accent) 8%, var(--bg-color)) 50%,
+        color-mix(in srgb, var(--vol-accent) 8%, var(--bg-color)) 100%);
+    border-color: color-mix(in srgb, var(--exp-accent) 35%, var(--primary-border-color));
+    box-shadow: 0 10px 20px color-mix(in srgb, var(--exp-accent) 15%, transparent);
+}
+
+/* Stack the cards on the right in a single column */
+#about .about-cards .about-containers {
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .section-container {
@@ -413,18 +726,23 @@ article .icon {
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth hover effect */
 }
 
+/* Slightly smaller, tighter portals for Projects */
+#projects .image-link { padding: 6px; border: none; background: transparent; box-shadow: 0 6px 18px rgba(0,0,0,0.12); border-radius: 16px; }
+#projects .project-img { width: 240px; height: 240px; border-radius: 16px; }
+#projects .about-containers { gap: 0.75rem; }
+
 .image-link {
     display: inline-block; /* Ensure proper layout */
     padding: 10px; /* Add padding around images */
-    border: 2px solid #FFFFFF; /* Add a border for a button effect */
+    border: none; /* remove hard edge */
     border-radius: 12px; /* Match image border radius */
     overflow: hidden; /* Prevent content overflow */
     transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
 }
 
-.image-link:hover {
-    border-color: #0056b3; /* Change border color on hover */
-    transform: scale(1.05); /* Slightly enlarge the image link on hover */
+#projects .image-link:hover {
+    transform: translateY(-4px) scale(1.06); /* grow without ring */
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25);
 }
 .Efficient-frontier-img {
     border-radius: 2rem;
@@ -447,39 +765,93 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    min-height: auto;         /* keep compact like Projects/Publications */
+    padding-top: 3vh;
+    padding-bottom: 8vh;      /* add breathing room before footer */
 }
 
-.contact-info-upper-container {
-    display: flex;
-    justify-content: center;
-    border-radius: 2rem;
-    border: var(--secondary-border-color) 0.1rem solid;
-    border-color: var(--primary-border-color);
-    background: var(--project-card-bg);
+/* Soft section-wide shader using the Contact title green */
+.contact-grid::before { display: none; }
+
+/* New contact grid */
+/* Panel with gradient background containing the contact cards */
+.contact-panel {
+    position: relative; /* float above section shader */
+    z-index: 1;
+    max-width: 960px;
     margin: 2rem auto;
-    padding: 0.5rem;
+    padding: 1.25rem;
+    border-radius: 16px;
+    background: var(--bg-color);
+    border: none; /* remove outer edge */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10);
 }
 
-.contact-info-container {
-    display: flex;
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 320px));
+    gap: 1.25rem;
+    margin: 0; /* inside the panel */
+    justify-content: center; /* center columns when extra space */
+    padding: 1rem; /* show shader padding */
+    border-radius: 14px;
+    background: linear-gradient(135deg,
+      color-mix(in srgb, var(--title-contact-1) 28%, transparent) 0%,
+      color-mix(in srgb, var(--title-contact-3) 28%, transparent) 100%);
+    border: none; /* remove outer edge */
+}
+
+.contact-card {
+    display: grid;
+    grid-template-columns: 56px 1fr;
     align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: 1rem;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+    border-radius: 14px;
+    background: var(--text-container-bg);
+    border: 1px solid var(--primary-border-color);
+    color: var(--text-color);
+    text-decoration: none;
+    transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease, background-color 200ms ease;
+    width: 100%;
 }
 
-.contact-info-container p {
-    font-size: larger;
+.contact-card:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--title-contact-2) 40%, var(--primary-border-color));
+    box-shadow: 0 12px 24px rgba(0,0,0,0.16);
+    background-color: color-mix(in srgb, var(--title-contact-1) 6%, var(--text-container-bg));
 }
 
-.contact-icon {
-    cursor: default;
+.dark-theme .contact-card:hover { box-shadow: 0 14px 32px rgba(0,0,0,0.35); }
+
+.contact-icon-wrap {
+    width: 56px; height: 56px;
+    display: grid; place-items: center;
+    border-radius: 12px;
+    background: linear-gradient(180deg,
+        color-mix(in srgb, var(--icon-color, var(--title-contact-2)) 20%, var(--bg-color)) 0%,
+        color-mix(in srgb, var(--icon-color, var(--title-contact-2)) 8%, var(--bg-color)) 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15);
 }
 
-.email-icon {
-    height: 2.5rem;
+.contact-svg { width: 28px; height: 28px; display: block; color: #fff; }
+
+.contact-label { font-size: 1rem; }
+
+/* SVG hover animations */
+/* No stroke-draw; keep a smooth, upscale feel */
+.contact-card:hover .contact-icon-wrap { transform: scale(1.06); }
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-card:hover { transform: none; box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
+  .contact-card:hover .contact-icon-wrap { transform: none; }
 }
+
+/* Per-card icon colors */
+.contact-card.email    { --icon-color: #F59E0B; }
+.contact-card.linkedin { --icon-color: #0A66C2; }
+.contact-card.github   { --icon-color: #181717; }
 
 /* FOOTER SECTION */
 
@@ -500,6 +872,22 @@ footer p {
     background-color: var(--text-container-bg); /* Light background color */
 }
 
+/* Gradient background just for the About blurb */
+#about .text-container {
+    margin-top: 10px;
+    padding: 14px;
+    background: linear-gradient(180deg,
+        color-mix(in srgb, var(--exp-accent) 6%, var(--text-container-bg)) 0%,
+        color-mix(in srgb, var(--edu-accent) 6%, var(--text-container-bg)) 100%);
+    border-color: color-mix(in srgb, var(--edu-accent) 30%, var(--primary-border-color));
+    box-shadow: 0 8px 16px color-mix(in srgb, var(--edu-accent) 12%, transparent);
+}
+
+/* Light icon glow to match the gradient theme */
+#about .icon {
+    filter: drop-shadow(0 2px 6px color-mix(in srgb, var(--exp-accent) 25%, transparent));
+}
+
 .text-container h2 {
     margin-bottom: 10px; /* Space below the heading */
     color: var(--text-color); /* Darker color for the heading */
@@ -517,3 +905,599 @@ footer p {
 .text-container strong {
     color: var(--text-container-strong-color); /* Highlight strong text */
 }
+
+/* TIMELINE SECTION */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Center line slight left shift for visual balance */
+    --center-shift: -8px; /* negative = move line left */
+}
+
+.timeline-row {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    column-gap: 40px; /* bring cards closer to the center line */
+    margin: 30px 0; /* row spacing so paired items share the same vertical band */
+}
+
+/* Stack multiple right-side items within a row */
+.timeline-stack {
+    grid-column: 2;
+    display: grid;
+    gap: 24px;
+}
+
+/* Ensure items in a row share the same baseline and don't offset horizontally */
+.timeline-row .timeline-item {
+    width: auto;
+    left: auto;
+}
+.timeline-row .left,
+.timeline-row .right {
+    left: auto;
+}
+.timeline-row .left { grid-column: 1; }
+.timeline-row .right { grid-column: 2; }
+
+/* Soft glow highlight at the top of the center line */
+/* Remove top glow/shade over the timeline line */
+.timeline::before { display: none; }
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    /* Colored bands along the line using generated gradients */
+    background: var(--timeline-bg, var(--primary-border-color));
+    top: 0;
+    bottom: 0;
+    left: calc(50% + var(--center-shift));
+    margin-left: -3px;
+}
+
+/* Year ticks along the center line */
+.timeline-ticks {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(50% + var(--center-shift) - 3px); /* align to the 6px line */
+    width: 0;
+    pointer-events: none;
+    z-index: 0; /* behind dots, in front of base line */
+}
+.timeline-tick {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0; height: 0; /* no dot */
+}
+
+/* Midpoint month markers per item */
+.timeline-midpoints {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(50% + var(--center-shift) - 3px);
+    width: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+.timeline-mid {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.timeline-mid .label {
+    position: relative;
+    left: 10px;
+    font-size: 0.7rem;
+    color: var(--secondary-text-color);
+    white-space: nowrap;
+}
+@media screen and (max-width: 600px) {
+  .timeline-midpoints {
+    left: 31px;
+  }
+  .timeline-mid {
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  .timeline-mid .label { left: 12px; }
+}
+.timeline-tick .label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 0.75rem;
+    color: var(--secondary-text-color);
+    white-space: nowrap;
+}
+
+.timeline-item {
+    padding: 10px 0; /* no side padding: center alignment via grid gap only */
+    position: relative;
+    background-color: inherit;
+    width: auto;
+    box-sizing: border-box;
+}
+
+/* Disable old item-based dots to avoid misalignment */
+.timeline-item::after { content: none; display: none; }
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+/* Positioning for the dot on the left item */
+/* No per-item dots anymore */
+
+/* Remove old in-card arrows */
+.left::before,
+.right::before { content: none; }
+
+.timeline-content {
+    padding: 20px 30px;
+    background-color: var(--text-container-bg);
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid var(--primary-border-color);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+/* spacing handled by grid gap; keep tight to center line */
+.timeline-item.left .timeline-content { margin-right: 0; }
+.timeline-item.right .timeline-content { margin-left: 0; }
+
+/* Decorative top gradient bar on cards */
+.timeline-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.timeline-content h2 {
+    font-size: 1.5rem;
+    color: var(--text-container-strong-color);
+}
+
+.timeline-content h3 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-top: 5px;
+}
+
+.timeline-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.timeline-content ul li {
+    margin-bottom: 5px;
+    color: var(--secondary-text-color);
+    text-align: left;
+}
+
+/* Emphasis inside timeline content */
+.timeline-content strong {
+  color: var(--text-color);
+}
+
+/* Category badges */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  margin-bottom: 8px;
+}
+.badge--experience { color: var(--exp-accent); background: color-mix(in srgb, var(--exp-accent) 8%, transparent); }
+.badge--education  { color: var(--edu-accent); background: color-mix(in srgb, var(--edu-accent) 8%, transparent); }
+.badge--volunteering{ color: var(--vol-accent); background: color-mix(in srgb, var(--vol-accent) 8%, transparent); }
+
+/* Date chips rendered inside cards */
+.date-chip {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 0.72rem;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  vertical-align: middle;
+}
+.timeline-item.is-experience .date-chip {
+  color: var(--exp-accent);
+  background: color-mix(in srgb, var(--exp-accent) 10%, transparent);
+}
+.timeline-item.is-education .date-chip {
+  color: var(--edu-accent);
+  background: color-mix(in srgb, var(--edu-accent) 10%, transparent);
+}
+.timeline-item.is-volunteering .date-chip {
+  color: var(--vol-accent);
+  background: color-mix(in srgb, var(--vol-accent) 10%, transparent);
+}
+
+/* Category color theming: dots, connectors, and card shading */
+.timeline-item.is-experience::after {
+  border-color: var(--exp-accent);
+}
+.timeline-item.is-education::after {
+  border-color: var(--edu-accent);
+}
+.timeline-item.is-volunteering::after {
+  border-color: var(--vol-accent);
+}
+
+.timeline-item.is-experience .timeline-content {
+    border-color: color-mix(in srgb, var(--exp-accent) 40%, var(--primary-border-color));
+    background: linear-gradient(180deg,
+        color-mix(in srgb, var(--exp-accent) 10%, var(--text-container-bg)) 0%,
+        color-mix(in srgb, var(--exp-accent) 4%, var(--text-container-bg)) 100%);
+    box-shadow: 0 8px 18px color-mix(in srgb, var(--exp-accent) 18%, transparent);
+}
+.timeline-item.is-experience .timeline-content::before {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--exp-accent) 70%, white) 0%, transparent 70%);
+}
+.timeline-item.is-education .timeline-content {
+    border-color: color-mix(in srgb, var(--edu-accent) 40%, var(--primary-border-color));
+    background: linear-gradient(180deg,
+        color-mix(in srgb, var(--edu-accent) 10%, var(--text-container-bg)) 0%,
+        color-mix(in srgb, var(--edu-accent) 4%, var(--text-container-bg)) 100%);
+    box-shadow: 0 8px 18px color-mix(in srgb, var(--edu-accent) 18%, transparent);
+}
+.timeline-item.is-education .timeline-content::before {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--edu-accent) 70%, white) 0%, transparent 70%);
+}
+.timeline-item.is-volunteering .timeline-content {
+    border-color: color-mix(in srgb, var(--vol-accent) 40%, var(--primary-border-color));
+    background: linear-gradient(180deg,
+        color-mix(in srgb, var(--vol-accent) 10%, var(--text-container-bg)) 0%,
+        color-mix(in srgb, var(--vol-accent) 4%, var(--text-container-bg)) 100%);
+    box-shadow: 0 8px 18px color-mix(in srgb, var(--vol-accent) 18%, transparent);
+}
+.timeline-item.is-volunteering .timeline-content::before {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--vol-accent) 70%, white) 0%, transparent 70%);
+}
+
+/* Category-driven text accents inside cards */
+/* Headings and links adopt the category accent; body text stays readable. */
+.timeline-item.is-experience .timeline-content h2,
+.timeline-item.is-experience .timeline-content a {
+  color: var(--exp-accent);
+}
+.timeline-item.is-education .timeline-content h2,
+.timeline-item.is-education .timeline-content a {
+  color: var(--edu-accent);
+}
+.timeline-item.is-volunteering .timeline-content h2,
+.timeline-item.is-volunteering .timeline-content a {
+  color: var(--vol-accent);
+}
+/* Emphasis and list markers pick up the accent subtly */
+.timeline-item.is-experience .timeline-content strong { color: color-mix(in srgb, var(--exp-accent) 85%, var(--text-color)); }
+.timeline-item.is-education  .timeline-content strong { color: color-mix(in srgb, var(--edu-accent) 85%, var(--text-color)); }
+.timeline-item.is-volunteering .timeline-content strong { color: color-mix(in srgb, var(--vol-accent) 85%, var(--text-color)); }
+.timeline-item.is-experience .timeline-content li::marker { color: var(--exp-accent); }
+.timeline-item.is-education  .timeline-content li::marker { color: var(--edu-accent); }
+.timeline-item.is-volunteering .timeline-content li::marker { color: var(--vol-accent); }
+
+/* Connector arrows per category */
+/* New arrows attached to the card, pointing to the center line */
+.timeline-item.left .timeline-content::after,
+.timeline-item.right .timeline-content::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    width: 0; height: 0;
+    z-index: 2; /* above the timeline line */
+}
+.timeline-item.left .timeline-content::after {
+    right: -10px; /* place outside the card */
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent var(--primary-border-color);
+}
+.timeline-item.right .timeline-content::after {
+    left: -10px; /* place outside the card */
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--primary-border-color) transparent transparent;
+}
+/* Per-category arrow tint */
+.timeline-item.is-experience.left .timeline-content::after {
+    border-left-color: color-mix(in srgb, var(--exp-accent) 40%, var(--primary-border-color));
+}
+.timeline-item.is-experience.right .timeline-content::after {
+    border-right-color: color-mix(in srgb, var(--exp-accent) 40%, var(--primary-border-color));
+}
+.timeline-item.is-education.left .timeline-content::after {
+    border-left-color: color-mix(in srgb, var(--edu-accent) 40%, var(--primary-border-color));
+}
+.timeline-item.is-education.right .timeline-content::after {
+    border-right-color: color-mix(in srgb, var(--edu-accent) 40%, var(--primary-border-color));
+}
+.timeline-item.is-volunteering.left .timeline-content::after {
+    border-left-color: color-mix(in srgb, var(--vol-accent) 40%, var(--primary-border-color));
+}
+.timeline-item.is-volunteering.right .timeline-content::after {
+    border-right-color: color-mix(in srgb, var(--vol-accent) 40%, var(--primary-border-color));
+}
+
+/* Fine-tune horizontal spacing by category (desktop/tablet only) */
+@media screen and (min-width: 601px) {
+  /* Move Education a bit further left (more space from center line) */
+  .timeline-item.left.is-education .timeline-content {
+    margin-right: 18px; /* more breathing room from center */
+  }
+  /* Pull Experience closer to the timeline (match Volunteering alignment) */
+  .timeline-item.right.is-experience .timeline-content {
+    margin-left: -14px;
+  }
+}
+
+/* Date-range highlight strips positioned on the center line at each item */
+.timeline-strip {
+    position: absolute;
+    top: 4px; /* near the dot */
+    height: 14px;
+    padding: 0 10px;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    line-height: 14px;
+    color: white;
+    z-index: 2;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.left .timeline-strip {
+    right: -3px; /* center line is at the right edge */
+    transform: translateX(50%);
+}
+
+/* Row-centered dot (replaces per-item dot) */
+/* Hide legacy row dots; we'll render per-item dots via JS */
+#experience .timeline-row > .timeline-dot { display: none; }
+.right .timeline-strip {
+    left: -3px; /* center line is at the left edge */
+    transform: translateX(-50%);
+}
+.timeline-strip.edu-range {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--edu-accent) 70%, black), color-mix(in srgb, var(--edu-accent) 50%, white));
+    box-shadow: 0 0 12px color-mix(in srgb, var(--edu-accent) 40%, transparent);
+}
+.timeline-strip.exp-range {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--exp-accent) 70%, black), color-mix(in srgb, var(--exp-accent) 50%, white));
+    box-shadow: 0 0 12px color-mix(in srgb, var(--exp-accent) 40%, transparent);
+}
+.timeline-strip.vol-range {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--vol-accent) 70%, black), color-mix(in srgb, var(--vol-accent) 50%, white));
+    box-shadow: 0 0 12px color-mix(in srgb, var(--vol-accent) 40%, transparent);
+}
+
+/* Per-item dots placed on the center line to match arrow tips */
+.timeline-item-dot {
+    position: absolute;
+    left: calc(50% + var(--center-shift));
+    width: 18px;
+    height: 18px;
+    background-color: var(--bg-color);
+    border: 4px solid var(--primary-border-color);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.timeline-item-dot.dot--experience { border-color: var(--exp-accent); }
+.timeline-item-dot.dot--education  { border-color: var(--edu-accent); }
+.timeline-item-dot.dot--volunteering { border-color: var(--vol-accent); }
+
+@media screen and (max-width: 600px) {
+    .timeline-row {
+        display: block;
+    }
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Hide arrows on mobile for a cleaner stacked view */
+    .timeline-item::before { content: none; }
+    .timeline-item .timeline-content::after { display: none; }
+
+    .left::after, .right::after {
+        left: 31px;
+        margin-left: -17px;
+        margin-right: 0;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    /* Place highlight strips over the single-side line on mobile */
+    .timeline-strip,
+    .left .timeline-strip,
+    .right .timeline-strip {
+        left: 31px;
+        right: auto;
+        transform: translateX(-50%);
+    }
+
+    .timeline-dot {
+        left: 31px;
+        transform: translate(-50%, -50%);
+    }
+    .timeline-item-dot { left: 31px; }
+
+    .timeline-ticks {
+        left: 31px;
+    }
+    .timeline-tick {
+        left: 0;
+        transform: translate(-50%, -50%);
+    }
+    .timeline-tick .label {
+        left: 12px;
+        right: auto;
+    }
+}
+
+/* Hide optional timeline tick/marker overlays */
+.timeline-ticks,
+.timeline-midpoints {
+    display: none !important;
+}
+
+/* --- TECHNOLOGIES GRID --- */
+.tech-grid-container {
+    display: grid;
+    /* Make each column match button width exactly (8rem) */
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 8rem));
+    gap: 1.5rem;
+    width: 100%;
+    justify-content: center; /* center the columns as a group */
+    justify-items: center;   /* center each card in its track */
+}
+
+.tech-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0.5rem;
+    background-color: var(--text-container-bg);
+    border-radius: 10px;
+    border: 1px solid var(--primary-border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    width: 8rem; /* match .btn width for consistent sizing */
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--text-container-strong-color);
+}
+
+/* Softer cards and fancier hover in Technologies, similar to Projects */
+#technologies .tech-card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+#technologies .tech-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.2), 0 0 0 4px rgba(255,255,255,0.6);
+}
+
+/* Slightly brighter whitish ring in dark mode for contrast */
+.dark-theme #technologies .tech-card:hover {
+    box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 0 0 4px rgba(255,255,255,0.75);
+}
+
+.tech-card .tech-logo {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 1rem;
+}
+
+.dark-theme .tech-logo.dark-mode-invert {
+    filter: invert(1) brightness(2);
+}
+
+.tech-card h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.tech-category {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.tech-category-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.tech-category-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background-color: var(--text-container-strong-color);
+    border-radius: 2px;
+}
+
+/* Animated gold title sheen */
+@keyframes gold-sheen {
+  0%   { background-position: 0% 0%, -200% 0%; }
+  100% { background-position: 0% 0%, 200% 0%; }
+}
+
+/* Per-section title overrides (Experience keeps gold default) */
+#about .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-about-1), var(--title-about-2), var(--title-about-3), var(--title-about-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#about { --title-shadow: color-mix(in srgb, var(--title-about-3) 35%, transparent); --title-sheen-color: var(--title-about-2); }
+#technologies .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-technologies-1), var(--title-technologies-2), var(--title-technologies-3), var(--title-technologies-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#technologies { --title-shadow: color-mix(in srgb, var(--title-technologies-3) 35%, transparent); --title-sheen-color: var(--title-technologies-2); }
+#projects .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-projects-1), var(--title-projects-2), var(--title-projects-3), var(--title-projects-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#projects { --title-shadow: color-mix(in srgb, var(--title-projects-3) 35%, transparent); --title-sheen-color: var(--title-projects-2); }
+#publications .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-publications-1), var(--title-publications-2), var(--title-publications-3), var(--title-publications-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#publications { --title-shadow: color-mix(in srgb, var(--title-publications-3) 35%, transparent); --title-sheen-color: var(--title-publications-2); }
+#contact .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-contact-1), var(--title-contact-2), var(--title-contact-3), var(--title-contact-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#contact { --title-shadow: color-mix(in srgb, var(--title-contact-3) 35%, transparent); --title-sheen-color: var(--title-contact-2); }
+#profile .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-profile-1), var(--title-profile-2), var(--title-profile-3), var(--title-profile-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#profile { --title-shadow: color-mix(in srgb, var(--title-profile-3) 35%, transparent); --title-sheen-color: var(--title-profile-2); }

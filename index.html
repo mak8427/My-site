@@ -8,345 +8,42 @@
 
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="mediaqueries.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <script src="script.js" defer></script>
 </head>
 <body>
 
-<nav id="desktop-nav">
-
+<nav id="desktop-nav" aria-label="Primary">
     <div class="logo">Davide Mattioli</div>
     <div>
-        <ul class="nav-links">
-            <li>
-                <button id="themeToggleButton">☀</button>
-            </li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Portals</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <ul class="nav-links"><!-- built dynamically --></ul>
     </div>
+    <div id="nav-indicator" aria-hidden="true"></div>
 </nav>
-<nav id="hamburger-nav">
+<div id="scroll-progress" aria-hidden="true"></div>
+<nav id="hamburger-nav" aria-label="Mobile">
     <div class="logo">Davide Mattioli</div>
     <div class="hamburger-menu">
-        <button class="hamburger-icon" aria-label="Toggle menu">
+        <button class="hamburger-icon" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
-        <div class="menu-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <div class="menu-links" id="mobile-menu">
+            <ul><!-- built dynamically --></ul>
         </div>
     </div>
 </nav>
-<section id="profile">
-    <div class="section__pic-container">
-        <img src="./assets/Chad.jpg" alt="Davide Mattioli profile picture"/>
-    </div>
-    <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Davide Mattioli</h1>
-        <p class="section__text__p2">Data Scientist</p>
-        <div class="btn-container">
-            <button
-                    class="btn btn-color-2"
-            >
-                Download CV
-            </button>
-            <button class="btn btn-color-1">
-                Contact Info
-            </button>
-        </div>
-        <div id="socials-container">
-            <img
-                    src="./assets/linkedin.png"
-                    alt="My LinkedIn profile"
-                    class="icon"
-            />
-            <img
-                    src="./assets/github.png"
-                    alt="My Github profile"
-                    class="icon"
-            />
-        </div>
-    </div>
-</section>
-<section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
 
-        <div class="about-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <img
-                            src="./assets/experience.png"
-                            alt="Experience icon"
-                            class="icon"
-                    />
-                    <h3>Experience</h3>
-                    <p>4+ years Data Science</p>
-                </div>
-                <div class="details-container">
-                    <img
-                            src="./assets/education.png"
-                            alt="Education icon"
-                            class="icon"
-                    />
-                    <h3>Education</h3>
-                    <p>M.SC. Applied Data Science</p>
-                </div>
-            </div>
-            <div class="text-container">
-                <h2 style="text-align: center;" >What Drives Me</h2>
-                <p>
-                    I'm fueled by my data-driven passion:
-                </p>
-                <ul>
-                    <li><strong>Discovery:</strong> Unearthing insights from data is thrilling.</li>
-                    <li><strong>Problem-Solving:</strong> I love tackling complex challenges with data.</li>
-                    <li><strong>Real-World Impact:</strong> Making a difference through data is deeply satisfying.</li>
-                    <li><strong>Innovation:</strong> I'm always exploring new data techniques and tools.</li>
-                    <li><strong>Collaboration:</strong> Great insights often come from teamwork and diverse
-                        perspectives.
-                    </li>
-                </ul>
-                <p>
-                    <strong>Let's work together to unlock the potential of your data and drive success!</strong>
-                </p>
+<main id="main-content"></main>
 
-
-            </div>
-        </div>
-    </div>
-    <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            data-href="#experience"
-    />
-</section>
-<section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-        <div class="about-containers">
-            <div class="details-container">
-                <h2 class="experience-sub-title">Frameworks</h2>
-                <div class="article-container">
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Pytorch</h3>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Tensorflow</h3>
-                            <p></p>
-
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>SKlearn</h3>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Pandas</h3>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>MatPlotLib</h3>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Dash</h3>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
-            <div class="details-container">
-                <h2 class="experience-sub-title">Programming Languages </h2>
-                <div class="article-container">
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Python</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>R</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>C++</h3>
-                            <p>Basic</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Julia</h3>
-                            <p>Intermidiate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Rust</h3>
-                            <p>Intermidiate</p>
-                        </div>
-
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>C#</h3>
-                            <p>Basic</p>
-                        </div>
-
-                    </article>
-                </div>
-            </div>
-        </div>
-    </div>
-    <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            data-href="#projects"
-    />
-</section>
-<section id="projects">
-    <p class="section__text__p1">Browse My </p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-        <div class="about-containers">
-            <a href="https://github.com/mak8427" class="image-link">
-                <img src="./assets/project-3.png" alt="Machine Learning Portal" class="project-img" />
-            </a>
-
-            <a href="Rp!/landing.html" class="image-link">
-                <img src="./assets/Roleplay.webp" alt="Roleplay" class="project-img" />
-            </a>
-
-            <a href="finance/finance.html" class="image-link">
-                <img src="./assets/project-2.png" alt="Personal Finance Portal" class="project-img" />
-            </a>
-        </div>
-    </div>
-    <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            data-href="#contact"
-    />
-</section>
-<section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-            <img
-                    src="./assets/email.png"
-                    alt="Email icon"
-                    class="icon contact-icon email-icon"
-            />
-            <p><a href="mailto:Davide.Mattioli.2001@gmail.com">Davide.Mattioli.2001@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-            <img
-                    src="./assets/linkedin.png"
-                    alt="LinkedIn icon"
-                    class="icon contact-icon"
-            />
-            <p><a href="https://www.linkedin.com/in/davide-mattioli-605ab41b3/">LinkedIn</a></p>
-        </div>
-    </div>
-
-</section>
 <footer>
-    <nav>
+    <nav aria-label="Footer">
         <div class="nav-links-container">
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <ul class="nav-links" id="footer-nav-links"><!-- built dynamically --></ul>
         </div>
     </nav>
-
-
-    <p>Copyright &#169; 2024 Davide Mattioli All Rights Reserved.</p>
+    <p>Copyright &#169; 2025 Davide Mattioli. All Rights Reserved.</p>
 </footer>
 </body>
 </html>
