@@ -24,6 +24,34 @@
   --gold-3: #E7B74A;
   --gold-4: #C99A2E;
   --gold-shadow: rgba(233, 185, 73, 0.35);
+  /* Title glow defaults (gold for Experience) */
+  --title-shadow: var(--gold-shadow);
+  --title-sheen-color: var(--gold-2);
+  /* Section title palettes */
+  --title-about-1: #C8FACC;
+  --title-about-2: #8FE78A;
+  --title-about-3: #4ED26F;
+  --title-about-4: #2EBF4F;
+  --title-technologies-1: #67E8F9;
+  --title-technologies-2: #22D3EE;
+  --title-technologies-3: #60A5FA;
+  --title-technologies-4: #3B82F6;
+  --title-projects-1: #F9A8D4;
+  --title-projects-2: #F472B6;
+  --title-projects-3: #FB7185;
+  --title-projects-4: #EC4899;
+  --title-publications-1: #A78BFA;
+  --title-publications-2: #8B5CF6;
+  --title-publications-3: #6366F1;
+  --title-publications-4: #4F46E5;
+  --title-contact-1: #5EEAD4;
+  --title-contact-2: #2DD4BF;
+  --title-contact-3: #14B8A6;
+  --title-contact-4: #06B6D4;
+  --title-profile-1: #93C5FD;
+  --title-profile-2: #60A5FA;
+  --title-profile-3: #818CF8;
+  --title-profile-4: #A78BFA;
 }
 
 body.dark-theme {
@@ -49,6 +77,7 @@ body.dark-theme {
     --gold-3: #E0A73A;
     --gold-4: #BD8C2A;
     --gold-shadow: rgba(255, 196, 77, 0.28);
+    /* Optional: tweak section palettes for dark mode if desired */
 }
 
 * {
@@ -111,6 +140,42 @@ nav {
     font-size: 1.5rem;
 }
 
+/* Active link highlight */
+.nav-links a.active {
+    color: var(--nav-accent, var(--text-container-strong-color));
+}
+
+/* Developer-style bracket hover effect */
+.nav-links a {
+    position: relative;
+}
+.nav-links a::before,
+.nav-links a::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(0.9);
+    opacity: 0;
+    color: var(--nav-accent, var(--text-container-strong-color));
+    font-weight: 600;
+    transition: transform 180ms ease, opacity 160ms ease;
+    pointer-events: none;
+}
+.nav-links a::before { content: '<'; left: -0.9ch; }
+.nav-links a::after  { content: '/>'; right: -1.2ch; }
+.nav-links a:hover::before,
+.nav-links a:focus-visible::before,
+.nav-links a.active::before,
+.nav-links a:hover::after,
+.nav-links a:focus-visible::after,
+.nav-links a.active::after {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+}
+
+/* Hide nav indicator until positioned */
+#nav-indicator { opacity: 0; }
+#desktop-nav.indicator-ready #nav-indicator { opacity: 1; }
+
 a {
     color: var(--text-color);
     text-decoration: none;
@@ -122,6 +187,19 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
+}
+
+/* Override global hover underline for nav links */
+#desktop-nav .nav-links a:hover,
+#desktop-nav .nav-links a:focus-visible,
+#hamburger-nav .menu-links a:hover,
+#hamburger-nav .menu-links a:focus-visible,
+footer .nav-links a:hover,
+footer .nav-links a:focus-visible {
+    color: var(--text-color);
+    text-decoration: none;
+    text-underline-offset: 0;
+    text-decoration-color: transparent;
 }
 
 .logo {
@@ -174,6 +252,9 @@ a:hover {
     border: 1px solid var(--primary-border-color);
     border-radius: 10px;
     box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    transform-origin: top right;
+    transform: scaleY(0.96);
+    opacity: 0.98;
 }
 
 .menu-links ul { margin: 0; padding: 0; }
@@ -193,7 +274,8 @@ a:hover {
 }
 
 .menu-links.open {
-    max-height: 300px;
+    max-height: 340px;
+    transform: scaleY(1);
 }
 
 .hamburger-icon.open span:first-child {
@@ -295,15 +377,17 @@ section {
     text-align: center;
     background-image:
       linear-gradient(-45deg, var(--gold-1), var(--gold-2), var(--gold-3), var(--gold-4)), /* base */
-      linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.35) 50%, rgba(255,255,255,0.00) 100%); /* sheen */
-    background-size: 100% 100%, 200% 100%;
+      linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%); /* stronger, narrower sheen */
+    background-size: 100% 100%, 300% 100%;
     background-repeat: no-repeat, no-repeat;
-    background-position: 0% 0%, -100% 0%;
+    background-position: 0% 0%, -200% 0%;
     -webkit-background-clip: text;
     background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: transparent;
-    animation: gold-sheen 18s linear infinite; /* slow, left-to-right */
-    text-shadow: 0 2px 12px var(--gold-shadow);
+    animation: gold-sheen 12s linear infinite; /* clear left-to-right */
+    text-shadow: 0 2px 14px var(--title-shadow), 0 0 18px color-mix(in srgb, var(--title-sheen-color) 50%, transparent);
+    will-change: background-position;
 }
 
 #socials-container {
@@ -318,6 +402,37 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+
+/* Scroll progress bar */
+#scroll-progress {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    width: 0%;
+    z-index: 1200;
+    background: linear-gradient(90deg,
+      color-mix(in srgb, var(--nav-accent, var(--text-container-strong-color)) 85%, white),
+      var(--nav-accent, var(--text-container-strong-color)));
+    box-shadow: 0 2px 8px color-mix(in srgb, var(--nav-accent, #66a3ff) 40%, transparent);
+    transition: width 0.15s ease-out;
+}
+
+/* Dynamic nav indicator (desktop) */
+#desktop-nav {
+    position: relative;
+}
+#nav-indicator {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    height: 4px;
+    width: var(--nav-indicator-w, 0px);
+    transform: translateX(var(--nav-indicator-x, 0px));
+    background: linear-gradient(90deg, var(--nav-accent, var(--text-container-strong-color)), color-mix(in srgb, var(--nav-accent, #66a3ff) 60%, white));
+    border-radius: 999px;
+    transition: transform 250ms cubic-bezier(.2,.8,.2,1), width 250ms cubic-bezier(.2,.8,.2,1), background 200ms linear;
+    pointer-events: none;
 }
 
 /* BUTTONS */
@@ -338,17 +453,18 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: var(--secondary-border-color) 0.1rem solid;
+    border: 1px solid var(--primary-border-color);
     background: var(--bg-color);
     color: var(--text-color);
+    transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
 }
 
-
-.btn-color-1:hover ,
+.btn-color-1:hover,
 .btn-color-2:hover {
-    background: var(--hover-bg-color);
-    color: var(--hover-text-color);
     cursor: pointer;
+    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--text-container-strong-color) 50%, var(--primary-border-color));
+    box-shadow: 0 8px 20px color-mix(in srgb, var(--text-container-strong-color) 20%, transparent);
 }
 
 .btn-container {
@@ -361,15 +477,30 @@ section {
     position: relative;
 }
 
+/* Section accent mapping for nav/indicator to pick up */
+#about { --section-accent: var(--text-container-strong-color); }
+#experience { --section-accent: var(--exp-accent); }
+#technologies { --section-accent: var(--edu-accent); }
+#projects { --section-accent: var(--vol-accent); }
+#publications { --section-accent: var(--edu-accent); }
+#contact { --section-accent: var(--text-container-strong-color); }
+
 #about {
     font-family: "Inter", "Poppins", system-ui, -apple-system, sans-serif;
+}
+
+/* Make About more compact vertically */
+#about {
+    min-height: auto;
+    padding-top: 3vh;      /* a little more breathing room */
+    padding-bottom: 6vh;
 }
 
 /* New two-column layout for About */
 .about-layout {
     display: grid;
     grid-template-columns: 1.15fr 0.85fr;
-    gap: 2rem;
+    gap: 1.5rem;   /* slightly wider gap */
     align-items: stretch;
 }
 
@@ -395,7 +526,7 @@ section {
 
 .about-tagline {
     font-size: 1.1rem;
-    line-height: 1.9;
+    line-height: 1.7; /* a touch more spacing */
     color: var(--secondary-text-color);
 }
 
@@ -568,22 +699,22 @@ article .icon {
 }
 
 /* Slightly smaller, tighter portals for Projects */
-#projects .image-link { padding: 6px; border-width: 1px; }
-#projects .project-img { width: 240px; height: 240px; border-radius: 14px; }
+#projects .image-link { padding: 6px; border: none; background: transparent; box-shadow: 0 6px 18px rgba(0,0,0,0.12); border-radius: 16px; }
+#projects .project-img { width: 240px; height: 240px; border-radius: 16px; }
 #projects .about-containers { gap: 0.75rem; }
 
 .image-link {
     display: inline-block; /* Ensure proper layout */
     padding: 10px; /* Add padding around images */
-    border: 2px solid #FFFFFF; /* Add a border for a button effect */
+    border: none; /* remove hard edge */
     border-radius: 12px; /* Match image border radius */
     overflow: hidden; /* Prevent content overflow */
     transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
 }
 
-.image-link:hover {
-    border-color: #0056b3; /* Change border color on hover */
-    transform: scale(1.05); /* Slightly enlarge the image link on hover */
+#projects .image-link:hover {
+    transform: translateY(-4px) scale(1.06); /* grow without ring */
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25);
 }
 .Efficient-frontier-img {
     border-radius: 2rem;
@@ -661,6 +792,8 @@ footer p {
 
 /* Gradient background just for the About blurb */
 #about .text-container {
+    margin-top: 10px;
+    padding: 14px;
     background: linear-gradient(180deg,
         color-mix(in srgb, var(--exp-accent) 6%, var(--text-container-bg)) 0%,
         color-mix(in srgb, var(--edu-accent) 6%, var(--text-container-bg)) 100%);
@@ -1179,6 +1312,23 @@ footer p {
     border-color: var(--text-container-strong-color);
 }
 
+/* Softer cards and fancier hover in Technologies, similar to Projects */
+#technologies .tech-card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+#technologies .tech-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.2), 0 0 0 4px rgba(255,255,255,0.6);
+}
+
+/* Slightly brighter whitish ring in dark mode for contrast */
+.dark-theme #technologies .tech-card:hover {
+    box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 0 0 4px rgba(255,255,255,0.75);
+}
+
 .tech-card .tech-logo {
     height: 48px;
     width: 48px;
@@ -1224,6 +1374,44 @@ footer p {
 
 /* Animated gold title sheen */
 @keyframes gold-sheen {
-  0%   { background-position: 0% 0%, -100% 0%; }
+  0%   { background-position: 0% 0%, -200% 0%; }
   100% { background-position: 0% 0%, 200% 0%; }
 }
+
+/* Per-section title overrides (Experience keeps gold default) */
+#about .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-about-1), var(--title-about-2), var(--title-about-3), var(--title-about-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#about { --title-shadow: color-mix(in srgb, var(--title-about-3) 35%, transparent); --title-sheen-color: var(--title-about-2); }
+#technologies .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-technologies-1), var(--title-technologies-2), var(--title-technologies-3), var(--title-technologies-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#technologies { --title-shadow: color-mix(in srgb, var(--title-technologies-3) 35%, transparent); --title-sheen-color: var(--title-technologies-2); }
+#projects .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-projects-1), var(--title-projects-2), var(--title-projects-3), var(--title-projects-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#projects { --title-shadow: color-mix(in srgb, var(--title-projects-3) 35%, transparent); --title-sheen-color: var(--title-projects-2); }
+#publications .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-publications-1), var(--title-publications-2), var(--title-publications-3), var(--title-publications-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#publications { --title-shadow: color-mix(in srgb, var(--title-publications-3) 35%, transparent); --title-sheen-color: var(--title-publications-2); }
+#contact .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-contact-1), var(--title-contact-2), var(--title-contact-3), var(--title-contact-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#contact { --title-shadow: color-mix(in srgb, var(--title-contact-3) 35%, transparent); --title-sheen-color: var(--title-contact-2); }
+#profile .title {
+  background-image:
+    linear-gradient(-45deg, var(--title-profile-1), var(--title-profile-2), var(--title-profile-3), var(--title-profile-4)),
+    linear-gradient(90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.80) 40%, rgba(255,255,255,0.00) 60%);
+}
+#profile { --title-shadow: color-mix(in srgb, var(--title-profile-3) 35%, transparent); --title-sheen-color: var(--title-profile-2); }

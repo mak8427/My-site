@@ -13,41 +13,24 @@
 </head>
 <body>
 
-<nav id="desktop-nav">
+<nav id="desktop-nav" aria-label="Primary">
     <div class="logo">Davide Mattioli</div>
     <div>
-        <ul class="nav-links">
-            <li><button id="themeToggleButton">☀</button></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#technologies">Technologies</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#volunteering">Volunteering</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <ul class="nav-links"><!-- built dynamically --></ul>
     </div>
+    <div id="nav-indicator" aria-hidden="true"></div>
 </nav>
-<nav id="hamburger-nav">
+<div id="scroll-progress" aria-hidden="true"></div>
+<nav id="hamburger-nav" aria-label="Mobile">
     <div class="logo">Davide Mattioli</div>
     <div class="hamburger-menu">
-        <button class="hamburger-icon" aria-label="Toggle menu">
+        <button class="hamburger-icon" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
-        <div class="menu-links">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#technologies">Technologies</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#volunteering">Volunteering</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div class="menu-links" id="mobile-menu">
+            <ul><!-- built dynamically --></ul>
         </div>
     </div>
 </nav>
@@ -55,18 +38,9 @@
 <main id="main-content"></main>
 
 <footer>
-    <nav>
+    <nav aria-label="Footer">
         <div class="nav-links-container">
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#technologies">Technologies</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#volunteering">Volunteering</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <ul class="nav-links" id="footer-nav-links"><!-- built dynamically --></ul>
         </div>
     </nav>
     <p>Copyright &#169; 2025 Davide Mattioli. All Rights Reserved.</p>

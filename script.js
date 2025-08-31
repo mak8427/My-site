@@ -1,42 +1,45 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Hamburger menu toggle
-    const menu = document.querySelector(".menu-links");
-    const icon = document.querySelector(".hamburger-icon");
-    if (menu && icon) {
+    // Hamburger menu toggle (bound initially; re-bound after nav rebuild)
+    function bindHamburger() {
+        const menu = document.querySelector('.menu-links');
+        const icon = document.querySelector('.hamburger-icon');
+        if (!menu || !icon) return;
         function toggleMenu() {
-            menu.classList.toggle("open");
-            icon.classList.toggle("open");
+            menu.classList.toggle('open');
+            icon.classList.toggle('open');
+            const expanded = icon.classList.contains('open');
+            icon.setAttribute('aria-expanded', expanded ? 'true' : 'false');
         }
-        icon.addEventListener('click', toggleMenu);
-        const menuLinks = document.querySelectorAll('.menu-links a');
-        menuLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                // Allow normal navigation for external links if any, and smooth scroll for internal
-                if (link.getAttribute('href').startsWith('#')) {
-                    toggleMenu();
-                }
+        icon.onclick = toggleMenu;
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (link.getAttribute('href').startsWith('#')) toggleMenu();
             });
         });
     }
+    bindHamburger();
 
-    // Theme toggle functionality
-    const themeToggleButton = document.getElementById('themeToggleButton');
-    const body = document.body;
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark' || !savedTheme) {
-        body.classList.add('dark-theme');
-        themeToggleButton.textContent = '🌙';
-    } else {
-        themeToggleButton.textContent = '☀';
+    // Theme toggle functionality (shared between desktop + mobile if present)
+    function bindThemeToggle() {
+        const body = document.body;
+        const btns = Array.from(document.querySelectorAll('#themeToggleButton, #themeToggleButtonMobile'));
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark' || !saved) {
+            body.classList.add('dark-theme');
+            btns.forEach(b => b && (b.textContent = '🌙'));
+        } else {
+            btns.forEach(b => b && (b.textContent = '☀'));
+        }
+        btns.forEach(btn => btn && btn.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+            const isDark = body.classList.contains('dark-theme');
+            btns.forEach(b => b && (b.textContent = isDark ? '🌙' : '☀'));
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        }));
     }
-    themeToggleButton.addEventListener('click', function() {
-        body.classList.toggle('dark-theme');
-        const isDarkMode = body.classList.contains('dark-theme');
-        themeToggleButton.textContent = isDarkMode ? '🌙' : '☀';
-        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-    });
+    bindThemeToggle();
 
-    // Dynamically load sections
+    // Dynamically load sections (graceful if files are missing)
     const sections = [
         'profile',
         'about',
@@ -48,43 +51,163 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
     const mainContent = document.getElementById('main-content');
 
-    if (mainContent) {
-        const fetchPromises = sections.map(section => {
-            return fetch(`sections/${section}.html`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.text();
-                });
-        });
+    async function loadSections() {
+        if (!mainContent) return;
+        const results = await Promise.allSettled(
+            sections.map(name => fetch(`sections/${name}.html`).then(r => r.ok ? r.text() : Promise.reject(r.status)))
+        );
+        const htmls = results
+            .map(r => (r.status === 'fulfilled' ? r.value : ''))
+            .filter(Boolean);
+        mainContent.innerHTML = htmls.join('');
 
-        Promise.all(fetchPromises)
-            .then(htmls => {
-                mainContent.innerHTML = htmls.join('');
-                try {
-                    // Restore colored blended bands on the center timeline
-                    applyProportionalTimeline();
-                    // Ticks and midpoint markers disabled per design preference
-                    // applyTimelineTicks();
-                    // applyTimelineMidpoints();
-                    applyDateChips();
-                    applyItemDots();
-                } catch (e) { console.warn('Timeline visuals not applied:', e); }
+        try {
+            applyProportionalTimeline();
+            applyDateChips();
+            applyItemDots();
+        } catch (e) {
+            console.warn('Timeline visuals not applied:', e);
+        }
 
-                // Optional dev checks (enable with ?dev=1 or localStorage.devChecks='1')
-                try {
-                    const params = new URLSearchParams(location.search);
-                    const enable = params.has('dev') || localStorage.getItem('devChecks') === '1';
-                    if (enable) runDevLayoutChecks();
-                } catch (e) { /* noop */ }
-            })
-            .catch(error => {
-                console.error('Error loading sections:', error);
-                mainContent.innerHTML = '<p style="text-align: center; padding: 50px;">Error loading page content. Please try again later.</p>';
-            });
+        // After content is present, rebuild navs to match available anchors/sections
+        rebuildNavFromDom();
+        bindHamburger();
+        bindThemeToggle();
+        initScrollProgress();
+
+        // Optional dev checks
+        try {
+            const params = new URLSearchParams(location.search);
+            const enable = params.has('dev') || localStorage.getItem('devChecks') === '1';
+            if (enable) runDevLayoutChecks();
+        } catch { /* noop */ }
     }
+
+    loadSections();
 });
+
+// Build nav links based on actual sections/anchors present in DOM
+function rebuildNavFromDom() {
+    // Build only top-level sections. We intentionally exclude
+    // in-Experience anchors like #education and #volunteering
+    // so they don't appear as separate nav items.
+    const order = [
+        { id: 'about', label: 'About' },
+        { id: 'experience', label: 'Experience' },
+        { id: 'technologies', label: 'Technologies' },
+        { id: 'projects', label: 'Projects' },
+        { id: 'publications', label: 'Publications' },
+        { id: 'contact', label: 'Contact' }
+    ];
+    const present = order.filter(o => document.getElementById(o.id));
+
+    function renderList(container, themeBtnId) {
+        if (!container) return;
+        container.innerHTML = '';
+        const ul = container.tagName.toLowerCase() === 'ul' ? container : document.createElement('ul');
+        if (container !== ul) { container.appendChild(ul); }
+        if (themeBtnId) {
+            const li = document.createElement('li');
+            li.innerHTML = `<button id="${themeBtnId}" aria-label="Toggle theme">☀</button>`;
+            ul.appendChild(li);
+        }
+        present.forEach(o => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = `#${o.id}`;
+            a.textContent = o.label;
+            li.appendChild(a);
+            ul.appendChild(li);
+        });
+    }
+
+    renderList(document.querySelector('#desktop-nav .nav-links'), 'themeToggleButton');
+    // include theme toggle on mobile too
+    renderList(document.querySelector('#hamburger-nav .menu-links ul') || document.querySelector('#hamburger-nav .menu-links'), 'themeToggleButtonMobile');
+    // footer nav mirrors available links, no theme toggle
+    renderList(document.getElementById('footer-nav-links'), null);
+
+    // Re-bind active-link highlighting
+    setActiveLinkOnScroll(present.map(p => p.id));
+
+    // Initialize indicator position to the first available link
+    const first = document.querySelector('#desktop-nav .nav-links a');
+    if (first) {
+        updateNavIndicator(first);
+        const firstSection = document.getElementById(present[0]?.id);
+        if (firstSection) updateNavAccentFromSection(firstSection);
+    }
+}
+
+// Highlight nav link for the section in view
+function setActiveLinkOnScroll(ids) {
+    const links = new Map();
+    document.querySelectorAll('#desktop-nav .nav-links a, #hamburger-nav .menu-links a').forEach(a => {
+        const id = a.getAttribute('href').replace('#','');
+        links.set(id, a);
+    });
+    const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+            const id = e.target.id;
+            const link = links.get(id);
+            if (!link) return;
+            if (e.isIntersecting) {
+                document.querySelectorAll('#desktop-nav .nav-links a.active, #hamburger-nav .menu-links a.active').forEach(n => n.classList.remove('active'));
+                link.classList.add('active');
+                // Update indicator position and accent color
+                updateNavIndicator(link);
+                updateNavAccentFromSection(e.target);
+            }
+        });
+    }, { rootMargin: '-40% 0px -55% 0px', threshold: 0.01 });
+    ids.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) obs.observe(el);
+    });
+
+    // Reposition indicator on resize
+    window.addEventListener('resize', () => {
+        const active = document.querySelector('#desktop-nav .nav-links a.active');
+        if (active) updateNavIndicator(active);
+    });
+}
+
+// Move the desktop nav indicator under the provided link
+function updateNavIndicator(link) {
+    const indicator = document.getElementById('nav-indicator');
+    const nav = document.getElementById('desktop-nav');
+    if (!indicator || !nav || !link) return;
+    const navRect = nav.getBoundingClientRect();
+    const rect = link.getBoundingClientRect();
+    const x = rect.left - navRect.left;
+    const w = rect.width;
+    nav.style.setProperty('--nav-indicator-x', `${x}px`);
+    nav.style.setProperty('--nav-indicator-w', `${w}px`);
+    nav.classList.add('indicator-ready');
+}
+
+// Update nav accent color based on the current section's --section-accent
+function updateNavAccentFromSection(sectionEl) {
+    if (!sectionEl) return;
+    const styles = getComputedStyle(sectionEl);
+    const accent = styles.getPropertyValue('--section-accent').trim() || getComputedStyle(document.documentElement).getPropertyValue('--text-container-strong-color').trim();
+    document.documentElement.style.setProperty('--nav-accent', accent);
+}
+
+// Scroll progress bar
+function initScrollProgress() {
+    const bar = document.getElementById('scroll-progress');
+    if (!bar) return;
+    const update = () => {
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        bar.style.width = pct + '%';
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    setTimeout(update, 50);
+}
 
 // Build layered gradient bands on the center timeline to proportionally map time ranges.
 function applyProportionalTimeline() {
