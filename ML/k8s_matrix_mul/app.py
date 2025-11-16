@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Form
 import numpy as np
 from pydantic import BaseModel
 
@@ -9,8 +9,8 @@ class MatrixInput(BaseModel):
 
 
 @app.post("/multiply/")
-async def multiply_matrices(matrix_input: MatrixInput):
-    n = matrix_input.size
+async def multiply(dimension: int = Form(...)):
+    n = dimension
 
     # Generate two random n x n matrices
 
