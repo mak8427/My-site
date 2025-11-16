@@ -15,7 +15,7 @@ async def multiply_matrices(matrix_input: MatrixInput):
     # Generate two random n x n matrices
 
     A = np.random.randint(0,10,(n, n))
-    B = np.random.randint(0,10(n, n))
+    B = np.random.randint(0, 10, (n, n))
 
     # Perform matrix multiplication
     result = A @ B
