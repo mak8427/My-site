@@ -1,22 +1,26 @@
-from fastapi import FastAPI, Form
+from fastapi import FastAPI, Request, Form
+from fastapi.responses import RedirectResponse
+from fastapi.templating import Jinja2Templates
 import numpy as np
-from pydantic import BaseModel
 
 app = FastAPI()
+templates = Jinja2Templates(directory="templates")
 
-class MatrixInput(BaseModel):
-    size: int
+@app.get("/")
+def home(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request})
 
-
-@app.post("/multiply/")
-async def multiply(dimension: int = Form(...)):
+@app.post("/multiply")
+def multiply(request: Request, dimension: int = Form(...)):
     n = dimension
-
-    # Generate two random n x n matrices
-
-    A = np.random.randint(0,10,(n, n))
+    A = np.random.randint(0, 10, (n, n))
     B = np.random.randint(0, 10, (n, n))
-
-    # Perform matrix multiplication
     result = A @ B
-    return {"input": A.tolist(), "multiplier": B.tolist(), "result": result.tolist()}
+    return templates.TemplateResponse(
+        "result.html", {
+          "request": request,
+          "input_matrix": str(A),
+          "multiplier_matrix": str(B),
+          "result_matrix": str(result)
+        }
+    )
