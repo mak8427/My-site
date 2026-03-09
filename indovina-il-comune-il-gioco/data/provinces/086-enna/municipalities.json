@@ -1,0 +1,442 @@
+{
+  "provinceCode": "086",
+  "label": "Enna",
+  "officialScopeLabel": "Provincia di Enna",
+  "sigla": "EN",
+  "slug": "enna",
+  "sourceYear": 2026,
+  "count": 20,
+  "municipalities": [
+    {
+      "istatCode": "086001",
+      "officialName": "Agira",
+      "normalizedName": "agira",
+      "aliases": [],
+      "areaKm2": 162.641,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086003",
+        "086006",
+        "086009",
+        "086010",
+        "086013",
+        "086016"
+      ],
+      "focusPoint": {
+        "lat": 37.615807,
+        "lng": 14.537459
+      }
+    },
+    {
+      "istatCode": "086002",
+      "officialName": "Aidone",
+      "normalizedName": "aidone",
+      "aliases": [],
+      "areaKm2": 209.039,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086009",
+        "086014"
+      ],
+      "focusPoint": {
+        "lat": 37.427402,
+        "lng": 14.510345
+      }
+    },
+    {
+      "istatCode": "086003",
+      "officialName": "Assoro",
+      "normalizedName": "assoro",
+      "aliases": [],
+      "areaKm2": 111.422,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086001",
+        "086009",
+        "086011",
+        "086013",
+        "086014",
+        "086019"
+      ],
+      "focusPoint": {
+        "lat": 37.601185,
+        "lng": 14.43688
+      }
+    },
+    {
+      "istatCode": "086004",
+      "officialName": "Barrafranca",
+      "normalizedName": "barrafranca",
+      "aliases": [],
+      "areaKm2": 53.43,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086014",
+        "086015"
+      ],
+      "focusPoint": {
+        "lat": 37.363621,
+        "lng": 14.200795
+      }
+    },
+    {
+      "istatCode": "086005",
+      "officialName": "Calascibetta",
+      "normalizedName": "calascibetta",
+      "aliases": [],
+      "areaKm2": 88.653,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086009",
+        "086011",
+        "086012",
+        "086020"
+      ],
+      "focusPoint": {
+        "lat": 37.632148,
+        "lng": 14.260982
+      }
+    },
+    {
+      "istatCode": "086006",
+      "officialName": "Catenanuova",
+      "normalizedName": "catenanuova",
+      "aliases": [],
+      "areaKm2": 11.205,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086001",
+        "086007",
+        "086016"
+      ],
+      "focusPoint": {
+        "lat": 37.571686,
+        "lng": 14.697668
+      }
+    },
+    {
+      "istatCode": "086007",
+      "officialName": "Centuripe",
+      "normalizedName": "centuripe",
+      "aliases": [],
+      "areaKm2": 172.741,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086006",
+        "086016"
+      ],
+      "focusPoint": {
+        "lat": 37.607696,
+        "lng": 14.745264
+      }
+    },
+    {
+      "istatCode": "086008",
+      "officialName": "Cerami",
+      "normalizedName": "cerami",
+      "aliases": [],
+      "areaKm2": 95.074,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086010",
+        "086012",
+        "086018"
+      ],
+      "focusPoint": {
+        "lat": 37.81899,
+        "lng": 14.521585
+      }
+    },
+    {
+      "istatCode": "086009",
+      "officialName": "Enna",
+      "normalizedName": "enna",
+      "aliases": [],
+      "areaKm2": 356.631,
+      "baseChips": 119,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086001",
+        "086002",
+        "086003",
+        "086005",
+        "086011",
+        "086014",
+        "086015",
+        "086019",
+        "086020"
+      ],
+      "focusPoint": {
+        "lat": 37.524596,
+        "lng": 14.252517
+      }
+    },
+    {
+      "istatCode": "086010",
+      "officialName": "Gagliano Castelferrato",
+      "normalizedName": "gagliano castelferrato",
+      "aliases": [
+        "gagliano",
+        "gaglianocastelferrato"
+      ],
+      "areaKm2": 56.06,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "086001",
+        "086008",
+        "086012",
+        "086013",
+        "086016",
+        "086018"
+      ],
+      "focusPoint": {
+        "lat": 37.725901,
+        "lng": 14.541987
+      }
+    },
+    {
+      "istatCode": "086011",
+      "officialName": "Leonforte",
+      "normalizedName": "leonforte",
+      "aliases": [],
+      "areaKm2": 84.216,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "086003",
+        "086005",
+        "086009",
+        "086012",
+        "086013"
+      ],
+      "focusPoint": {
+        "lat": 37.640601,
+        "lng": 14.363126
+      }
+    },
+    {
+      "istatCode": "086012",
+      "officialName": "Nicosia",
+      "normalizedName": "nicosia",
+      "aliases": [],
+      "areaKm2": 216.928,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086005",
+        "086008",
+        "086010",
+        "086011",
+        "086013",
+        "086017"
+      ],
+      "focusPoint": {
+        "lat": 37.748018,
+        "lng": 14.410626
+      }
+    },
+    {
+      "istatCode": "086013",
+      "officialName": "Nissoria",
+      "normalizedName": "nissoria",
+      "aliases": [],
+      "areaKm2": 61.759,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "086001",
+        "086003",
+        "086010",
+        "086011",
+        "086012"
+      ],
+      "focusPoint": {
+        "lat": 37.691428,
+        "lng": 14.44055
+      }
+    },
+    {
+      "istatCode": "086014",
+      "officialName": "Piazza Armerina",
+      "normalizedName": "piazza armerina",
+      "aliases": [
+        "piazza",
+        "piazzaarmerina"
+      ],
+      "areaKm2": 303.287,
+      "baseChips": 122,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086002",
+        "086003",
+        "086004",
+        "086009",
+        "086015",
+        "086019"
+      ],
+      "focusPoint": {
+        "lat": 37.369294,
+        "lng": 14.337603
+      }
+    },
+    {
+      "istatCode": "086015",
+      "officialName": "Pietraperzia",
+      "normalizedName": "pietraperzia",
+      "aliases": [],
+      "areaKm2": 118.241,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086004",
+        "086009",
+        "086014"
+      ],
+      "focusPoint": {
+        "lat": 37.408265,
+        "lng": 14.133048
+      }
+    },
+    {
+      "istatCode": "086016",
+      "officialName": "Regalbuto",
+      "normalizedName": "regalbuto",
+      "aliases": [],
+      "areaKm2": 169.784,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "086001",
+        "086006",
+        "086007",
+        "086010",
+        "086018"
+      ],
+      "focusPoint": {
+        "lat": 37.651155,
+        "lng": 14.66604
+      }
+    },
+    {
+      "istatCode": "086017",
+      "officialName": "Sperlinga",
+      "normalizedName": "sperlinga",
+      "aliases": [],
+      "areaKm2": 59.116,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086012"
+      ],
+      "focusPoint": {
+        "lat": 37.74606,
+        "lng": 14.326471
+      }
+    },
+    {
+      "istatCode": "086018",
+      "officialName": "Troina",
+      "normalizedName": "troina",
+      "aliases": [],
+      "areaKm2": 167.187,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086008",
+        "086010",
+        "086016"
+      ],
+      "focusPoint": {
+        "lat": 37.759763,
+        "lng": 14.633842
+      }
+    },
+    {
+      "istatCode": "086019",
+      "officialName": "Valguarnera Caropepe",
+      "normalizedName": "valguarnera caropepe",
+      "aliases": [
+        "valguarnera",
+        "valguarneracaropepe"
+      ],
+      "areaKm2": 9.425,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "086003",
+        "086009",
+        "086014"
+      ],
+      "focusPoint": {
+        "lat": 37.512039,
+        "lng": 14.385516
+      }
+    },
+    {
+      "istatCode": "086020",
+      "officialName": "Villarosa",
+      "normalizedName": "villarosa",
+      "aliases": [],
+      "areaKm2": 55.115,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "086005",
+        "086009"
+      ],
+      "focusPoint": {
+        "lat": 37.593572,
+        "lng": 14.185756
+      }
+    }
+  ]
+}

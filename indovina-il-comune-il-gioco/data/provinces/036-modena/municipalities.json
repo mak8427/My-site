@@ -1,0 +1,1080 @@
+{
+  "provinceCode": "036",
+  "label": "Modena",
+  "officialScopeLabel": "Provincia di Modena",
+  "sigla": "MO",
+  "slug": "modena",
+  "sourceYear": 2026,
+  "count": 47,
+  "municipalities": [
+    {
+      "istatCode": "036001",
+      "officialName": "Bastiglia",
+      "normalizedName": "bastiglia",
+      "aliases": [],
+      "areaKm2": 10.566,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036002",
+        "036023",
+        "036044"
+      ],
+      "focusPoint": {
+        "lat": 44.713553,
+        "lng": 10.993242
+      }
+    },
+    {
+      "istatCode": "036002",
+      "officialName": "Bomporto",
+      "normalizedName": "bomporto",
+      "aliases": [],
+      "areaKm2": 38.745,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036001",
+        "036004",
+        "036023",
+        "036027",
+        "036034",
+        "036039",
+        "036044"
+      ],
+      "focusPoint": {
+        "lat": 44.746244,
+        "lng": 11.021536
+      }
+    },
+    {
+      "istatCode": "036003",
+      "officialName": "Campogalliano",
+      "normalizedName": "campogalliano",
+      "aliases": [],
+      "areaKm2": 36.047,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036005",
+        "036023"
+      ],
+      "focusPoint": {
+        "lat": 44.700917,
+        "lng": 10.842288
+      }
+    },
+    {
+      "istatCode": "036004",
+      "officialName": "Camposanto",
+      "normalizedName": "camposanto",
+      "aliases": [],
+      "areaKm2": 22.66,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036002",
+        "036012",
+        "036021",
+        "036034",
+        "036037"
+      ],
+      "focusPoint": {
+        "lat": 44.798906,
+        "lng": 11.149032
+      }
+    },
+    {
+      "istatCode": "036005",
+      "officialName": "Carpi",
+      "normalizedName": "carpi",
+      "aliases": [],
+      "areaKm2": 131.21,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036003",
+        "036009",
+        "036023",
+        "036028",
+        "036039",
+        "036044"
+      ],
+      "focusPoint": {
+        "lat": 44.801365,
+        "lng": 10.885135
+      }
+    },
+    {
+      "istatCode": "036006",
+      "officialName": "Castelfranco Emilia",
+      "normalizedName": "castelfranco emilia",
+      "aliases": [
+        "castelfranco",
+        "castelfrancoemilia"
+      ],
+      "areaKm2": 102.539,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036023",
+        "036027",
+        "036036"
+      ],
+      "focusPoint": {
+        "lat": 44.595955,
+        "lng": 11.090068
+      }
+    },
+    {
+      "istatCode": "036007",
+      "officialName": "Castelnuovo Rangone",
+      "normalizedName": "castelnuovo rangone",
+      "aliases": [
+        "castelnuovo",
+        "castelnuovorangone"
+      ],
+      "areaKm2": 22.673,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036008",
+        "036015",
+        "036023",
+        "036045"
+      ],
+      "focusPoint": {
+        "lat": 44.564796,
+        "lng": 10.910679
+      }
+    },
+    {
+      "istatCode": "036008",
+      "officialName": "Castelvetro di Modena",
+      "normalizedName": "castelvetro di modena",
+      "aliases": [
+        "castelvetro",
+        "castelvetrodimodena"
+      ],
+      "areaKm2": 49.945,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036007",
+        "036015",
+        "036019",
+        "036020",
+        "036045",
+        "036046"
+      ],
+      "focusPoint": {
+        "lat": 44.49555,
+        "lng": 10.929935
+      }
+    },
+    {
+      "istatCode": "036009",
+      "officialName": "Cavezzo",
+      "normalizedName": "cavezzo",
+      "aliases": [],
+      "areaKm2": 27.053,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036005",
+        "036021",
+        "036022",
+        "036028",
+        "036038",
+        "036039"
+      ],
+      "focusPoint": {
+        "lat": 44.844477,
+        "lng": 11.000159
+      }
+    },
+    {
+      "istatCode": "036010",
+      "officialName": "Concordia sulla Secchia",
+      "normalizedName": "concordia sulla secchia",
+      "aliases": [
+        "concordia",
+        "concordiasullasecchia"
+      ],
+      "areaKm2": 40.935,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036022",
+        "036028",
+        "036038"
+      ],
+      "focusPoint": {
+        "lat": 44.916216,
+        "lng": 11.000389
+      }
+    },
+    {
+      "istatCode": "036011",
+      "officialName": "Fanano",
+      "normalizedName": "fanano",
+      "aliases": [],
+      "areaKm2": 90.004,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036014",
+        "036043"
+      ],
+      "focusPoint": {
+        "lat": 44.183102,
+        "lng": 10.76312
+      }
+    },
+    {
+      "istatCode": "036012",
+      "officialName": "Finale Emilia",
+      "normalizedName": "finale emilia",
+      "aliases": [
+        "finale",
+        "finaleemilia"
+      ],
+      "areaKm2": 104.535,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036004",
+        "036022",
+        "036037"
+      ],
+      "focusPoint": {
+        "lat": 44.851948,
+        "lng": 11.274628
+      }
+    },
+    {
+      "istatCode": "036013",
+      "officialName": "Fiorano Modenese",
+      "normalizedName": "fiorano modenese",
+      "aliases": [
+        "fiorano",
+        "fioranomodenese"
+      ],
+      "areaKm2": 26.304,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036015",
+        "036019",
+        "036040",
+        "036042"
+      ],
+      "focusPoint": {
+        "lat": 44.528126,
+        "lng": 10.825295
+      }
+    },
+    {
+      "istatCode": "036014",
+      "officialName": "Fiumalbo",
+      "normalizedName": "fiumalbo",
+      "aliases": [],
+      "areaKm2": 39.013,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036011",
+        "036031",
+        "036035",
+        "036043"
+      ],
+      "focusPoint": {
+        "lat": 44.160265,
+        "lng": 10.65605
+      }
+    },
+    {
+      "istatCode": "036015",
+      "officialName": "Formigine",
+      "normalizedName": "formigine",
+      "aliases": [],
+      "areaKm2": 46.227,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036007",
+        "036008",
+        "036013",
+        "036019",
+        "036023",
+        "036040"
+      ],
+      "focusPoint": {
+        "lat": 44.582786,
+        "lng": 10.841585
+      }
+    },
+    {
+      "istatCode": "036016",
+      "officialName": "Frassinoro",
+      "normalizedName": "frassinoro",
+      "aliases": [],
+      "areaKm2": 95.235,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036025",
+        "036029",
+        "036031",
+        "036035"
+      ],
+      "focusPoint": {
+        "lat": 44.266813,
+        "lng": 10.544597
+      }
+    },
+    {
+      "istatCode": "036017",
+      "officialName": "Guiglia",
+      "normalizedName": "guiglia",
+      "aliases": [],
+      "areaKm2": 48.669,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036020",
+        "036030",
+        "036041",
+        "036047"
+      ],
+      "focusPoint": {
+        "lat": 44.401438,
+        "lng": 10.960128
+      }
+    },
+    {
+      "istatCode": "036018",
+      "officialName": "Lama Mocogno",
+      "normalizedName": "lama mocogno",
+      "aliases": [
+        "lama",
+        "lamamocogno"
+      ],
+      "areaKm2": 63.934,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036024",
+        "036029",
+        "036030",
+        "036032",
+        "036035"
+      ],
+      "focusPoint": {
+        "lat": 44.305226,
+        "lng": 10.719416
+      }
+    },
+    {
+      "istatCode": "036019",
+      "officialName": "Maranello",
+      "normalizedName": "maranello",
+      "aliases": [],
+      "areaKm2": 32.227,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036008",
+        "036013",
+        "036015",
+        "036020",
+        "036042"
+      ],
+      "focusPoint": {
+        "lat": 44.504361,
+        "lng": 10.859642
+      }
+    },
+    {
+      "istatCode": "036020",
+      "officialName": "Marano sul Panaro",
+      "normalizedName": "marano sul panaro",
+      "aliases": [
+        "marano",
+        "maranosulpanaro"
+      ],
+      "areaKm2": 45.392,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036008",
+        "036017",
+        "036019",
+        "036030",
+        "036041",
+        "036042",
+        "036046"
+      ],
+      "focusPoint": {
+        "lat": 44.430966,
+        "lng": 10.902227
+      }
+    },
+    {
+      "istatCode": "036021",
+      "officialName": "Medolla",
+      "normalizedName": "medolla",
+      "aliases": [],
+      "areaKm2": 27.026,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036004",
+        "036009",
+        "036022",
+        "036037",
+        "036039"
+      ],
+      "focusPoint": {
+        "lat": 44.844101,
+        "lng": 11.078722
+      }
+    },
+    {
+      "istatCode": "036022",
+      "officialName": "Mirandola",
+      "normalizedName": "mirandola",
+      "aliases": [],
+      "areaKm2": 137.124,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036009",
+        "036010",
+        "036012",
+        "036021",
+        "036037",
+        "036038"
+      ],
+      "focusPoint": {
+        "lat": 44.904266,
+        "lng": 11.135117
+      }
+    },
+    {
+      "istatCode": "036023",
+      "officialName": "Modena",
+      "normalizedName": "modena",
+      "aliases": [],
+      "areaKm2": 183.161,
+      "baseChips": 133,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036001",
+        "036002",
+        "036003",
+        "036005",
+        "036006",
+        "036007",
+        "036015",
+        "036027",
+        "036036",
+        "036044",
+        "036045"
+      ],
+      "focusPoint": {
+        "lat": 44.644979,
+        "lng": 10.890031
+      }
+    },
+    {
+      "istatCode": "036024",
+      "officialName": "Montecreto",
+      "normalizedName": "montecreto",
+      "aliases": [],
+      "areaKm2": 31.42,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036018",
+        "036030",
+        "036035",
+        "036043"
+      ],
+      "focusPoint": {
+        "lat": 44.250984,
+        "lng": 10.715057
+      }
+    },
+    {
+      "istatCode": "036025",
+      "officialName": "Montefiorino",
+      "normalizedName": "montefiorino",
+      "aliases": [],
+      "areaKm2": 45.262,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036016",
+        "036029"
+      ],
+      "focusPoint": {
+        "lat": 44.339287,
+        "lng": 10.587523
+      }
+    },
+    {
+      "istatCode": "036026",
+      "officialName": "Montese",
+      "normalizedName": "montese",
+      "aliases": [],
+      "areaKm2": 80.377,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036030",
+        "036043",
+        "036047"
+      ],
+      "focusPoint": {
+        "lat": 44.266306,
+        "lng": 10.915582
+      }
+    },
+    {
+      "istatCode": "036027",
+      "officialName": "Nonantola",
+      "normalizedName": "nonantola",
+      "aliases": [],
+      "areaKm2": 55.351,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036002",
+        "036006",
+        "036023",
+        "036034"
+      ],
+      "focusPoint": {
+        "lat": 44.680481,
+        "lng": 11.051652
+      }
+    },
+    {
+      "istatCode": "036028",
+      "officialName": "Novi di Modena",
+      "normalizedName": "novi di modena",
+      "aliases": [
+        "novi",
+        "novidimodena"
+      ],
+      "areaKm2": 51.882,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036005",
+        "036009",
+        "036010",
+        "036038"
+      ],
+      "focusPoint": {
+        "lat": 44.86319,
+        "lng": 10.941669
+      }
+    },
+    {
+      "istatCode": "036029",
+      "officialName": "Palagano",
+      "normalizedName": "palagano",
+      "aliases": [],
+      "areaKm2": 60.012,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036016",
+        "036018",
+        "036025",
+        "036032",
+        "036033",
+        "036035"
+      ],
+      "focusPoint": {
+        "lat": 44.322159,
+        "lng": 10.650402
+      }
+    },
+    {
+      "istatCode": "036030",
+      "officialName": "Pavullo nel Frignano",
+      "normalizedName": "pavullo nel frignano",
+      "aliases": [
+        "pavullo",
+        "pavullonelfrignano"
+      ],
+      "areaKm2": 143.278,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036017",
+        "036018",
+        "036020",
+        "036024",
+        "036026",
+        "036032",
+        "036042",
+        "036043",
+        "036047"
+      ],
+      "focusPoint": {
+        "lat": 44.337181,
+        "lng": 10.848183
+      }
+    },
+    {
+      "istatCode": "036031",
+      "officialName": "Pievepelago",
+      "normalizedName": "pievepelago",
+      "aliases": [],
+      "areaKm2": 76.929,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036014",
+        "036016",
+        "036035"
+      ],
+      "focusPoint": {
+        "lat": 44.181399,
+        "lng": 10.569976
+      }
+    },
+    {
+      "istatCode": "036032",
+      "officialName": "Polinago",
+      "normalizedName": "polinago",
+      "aliases": [],
+      "areaKm2": 54.044,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036018",
+        "036029",
+        "036030",
+        "036033",
+        "036042"
+      ],
+      "focusPoint": {
+        "lat": 44.371158,
+        "lng": 10.72605
+      }
+    },
+    {
+      "istatCode": "036033",
+      "officialName": "Prignano sulla Secchia",
+      "normalizedName": "prignano sulla secchia",
+      "aliases": [
+        "prignano",
+        "prignanosullasecchia"
+      ],
+      "areaKm2": 79.858,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036029",
+        "036032",
+        "036040",
+        "036042"
+      ],
+      "focusPoint": {
+        "lat": 44.446864,
+        "lng": 10.706169
+      }
+    },
+    {
+      "istatCode": "036034",
+      "officialName": "Ravarino",
+      "normalizedName": "ravarino",
+      "aliases": [],
+      "areaKm2": 28.675,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036002",
+        "036004",
+        "036027"
+      ],
+      "focusPoint": {
+        "lat": 44.746605,
+        "lng": 11.088939
+      }
+    },
+    {
+      "istatCode": "036035",
+      "officialName": "Riolunato",
+      "normalizedName": "riolunato",
+      "aliases": [],
+      "areaKm2": 44.61,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036014",
+        "036016",
+        "036018",
+        "036024",
+        "036029",
+        "036031",
+        "036043"
+      ],
+      "focusPoint": {
+        "lat": 44.232479,
+        "lng": 10.651421
+      }
+    },
+    {
+      "istatCode": "036036",
+      "officialName": "San Cesario sul Panaro",
+      "normalizedName": "san cesario sul panaro",
+      "aliases": [
+        "san cesario",
+        "sancesario",
+        "sancesariosulpanaro"
+      ],
+      "areaKm2": 27.349,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036006",
+        "036023",
+        "036041",
+        "036045"
+      ],
+      "focusPoint": {
+        "lat": 44.578217,
+        "lng": 11.016285
+      }
+    },
+    {
+      "istatCode": "036037",
+      "officialName": "San Felice sul Panaro",
+      "normalizedName": "san felice sul panaro",
+      "aliases": [
+        "san felice",
+        "sanfelice",
+        "sanfelicesulpanaro"
+      ],
+      "areaKm2": 51.676,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036004",
+        "036012",
+        "036021",
+        "036022"
+      ],
+      "focusPoint": {
+        "lat": 44.844488,
+        "lng": 11.14947
+      }
+    },
+    {
+      "istatCode": "036038",
+      "officialName": "San Possidonio",
+      "normalizedName": "san possidonio",
+      "aliases": [
+        "sanpossidonio"
+      ],
+      "areaKm2": 16.882,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036009",
+        "036010",
+        "036022",
+        "036028"
+      ],
+      "focusPoint": {
+        "lat": 44.883234,
+        "lng": 10.988818
+      }
+    },
+    {
+      "istatCode": "036039",
+      "officialName": "San Prospero",
+      "normalizedName": "san prospero",
+      "aliases": [
+        "sanprospero"
+      ],
+      "areaKm2": 34.731,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036002",
+        "036005",
+        "036009",
+        "036021",
+        "036044"
+      ],
+      "focusPoint": {
+        "lat": 44.783049,
+        "lng": 11.030835
+      }
+    },
+    {
+      "istatCode": "036040",
+      "officialName": "Sassuolo",
+      "normalizedName": "sassuolo",
+      "aliases": [],
+      "areaKm2": 38.482,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036013",
+        "036015",
+        "036033",
+        "036042"
+      ],
+      "focusPoint": {
+        "lat": 44.554543,
+        "lng": 10.788872
+      }
+    },
+    {
+      "istatCode": "036041",
+      "officialName": "Savignano sul Panaro",
+      "normalizedName": "savignano sul panaro",
+      "aliases": [
+        "savignano",
+        "savignanosulpanaro"
+      ],
+      "areaKm2": 25.644,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036017",
+        "036020",
+        "036036",
+        "036045",
+        "036046"
+      ],
+      "focusPoint": {
+        "lat": 44.482552,
+        "lng": 11.041418
+      }
+    },
+    {
+      "istatCode": "036042",
+      "officialName": "Serramazzoni",
+      "normalizedName": "serramazzoni",
+      "aliases": [],
+      "areaKm2": 94.433,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036013",
+        "036019",
+        "036020",
+        "036030",
+        "036032",
+        "036033",
+        "036040"
+      ],
+      "focusPoint": {
+        "lat": 44.43634,
+        "lng": 10.809944
+      }
+    },
+    {
+      "istatCode": "036043",
+      "officialName": "Sestola",
+      "normalizedName": "sestola",
+      "aliases": [],
+      "areaKm2": 53.025,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036011",
+        "036014",
+        "036024",
+        "036026",
+        "036030",
+        "036035"
+      ],
+      "focusPoint": {
+        "lat": 44.243299,
+        "lng": 10.766477
+      }
+    },
+    {
+      "istatCode": "036044",
+      "officialName": "Soliera",
+      "normalizedName": "soliera",
+      "aliases": [],
+      "areaKm2": 51.126,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036001",
+        "036002",
+        "036005",
+        "036023",
+        "036039"
+      ],
+      "focusPoint": {
+        "lat": 44.747718,
+        "lng": 10.942096
+      }
+    },
+    {
+      "istatCode": "036045",
+      "officialName": "Spilamberto",
+      "normalizedName": "spilamberto",
+      "aliases": [],
+      "areaKm2": 29.804,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036007",
+        "036008",
+        "036023",
+        "036036",
+        "036041",
+        "036046"
+      ],
+      "focusPoint": {
+        "lat": 44.537888,
+        "lng": 11.002193
+      }
+    },
+    {
+      "istatCode": "036046",
+      "officialName": "Vignola",
+      "normalizedName": "vignola",
+      "aliases": [],
+      "areaKm2": 23.122,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "036008",
+        "036020",
+        "036041",
+        "036045"
+      ],
+      "focusPoint": {
+        "lat": 44.482583,
+        "lng": 10.993614
+      }
+    },
+    {
+      "istatCode": "036047",
+      "officialName": "Zocca",
+      "normalizedName": "zocca",
+      "aliases": [],
+      "areaKm2": 69.364,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "036017",
+        "036026",
+        "036030"
+      ],
+      "focusPoint": {
+        "lat": 44.362088,
+        "lng": 10.998107
+      }
+    }
+  ]
+}

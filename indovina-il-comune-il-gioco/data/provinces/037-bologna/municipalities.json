@@ -1,0 +1,1316 @@
+{
+  "provinceCode": "037",
+  "label": "Bologna",
+  "officialScopeLabel": "Città Metropolitana di Bologna",
+  "sigla": "BO",
+  "slug": "bologna",
+  "sourceYear": 2026,
+  "count": 55,
+  "municipalities": [
+    {
+      "istatCode": "037001",
+      "officialName": "Anzola dell'Emilia",
+      "normalizedName": "anzola dell emilia",
+      "aliases": [
+        "anzola",
+        "anzola dell",
+        "anzoladell",
+        "anzoladellemilia"
+      ],
+      "areaKm2": 36.676,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037006",
+        "037009",
+        "037050",
+        "037053",
+        "037060",
+        "037061"
+      ],
+      "focusPoint": {
+        "lat": 44.571322,
+        "lng": 11.186981
+      }
+    },
+    {
+      "istatCode": "037002",
+      "officialName": "Argelato",
+      "normalizedName": "argelato",
+      "aliases": [],
+      "areaKm2": 34.834,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037005",
+        "037017",
+        "037019",
+        "037050",
+        "037052"
+      ],
+      "focusPoint": {
+        "lat": 44.627377,
+        "lng": 11.32402
+      }
+    },
+    {
+      "istatCode": "037003",
+      "officialName": "Baricella",
+      "normalizedName": "baricella",
+      "aliases": [],
+      "areaKm2": 45.4,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037008",
+        "037035",
+        "037038",
+        "037039"
+      ],
+      "focusPoint": {
+        "lat": 44.680908,
+        "lng": 11.582795
+      }
+    },
+    {
+      "istatCode": "037005",
+      "officialName": "Bentivoglio",
+      "normalizedName": "bentivoglio",
+      "aliases": [],
+      "areaKm2": 51.449,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037002",
+        "037019",
+        "037030",
+        "037035",
+        "037038",
+        "037052",
+        "037055"
+      ],
+      "focusPoint": {
+        "lat": 44.627671,
+        "lng": 11.416008
+      }
+    },
+    {
+      "istatCode": "037006",
+      "officialName": "Bologna",
+      "normalizedName": "bologna",
+      "aliases": [],
+      "areaKm2": 140.594,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037001",
+        "037009",
+        "037011",
+        "037019",
+        "037021",
+        "037030",
+        "037047",
+        "037054",
+        "037057",
+        "037060"
+      ],
+      "focusPoint": {
+        "lat": 44.488507,
+        "lng": 11.359123
+      }
+    },
+    {
+      "istatCode": "037007",
+      "officialName": "Borgo Tossignano",
+      "normalizedName": "borgo tossignano",
+      "aliases": [
+        "borgo",
+        "borgotossignano"
+      ],
+      "areaKm2": 29.442,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037012",
+        "037026",
+        "037032"
+      ],
+      "focusPoint": {
+        "lat": 44.27082,
+        "lng": 11.604355
+      }
+    },
+    {
+      "istatCode": "037008",
+      "officialName": "Budrio",
+      "normalizedName": "budrio",
+      "aliases": [],
+      "areaKm2": 119.995,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037003",
+        "037021",
+        "037030",
+        "037037",
+        "037038",
+        "037039",
+        "037046"
+      ],
+      "focusPoint": {
+        "lat": 44.565261,
+        "lng": 11.546548
+      }
+    },
+    {
+      "istatCode": "037009",
+      "officialName": "Calderara di Reno",
+      "normalizedName": "calderara di reno",
+      "aliases": [
+        "calderara",
+        "calderaradireno"
+      ],
+      "areaKm2": 40.23,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037001",
+        "037006",
+        "037019",
+        "037050"
+      ],
+      "focusPoint": {
+        "lat": 44.570545,
+        "lng": 11.266983
+      }
+    },
+    {
+      "istatCode": "037010",
+      "officialName": "Camugnano",
+      "normalizedName": "camugnano",
+      "aliases": [],
+      "areaKm2": 96.656,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037015",
+        "037022",
+        "037031"
+      ],
+      "focusPoint": {
+        "lat": 44.151152,
+        "lng": 11.106082
+      }
+    },
+    {
+      "istatCode": "037011",
+      "officialName": "Casalecchio di Reno",
+      "normalizedName": "casalecchio di reno",
+      "aliases": [
+        "casalecchio",
+        "casalecchiodireno"
+      ],
+      "areaKm2": 17.421,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037006",
+        "037057",
+        "037060"
+      ],
+      "focusPoint": {
+        "lat": 44.470076,
+        "lng": 11.265997
+      }
+    },
+    {
+      "istatCode": "037012",
+      "officialName": "Casalfiumanese",
+      "normalizedName": "casalfiumanese",
+      "aliases": [],
+      "areaKm2": 82.021,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037007",
+        "037014",
+        "037020",
+        "037025",
+        "037026",
+        "037032",
+        "037041"
+      ],
+      "focusPoint": {
+        "lat": 44.290179,
+        "lng": 11.56117
+      }
+    },
+    {
+      "istatCode": "037013",
+      "officialName": "Castel d'Aiano",
+      "normalizedName": "castel d aiano",
+      "aliases": [
+        "casteldaiano"
+      ],
+      "areaKm2": 45.474,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037027",
+        "037059"
+      ],
+      "focusPoint": {
+        "lat": 44.283711,
+        "lng": 11.01608
+      }
+    },
+    {
+      "istatCode": "037014",
+      "officialName": "Castel del Rio",
+      "normalizedName": "castel del rio",
+      "aliases": [
+        "casteldelrio"
+      ],
+      "areaKm2": 52.576,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037012",
+        "037026",
+        "037041"
+      ],
+      "focusPoint": {
+        "lat": 44.202385,
+        "lng": 11.499629
+      }
+    },
+    {
+      "istatCode": "037015",
+      "officialName": "Castel di Casio",
+      "normalizedName": "castel di casio",
+      "aliases": [
+        "casteldicasio"
+      ],
+      "areaKm2": 47.53,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037010",
+        "037027",
+        "037031",
+        "037062"
+      ],
+      "focusPoint": {
+        "lat": 44.151642,
+        "lng": 11.013338
+      }
+    },
+    {
+      "istatCode": "037016",
+      "officialName": "Castel Guelfo di Bologna",
+      "normalizedName": "castel guelfo di bologna",
+      "aliases": [
+        "castel guelfo",
+        "castelguelfo",
+        "castelguelfodibologna"
+      ],
+      "areaKm2": 29.098,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037020",
+        "037025",
+        "037032",
+        "037037"
+      ],
+      "focusPoint": {
+        "lat": 44.45374,
+        "lng": 11.63903
+      }
+    },
+    {
+      "istatCode": "037017",
+      "officialName": "Castello d'Argile",
+      "normalizedName": "castello d argile",
+      "aliases": [
+        "castello",
+        "castellodargile"
+      ],
+      "areaKm2": 29.226,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037002",
+        "037048",
+        "037050",
+        "037052",
+        "037053",
+        "037055"
+      ],
+      "focusPoint": {
+        "lat": 44.690207,
+        "lng": 11.30983
+      }
+    },
+    {
+      "istatCode": "037019",
+      "officialName": "Castel Maggiore",
+      "normalizedName": "castel maggiore",
+      "aliases": [
+        "castelmaggiore"
+      ],
+      "areaKm2": 30.963,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037002",
+        "037005",
+        "037006",
+        "037009",
+        "037030",
+        "037050"
+      ],
+      "focusPoint": {
+        "lat": 44.576756,
+        "lng": 11.363576
+      }
+    },
+    {
+      "istatCode": "037020",
+      "officialName": "Castel San Pietro Terme",
+      "normalizedName": "castel san pietro terme",
+      "aliases": [
+        "castel san",
+        "castel san pietro",
+        "castelsan",
+        "castelsanpietro",
+        "castelsanpietroterme"
+      ],
+      "areaKm2": 148.136,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037012",
+        "037016",
+        "037025",
+        "037037",
+        "037041",
+        "037046"
+      ],
+      "focusPoint": {
+        "lat": 44.392943,
+        "lng": 11.55454
+      }
+    },
+    {
+      "istatCode": "037021",
+      "officialName": "Castenaso",
+      "normalizedName": "castenaso",
+      "aliases": [],
+      "areaKm2": 35.736,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037006",
+        "037008",
+        "037030",
+        "037046",
+        "037054"
+      ],
+      "focusPoint": {
+        "lat": 44.508348,
+        "lng": 11.471134
+      }
+    },
+    {
+      "istatCode": "037022",
+      "officialName": "Castiglione dei Pepoli",
+      "normalizedName": "castiglione dei pepoli",
+      "aliases": [
+        "castiglione",
+        "castiglionedeipepoli"
+      ],
+      "areaKm2": 66.039,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037010",
+        "037031",
+        "037051"
+      ],
+      "focusPoint": {
+        "lat": 44.167032,
+        "lng": 11.188573
+      }
+    },
+    {
+      "istatCode": "037024",
+      "officialName": "Crevalcore",
+      "normalizedName": "crevalcore",
+      "aliases": [],
+      "areaKm2": 102.832,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037053",
+        "037056"
+      ],
+      "focusPoint": {
+        "lat": 44.744944,
+        "lng": 11.16811
+      }
+    },
+    {
+      "istatCode": "037025",
+      "officialName": "Dozza",
+      "normalizedName": "dozza",
+      "aliases": [],
+      "areaKm2": 24.347,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037012",
+        "037016",
+        "037020",
+        "037032"
+      ],
+      "focusPoint": {
+        "lat": 44.384642,
+        "lng": 11.641342
+      }
+    },
+    {
+      "istatCode": "037026",
+      "officialName": "Fontanelice",
+      "normalizedName": "fontanelice",
+      "aliases": [],
+      "areaKm2": 36.528,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037007",
+        "037012",
+        "037014"
+      ],
+      "focusPoint": {
+        "lat": 44.254149,
+        "lng": 11.554701
+      }
+    },
+    {
+      "istatCode": "037027",
+      "officialName": "Gaggio Montano",
+      "normalizedName": "gaggio montano",
+      "aliases": [
+        "gaggio",
+        "gaggiomontano"
+      ],
+      "areaKm2": 58.646,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037013",
+        "037015",
+        "037031",
+        "037033",
+        "037059",
+        "037062"
+      ],
+      "focusPoint": {
+        "lat": 44.224214,
+        "lng": 10.985858
+      }
+    },
+    {
+      "istatCode": "037028",
+      "officialName": "Galliera",
+      "normalizedName": "galliera",
+      "aliases": [],
+      "areaKm2": 37.239,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037035",
+        "037048",
+        "037055"
+      ],
+      "focusPoint": {
+        "lat": 44.750695,
+        "lng": 11.412019
+      }
+    },
+    {
+      "istatCode": "037030",
+      "officialName": "Granarolo dell'Emilia",
+      "normalizedName": "granarolo dell emilia",
+      "aliases": [
+        "granarolo",
+        "granarolo dell",
+        "granarolodell",
+        "granarolodellemilia"
+      ],
+      "areaKm2": 34.456,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037005",
+        "037006",
+        "037008",
+        "037019",
+        "037021",
+        "037038"
+      ],
+      "focusPoint": {
+        "lat": 44.563942,
+        "lng": 11.433875
+      }
+    },
+    {
+      "istatCode": "037031",
+      "officialName": "Grizzana Morandi",
+      "normalizedName": "grizzana morandi",
+      "aliases": [
+        "grizzana",
+        "grizzanamorandi"
+      ],
+      "areaKm2": 77.579,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037010",
+        "037015",
+        "037022",
+        "037027",
+        "037036",
+        "037044",
+        "037051",
+        "037059"
+      ],
+      "focusPoint": {
+        "lat": 44.253987,
+        "lng": 11.147055
+      }
+    },
+    {
+      "istatCode": "037032",
+      "officialName": "Imola",
+      "normalizedName": "imola",
+      "aliases": [],
+      "areaKm2": 204.621,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037007",
+        "037012",
+        "037016",
+        "037025",
+        "037037",
+        "037045"
+      ],
+      "focusPoint": {
+        "lat": 44.430824,
+        "lng": 11.733588
+      }
+    },
+    {
+      "istatCode": "037033",
+      "officialName": "Lizzano in Belvedere",
+      "normalizedName": "lizzano in belvedere",
+      "aliases": [
+        "lizzano",
+        "lizzanoinbelvedere"
+      ],
+      "areaKm2": 85.419,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037027",
+        "037062"
+      ],
+      "focusPoint": {
+        "lat": 44.166213,
+        "lng": 10.861624
+      }
+    },
+    {
+      "istatCode": "037034",
+      "officialName": "Loiano",
+      "normalizedName": "loiano",
+      "aliases": [],
+      "areaKm2": 52.604,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037040",
+        "037041",
+        "037044",
+        "037047"
+      ],
+      "focusPoint": {
+        "lat": 44.279398,
+        "lng": 11.328979
+      }
+    },
+    {
+      "istatCode": "037035",
+      "officialName": "Malalbergo",
+      "normalizedName": "malalbergo",
+      "aliases": [],
+      "areaKm2": 53.792,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037003",
+        "037005",
+        "037028",
+        "037038",
+        "037055"
+      ],
+      "focusPoint": {
+        "lat": 44.678202,
+        "lng": 11.511262
+      }
+    },
+    {
+      "istatCode": "037036",
+      "officialName": "Marzabotto",
+      "normalizedName": "marzabotto",
+      "aliases": [],
+      "areaKm2": 74.236,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037031",
+        "037042",
+        "037044",
+        "037057",
+        "037059",
+        "037061"
+      ],
+      "focusPoint": {
+        "lat": 44.332307,
+        "lng": 11.203423
+      }
+    },
+    {
+      "istatCode": "037037",
+      "officialName": "Medicina",
+      "normalizedName": "medicina",
+      "aliases": [],
+      "areaKm2": 158.656,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037008",
+        "037016",
+        "037020",
+        "037032",
+        "037039",
+        "037046"
+      ],
+      "focusPoint": {
+        "lat": 44.517211,
+        "lng": 11.668388
+      }
+    },
+    {
+      "istatCode": "037038",
+      "officialName": "Minerbio",
+      "normalizedName": "minerbio",
+      "aliases": [],
+      "areaKm2": 43.179,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037003",
+        "037005",
+        "037008",
+        "037030",
+        "037035"
+      ],
+      "focusPoint": {
+        "lat": 44.619441,
+        "lng": 11.502414
+      }
+    },
+    {
+      "istatCode": "037039",
+      "officialName": "Molinella",
+      "normalizedName": "molinella",
+      "aliases": [],
+      "areaKm2": 127.388,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037003",
+        "037008",
+        "037037"
+      ],
+      "focusPoint": {
+        "lat": 44.60761,
+        "lng": 11.699975
+      }
+    },
+    {
+      "istatCode": "037040",
+      "officialName": "Monghidoro",
+      "normalizedName": "monghidoro",
+      "aliases": [],
+      "areaKm2": 48.134,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037034",
+        "037041",
+        "037044",
+        "037051"
+      ],
+      "focusPoint": {
+        "lat": 44.215166,
+        "lng": 11.332374
+      }
+    },
+    {
+      "istatCode": "037041",
+      "officialName": "Monterenzio",
+      "normalizedName": "monterenzio",
+      "aliases": [],
+      "areaKm2": 105.054,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037012",
+        "037014",
+        "037020",
+        "037034",
+        "037040",
+        "037046",
+        "037047"
+      ],
+      "focusPoint": {
+        "lat": 44.299446,
+        "lng": 11.423852
+      }
+    },
+    {
+      "istatCode": "037042",
+      "officialName": "Monte San Pietro",
+      "normalizedName": "monte san pietro",
+      "aliases": [
+        "monte",
+        "monte san",
+        "montesan",
+        "montesanpietro"
+      ],
+      "areaKm2": 74.286,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037036",
+        "037057",
+        "037060",
+        "037061"
+      ],
+      "focusPoint": {
+        "lat": 44.427923,
+        "lng": 11.150361
+      }
+    },
+    {
+      "istatCode": "037044",
+      "officialName": "Monzuno",
+      "normalizedName": "monzuno",
+      "aliases": [],
+      "areaKm2": 65.198,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037031",
+        "037034",
+        "037036",
+        "037040",
+        "037047",
+        "037051",
+        "037057"
+      ],
+      "focusPoint": {
+        "lat": 44.28983,
+        "lng": 11.249332
+      }
+    },
+    {
+      "istatCode": "037045",
+      "officialName": "Mordano",
+      "normalizedName": "mordano",
+      "aliases": [],
+      "areaKm2": 21.362,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037032"
+      ],
+      "focusPoint": {
+        "lat": 44.411145,
+        "lng": 11.797771
+      }
+    },
+    {
+      "istatCode": "037046",
+      "officialName": "Ozzano dell'Emilia",
+      "normalizedName": "ozzano dell emilia",
+      "aliases": [
+        "ozzano",
+        "ozzano dell",
+        "ozzanodell",
+        "ozzanodellemilia"
+      ],
+      "areaKm2": 65.377,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037008",
+        "037020",
+        "037021",
+        "037037",
+        "037041",
+        "037047",
+        "037054"
+      ],
+      "focusPoint": {
+        "lat": 44.424609,
+        "lng": 11.476511
+      }
+    },
+    {
+      "istatCode": "037047",
+      "officialName": "Pianoro",
+      "normalizedName": "pianoro",
+      "aliases": [],
+      "areaKm2": 106.353,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037006",
+        "037034",
+        "037041",
+        "037044",
+        "037046",
+        "037054",
+        "037057"
+      ],
+      "focusPoint": {
+        "lat": 44.37758,
+        "lng": 11.343466
+      }
+    },
+    {
+      "istatCode": "037048",
+      "officialName": "Pieve di Cento",
+      "normalizedName": "pieve di cento",
+      "aliases": [
+        "pieve",
+        "pievedicento"
+      ],
+      "areaKm2": 16.069,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037017",
+        "037028",
+        "037055"
+      ],
+      "focusPoint": {
+        "lat": 44.746128,
+        "lng": 11.332174
+      }
+    },
+    {
+      "istatCode": "037050",
+      "officialName": "Sala Bolognese",
+      "normalizedName": "sala bolognese",
+      "aliases": [
+        "sala",
+        "salabolognese"
+      ],
+      "areaKm2": 46.175,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037001",
+        "037002",
+        "037009",
+        "037017",
+        "037019",
+        "037053"
+      ],
+      "focusPoint": {
+        "lat": 44.627718,
+        "lng": 11.271385
+      }
+    },
+    {
+      "istatCode": "037051",
+      "officialName": "San Benedetto Val di Sambro",
+      "normalizedName": "san benedetto val di sambro",
+      "aliases": [
+        "san benedetto",
+        "san benedetto val",
+        "sanbenedetto",
+        "sanbenedettoval",
+        "sanbenedettovaldisambro"
+      ],
+      "areaKm2": 66.447,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037022",
+        "037031",
+        "037040",
+        "037044"
+      ],
+      "focusPoint": {
+        "lat": 44.196349,
+        "lng": 11.238539
+      }
+    },
+    {
+      "istatCode": "037052",
+      "officialName": "San Giorgio di Piano",
+      "normalizedName": "san giorgio di piano",
+      "aliases": [
+        "san giorgio",
+        "sangiorgio",
+        "sangiorgiodipiano"
+      ],
+      "areaKm2": 30.37,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037002",
+        "037005",
+        "037017",
+        "037055"
+      ],
+      "focusPoint": {
+        "lat": 44.654966,
+        "lng": 11.38003
+      }
+    },
+    {
+      "istatCode": "037053",
+      "officialName": "San Giovanni in Persiceto",
+      "normalizedName": "san giovanni in persiceto",
+      "aliases": [
+        "san giovanni",
+        "sangiovanni",
+        "sangiovanniinpersiceto"
+      ],
+      "areaKm2": 114.028,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037001",
+        "037017",
+        "037024",
+        "037050",
+        "037056"
+      ],
+      "focusPoint": {
+        "lat": 44.655735,
+        "lng": 11.199432
+      }
+    },
+    {
+      "istatCode": "037054",
+      "officialName": "San Lazzaro di Savena",
+      "normalizedName": "san lazzaro di savena",
+      "aliases": [
+        "san lazzaro",
+        "sanlazzaro",
+        "sanlazzarodisavena"
+      ],
+      "areaKm2": 45.268,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037006",
+        "037021",
+        "037046",
+        "037047"
+      ],
+      "focusPoint": {
+        "lat": 44.447663,
+        "lng": 11.409696
+      }
+    },
+    {
+      "istatCode": "037055",
+      "officialName": "San Pietro in Casale",
+      "normalizedName": "san pietro in casale",
+      "aliases": [
+        "san pietro",
+        "sanpietro",
+        "sanpietroincasale"
+      ],
+      "areaKm2": 65.91,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037005",
+        "037017",
+        "037028",
+        "037035",
+        "037048",
+        "037052"
+      ],
+      "focusPoint": {
+        "lat": 44.709869,
+        "lng": 11.402645
+      }
+    },
+    {
+      "istatCode": "037056",
+      "officialName": "Sant'Agata Bolognese",
+      "normalizedName": "sant agata bolognese",
+      "aliases": [
+        "sant",
+        "sant agata",
+        "santagata",
+        "santagatabolognese"
+      ],
+      "areaKm2": 34.828,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037024",
+        "037053"
+      ],
+      "focusPoint": {
+        "lat": 44.673947,
+        "lng": 11.128713
+      }
+    },
+    {
+      "istatCode": "037057",
+      "officialName": "Sasso Marconi",
+      "normalizedName": "sasso marconi",
+      "aliases": [
+        "sasso",
+        "sassomarconi"
+      ],
+      "areaKm2": 97.158,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037006",
+        "037011",
+        "037036",
+        "037042",
+        "037044",
+        "037047",
+        "037060"
+      ],
+      "focusPoint": {
+        "lat": 44.397712,
+        "lng": 11.239469
+      }
+    },
+    {
+      "istatCode": "037059",
+      "officialName": "Vergato",
+      "normalizedName": "vergato",
+      "aliases": [],
+      "areaKm2": 60.089,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037013",
+        "037027",
+        "037031",
+        "037036",
+        "037061"
+      ],
+      "focusPoint": {
+        "lat": 44.286205,
+        "lng": 11.094659
+      }
+    },
+    {
+      "istatCode": "037060",
+      "officialName": "Zola Predosa",
+      "normalizedName": "zola predosa",
+      "aliases": [
+        "zola",
+        "zolapredosa"
+      ],
+      "areaKm2": 37.915,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "037001",
+        "037006",
+        "037011",
+        "037042",
+        "037057",
+        "037061"
+      ],
+      "focusPoint": {
+        "lat": 44.495573,
+        "lng": 11.212424
+      }
+    },
+    {
+      "istatCode": "037061",
+      "officialName": "Valsamoggia",
+      "normalizedName": "valsamoggia",
+      "aliases": [],
+      "areaKm2": 177.936,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037001",
+        "037036",
+        "037042",
+        "037059",
+        "037060"
+      ],
+      "focusPoint": {
+        "lat": 44.435328,
+        "lng": 11.059877
+      }
+    },
+    {
+      "istatCode": "037062",
+      "officialName": "Alto Reno Terme",
+      "normalizedName": "alto reno terme",
+      "aliases": [
+        "alto",
+        "alto reno",
+        "altoreno",
+        "altorenoterme"
+      ],
+      "areaKm2": 73.481,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "037015",
+        "037027",
+        "037033"
+      ],
+      "focusPoint": {
+        "lat": 44.12042,
+        "lng": 10.934117
+      }
+    }
+  ]
+}

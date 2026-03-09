@@ -1,0 +1,1965 @@
+{
+  "provinceCode": "115",
+  "label": "Oristano",
+  "officialScopeLabel": "Provincia di Oristano",
+  "sigla": "OR",
+  "slug": "oristano",
+  "sourceYear": 2026,
+  "count": 87,
+  "municipalities": [
+    {
+      "istatCode": "115001",
+      "officialName": "Abbasanta",
+      "normalizedName": "abbasanta",
+      "aliases": [],
+      "areaKm2": 39.847,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115024",
+        "115040",
+        "115048",
+        "115057"
+      ],
+      "focusPoint": {
+        "lat": 40.140436,
+        "lng": 8.772205
+      }
+    },
+    {
+      "istatCode": "115002",
+      "officialName": "Aidomaggiore",
+      "normalizedName": "aidomaggiore",
+      "aliases": [],
+      "areaKm2": 41.269,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115024",
+        "115040",
+        "115059",
+        "115070"
+      ],
+      "focusPoint": {
+        "lat": 40.176352,
+        "lng": 8.838884
+      }
+    },
+    {
+      "istatCode": "115003",
+      "officialName": "Albagiara",
+      "normalizedName": "albagiara",
+      "aliases": [],
+      "areaKm2": 9.177,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115008",
+        "115026",
+        "115034",
+        "115081",
+        "115082"
+      ],
+      "focusPoint": {
+        "lat": 39.80874,
+        "lng": 8.876515
+      }
+    },
+    {
+      "istatCode": "115004",
+      "officialName": "Ales",
+      "normalizedName": "ales",
+      "aliases": [],
+      "areaKm2": 22.222,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115021",
+        "115026",
+        "115037",
+        "115047",
+        "115056",
+        "115081",
+        "115083"
+      ],
+      "focusPoint": {
+        "lat": 39.777441,
+        "lng": 8.810995
+      }
+    },
+    {
+      "istatCode": "115005",
+      "officialName": "Allai",
+      "normalizedName": "allai",
+      "aliases": [],
+      "areaKm2": 27.503,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115018",
+        "115023",
+        "115051",
+        "115053",
+        "115064",
+        "115065"
+      ],
+      "focusPoint": {
+        "lat": 39.949611,
+        "lng": 8.856861
+      }
+    },
+    {
+      "istatCode": "115006",
+      "officialName": "Arborea",
+      "normalizedName": "arborea",
+      "aliases": [],
+      "areaKm2": 94.741,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115030",
+        "115056",
+        "115075"
+      ],
+      "focusPoint": {
+        "lat": 39.769353,
+        "lng": 8.575327
+      }
+    },
+    {
+      "istatCode": "115007",
+      "officialName": "Ardauli",
+      "normalizedName": "ardauli",
+      "aliases": [],
+      "areaKm2": 20.581,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115024",
+        "115039",
+        "115041",
+        "115072",
+        "115074",
+        "115079"
+      ],
+      "focusPoint": {
+        "lat": 40.081301,
+        "lng": 8.918787
+      }
+    },
+    {
+      "istatCode": "115008",
+      "officialName": "Assolo",
+      "normalizedName": "assolo",
+      "aliases": [],
+      "areaKm2": 16.35,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115003",
+        "115043",
+        "115061",
+        "115082"
+      ],
+      "focusPoint": {
+        "lat": 39.81018,
+        "lng": 8.907028
+      }
+    },
+    {
+      "istatCode": "115009",
+      "officialName": "Asuni",
+      "normalizedName": "asuni",
+      "aliases": [],
+      "areaKm2": 21.345,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115028",
+        "115051",
+        "115053",
+        "115061",
+        "115082"
+      ],
+      "focusPoint": {
+        "lat": 39.867363,
+        "lng": 8.950174
+      }
+    },
+    {
+      "istatCode": "115010",
+      "officialName": "Baradili",
+      "normalizedName": "baradili",
+      "aliases": [],
+      "areaKm2": 5.642,
+      "baseChips": 211,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115012",
+        "115026",
+        "115068"
+      ],
+      "focusPoint": {
+        "lat": 39.727201,
+        "lng": 8.89554
+      }
+    },
+    {
+      "istatCode": "115011",
+      "officialName": "Baratili San Pietro",
+      "normalizedName": "baratili san pietro",
+      "aliases": [
+        "baratili",
+        "baratili san",
+        "baratilisan",
+        "baratilisanpietro"
+      ],
+      "areaKm2": 6.006,
+      "baseChips": 210,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115042",
+        "115045",
+        "115050",
+        "115055",
+        "115086"
+      ],
+      "focusPoint": {
+        "lat": 39.977317,
+        "lng": 8.572425
+      }
+    },
+    {
+      "istatCode": "115012",
+      "officialName": "Baressa",
+      "normalizedName": "baressa",
+      "aliases": [],
+      "areaKm2": 12.547,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115010",
+        "115025",
+        "115026",
+        "115066"
+      ],
+      "focusPoint": {
+        "lat": 39.712563,
+        "lng": 8.871232
+      }
+    },
+    {
+      "istatCode": "115013",
+      "officialName": "Bauladu",
+      "normalizedName": "bauladu",
+      "aliases": [],
+      "areaKm2": 23.918,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115015",
+        "115032",
+        "115048",
+        "115071",
+        "115077"
+      ],
+      "focusPoint": {
+        "lat": 40.018952,
+        "lng": 8.682911
+      }
+    },
+    {
+      "istatCode": "115014",
+      "officialName": "Bidonì",
+      "normalizedName": "bidoni",
+      "aliases": [],
+      "areaKm2": 11.784,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115041",
+        "115059",
+        "115072"
+      ],
+      "focusPoint": {
+        "lat": 40.127783,
+        "lng": 8.936397
+      }
+    },
+    {
+      "istatCode": "115015",
+      "officialName": "Bonarcado",
+      "normalizedName": "bonarcado",
+      "aliases": [],
+      "areaKm2": 28.208,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115013",
+        "115032",
+        "115048",
+        "115057",
+        "115060"
+      ],
+      "focusPoint": {
+        "lat": 40.094573,
+        "lng": 8.670142
+      }
+    },
+    {
+      "istatCode": "115016",
+      "officialName": "Boroneddu",
+      "normalizedName": "boroneddu",
+      "aliases": [],
+      "areaKm2": 4.723,
+      "baseChips": 215,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115024",
+        "115070",
+        "115074"
+      ],
+      "focusPoint": {
+        "lat": 40.105265,
+        "lng": 8.866633
+      }
+    },
+    {
+      "istatCode": "115017",
+      "officialName": "Bosa",
+      "normalizedName": "bosa",
+      "aliases": [],
+      "areaKm2": 128.492,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115029",
+        "115033",
+        "115036",
+        "115073"
+      ],
+      "focusPoint": {
+        "lat": 40.334004,
+        "lng": 8.488054
+      }
+    },
+    {
+      "istatCode": "115018",
+      "officialName": "Busachi",
+      "normalizedName": "busachi",
+      "aliases": [],
+      "areaKm2": 58.957,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115005",
+        "115023",
+        "115024",
+        "115053",
+        "115079"
+      ],
+      "focusPoint": {
+        "lat": 40.006352,
+        "lng": 8.894102
+      }
+    },
+    {
+      "istatCode": "115019",
+      "officialName": "Cabras",
+      "normalizedName": "cabras",
+      "aliases": [],
+      "areaKm2": 102.059,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115042",
+        "115045",
+        "115050"
+      ],
+      "focusPoint": {
+        "lat": 39.928921,
+        "lng": 8.482139
+      }
+    },
+    {
+      "istatCode": "115020",
+      "officialName": "Cuglieri",
+      "normalizedName": "cuglieri",
+      "aliases": [],
+      "areaKm2": 120.305,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115038",
+        "115057",
+        "115058",
+        "115060",
+        "115062",
+        "115078"
+      ],
+      "focusPoint": {
+        "lat": 40.13589,
+        "lng": 8.511423
+      }
+    },
+    {
+      "istatCode": "115021",
+      "officialName": "Curcuris",
+      "normalizedName": "curcuris",
+      "aliases": [],
+      "areaKm2": 7.214,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115004",
+        "115026",
+        "115037",
+        "115049",
+        "115066"
+      ],
+      "focusPoint": {
+        "lat": 39.753145,
+        "lng": 8.831087
+      }
+    },
+    {
+      "istatCode": "115022",
+      "officialName": "Flussio",
+      "normalizedName": "flussio",
+      "aliases": [],
+      "areaKm2": 6.721,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115029",
+        "115033",
+        "115052",
+        "115058",
+        "115062",
+        "115073",
+        "115076",
+        "115078"
+      ],
+      "focusPoint": {
+        "lat": 40.252504,
+        "lng": 8.557085
+      }
+    },
+    {
+      "istatCode": "115023",
+      "officialName": "Fordongianus",
+      "normalizedName": "fordongianus",
+      "aliases": [],
+      "areaKm2": 39.131,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115005",
+        "115018",
+        "115024",
+        "115044",
+        "115048",
+        "115065",
+        "115084"
+      ],
+      "focusPoint": {
+        "lat": 39.987099,
+        "lng": 8.814381
+      }
+    },
+    {
+      "istatCode": "115024",
+      "officialName": "Ghilarza",
+      "normalizedName": "ghilarza",
+      "aliases": [],
+      "areaKm2": 54.823,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115001",
+        "115002",
+        "115007",
+        "115016",
+        "115018",
+        "115023",
+        "115040",
+        "115048",
+        "115059",
+        "115070",
+        "115072",
+        "115074",
+        "115079"
+      ],
+      "focusPoint": {
+        "lat": 40.091993,
+        "lng": 8.83403
+      }
+    },
+    {
+      "istatCode": "115025",
+      "officialName": "Gonnoscodina",
+      "normalizedName": "gonnoscodina",
+      "aliases": [],
+      "areaKm2": 8.842,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115012",
+        "115027",
+        "115031",
+        "115066"
+      ],
+      "focusPoint": {
+        "lat": 39.703304,
+        "lng": 8.833763
+      }
+    },
+    {
+      "istatCode": "115026",
+      "officialName": "Gonnosnò",
+      "normalizedName": "gonnosno",
+      "aliases": [],
+      "areaKm2": 15.416,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115003",
+        "115004",
+        "115010",
+        "115012",
+        "115021",
+        "115066",
+        "115068"
+      ],
+      "focusPoint": {
+        "lat": 39.754517,
+        "lng": 8.867566
+      }
+    },
+    {
+      "istatCode": "115027",
+      "officialName": "Gonnostramatza",
+      "normalizedName": "gonnostramatza",
+      "aliases": [],
+      "areaKm2": 17.809,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115025",
+        "115031",
+        "115035"
+      ],
+      "focusPoint": {
+        "lat": 39.678047,
+        "lng": 8.832983
+      }
+    },
+    {
+      "istatCode": "115028",
+      "officialName": "Laconi",
+      "normalizedName": "laconi",
+      "aliases": [],
+      "areaKm2": 124.746,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115009",
+        "115043",
+        "115053",
+        "115061"
+      ],
+      "focusPoint": {
+        "lat": 39.863914,
+        "lng": 9.064101
+      }
+    },
+    {
+      "istatCode": "115029",
+      "officialName": "Magomadas",
+      "normalizedName": "magomadas",
+      "aliases": [],
+      "areaKm2": 9.04,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115017",
+        "115022",
+        "115033",
+        "115078"
+      ],
+      "focusPoint": {
+        "lat": 40.255799,
+        "lng": 8.49314
+      }
+    },
+    {
+      "istatCode": "115030",
+      "officialName": "Marrubiu",
+      "normalizedName": "marrubiu",
+      "aliases": [],
+      "areaKm2": 61.432,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115006",
+        "115037",
+        "115056",
+        "115075",
+        "115080"
+      ],
+      "focusPoint": {
+        "lat": 39.774966,
+        "lng": 8.66639
+      }
+    },
+    {
+      "istatCode": "115031",
+      "officialName": "Masullas",
+      "normalizedName": "masullas",
+      "aliases": [],
+      "areaKm2": 18.724,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115025",
+        "115027",
+        "115035",
+        "115037",
+        "115049",
+        "115066",
+        "115069",
+        "115080"
+      ],
+      "focusPoint": {
+        "lat": 39.710013,
+        "lng": 8.752298
+      }
+    },
+    {
+      "istatCode": "115032",
+      "officialName": "Milis",
+      "normalizedName": "milis",
+      "aliases": [],
+      "areaKm2": 18.809,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115013",
+        "115015",
+        "115055",
+        "115060",
+        "115077"
+      ],
+      "focusPoint": {
+        "lat": 40.044822,
+        "lng": 8.635536
+      }
+    },
+    {
+      "istatCode": "115033",
+      "officialName": "Modolo",
+      "normalizedName": "modolo",
+      "aliases": [],
+      "areaKm2": 2.618,
+      "baseChips": 228,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115017",
+        "115022",
+        "115029",
+        "115073"
+      ],
+      "focusPoint": {
+        "lat": 40.286905,
+        "lng": 8.531916
+      }
+    },
+    {
+      "istatCode": "115034",
+      "officialName": "Mogorella",
+      "normalizedName": "mogorella",
+      "aliases": [],
+      "areaKm2": 17.264,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115003",
+        "115051",
+        "115081",
+        "115082",
+        "115085"
+      ],
+      "focusPoint": {
+        "lat": 39.875026,
+        "lng": 8.858555
+      }
+    },
+    {
+      "istatCode": "115035",
+      "officialName": "Mogoro",
+      "normalizedName": "mogoro",
+      "aliases": [],
+      "areaKm2": 48.816,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115027",
+        "115031",
+        "115054",
+        "115080"
+      ],
+      "focusPoint": {
+        "lat": 39.65944,
+        "lng": 8.737859
+      }
+    },
+    {
+      "istatCode": "115036",
+      "officialName": "Montresta",
+      "normalizedName": "montresta",
+      "aliases": [],
+      "areaKm2": 31.491,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115017"
+      ],
+      "focusPoint": {
+        "lat": 40.383967,
+        "lng": 8.50746
+      }
+    },
+    {
+      "istatCode": "115037",
+      "officialName": "Morgongiori",
+      "normalizedName": "morgongiori",
+      "aliases": [],
+      "areaKm2": 45.154,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115004",
+        "115021",
+        "115030",
+        "115031",
+        "115049",
+        "115069",
+        "115080"
+      ],
+      "focusPoint": {
+        "lat": 39.764388,
+        "lng": 8.738583
+      }
+    },
+    {
+      "istatCode": "115038",
+      "officialName": "Narbolia",
+      "normalizedName": "narbolia",
+      "aliases": [],
+      "areaKm2": 40.489,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115020",
+        "115050",
+        "115055",
+        "115060"
+      ],
+      "focusPoint": {
+        "lat": 40.045403,
+        "lng": 8.542866
+      }
+    },
+    {
+      "istatCode": "115039",
+      "officialName": "Neoneli",
+      "normalizedName": "neoneli",
+      "aliases": [],
+      "areaKm2": 47.807,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115007",
+        "115041",
+        "115079"
+      ],
+      "focusPoint": {
+        "lat": 40.06241,
+        "lng": 8.973062
+      }
+    },
+    {
+      "istatCode": "115040",
+      "officialName": "Norbello",
+      "normalizedName": "norbello",
+      "aliases": [],
+      "areaKm2": 26.3,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115001",
+        "115002",
+        "115024",
+        "115057"
+      ],
+      "focusPoint": {
+        "lat": 40.16983,
+        "lng": 8.782287
+      }
+    },
+    {
+      "istatCode": "115041",
+      "officialName": "Nughedu Santa Vittoria",
+      "normalizedName": "nughedu santa vittoria",
+      "aliases": [
+        "nughedu",
+        "nughedu santa",
+        "nughedusanta",
+        "nughedusantavittoria"
+      ],
+      "areaKm2": 28.541,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115007",
+        "115014",
+        "115039",
+        "115072"
+      ],
+      "focusPoint": {
+        "lat": 40.113477,
+        "lng": 8.98395
+      }
+    },
+    {
+      "istatCode": "115042",
+      "officialName": "Nurachi",
+      "normalizedName": "nurachi",
+      "aliases": [],
+      "areaKm2": 16.054,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115011",
+        "115019",
+        "115045",
+        "115050"
+      ],
+      "focusPoint": {
+        "lat": 39.965499,
+        "lng": 8.542738
+      }
+    },
+    {
+      "istatCode": "115043",
+      "officialName": "Nureci",
+      "normalizedName": "nureci",
+      "aliases": [],
+      "areaKm2": 13.138,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115008",
+        "115028",
+        "115061"
+      ],
+      "focusPoint": {
+        "lat": 39.812048,
+        "lng": 8.966567
+      }
+    },
+    {
+      "istatCode": "115044",
+      "officialName": "Ollastra",
+      "normalizedName": "ollastra",
+      "aliases": [],
+      "areaKm2": 21.64,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115023",
+        "115065",
+        "115067",
+        "115084",
+        "115087"
+      ],
+      "focusPoint": {
+        "lat": 39.961096,
+        "lng": 8.758266
+      }
+    },
+    {
+      "istatCode": "115045",
+      "officialName": "Oristano",
+      "normalizedName": "oristano",
+      "aliases": [],
+      "areaKm2": 84.636,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115011",
+        "115019",
+        "115042",
+        "115046",
+        "115056",
+        "115063",
+        "115064",
+        "115067",
+        "115071",
+        "115085",
+        "115086"
+      ],
+      "focusPoint": {
+        "lat": 39.913816,
+        "lng": 8.607517
+      }
+    },
+    {
+      "istatCode": "115046",
+      "officialName": "Palmas Arborea",
+      "normalizedName": "palmas arborea",
+      "aliases": [
+        "palmas",
+        "palmasarborea"
+      ],
+      "areaKm2": 39.482,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115045",
+        "115047",
+        "115056",
+        "115083",
+        "115085"
+      ],
+      "focusPoint": {
+        "lat": 39.847652,
+        "lng": 8.698568
+      }
+    },
+    {
+      "istatCode": "115047",
+      "officialName": "Pau",
+      "normalizedName": "pau",
+      "aliases": [],
+      "areaKm2": 13.893,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115004",
+        "115046",
+        "115083"
+      ],
+      "focusPoint": {
+        "lat": 39.802542,
+        "lng": 8.777165
+      }
+    },
+    {
+      "istatCode": "115048",
+      "officialName": "Paulilatino",
+      "normalizedName": "paulilatino",
+      "aliases": [],
+      "areaKm2": 104.408,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115001",
+        "115013",
+        "115015",
+        "115023",
+        "115024",
+        "115057",
+        "115071",
+        "115084",
+        "115087"
+      ],
+      "focusPoint": {
+        "lat": 40.064715,
+        "lng": 8.747784
+      }
+    },
+    {
+      "istatCode": "115049",
+      "officialName": "Pompu",
+      "normalizedName": "pompu",
+      "aliases": [],
+      "areaKm2": 5.387,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115021",
+        "115031",
+        "115037",
+        "115066",
+        "115069"
+      ],
+      "focusPoint": {
+        "lat": 39.73312,
+        "lng": 8.797703
+      }
+    },
+    {
+      "istatCode": "115050",
+      "officialName": "Riola Sardo",
+      "normalizedName": "riola sardo",
+      "aliases": [
+        "riola",
+        "riolasardo"
+      ],
+      "areaKm2": 47.974,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115011",
+        "115019",
+        "115038",
+        "115042",
+        "115055"
+      ],
+      "focusPoint": {
+        "lat": 39.989856,
+        "lng": 8.503141
+      }
+    },
+    {
+      "istatCode": "115051",
+      "officialName": "Ruinas",
+      "normalizedName": "ruinas",
+      "aliases": [],
+      "areaKm2": 30.61,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115005",
+        "115009",
+        "115034",
+        "115053",
+        "115082",
+        "115085"
+      ],
+      "focusPoint": {
+        "lat": 39.909661,
+        "lng": 8.881437
+      }
+    },
+    {
+      "istatCode": "115052",
+      "officialName": "Sagama",
+      "normalizedName": "sagama",
+      "aliases": [],
+      "areaKm2": 11.859,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115022",
+        "115058",
+        "115073",
+        "115076"
+      ],
+      "focusPoint": {
+        "lat": 40.258477,
+        "lng": 8.590119
+      }
+    },
+    {
+      "istatCode": "115053",
+      "officialName": "Samugheo",
+      "normalizedName": "samugheo",
+      "aliases": [],
+      "areaKm2": 81.595,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115005",
+        "115009",
+        "115018",
+        "115028",
+        "115051"
+      ],
+      "focusPoint": {
+        "lat": 39.94145,
+        "lng": 8.939232
+      }
+    },
+    {
+      "istatCode": "115054",
+      "officialName": "San Nicolò d'Arcidano",
+      "normalizedName": "san nicolo d arcidano",
+      "aliases": [
+        "san nicolo",
+        "sannicolo",
+        "sannicolodarcidano"
+      ],
+      "areaKm2": 28.245,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115035",
+        "115075",
+        "115080"
+      ],
+      "focusPoint": {
+        "lat": 39.66463,
+        "lng": 8.656497
+      }
+    },
+    {
+      "istatCode": "115055",
+      "officialName": "San Vero Milis",
+      "normalizedName": "san vero milis",
+      "aliases": [
+        "san vero",
+        "sanvero",
+        "sanveromilis"
+      ],
+      "areaKm2": 72.431,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115011",
+        "115032",
+        "115038",
+        "115050",
+        "115060",
+        "115077",
+        "115086"
+      ],
+      "focusPoint": {
+        "lat": 40.01938,
+        "lng": 8.582911
+      }
+    },
+    {
+      "istatCode": "115056",
+      "officialName": "Santa Giusta",
+      "normalizedName": "santa giusta",
+      "aliases": [
+        "santa",
+        "santagiusta"
+      ],
+      "areaKm2": 69.507,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115004",
+        "115006",
+        "115030",
+        "115045",
+        "115046"
+      ],
+      "focusPoint": {
+        "lat": 39.838541,
+        "lng": 8.61952
+      }
+    },
+    {
+      "istatCode": "115057",
+      "officialName": "Santu Lussurgiu",
+      "normalizedName": "santu lussurgiu",
+      "aliases": [
+        "santu",
+        "santulussurgiu"
+      ],
+      "areaKm2": 99.985,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115001",
+        "115015",
+        "115020",
+        "115040",
+        "115048",
+        "115058",
+        "115060"
+      ],
+      "focusPoint": {
+        "lat": 40.159774,
+        "lng": 8.667054
+      }
+    },
+    {
+      "istatCode": "115058",
+      "officialName": "Scano di Montiferro",
+      "normalizedName": "scano di montiferro",
+      "aliases": [
+        "scano",
+        "scanodimontiferro"
+      ],
+      "areaKm2": 60.511,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115020",
+        "115022",
+        "115052",
+        "115057",
+        "115062"
+      ],
+      "focusPoint": {
+        "lat": 40.222769,
+        "lng": 8.618852
+      }
+    },
+    {
+      "istatCode": "115059",
+      "officialName": "Sedilo",
+      "normalizedName": "sedilo",
+      "aliases": [],
+      "areaKm2": 68.573,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115002",
+        "115014",
+        "115024",
+        "115072"
+      ],
+      "focusPoint": {
+        "lat": 40.175948,
+        "lng": 8.936347
+      }
+    },
+    {
+      "istatCode": "115060",
+      "officialName": "Seneghe",
+      "normalizedName": "seneghe",
+      "aliases": [],
+      "areaKm2": 57.854,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115015",
+        "115020",
+        "115032",
+        "115038",
+        "115055",
+        "115057"
+      ],
+      "focusPoint": {
+        "lat": 40.082582,
+        "lng": 8.587082
+      }
+    },
+    {
+      "istatCode": "115061",
+      "officialName": "Senis",
+      "normalizedName": "senis",
+      "aliases": [],
+      "areaKm2": 16.251,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115008",
+        "115009",
+        "115028",
+        "115043",
+        "115082"
+      ],
+      "focusPoint": {
+        "lat": 39.830357,
+        "lng": 8.934474
+      }
+    },
+    {
+      "istatCode": "115062",
+      "officialName": "Sennariolo",
+      "normalizedName": "sennariolo",
+      "aliases": [],
+      "areaKm2": 15.85,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115020",
+        "115022",
+        "115058",
+        "115078"
+      ],
+      "focusPoint": {
+        "lat": 40.21453,
+        "lng": 8.536592
+      }
+    },
+    {
+      "istatCode": "115063",
+      "officialName": "Siamaggiore",
+      "normalizedName": "siamaggiore",
+      "aliases": [],
+      "areaKm2": 13.142,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115045",
+        "115071",
+        "115077",
+        "115086"
+      ],
+      "focusPoint": {
+        "lat": 39.955754,
+        "lng": 8.63091
+      }
+    },
+    {
+      "istatCode": "115064",
+      "officialName": "Siamanna",
+      "normalizedName": "siamanna",
+      "aliases": [],
+      "areaKm2": 28.367,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115005",
+        "115045",
+        "115065",
+        "115067",
+        "115085"
+      ],
+      "focusPoint": {
+        "lat": 39.909056,
+        "lng": 8.777784
+      }
+    },
+    {
+      "istatCode": "115065",
+      "officialName": "Siapiccia",
+      "normalizedName": "siapiccia",
+      "aliases": [],
+      "areaKm2": 17.845,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115005",
+        "115023",
+        "115044",
+        "115064",
+        "115067"
+      ],
+      "focusPoint": {
+        "lat": 39.936503,
+        "lng": 8.783553
+      }
+    },
+    {
+      "istatCode": "115066",
+      "officialName": "Simala",
+      "normalizedName": "simala",
+      "aliases": [],
+      "areaKm2": 13.357,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115012",
+        "115021",
+        "115025",
+        "115026",
+        "115031",
+        "115049"
+      ],
+      "focusPoint": {
+        "lat": 39.731231,
+        "lng": 8.834571
+      }
+    },
+    {
+      "istatCode": "115067",
+      "officialName": "Simaxis",
+      "normalizedName": "simaxis",
+      "aliases": [],
+      "areaKm2": 27.757,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115044",
+        "115045",
+        "115064",
+        "115065",
+        "115071",
+        "115087"
+      ],
+      "focusPoint": {
+        "lat": 39.922024,
+        "lng": 8.69972
+      }
+    },
+    {
+      "istatCode": "115068",
+      "officialName": "Sini",
+      "normalizedName": "sini",
+      "aliases": [],
+      "areaKm2": 8.859,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115010",
+        "115026"
+      ],
+      "focusPoint": {
+        "lat": 39.751807,
+        "lng": 8.902591
+      }
+    },
+    {
+      "istatCode": "115069",
+      "officialName": "Siris",
+      "normalizedName": "siris",
+      "aliases": [],
+      "areaKm2": 6.074,
+      "baseChips": 209,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115031",
+        "115037",
+        "115049"
+      ],
+      "focusPoint": {
+        "lat": 39.72037,
+        "lng": 8.768274
+      }
+    },
+    {
+      "istatCode": "115070",
+      "officialName": "Soddì",
+      "normalizedName": "soddi",
+      "aliases": [],
+      "areaKm2": 5.497,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115002",
+        "115016",
+        "115024"
+      ],
+      "focusPoint": {
+        "lat": 40.136728,
+        "lng": 8.876838
+      }
+    },
+    {
+      "istatCode": "115071",
+      "officialName": "Solarussa",
+      "normalizedName": "solarussa",
+      "aliases": [],
+      "areaKm2": 31.79,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115013",
+        "115045",
+        "115048",
+        "115063",
+        "115067",
+        "115077",
+        "115087"
+      ],
+      "focusPoint": {
+        "lat": 39.969408,
+        "lng": 8.674343
+      }
+    },
+    {
+      "istatCode": "115072",
+      "officialName": "Sorradile",
+      "normalizedName": "sorradile",
+      "aliases": [],
+      "areaKm2": 26.504,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115007",
+        "115014",
+        "115024",
+        "115041",
+        "115059",
+        "115074"
+      ],
+      "focusPoint": {
+        "lat": 40.151019,
+        "lng": 8.993441
+      }
+    },
+    {
+      "istatCode": "115073",
+      "officialName": "Suni",
+      "normalizedName": "suni",
+      "aliases": [],
+      "areaKm2": 47.338,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115017",
+        "115022",
+        "115033",
+        "115052",
+        "115076"
+      ],
+      "focusPoint": {
+        "lat": 40.314438,
+        "lng": 8.577417
+      }
+    },
+    {
+      "istatCode": "115074",
+      "officialName": "Tadasuni",
+      "normalizedName": "tadasuni",
+      "aliases": [],
+      "areaKm2": 5.154,
+      "baseChips": 213,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115007",
+        "115016",
+        "115024",
+        "115072"
+      ],
+      "focusPoint": {
+        "lat": 40.098003,
+        "lng": 8.879713
+      }
+    },
+    {
+      "istatCode": "115075",
+      "officialName": "Terralba",
+      "normalizedName": "terralba",
+      "aliases": [],
+      "areaKm2": 49.772,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115006",
+        "115030",
+        "115054",
+        "115080"
+      ],
+      "focusPoint": {
+        "lat": 39.727829,
+        "lng": 8.624931
+      }
+    },
+    {
+      "istatCode": "115076",
+      "officialName": "Tinnura",
+      "normalizedName": "tinnura",
+      "aliases": [],
+      "areaKm2": 3.83,
+      "baseChips": 220,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115022",
+        "115052",
+        "115073"
+      ],
+      "focusPoint": {
+        "lat": 40.267579,
+        "lng": 8.558397
+      }
+    },
+    {
+      "istatCode": "115077",
+      "officialName": "Tramatza",
+      "normalizedName": "tramatza",
+      "aliases": [],
+      "areaKm2": 16.961,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115013",
+        "115032",
+        "115055",
+        "115063",
+        "115071",
+        "115086"
+      ],
+      "focusPoint": {
+        "lat": 39.999478,
+        "lng": 8.646974
+      }
+    },
+    {
+      "istatCode": "115078",
+      "officialName": "Tresnuraghes",
+      "normalizedName": "tresnuraghes",
+      "aliases": [],
+      "areaKm2": 31.423,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "115020",
+        "115022",
+        "115029",
+        "115062"
+      ],
+      "focusPoint": {
+        "lat": 40.220854,
+        "lng": 8.489319
+      }
+    },
+    {
+      "istatCode": "115079",
+      "officialName": "Ulà Tirso",
+      "normalizedName": "ula tirso",
+      "aliases": [
+        "ula",
+        "ulatirso"
+      ],
+      "areaKm2": 19.198,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115007",
+        "115018",
+        "115024",
+        "115039"
+      ],
+      "focusPoint": {
+        "lat": 40.04019,
+        "lng": 8.921982
+      }
+    },
+    {
+      "istatCode": "115080",
+      "officialName": "Uras",
+      "normalizedName": "uras",
+      "aliases": [],
+      "areaKm2": 39.297,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115030",
+        "115031",
+        "115035",
+        "115037",
+        "115054",
+        "115075"
+      ],
+      "focusPoint": {
+        "lat": 39.706514,
+        "lng": 8.694423
+      }
+    },
+    {
+      "istatCode": "115081",
+      "officialName": "Usellus",
+      "normalizedName": "usellus",
+      "aliases": [],
+      "areaKm2": 35.145,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115003",
+        "115004",
+        "115034",
+        "115083",
+        "115085"
+      ],
+      "focusPoint": {
+        "lat": 39.816832,
+        "lng": 8.848801
+      }
+    },
+    {
+      "istatCode": "115082",
+      "officialName": "Villa Sant'Antonio",
+      "normalizedName": "villa sant antonio",
+      "aliases": [
+        "villa sant",
+        "villasant",
+        "villasantantonio"
+      ],
+      "areaKm2": 18.708,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115003",
+        "115008",
+        "115009",
+        "115034",
+        "115051",
+        "115061"
+      ],
+      "focusPoint": {
+        "lat": 39.857963,
+        "lng": 8.899181
+      }
+    },
+    {
+      "istatCode": "115083",
+      "officialName": "Villa Verde",
+      "normalizedName": "villa verde",
+      "aliases": [
+        "villaverde"
+      ],
+      "areaKm2": 17.693,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115004",
+        "115046",
+        "115047",
+        "115081",
+        "115085"
+      ],
+      "focusPoint": {
+        "lat": 39.810187,
+        "lng": 8.812411
+      }
+    },
+    {
+      "istatCode": "115084",
+      "officialName": "Villanova Truschedu",
+      "normalizedName": "villanova truschedu",
+      "aliases": [
+        "villanova",
+        "villanovatruschedu"
+      ],
+      "areaKm2": 16.631,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115023",
+        "115044",
+        "115048",
+        "115087"
+      ],
+      "focusPoint": {
+        "lat": 39.992354,
+        "lng": 8.762248
+      }
+    },
+    {
+      "istatCode": "115085",
+      "officialName": "Villaurbana",
+      "normalizedName": "villaurbana",
+      "aliases": [],
+      "areaKm2": 58.779,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115034",
+        "115045",
+        "115046",
+        "115051",
+        "115064",
+        "115081",
+        "115083"
+      ],
+      "focusPoint": {
+        "lat": 39.867554,
+        "lng": 8.782427
+      }
+    },
+    {
+      "istatCode": "115086",
+      "officialName": "Zeddiani",
+      "normalizedName": "zeddiani",
+      "aliases": [],
+      "areaKm2": 12.062,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115011",
+        "115045",
+        "115055",
+        "115063",
+        "115077"
+      ],
+      "focusPoint": {
+        "lat": 39.987033,
+        "lng": 8.601062
+      }
+    },
+    {
+      "istatCode": "115087",
+      "officialName": "Zerfaliu",
+      "normalizedName": "zerfaliu",
+      "aliases": [],
+      "areaKm2": 15.764,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "115044",
+        "115048",
+        "115067",
+        "115071",
+        "115084"
+      ],
+      "focusPoint": {
+        "lat": 39.981771,
+        "lng": 8.725001
+      }
+    }
+  ]
+}

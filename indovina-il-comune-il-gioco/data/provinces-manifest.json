@@ -1,0 +1,1547 @@
+{
+  "sourceYear": 2026,
+  "defaultProvinceCode": "001",
+  "count": 110,
+  "provinces": [
+    {
+      "provinceCode": "084",
+      "label": "Agrigento",
+      "officialScopeLabel": "Provincia di Agrigento",
+      "sigla": "AG",
+      "slug": "agrigento",
+      "count": 43,
+      "assets": {
+        "metadata": "./data/provinces/084-agrigento/municipalities.json",
+        "municipalities": "./data/provinces/084-agrigento/municipalities.geojson",
+        "outline": "./data/provinces/084-agrigento/outline.geojson",
+        "aliases": "./data/provinces/084-agrigento/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "006",
+      "label": "Alessandria",
+      "officialScopeLabel": "Provincia di Alessandria",
+      "sigla": "AL",
+      "slug": "alessandria",
+      "count": 187,
+      "assets": {
+        "metadata": "./data/provinces/006-alessandria/municipalities.json",
+        "municipalities": "./data/provinces/006-alessandria/municipalities.geojson",
+        "outline": "./data/provinces/006-alessandria/outline.geojson",
+        "aliases": "./data/provinces/006-alessandria/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "042",
+      "label": "Ancona",
+      "officialScopeLabel": "Provincia di Ancona",
+      "sigla": "AN",
+      "slug": "ancona",
+      "count": 47,
+      "assets": {
+        "metadata": "./data/provinces/042-ancona/municipalities.json",
+        "municipalities": "./data/provinces/042-ancona/municipalities.geojson",
+        "outline": "./data/provinces/042-ancona/outline.geojson",
+        "aliases": "./data/provinces/042-ancona/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "051",
+      "label": "Arezzo",
+      "officialScopeLabel": "Provincia di Arezzo",
+      "sigla": "AR",
+      "slug": "arezzo",
+      "count": 36,
+      "assets": {
+        "metadata": "./data/provinces/051-arezzo/municipalities.json",
+        "municipalities": "./data/provinces/051-arezzo/municipalities.geojson",
+        "outline": "./data/provinces/051-arezzo/outline.geojson",
+        "aliases": "./data/provinces/051-arezzo/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "044",
+      "label": "Ascoli Piceno",
+      "officialScopeLabel": "Provincia di Ascoli Piceno",
+      "sigla": "AP",
+      "slug": "ascoli-piceno",
+      "count": 33,
+      "assets": {
+        "metadata": "./data/provinces/044-ascoli-piceno/municipalities.json",
+        "municipalities": "./data/provinces/044-ascoli-piceno/municipalities.geojson",
+        "outline": "./data/provinces/044-ascoli-piceno/outline.geojson",
+        "aliases": "./data/provinces/044-ascoli-piceno/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "005",
+      "label": "Asti",
+      "officialScopeLabel": "Provincia di Asti",
+      "sigla": "AT",
+      "slug": "asti",
+      "count": 117,
+      "assets": {
+        "metadata": "./data/provinces/005-asti/municipalities.json",
+        "municipalities": "./data/provinces/005-asti/municipalities.geojson",
+        "outline": "./data/provinces/005-asti/outline.geojson",
+        "aliases": "./data/provinces/005-asti/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "064",
+      "label": "Avellino",
+      "officialScopeLabel": "Provincia di Avellino",
+      "sigla": "AV",
+      "slug": "avellino",
+      "count": 118,
+      "assets": {
+        "metadata": "./data/provinces/064-avellino/municipalities.json",
+        "municipalities": "./data/provinces/064-avellino/municipalities.geojson",
+        "outline": "./data/provinces/064-avellino/outline.geojson",
+        "aliases": "./data/provinces/064-avellino/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "072",
+      "label": "Bari",
+      "officialScopeLabel": "Città Metropolitana di Bari",
+      "sigla": "BA",
+      "slug": "bari",
+      "count": 41,
+      "assets": {
+        "metadata": "./data/provinces/072-bari/municipalities.json",
+        "municipalities": "./data/provinces/072-bari/municipalities.geojson",
+        "outline": "./data/provinces/072-bari/outline.geojson",
+        "aliases": "./data/provinces/072-bari/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "110",
+      "label": "Barletta-Andria-Trani",
+      "officialScopeLabel": "Provincia di Barletta-Andria-Trani",
+      "sigla": "BT",
+      "slug": "barletta-andria-trani",
+      "count": 10,
+      "assets": {
+        "metadata": "./data/provinces/110-barletta-andria-trani/municipalities.json",
+        "municipalities": "./data/provinces/110-barletta-andria-trani/municipalities.geojson",
+        "outline": "./data/provinces/110-barletta-andria-trani/outline.geojson",
+        "aliases": "./data/provinces/110-barletta-andria-trani/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "025",
+      "label": "Belluno",
+      "officialScopeLabel": "Provincia di Belluno",
+      "sigla": "BL",
+      "slug": "belluno",
+      "count": 60,
+      "assets": {
+        "metadata": "./data/provinces/025-belluno/municipalities.json",
+        "municipalities": "./data/provinces/025-belluno/municipalities.geojson",
+        "outline": "./data/provinces/025-belluno/outline.geojson",
+        "aliases": "./data/provinces/025-belluno/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "062",
+      "label": "Benevento",
+      "officialScopeLabel": "Provincia di Benevento",
+      "sigla": "BN",
+      "slug": "benevento",
+      "count": 78,
+      "assets": {
+        "metadata": "./data/provinces/062-benevento/municipalities.json",
+        "municipalities": "./data/provinces/062-benevento/municipalities.geojson",
+        "outline": "./data/provinces/062-benevento/outline.geojson",
+        "aliases": "./data/provinces/062-benevento/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "016",
+      "label": "Bergamo",
+      "officialScopeLabel": "Provincia di Bergamo",
+      "sigla": "BG",
+      "slug": "bergamo",
+      "count": 243,
+      "assets": {
+        "metadata": "./data/provinces/016-bergamo/municipalities.json",
+        "municipalities": "./data/provinces/016-bergamo/municipalities.geojson",
+        "outline": "./data/provinces/016-bergamo/outline.geojson",
+        "aliases": "./data/provinces/016-bergamo/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "096",
+      "label": "Biella",
+      "officialScopeLabel": "Provincia di Biella",
+      "sigla": "BI",
+      "slug": "biella",
+      "count": 74,
+      "assets": {
+        "metadata": "./data/provinces/096-biella/municipalities.json",
+        "municipalities": "./data/provinces/096-biella/municipalities.geojson",
+        "outline": "./data/provinces/096-biella/outline.geojson",
+        "aliases": "./data/provinces/096-biella/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "037",
+      "label": "Bologna",
+      "officialScopeLabel": "Città Metropolitana di Bologna",
+      "sigla": "BO",
+      "slug": "bologna",
+      "count": 55,
+      "assets": {
+        "metadata": "./data/provinces/037-bologna/municipalities.json",
+        "municipalities": "./data/provinces/037-bologna/municipalities.geojson",
+        "outline": "./data/provinces/037-bologna/outline.geojson",
+        "aliases": "./data/provinces/037-bologna/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "021",
+      "label": "Bolzano/Bozen",
+      "officialScopeLabel": "Provincia di Bolzano/Bozen",
+      "sigla": "BZ",
+      "slug": "bolzano-bozen",
+      "count": 116,
+      "assets": {
+        "metadata": "./data/provinces/021-bolzano-bozen/municipalities.json",
+        "municipalities": "./data/provinces/021-bolzano-bozen/municipalities.geojson",
+        "outline": "./data/provinces/021-bolzano-bozen/outline.geojson",
+        "aliases": "./data/provinces/021-bolzano-bozen/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "017",
+      "label": "Brescia",
+      "officialScopeLabel": "Provincia di Brescia",
+      "sigla": "BS",
+      "slug": "brescia",
+      "count": 205,
+      "assets": {
+        "metadata": "./data/provinces/017-brescia/municipalities.json",
+        "municipalities": "./data/provinces/017-brescia/municipalities.geojson",
+        "outline": "./data/provinces/017-brescia/outline.geojson",
+        "aliases": "./data/provinces/017-brescia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "074",
+      "label": "Brindisi",
+      "officialScopeLabel": "Provincia di Brindisi",
+      "sigla": "BR",
+      "slug": "brindisi",
+      "count": 20,
+      "assets": {
+        "metadata": "./data/provinces/074-brindisi/municipalities.json",
+        "municipalities": "./data/provinces/074-brindisi/municipalities.geojson",
+        "outline": "./data/provinces/074-brindisi/outline.geojson",
+        "aliases": "./data/provinces/074-brindisi/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "118",
+      "label": "Cagliari",
+      "officialScopeLabel": "Città Metropolitana di Cagliari",
+      "sigla": "CA",
+      "slug": "cagliari",
+      "count": 70,
+      "assets": {
+        "metadata": "./data/provinces/118-cagliari/municipalities.json",
+        "municipalities": "./data/provinces/118-cagliari/municipalities.geojson",
+        "outline": "./data/provinces/118-cagliari/outline.geojson",
+        "aliases": "./data/provinces/118-cagliari/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "085",
+      "label": "Caltanissetta",
+      "officialScopeLabel": "Provincia di Caltanissetta",
+      "sigla": "CL",
+      "slug": "caltanissetta",
+      "count": 22,
+      "assets": {
+        "metadata": "./data/provinces/085-caltanissetta/municipalities.json",
+        "municipalities": "./data/provinces/085-caltanissetta/municipalities.geojson",
+        "outline": "./data/provinces/085-caltanissetta/outline.geojson",
+        "aliases": "./data/provinces/085-caltanissetta/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "070",
+      "label": "Campobasso",
+      "officialScopeLabel": "Provincia di Campobasso",
+      "sigla": "CB",
+      "slug": "campobasso",
+      "count": 84,
+      "assets": {
+        "metadata": "./data/provinces/070-campobasso/municipalities.json",
+        "municipalities": "./data/provinces/070-campobasso/municipalities.geojson",
+        "outline": "./data/provinces/070-campobasso/outline.geojson",
+        "aliases": "./data/provinces/070-campobasso/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "061",
+      "label": "Caserta",
+      "officialScopeLabel": "Provincia di Caserta",
+      "sigla": "CE",
+      "slug": "caserta",
+      "count": 104,
+      "assets": {
+        "metadata": "./data/provinces/061-caserta/municipalities.json",
+        "municipalities": "./data/provinces/061-caserta/municipalities.geojson",
+        "outline": "./data/provinces/061-caserta/outline.geojson",
+        "aliases": "./data/provinces/061-caserta/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "087",
+      "label": "Catania",
+      "officialScopeLabel": "Città Metropolitana di Catania",
+      "sigla": "CT",
+      "slug": "catania",
+      "count": 58,
+      "assets": {
+        "metadata": "./data/provinces/087-catania/municipalities.json",
+        "municipalities": "./data/provinces/087-catania/municipalities.geojson",
+        "outline": "./data/provinces/087-catania/outline.geojson",
+        "aliases": "./data/provinces/087-catania/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "079",
+      "label": "Catanzaro",
+      "officialScopeLabel": "Provincia di Catanzaro",
+      "sigla": "CZ",
+      "slug": "catanzaro",
+      "count": 80,
+      "assets": {
+        "metadata": "./data/provinces/079-catanzaro/municipalities.json",
+        "municipalities": "./data/provinces/079-catanzaro/municipalities.geojson",
+        "outline": "./data/provinces/079-catanzaro/outline.geojson",
+        "aliases": "./data/provinces/079-catanzaro/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "069",
+      "label": "Chieti",
+      "officialScopeLabel": "Provincia di Chieti",
+      "sigla": "CH",
+      "slug": "chieti",
+      "count": 104,
+      "assets": {
+        "metadata": "./data/provinces/069-chieti/municipalities.json",
+        "municipalities": "./data/provinces/069-chieti/municipalities.geojson",
+        "outline": "./data/provinces/069-chieti/outline.geojson",
+        "aliases": "./data/provinces/069-chieti/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "013",
+      "label": "Como",
+      "officialScopeLabel": "Provincia di Como",
+      "sigla": "CO",
+      "slug": "como",
+      "count": 147,
+      "assets": {
+        "metadata": "./data/provinces/013-como/municipalities.json",
+        "municipalities": "./data/provinces/013-como/municipalities.geojson",
+        "outline": "./data/provinces/013-como/outline.geojson",
+        "aliases": "./data/provinces/013-como/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "078",
+      "label": "Cosenza",
+      "officialScopeLabel": "Provincia di Cosenza",
+      "sigla": "CS",
+      "slug": "cosenza",
+      "count": 150,
+      "assets": {
+        "metadata": "./data/provinces/078-cosenza/municipalities.json",
+        "municipalities": "./data/provinces/078-cosenza/municipalities.geojson",
+        "outline": "./data/provinces/078-cosenza/outline.geojson",
+        "aliases": "./data/provinces/078-cosenza/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "019",
+      "label": "Cremona",
+      "officialScopeLabel": "Provincia di Cremona",
+      "sigla": "CR",
+      "slug": "cremona",
+      "count": 113,
+      "assets": {
+        "metadata": "./data/provinces/019-cremona/municipalities.json",
+        "municipalities": "./data/provinces/019-cremona/municipalities.geojson",
+        "outline": "./data/provinces/019-cremona/outline.geojson",
+        "aliases": "./data/provinces/019-cremona/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "101",
+      "label": "Crotone",
+      "officialScopeLabel": "Provincia di Crotone",
+      "sigla": "KR",
+      "slug": "crotone",
+      "count": 27,
+      "assets": {
+        "metadata": "./data/provinces/101-crotone/municipalities.json",
+        "municipalities": "./data/provinces/101-crotone/municipalities.geojson",
+        "outline": "./data/provinces/101-crotone/outline.geojson",
+        "aliases": "./data/provinces/101-crotone/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "004",
+      "label": "Cuneo",
+      "officialScopeLabel": "Provincia di Cuneo",
+      "sigla": "CN",
+      "slug": "cuneo",
+      "count": 247,
+      "assets": {
+        "metadata": "./data/provinces/004-cuneo/municipalities.json",
+        "municipalities": "./data/provinces/004-cuneo/municipalities.geojson",
+        "outline": "./data/provinces/004-cuneo/outline.geojson",
+        "aliases": "./data/provinces/004-cuneo/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "086",
+      "label": "Enna",
+      "officialScopeLabel": "Provincia di Enna",
+      "sigla": "EN",
+      "slug": "enna",
+      "count": 20,
+      "assets": {
+        "metadata": "./data/provinces/086-enna/municipalities.json",
+        "municipalities": "./data/provinces/086-enna/municipalities.geojson",
+        "outline": "./data/provinces/086-enna/outline.geojson",
+        "aliases": "./data/provinces/086-enna/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "109",
+      "label": "Fermo",
+      "officialScopeLabel": "Provincia di Fermo",
+      "sigla": "FM",
+      "slug": "fermo",
+      "count": 40,
+      "assets": {
+        "metadata": "./data/provinces/109-fermo/municipalities.json",
+        "municipalities": "./data/provinces/109-fermo/municipalities.geojson",
+        "outline": "./data/provinces/109-fermo/outline.geojson",
+        "aliases": "./data/provinces/109-fermo/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "038",
+      "label": "Ferrara",
+      "officialScopeLabel": "Provincia di Ferrara",
+      "sigla": "FE",
+      "slug": "ferrara",
+      "count": 21,
+      "assets": {
+        "metadata": "./data/provinces/038-ferrara/municipalities.json",
+        "municipalities": "./data/provinces/038-ferrara/municipalities.geojson",
+        "outline": "./data/provinces/038-ferrara/outline.geojson",
+        "aliases": "./data/provinces/038-ferrara/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "048",
+      "label": "Firenze",
+      "officialScopeLabel": "Città Metropolitana di Firenze",
+      "sigla": "FI",
+      "slug": "firenze",
+      "count": 41,
+      "assets": {
+        "metadata": "./data/provinces/048-firenze/municipalities.json",
+        "municipalities": "./data/provinces/048-firenze/municipalities.geojson",
+        "outline": "./data/provinces/048-firenze/outline.geojson",
+        "aliases": "./data/provinces/048-firenze/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "071",
+      "label": "Foggia",
+      "officialScopeLabel": "Provincia di Foggia",
+      "sigla": "FG",
+      "slug": "foggia",
+      "count": 61,
+      "assets": {
+        "metadata": "./data/provinces/071-foggia/municipalities.json",
+        "municipalities": "./data/provinces/071-foggia/municipalities.geojson",
+        "outline": "./data/provinces/071-foggia/outline.geojson",
+        "aliases": "./data/provinces/071-foggia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "040",
+      "label": "Forlì-Cesena",
+      "officialScopeLabel": "Provincia di Forlì-Cesena",
+      "sigla": "FC",
+      "slug": "forli-cesena",
+      "count": 30,
+      "assets": {
+        "metadata": "./data/provinces/040-forli-cesena/municipalities.json",
+        "municipalities": "./data/provinces/040-forli-cesena/municipalities.geojson",
+        "outline": "./data/provinces/040-forli-cesena/outline.geojson",
+        "aliases": "./data/provinces/040-forli-cesena/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "060",
+      "label": "Frosinone",
+      "officialScopeLabel": "Provincia di Frosinone",
+      "sigla": "FR",
+      "slug": "frosinone",
+      "count": 91,
+      "assets": {
+        "metadata": "./data/provinces/060-frosinone/municipalities.json",
+        "municipalities": "./data/provinces/060-frosinone/municipalities.geojson",
+        "outline": "./data/provinces/060-frosinone/outline.geojson",
+        "aliases": "./data/provinces/060-frosinone/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "113",
+      "label": "Gallura Nord-Est Sardegna",
+      "officialScopeLabel": "Provincia di Gallura Nord-Est Sardegna",
+      "sigla": "OT",
+      "slug": "gallura-nord-est-sardegna",
+      "count": 26,
+      "assets": {
+        "metadata": "./data/provinces/113-gallura-nord-est-sardegna/municipalities.json",
+        "municipalities": "./data/provinces/113-gallura-nord-est-sardegna/municipalities.geojson",
+        "outline": "./data/provinces/113-gallura-nord-est-sardegna/outline.geojson",
+        "aliases": "./data/provinces/113-gallura-nord-est-sardegna/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "010",
+      "label": "Genova",
+      "officialScopeLabel": "Città Metropolitana di Genova",
+      "sigla": "GE",
+      "slug": "genova",
+      "count": 67,
+      "assets": {
+        "metadata": "./data/provinces/010-genova/municipalities.json",
+        "municipalities": "./data/provinces/010-genova/municipalities.geojson",
+        "outline": "./data/provinces/010-genova/outline.geojson",
+        "aliases": "./data/provinces/010-genova/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "031",
+      "label": "Gorizia",
+      "officialScopeLabel": "Provincia di Gorizia",
+      "sigla": "GO",
+      "slug": "gorizia",
+      "count": 25,
+      "assets": {
+        "metadata": "./data/provinces/031-gorizia/municipalities.json",
+        "municipalities": "./data/provinces/031-gorizia/municipalities.geojson",
+        "outline": "./data/provinces/031-gorizia/outline.geojson",
+        "aliases": "./data/provinces/031-gorizia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "053",
+      "label": "Grosseto",
+      "officialScopeLabel": "Provincia di Grosseto",
+      "sigla": "GR",
+      "slug": "grosseto",
+      "count": 28,
+      "assets": {
+        "metadata": "./data/provinces/053-grosseto/municipalities.json",
+        "municipalities": "./data/provinces/053-grosseto/municipalities.geojson",
+        "outline": "./data/provinces/053-grosseto/outline.geojson",
+        "aliases": "./data/provinces/053-grosseto/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "008",
+      "label": "Imperia",
+      "officialScopeLabel": "Provincia di Imperia",
+      "sigla": "IM",
+      "slug": "imperia",
+      "count": 66,
+      "assets": {
+        "metadata": "./data/provinces/008-imperia/municipalities.json",
+        "municipalities": "./data/provinces/008-imperia/municipalities.geojson",
+        "outline": "./data/provinces/008-imperia/outline.geojson",
+        "aliases": "./data/provinces/008-imperia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "094",
+      "label": "Isernia",
+      "officialScopeLabel": "Provincia di Isernia",
+      "sigla": "IS",
+      "slug": "isernia",
+      "count": 52,
+      "assets": {
+        "metadata": "./data/provinces/094-isernia/municipalities.json",
+        "municipalities": "./data/provinces/094-isernia/municipalities.geojson",
+        "outline": "./data/provinces/094-isernia/outline.geojson",
+        "aliases": "./data/provinces/094-isernia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "066",
+      "label": "L'Aquila",
+      "officialScopeLabel": "Provincia di L'Aquila",
+      "sigla": "AQ",
+      "slug": "l-aquila",
+      "count": 108,
+      "assets": {
+        "metadata": "./data/provinces/066-l-aquila/municipalities.json",
+        "municipalities": "./data/provinces/066-l-aquila/municipalities.geojson",
+        "outline": "./data/provinces/066-l-aquila/outline.geojson",
+        "aliases": "./data/provinces/066-l-aquila/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "011",
+      "label": "La Spezia",
+      "officialScopeLabel": "Provincia di La Spezia",
+      "sigla": "SP",
+      "slug": "la-spezia",
+      "count": 32,
+      "assets": {
+        "metadata": "./data/provinces/011-la-spezia/municipalities.json",
+        "municipalities": "./data/provinces/011-la-spezia/municipalities.geojson",
+        "outline": "./data/provinces/011-la-spezia/outline.geojson",
+        "aliases": "./data/provinces/011-la-spezia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "059",
+      "label": "Latina",
+      "officialScopeLabel": "Provincia di Latina",
+      "sigla": "LT",
+      "slug": "latina",
+      "count": 33,
+      "assets": {
+        "metadata": "./data/provinces/059-latina/municipalities.json",
+        "municipalities": "./data/provinces/059-latina/municipalities.geojson",
+        "outline": "./data/provinces/059-latina/outline.geojson",
+        "aliases": "./data/provinces/059-latina/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "075",
+      "label": "Lecce",
+      "officialScopeLabel": "Provincia di Lecce",
+      "sigla": "LE",
+      "slug": "lecce",
+      "count": 96,
+      "assets": {
+        "metadata": "./data/provinces/075-lecce/municipalities.json",
+        "municipalities": "./data/provinces/075-lecce/municipalities.geojson",
+        "outline": "./data/provinces/075-lecce/outline.geojson",
+        "aliases": "./data/provinces/075-lecce/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "097",
+      "label": "Lecco",
+      "officialScopeLabel": "Provincia di Lecco",
+      "sigla": "LC",
+      "slug": "lecco",
+      "count": 84,
+      "assets": {
+        "metadata": "./data/provinces/097-lecco/municipalities.json",
+        "municipalities": "./data/provinces/097-lecco/municipalities.geojson",
+        "outline": "./data/provinces/097-lecco/outline.geojson",
+        "aliases": "./data/provinces/097-lecco/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "049",
+      "label": "Livorno",
+      "officialScopeLabel": "Provincia di Livorno",
+      "sigla": "LI",
+      "slug": "livorno",
+      "count": 19,
+      "assets": {
+        "metadata": "./data/provinces/049-livorno/municipalities.json",
+        "municipalities": "./data/provinces/049-livorno/municipalities.geojson",
+        "outline": "./data/provinces/049-livorno/outline.geojson",
+        "aliases": "./data/provinces/049-livorno/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "098",
+      "label": "Lodi",
+      "officialScopeLabel": "Provincia di Lodi",
+      "sigla": "LO",
+      "slug": "lodi",
+      "count": 60,
+      "assets": {
+        "metadata": "./data/provinces/098-lodi/municipalities.json",
+        "municipalities": "./data/provinces/098-lodi/municipalities.geojson",
+        "outline": "./data/provinces/098-lodi/outline.geojson",
+        "aliases": "./data/provinces/098-lodi/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "046",
+      "label": "Lucca",
+      "officialScopeLabel": "Provincia di Lucca",
+      "sigla": "LU",
+      "slug": "lucca",
+      "count": 33,
+      "assets": {
+        "metadata": "./data/provinces/046-lucca/municipalities.json",
+        "municipalities": "./data/provinces/046-lucca/municipalities.geojson",
+        "outline": "./data/provinces/046-lucca/outline.geojson",
+        "aliases": "./data/provinces/046-lucca/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "043",
+      "label": "Macerata",
+      "officialScopeLabel": "Provincia di Macerata",
+      "sigla": "MC",
+      "slug": "macerata",
+      "count": 55,
+      "assets": {
+        "metadata": "./data/provinces/043-macerata/municipalities.json",
+        "municipalities": "./data/provinces/043-macerata/municipalities.geojson",
+        "outline": "./data/provinces/043-macerata/outline.geojson",
+        "aliases": "./data/provinces/043-macerata/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "020",
+      "label": "Mantova",
+      "officialScopeLabel": "Provincia di Mantova",
+      "sigla": "MN",
+      "slug": "mantova",
+      "count": 64,
+      "assets": {
+        "metadata": "./data/provinces/020-mantova/municipalities.json",
+        "municipalities": "./data/provinces/020-mantova/municipalities.geojson",
+        "outline": "./data/provinces/020-mantova/outline.geojson",
+        "aliases": "./data/provinces/020-mantova/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "045",
+      "label": "Massa-Carrara",
+      "officialScopeLabel": "Provincia di Massa-Carrara",
+      "sigla": "MS",
+      "slug": "massa-carrara",
+      "count": 17,
+      "assets": {
+        "metadata": "./data/provinces/045-massa-carrara/municipalities.json",
+        "municipalities": "./data/provinces/045-massa-carrara/municipalities.geojson",
+        "outline": "./data/provinces/045-massa-carrara/outline.geojson",
+        "aliases": "./data/provinces/045-massa-carrara/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "077",
+      "label": "Matera",
+      "officialScopeLabel": "Provincia di Matera",
+      "sigla": "MT",
+      "slug": "matera",
+      "count": 31,
+      "assets": {
+        "metadata": "./data/provinces/077-matera/municipalities.json",
+        "municipalities": "./data/provinces/077-matera/municipalities.geojson",
+        "outline": "./data/provinces/077-matera/outline.geojson",
+        "aliases": "./data/provinces/077-matera/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "117",
+      "label": "Medio Campidano",
+      "officialScopeLabel": "Provincia di Medio Campidano",
+      "sigla": "VS",
+      "slug": "medio-campidano",
+      "count": 28,
+      "assets": {
+        "metadata": "./data/provinces/117-medio-campidano/municipalities.json",
+        "municipalities": "./data/provinces/117-medio-campidano/municipalities.geojson",
+        "outline": "./data/provinces/117-medio-campidano/outline.geojson",
+        "aliases": "./data/provinces/117-medio-campidano/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "083",
+      "label": "Messina",
+      "officialScopeLabel": "Città Metropolitana di Messina",
+      "sigla": "ME",
+      "slug": "messina",
+      "count": 108,
+      "assets": {
+        "metadata": "./data/provinces/083-messina/municipalities.json",
+        "municipalities": "./data/provinces/083-messina/municipalities.geojson",
+        "outline": "./data/provinces/083-messina/outline.geojson",
+        "aliases": "./data/provinces/083-messina/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "015",
+      "label": "Milano",
+      "officialScopeLabel": "Città Metropolitana di Milano",
+      "sigla": "MI",
+      "slug": "milano",
+      "count": 133,
+      "assets": {
+        "metadata": "./data/provinces/015-milano/municipalities.json",
+        "municipalities": "./data/provinces/015-milano/municipalities.geojson",
+        "outline": "./data/provinces/015-milano/outline.geojson",
+        "aliases": "./data/provinces/015-milano/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "036",
+      "label": "Modena",
+      "officialScopeLabel": "Provincia di Modena",
+      "sigla": "MO",
+      "slug": "modena",
+      "count": 47,
+      "assets": {
+        "metadata": "./data/provinces/036-modena/municipalities.json",
+        "municipalities": "./data/provinces/036-modena/municipalities.geojson",
+        "outline": "./data/provinces/036-modena/outline.geojson",
+        "aliases": "./data/provinces/036-modena/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "108",
+      "label": "Monza e della Brianza",
+      "officialScopeLabel": "Provincia di Monza e della Brianza",
+      "sigla": "MB",
+      "slug": "monza-e-della-brianza",
+      "count": 55,
+      "assets": {
+        "metadata": "./data/provinces/108-monza-e-della-brianza/municipalities.json",
+        "municipalities": "./data/provinces/108-monza-e-della-brianza/municipalities.geojson",
+        "outline": "./data/provinces/108-monza-e-della-brianza/outline.geojson",
+        "aliases": "./data/provinces/108-monza-e-della-brianza/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "063",
+      "label": "Napoli",
+      "officialScopeLabel": "Città Metropolitana di Napoli",
+      "sigla": "NA",
+      "slug": "napoli",
+      "count": 92,
+      "assets": {
+        "metadata": "./data/provinces/063-napoli/municipalities.json",
+        "municipalities": "./data/provinces/063-napoli/municipalities.geojson",
+        "outline": "./data/provinces/063-napoli/outline.geojson",
+        "aliases": "./data/provinces/063-napoli/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "003",
+      "label": "Novara",
+      "officialScopeLabel": "Provincia di Novara",
+      "sigla": "NO",
+      "slug": "novara",
+      "count": 87,
+      "assets": {
+        "metadata": "./data/provinces/003-novara/municipalities.json",
+        "municipalities": "./data/provinces/003-novara/municipalities.geojson",
+        "outline": "./data/provinces/003-novara/outline.geojson",
+        "aliases": "./data/provinces/003-novara/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "114",
+      "label": "Nuoro",
+      "officialScopeLabel": "Provincia di Nuoro",
+      "sigla": "NU",
+      "slug": "nuoro",
+      "count": 53,
+      "assets": {
+        "metadata": "./data/provinces/114-nuoro/municipalities.json",
+        "municipalities": "./data/provinces/114-nuoro/municipalities.geojson",
+        "outline": "./data/provinces/114-nuoro/outline.geojson",
+        "aliases": "./data/provinces/114-nuoro/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "116",
+      "label": "Ogliastra",
+      "officialScopeLabel": "Provincia di Ogliastra",
+      "sigla": "OG",
+      "slug": "ogliastra",
+      "count": 23,
+      "assets": {
+        "metadata": "./data/provinces/116-ogliastra/municipalities.json",
+        "municipalities": "./data/provinces/116-ogliastra/municipalities.geojson",
+        "outline": "./data/provinces/116-ogliastra/outline.geojson",
+        "aliases": "./data/provinces/116-ogliastra/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "115",
+      "label": "Oristano",
+      "officialScopeLabel": "Provincia di Oristano",
+      "sigla": "OR",
+      "slug": "oristano",
+      "count": 87,
+      "assets": {
+        "metadata": "./data/provinces/115-oristano/municipalities.json",
+        "municipalities": "./data/provinces/115-oristano/municipalities.geojson",
+        "outline": "./data/provinces/115-oristano/outline.geojson",
+        "aliases": "./data/provinces/115-oristano/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "028",
+      "label": "Padova",
+      "officialScopeLabel": "Provincia di Padova",
+      "sigla": "PD",
+      "slug": "padova",
+      "count": 101,
+      "assets": {
+        "metadata": "./data/provinces/028-padova/municipalities.json",
+        "municipalities": "./data/provinces/028-padova/municipalities.geojson",
+        "outline": "./data/provinces/028-padova/outline.geojson",
+        "aliases": "./data/provinces/028-padova/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "082",
+      "label": "Palermo",
+      "officialScopeLabel": "Città Metropolitana di Palermo",
+      "sigla": "PA",
+      "slug": "palermo",
+      "count": 82,
+      "assets": {
+        "metadata": "./data/provinces/082-palermo/municipalities.json",
+        "municipalities": "./data/provinces/082-palermo/municipalities.geojson",
+        "outline": "./data/provinces/082-palermo/outline.geojson",
+        "aliases": "./data/provinces/082-palermo/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "034",
+      "label": "Parma",
+      "officialScopeLabel": "Provincia di Parma",
+      "sigla": "PR",
+      "slug": "parma",
+      "count": 44,
+      "assets": {
+        "metadata": "./data/provinces/034-parma/municipalities.json",
+        "municipalities": "./data/provinces/034-parma/municipalities.geojson",
+        "outline": "./data/provinces/034-parma/outline.geojson",
+        "aliases": "./data/provinces/034-parma/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "018",
+      "label": "Pavia",
+      "officialScopeLabel": "Provincia di Pavia",
+      "sigla": "PV",
+      "slug": "pavia",
+      "count": 185,
+      "assets": {
+        "metadata": "./data/provinces/018-pavia/municipalities.json",
+        "municipalities": "./data/provinces/018-pavia/municipalities.geojson",
+        "outline": "./data/provinces/018-pavia/outline.geojson",
+        "aliases": "./data/provinces/018-pavia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "054",
+      "label": "Perugia",
+      "officialScopeLabel": "Provincia di Perugia",
+      "sigla": "PG",
+      "slug": "perugia",
+      "count": 59,
+      "assets": {
+        "metadata": "./data/provinces/054-perugia/municipalities.json",
+        "municipalities": "./data/provinces/054-perugia/municipalities.geojson",
+        "outline": "./data/provinces/054-perugia/outline.geojson",
+        "aliases": "./data/provinces/054-perugia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "041",
+      "label": "Pesaro e Urbino",
+      "officialScopeLabel": "Provincia di Pesaro e Urbino",
+      "sigla": "PU",
+      "slug": "pesaro-e-urbino",
+      "count": 50,
+      "assets": {
+        "metadata": "./data/provinces/041-pesaro-e-urbino/municipalities.json",
+        "municipalities": "./data/provinces/041-pesaro-e-urbino/municipalities.geojson",
+        "outline": "./data/provinces/041-pesaro-e-urbino/outline.geojson",
+        "aliases": "./data/provinces/041-pesaro-e-urbino/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "068",
+      "label": "Pescara",
+      "officialScopeLabel": "Provincia di Pescara",
+      "sigla": "PE",
+      "slug": "pescara",
+      "count": 46,
+      "assets": {
+        "metadata": "./data/provinces/068-pescara/municipalities.json",
+        "municipalities": "./data/provinces/068-pescara/municipalities.geojson",
+        "outline": "./data/provinces/068-pescara/outline.geojson",
+        "aliases": "./data/provinces/068-pescara/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "033",
+      "label": "Piacenza",
+      "officialScopeLabel": "Provincia di Piacenza",
+      "sigla": "PC",
+      "slug": "piacenza",
+      "count": 46,
+      "assets": {
+        "metadata": "./data/provinces/033-piacenza/municipalities.json",
+        "municipalities": "./data/provinces/033-piacenza/municipalities.geojson",
+        "outline": "./data/provinces/033-piacenza/outline.geojson",
+        "aliases": "./data/provinces/033-piacenza/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "050",
+      "label": "Pisa",
+      "officialScopeLabel": "Provincia di Pisa",
+      "sigla": "PI",
+      "slug": "pisa",
+      "count": 37,
+      "assets": {
+        "metadata": "./data/provinces/050-pisa/municipalities.json",
+        "municipalities": "./data/provinces/050-pisa/municipalities.geojson",
+        "outline": "./data/provinces/050-pisa/outline.geojson",
+        "aliases": "./data/provinces/050-pisa/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "047",
+      "label": "Pistoia",
+      "officialScopeLabel": "Provincia di Pistoia",
+      "sigla": "PT",
+      "slug": "pistoia",
+      "count": 20,
+      "assets": {
+        "metadata": "./data/provinces/047-pistoia/municipalities.json",
+        "municipalities": "./data/provinces/047-pistoia/municipalities.geojson",
+        "outline": "./data/provinces/047-pistoia/outline.geojson",
+        "aliases": "./data/provinces/047-pistoia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "093",
+      "label": "Pordenone",
+      "officialScopeLabel": "Provincia di Pordenone",
+      "sigla": "PN",
+      "slug": "pordenone",
+      "count": 50,
+      "assets": {
+        "metadata": "./data/provinces/093-pordenone/municipalities.json",
+        "municipalities": "./data/provinces/093-pordenone/municipalities.geojson",
+        "outline": "./data/provinces/093-pordenone/outline.geojson",
+        "aliases": "./data/provinces/093-pordenone/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "076",
+      "label": "Potenza",
+      "officialScopeLabel": "Provincia di Potenza",
+      "sigla": "PZ",
+      "slug": "potenza",
+      "count": 100,
+      "assets": {
+        "metadata": "./data/provinces/076-potenza/municipalities.json",
+        "municipalities": "./data/provinces/076-potenza/municipalities.geojson",
+        "outline": "./data/provinces/076-potenza/outline.geojson",
+        "aliases": "./data/provinces/076-potenza/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "100",
+      "label": "Prato",
+      "officialScopeLabel": "Provincia di Prato",
+      "sigla": "PO",
+      "slug": "prato",
+      "count": 7,
+      "assets": {
+        "metadata": "./data/provinces/100-prato/municipalities.json",
+        "municipalities": "./data/provinces/100-prato/municipalities.geojson",
+        "outline": "./data/provinces/100-prato/outline.geojson",
+        "aliases": "./data/provinces/100-prato/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "088",
+      "label": "Ragusa",
+      "officialScopeLabel": "Provincia di Ragusa",
+      "sigla": "RG",
+      "slug": "ragusa",
+      "count": 12,
+      "assets": {
+        "metadata": "./data/provinces/088-ragusa/municipalities.json",
+        "municipalities": "./data/provinces/088-ragusa/municipalities.geojson",
+        "outline": "./data/provinces/088-ragusa/outline.geojson",
+        "aliases": "./data/provinces/088-ragusa/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "039",
+      "label": "Ravenna",
+      "officialScopeLabel": "Provincia di Ravenna",
+      "sigla": "RA",
+      "slug": "ravenna",
+      "count": 18,
+      "assets": {
+        "metadata": "./data/provinces/039-ravenna/municipalities.json",
+        "municipalities": "./data/provinces/039-ravenna/municipalities.geojson",
+        "outline": "./data/provinces/039-ravenna/outline.geojson",
+        "aliases": "./data/provinces/039-ravenna/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "080",
+      "label": "Reggio Calabria",
+      "officialScopeLabel": "Città Metropolitana di Reggio Calabria",
+      "sigla": "RC",
+      "slug": "reggio-calabria",
+      "count": 97,
+      "assets": {
+        "metadata": "./data/provinces/080-reggio-calabria/municipalities.json",
+        "municipalities": "./data/provinces/080-reggio-calabria/municipalities.geojson",
+        "outline": "./data/provinces/080-reggio-calabria/outline.geojson",
+        "aliases": "./data/provinces/080-reggio-calabria/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "035",
+      "label": "Reggio nell'Emilia",
+      "officialScopeLabel": "Provincia di Reggio nell'Emilia",
+      "sigla": "RE",
+      "slug": "reggio-nell-emilia",
+      "count": 42,
+      "assets": {
+        "metadata": "./data/provinces/035-reggio-nell-emilia/municipalities.json",
+        "municipalities": "./data/provinces/035-reggio-nell-emilia/municipalities.geojson",
+        "outline": "./data/provinces/035-reggio-nell-emilia/outline.geojson",
+        "aliases": "./data/provinces/035-reggio-nell-emilia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "057",
+      "label": "Rieti",
+      "officialScopeLabel": "Provincia di Rieti",
+      "sigla": "RI",
+      "slug": "rieti",
+      "count": 73,
+      "assets": {
+        "metadata": "./data/provinces/057-rieti/municipalities.json",
+        "municipalities": "./data/provinces/057-rieti/municipalities.geojson",
+        "outline": "./data/provinces/057-rieti/outline.geojson",
+        "aliases": "./data/provinces/057-rieti/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "099",
+      "label": "Rimini",
+      "officialScopeLabel": "Provincia di Rimini",
+      "sigla": "RN",
+      "slug": "rimini",
+      "count": 27,
+      "assets": {
+        "metadata": "./data/provinces/099-rimini/municipalities.json",
+        "municipalities": "./data/provinces/099-rimini/municipalities.geojson",
+        "outline": "./data/provinces/099-rimini/outline.geojson",
+        "aliases": "./data/provinces/099-rimini/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "058",
+      "label": "Roma",
+      "officialScopeLabel": "Città Metropolitana di Roma",
+      "sigla": "RM",
+      "slug": "roma",
+      "count": 121,
+      "assets": {
+        "metadata": "./data/provinces/058-roma/municipalities.json",
+        "municipalities": "./data/provinces/058-roma/municipalities.geojson",
+        "outline": "./data/provinces/058-roma/outline.geojson",
+        "aliases": "./data/provinces/058-roma/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "029",
+      "label": "Rovigo",
+      "officialScopeLabel": "Provincia di Rovigo",
+      "sigla": "RO",
+      "slug": "rovigo",
+      "count": 50,
+      "assets": {
+        "metadata": "./data/provinces/029-rovigo/municipalities.json",
+        "municipalities": "./data/provinces/029-rovigo/municipalities.geojson",
+        "outline": "./data/provinces/029-rovigo/outline.geojson",
+        "aliases": "./data/provinces/029-rovigo/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "065",
+      "label": "Salerno",
+      "officialScopeLabel": "Provincia di Salerno",
+      "sigla": "SA",
+      "slug": "salerno",
+      "count": 158,
+      "assets": {
+        "metadata": "./data/provinces/065-salerno/municipalities.json",
+        "municipalities": "./data/provinces/065-salerno/municipalities.geojson",
+        "outline": "./data/provinces/065-salerno/outline.geojson",
+        "aliases": "./data/provinces/065-salerno/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "112",
+      "label": "Sassari",
+      "officialScopeLabel": "Città Metropolitana di Sassari",
+      "sigla": "SS",
+      "slug": "sassari",
+      "count": 66,
+      "assets": {
+        "metadata": "./data/provinces/112-sassari/municipalities.json",
+        "municipalities": "./data/provinces/112-sassari/municipalities.geojson",
+        "outline": "./data/provinces/112-sassari/outline.geojson",
+        "aliases": "./data/provinces/112-sassari/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "009",
+      "label": "Savona",
+      "officialScopeLabel": "Provincia di Savona",
+      "sigla": "SV",
+      "slug": "savona",
+      "count": 69,
+      "assets": {
+        "metadata": "./data/provinces/009-savona/municipalities.json",
+        "municipalities": "./data/provinces/009-savona/municipalities.geojson",
+        "outline": "./data/provinces/009-savona/outline.geojson",
+        "aliases": "./data/provinces/009-savona/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "052",
+      "label": "Siena",
+      "officialScopeLabel": "Provincia di Siena",
+      "sigla": "SI",
+      "slug": "siena",
+      "count": 35,
+      "assets": {
+        "metadata": "./data/provinces/052-siena/municipalities.json",
+        "municipalities": "./data/provinces/052-siena/municipalities.geojson",
+        "outline": "./data/provinces/052-siena/outline.geojson",
+        "aliases": "./data/provinces/052-siena/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "089",
+      "label": "Siracusa",
+      "officialScopeLabel": "Provincia di Siracusa",
+      "sigla": "SR",
+      "slug": "siracusa",
+      "count": 21,
+      "assets": {
+        "metadata": "./data/provinces/089-siracusa/municipalities.json",
+        "municipalities": "./data/provinces/089-siracusa/municipalities.geojson",
+        "outline": "./data/provinces/089-siracusa/outline.geojson",
+        "aliases": "./data/provinces/089-siracusa/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "014",
+      "label": "Sondrio",
+      "officialScopeLabel": "Provincia di Sondrio",
+      "sigla": "SO",
+      "slug": "sondrio",
+      "count": 77,
+      "assets": {
+        "metadata": "./data/provinces/014-sondrio/municipalities.json",
+        "municipalities": "./data/provinces/014-sondrio/municipalities.geojson",
+        "outline": "./data/provinces/014-sondrio/outline.geojson",
+        "aliases": "./data/provinces/014-sondrio/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "119",
+      "label": "Sulcis Iglesiente",
+      "officialScopeLabel": "Provincia di Sulcis Iglesiente",
+      "sigla": "CI",
+      "slug": "sulcis-iglesiente",
+      "count": 24,
+      "assets": {
+        "metadata": "./data/provinces/119-sulcis-iglesiente/municipalities.json",
+        "municipalities": "./data/provinces/119-sulcis-iglesiente/municipalities.geojson",
+        "outline": "./data/provinces/119-sulcis-iglesiente/outline.geojson",
+        "aliases": "./data/provinces/119-sulcis-iglesiente/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "073",
+      "label": "Taranto",
+      "officialScopeLabel": "Provincia di Taranto",
+      "sigla": "TA",
+      "slug": "taranto",
+      "count": 29,
+      "assets": {
+        "metadata": "./data/provinces/073-taranto/municipalities.json",
+        "municipalities": "./data/provinces/073-taranto/municipalities.geojson",
+        "outline": "./data/provinces/073-taranto/outline.geojson",
+        "aliases": "./data/provinces/073-taranto/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "067",
+      "label": "Teramo",
+      "officialScopeLabel": "Provincia di Teramo",
+      "sigla": "TE",
+      "slug": "teramo",
+      "count": 47,
+      "assets": {
+        "metadata": "./data/provinces/067-teramo/municipalities.json",
+        "municipalities": "./data/provinces/067-teramo/municipalities.geojson",
+        "outline": "./data/provinces/067-teramo/outline.geojson",
+        "aliases": "./data/provinces/067-teramo/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "055",
+      "label": "Terni",
+      "officialScopeLabel": "Provincia di Terni",
+      "sigla": "TR",
+      "slug": "terni",
+      "count": 33,
+      "assets": {
+        "metadata": "./data/provinces/055-terni/municipalities.json",
+        "municipalities": "./data/provinces/055-terni/municipalities.geojson",
+        "outline": "./data/provinces/055-terni/outline.geojson",
+        "aliases": "./data/provinces/055-terni/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "001",
+      "label": "Torino",
+      "officialScopeLabel": "Città Metropolitana di Torino",
+      "sigla": "TO",
+      "slug": "torino",
+      "count": 312,
+      "assets": {
+        "metadata": "./data/provinces/001-torino/municipalities.json",
+        "municipalities": "./data/provinces/001-torino/municipalities.geojson",
+        "outline": "./data/provinces/001-torino/outline.geojson",
+        "aliases": "./data/provinces/001-torino/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "081",
+      "label": "Trapani",
+      "officialScopeLabel": "Provincia di Trapani",
+      "sigla": "TP",
+      "slug": "trapani",
+      "count": 25,
+      "assets": {
+        "metadata": "./data/provinces/081-trapani/municipalities.json",
+        "municipalities": "./data/provinces/081-trapani/municipalities.geojson",
+        "outline": "./data/provinces/081-trapani/outline.geojson",
+        "aliases": "./data/provinces/081-trapani/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "022",
+      "label": "Trento",
+      "officialScopeLabel": "Provincia di Trento",
+      "sigla": "TN",
+      "slug": "trento",
+      "count": 166,
+      "assets": {
+        "metadata": "./data/provinces/022-trento/municipalities.json",
+        "municipalities": "./data/provinces/022-trento/municipalities.geojson",
+        "outline": "./data/provinces/022-trento/outline.geojson",
+        "aliases": "./data/provinces/022-trento/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "026",
+      "label": "Treviso",
+      "officialScopeLabel": "Provincia di Treviso",
+      "sigla": "TV",
+      "slug": "treviso",
+      "count": 94,
+      "assets": {
+        "metadata": "./data/provinces/026-treviso/municipalities.json",
+        "municipalities": "./data/provinces/026-treviso/municipalities.geojson",
+        "outline": "./data/provinces/026-treviso/outline.geojson",
+        "aliases": "./data/provinces/026-treviso/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "032",
+      "label": "Trieste",
+      "officialScopeLabel": "Provincia di Trieste",
+      "sigla": "TS",
+      "slug": "trieste",
+      "count": 6,
+      "assets": {
+        "metadata": "./data/provinces/032-trieste/municipalities.json",
+        "municipalities": "./data/provinces/032-trieste/municipalities.geojson",
+        "outline": "./data/provinces/032-trieste/outline.geojson",
+        "aliases": "./data/provinces/032-trieste/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "030",
+      "label": "Udine",
+      "officialScopeLabel": "Provincia di Udine",
+      "sigla": "UD",
+      "slug": "udine",
+      "count": 134,
+      "assets": {
+        "metadata": "./data/provinces/030-udine/municipalities.json",
+        "municipalities": "./data/provinces/030-udine/municipalities.geojson",
+        "outline": "./data/provinces/030-udine/outline.geojson",
+        "aliases": "./data/provinces/030-udine/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "007",
+      "label": "Valle d'Aosta/Vallée d'Aoste",
+      "officialScopeLabel": "Valle d'Aosta/Vallée d'Aoste",
+      "sigla": "AO",
+      "slug": "valle-d-aosta-vallee-d-aoste",
+      "count": 74,
+      "assets": {
+        "metadata": "./data/provinces/007-valle-d-aosta-vallee-d-aoste/municipalities.json",
+        "municipalities": "./data/provinces/007-valle-d-aosta-vallee-d-aoste/municipalities.geojson",
+        "outline": "./data/provinces/007-valle-d-aosta-vallee-d-aoste/outline.geojson",
+        "aliases": "./data/provinces/007-valle-d-aosta-vallee-d-aoste/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "012",
+      "label": "Varese",
+      "officialScopeLabel": "Provincia di Varese",
+      "sigla": "VA",
+      "slug": "varese",
+      "count": 136,
+      "assets": {
+        "metadata": "./data/provinces/012-varese/municipalities.json",
+        "municipalities": "./data/provinces/012-varese/municipalities.geojson",
+        "outline": "./data/provinces/012-varese/outline.geojson",
+        "aliases": "./data/provinces/012-varese/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "027",
+      "label": "Venezia",
+      "officialScopeLabel": "Città Metropolitana di Venezia",
+      "sigla": "VE",
+      "slug": "venezia",
+      "count": 44,
+      "assets": {
+        "metadata": "./data/provinces/027-venezia/municipalities.json",
+        "municipalities": "./data/provinces/027-venezia/municipalities.geojson",
+        "outline": "./data/provinces/027-venezia/outline.geojson",
+        "aliases": "./data/provinces/027-venezia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "103",
+      "label": "Verbano-Cusio-Ossola",
+      "officialScopeLabel": "Provincia di Verbano-Cusio-Ossola",
+      "sigla": "VB",
+      "slug": "verbano-cusio-ossola",
+      "count": 74,
+      "assets": {
+        "metadata": "./data/provinces/103-verbano-cusio-ossola/municipalities.json",
+        "municipalities": "./data/provinces/103-verbano-cusio-ossola/municipalities.geojson",
+        "outline": "./data/provinces/103-verbano-cusio-ossola/outline.geojson",
+        "aliases": "./data/provinces/103-verbano-cusio-ossola/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "002",
+      "label": "Vercelli",
+      "officialScopeLabel": "Provincia di Vercelli",
+      "sigla": "VC",
+      "slug": "vercelli",
+      "count": 82,
+      "assets": {
+        "metadata": "./data/provinces/002-vercelli/municipalities.json",
+        "municipalities": "./data/provinces/002-vercelli/municipalities.geojson",
+        "outline": "./data/provinces/002-vercelli/outline.geojson",
+        "aliases": "./data/provinces/002-vercelli/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "023",
+      "label": "Verona",
+      "officialScopeLabel": "Provincia di Verona",
+      "sigla": "VR",
+      "slug": "verona",
+      "count": 98,
+      "assets": {
+        "metadata": "./data/provinces/023-verona/municipalities.json",
+        "municipalities": "./data/provinces/023-verona/municipalities.geojson",
+        "outline": "./data/provinces/023-verona/outline.geojson",
+        "aliases": "./data/provinces/023-verona/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "102",
+      "label": "Vibo Valentia",
+      "officialScopeLabel": "Provincia di Vibo Valentia",
+      "sigla": "VV",
+      "slug": "vibo-valentia",
+      "count": 50,
+      "assets": {
+        "metadata": "./data/provinces/102-vibo-valentia/municipalities.json",
+        "municipalities": "./data/provinces/102-vibo-valentia/municipalities.geojson",
+        "outline": "./data/provinces/102-vibo-valentia/outline.geojson",
+        "aliases": "./data/provinces/102-vibo-valentia/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "024",
+      "label": "Vicenza",
+      "officialScopeLabel": "Provincia di Vicenza",
+      "sigla": "VI",
+      "slug": "vicenza",
+      "count": 113,
+      "assets": {
+        "metadata": "./data/provinces/024-vicenza/municipalities.json",
+        "municipalities": "./data/provinces/024-vicenza/municipalities.geojson",
+        "outline": "./data/provinces/024-vicenza/outline.geojson",
+        "aliases": "./data/provinces/024-vicenza/aliases.json"
+      }
+    },
+    {
+      "provinceCode": "056",
+      "label": "Viterbo",
+      "officialScopeLabel": "Provincia di Viterbo",
+      "sigla": "VT",
+      "slug": "viterbo",
+      "count": 60,
+      "assets": {
+        "metadata": "./data/provinces/056-viterbo/municipalities.json",
+        "municipalities": "./data/provinces/056-viterbo/municipalities.geojson",
+        "outline": "./data/provinces/056-viterbo/outline.geojson",
+        "aliases": "./data/provinces/056-viterbo/aliases.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+{
+  "provinceCode": "052",
+  "label": "Siena",
+  "officialScopeLabel": "Provincia di Siena",
+  "sigla": "SI",
+  "slug": "siena",
+  "sourceYear": 2026,
+  "count": 35,
+  "municipalities": [
+    {
+      "istatCode": "052001",
+      "officialName": "Abbadia San Salvatore",
+      "normalizedName": "abbadia san salvatore",
+      "aliases": [
+        "abbadia",
+        "abbadia san",
+        "abbadiasan",
+        "abbadiasansalvatore"
+      ],
+      "areaKm2": 58.863,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052007",
+        "052020",
+        "052024",
+        "052027"
+      ],
+      "focusPoint": {
+        "lat": 42.875006,
+        "lng": 11.678864
+      }
+    },
+    {
+      "istatCode": "052002",
+      "officialName": "Asciano",
+      "normalizedName": "asciano",
+      "aliases": [],
+      "areaKm2": 216.098,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052003",
+        "052006",
+        "052017",
+        "052026",
+        "052032",
+        "052036",
+        "052037"
+      ],
+      "focusPoint": {
+        "lat": 43.238832,
+        "lng": 11.527497
+      }
+    },
+    {
+      "istatCode": "052003",
+      "officialName": "Buonconvento",
+      "normalizedName": "buonconvento",
+      "aliases": [],
+      "areaKm2": 64.894,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052002",
+        "052017",
+        "052019",
+        "052037"
+      ],
+      "focusPoint": {
+        "lat": 43.146958,
+        "lng": 11.474275
+      }
+    },
+    {
+      "istatCode": "052004",
+      "officialName": "Casole d'Elsa",
+      "normalizedName": "casole d elsa",
+      "aliases": [
+        "casole",
+        "casoledelsa"
+      ],
+      "areaKm2": 148.758,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052010",
+        "052012",
+        "052016",
+        "052025",
+        "052034"
+      ],
+      "focusPoint": {
+        "lat": 43.307379,
+        "lng": 11.055799
+      }
+    },
+    {
+      "istatCode": "052005",
+      "officialName": "Castellina in Chianti",
+      "normalizedName": "castellina in chianti",
+      "aliases": [
+        "castellina",
+        "castellinainchianti"
+      ],
+      "areaKm2": 99.659,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052006",
+        "052016",
+        "052022",
+        "052023"
+      ],
+      "focusPoint": {
+        "lat": 43.466268,
+        "lng": 11.267246
+      }
+    },
+    {
+      "istatCode": "052006",
+      "officialName": "Castelnuovo Berardenga",
+      "normalizedName": "castelnuovo berardenga",
+      "aliases": [
+        "castelnuovo",
+        "castelnuovoberardenga"
+      ],
+      "areaKm2": 177.431,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052002",
+        "052005",
+        "052013",
+        "052016",
+        "052023",
+        "052026",
+        "052032"
+      ],
+      "focusPoint": {
+        "lat": 43.36223,
+        "lng": 11.502003
+      }
+    },
+    {
+      "istatCode": "052007",
+      "officialName": "Castiglione d'Orcia",
+      "normalizedName": "castiglione d orcia",
+      "aliases": [
+        "castiglione",
+        "castiglionedorcia"
+      ],
+      "areaKm2": 141.252,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052001",
+        "052021",
+        "052024",
+        "052030",
+        "052037"
+      ],
+      "focusPoint": {
+        "lat": 42.97537,
+        "lng": 11.626296
+      }
+    },
+    {
+      "istatCode": "052008",
+      "officialName": "Cetona",
+      "normalizedName": "cetona",
+      "aliases": [],
+      "areaKm2": 53.471,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052011",
+        "052027",
+        "052031"
+      ],
+      "focusPoint": {
+        "lat": 42.940458,
+        "lng": 11.908952
+      }
+    },
+    {
+      "istatCode": "052009",
+      "officialName": "Chianciano Terme",
+      "normalizedName": "chianciano terme",
+      "aliases": [
+        "chianciano",
+        "chiancianoterme"
+      ],
+      "areaKm2": 36.905,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052011",
+        "052015",
+        "052021",
+        "052031"
+      ],
+      "focusPoint": {
+        "lat": 43.037934,
+        "lng": 11.830905
+      }
+    },
+    {
+      "istatCode": "052010",
+      "officialName": "Chiusdino",
+      "normalizedName": "chiusdino",
+      "aliases": [],
+      "areaKm2": 140.871,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052004",
+        "052018",
+        "052025",
+        "052034"
+      ],
+      "focusPoint": {
+        "lat": 43.164964,
+        "lng": 11.11488
+      }
+    },
+    {
+      "istatCode": "052011",
+      "officialName": "Chiusi",
+      "normalizedName": "chiusi",
+      "aliases": [],
+      "areaKm2": 57.918,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052008",
+        "052009",
+        "052015",
+        "052031"
+      ],
+      "focusPoint": {
+        "lat": 43.025457,
+        "lng": 11.918175
+      }
+    },
+    {
+      "istatCode": "052012",
+      "officialName": "Colle di Val d'Elsa",
+      "normalizedName": "colle di val d elsa",
+      "aliases": [
+        "colle",
+        "colle di val",
+        "colledival",
+        "colledivaldelsa"
+      ],
+      "areaKm2": 91.86,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052004",
+        "052016",
+        "052022",
+        "052028"
+      ],
+      "focusPoint": {
+        "lat": 43.388625,
+        "lng": 11.071511
+      }
+    },
+    {
+      "istatCode": "052013",
+      "officialName": "Gaiole in Chianti",
+      "normalizedName": "gaiole in chianti",
+      "aliases": [
+        "gaiole",
+        "gaioleinchianti"
+      ],
+      "areaKm2": 128.705,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052006",
+        "052023"
+      ],
+      "focusPoint": {
+        "lat": 43.435459,
+        "lng": 11.452592
+      }
+    },
+    {
+      "istatCode": "052015",
+      "officialName": "Montepulciano",
+      "normalizedName": "montepulciano",
+      "aliases": [],
+      "areaKm2": 165.445,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052009",
+        "052011",
+        "052021",
+        "052035"
+      ],
+      "focusPoint": {
+        "lat": 43.10785,
+        "lng": 11.834038
+      }
+    },
+    {
+      "istatCode": "052016",
+      "officialName": "Monteriggioni",
+      "normalizedName": "monteriggioni",
+      "aliases": [],
+      "areaKm2": 99.71,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052004",
+        "052005",
+        "052006",
+        "052012",
+        "052022",
+        "052032",
+        "052034"
+      ],
+      "focusPoint": {
+        "lat": 43.371104,
+        "lng": 11.220059
+      }
+    },
+    {
+      "istatCode": "052017",
+      "officialName": "Monteroni d'Arbia",
+      "normalizedName": "monteroni d arbia",
+      "aliases": [
+        "monteroni",
+        "monteronidarbia"
+      ],
+      "areaKm2": 105.846,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052002",
+        "052003",
+        "052019",
+        "052032",
+        "052034"
+      ],
+      "focusPoint": {
+        "lat": 43.210459,
+        "lng": 11.389223
+      }
+    },
+    {
+      "istatCode": "052018",
+      "officialName": "Monticiano",
+      "normalizedName": "monticiano",
+      "aliases": [],
+      "areaKm2": 109.968,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052010",
+        "052019",
+        "052034"
+      ],
+      "focusPoint": {
+        "lat": 43.124061,
+        "lng": 11.220155
+      }
+    },
+    {
+      "istatCode": "052019",
+      "officialName": "Murlo",
+      "normalizedName": "murlo",
+      "aliases": [],
+      "areaKm2": 114.71,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052003",
+        "052017",
+        "052018",
+        "052034",
+        "052037"
+      ],
+      "focusPoint": {
+        "lat": 43.146418,
+        "lng": 11.356212
+      }
+    },
+    {
+      "istatCode": "052020",
+      "officialName": "Piancastagnaio",
+      "normalizedName": "piancastagnaio",
+      "aliases": [],
+      "areaKm2": 69.552,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052001",
+        "052027"
+      ],
+      "focusPoint": {
+        "lat": 42.823579,
+        "lng": 11.697733
+      }
+    },
+    {
+      "istatCode": "052021",
+      "officialName": "Pienza",
+      "normalizedName": "pienza",
+      "aliases": [],
+      "areaKm2": 122.724,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052007",
+        "052009",
+        "052015",
+        "052024",
+        "052030",
+        "052031",
+        "052035",
+        "052036",
+        "052037"
+      ],
+      "focusPoint": {
+        "lat": 43.042507,
+        "lng": 11.711722
+      }
+    },
+    {
+      "istatCode": "052022",
+      "officialName": "Poggibonsi",
+      "normalizedName": "poggibonsi",
+      "aliases": [],
+      "areaKm2": 70.975,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052005",
+        "052012",
+        "052016",
+        "052028"
+      ],
+      "focusPoint": {
+        "lat": 43.458717,
+        "lng": 11.15747
+      }
+    },
+    {
+      "istatCode": "052023",
+      "officialName": "Radda in Chianti",
+      "normalizedName": "radda in chianti",
+      "aliases": [
+        "radda",
+        "raddainchianti"
+      ],
+      "areaKm2": 80.658,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052005",
+        "052006",
+        "052013"
+      ],
+      "focusPoint": {
+        "lat": 43.484594,
+        "lng": 11.355542
+      }
+    },
+    {
+      "istatCode": "052024",
+      "officialName": "Radicofani",
+      "normalizedName": "radicofani",
+      "aliases": [],
+      "areaKm2": 117.682,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052001",
+        "052007",
+        "052021",
+        "052027",
+        "052031"
+      ],
+      "focusPoint": {
+        "lat": 42.927647,
+        "lng": 11.778901
+      }
+    },
+    {
+      "istatCode": "052025",
+      "officialName": "Radicondoli",
+      "normalizedName": "radicondoli",
+      "aliases": [],
+      "areaKm2": 132.941,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052004",
+        "052010"
+      ],
+      "focusPoint": {
+        "lat": 43.225736,
+        "lng": 11.025298
+      }
+    },
+    {
+      "istatCode": "052026",
+      "officialName": "Rapolano Terme",
+      "normalizedName": "rapolano terme",
+      "aliases": [
+        "rapolano",
+        "rapolanoterme"
+      ],
+      "areaKm2": 83.159,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052002",
+        "052006",
+        "052033"
+      ],
+      "focusPoint": {
+        "lat": 43.287206,
+        "lng": 11.627551
+      }
+    },
+    {
+      "istatCode": "052027",
+      "officialName": "San Casciano dei Bagni",
+      "normalizedName": "san casciano dei bagni",
+      "aliases": [
+        "san casciano",
+        "sancasciano",
+        "sancascianodeibagni"
+      ],
+      "areaKm2": 92.478,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052001",
+        "052008",
+        "052020",
+        "052024",
+        "052031"
+      ],
+      "focusPoint": {
+        "lat": 42.854398,
+        "lng": 11.859695
+      }
+    },
+    {
+      "istatCode": "052028",
+      "officialName": "San Gimignano",
+      "normalizedName": "san gimignano",
+      "aliases": [
+        "sangimignano"
+      ],
+      "areaKm2": 138.462,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052012",
+        "052022"
+      ],
+      "focusPoint": {
+        "lat": 43.474887,
+        "lng": 11.031826
+      }
+    },
+    {
+      "istatCode": "052030",
+      "officialName": "San Quirico d'Orcia",
+      "normalizedName": "san quirico d orcia",
+      "aliases": [
+        "san quirico",
+        "sanquirico",
+        "sanquiricodorcia"
+      ],
+      "areaKm2": 43.094,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052007",
+        "052021",
+        "052037"
+      ],
+      "focusPoint": {
+        "lat": 43.061873,
+        "lng": 11.598606
+      }
+    },
+    {
+      "istatCode": "052031",
+      "officialName": "Sarteano",
+      "normalizedName": "sarteano",
+      "aliases": [],
+      "areaKm2": 84.889,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052008",
+        "052009",
+        "052011",
+        "052021",
+        "052024",
+        "052027"
+      ],
+      "focusPoint": {
+        "lat": 42.969435,
+        "lng": 11.832675
+      }
+    },
+    {
+      "istatCode": "052032",
+      "officialName": "Siena",
+      "normalizedName": "siena",
+      "aliases": [],
+      "areaKm2": 118.421,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052002",
+        "052006",
+        "052016",
+        "052017",
+        "052034"
+      ],
+      "focusPoint": {
+        "lat": 43.305425,
+        "lng": 11.324905
+      }
+    },
+    {
+      "istatCode": "052033",
+      "officialName": "Sinalunga",
+      "normalizedName": "sinalunga",
+      "aliases": [],
+      "areaKm2": 78.922,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052026",
+        "052035",
+        "052036"
+      ],
+      "focusPoint": {
+        "lat": 43.230553,
+        "lng": 11.727592
+      }
+    },
+    {
+      "istatCode": "052034",
+      "officialName": "Sovicille",
+      "normalizedName": "sovicille",
+      "aliases": [],
+      "areaKm2": 143.06,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052004",
+        "052010",
+        "052016",
+        "052017",
+        "052018",
+        "052019",
+        "052032"
+      ],
+      "focusPoint": {
+        "lat": 43.235957,
+        "lng": 11.249236
+      }
+    },
+    {
+      "istatCode": "052035",
+      "officialName": "Torrita di Siena",
+      "normalizedName": "torrita di siena",
+      "aliases": [
+        "torrita",
+        "torritadisiena"
+      ],
+      "areaKm2": 58.076,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052015",
+        "052021",
+        "052033",
+        "052036"
+      ],
+      "focusPoint": {
+        "lat": 43.14398,
+        "lng": 11.746804
+      }
+    },
+    {
+      "istatCode": "052036",
+      "officialName": "Trequanda",
+      "normalizedName": "trequanda",
+      "aliases": [],
+      "areaKm2": 63.578,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "052002",
+        "052021",
+        "052033",
+        "052035",
+        "052037"
+      ],
+      "focusPoint": {
+        "lat": 43.163859,
+        "lng": 11.704428
+      }
+    },
+    {
+      "istatCode": "052037",
+      "officialName": "Montalcino",
+      "normalizedName": "montalcino",
+      "aliases": [],
+      "areaKm2": 309.186,
+      "baseChips": 122,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "052002",
+        "052003",
+        "052007",
+        "052019",
+        "052021",
+        "052030",
+        "052036"
+      ],
+      "focusPoint": {
+        "lat": 43.066436,
+        "lng": 11.460921
+      }
+    }
+  ]
+}

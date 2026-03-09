@@ -1,0 +1,1084 @@
+{
+  "provinceCode": "033",
+  "label": "Piacenza",
+  "officialScopeLabel": "Provincia di Piacenza",
+  "sigla": "PC",
+  "slug": "piacenza",
+  "sourceYear": 2026,
+  "count": 46,
+  "municipalities": [
+    {
+      "istatCode": "033001",
+      "officialName": "Agazzano",
+      "normalizedName": "agazzano",
+      "aliases": [],
+      "areaKm2": 36.222,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033006",
+        "033022",
+        "033024",
+        "033033",
+        "033034"
+      ],
+      "focusPoint": {
+        "lat": 44.970775,
+        "lng": 9.501159
+      }
+    },
+    {
+      "istatCode": "033002",
+      "officialName": "Alseno",
+      "normalizedName": "alseno",
+      "aliases": [],
+      "areaKm2": 54.72,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033003",
+        "033012",
+        "033021",
+        "033044"
+      ],
+      "focusPoint": {
+        "lat": 44.894853,
+        "lng": 9.971447
+      }
+    },
+    {
+      "istatCode": "033003",
+      "officialName": "Besenzone",
+      "normalizedName": "besenzone",
+      "aliases": [],
+      "areaKm2": 24.027,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033002",
+        "033018",
+        "033021",
+        "033046"
+      ],
+      "focusPoint": {
+        "lat": 44.976102,
+        "lng": 9.978467
+      }
+    },
+    {
+      "istatCode": "033004",
+      "officialName": "Bettola",
+      "normalizedName": "bettola",
+      "aliases": [],
+      "areaKm2": 122.165,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033016",
+        "033019",
+        "033025",
+        "033028",
+        "033036",
+        "033043",
+        "033045"
+      ],
+      "focusPoint": {
+        "lat": 44.779641,
+        "lng": 9.577359
+      }
+    },
+    {
+      "istatCode": "033005",
+      "officialName": "Bobbio",
+      "normalizedName": "bobbio",
+      "aliases": [],
+      "areaKm2": 106.864,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033016",
+        "033017",
+        "033043",
+        "033049"
+      ],
+      "focusPoint": {
+        "lat": 44.791909,
+        "lng": 9.370054
+      }
+    },
+    {
+      "istatCode": "033006",
+      "officialName": "Borgonovo Val Tidone",
+      "normalizedName": "borgonovo val tidone",
+      "aliases": [
+        "borgonovo",
+        "borgonovo val",
+        "borgonovoval",
+        "borgonovovaltidone"
+      ],
+      "areaKm2": 51.205,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033001",
+        "033013",
+        "033024",
+        "033033",
+        "033039",
+        "033042",
+        "033048",
+        "033049"
+      ],
+      "focusPoint": {
+        "lat": 44.997963,
+        "lng": 9.458639
+      }
+    },
+    {
+      "istatCode": "033007",
+      "officialName": "Cadeo",
+      "normalizedName": "cadeo",
+      "aliases": [],
+      "areaKm2": 38.627,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033011",
+        "033018",
+        "033021",
+        "033037"
+      ],
+      "focusPoint": {
+        "lat": 44.979989,
+        "lng": 9.851369
+      }
+    },
+    {
+      "istatCode": "033008",
+      "officialName": "Calendasco",
+      "normalizedName": "calendasco",
+      "aliases": [],
+      "areaKm2": 36.794,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033032",
+        "033039"
+      ],
+      "focusPoint": {
+        "lat": 45.093807,
+        "lng": 9.602615
+      }
+    },
+    {
+      "istatCode": "033010",
+      "officialName": "Caorso",
+      "normalizedName": "caorso",
+      "aliases": [],
+      "areaKm2": 41.344,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033018",
+        "033027",
+        "033032",
+        "033037",
+        "033041"
+      ],
+      "focusPoint": {
+        "lat": 45.05884,
+        "lng": 9.869122
+      }
+    },
+    {
+      "istatCode": "033011",
+      "officialName": "Carpaneto Piacentino",
+      "normalizedName": "carpaneto piacentino",
+      "aliases": [
+        "carpaneto",
+        "carpanetopiacentino"
+      ],
+      "areaKm2": 62.997,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033007",
+        "033012",
+        "033021",
+        "033025",
+        "033026",
+        "033037",
+        "033040"
+      ],
+      "focusPoint": {
+        "lat": 44.900729,
+        "lng": 9.797695
+      }
+    },
+    {
+      "istatCode": "033012",
+      "officialName": "Castell'Arquato",
+      "normalizedName": "castell arquato",
+      "aliases": [
+        "castell",
+        "castellarquato"
+      ],
+      "areaKm2": 53.021,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033002",
+        "033011",
+        "033021",
+        "033026",
+        "033044"
+      ],
+      "focusPoint": {
+        "lat": 44.862894,
+        "lng": 9.871414
+      }
+    },
+    {
+      "istatCode": "033013",
+      "officialName": "Castel San Giovanni",
+      "normalizedName": "castel san giovanni",
+      "aliases": [
+        "castel",
+        "castel san",
+        "castelsan",
+        "castelsangiovanni"
+      ],
+      "areaKm2": 44.021,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033006",
+        "033042",
+        "033048"
+      ],
+      "focusPoint": {
+        "lat": 45.060566,
+        "lng": 9.428893
+      }
+    },
+    {
+      "istatCode": "033014",
+      "officialName": "Castelvetro Piacentino",
+      "normalizedName": "castelvetro piacentino",
+      "aliases": [
+        "castelvetro",
+        "castelvetropiacentino"
+      ],
+      "areaKm2": 35.126,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033027",
+        "033046"
+      ],
+      "focusPoint": {
+        "lat": 45.09305,
+        "lng": 9.996107
+      }
+    },
+    {
+      "istatCode": "033015",
+      "officialName": "Cerignale",
+      "normalizedName": "cerignale",
+      "aliases": [],
+      "areaKm2": 31.121,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033017",
+        "033020",
+        "033030",
+        "033047"
+      ],
+      "focusPoint": {
+        "lat": 44.648121,
+        "lng": 9.382131
+      }
+    },
+    {
+      "istatCode": "033016",
+      "officialName": "Coli",
+      "normalizedName": "coli",
+      "aliases": [],
+      "areaKm2": 71.53,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033004",
+        "033005",
+        "033017",
+        "033019",
+        "033020",
+        "033043"
+      ],
+      "focusPoint": {
+        "lat": 44.756808,
+        "lng": 9.454271
+      }
+    },
+    {
+      "istatCode": "033017",
+      "officialName": "Corte Brugnatella",
+      "normalizedName": "corte brugnatella",
+      "aliases": [
+        "corte",
+        "cortebrugnatella"
+      ],
+      "areaKm2": 46.657,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033005",
+        "033015",
+        "033016",
+        "033020"
+      ],
+      "focusPoint": {
+        "lat": 44.706208,
+        "lng": 9.368968
+      }
+    },
+    {
+      "istatCode": "033018",
+      "officialName": "Cortemaggiore",
+      "normalizedName": "cortemaggiore",
+      "aliases": [],
+      "areaKm2": 36.179,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033003",
+        "033007",
+        "033010",
+        "033021",
+        "033037",
+        "033041",
+        "033046"
+      ],
+      "focusPoint": {
+        "lat": 44.994353,
+        "lng": 9.945762
+      }
+    },
+    {
+      "istatCode": "033019",
+      "officialName": "Farini",
+      "normalizedName": "farini",
+      "aliases": [],
+      "areaKm2": 113.026,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033004",
+        "033016",
+        "033020",
+        "033028"
+      ],
+      "focusPoint": {
+        "lat": 44.69399,
+        "lng": 9.61931
+      }
+    },
+    {
+      "istatCode": "033020",
+      "officialName": "Ferriere",
+      "normalizedName": "ferriere",
+      "aliases": [],
+      "areaKm2": 178.384,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033015",
+        "033016",
+        "033017",
+        "033019",
+        "033030"
+      ],
+      "focusPoint": {
+        "lat": 44.625798,
+        "lng": 9.498018
+      }
+    },
+    {
+      "istatCode": "033021",
+      "officialName": "Fiorenzuola d'Arda",
+      "normalizedName": "fiorenzuola d arda",
+      "aliases": [
+        "fiorenzuola",
+        "fiorenzuoladarda"
+      ],
+      "areaKm2": 59.77,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033002",
+        "033003",
+        "033007",
+        "033011",
+        "033012",
+        "033018"
+      ],
+      "focusPoint": {
+        "lat": 44.940681,
+        "lng": 9.919237
+      }
+    },
+    {
+      "istatCode": "033022",
+      "officialName": "Gazzola",
+      "normalizedName": "gazzola",
+      "aliases": [],
+      "areaKm2": 44.393,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033001",
+        "033023",
+        "033024",
+        "033034",
+        "033038",
+        "033043"
+      ],
+      "focusPoint": {
+        "lat": 44.936566,
+        "lng": 9.558151
+      }
+    },
+    {
+      "istatCode": "033023",
+      "officialName": "Gossolengo",
+      "normalizedName": "gossolengo",
+      "aliases": [],
+      "areaKm2": 31.545,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033022",
+        "033024",
+        "033032",
+        "033035",
+        "033038"
+      ],
+      "focusPoint": {
+        "lat": 44.994437,
+        "lng": 9.629541
+      }
+    },
+    {
+      "istatCode": "033024",
+      "officialName": "Gragnano Trebbiense",
+      "normalizedName": "gragnano trebbiense",
+      "aliases": [
+        "gragnano",
+        "gragnanotrebbiense"
+      ],
+      "areaKm2": 34.651,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033001",
+        "033006",
+        "033022",
+        "033023",
+        "033032",
+        "033039"
+      ],
+      "focusPoint": {
+        "lat": 45.005334,
+        "lng": 9.552051
+      }
+    },
+    {
+      "istatCode": "033025",
+      "officialName": "Gropparello",
+      "normalizedName": "gropparello",
+      "aliases": [],
+      "areaKm2": 56.577,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033004",
+        "033011",
+        "033026",
+        "033028",
+        "033036",
+        "033040"
+      ],
+      "focusPoint": {
+        "lat": 44.80705,
+        "lng": 9.710334
+      }
+    },
+    {
+      "istatCode": "033026",
+      "officialName": "Lugagnano Val d'Arda",
+      "normalizedName": "lugagnano val d arda",
+      "aliases": [
+        "lugagnano",
+        "lugagnano val",
+        "lugagnanoval",
+        "lugagnanovaldarda"
+      ],
+      "areaKm2": 54.792,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033011",
+        "033012",
+        "033025",
+        "033028",
+        "033044"
+      ],
+      "focusPoint": {
+        "lat": 44.817169,
+        "lng": 9.794831
+      }
+    },
+    {
+      "istatCode": "033027",
+      "officialName": "Monticelli d'Ongina",
+      "normalizedName": "monticelli d ongina",
+      "aliases": [
+        "monticelli",
+        "monticellidongina"
+      ],
+      "areaKm2": 46.471,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033010",
+        "033014",
+        "033041",
+        "033046"
+      ],
+      "focusPoint": {
+        "lat": 45.088692,
+        "lng": 9.931379
+      }
+    },
+    {
+      "istatCode": "033028",
+      "officialName": "Morfasso",
+      "normalizedName": "morfasso",
+      "aliases": [],
+      "areaKm2": 83.71,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033004",
+        "033019",
+        "033025",
+        "033026",
+        "033044"
+      ],
+      "focusPoint": {
+        "lat": 44.727828,
+        "lng": 9.713686
+      }
+    },
+    {
+      "istatCode": "033030",
+      "officialName": "Ottone",
+      "normalizedName": "ottone",
+      "aliases": [],
+      "areaKm2": 98.279,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033015",
+        "033020",
+        "033047"
+      ],
+      "focusPoint": {
+        "lat": 44.626458,
+        "lng": 9.286744
+      }
+    },
+    {
+      "istatCode": "033032",
+      "officialName": "Piacenza",
+      "normalizedName": "piacenza",
+      "aliases": [],
+      "areaKm2": 117.921,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033008",
+        "033010",
+        "033023",
+        "033024",
+        "033035",
+        "033037",
+        "033039"
+      ],
+      "focusPoint": {
+        "lat": 45.053525,
+        "lng": 9.72653
+      }
+    },
+    {
+      "istatCode": "033033",
+      "officialName": "Pianello Val Tidone",
+      "normalizedName": "pianello val tidone",
+      "aliases": [
+        "pianello",
+        "pianello val",
+        "pianelloval",
+        "pianellovaltidone"
+      ],
+      "areaKm2": 36.366,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033001",
+        "033006",
+        "033034",
+        "033049"
+      ],
+      "focusPoint": {
+        "lat": 44.927674,
+        "lng": 9.411898
+      }
+    },
+    {
+      "istatCode": "033034",
+      "officialName": "Piozzano",
+      "normalizedName": "piozzano",
+      "aliases": [],
+      "areaKm2": 43.821,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033001",
+        "033022",
+        "033033",
+        "033043",
+        "033049"
+      ],
+      "focusPoint": {
+        "lat": 44.908771,
+        "lng": 9.464638
+      }
+    },
+    {
+      "istatCode": "033035",
+      "officialName": "Podenzano",
+      "normalizedName": "podenzano",
+      "aliases": [],
+      "areaKm2": 44.206,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033023",
+        "033032",
+        "033037",
+        "033038",
+        "033040",
+        "033045"
+      ],
+      "focusPoint": {
+        "lat": 44.968806,
+        "lng": 9.706905
+      }
+    },
+    {
+      "istatCode": "033036",
+      "officialName": "Ponte dell'Olio",
+      "normalizedName": "ponte dell olio",
+      "aliases": [
+        "ponte",
+        "ponte dell",
+        "pontedell",
+        "pontedellolio"
+      ],
+      "areaKm2": 44.404,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033004",
+        "033025",
+        "033040",
+        "033045"
+      ],
+      "focusPoint": {
+        "lat": 44.86545,
+        "lng": 9.674337
+      }
+    },
+    {
+      "istatCode": "033037",
+      "officialName": "Pontenure",
+      "normalizedName": "pontenure",
+      "aliases": [],
+      "areaKm2": 33.971,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033007",
+        "033010",
+        "033011",
+        "033018",
+        "033032",
+        "033035",
+        "033040"
+      ],
+      "focusPoint": {
+        "lat": 44.989336,
+        "lng": 9.788225
+      }
+    },
+    {
+      "istatCode": "033038",
+      "officialName": "Rivergaro",
+      "normalizedName": "rivergaro",
+      "aliases": [],
+      "areaKm2": 44.216,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033022",
+        "033023",
+        "033035",
+        "033043",
+        "033045"
+      ],
+      "focusPoint": {
+        "lat": 44.912748,
+        "lng": 9.614044
+      }
+    },
+    {
+      "istatCode": "033039",
+      "officialName": "Rottofreno",
+      "normalizedName": "rottofreno",
+      "aliases": [],
+      "areaKm2": 35.274,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033006",
+        "033008",
+        "033024",
+        "033032",
+        "033042"
+      ],
+      "focusPoint": {
+        "lat": 45.076126,
+        "lng": 9.550759
+      }
+    },
+    {
+      "istatCode": "033040",
+      "officialName": "San Giorgio Piacentino",
+      "normalizedName": "san giorgio piacentino",
+      "aliases": [
+        "san giorgio",
+        "sangiorgio",
+        "sangiorgiopiacentino"
+      ],
+      "areaKm2": 48.933,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033011",
+        "033025",
+        "033035",
+        "033036",
+        "033037",
+        "033045"
+      ],
+      "focusPoint": {
+        "lat": 44.92456,
+        "lng": 9.733679
+      }
+    },
+    {
+      "istatCode": "033041",
+      "officialName": "San Pietro in Cerro",
+      "normalizedName": "san pietro in cerro",
+      "aliases": [
+        "san pietro",
+        "sanpietro",
+        "sanpietroincerro"
+      ],
+      "areaKm2": 27.373,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033010",
+        "033018",
+        "033027",
+        "033046"
+      ],
+      "focusPoint": {
+        "lat": 45.033876,
+        "lng": 9.938669
+      }
+    },
+    {
+      "istatCode": "033042",
+      "officialName": "Sarmato",
+      "normalizedName": "sarmato",
+      "aliases": [],
+      "areaKm2": 27.34,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033006",
+        "033013",
+        "033039"
+      ],
+      "focusPoint": {
+        "lat": 45.06815,
+        "lng": 9.505237
+      }
+    },
+    {
+      "istatCode": "033043",
+      "officialName": "Travo",
+      "normalizedName": "travo",
+      "aliases": [],
+      "areaKm2": 80.763,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033004",
+        "033005",
+        "033016",
+        "033022",
+        "033034",
+        "033038",
+        "033045"
+      ],
+      "focusPoint": {
+        "lat": 44.857913,
+        "lng": 9.514434
+      }
+    },
+    {
+      "istatCode": "033044",
+      "officialName": "Vernasca",
+      "normalizedName": "vernasca",
+      "aliases": [],
+      "areaKm2": 72.705,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033002",
+        "033012",
+        "033026",
+        "033028"
+      ],
+      "focusPoint": {
+        "lat": 44.784037,
+        "lng": 9.834601
+      }
+    },
+    {
+      "istatCode": "033045",
+      "officialName": "Vigolzone",
+      "normalizedName": "vigolzone",
+      "aliases": [],
+      "areaKm2": 42.056,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "033004",
+        "033035",
+        "033036",
+        "033038",
+        "033040",
+        "033043"
+      ],
+      "focusPoint": {
+        "lat": 44.888976,
+        "lng": 9.635946
+      }
+    },
+    {
+      "istatCode": "033046",
+      "officialName": "Villanova sull'Arda",
+      "normalizedName": "villanova sull arda",
+      "aliases": [
+        "villanova",
+        "villanova sull",
+        "villanovasull",
+        "villanovasullarda"
+      ],
+      "areaKm2": 36.29,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033003",
+        "033014",
+        "033018",
+        "033027",
+        "033041"
+      ],
+      "focusPoint": {
+        "lat": 45.024981,
+        "lng": 10.012516
+      }
+    },
+    {
+      "istatCode": "033047",
+      "officialName": "Zerba",
+      "normalizedName": "zerba",
+      "aliases": [],
+      "areaKm2": 24.212,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033015",
+        "033030"
+      ],
+      "focusPoint": {
+        "lat": 44.680083,
+        "lng": 9.230085
+      }
+    },
+    {
+      "istatCode": "033048",
+      "officialName": "Ziano Piacentino",
+      "normalizedName": "ziano piacentino",
+      "aliases": [
+        "ziano",
+        "zianopiacentino"
+      ],
+      "areaKm2": 32.793,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033006",
+        "033013",
+        "033049"
+      ],
+      "focusPoint": {
+        "lat": 44.990456,
+        "lng": 9.384723
+      }
+    },
+    {
+      "istatCode": "033049",
+      "officialName": "Alta Val Tidone",
+      "normalizedName": "alta val tidone",
+      "aliases": [
+        "alta",
+        "alta val",
+        "altaval",
+        "altavaltidone"
+      ],
+      "areaKm2": 101.03,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "033005",
+        "033006",
+        "033033",
+        "033034",
+        "033048"
+      ],
+      "focusPoint": {
+        "lat": 44.89764,
+        "lng": 9.330089
+      }
+    }
+  ]
+}

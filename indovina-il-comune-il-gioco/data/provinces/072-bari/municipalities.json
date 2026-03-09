@@ -1,0 +1,951 @@
+{
+  "provinceCode": "072",
+  "label": "Bari",
+  "officialScopeLabel": "Città Metropolitana di Bari",
+  "sigla": "BA",
+  "slug": "bari",
+  "sourceYear": 2026,
+  "count": 41,
+  "municipalities": [
+    {
+      "istatCode": "072001",
+      "officialName": "Acquaviva delle Fonti",
+      "normalizedName": "acquaviva delle fonti",
+      "aliases": [
+        "acquaviva",
+        "acquavivadellefonti"
+      ],
+      "areaKm2": 131.307,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072002",
+        "072015",
+        "072016",
+        "072021",
+        "072039",
+        "072040",
+        "072041"
+      ],
+      "focusPoint": {
+        "lat": 40.887464,
+        "lng": 16.854624
+      }
+    },
+    {
+      "istatCode": "072002",
+      "officialName": "Adelfia",
+      "normalizedName": "adelfia",
+      "aliases": [],
+      "areaKm2": 29.478,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072001",
+        "072006",
+        "072012",
+        "072015",
+        "072040",
+        "072048"
+      ],
+      "focusPoint": {
+        "lat": 40.992769,
+        "lng": 16.87685
+      }
+    },
+    {
+      "istatCode": "072003",
+      "officialName": "Alberobello",
+      "normalizedName": "alberobello",
+      "aliases": [],
+      "areaKm2": 40.581,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072017",
+        "072025",
+        "072030",
+        "072031"
+      ],
+      "focusPoint": {
+        "lat": 40.786324,
+        "lng": 17.221107
+      }
+    },
+    {
+      "istatCode": "072004",
+      "officialName": "Altamura",
+      "normalizedName": "altamura",
+      "aliases": [],
+      "areaKm2": 426.472,
+      "baseChips": 115,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072011",
+        "072016",
+        "072023",
+        "072024",
+        "072038",
+        "072041",
+        "072044"
+      ],
+      "focusPoint": {
+        "lat": 40.85488,
+        "lng": 16.567468
+      }
+    },
+    {
+      "istatCode": "072006",
+      "officialName": "Bari",
+      "normalizedName": "bari",
+      "aliases": [],
+      "areaKm2": 115.849,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072002",
+        "072011",
+        "072012",
+        "072014",
+        "072022",
+        "072027",
+        "072028",
+        "072032",
+        "072046",
+        "072048"
+      ],
+      "focusPoint": {
+        "lat": 41.092508,
+        "lng": 16.880192
+      }
+    },
+    {
+      "istatCode": "072008",
+      "officialName": "Binetto",
+      "normalizedName": "binetto",
+      "aliases": [],
+      "areaKm2": 17.302,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072010",
+        "072011",
+        "072024",
+        "072033",
+        "072040",
+        "072044"
+      ],
+      "focusPoint": {
+        "lat": 41.004067,
+        "lng": 16.736518
+      }
+    },
+    {
+      "istatCode": "072010",
+      "officialName": "Bitetto",
+      "normalizedName": "bitetto",
+      "aliases": [],
+      "areaKm2": 33.402,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072008",
+        "072011",
+        "072012",
+        "072027",
+        "072033",
+        "072040"
+      ],
+      "focusPoint": {
+        "lat": 41.034274,
+        "lng": 16.763854
+      }
+    },
+    {
+      "istatCode": "072011",
+      "officialName": "Bitonto",
+      "normalizedName": "bitonto",
+      "aliases": [],
+      "areaKm2": 172.46,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072004",
+        "072006",
+        "072008",
+        "072010",
+        "072022",
+        "072027",
+        "072033",
+        "072038",
+        "072043",
+        "072044"
+      ],
+      "focusPoint": {
+        "lat": 41.048573,
+        "lng": 16.571801
+      }
+    },
+    {
+      "istatCode": "072012",
+      "officialName": "Bitritto",
+      "normalizedName": "bitritto",
+      "aliases": [],
+      "areaKm2": 18.019,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072002",
+        "072006",
+        "072010",
+        "072027",
+        "072040"
+      ],
+      "focusPoint": {
+        "lat": 41.037424,
+        "lng": 16.819934
+      }
+    },
+    {
+      "istatCode": "072014",
+      "officialName": "Capurso",
+      "normalizedName": "capurso",
+      "aliases": [],
+      "areaKm2": 15.042,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072006",
+        "072015",
+        "072018",
+        "072032",
+        "072046",
+        "072048"
+      ],
+      "focusPoint": {
+        "lat": 41.035936,
+        "lng": 16.927971
+      }
+    },
+    {
+      "istatCode": "072015",
+      "officialName": "Casamassima",
+      "normalizedName": "casamassima",
+      "aliases": [],
+      "areaKm2": 77.648,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072001",
+        "072002",
+        "072014",
+        "072018",
+        "072032",
+        "072037",
+        "072039",
+        "072047",
+        "072048"
+      ],
+      "focusPoint": {
+        "lat": 40.938487,
+        "lng": 16.925973
+      }
+    },
+    {
+      "istatCode": "072016",
+      "officialName": "Cassano delle Murge",
+      "normalizedName": "cassano delle murge",
+      "aliases": [
+        "cassano",
+        "cassanodellemurge"
+      ],
+      "areaKm2": 89.354,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072001",
+        "072004",
+        "072024",
+        "072040",
+        "072041"
+      ],
+      "focusPoint": {
+        "lat": 40.881803,
+        "lng": 16.747467
+      }
+    },
+    {
+      "istatCode": "072017",
+      "officialName": "Castellana Grotte",
+      "normalizedName": "castellana grotte",
+      "aliases": [
+        "castellana",
+        "castellanagrotte"
+      ],
+      "areaKm2": 67.94,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072003",
+        "072019",
+        "072030",
+        "072031",
+        "072035",
+        "072036"
+      ],
+      "focusPoint": {
+        "lat": 40.863703,
+        "lng": 17.195964
+      }
+    },
+    {
+      "istatCode": "072018",
+      "officialName": "Cellamare",
+      "normalizedName": "cellamare",
+      "aliases": [],
+      "areaKm2": 5.951,
+      "baseChips": 210,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072014",
+        "072015",
+        "072032"
+      ],
+      "focusPoint": {
+        "lat": 41.016771,
+        "lng": 16.92837
+      }
+    },
+    {
+      "istatCode": "072019",
+      "officialName": "Conversano",
+      "normalizedName": "conversano",
+      "aliases": [],
+      "areaKm2": 127.209,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072017",
+        "072028",
+        "072035",
+        "072036",
+        "072037",
+        "072047"
+      ],
+      "focusPoint": {
+        "lat": 40.952456,
+        "lng": 17.099082
+      }
+    },
+    {
+      "istatCode": "072020",
+      "officialName": "Corato",
+      "normalizedName": "corato",
+      "aliases": [],
+      "areaKm2": 168.311,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072038"
+      ],
+      "focusPoint": {
+        "lat": 41.095134,
+        "lng": 16.362243
+      }
+    },
+    {
+      "istatCode": "072021",
+      "officialName": "Gioia del Colle",
+      "normalizedName": "gioia del colle",
+      "aliases": [
+        "gioia",
+        "gioiadelcolle"
+      ],
+      "areaKm2": 206.816,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072001",
+        "072031",
+        "072036",
+        "072039",
+        "072041",
+        "072047"
+      ],
+      "focusPoint": {
+        "lat": 40.776441,
+        "lng": 16.930363
+      }
+    },
+    {
+      "istatCode": "072022",
+      "officialName": "Giovinazzo",
+      "normalizedName": "giovinazzo",
+      "aliases": [],
+      "areaKm2": 43.993,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072006",
+        "072011",
+        "072029",
+        "072043"
+      ],
+      "focusPoint": {
+        "lat": 41.155037,
+        "lng": 16.666421
+      }
+    },
+    {
+      "istatCode": "072023",
+      "officialName": "Gravina in Puglia",
+      "normalizedName": "gravina in puglia",
+      "aliases": [
+        "gravina",
+        "gravinainpuglia"
+      ],
+      "areaKm2": 381.189,
+      "baseChips": 117,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072004",
+        "072034",
+        "072038"
+      ],
+      "focusPoint": {
+        "lat": 40.853963,
+        "lng": 16.338448
+      }
+    },
+    {
+      "istatCode": "072024",
+      "officialName": "Grumo Appula",
+      "normalizedName": "grumo appula",
+      "aliases": [
+        "grumo",
+        "grumoappula"
+      ],
+      "areaKm2": 80.687,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072004",
+        "072008",
+        "072016",
+        "072040",
+        "072044"
+      ],
+      "focusPoint": {
+        "lat": 40.958269,
+        "lng": 16.700192
+      }
+    },
+    {
+      "istatCode": "072025",
+      "officialName": "Locorotondo",
+      "normalizedName": "locorotondo",
+      "aliases": [],
+      "areaKm2": 47.603,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072003"
+      ],
+      "focusPoint": {
+        "lat": 40.77441,
+        "lng": 17.347806
+      }
+    },
+    {
+      "istatCode": "072027",
+      "officialName": "Modugno",
+      "normalizedName": "modugno",
+      "aliases": [],
+      "areaKm2": 32.179,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072006",
+        "072010",
+        "072011",
+        "072012"
+      ],
+      "focusPoint": {
+        "lat": 41.082169,
+        "lng": 16.782602
+      }
+    },
+    {
+      "istatCode": "072028",
+      "officialName": "Mola di Bari",
+      "normalizedName": "mola di bari",
+      "aliases": [
+        "mola",
+        "moladibari"
+      ],
+      "areaKm2": 50.122,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072006",
+        "072019",
+        "072032",
+        "072035",
+        "072037"
+      ],
+      "focusPoint": {
+        "lat": 41.044643,
+        "lng": 17.076344
+      }
+    },
+    {
+      "istatCode": "072029",
+      "officialName": "Molfetta",
+      "normalizedName": "molfetta",
+      "aliases": [],
+      "areaKm2": 58.209,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072022",
+        "072043"
+      ],
+      "focusPoint": {
+        "lat": 41.185014,
+        "lng": 16.571935
+      }
+    },
+    {
+      "istatCode": "072030",
+      "officialName": "Monopoli",
+      "normalizedName": "monopoli",
+      "aliases": [],
+      "areaKm2": 155.66,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072003",
+        "072017",
+        "072035"
+      ],
+      "focusPoint": {
+        "lat": 40.897116,
+        "lng": 17.291554
+      }
+    },
+    {
+      "istatCode": "072031",
+      "officialName": "Noci",
+      "normalizedName": "noci",
+      "aliases": [],
+      "areaKm2": 148.833,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072003",
+        "072017",
+        "072021",
+        "072036"
+      ],
+      "focusPoint": {
+        "lat": 40.767096,
+        "lng": 17.11489
+      }
+    },
+    {
+      "istatCode": "072032",
+      "officialName": "Noicattaro",
+      "normalizedName": "noicattaro",
+      "aliases": [],
+      "areaKm2": 40.334,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072006",
+        "072014",
+        "072015",
+        "072018",
+        "072028",
+        "072037",
+        "072046"
+      ],
+      "focusPoint": {
+        "lat": 41.03918,
+        "lng": 16.987316
+      }
+    },
+    {
+      "istatCode": "072033",
+      "officialName": "Palo del Colle",
+      "normalizedName": "palo del colle",
+      "aliases": [
+        "palo",
+        "palodelcolle"
+      ],
+      "areaKm2": 79.009,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072008",
+        "072010",
+        "072011",
+        "072044"
+      ],
+      "focusPoint": {
+        "lat": 41.04251,
+        "lng": 16.662646
+      }
+    },
+    {
+      "istatCode": "072034",
+      "officialName": "Poggiorsini",
+      "normalizedName": "poggiorsini",
+      "aliases": [],
+      "areaKm2": 43.073,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072023"
+      ],
+      "focusPoint": {
+        "lat": 40.924446,
+        "lng": 16.250734
+      }
+    },
+    {
+      "istatCode": "072035",
+      "officialName": "Polignano a Mare",
+      "normalizedName": "polignano a mare",
+      "aliases": [
+        "polignano",
+        "polignano a",
+        "polignanoa",
+        "polignanoamare"
+      ],
+      "areaKm2": 63.057,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072017",
+        "072019",
+        "072028",
+        "072030"
+      ],
+      "focusPoint": {
+        "lat": 40.96663,
+        "lng": 17.207952
+      }
+    },
+    {
+      "istatCode": "072036",
+      "officialName": "Putignano",
+      "normalizedName": "putignano",
+      "aliases": [],
+      "areaKm2": 99.276,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072017",
+        "072019",
+        "072021",
+        "072031",
+        "072047"
+      ],
+      "focusPoint": {
+        "lat": 40.851103,
+        "lng": 17.077168
+      }
+    },
+    {
+      "istatCode": "072037",
+      "officialName": "Rutigliano",
+      "normalizedName": "rutigliano",
+      "aliases": [],
+      "areaKm2": 53.3,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072015",
+        "072019",
+        "072028",
+        "072032",
+        "072047"
+      ],
+      "focusPoint": {
+        "lat": 40.99425,
+        "lng": 17.00553
+      }
+    },
+    {
+      "istatCode": "072038",
+      "officialName": "Ruvo di Puglia",
+      "normalizedName": "ruvo di puglia",
+      "aliases": [
+        "ruvo",
+        "ruvodipuglia"
+      ],
+      "areaKm2": 221.951,
+      "baseChips": 129,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072004",
+        "072011",
+        "072020",
+        "072023",
+        "072043"
+      ],
+      "focusPoint": {
+        "lat": 41.058451,
+        "lng": 16.458097
+      }
+    },
+    {
+      "istatCode": "072039",
+      "officialName": "Sammichele di Bari",
+      "normalizedName": "sammichele di bari",
+      "aliases": [
+        "sammichele",
+        "sammicheledibari"
+      ],
+      "areaKm2": 33.811,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072001",
+        "072015",
+        "072021",
+        "072047"
+      ],
+      "focusPoint": {
+        "lat": 40.88161,
+        "lng": 16.951601
+      }
+    },
+    {
+      "istatCode": "072040",
+      "officialName": "Sannicandro di Bari",
+      "normalizedName": "sannicandro di bari",
+      "aliases": [
+        "sannicandro",
+        "sannicandrodibari"
+      ],
+      "areaKm2": 55.999,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072001",
+        "072002",
+        "072008",
+        "072010",
+        "072012",
+        "072016",
+        "072024"
+      ],
+      "focusPoint": {
+        "lat": 40.968113,
+        "lng": 16.801033
+      }
+    },
+    {
+      "istatCode": "072041",
+      "officialName": "Santeramo in Colle",
+      "normalizedName": "santeramo in colle",
+      "aliases": [
+        "santeramo",
+        "santeramoincolle"
+      ],
+      "areaKm2": 143.529,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "072001",
+        "072004",
+        "072016",
+        "072021"
+      ],
+      "focusPoint": {
+        "lat": 40.781694,
+        "lng": 16.737383
+      }
+    },
+    {
+      "istatCode": "072043",
+      "officialName": "Terlizzi",
+      "normalizedName": "terlizzi",
+      "aliases": [],
+      "areaKm2": 68.445,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072011",
+        "072022",
+        "072029",
+        "072038"
+      ],
+      "focusPoint": {
+        "lat": 41.103322,
+        "lng": 16.552932
+      }
+    },
+    {
+      "istatCode": "072044",
+      "officialName": "Toritto",
+      "normalizedName": "toritto",
+      "aliases": [],
+      "areaKm2": 75.206,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072004",
+        "072008",
+        "072011",
+        "072024",
+        "072033"
+      ],
+      "focusPoint": {
+        "lat": 40.974932,
+        "lng": 16.622433
+      }
+    },
+    {
+      "istatCode": "072046",
+      "officialName": "Triggiano",
+      "normalizedName": "triggiano",
+      "aliases": [],
+      "areaKm2": 20.041,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072006",
+        "072014",
+        "072032"
+      ],
+      "focusPoint": {
+        "lat": 41.065733,
+        "lng": 16.938637
+      }
+    },
+    {
+      "istatCode": "072047",
+      "officialName": "Turi",
+      "normalizedName": "turi",
+      "aliases": [],
+      "areaKm2": 70.682,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072015",
+        "072019",
+        "072021",
+        "072036",
+        "072037",
+        "072039"
+      ],
+      "focusPoint": {
+        "lat": 40.906197,
+        "lng": 17.009541
+      }
+    },
+    {
+      "istatCode": "072048",
+      "officialName": "Valenzano",
+      "normalizedName": "valenzano",
+      "aliases": [],
+      "areaKm2": 15.731,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "072002",
+        "072006",
+        "072014",
+        "072015"
+      ],
+      "focusPoint": {
+        "lat": 41.038086,
+        "lng": 16.883455
+      }
+    }
+  ]
+}

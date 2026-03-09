@@ -1,0 +1,932 @@
+{
+  "provinceCode": "109",
+  "label": "Fermo",
+  "officialScopeLabel": "Provincia di Fermo",
+  "sigla": "FM",
+  "slug": "fermo",
+  "sourceYear": 2026,
+  "count": 40,
+  "municipalities": [
+    {
+      "istatCode": "109001",
+      "officialName": "Altidona",
+      "normalizedName": "altidona",
+      "aliases": [],
+      "areaKm2": 13.005,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109004",
+        "109006",
+        "109009",
+        "109030"
+      ],
+      "focusPoint": {
+        "lat": 43.105523,
+        "lng": 13.811968
+      }
+    },
+    {
+      "istatCode": "109002",
+      "officialName": "Amandola",
+      "normalizedName": "amandola",
+      "aliases": [],
+      "areaKm2": 69.176,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109014",
+        "109015",
+        "109039"
+      ],
+      "focusPoint": {
+        "lat": 42.995328,
+        "lng": 13.353795
+      }
+    },
+    {
+      "istatCode": "109003",
+      "officialName": "Belmonte Piceno",
+      "normalizedName": "belmonte piceno",
+      "aliases": [
+        "belmonte",
+        "belmontepiceno"
+      ],
+      "areaKm2": 10.511,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109005",
+        "109006",
+        "109008",
+        "109012",
+        "109017",
+        "109019",
+        "109027",
+        "109038"
+      ],
+      "focusPoint": {
+        "lat": 43.089124,
+        "lng": 13.540329
+      }
+    },
+    {
+      "istatCode": "109004",
+      "officialName": "Campofilone",
+      "normalizedName": "campofilone",
+      "aliases": [],
+      "areaKm2": 12.054,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109001",
+        "109009",
+        "109030"
+      ],
+      "focusPoint": {
+        "lat": 43.079094,
+        "lng": 13.810275
+      }
+    },
+    {
+      "istatCode": "109005",
+      "officialName": "Falerone",
+      "normalizedName": "falerone",
+      "aliases": [],
+      "areaKm2": 24.534,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109003",
+        "109013",
+        "109017",
+        "109026",
+        "109038"
+      ],
+      "focusPoint": {
+        "lat": 43.101447,
+        "lng": 13.47134
+      }
+    },
+    {
+      "istatCode": "109006",
+      "officialName": "Fermo",
+      "normalizedName": "fermo",
+      "aliases": [],
+      "areaKm2": 123.922,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109001",
+        "109003",
+        "109007",
+        "109008",
+        "109009",
+        "109010",
+        "109011",
+        "109017",
+        "109022",
+        "109024",
+        "109032",
+        "109033",
+        "109034",
+        "109035",
+        "109037",
+        "109040"
+      ],
+      "focusPoint": {
+        "lat": 43.167662,
+        "lng": 13.703911
+      }
+    },
+    {
+      "istatCode": "109007",
+      "officialName": "Francavilla d'Ete",
+      "normalizedName": "francavilla d ete",
+      "aliases": [
+        "francavilla",
+        "francavilladete"
+      ],
+      "areaKm2": 10.047,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109006",
+        "109017",
+        "109023"
+      ],
+      "focusPoint": {
+        "lat": 43.187861,
+        "lng": 13.535068
+      }
+    },
+    {
+      "istatCode": "109008",
+      "officialName": "Grottazzolina",
+      "normalizedName": "grottazzolina",
+      "aliases": [],
+      "areaKm2": 9.162,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109003",
+        "109006",
+        "109010",
+        "109016",
+        "109027",
+        "109032",
+        "109035"
+      ],
+      "focusPoint": {
+        "lat": 43.119117,
+        "lng": 13.607819
+      }
+    },
+    {
+      "istatCode": "109009",
+      "officialName": "Lapedona",
+      "normalizedName": "lapedona",
+      "aliases": [],
+      "areaKm2": 14.893,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109001",
+        "109004",
+        "109006",
+        "109022",
+        "109028"
+      ],
+      "focusPoint": {
+        "lat": 43.103748,
+        "lng": 13.765155
+      }
+    },
+    {
+      "istatCode": "109010",
+      "officialName": "Magliano di Tenna",
+      "normalizedName": "magliano di tenna",
+      "aliases": [
+        "magliano",
+        "maglianoditenna"
+      ],
+      "areaKm2": 8.149,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109006",
+        "109008",
+        "109017",
+        "109035"
+      ],
+      "focusPoint": {
+        "lat": 43.129315,
+        "lng": 13.591671
+      }
+    },
+    {
+      "istatCode": "109011",
+      "officialName": "Massa Fermana",
+      "normalizedName": "massa fermana",
+      "aliases": [
+        "massa",
+        "massafermana"
+      ],
+      "areaKm2": 7.754,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109006",
+        "109013",
+        "109017"
+      ],
+      "focusPoint": {
+        "lat": 43.153147,
+        "lng": 13.480765
+      }
+    },
+    {
+      "istatCode": "109012",
+      "officialName": "Monsampietro Morico",
+      "normalizedName": "monsampietro morico",
+      "aliases": [
+        "monsampietro",
+        "monsampietromorico"
+      ],
+      "areaKm2": 9.895,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109003",
+        "109019",
+        "109020",
+        "109021",
+        "109027"
+      ],
+      "focusPoint": {
+        "lat": 43.05571,
+        "lng": 13.556015
+      }
+    },
+    {
+      "istatCode": "109013",
+      "officialName": "Montappone",
+      "normalizedName": "montappone",
+      "aliases": [],
+      "areaKm2": 10.184,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109005",
+        "109011",
+        "109017",
+        "109026"
+      ],
+      "focusPoint": {
+        "lat": 43.136546,
+        "lng": 13.463501
+      }
+    },
+    {
+      "istatCode": "109014",
+      "officialName": "Montefalcone Appennino",
+      "normalizedName": "montefalcone appennino",
+      "aliases": [
+        "montefalcone",
+        "montefalconeappennino"
+      ],
+      "areaKm2": 15.535,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109002",
+        "109036",
+        "109039"
+      ],
+      "focusPoint": {
+        "lat": 42.99194,
+        "lng": 13.467575
+      }
+    },
+    {
+      "istatCode": "109015",
+      "officialName": "Montefortino",
+      "normalizedName": "montefortino",
+      "aliases": [],
+      "areaKm2": 78.411,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109002"
+      ],
+      "focusPoint": {
+        "lat": 42.928964,
+        "lng": 13.315389
+      }
+    },
+    {
+      "istatCode": "109016",
+      "officialName": "Monte Giberto",
+      "normalizedName": "monte giberto",
+      "aliases": [
+        "montegiberto"
+      ],
+      "areaKm2": 12.544,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109008",
+        "109025",
+        "109027",
+        "109031",
+        "109032"
+      ],
+      "focusPoint": {
+        "lat": 43.102362,
+        "lng": 13.623615
+      }
+    },
+    {
+      "istatCode": "109017",
+      "officialName": "Montegiorgio",
+      "normalizedName": "montegiorgio",
+      "aliases": [],
+      "areaKm2": 47.145,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109003",
+        "109005",
+        "109006",
+        "109007",
+        "109010",
+        "109011",
+        "109013",
+        "109023",
+        "109026",
+        "109035"
+      ],
+      "focusPoint": {
+        "lat": 43.13867,
+        "lng": 13.535429
+      }
+    },
+    {
+      "istatCode": "109018",
+      "officialName": "Montegranaro",
+      "normalizedName": "montegranaro",
+      "aliases": [],
+      "areaKm2": 31.302,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109023",
+        "109024",
+        "109037",
+        "109040"
+      ],
+      "focusPoint": {
+        "lat": 43.238922,
+        "lng": 13.631556
+      }
+    },
+    {
+      "istatCode": "109019",
+      "officialName": "Monteleone di Fermo",
+      "normalizedName": "monteleone di fermo",
+      "aliases": [
+        "monteleone",
+        "monteleonedifermo"
+      ],
+      "areaKm2": 8.165,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109003",
+        "109012",
+        "109020",
+        "109036",
+        "109038"
+      ],
+      "focusPoint": {
+        "lat": 43.057817,
+        "lng": 13.532369
+      }
+    },
+    {
+      "istatCode": "109020",
+      "officialName": "Montelparo",
+      "normalizedName": "montelparo",
+      "aliases": [],
+      "areaKm2": 21.595,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109012",
+        "109019",
+        "109021",
+        "109036"
+      ],
+      "focusPoint": {
+        "lat": 43.015532,
+        "lng": 13.549835
+      }
+    },
+    {
+      "istatCode": "109021",
+      "officialName": "Monte Rinaldo",
+      "normalizedName": "monte rinaldo",
+      "aliases": [
+        "monterinaldo"
+      ],
+      "areaKm2": 8.04,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109012",
+        "109020",
+        "109027",
+        "109029"
+      ],
+      "focusPoint": {
+        "lat": 43.030986,
+        "lng": 13.575975
+      }
+    },
+    {
+      "istatCode": "109022",
+      "officialName": "Monterubbiano",
+      "normalizedName": "monterubbiano",
+      "aliases": [],
+      "areaKm2": 32.167,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109006",
+        "109009",
+        "109028",
+        "109031",
+        "109032"
+      ],
+      "focusPoint": {
+        "lat": 43.087669,
+        "lng": 13.706477
+      }
+    },
+    {
+      "istatCode": "109023",
+      "officialName": "Monte San Pietrangeli",
+      "normalizedName": "monte san pietrangeli",
+      "aliases": [
+        "monte san",
+        "montesan",
+        "montesanpietrangeli"
+      ],
+      "areaKm2": 18.553,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109007",
+        "109017",
+        "109018",
+        "109035",
+        "109040"
+      ],
+      "focusPoint": {
+        "lat": 43.189732,
+        "lng": 13.574185
+      }
+    },
+    {
+      "istatCode": "109024",
+      "officialName": "Monte Urano",
+      "normalizedName": "monte urano",
+      "aliases": [
+        "monteurano"
+      ],
+      "areaKm2": 16.807,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109006",
+        "109018",
+        "109037",
+        "109040"
+      ],
+      "focusPoint": {
+        "lat": 43.19574,
+        "lng": 13.672848
+      }
+    },
+    {
+      "istatCode": "109025",
+      "officialName": "Monte Vidon Combatte",
+      "normalizedName": "monte vidon combatte",
+      "aliases": [
+        "montevidoncombatte"
+      ],
+      "areaKm2": 11.103,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109016",
+        "109027",
+        "109029",
+        "109031"
+      ],
+      "focusPoint": {
+        "lat": 43.054949,
+        "lng": 13.622094
+      }
+    },
+    {
+      "istatCode": "109026",
+      "officialName": "Monte Vidon Corrado",
+      "normalizedName": "monte vidon corrado",
+      "aliases": [
+        "montevidoncorrado"
+      ],
+      "areaKm2": 6.122,
+      "baseChips": 209,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109005",
+        "109013",
+        "109017"
+      ],
+      "focusPoint": {
+        "lat": 43.124705,
+        "lng": 13.482659
+      }
+    },
+    {
+      "istatCode": "109027",
+      "officialName": "Montottone",
+      "normalizedName": "montottone",
+      "aliases": [],
+      "areaKm2": 16.298,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109003",
+        "109008",
+        "109012",
+        "109016",
+        "109021",
+        "109025",
+        "109029"
+      ],
+      "focusPoint": {
+        "lat": 43.066792,
+        "lng": 13.58605
+      }
+    },
+    {
+      "istatCode": "109028",
+      "officialName": "Moresco",
+      "normalizedName": "moresco",
+      "aliases": [],
+      "areaKm2": 6.408,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109009",
+        "109022"
+      ],
+      "focusPoint": {
+        "lat": 43.08015,
+        "lng": 13.751411
+      }
+    },
+    {
+      "istatCode": "109029",
+      "officialName": "Ortezzano",
+      "normalizedName": "ortezzano",
+      "aliases": [],
+      "areaKm2": 7.099,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109021",
+        "109025",
+        "109027"
+      ],
+      "focusPoint": {
+        "lat": 43.02789,
+        "lng": 13.609724
+      }
+    },
+    {
+      "istatCode": "109030",
+      "officialName": "Pedaso",
+      "normalizedName": "pedaso",
+      "aliases": [],
+      "areaKm2": 3.941,
+      "baseChips": 219,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109001",
+        "109004"
+      ],
+      "focusPoint": {
+        "lat": 43.085685,
+        "lng": 13.836336
+      }
+    },
+    {
+      "istatCode": "109031",
+      "officialName": "Petritoli",
+      "normalizedName": "petritoli",
+      "aliases": [],
+      "areaKm2": 23.982,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109016",
+        "109022",
+        "109025",
+        "109032"
+      ],
+      "focusPoint": {
+        "lat": 43.06509,
+        "lng": 13.660205
+      }
+    },
+    {
+      "istatCode": "109032",
+      "officialName": "Ponzano di Fermo",
+      "normalizedName": "ponzano di fermo",
+      "aliases": [
+        "ponzano",
+        "ponzanodifermo"
+      ],
+      "areaKm2": 14.248,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109006",
+        "109008",
+        "109016",
+        "109022",
+        "109031"
+      ],
+      "focusPoint": {
+        "lat": 43.106548,
+        "lng": 13.663352
+      }
+    },
+    {
+      "istatCode": "109033",
+      "officialName": "Porto San Giorgio",
+      "normalizedName": "porto san giorgio",
+      "aliases": [
+        "porto san",
+        "portosan",
+        "portosangiorgio"
+      ],
+      "areaKm2": 8.977,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109006"
+      ],
+      "focusPoint": {
+        "lat": 43.179759,
+        "lng": 13.781422
+      }
+    },
+    {
+      "istatCode": "109034",
+      "officialName": "Porto Sant'Elpidio",
+      "normalizedName": "porto sant elpidio",
+      "aliases": [
+        "porto sant",
+        "portosant",
+        "portosantelpidio"
+      ],
+      "areaKm2": 18.198,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109006",
+        "109037"
+      ],
+      "focusPoint": {
+        "lat": 43.263778,
+        "lng": 13.743571
+      }
+    },
+    {
+      "istatCode": "109035",
+      "officialName": "Rapagnano",
+      "normalizedName": "rapagnano",
+      "aliases": [],
+      "areaKm2": 12.483,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109006",
+        "109008",
+        "109010",
+        "109017",
+        "109023",
+        "109040"
+      ],
+      "focusPoint": {
+        "lat": 43.153971,
+        "lng": 13.609043
+      }
+    },
+    {
+      "istatCode": "109036",
+      "officialName": "Santa Vittoria in Matenano",
+      "normalizedName": "santa vittoria in matenano",
+      "aliases": [
+        "santa",
+        "santa vittoria",
+        "santavittoria",
+        "santavittoriainmatenano"
+      ],
+      "areaKm2": 26.019,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109014",
+        "109019",
+        "109020",
+        "109038"
+      ],
+      "focusPoint": {
+        "lat": 43.016699,
+        "lng": 13.492641
+      }
+    },
+    {
+      "istatCode": "109037",
+      "officialName": "Sant'Elpidio a Mare",
+      "normalizedName": "sant elpidio a mare",
+      "aliases": [
+        "sant",
+        "sant elpidio",
+        "sant elpidio a",
+        "santelpidio",
+        "santelpidioa",
+        "santelpidioamare"
+      ],
+      "areaKm2": 50.209,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109006",
+        "109018",
+        "109024",
+        "109034"
+      ],
+      "focusPoint": {
+        "lat": 43.245255,
+        "lng": 13.686524
+      }
+    },
+    {
+      "istatCode": "109038",
+      "officialName": "Servigliano",
+      "normalizedName": "servigliano",
+      "aliases": [],
+      "areaKm2": 18.534,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109003",
+        "109005",
+        "109019",
+        "109036"
+      ],
+      "focusPoint": {
+        "lat": 43.067692,
+        "lng": 13.493333
+      }
+    },
+    {
+      "istatCode": "109039",
+      "officialName": "Smerillo",
+      "normalizedName": "smerillo",
+      "aliases": [],
+      "areaKm2": 11.604,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "109002",
+        "109014"
+      ],
+      "focusPoint": {
+        "lat": 43.003814,
+        "lng": 13.429827
+      }
+    },
+    {
+      "istatCode": "109040",
+      "officialName": "Torre San Patrizio",
+      "normalizedName": "torre san patrizio",
+      "aliases": [
+        "torre",
+        "torre san",
+        "torresan",
+        "torresanpatrizio"
+      ],
+      "areaKm2": 11.958,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "109006",
+        "109018",
+        "109023",
+        "109024",
+        "109035"
+      ],
+      "focusPoint": {
+        "lat": 43.188642,
+        "lng": 13.621658
+      }
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "provinceCode": "099",
+  "label": "Rimini",
+  "officialScopeLabel": "Provincia di Rimini",
+  "sigla": "RN",
+  "slug": "rimini",
+  "sourceYear": 2026,
+  "count": 27,
+  "municipalities": [
+    {
+      "istatCode": "099001",
+      "officialName": "Bellaria-Igea Marina",
+      "normalizedName": "bellaria igea marina",
+      "aliases": [
+        "bellaria",
+        "bellaria igea",
+        "bellariaigea",
+        "bellariaigeamarina"
+      ],
+      "areaKm2": 18.595,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099014"
+      ],
+      "focusPoint": {
+        "lat": 44.132985,
+        "lng": 12.462159
+      }
+    },
+    {
+      "istatCode": "099002",
+      "officialName": "Cattolica",
+      "normalizedName": "cattolica",
+      "aliases": [],
+      "areaKm2": 6.034,
+      "baseChips": 210,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099005",
+        "099017"
+      ],
+      "focusPoint": {
+        "lat": 43.955643,
+        "lng": 12.736533
+      }
+    },
+    {
+      "istatCode": "099003",
+      "officialName": "Coriano",
+      "normalizedName": "coriano",
+      "aliases": [],
+      "areaKm2": 46.752,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099005",
+        "099013",
+        "099014",
+        "099016",
+        "099029"
+      ],
+      "focusPoint": {
+        "lat": 43.966491,
+        "lng": 12.573897
+      }
+    },
+    {
+      "istatCode": "099004",
+      "officialName": "Gemmano",
+      "normalizedName": "gemmano",
+      "aliases": [],
+      "areaKm2": 18.695,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099008",
+        "099016",
+        "099029",
+        "099031"
+      ],
+      "focusPoint": {
+        "lat": 43.893152,
+        "lng": 12.566148
+      }
+    },
+    {
+      "istatCode": "099005",
+      "officialName": "Misano Adriatico",
+      "normalizedName": "misano adriatico",
+      "aliases": [
+        "misano",
+        "misanoadriatico"
+      ],
+      "areaKm2": 22.553,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099002",
+        "099003",
+        "099013",
+        "099016",
+        "099017"
+      ],
+      "focusPoint": {
+        "lat": 43.960627,
+        "lng": 12.672263
+      }
+    },
+    {
+      "istatCode": "099006",
+      "officialName": "Mondaino",
+      "normalizedName": "mondaino",
+      "aliases": [],
+      "areaKm2": 19.538,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099008",
+        "099009",
+        "099015"
+      ],
+      "focusPoint": {
+        "lat": 43.847139,
+        "lng": 12.658916
+      }
+    },
+    {
+      "istatCode": "099008",
+      "officialName": "Montefiore Conca",
+      "normalizedName": "montefiore conca",
+      "aliases": [
+        "montefiore",
+        "montefioreconca"
+      ],
+      "areaKm2": 22.304,
+      "baseChips": 180,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099004",
+        "099006",
+        "099011",
+        "099015",
+        "099016"
+      ],
+      "focusPoint": {
+        "lat": 43.880986,
+        "lng": 12.616429
+      }
+    },
+    {
+      "istatCode": "099009",
+      "officialName": "Montegridolfo",
+      "normalizedName": "montegridolfo",
+      "aliases": [],
+      "areaKm2": 7.053,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099006",
+        "099015"
+      ],
+      "focusPoint": {
+        "lat": 43.868334,
+        "lng": 12.712089
+      }
+    },
+    {
+      "istatCode": "099011",
+      "officialName": "Morciano di Romagna",
+      "normalizedName": "morciano di romagna",
+      "aliases": [
+        "morciano",
+        "morcianodiromagna"
+      ],
+      "areaKm2": 5.444,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "099008",
+        "099015",
+        "099016",
+        "099017"
+      ],
+      "focusPoint": {
+        "lat": 43.915943,
+        "lng": 12.658484
+      }
+    },
+    {
+      "istatCode": "099013",
+      "officialName": "Riccione",
+      "normalizedName": "riccione",
+      "aliases": [],
+      "areaKm2": 17.369,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "099003",
+        "099005",
+        "099014"
+      ],
+      "focusPoint": {
+        "lat": 43.997728,
+        "lng": 12.64472
+      }
+    },
+    {
+      "istatCode": "099014",
+      "officialName": "Rimini",
+      "normalizedName": "rimini",
+      "aliases": [],
+      "areaKm2": 135.829,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099001",
+        "099003",
+        "099013",
+        "099018",
+        "099020"
+      ],
+      "focusPoint": {
+        "lat": 44.03685,
+        "lng": 12.554424
+      }
+    },
+    {
+      "istatCode": "099015",
+      "officialName": "Saludecio",
+      "normalizedName": "saludecio",
+      "aliases": [],
+      "areaKm2": 34.669,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099006",
+        "099008",
+        "099009",
+        "099011",
+        "099017"
+      ],
+      "focusPoint": {
+        "lat": 43.886838,
+        "lng": 12.68563
+      }
+    },
+    {
+      "istatCode": "099016",
+      "officialName": "San Clemente",
+      "normalizedName": "san clemente",
+      "aliases": [
+        "sanclemente"
+      ],
+      "areaKm2": 20.505,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "099003",
+        "099004",
+        "099005",
+        "099008",
+        "099011",
+        "099017",
+        "099029"
+      ],
+      "focusPoint": {
+        "lat": 43.928876,
+        "lng": 12.638622
+      }
+    },
+    {
+      "istatCode": "099017",
+      "officialName": "San Giovanni in Marignano",
+      "normalizedName": "san giovanni in marignano",
+      "aliases": [
+        "san giovanni",
+        "sangiovanni",
+        "sangiovanniinmarignano"
+      ],
+      "areaKm2": 21.168,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099002",
+        "099005",
+        "099011",
+        "099015",
+        "099016"
+      ],
+      "focusPoint": {
+        "lat": 43.93818,
+        "lng": 12.710894
+      }
+    },
+    {
+      "istatCode": "099018",
+      "officialName": "Santarcangelo di Romagna",
+      "normalizedName": "santarcangelo di romagna",
+      "aliases": [
+        "santarcangelo",
+        "santarcangelodiromagna"
+      ],
+      "areaKm2": 44.544,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099014",
+        "099020",
+        "099028"
+      ],
+      "focusPoint": {
+        "lat": 44.050375,
+        "lng": 12.443625
+      }
+    },
+    {
+      "istatCode": "099020",
+      "officialName": "Verucchio",
+      "normalizedName": "verucchio",
+      "aliases": [],
+      "areaKm2": 27.302,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099014",
+        "099018",
+        "099025",
+        "099028"
+      ],
+      "focusPoint": {
+        "lat": 43.99529,
+        "lng": 12.433721
+      }
+    },
+    {
+      "istatCode": "099021",
+      "officialName": "Casteldelci",
+      "normalizedName": "casteldelci",
+      "aliases": [],
+      "areaKm2": 49.863,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099024",
+        "099026"
+      ],
+      "focusPoint": {
+        "lat": 43.785011,
+        "lng": 12.141872
+      }
+    },
+    {
+      "istatCode": "099022",
+      "officialName": "Maiolo",
+      "normalizedName": "maiolo",
+      "aliases": [],
+      "areaKm2": 24.159,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "099023",
+        "099024",
+        "099025",
+        "099027",
+        "099030"
+      ],
+      "focusPoint": {
+        "lat": 43.879855,
+        "lng": 12.31688
+      }
+    },
+    {
+      "istatCode": "099023",
+      "officialName": "Novafeltria",
+      "normalizedName": "novafeltria",
+      "aliases": [],
+      "areaKm2": 41.923,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099022",
+        "099024",
+        "099025",
+        "099026",
+        "099027",
+        "099028"
+      ],
+      "focusPoint": {
+        "lat": 43.879529,
+        "lng": 12.266874
+      }
+    },
+    {
+      "istatCode": "099024",
+      "officialName": "Pennabilli",
+      "normalizedName": "pennabilli",
+      "aliases": [],
+      "areaKm2": 69.607,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099021",
+        "099022",
+        "099023",
+        "099026",
+        "099030"
+      ],
+      "focusPoint": {
+        "lat": 43.806347,
+        "lng": 12.274552
+      }
+    },
+    {
+      "istatCode": "099025",
+      "officialName": "San Leo",
+      "normalizedName": "san leo",
+      "aliases": [
+        "sanleo"
+      ],
+      "areaKm2": 53.336,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099020",
+        "099022",
+        "099023",
+        "099028",
+        "099030",
+        "099031"
+      ],
+      "focusPoint": {
+        "lat": 43.913297,
+        "lng": 12.366481
+      }
+    },
+    {
+      "istatCode": "099026",
+      "officialName": "Sant'Agata Feltria",
+      "normalizedName": "sant agata feltria",
+      "aliases": [
+        "sant",
+        "sant agata",
+        "santagata",
+        "santagatafeltria"
+      ],
+      "areaKm2": 79.553,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099021",
+        "099023",
+        "099024"
+      ],
+      "focusPoint": {
+        "lat": 43.864976,
+        "lng": 12.193196
+      }
+    },
+    {
+      "istatCode": "099027",
+      "officialName": "Talamello",
+      "normalizedName": "talamello",
+      "aliases": [],
+      "areaKm2": 10.661,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099022",
+        "099023"
+      ],
+      "focusPoint": {
+        "lat": 43.912529,
+        "lng": 12.282338
+      }
+    },
+    {
+      "istatCode": "099028",
+      "officialName": "Poggio Torriana",
+      "normalizedName": "poggio torriana",
+      "aliases": [
+        "poggio",
+        "poggiotorriana"
+      ],
+      "areaKm2": 35.059,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099018",
+        "099020",
+        "099023",
+        "099025"
+      ],
+      "focusPoint": {
+        "lat": 44.003986,
+        "lng": 12.39578
+      }
+    },
+    {
+      "istatCode": "099029",
+      "officialName": "Montescudo-Monte Colombo",
+      "normalizedName": "montescudo monte colombo",
+      "aliases": [
+        "montescudo",
+        "montescudo monte",
+        "montescudomonte",
+        "montescudomontecolombo"
+      ],
+      "areaKm2": 32.417,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099003",
+        "099004",
+        "099016",
+        "099031"
+      ],
+      "focusPoint": {
+        "lat": 43.92898,
+        "lng": 12.55301
+      }
+    },
+    {
+      "istatCode": "099030",
+      "officialName": "Montecopiolo",
+      "normalizedName": "montecopiolo",
+      "aliases": [],
+      "areaKm2": 35.547,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099022",
+        "099024",
+        "099025"
+      ],
+      "focusPoint": {
+        "lat": 43.83781,
+        "lng": 12.36801
+      }
+    },
+    {
+      "istatCode": "099031",
+      "officialName": "Sassofeltrio",
+      "normalizedName": "sassofeltrio",
+      "aliases": [],
+      "areaKm2": 21.244,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "099004",
+        "099025",
+        "099029"
+      ],
+      "focusPoint": {
+        "lat": 43.892776,
+        "lng": 12.513554
+      }
+    }
+  ]
+}

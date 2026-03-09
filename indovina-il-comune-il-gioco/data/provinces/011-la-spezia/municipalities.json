@@ -1,0 +1,733 @@
+{
+  "provinceCode": "011",
+  "label": "La Spezia",
+  "officialScopeLabel": "Provincia di La Spezia",
+  "sigla": "SP",
+  "slug": "la-spezia",
+  "sourceYear": 2026,
+  "count": 32,
+  "municipalities": [
+    {
+      "istatCode": "011001",
+      "officialName": "Ameglia",
+      "normalizedName": "ameglia",
+      "aliases": [],
+      "areaKm2": 14.482,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011016",
+        "011027"
+      ],
+      "focusPoint": {
+        "lat": 44.057789,
+        "lng": 9.973058
+      }
+    },
+    {
+      "istatCode": "011002",
+      "officialName": "Arcola",
+      "normalizedName": "arcola",
+      "aliases": [],
+      "areaKm2": 16.385,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011015",
+        "011016",
+        "011027",
+        "011031"
+      ],
+      "focusPoint": {
+        "lat": 44.108802,
+        "lng": 9.910594
+      }
+    },
+    {
+      "istatCode": "011003",
+      "officialName": "Beverino",
+      "normalizedName": "beverino",
+      "aliases": [],
+      "areaKm2": 34.926,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011006",
+        "011008",
+        "011013",
+        "011021",
+        "011023",
+        "011025",
+        "011030"
+      ],
+      "focusPoint": {
+        "lat": 44.187475,
+        "lng": 9.775275
+      }
+    },
+    {
+      "istatCode": "011004",
+      "officialName": "Bolano",
+      "normalizedName": "bolano",
+      "aliases": [],
+      "areaKm2": 14.51,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011013",
+        "011026",
+        "011031"
+      ],
+      "focusPoint": {
+        "lat": 44.184731,
+        "lng": 9.89115
+      }
+    },
+    {
+      "istatCode": "011005",
+      "officialName": "Bonassola",
+      "normalizedName": "bonassola",
+      "aliases": [],
+      "areaKm2": 9.313,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011014",
+        "011017"
+      ],
+      "focusPoint": {
+        "lat": 44.193108,
+        "lng": 9.584128
+      }
+    },
+    {
+      "istatCode": "011006",
+      "officialName": "Borghetto di Vara",
+      "normalizedName": "borghetto di vara",
+      "aliases": [
+        "borghetto",
+        "borghettodivara"
+      ],
+      "areaKm2": 26.962,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011003",
+        "011007",
+        "011010",
+        "011017",
+        "011021",
+        "011025",
+        "011028"
+      ],
+      "focusPoint": {
+        "lat": 44.216909,
+        "lng": 9.700379
+      }
+    },
+    {
+      "istatCode": "011007",
+      "officialName": "Brugnato",
+      "normalizedName": "brugnato",
+      "aliases": [],
+      "areaKm2": 12.171,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011006",
+        "011025",
+        "011028",
+        "011032"
+      ],
+      "focusPoint": {
+        "lat": 44.239729,
+        "lng": 9.727137
+      }
+    },
+    {
+      "istatCode": "011008",
+      "officialName": "Calice al Cornoviglio",
+      "normalizedName": "calice al cornoviglio",
+      "aliases": [
+        "calice",
+        "calice al",
+        "caliceal",
+        "calicealcornoviglio"
+      ],
+      "areaKm2": 33.856,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011003",
+        "011013",
+        "011025"
+      ],
+      "focusPoint": {
+        "lat": 44.237182,
+        "lng": 9.829056
+      }
+    },
+    {
+      "istatCode": "011009",
+      "officialName": "Carro",
+      "normalizedName": "carro",
+      "aliases": [],
+      "areaKm2": 31.58,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011010",
+        "011012",
+        "011018",
+        "011028",
+        "011029"
+      ],
+      "focusPoint": {
+        "lat": 44.280737,
+        "lng": 9.615708
+      }
+    },
+    {
+      "istatCode": "011010",
+      "officialName": "Carrodano",
+      "normalizedName": "carrodano",
+      "aliases": [],
+      "areaKm2": 21.903,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011006",
+        "011009",
+        "011012",
+        "011014",
+        "011017",
+        "011028"
+      ],
+      "focusPoint": {
+        "lat": 44.239978,
+        "lng": 9.634809
+      }
+    },
+    {
+      "istatCode": "011011",
+      "officialName": "Castelnuovo Magra",
+      "normalizedName": "castelnuovo magra",
+      "aliases": [
+        "castelnuovo",
+        "castelnuovomagra"
+      ],
+      "areaKm2": 15.151,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011020",
+        "011027"
+      ],
+      "focusPoint": {
+        "lat": 44.089821,
+        "lng": 10.015704
+      }
+    },
+    {
+      "istatCode": "011012",
+      "officialName": "Deiva Marina",
+      "normalizedName": "deiva marina",
+      "aliases": [
+        "deiva",
+        "deivamarina"
+      ],
+      "areaKm2": 13.981,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011009",
+        "011010",
+        "011014"
+      ],
+      "focusPoint": {
+        "lat": 44.233613,
+        "lng": 9.550149
+      }
+    },
+    {
+      "istatCode": "011013",
+      "officialName": "Follo",
+      "normalizedName": "follo",
+      "aliases": [],
+      "areaKm2": 23.187,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011003",
+        "011004",
+        "011008",
+        "011015",
+        "011023",
+        "011031"
+      ],
+      "focusPoint": {
+        "lat": 44.170268,
+        "lng": 9.841112
+      }
+    },
+    {
+      "istatCode": "011014",
+      "officialName": "Framura",
+      "normalizedName": "framura",
+      "aliases": [],
+      "areaKm2": 19.37,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011005",
+        "011010",
+        "011012",
+        "011017"
+      ],
+      "focusPoint": {
+        "lat": 44.221693,
+        "lng": 9.571142
+      }
+    },
+    {
+      "istatCode": "011015",
+      "officialName": "La Spezia",
+      "normalizedName": "la spezia",
+      "aliases": [
+        "la",
+        "laspezia"
+      ],
+      "areaKm2": 51.835,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011002",
+        "011013",
+        "011016",
+        "011022",
+        "011023",
+        "011024",
+        "011031"
+      ],
+      "focusPoint": {
+        "lat": 44.107723,
+        "lng": 9.801143
+      }
+    },
+    {
+      "istatCode": "011016",
+      "officialName": "Lerici",
+      "normalizedName": "lerici",
+      "aliases": [],
+      "areaKm2": 15.823,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011001",
+        "011002",
+        "011015",
+        "011027"
+      ],
+      "focusPoint": {
+        "lat": 44.073289,
+        "lng": 9.927694
+      }
+    },
+    {
+      "istatCode": "011017",
+      "officialName": "Levanto",
+      "normalizedName": "levanto",
+      "aliases": [],
+      "areaKm2": 36.506,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011005",
+        "011006",
+        "011010",
+        "011014",
+        "011019",
+        "011021"
+      ],
+      "focusPoint": {
+        "lat": 44.178948,
+        "lng": 9.640512
+      }
+    },
+    {
+      "istatCode": "011018",
+      "officialName": "Maissana",
+      "normalizedName": "maissana",
+      "aliases": [],
+      "areaKm2": 45.595,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011009",
+        "011029"
+      ],
+      "focusPoint": {
+        "lat": 44.324778,
+        "lng": 9.534849
+      }
+    },
+    {
+      "istatCode": "011019",
+      "officialName": "Monterosso al Mare",
+      "normalizedName": "monterosso al mare",
+      "aliases": [
+        "monterosso",
+        "monterosso al",
+        "monterossoal",
+        "monterossoalmare"
+      ],
+      "areaKm2": 11.041,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011017",
+        "011021",
+        "011030"
+      ],
+      "focusPoint": {
+        "lat": 44.159118,
+        "lng": 9.659295
+      }
+    },
+    {
+      "istatCode": "011020",
+      "officialName": "Luni",
+      "normalizedName": "luni",
+      "aliases": [],
+      "areaKm2": 13.85,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011011",
+        "011027"
+      ],
+      "focusPoint": {
+        "lat": 44.085856,
+        "lng": 10.047424
+      }
+    },
+    {
+      "istatCode": "011021",
+      "officialName": "Pignone",
+      "normalizedName": "pignone",
+      "aliases": [],
+      "areaKm2": 17.985,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011003",
+        "011006",
+        "011017",
+        "011019",
+        "011030"
+      ],
+      "focusPoint": {
+        "lat": 44.179126,
+        "lng": 9.713538
+      }
+    },
+    {
+      "istatCode": "011022",
+      "officialName": "Portovenere",
+      "normalizedName": "portovenere",
+      "aliases": [],
+      "areaKm2": 7.836,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011015"
+      ],
+      "focusPoint": {
+        "lat": 44.066803,
+        "lng": 9.822766
+      }
+    },
+    {
+      "istatCode": "011023",
+      "officialName": "Riccò del Golfo di Spezia",
+      "normalizedName": "ricco del golfo di spezia",
+      "aliases": [
+        "ricco",
+        "ricco del golfo",
+        "riccodelgolfo",
+        "riccodelgolfodispezia"
+      ],
+      "areaKm2": 37.703,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011003",
+        "011013",
+        "011015",
+        "011024",
+        "011030"
+      ],
+      "focusPoint": {
+        "lat": 44.141312,
+        "lng": 9.76007
+      }
+    },
+    {
+      "istatCode": "011024",
+      "officialName": "Riomaggiore",
+      "normalizedName": "riomaggiore",
+      "aliases": [],
+      "areaKm2": 10.232,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011015",
+        "011023",
+        "011030"
+      ],
+      "focusPoint": {
+        "lat": 44.101036,
+        "lng": 9.748728
+      }
+    },
+    {
+      "istatCode": "011025",
+      "officialName": "Rocchetta di Vara",
+      "normalizedName": "rocchetta di vara",
+      "aliases": [
+        "rocchetta",
+        "rocchettadivara"
+      ],
+      "areaKm2": 32.775,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011003",
+        "011006",
+        "011007",
+        "011008",
+        "011032"
+      ],
+      "focusPoint": {
+        "lat": 44.255272,
+        "lng": 9.777775
+      }
+    },
+    {
+      "istatCode": "011026",
+      "officialName": "Santo Stefano di Magra",
+      "normalizedName": "santo stefano di magra",
+      "aliases": [
+        "santo",
+        "santo stefano",
+        "santostefano",
+        "santostefanodimagra"
+      ],
+      "areaKm2": 14.027,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011004",
+        "011027",
+        "011031"
+      ],
+      "focusPoint": {
+        "lat": 44.151189,
+        "lng": 9.928208
+      }
+    },
+    {
+      "istatCode": "011027",
+      "officialName": "Sarzana",
+      "normalizedName": "sarzana",
+      "aliases": [],
+      "areaKm2": 34.624,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011001",
+        "011002",
+        "011011",
+        "011016",
+        "011020",
+        "011026",
+        "011031"
+      ],
+      "focusPoint": {
+        "lat": 44.10809,
+        "lng": 9.966052
+      }
+    },
+    {
+      "istatCode": "011028",
+      "officialName": "Sesta Godano",
+      "normalizedName": "sesta godano",
+      "aliases": [
+        "sesta",
+        "sestagodano"
+      ],
+      "areaKm2": 68.447,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011006",
+        "011007",
+        "011009",
+        "011010",
+        "011029",
+        "011032"
+      ],
+      "focusPoint": {
+        "lat": 44.302137,
+        "lng": 9.681846
+      }
+    },
+    {
+      "istatCode": "011029",
+      "officialName": "Varese Ligure",
+      "normalizedName": "varese ligure",
+      "aliases": [
+        "varese",
+        "vareseligure"
+      ],
+      "areaKm2": 137.674,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011009",
+        "011018",
+        "011028"
+      ],
+      "focusPoint": {
+        "lat": 44.363644,
+        "lng": 9.62732
+      }
+    },
+    {
+      "istatCode": "011030",
+      "officialName": "Vernazza",
+      "normalizedName": "vernazza",
+      "aliases": [],
+      "areaKm2": 12.391,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011003",
+        "011019",
+        "011021",
+        "011023",
+        "011024"
+      ],
+      "focusPoint": {
+        "lat": 44.139148,
+        "lng": 9.693939
+      }
+    },
+    {
+      "istatCode": "011031",
+      "officialName": "Vezzano Ligure",
+      "normalizedName": "vezzano ligure",
+      "aliases": [
+        "vezzano",
+        "vezzanoligure"
+      ],
+      "areaKm2": 18.238,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "011002",
+        "011004",
+        "011013",
+        "011015",
+        "011026",
+        "011027"
+      ],
+      "focusPoint": {
+        "lat": 44.147006,
+        "lng": 9.875026
+      }
+    },
+    {
+      "istatCode": "011032",
+      "officialName": "Zignago",
+      "normalizedName": "zignago",
+      "aliases": [],
+      "areaKm2": 28.62,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "011007",
+        "011025",
+        "011028"
+      ],
+      "focusPoint": {
+        "lat": 44.288076,
+        "lng": 9.750092
+      }
+    }
+  ]
+}

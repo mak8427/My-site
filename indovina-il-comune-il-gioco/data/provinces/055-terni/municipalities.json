@@ -1,0 +1,727 @@
+{
+  "provinceCode": "055",
+  "label": "Terni",
+  "officialScopeLabel": "Provincia di Terni",
+  "sigla": "TR",
+  "slug": "terni",
+  "sourceYear": 2026,
+  "count": 33,
+  "municipalities": [
+    {
+      "istatCode": "055001",
+      "officialName": "Acquasparta",
+      "normalizedName": "acquasparta",
+      "aliases": [],
+      "areaKm2": 81.559,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055017",
+        "055032",
+        "055033"
+      ],
+      "focusPoint": {
+        "lat": 42.697294,
+        "lng": 12.530032
+      }
+    },
+    {
+      "istatCode": "055002",
+      "officialName": "Allerona",
+      "normalizedName": "allerona",
+      "aliases": [],
+      "areaKm2": 83.001,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055010",
+        "055011",
+        "055013",
+        "055023"
+      ],
+      "focusPoint": {
+        "lat": 42.81712,
+        "lng": 11.969691
+      }
+    },
+    {
+      "istatCode": "055003",
+      "officialName": "Alviano",
+      "normalizedName": "alviano",
+      "aliases": [],
+      "areaKm2": 23.908,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "055004",
+        "055015",
+        "055016"
+      ],
+      "focusPoint": {
+        "lat": 42.592178,
+        "lng": 12.27969
+      }
+    },
+    {
+      "istatCode": "055004",
+      "officialName": "Amelia",
+      "normalizedName": "amelia",
+      "aliases": [],
+      "areaKm2": 132.268,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055003",
+        "055006",
+        "055014",
+        "055015",
+        "055016",
+        "055017",
+        "055022",
+        "055026",
+        "055033"
+      ],
+      "focusPoint": {
+        "lat": 42.559845,
+        "lng": 12.409904
+      }
+    },
+    {
+      "istatCode": "055005",
+      "officialName": "Arrone",
+      "normalizedName": "arrone",
+      "aliases": [],
+      "areaKm2": 41.382,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055012",
+        "055019",
+        "055027",
+        "055032"
+      ],
+      "focusPoint": {
+        "lat": 42.571294,
+        "lng": 12.790068
+      }
+    },
+    {
+      "istatCode": "055006",
+      "officialName": "Attigliano",
+      "normalizedName": "attigliano",
+      "aliases": [],
+      "areaKm2": 10.704,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055004",
+        "055014",
+        "055016"
+      ],
+      "focusPoint": {
+        "lat": 42.523384,
+        "lng": 12.296465
+      }
+    },
+    {
+      "istatCode": "055007",
+      "officialName": "Baschi",
+      "normalizedName": "baschi",
+      "aliases": [],
+      "areaKm2": 68.532,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055018",
+        "055023"
+      ],
+      "focusPoint": {
+        "lat": 42.701993,
+        "lng": 12.297138
+      }
+    },
+    {
+      "istatCode": "055008",
+      "officialName": "Calvi dell'Umbria",
+      "normalizedName": "calvi dell umbria",
+      "aliases": [
+        "calvi",
+        "calvi dell",
+        "calvidell",
+        "calvidellumbria"
+      ],
+      "areaKm2": 45.639,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055022",
+        "055024",
+        "055031"
+      ],
+      "focusPoint": {
+        "lat": 42.401376,
+        "lng": 12.557828
+      }
+    },
+    {
+      "istatCode": "055009",
+      "officialName": "Castel Giorgio",
+      "normalizedName": "castel giorgio",
+      "aliases": [
+        "castelgiorgio"
+      ],
+      "areaKm2": 42.33,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055010",
+        "055023"
+      ],
+      "focusPoint": {
+        "lat": 42.700198,
+        "lng": 11.981913
+      }
+    },
+    {
+      "istatCode": "055010",
+      "officialName": "Castel Viscardo",
+      "normalizedName": "castel viscardo",
+      "aliases": [
+        "castelviscardo"
+      ],
+      "areaKm2": 26.321,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "055002",
+        "055009",
+        "055023"
+      ],
+      "focusPoint": {
+        "lat": 42.760398,
+        "lng": 12.013656
+      }
+    },
+    {
+      "istatCode": "055011",
+      "officialName": "Fabro",
+      "normalizedName": "fabro",
+      "aliases": [],
+      "areaKm2": 34.592,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055002",
+        "055013",
+        "055020",
+        "055021"
+      ],
+      "focusPoint": {
+        "lat": 42.867709,
+        "lng": 12.006115
+      }
+    },
+    {
+      "istatCode": "055012",
+      "officialName": "Ferentillo",
+      "normalizedName": "ferentillo",
+      "aliases": [],
+      "areaKm2": 69.247,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055005",
+        "055019",
+        "055027"
+      ],
+      "focusPoint": {
+        "lat": 42.629485,
+        "lng": 12.815643
+      }
+    },
+    {
+      "istatCode": "055013",
+      "officialName": "Ficulle",
+      "normalizedName": "ficulle",
+      "aliases": [],
+      "areaKm2": 64.079,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "055002",
+        "055011",
+        "055020",
+        "055023",
+        "055025",
+        "055030"
+      ],
+      "focusPoint": {
+        "lat": 42.814567,
+        "lng": 12.081735
+      }
+    },
+    {
+      "istatCode": "055014",
+      "officialName": "Giove",
+      "normalizedName": "giove",
+      "aliases": [],
+      "areaKm2": 15.081,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055004",
+        "055006",
+        "055026"
+      ],
+      "focusPoint": {
+        "lat": 42.508284,
+        "lng": 12.328849
+      }
+    },
+    {
+      "istatCode": "055015",
+      "officialName": "Guardea",
+      "normalizedName": "guardea",
+      "aliases": [],
+      "areaKm2": 39.515,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055003",
+        "055004",
+        "055017",
+        "055018",
+        "055033"
+      ],
+      "focusPoint": {
+        "lat": 42.620441,
+        "lng": 12.291345
+      }
+    },
+    {
+      "istatCode": "055016",
+      "officialName": "Lugnano in Teverina",
+      "normalizedName": "lugnano in teverina",
+      "aliases": [
+        "lugnano",
+        "lugnanointeverina"
+      ],
+      "areaKm2": 29.676,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055003",
+        "055004",
+        "055006"
+      ],
+      "focusPoint": {
+        "lat": 42.574778,
+        "lng": 12.3201
+      }
+    },
+    {
+      "istatCode": "055017",
+      "officialName": "Montecastrilli",
+      "normalizedName": "montecastrilli",
+      "aliases": [],
+      "areaKm2": 62.268,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "055001",
+        "055004",
+        "055015",
+        "055022",
+        "055029",
+        "055032",
+        "055033"
+      ],
+      "focusPoint": {
+        "lat": 42.652332,
+        "lng": 12.492056
+      }
+    },
+    {
+      "istatCode": "055018",
+      "officialName": "Montecchio",
+      "normalizedName": "montecchio",
+      "aliases": [],
+      "areaKm2": 49.094,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055007",
+        "055015",
+        "055023",
+        "055033"
+      ],
+      "focusPoint": {
+        "lat": 42.655635,
+        "lng": 12.291495
+      }
+    },
+    {
+      "istatCode": "055019",
+      "officialName": "Montefranco",
+      "normalizedName": "montefranco",
+      "aliases": [],
+      "areaKm2": 10.113,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "055005",
+        "055012",
+        "055032"
+      ],
+      "focusPoint": {
+        "lat": 42.602556,
+        "lng": 12.751645
+      }
+    },
+    {
+      "istatCode": "055020",
+      "officialName": "Montegabbione",
+      "normalizedName": "montegabbione",
+      "aliases": [],
+      "areaKm2": 50.9,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055011",
+        "055013",
+        "055021",
+        "055025",
+        "055030"
+      ],
+      "focusPoint": {
+        "lat": 42.906547,
+        "lng": 12.120224
+      }
+    },
+    {
+      "istatCode": "055021",
+      "officialName": "Monteleone d'Orvieto",
+      "normalizedName": "monteleone d orvieto",
+      "aliases": [
+        "monteleone",
+        "monteleonedorvieto"
+      ],
+      "areaKm2": 23.816,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055011",
+        "055020"
+      ],
+      "focusPoint": {
+        "lat": 42.909635,
+        "lng": 12.042659
+      }
+    },
+    {
+      "istatCode": "055022",
+      "officialName": "Narni",
+      "normalizedName": "narni",
+      "aliases": [],
+      "areaKm2": 197.806,
+      "baseChips": 132,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055004",
+        "055008",
+        "055017",
+        "055024",
+        "055029",
+        "055031",
+        "055032"
+      ],
+      "focusPoint": {
+        "lat": 42.512576,
+        "lng": 12.532138
+      }
+    },
+    {
+      "istatCode": "055023",
+      "officialName": "Orvieto",
+      "normalizedName": "orvieto",
+      "aliases": [],
+      "areaKm2": 281.048,
+      "baseChips": 124,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055002",
+        "055007",
+        "055009",
+        "055010",
+        "055013",
+        "055018",
+        "055028",
+        "055030"
+      ],
+      "focusPoint": {
+        "lat": 42.722798,
+        "lng": 12.134237
+      }
+    },
+    {
+      "istatCode": "055024",
+      "officialName": "Otricoli",
+      "normalizedName": "otricoli",
+      "aliases": [],
+      "areaKm2": 27.633,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055008",
+        "055022",
+        "055031"
+      ],
+      "focusPoint": {
+        "lat": 42.440195,
+        "lng": 12.55774
+      }
+    },
+    {
+      "istatCode": "055025",
+      "officialName": "Parrano",
+      "normalizedName": "parrano",
+      "aliases": [],
+      "areaKm2": 40.107,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "055013",
+        "055020",
+        "055030"
+      ],
+      "focusPoint": {
+        "lat": 42.857495,
+        "lng": 12.140089
+      }
+    },
+    {
+      "istatCode": "055026",
+      "officialName": "Penna in Teverina",
+      "normalizedName": "penna in teverina",
+      "aliases": [
+        "penna",
+        "pennainteverina"
+      ],
+      "areaKm2": 10.273,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055004",
+        "055014"
+      ],
+      "focusPoint": {
+        "lat": 42.494155,
+        "lng": 12.365006
+      }
+    },
+    {
+      "istatCode": "055027",
+      "officialName": "Polino",
+      "normalizedName": "polino",
+      "aliases": [],
+      "areaKm2": 19.517,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055005",
+        "055012"
+      ],
+      "focusPoint": {
+        "lat": 42.5845,
+        "lng": 12.858117
+      }
+    },
+    {
+      "istatCode": "055028",
+      "officialName": "Porano",
+      "normalizedName": "porano",
+      "aliases": [],
+      "areaKm2": 13.478,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "055023"
+      ],
+      "focusPoint": {
+        "lat": 42.680469,
+        "lng": 12.097061
+      }
+    },
+    {
+      "istatCode": "055029",
+      "officialName": "San Gemini",
+      "normalizedName": "san gemini",
+      "aliases": [
+        "sangemini"
+      ],
+      "areaKm2": 28.049,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "055017",
+        "055022",
+        "055032"
+      ],
+      "focusPoint": {
+        "lat": 42.60468,
+        "lng": 12.531574
+      }
+    },
+    {
+      "istatCode": "055030",
+      "officialName": "San Venanzo",
+      "normalizedName": "san venanzo",
+      "aliases": [
+        "sanvenanzo"
+      ],
+      "areaKm2": 168.799,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055013",
+        "055020",
+        "055023",
+        "055025"
+      ],
+      "focusPoint": {
+        "lat": 42.859723,
+        "lng": 12.255108
+      }
+    },
+    {
+      "istatCode": "055031",
+      "officialName": "Stroncone",
+      "normalizedName": "stroncone",
+      "aliases": [],
+      "areaKm2": 70.876,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055008",
+        "055022",
+        "055024",
+        "055032"
+      ],
+      "focusPoint": {
+        "lat": 42.479571,
+        "lng": 12.668286
+      }
+    },
+    {
+      "istatCode": "055032",
+      "officialName": "Terni",
+      "normalizedName": "terni",
+      "aliases": [],
+      "areaKm2": 211.866,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055001",
+        "055005",
+        "055017",
+        "055019",
+        "055022",
+        "055029",
+        "055031"
+      ],
+      "focusPoint": {
+        "lat": 42.587476,
+        "lng": 12.652873
+      }
+    },
+    {
+      "istatCode": "055033",
+      "officialName": "Avigliano Umbro",
+      "normalizedName": "avigliano umbro",
+      "aliases": [
+        "avigliano",
+        "aviglianoumbro"
+      ],
+      "areaKm2": 51.162,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "055001",
+        "055004",
+        "055015",
+        "055017",
+        "055018"
+      ],
+      "focusPoint": {
+        "lat": 42.664616,
+        "lng": 12.408835
+      }
+    }
+  ]
+}

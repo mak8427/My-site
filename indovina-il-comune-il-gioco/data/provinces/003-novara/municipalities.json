@@ -1,0 +1,2006 @@
+{
+  "provinceCode": "003",
+  "label": "Novara",
+  "officialScopeLabel": "Provincia di Novara",
+  "sigla": "NO",
+  "slug": "novara",
+  "sourceYear": 2026,
+  "count": 87,
+  "municipalities": [
+    {
+      "istatCode": "003001",
+      "officialName": "Agrate Conturbia",
+      "normalizedName": "agrate conturbia",
+      "aliases": [
+        "agrate",
+        "agrateconturbia"
+      ],
+      "areaKm2": 14.551,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003021",
+        "003025",
+        "003060",
+        "003097",
+        "003143",
+        "003166"
+      ],
+      "focusPoint": {
+        "lat": 45.663077,
+        "lng": 8.570219
+      }
+    },
+    {
+      "istatCode": "003002",
+      "officialName": "Ameno",
+      "normalizedName": "ameno",
+      "aliases": [],
+      "areaKm2": 10.139,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003006",
+        "003022",
+        "003051",
+        "003082",
+        "003098",
+        "003112"
+      ],
+      "focusPoint": {
+        "lat": 45.786687,
+        "lng": 8.453604
+      }
+    },
+    {
+      "istatCode": "003006",
+      "officialName": "Armeno",
+      "normalizedName": "armeno",
+      "aliases": [],
+      "areaKm2": 31.31,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003002",
+        "003051",
+        "003093",
+        "003098",
+        "003103",
+        "003116",
+        "003119"
+      ],
+      "focusPoint": {
+        "lat": 45.840555,
+        "lng": 8.462593
+      }
+    },
+    {
+      "istatCode": "003008",
+      "officialName": "Arona",
+      "normalizedName": "arona",
+      "aliases": [],
+      "areaKm2": 15.005,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003052",
+        "003062",
+        "003082",
+        "003095",
+        "003109",
+        "003114"
+      ],
+      "focusPoint": {
+        "lat": 45.754218,
+        "lng": 8.557978
+      }
+    },
+    {
+      "istatCode": "003012",
+      "officialName": "Barengo",
+      "normalizedName": "barengo",
+      "aliases": [],
+      "areaKm2": 19.594,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003027",
+        "003044",
+        "003045",
+        "003065",
+        "003100",
+        "003153"
+      ],
+      "focusPoint": {
+        "lat": 45.574095,
+        "lng": 8.506114
+      }
+    },
+    {
+      "istatCode": "003016",
+      "officialName": "Bellinzago Novarese",
+      "normalizedName": "bellinzago novarese",
+      "aliases": [
+        "bellinzago",
+        "bellinzagonovarese"
+      ],
+      "areaKm2": 39.447,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003030",
+        "003032",
+        "003100",
+        "003108"
+      ],
+      "focusPoint": {
+        "lat": 45.547878,
+        "lng": 8.638064
+      }
+    },
+    {
+      "istatCode": "003018",
+      "officialName": "Biandrate",
+      "normalizedName": "biandrate",
+      "aliases": [],
+      "areaKm2": 12.127,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003037",
+        "003040",
+        "003129",
+        "003134",
+        "003135",
+        "003159"
+      ],
+      "focusPoint": {
+        "lat": 45.446023,
+        "lng": 8.449616
+      }
+    },
+    {
+      "istatCode": "003019",
+      "officialName": "Boca",
+      "normalizedName": "boca",
+      "aliases": [],
+      "areaKm2": 9.582,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003047",
+        "003058",
+        "003079",
+        "003088",
+        "003122"
+      ],
+      "focusPoint": {
+        "lat": 45.679952,
+        "lng": 8.409265
+      }
+    },
+    {
+      "istatCode": "003021",
+      "officialName": "Bogogno",
+      "normalizedName": "bogogno",
+      "aliases": [],
+      "areaKm2": 8.571,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003001",
+        "003024",
+        "003055",
+        "003143",
+        "003166"
+      ],
+      "focusPoint": {
+        "lat": 45.658001,
+        "lng": 8.536526
+      }
+    },
+    {
+      "istatCode": "003022",
+      "officialName": "Bolzano Novarese",
+      "normalizedName": "bolzano novarese",
+      "aliases": [
+        "bolzano",
+        "bolzanonovarese"
+      ],
+      "areaKm2": 3.631,
+      "baseChips": 221,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003002",
+        "003076",
+        "003082",
+        "003112"
+      ],
+      "focusPoint": {
+        "lat": 45.763868,
+        "lng": 8.445498
+      }
+    },
+    {
+      "istatCode": "003023",
+      "officialName": "Borgolavezzaro",
+      "normalizedName": "borgolavezzaro",
+      "aliases": [],
+      "areaKm2": 21.201,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003146",
+        "003158"
+      ],
+      "focusPoint": {
+        "lat": 45.319867,
+        "lng": 8.689832
+      }
+    },
+    {
+      "istatCode": "003024",
+      "officialName": "Borgomanero",
+      "normalizedName": "borgomanero",
+      "aliases": [],
+      "areaKm2": 31.664,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003021",
+        "003026",
+        "003055",
+        "003058",
+        "003066",
+        "003070",
+        "003076",
+        "003082",
+        "003088",
+        "003166"
+      ],
+      "focusPoint": {
+        "lat": 45.698751,
+        "lng": 8.466369
+      }
+    },
+    {
+      "istatCode": "003025",
+      "officialName": "Borgo Ticino",
+      "normalizedName": "borgo ticino",
+      "aliases": [
+        "borgo",
+        "borgoticino"
+      ],
+      "areaKm2": 13.222,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003001",
+        "003043",
+        "003052",
+        "003060",
+        "003154",
+        "003166"
+      ],
+      "focusPoint": {
+        "lat": 45.693271,
+        "lng": 8.601066
+      }
+    },
+    {
+      "istatCode": "003026",
+      "officialName": "Briga Novarese",
+      "normalizedName": "briga novarese",
+      "aliases": [
+        "briga",
+        "briganovarese"
+      ],
+      "areaKm2": 4.839,
+      "baseChips": 214,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003024",
+        "003076",
+        "003082"
+      ],
+      "focusPoint": {
+        "lat": 45.735821,
+        "lng": 8.457529
+      }
+    },
+    {
+      "istatCode": "003027",
+      "officialName": "Briona",
+      "normalizedName": "briona",
+      "aliases": [],
+      "areaKm2": 24.639,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003012",
+        "003030",
+        "003036",
+        "003039",
+        "003042",
+        "003065",
+        "003100",
+        "003135",
+        "003138"
+      ],
+      "focusPoint": {
+        "lat": 45.531948,
+        "lng": 8.498583
+      }
+    },
+    {
+      "istatCode": "003030",
+      "officialName": "Caltignaga",
+      "normalizedName": "caltignaga",
+      "aliases": [],
+      "areaKm2": 22.337,
+      "baseChips": 180,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003016",
+        "003027",
+        "003032",
+        "003100",
+        "003106",
+        "003135"
+      ],
+      "focusPoint": {
+        "lat": 45.525174,
+        "lng": 8.579781
+      }
+    },
+    {
+      "istatCode": "003032",
+      "officialName": "Cameri",
+      "normalizedName": "cameri",
+      "aliases": [],
+      "areaKm2": 40.152,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003016",
+        "003030",
+        "003068",
+        "003106"
+      ],
+      "focusPoint": {
+        "lat": 45.515232,
+        "lng": 8.659515
+      }
+    },
+    {
+      "istatCode": "003036",
+      "officialName": "Carpignano Sesia",
+      "normalizedName": "carpignano sesia",
+      "aliases": [
+        "carpignano",
+        "carpignanosesia"
+      ],
+      "areaKm2": 14.592,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003027",
+        "003065",
+        "003073",
+        "003138",
+        "003139"
+      ],
+      "focusPoint": {
+        "lat": 45.542142,
+        "lng": 8.423922
+      }
+    },
+    {
+      "istatCode": "003037",
+      "officialName": "Casalbeltrame",
+      "normalizedName": "casalbeltrame",
+      "aliases": [],
+      "areaKm2": 16.119,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003018",
+        "003040",
+        "003041",
+        "003134"
+      ],
+      "focusPoint": {
+        "lat": 45.431423,
+        "lng": 8.474978
+      }
+    },
+    {
+      "istatCode": "003039",
+      "officialName": "Casaleggio Novara",
+      "normalizedName": "casaleggio novara",
+      "aliases": [
+        "casaleggio",
+        "casaleggionovara"
+      ],
+      "areaKm2": 10.266,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003027",
+        "003042",
+        "003090",
+        "003135",
+        "003159"
+      ],
+      "focusPoint": {
+        "lat": 45.484733,
+        "lng": 8.498106
+      }
+    },
+    {
+      "istatCode": "003040",
+      "officialName": "Casalino",
+      "normalizedName": "casalino",
+      "aliases": [],
+      "areaKm2": 39.265,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003018",
+        "003037",
+        "003041",
+        "003077",
+        "003106",
+        "003135",
+        "003164"
+      ],
+      "focusPoint": {
+        "lat": 45.385261,
+        "lng": 8.526102
+      }
+    },
+    {
+      "istatCode": "003041",
+      "officialName": "Casalvolone",
+      "normalizedName": "casalvolone",
+      "aliases": [],
+      "areaKm2": 17.454,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003037",
+        "003040",
+        "003134"
+      ],
+      "focusPoint": {
+        "lat": 45.403326,
+        "lng": 8.471083
+      }
+    },
+    {
+      "istatCode": "003042",
+      "officialName": "Castellazzo Novarese",
+      "normalizedName": "castellazzo novarese",
+      "aliases": [
+        "castellazzo",
+        "castellazzonovarese"
+      ],
+      "areaKm2": 11.145,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003027",
+        "003039",
+        "003090",
+        "003138"
+      ],
+      "focusPoint": {
+        "lat": 45.509477,
+        "lng": 8.49895
+      }
+    },
+    {
+      "istatCode": "003043",
+      "officialName": "Castelletto sopra Ticino",
+      "normalizedName": "castelletto sopra ticino",
+      "aliases": [
+        "castelletto",
+        "castelletto sopra",
+        "castellettosopra",
+        "castellettosopraticino"
+      ],
+      "areaKm2": 14.866,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003025",
+        "003052",
+        "003062",
+        "003154"
+      ],
+      "focusPoint": {
+        "lat": 45.699155,
+        "lng": 8.634252
+      }
+    },
+    {
+      "istatCode": "003044",
+      "officialName": "Cavaglietto",
+      "normalizedName": "cavaglietto",
+      "aliases": [],
+      "areaKm2": 6.45,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003012",
+        "003045",
+        "003066",
+        "003143",
+        "003153"
+      ],
+      "focusPoint": {
+        "lat": 45.598212,
+        "lng": 8.499385
+      }
+    },
+    {
+      "istatCode": "003045",
+      "officialName": "Cavaglio d'Agogna",
+      "normalizedName": "cavaglio d agogna",
+      "aliases": [
+        "cavaglio",
+        "cavagliodagogna"
+      ],
+      "areaKm2": 9.931,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003012",
+        "003044",
+        "003065",
+        "003066",
+        "003073",
+        "003139"
+      ],
+      "focusPoint": {
+        "lat": 45.609809,
+        "lng": 8.476449
+      }
+    },
+    {
+      "istatCode": "003047",
+      "officialName": "Cavallirio",
+      "normalizedName": "cavallirio",
+      "aliases": [],
+      "areaKm2": 8.276,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003019",
+        "003058",
+        "003066",
+        "003122",
+        "003130"
+      ],
+      "focusPoint": {
+        "lat": 45.666936,
+        "lng": 8.398387
+      }
+    },
+    {
+      "istatCode": "003049",
+      "officialName": "Cerano",
+      "normalizedName": "cerano",
+      "aliases": [],
+      "areaKm2": 33.014,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003141",
+        "003149"
+      ],
+      "focusPoint": {
+        "lat": 45.404526,
+        "lng": 8.791866
+      }
+    },
+    {
+      "istatCode": "003051",
+      "officialName": "Colazza",
+      "normalizedName": "colazza",
+      "aliases": [],
+      "areaKm2": 2.977,
+      "baseChips": 225,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003002",
+        "003006",
+        "003082",
+        "003095",
+        "003119"
+      ],
+      "focusPoint": {
+        "lat": 45.790653,
+        "lng": 8.491797
+      }
+    },
+    {
+      "istatCode": "003052",
+      "officialName": "Comignago",
+      "normalizedName": "comignago",
+      "aliases": [],
+      "areaKm2": 4.352,
+      "baseChips": 217,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003008",
+        "003025",
+        "003043",
+        "003062",
+        "003109",
+        "003166"
+      ],
+      "focusPoint": {
+        "lat": 45.714712,
+        "lng": 8.560541
+      }
+    },
+    {
+      "istatCode": "003055",
+      "officialName": "Cressa",
+      "normalizedName": "cressa",
+      "aliases": [],
+      "areaKm2": 7.199,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003021",
+        "003024",
+        "003066",
+        "003143"
+      ],
+      "focusPoint": {
+        "lat": 45.650841,
+        "lng": 8.508429
+      }
+    },
+    {
+      "istatCode": "003058",
+      "officialName": "Cureggio",
+      "normalizedName": "cureggio",
+      "aliases": [],
+      "areaKm2": 8.432,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003019",
+        "003024",
+        "003047",
+        "003066",
+        "003088"
+      ],
+      "focusPoint": {
+        "lat": 45.669275,
+        "lng": 8.459
+      }
+    },
+    {
+      "istatCode": "003060",
+      "officialName": "Divignano",
+      "normalizedName": "divignano",
+      "aliases": [],
+      "areaKm2": 5.009,
+      "baseChips": 214,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003001",
+        "003025",
+        "003091",
+        "003097",
+        "003121",
+        "003154"
+      ],
+      "focusPoint": {
+        "lat": 45.661661,
+        "lng": 8.597745
+      }
+    },
+    {
+      "istatCode": "003062",
+      "officialName": "Dormelletto",
+      "normalizedName": "dormelletto",
+      "aliases": [],
+      "areaKm2": 7.189,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003008",
+        "003043",
+        "003052"
+      ],
+      "focusPoint": {
+        "lat": 45.733,
+        "lng": 8.573844
+      }
+    },
+    {
+      "istatCode": "003065",
+      "officialName": "Fara Novarese",
+      "normalizedName": "fara novarese",
+      "aliases": [
+        "fara",
+        "faranovarese"
+      ],
+      "areaKm2": 9.137,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003012",
+        "003027",
+        "003036",
+        "003045",
+        "003139"
+      ],
+      "focusPoint": {
+        "lat": 45.554894,
+        "lng": 8.453066
+      }
+    },
+    {
+      "istatCode": "003066",
+      "officialName": "Fontaneto d'Agogna",
+      "normalizedName": "fontaneto d agogna",
+      "aliases": [
+        "fontaneto",
+        "fontanetodagogna"
+      ],
+      "areaKm2": 21.316,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003024",
+        "003044",
+        "003045",
+        "003047",
+        "003055",
+        "003058",
+        "003073",
+        "003130",
+        "003143"
+      ],
+      "focusPoint": {
+        "lat": 45.639097,
+        "lng": 8.465019
+      }
+    },
+    {
+      "istatCode": "003068",
+      "officialName": "Galliate",
+      "normalizedName": "galliate",
+      "aliases": [],
+      "areaKm2": 29.247,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003032",
+        "003106",
+        "003131"
+      ],
+      "focusPoint": {
+        "lat": 45.48771,
+        "lng": 8.719241
+      }
+    },
+    {
+      "istatCode": "003069",
+      "officialName": "Garbagna Novarese",
+      "normalizedName": "garbagna novarese",
+      "aliases": [
+        "garbagna",
+        "garbagnanovarese"
+      ],
+      "areaKm2": 10.06,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003104",
+        "003106",
+        "003141",
+        "003144",
+        "003149"
+      ],
+      "focusPoint": {
+        "lat": 45.393312,
+        "lng": 8.661148
+      }
+    },
+    {
+      "istatCode": "003070",
+      "officialName": "Gargallo",
+      "normalizedName": "gargallo",
+      "aliases": [],
+      "areaKm2": 3.835,
+      "baseChips": 220,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003024",
+        "003076",
+        "003088",
+        "003140"
+      ],
+      "focusPoint": {
+        "lat": 45.728341,
+        "lng": 8.421893
+      }
+    },
+    {
+      "istatCode": "003073",
+      "officialName": "Ghemme",
+      "normalizedName": "ghemme",
+      "aliases": [],
+      "areaKm2": 20.374,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003036",
+        "003045",
+        "003066",
+        "003130",
+        "003139"
+      ],
+      "focusPoint": {
+        "lat": 45.601333,
+        "lng": 8.432804
+      }
+    },
+    {
+      "istatCode": "003076",
+      "officialName": "Gozzano",
+      "normalizedName": "gozzano",
+      "aliases": [],
+      "areaKm2": 12.222,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003022",
+        "003024",
+        "003026",
+        "003070",
+        "003082",
+        "003112",
+        "003120",
+        "003133",
+        "003140"
+      ],
+      "focusPoint": {
+        "lat": 45.744217,
+        "lng": 8.433272
+      }
+    },
+    {
+      "istatCode": "003077",
+      "officialName": "Granozzo con Monticello",
+      "normalizedName": "granozzo con monticello",
+      "aliases": [
+        "granozzo",
+        "granozzo con",
+        "granozzocon",
+        "granozzoconmonticello"
+      ],
+      "areaKm2": 19.159,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003040",
+        "003104",
+        "003106",
+        "003158"
+      ],
+      "focusPoint": {
+        "lat": 45.374038,
+        "lng": 8.587699
+      }
+    },
+    {
+      "istatCode": "003079",
+      "officialName": "Grignasco",
+      "normalizedName": "grignasco",
+      "aliases": [],
+      "areaKm2": 14.354,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003019",
+        "003122"
+      ],
+      "focusPoint": {
+        "lat": 45.68207,
+        "lng": 8.344704
+      }
+    },
+    {
+      "istatCode": "003082",
+      "officialName": "Invorio",
+      "normalizedName": "invorio",
+      "aliases": [],
+      "areaKm2": 17.397,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003002",
+        "003008",
+        "003022",
+        "003024",
+        "003026",
+        "003051",
+        "003076",
+        "003095",
+        "003114",
+        "003166"
+      ],
+      "focusPoint": {
+        "lat": 45.755244,
+        "lng": 8.48397
+      }
+    },
+    {
+      "istatCode": "003083",
+      "officialName": "Landiona",
+      "normalizedName": "landiona",
+      "aliases": [],
+      "areaKm2": 7.259,
+      "baseChips": 205,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003090",
+        "003138",
+        "003159"
+      ],
+      "focusPoint": {
+        "lat": 45.49856,
+        "lng": 8.420854
+      }
+    },
+    {
+      "istatCode": "003084",
+      "officialName": "Lesa",
+      "normalizedName": "lesa",
+      "aliases": [],
+      "areaKm2": 13.428,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003093",
+        "003095",
+        "003103"
+      ],
+      "focusPoint": {
+        "lat": 45.825408,
+        "lng": 8.569233
+      }
+    },
+    {
+      "istatCode": "003088",
+      "officialName": "Maggiora",
+      "normalizedName": "maggiora",
+      "aliases": [],
+      "areaKm2": 10.943,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003019",
+        "003024",
+        "003058",
+        "003070"
+      ],
+      "focusPoint": {
+        "lat": 45.696486,
+        "lng": 8.417187
+      }
+    },
+    {
+      "istatCode": "003090",
+      "officialName": "Mandello Vitta",
+      "normalizedName": "mandello vitta",
+      "aliases": [
+        "mandello",
+        "mandellovitta"
+      ],
+      "areaKm2": 5.801,
+      "baseChips": 210,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003039",
+        "003042",
+        "003083",
+        "003138",
+        "003159"
+      ],
+      "focusPoint": {
+        "lat": 45.502401,
+        "lng": 8.461377
+      }
+    },
+    {
+      "istatCode": "003091",
+      "officialName": "Marano Ticino",
+      "normalizedName": "marano ticino",
+      "aliases": [
+        "marano",
+        "maranoticino"
+      ],
+      "areaKm2": 8.107,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003060",
+        "003097",
+        "003108",
+        "003121"
+      ],
+      "focusPoint": {
+        "lat": 45.631313,
+        "lng": 8.63314
+      }
+    },
+    {
+      "istatCode": "003093",
+      "officialName": "Massino Visconti",
+      "normalizedName": "massino visconti",
+      "aliases": [
+        "massino",
+        "massinovisconti"
+      ],
+      "areaKm2": 6.874,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003006",
+        "003084",
+        "003103"
+      ],
+      "focusPoint": {
+        "lat": 45.823605,
+        "lng": 8.530512
+      }
+    },
+    {
+      "istatCode": "003095",
+      "officialName": "Meina",
+      "normalizedName": "meina",
+      "aliases": [],
+      "areaKm2": 7.569,
+      "baseChips": 205,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003008",
+        "003051",
+        "003082",
+        "003084",
+        "003103",
+        "003119"
+      ],
+      "focusPoint": {
+        "lat": 45.78712,
+        "lng": 8.536386
+      }
+    },
+    {
+      "istatCode": "003097",
+      "officialName": "Mezzomerico",
+      "normalizedName": "mezzomerico",
+      "aliases": [],
+      "areaKm2": 7.604,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003001",
+        "003060",
+        "003091",
+        "003108",
+        "003143",
+        "003153"
+      ],
+      "focusPoint": {
+        "lat": 45.621352,
+        "lng": 8.605089
+      }
+    },
+    {
+      "istatCode": "003098",
+      "officialName": "Miasino",
+      "normalizedName": "miasino",
+      "aliases": [],
+      "areaKm2": 5.463,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003002",
+        "003006",
+        "003112",
+        "003115",
+        "003116"
+      ],
+      "focusPoint": {
+        "lat": 45.808819,
+        "lng": 8.432812
+      }
+    },
+    {
+      "istatCode": "003100",
+      "officialName": "Momo",
+      "normalizedName": "momo",
+      "aliases": [],
+      "areaKm2": 23.288,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003012",
+        "003016",
+        "003027",
+        "003030",
+        "003108",
+        "003153"
+      ],
+      "focusPoint": {
+        "lat": 45.574108,
+        "lng": 8.564501
+      }
+    },
+    {
+      "istatCode": "003103",
+      "officialName": "Nebbiuno",
+      "normalizedName": "nebbiuno",
+      "aliases": [],
+      "areaKm2": 8.279,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003006",
+        "003084",
+        "003093",
+        "003095",
+        "003119"
+      ],
+      "focusPoint": {
+        "lat": 45.807088,
+        "lng": 8.514903
+      }
+    },
+    {
+      "istatCode": "003104",
+      "officialName": "Nibbiola",
+      "normalizedName": "nibbiola",
+      "aliases": [],
+      "areaKm2": 11.603,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003069",
+        "003077",
+        "003106",
+        "003144",
+        "003158"
+      ],
+      "focusPoint": {
+        "lat": 45.369931,
+        "lng": 8.650021
+      }
+    },
+    {
+      "istatCode": "003106",
+      "officialName": "Novara",
+      "normalizedName": "novara",
+      "aliases": [],
+      "areaKm2": 102.98,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003030",
+        "003032",
+        "003040",
+        "003068",
+        "003069",
+        "003077",
+        "003104",
+        "003131",
+        "003135",
+        "003149"
+      ],
+      "focusPoint": {
+        "lat": 45.443109,
+        "lng": 8.63508
+      }
+    },
+    {
+      "istatCode": "003108",
+      "officialName": "Oleggio",
+      "normalizedName": "oleggio",
+      "aliases": [],
+      "areaKm2": 37.588,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003016",
+        "003091",
+        "003097",
+        "003100",
+        "003153"
+      ],
+      "focusPoint": {
+        "lat": 45.593582,
+        "lng": 8.644939
+      }
+    },
+    {
+      "istatCode": "003109",
+      "officialName": "Oleggio Castello",
+      "normalizedName": "oleggio castello",
+      "aliases": [
+        "oleggio",
+        "oleggiocastello"
+      ],
+      "areaKm2": 6.136,
+      "baseChips": 209,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003008",
+        "003052",
+        "003114",
+        "003166"
+      ],
+      "focusPoint": {
+        "lat": 45.751339,
+        "lng": 8.530512
+      }
+    },
+    {
+      "istatCode": "003112",
+      "officialName": "Orta San Giulio",
+      "normalizedName": "orta san giulio",
+      "aliases": [
+        "orta",
+        "orta san",
+        "ortasan",
+        "ortasangiulio"
+      ],
+      "areaKm2": 6.651,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003002",
+        "003022",
+        "003076",
+        "003098",
+        "003115",
+        "003133"
+      ],
+      "focusPoint": {
+        "lat": 45.787572,
+        "lng": 8.41879
+      }
+    },
+    {
+      "istatCode": "003114",
+      "officialName": "Paruzzaro",
+      "normalizedName": "paruzzaro",
+      "aliases": [],
+      "areaKm2": 5.449,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003008",
+        "003082",
+        "003109",
+        "003166"
+      ],
+      "focusPoint": {
+        "lat": 45.749762,
+        "lng": 8.513637
+      }
+    },
+    {
+      "istatCode": "003115",
+      "officialName": "Pella",
+      "normalizedName": "pella",
+      "aliases": [],
+      "areaKm2": 7.941,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003098",
+        "003112",
+        "003116",
+        "003133"
+      ],
+      "focusPoint": {
+        "lat": 45.810038,
+        "lng": 8.391773
+      }
+    },
+    {
+      "istatCode": "003116",
+      "officialName": "Pettenasco",
+      "normalizedName": "pettenasco",
+      "aliases": [],
+      "areaKm2": 7.105,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003006",
+        "003098",
+        "003115"
+      ],
+      "focusPoint": {
+        "lat": 45.830823,
+        "lng": 8.399292
+      }
+    },
+    {
+      "istatCode": "003119",
+      "officialName": "Pisano",
+      "normalizedName": "pisano",
+      "aliases": [],
+      "areaKm2": 2.812,
+      "baseChips": 227,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003006",
+        "003051",
+        "003095",
+        "003103"
+      ],
+      "focusPoint": {
+        "lat": 45.790588,
+        "lng": 8.510186
+      }
+    },
+    {
+      "istatCode": "003120",
+      "officialName": "Pogno",
+      "normalizedName": "pogno",
+      "aliases": [],
+      "areaKm2": 9.929,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003076",
+        "003133",
+        "003140"
+      ],
+      "focusPoint": {
+        "lat": 45.757128,
+        "lng": 8.3764
+      }
+    },
+    {
+      "istatCode": "003121",
+      "officialName": "Pombia",
+      "normalizedName": "pombia",
+      "aliases": [],
+      "areaKm2": 12.357,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003060",
+        "003091",
+        "003154"
+      ],
+      "focusPoint": {
+        "lat": 45.64879,
+        "lng": 8.64658
+      }
+    },
+    {
+      "istatCode": "003122",
+      "officialName": "Prato Sesia",
+      "normalizedName": "prato sesia",
+      "aliases": [
+        "prato",
+        "pratosesia"
+      ],
+      "areaKm2": 12.383,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003019",
+        "003047",
+        "003079",
+        "003130"
+      ],
+      "focusPoint": {
+        "lat": 45.664696,
+        "lng": 8.364293
+      }
+    },
+    {
+      "istatCode": "003129",
+      "officialName": "Recetto",
+      "normalizedName": "recetto",
+      "aliases": [],
+      "areaKm2": 8.841,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003018",
+        "003134",
+        "003159"
+      ],
+      "focusPoint": {
+        "lat": 45.456653,
+        "lng": 8.425569
+      }
+    },
+    {
+      "istatCode": "003130",
+      "officialName": "Romagnano Sesia",
+      "normalizedName": "romagnano sesia",
+      "aliases": [
+        "romagnano",
+        "romagnanosesia"
+      ],
+      "areaKm2": 18.009,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003047",
+        "003066",
+        "003073",
+        "003122"
+      ],
+      "focusPoint": {
+        "lat": 45.625561,
+        "lng": 8.404541
+      }
+    },
+    {
+      "istatCode": "003131",
+      "officialName": "Romentino",
+      "normalizedName": "romentino",
+      "aliases": [],
+      "areaKm2": 17.662,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003068",
+        "003106",
+        "003149"
+      ],
+      "focusPoint": {
+        "lat": 45.462436,
+        "lng": 8.746235
+      }
+    },
+    {
+      "istatCode": "003133",
+      "officialName": "San Maurizio d'Opaglio",
+      "normalizedName": "san maurizio d opaglio",
+      "aliases": [
+        "san maurizio",
+        "sanmaurizio",
+        "sanmauriziodopaglio"
+      ],
+      "areaKm2": 8.658,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003076",
+        "003112",
+        "003115",
+        "003120"
+      ],
+      "focusPoint": {
+        "lat": 45.779409,
+        "lng": 8.388877
+      }
+    },
+    {
+      "istatCode": "003134",
+      "officialName": "San Nazzaro Sesia",
+      "normalizedName": "san nazzaro sesia",
+      "aliases": [
+        "san nazzaro",
+        "sannazzaro",
+        "sannazzarosesia"
+      ],
+      "areaKm2": 11.449,
+      "baseChips": 195,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003018",
+        "003037",
+        "003041",
+        "003129"
+      ],
+      "focusPoint": {
+        "lat": 45.421891,
+        "lng": 8.420857
+      }
+    },
+    {
+      "istatCode": "003135",
+      "officialName": "San Pietro Mosezzo",
+      "normalizedName": "san pietro mosezzo",
+      "aliases": [
+        "san pietro",
+        "sanpietro",
+        "sanpietromosezzo"
+      ],
+      "areaKm2": 35.181,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003018",
+        "003027",
+        "003030",
+        "003039",
+        "003040",
+        "003106",
+        "003159"
+      ],
+      "focusPoint": {
+        "lat": 45.464115,
+        "lng": 8.537266
+      }
+    },
+    {
+      "istatCode": "003138",
+      "officialName": "Sillavengo",
+      "normalizedName": "sillavengo",
+      "aliases": [],
+      "areaKm2": 9.769,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003027",
+        "003036",
+        "003042",
+        "003083",
+        "003090"
+      ],
+      "focusPoint": {
+        "lat": 45.518473,
+        "lng": 8.43887
+      }
+    },
+    {
+      "istatCode": "003139",
+      "officialName": "Sizzano",
+      "normalizedName": "sizzano",
+      "aliases": [],
+      "areaKm2": 10.861,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003036",
+        "003045",
+        "003065",
+        "003073"
+      ],
+      "focusPoint": {
+        "lat": 45.579007,
+        "lng": 8.446535
+      }
+    },
+    {
+      "istatCode": "003140",
+      "officialName": "Soriso",
+      "normalizedName": "soriso",
+      "aliases": [],
+      "areaKm2": 6.43,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003070",
+        "003076",
+        "003120"
+      ],
+      "focusPoint": {
+        "lat": 45.736905,
+        "lng": 8.398779
+      }
+    },
+    {
+      "istatCode": "003141",
+      "officialName": "Sozzago",
+      "normalizedName": "sozzago",
+      "aliases": [],
+      "areaKm2": 12.87,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003049",
+        "003069",
+        "003144",
+        "003149"
+      ],
+      "focusPoint": {
+        "lat": 45.394108,
+        "lng": 8.724195
+      }
+    },
+    {
+      "istatCode": "003143",
+      "officialName": "Suno",
+      "normalizedName": "suno",
+      "aliases": [],
+      "areaKm2": 21.403,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003001",
+        "003021",
+        "003044",
+        "003055",
+        "003066",
+        "003097",
+        "003153"
+      ],
+      "focusPoint": {
+        "lat": 45.626307,
+        "lng": 8.546326
+      }
+    },
+    {
+      "istatCode": "003144",
+      "officialName": "Terdobbiate",
+      "normalizedName": "terdobbiate",
+      "aliases": [],
+      "areaKm2": 8.576,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003069",
+        "003104",
+        "003141",
+        "003146",
+        "003158"
+      ],
+      "focusPoint": {
+        "lat": 45.373742,
+        "lng": 8.695112
+      }
+    },
+    {
+      "istatCode": "003146",
+      "officialName": "Tornaco",
+      "normalizedName": "tornaco",
+      "aliases": [],
+      "areaKm2": 12.982,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003023",
+        "003144",
+        "003158"
+      ],
+      "focusPoint": {
+        "lat": 45.353472,
+        "lng": 8.727345
+      }
+    },
+    {
+      "istatCode": "003149",
+      "officialName": "Trecate",
+      "normalizedName": "trecate",
+      "aliases": [],
+      "areaKm2": 38.414,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003049",
+        "003069",
+        "003106",
+        "003131",
+        "003141"
+      ],
+      "focusPoint": {
+        "lat": 45.42992,
+        "lng": 8.744454
+      }
+    },
+    {
+      "istatCode": "003153",
+      "officialName": "Vaprio d'Agogna",
+      "normalizedName": "vaprio d agogna",
+      "aliases": [
+        "vaprio",
+        "vapriodagogna"
+      ],
+      "areaKm2": 10.181,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003012",
+        "003044",
+        "003097",
+        "003100",
+        "003108",
+        "003143"
+      ],
+      "focusPoint": {
+        "lat": 45.602386,
+        "lng": 8.55419
+      }
+    },
+    {
+      "istatCode": "003154",
+      "officialName": "Varallo Pombia",
+      "normalizedName": "varallo pombia",
+      "aliases": [
+        "varallo",
+        "varallopombia"
+      ],
+      "areaKm2": 13.617,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003025",
+        "003043",
+        "003060",
+        "003121"
+      ],
+      "focusPoint": {
+        "lat": 45.667458,
+        "lng": 8.641829
+      }
+    },
+    {
+      "istatCode": "003158",
+      "officialName": "Vespolate",
+      "normalizedName": "vespolate",
+      "aliases": [],
+      "areaKm2": 17.762,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003023",
+        "003077",
+        "003104",
+        "003144",
+        "003146"
+      ],
+      "focusPoint": {
+        "lat": 45.347742,
+        "lng": 8.666008
+      }
+    },
+    {
+      "istatCode": "003159",
+      "officialName": "Vicolungo",
+      "normalizedName": "vicolungo",
+      "aliases": [],
+      "areaKm2": 13.362,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003018",
+        "003039",
+        "003083",
+        "003090",
+        "003129",
+        "003135"
+      ],
+      "focusPoint": {
+        "lat": 45.476167,
+        "lng": 8.447464
+      }
+    },
+    {
+      "istatCode": "003164",
+      "officialName": "Vinzaglio",
+      "normalizedName": "vinzaglio",
+      "aliases": [],
+      "areaKm2": 15.595,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "003040"
+      ],
+      "focusPoint": {
+        "lat": 45.333189,
+        "lng": 8.497941
+      }
+    },
+    {
+      "istatCode": "003166",
+      "officialName": "Gattico-Veruno",
+      "normalizedName": "gattico veruno",
+      "aliases": [
+        "gattico",
+        "gatticoveruno"
+      ],
+      "areaKm2": 26.36,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "003001",
+        "003021",
+        "003024",
+        "003025",
+        "003052",
+        "003082",
+        "003109",
+        "003114"
+      ],
+      "focusPoint": {
+        "lat": 45.705087,
+        "lng": 8.525142
+      }
+    }
+  ]
+}

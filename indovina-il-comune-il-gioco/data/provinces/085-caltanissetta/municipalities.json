@@ -1,0 +1,473 @@
+{
+  "provinceCode": "085",
+  "label": "Caltanissetta",
+  "officialScopeLabel": "Provincia di Caltanissetta",
+  "sigla": "CL",
+  "slug": "caltanissetta",
+  "sourceYear": 2026,
+  "count": 22,
+  "municipalities": [
+    {
+      "istatCode": "085001",
+      "officialName": "Acquaviva Platani",
+      "normalizedName": "acquaviva platani",
+      "aliases": [
+        "acquaviva",
+        "acquavivaplatani"
+      ],
+      "areaKm2": 14.825,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085012",
+        "085020"
+      ],
+      "focusPoint": {
+        "lat": 37.565877,
+        "lng": 13.6938
+      }
+    },
+    {
+      "istatCode": "085002",
+      "officialName": "Bompensiere",
+      "normalizedName": "bompensiere",
+      "aliases": [],
+      "areaKm2": 19.976,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085010",
+        "085011",
+        "085012",
+        "085020"
+      ],
+      "focusPoint": {
+        "lat": 37.468986,
+        "lng": 13.790585
+      }
+    },
+    {
+      "istatCode": "085003",
+      "officialName": "Butera",
+      "normalizedName": "butera",
+      "aliases": [],
+      "areaKm2": 297.0,
+      "baseChips": 123,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085007",
+        "085009",
+        "085015"
+      ],
+      "focusPoint": {
+        "lat": 37.196569,
+        "lng": 14.126916
+      }
+    },
+    {
+      "istatCode": "085004",
+      "officialName": "Caltanissetta",
+      "normalizedName": "caltanissetta",
+      "aliases": [],
+      "areaKm2": 418.449,
+      "baseChips": 115,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085006",
+        "085008",
+        "085009",
+        "085012",
+        "085016",
+        "085017",
+        "085018",
+        "085019"
+      ],
+      "focusPoint": {
+        "lat": 37.464905,
+        "lng": 14.012593
+      }
+    },
+    {
+      "istatCode": "085005",
+      "officialName": "Campofranco",
+      "normalizedName": "campofranco",
+      "aliases": [],
+      "areaKm2": 36.302,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085010",
+        "085020"
+      ],
+      "focusPoint": {
+        "lat": 37.488493,
+        "lng": 13.697709
+      }
+    },
+    {
+      "istatCode": "085006",
+      "officialName": "Delia",
+      "normalizedName": "delia",
+      "aliases": [],
+      "areaKm2": 12.28,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085004"
+      ],
+      "focusPoint": {
+        "lat": 37.354647,
+        "lng": 13.916456
+      }
+    },
+    {
+      "istatCode": "085007",
+      "officialName": "Gela",
+      "normalizedName": "gela",
+      "aliases": [],
+      "areaKm2": 277.386,
+      "baseChips": 124,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085003",
+        "085009",
+        "085013"
+      ],
+      "focusPoint": {
+        "lat": 37.088736,
+        "lng": 14.27636
+      }
+    },
+    {
+      "istatCode": "085008",
+      "officialName": "Marianopoli",
+      "normalizedName": "marianopoli",
+      "aliases": [],
+      "areaKm2": 13.189,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085004",
+        "085012",
+        "085022"
+      ],
+      "focusPoint": {
+        "lat": 37.601154,
+        "lng": 13.900373
+      }
+    },
+    {
+      "istatCode": "085009",
+      "officialName": "Mazzarino",
+      "normalizedName": "mazzarino",
+      "aliases": [],
+      "areaKm2": 295.16,
+      "baseChips": 123,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085003",
+        "085004",
+        "085007",
+        "085013",
+        "085015",
+        "085019"
+      ],
+      "focusPoint": {
+        "lat": 37.255889,
+        "lng": 14.305029
+      }
+    },
+    {
+      "istatCode": "085010",
+      "officialName": "Milena",
+      "normalizedName": "milena",
+      "aliases": [],
+      "areaKm2": 24.558,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085002",
+        "085005",
+        "085020"
+      ],
+      "focusPoint": {
+        "lat": 37.457179,
+        "lng": 13.743167
+      }
+    },
+    {
+      "istatCode": "085011",
+      "officialName": "Montedoro",
+      "normalizedName": "montedoro",
+      "aliases": [],
+      "areaKm2": 14.197,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "085002",
+        "085012",
+        "085018"
+      ],
+      "focusPoint": {
+        "lat": 37.456214,
+        "lng": 13.823704
+      }
+    },
+    {
+      "istatCode": "085012",
+      "officialName": "Mussomeli",
+      "normalizedName": "mussomeli",
+      "aliases": [],
+      "areaKm2": 163.367,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085001",
+        "085002",
+        "085004",
+        "085008",
+        "085011",
+        "085016",
+        "085018",
+        "085020",
+        "085022"
+      ],
+      "focusPoint": {
+        "lat": 37.550913,
+        "lng": 13.820231
+      }
+    },
+    {
+      "istatCode": "085013",
+      "officialName": "Niscemi",
+      "normalizedName": "niscemi",
+      "aliases": [],
+      "areaKm2": 96.712,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085007",
+        "085009"
+      ],
+      "focusPoint": {
+        "lat": 37.146415,
+        "lng": 14.412707
+      }
+    },
+    {
+      "istatCode": "085014",
+      "officialName": "Resuttano",
+      "normalizedName": "resuttano",
+      "aliases": [],
+      "areaKm2": 38.377,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085017"
+      ],
+      "focusPoint": {
+        "lat": 37.637488,
+        "lng": 14.060995
+      }
+    },
+    {
+      "istatCode": "085015",
+      "officialName": "Riesi",
+      "normalizedName": "riesi",
+      "aliases": [],
+      "areaKm2": 65.805,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085003",
+        "085009",
+        "085019"
+      ],
+      "focusPoint": {
+        "lat": 37.298263,
+        "lng": 14.089711
+      }
+    },
+    {
+      "istatCode": "085016",
+      "officialName": "San Cataldo",
+      "normalizedName": "san cataldo",
+      "aliases": [
+        "san",
+        "sancataldo"
+      ],
+      "areaKm2": 72.811,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "085004",
+        "085012",
+        "085018"
+      ],
+      "focusPoint": {
+        "lat": 37.511644,
+        "lng": 13.928086
+      }
+    },
+    {
+      "istatCode": "085017",
+      "officialName": "Santa Caterina Villarmosa",
+      "normalizedName": "santa caterina villarmosa",
+      "aliases": [
+        "santa",
+        "santa caterina",
+        "santacaterina",
+        "santacaterinavillarmosa"
+      ],
+      "areaKm2": 75.712,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085004",
+        "085014"
+      ],
+      "focusPoint": {
+        "lat": 37.58291,
+        "lng": 14.121917
+      }
+    },
+    {
+      "istatCode": "085018",
+      "officialName": "Serradifalco",
+      "normalizedName": "serradifalco",
+      "aliases": [],
+      "areaKm2": 42.014,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085004",
+        "085011",
+        "085012",
+        "085016"
+      ],
+      "focusPoint": {
+        "lat": 37.444561,
+        "lng": 13.87331
+      }
+    },
+    {
+      "istatCode": "085019",
+      "officialName": "Sommatino",
+      "normalizedName": "sommatino",
+      "aliases": [],
+      "areaKm2": 34.452,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085004",
+        "085009",
+        "085015"
+      ],
+      "focusPoint": {
+        "lat": 37.319177,
+        "lng": 14.011647
+      }
+    },
+    {
+      "istatCode": "085020",
+      "officialName": "Sutera",
+      "normalizedName": "sutera",
+      "aliases": [],
+      "areaKm2": 35.507,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "085001",
+        "085002",
+        "085005",
+        "085010",
+        "085012"
+      ],
+      "focusPoint": {
+        "lat": 37.521806,
+        "lng": 13.752924
+      }
+    },
+    {
+      "istatCode": "085021",
+      "officialName": "Vallelunga Pratameno",
+      "normalizedName": "vallelunga pratameno",
+      "aliases": [
+        "vallelunga",
+        "vallelungapratameno"
+      ],
+      "areaKm2": 39.217,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085022"
+      ],
+      "focusPoint": {
+        "lat": 37.710625,
+        "lng": 13.796075
+      }
+    },
+    {
+      "istatCode": "085022",
+      "officialName": "Villalba",
+      "normalizedName": "villalba",
+      "aliases": [],
+      "areaKm2": 41.657,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "085008",
+        "085012",
+        "085021"
+      ],
+      "focusPoint": {
+        "lat": 37.635717,
+        "lng": 13.861437
+      }
+    }
+  ]
+}

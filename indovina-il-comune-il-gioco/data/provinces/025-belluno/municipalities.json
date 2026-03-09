@@ -1,0 +1,1448 @@
+{
+  "provinceCode": "025",
+  "label": "Belluno",
+  "officialScopeLabel": "Provincia di Belluno",
+  "sigla": "BL",
+  "slug": "belluno",
+  "sourceYear": 2026,
+  "count": 60,
+  "municipalities": [
+    {
+      "istatCode": "025001",
+      "officialName": "Agordo",
+      "normalizedName": "agordo",
+      "aliases": [],
+      "areaKm2": 23.839,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025027",
+        "025043",
+        "025059",
+        "025067",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.30639,
+        "lng": 12.054412
+      }
+    },
+    {
+      "istatCode": "025003",
+      "officialName": "Alleghe",
+      "normalizedName": "alleghe",
+      "aliases": [],
+      "areaKm2": 29.399,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025014",
+        "025044",
+        "025049",
+        "025054",
+        "025059",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.405596,
+        "lng": 12.04373
+      }
+    },
+    {
+      "istatCode": "025004",
+      "officialName": "Arsiè",
+      "normalizedName": "arsie",
+      "aliases": [],
+      "areaKm2": 64.953,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025022",
+        "025026",
+        "025055"
+      ],
+      "focusPoint": {
+        "lat": 45.974683,
+        "lng": 11.7532
+      }
+    },
+    {
+      "istatCode": "025005",
+      "officialName": "Auronzo di Cadore",
+      "normalizedName": "auronzo di cadore",
+      "aliases": [
+        "auronzo",
+        "auronzodicadore"
+      ],
+      "areaKm2": 220.229,
+      "baseChips": 129,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025008",
+        "025015",
+        "025016",
+        "025017",
+        "025018",
+        "025033",
+        "025050",
+        "025051",
+        "025065"
+      ],
+      "focusPoint": {
+        "lat": 46.562767,
+        "lng": 12.360277
+      }
+    },
+    {
+      "istatCode": "025006",
+      "officialName": "Belluno",
+      "normalizedName": "belluno",
+      "aliases": [],
+      "areaKm2": 147.058,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025029",
+        "025040",
+        "025053",
+        "025071",
+        "025072"
+      ],
+      "focusPoint": {
+        "lat": 46.130317,
+        "lng": 12.205653
+      }
+    },
+    {
+      "istatCode": "025007",
+      "officialName": "Borca di Cadore",
+      "normalizedName": "borca di cadore",
+      "aliases": [
+        "borca",
+        "borcadicadore"
+      ],
+      "areaKm2": 26.605,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025051",
+        "025054",
+        "025066",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.433967,
+        "lng": 12.215997
+      }
+    },
+    {
+      "istatCode": "025008",
+      "officialName": "Calalzo di Cadore",
+      "normalizedName": "calalzo di cadore",
+      "aliases": [
+        "calalzo",
+        "calalzodicadore"
+      ],
+      "areaKm2": 43.378,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025005",
+        "025018",
+        "025039",
+        "025051",
+        "025066"
+      ],
+      "focusPoint": {
+        "lat": 46.468224,
+        "lng": 12.35414
+      }
+    },
+    {
+      "istatCode": "025010",
+      "officialName": "Cencenighe Agordino",
+      "normalizedName": "cencenighe agordino",
+      "aliases": [
+        "cencenighe",
+        "cencenigheagordino"
+      ],
+      "areaKm2": 18.316,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025023",
+        "025049",
+        "025059",
+        "025062"
+      ],
+      "focusPoint": {
+        "lat": 46.345,
+        "lng": 11.964105
+      }
+    },
+    {
+      "istatCode": "025011",
+      "officialName": "Cesiomaggiore",
+      "normalizedName": "cesiomaggiore",
+      "aliases": [],
+      "areaKm2": 81.626,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025021",
+        "025025",
+        "025045",
+        "025048",
+        "025056",
+        "025074"
+      ],
+      "focusPoint": {
+        "lat": 46.10575,
+        "lng": 11.947928
+      }
+    },
+    {
+      "istatCode": "025012",
+      "officialName": "Chies d'Alpago",
+      "normalizedName": "chies d alpago",
+      "aliases": [
+        "chies",
+        "chiesdalpago"
+      ],
+      "areaKm2": 44.834,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025060",
+        "025072"
+      ],
+      "focusPoint": {
+        "lat": 46.17584,
+        "lng": 12.413204
+      }
+    },
+    {
+      "istatCode": "025013",
+      "officialName": "Cibiana di Cadore",
+      "normalizedName": "cibiana di cadore",
+      "aliases": [
+        "cibiana",
+        "cibianadicadore"
+      ],
+      "areaKm2": 21.372,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025035",
+        "025063",
+        "025066",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.377901,
+        "lng": 12.26925
+      }
+    },
+    {
+      "istatCode": "025014",
+      "officialName": "Colle Santa Lucia",
+      "normalizedName": "colle santa lucia",
+      "aliases": [
+        "colle",
+        "colle santa",
+        "collesanta",
+        "collesantalucia"
+      ],
+      "areaKm2": 15.354,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025003",
+        "025016",
+        "025030",
+        "025044",
+        "025051",
+        "025054"
+      ],
+      "focusPoint": {
+        "lat": 46.470767,
+        "lng": 12.017473
+      }
+    },
+    {
+      "istatCode": "025015",
+      "officialName": "Comelico Superiore",
+      "normalizedName": "comelico superiore",
+      "aliases": [
+        "comelico",
+        "comelicosuperiore"
+      ],
+      "areaKm2": 95.702,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025005",
+        "025017",
+        "025046"
+      ],
+      "focusPoint": {
+        "lat": 46.618679,
+        "lng": 12.468861
+      }
+    },
+    {
+      "istatCode": "025016",
+      "officialName": "Cortina d'Ampezzo",
+      "normalizedName": "cortina d ampezzo",
+      "aliases": [
+        "cortina",
+        "cortinadampezzo"
+      ],
+      "areaKm2": 253.006,
+      "baseChips": 126,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025005",
+        "025014",
+        "025030",
+        "025051"
+      ],
+      "focusPoint": {
+        "lat": 46.569142,
+        "lng": 12.132192
+      }
+    },
+    {
+      "istatCode": "025017",
+      "officialName": "Danta di Cadore",
+      "normalizedName": "danta di cadore",
+      "aliases": [
+        "danta",
+        "dantadicadore"
+      ],
+      "areaKm2": 8.049,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025005",
+        "025015",
+        "025046",
+        "025050"
+      ],
+      "focusPoint": {
+        "lat": 46.561404,
+        "lng": 12.509071
+      }
+    },
+    {
+      "istatCode": "025018",
+      "officialName": "Domegge di Cadore",
+      "normalizedName": "domegge di cadore",
+      "aliases": [
+        "domegge",
+        "domeggedicadore"
+      ],
+      "areaKm2": 50.038,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025005",
+        "025008",
+        "025032",
+        "025033",
+        "025039"
+      ],
+      "focusPoint": {
+        "lat": 46.452944,
+        "lng": 12.4238
+      }
+    },
+    {
+      "istatCode": "025019",
+      "officialName": "Falcade",
+      "normalizedName": "falcade",
+      "aliases": [],
+      "areaKm2": 53.177,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025023",
+        "025044"
+      ],
+      "focusPoint": {
+        "lat": 46.356042,
+        "lng": 11.834942
+      }
+    },
+    {
+      "istatCode": "025021",
+      "officialName": "Feltre",
+      "normalizedName": "feltre",
+      "aliases": [],
+      "areaKm2": 100.119,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025011",
+        "025022",
+        "025036",
+        "025055",
+        "025058",
+        "025074",
+        "025075"
+      ],
+      "focusPoint": {
+        "lat": 46.049027,
+        "lng": 11.930533
+      }
+    },
+    {
+      "istatCode": "025022",
+      "officialName": "Fonzaso",
+      "normalizedName": "fonzaso",
+      "aliases": [],
+      "areaKm2": 27.526,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025004",
+        "025021",
+        "025026",
+        "025036",
+        "025055",
+        "025058"
+      ],
+      "focusPoint": {
+        "lat": 45.999925,
+        "lng": 11.804318
+      }
+    },
+    {
+      "istatCode": "025023",
+      "officialName": "Canale d'Agordo",
+      "normalizedName": "canale d agordo",
+      "aliases": [
+        "canale",
+        "canaledagordo"
+      ],
+      "areaKm2": 45.766,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025010",
+        "025019",
+        "025044",
+        "025059",
+        "025062"
+      ],
+      "focusPoint": {
+        "lat": 46.338424,
+        "lng": 11.902924
+      }
+    },
+    {
+      "istatCode": "025025",
+      "officialName": "Gosaldo",
+      "normalizedName": "gosaldo",
+      "aliases": [],
+      "areaKm2": 48.505,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025011",
+        "025043",
+        "025056",
+        "025059",
+        "025067"
+      ],
+      "focusPoint": {
+        "lat": 46.208227,
+        "lng": 11.989609
+      }
+    },
+    {
+      "istatCode": "025026",
+      "officialName": "Lamon",
+      "normalizedName": "lamon",
+      "aliases": [],
+      "areaKm2": 54.589,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025004",
+        "025022",
+        "025058"
+      ],
+      "focusPoint": {
+        "lat": 46.063298,
+        "lng": 11.727735
+      }
+    },
+    {
+      "istatCode": "025027",
+      "officialName": "La Valle Agordina",
+      "normalizedName": "la valle agordina",
+      "aliases": [
+        "la",
+        "la valle",
+        "lavalle",
+        "lavalleagordina"
+      ],
+      "areaKm2": 48.805,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025001",
+        "025043",
+        "025053",
+        "025071",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.285652,
+        "lng": 12.100563
+      }
+    },
+    {
+      "istatCode": "025029",
+      "officialName": "Limana",
+      "normalizedName": "limana",
+      "aliases": [],
+      "areaKm2": 39.015,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025006",
+        "025053",
+        "025074"
+      ],
+      "focusPoint": {
+        "lat": 46.069405,
+        "lng": 12.212966
+      }
+    },
+    {
+      "istatCode": "025030",
+      "officialName": "Livinallongo del Col di Lana",
+      "normalizedName": "livinallongo del col di lana",
+      "aliases": [
+        "livinallongo",
+        "livinallongo del col",
+        "livinallongodelcol",
+        "livinallongodelcoldilana"
+      ],
+      "areaKm2": 99.824,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025014",
+        "025016",
+        "025044"
+      ],
+      "focusPoint": {
+        "lat": 46.493127,
+        "lng": 11.920542
+      }
+    },
+    {
+      "istatCode": "025032",
+      "officialName": "Lorenzago di Cadore",
+      "normalizedName": "lorenzago di cadore",
+      "aliases": [
+        "lorenzago",
+        "lorenzagodicadore"
+      ],
+      "areaKm2": 27.315,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025018",
+        "025033",
+        "025065"
+      ],
+      "focusPoint": {
+        "lat": 46.456737,
+        "lng": 12.494598
+      }
+    },
+    {
+      "istatCode": "025033",
+      "officialName": "Lozzo di Cadore",
+      "normalizedName": "lozzo di cadore",
+      "aliases": [
+        "lozzo",
+        "lozzodicadore"
+      ],
+      "areaKm2": 30.623,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025005",
+        "025018",
+        "025032",
+        "025065"
+      ],
+      "focusPoint": {
+        "lat": 46.50533,
+        "lng": 12.421323
+      }
+    },
+    {
+      "istatCode": "025035",
+      "officialName": "Ospitale di Cadore",
+      "normalizedName": "ospitale di cadore",
+      "aliases": [
+        "ospitale",
+        "ospitaledicadore"
+      ],
+      "areaKm2": 39.291,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025013",
+        "025037",
+        "025063",
+        "025071",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.329741,
+        "lng": 12.299445
+      }
+    },
+    {
+      "istatCode": "025036",
+      "officialName": "Pedavena",
+      "normalizedName": "pedavena",
+      "aliases": [],
+      "areaKm2": 25.116,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025021",
+        "025022",
+        "025058"
+      ],
+      "focusPoint": {
+        "lat": 46.045485,
+        "lng": 11.858148
+      }
+    },
+    {
+      "istatCode": "025037",
+      "officialName": "Perarolo di Cadore",
+      "normalizedName": "perarolo di cadore",
+      "aliases": [
+        "perarolo",
+        "perarolodicadore"
+      ],
+      "areaKm2": 44.195,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025035",
+        "025039",
+        "025063"
+      ],
+      "focusPoint": {
+        "lat": 46.371641,
+        "lng": 12.369175
+      }
+    },
+    {
+      "istatCode": "025039",
+      "officialName": "Pieve di Cadore",
+      "normalizedName": "pieve di cadore",
+      "aliases": [
+        "pieve",
+        "pievedicadore"
+      ],
+      "areaKm2": 67.231,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025008",
+        "025018",
+        "025037",
+        "025063",
+        "025066"
+      ],
+      "focusPoint": {
+        "lat": 46.412607,
+        "lng": 12.396928
+      }
+    },
+    {
+      "istatCode": "025040",
+      "officialName": "Ponte nelle Alpi",
+      "normalizedName": "ponte nelle alpi",
+      "aliases": [
+        "ponte",
+        "ponte nelle",
+        "pontenelle",
+        "pontenellealpi"
+      ],
+      "areaKm2": 57.745,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025006",
+        "025057",
+        "025071",
+        "025072"
+      ],
+      "focusPoint": {
+        "lat": 46.155195,
+        "lng": 12.299389
+      }
+    },
+    {
+      "istatCode": "025043",
+      "officialName": "Rivamonte Agordino",
+      "normalizedName": "rivamonte agordino",
+      "aliases": [
+        "rivamonte",
+        "rivamonteagordino"
+      ],
+      "areaKm2": 23.044,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025001",
+        "025025",
+        "025027",
+        "025053",
+        "025067"
+      ],
+      "focusPoint": {
+        "lat": 46.241796,
+        "lng": 12.040999
+      }
+    },
+    {
+      "istatCode": "025044",
+      "officialName": "Rocca Pietore",
+      "normalizedName": "rocca pietore",
+      "aliases": [
+        "rocca",
+        "roccapietore"
+      ],
+      "areaKm2": 73.433,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025003",
+        "025014",
+        "025019",
+        "025023",
+        "025030",
+        "025049",
+        "025062"
+      ],
+      "focusPoint": {
+        "lat": 46.433702,
+        "lng": 11.934421
+      }
+    },
+    {
+      "istatCode": "025045",
+      "officialName": "San Gregorio nelle Alpi",
+      "normalizedName": "san gregorio nelle alpi",
+      "aliases": [
+        "san gregorio",
+        "san gregorio nelle",
+        "sangregorio",
+        "sangregorionelle",
+        "sangregorionellealpi"
+      ],
+      "areaKm2": 19.439,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025011",
+        "025048",
+        "025056"
+      ],
+      "focusPoint": {
+        "lat": 46.129807,
+        "lng": 12.028826
+      }
+    },
+    {
+      "istatCode": "025046",
+      "officialName": "San Nicolò di Comelico",
+      "normalizedName": "san nicolo di comelico",
+      "aliases": [
+        "san nicolo",
+        "sannicolo",
+        "sannicolodicomelico"
+      ],
+      "areaKm2": 24.158,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025015",
+        "025017",
+        "025047",
+        "025050"
+      ],
+      "focusPoint": {
+        "lat": 46.608723,
+        "lng": 12.548453
+      }
+    },
+    {
+      "istatCode": "025047",
+      "officialName": "San Pietro di Cadore",
+      "normalizedName": "san pietro di cadore",
+      "aliases": [
+        "san pietro",
+        "sanpietro",
+        "sanpietrodicadore"
+      ],
+      "areaKm2": 52.211,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025046",
+        "025050"
+      ],
+      "focusPoint": {
+        "lat": 46.613849,
+        "lng": 12.602312
+      }
+    },
+    {
+      "istatCode": "025048",
+      "officialName": "Santa Giustina",
+      "normalizedName": "santa giustina",
+      "aliases": [
+        "santa",
+        "santagiustina"
+      ],
+      "areaKm2": 35.497,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025011",
+        "025045",
+        "025053",
+        "025056",
+        "025074"
+      ],
+      "focusPoint": {
+        "lat": 46.099921,
+        "lng": 12.063165
+      }
+    },
+    {
+      "istatCode": "025049",
+      "officialName": "San Tomaso Agordino",
+      "normalizedName": "san tomaso agordino",
+      "aliases": [
+        "san tomaso",
+        "santomaso",
+        "santomasoagordino"
+      ],
+      "areaKm2": 19.259,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025003",
+        "025010",
+        "025044",
+        "025059",
+        "025062"
+      ],
+      "focusPoint": {
+        "lat": 46.387858,
+        "lng": 11.972752
+      }
+    },
+    {
+      "istatCode": "025050",
+      "officialName": "Santo Stefano di Cadore",
+      "normalizedName": "santo stefano di cadore",
+      "aliases": [
+        "santo",
+        "santo stefano",
+        "santostefano",
+        "santostefanodicadore"
+      ],
+      "areaKm2": 100.623,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025005",
+        "025017",
+        "025046",
+        "025047",
+        "025065"
+      ],
+      "focusPoint": {
+        "lat": 46.581453,
+        "lng": 12.646417
+      }
+    },
+    {
+      "istatCode": "025051",
+      "officialName": "San Vito di Cadore",
+      "normalizedName": "san vito di cadore",
+      "aliases": [
+        "san vito",
+        "sanvito",
+        "sanvitodicadore"
+      ],
+      "areaKm2": 61.577,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025005",
+        "025007",
+        "025008",
+        "025014",
+        "025016",
+        "025054"
+      ],
+      "focusPoint": {
+        "lat": 46.47741,
+        "lng": 12.208391
+      }
+    },
+    {
+      "istatCode": "025053",
+      "officialName": "Sedico",
+      "normalizedName": "sedico",
+      "aliases": [],
+      "areaKm2": 91.174,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025006",
+        "025027",
+        "025029",
+        "025043",
+        "025048",
+        "025056",
+        "025071",
+        "025074"
+      ],
+      "focusPoint": {
+        "lat": 46.168748,
+        "lng": 12.134777
+      }
+    },
+    {
+      "istatCode": "025054",
+      "officialName": "Selva di Cadore",
+      "normalizedName": "selva di cadore",
+      "aliases": [
+        "selva",
+        "selvadicadore"
+      ],
+      "areaKm2": 33.219,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025003",
+        "025007",
+        "025014",
+        "025051",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.453023,
+        "lng": 12.069348
+      }
+    },
+    {
+      "istatCode": "025055",
+      "officialName": "Seren del Grappa",
+      "normalizedName": "seren del grappa",
+      "aliases": [
+        "seren",
+        "serendelgrappa"
+      ],
+      "areaKm2": 61.788,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025004",
+        "025021",
+        "025022",
+        "025075"
+      ],
+      "focusPoint": {
+        "lat": 45.948807,
+        "lng": 11.82756
+      }
+    },
+    {
+      "istatCode": "025056",
+      "officialName": "Sospirolo",
+      "normalizedName": "sospirolo",
+      "aliases": [],
+      "areaKm2": 66.106,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025011",
+        "025025",
+        "025045",
+        "025048",
+        "025053"
+      ],
+      "focusPoint": {
+        "lat": 46.170523,
+        "lng": 12.065461
+      }
+    },
+    {
+      "istatCode": "025057",
+      "officialName": "Soverzene",
+      "normalizedName": "soverzene",
+      "aliases": [],
+      "areaKm2": 15.0,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025040",
+        "025071",
+        "025072"
+      ],
+      "focusPoint": {
+        "lat": 46.211993,
+        "lng": 12.33185
+      }
+    },
+    {
+      "istatCode": "025058",
+      "officialName": "Sovramonte",
+      "normalizedName": "sovramonte",
+      "aliases": [],
+      "areaKm2": 50.379,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025021",
+        "025022",
+        "025026",
+        "025036"
+      ],
+      "focusPoint": {
+        "lat": 46.07015,
+        "lng": 11.807392
+      }
+    },
+    {
+      "istatCode": "025059",
+      "officialName": "Taibon Agordino",
+      "normalizedName": "taibon agordino",
+      "aliases": [
+        "taibon",
+        "taibonagordino"
+      ],
+      "areaKm2": 90.25,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025001",
+        "025003",
+        "025010",
+        "025023",
+        "025025",
+        "025049",
+        "025067",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.308569,
+        "lng": 11.963833
+      }
+    },
+    {
+      "istatCode": "025060",
+      "officialName": "Tambre",
+      "normalizedName": "tambre",
+      "aliases": [],
+      "areaKm2": 45.227,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025012",
+        "025072"
+      ],
+      "focusPoint": {
+        "lat": 46.096567,
+        "lng": 12.440674
+      }
+    },
+    {
+      "istatCode": "025062",
+      "officialName": "Vallada Agordina",
+      "normalizedName": "vallada agordina",
+      "aliases": [
+        "vallada",
+        "valladaagordina"
+      ],
+      "areaKm2": 12.842,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025010",
+        "025023",
+        "025044",
+        "025049"
+      ],
+      "focusPoint": {
+        "lat": 46.371046,
+        "lng": 11.939037
+      }
+    },
+    {
+      "istatCode": "025063",
+      "officialName": "Valle di Cadore",
+      "normalizedName": "valle di cadore",
+      "aliases": [
+        "valle",
+        "valledicadore"
+      ],
+      "areaKm2": 40.953,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025013",
+        "025035",
+        "025037",
+        "025039",
+        "025066"
+      ],
+      "focusPoint": {
+        "lat": 46.402263,
+        "lng": 12.295911
+      }
+    },
+    {
+      "istatCode": "025065",
+      "officialName": "Vigo di Cadore",
+      "normalizedName": "vigo di cadore",
+      "aliases": [
+        "vigo",
+        "vigodicadore"
+      ],
+      "areaKm2": 69.252,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025005",
+        "025032",
+        "025033",
+        "025050"
+      ],
+      "focusPoint": {
+        "lat": 46.494158,
+        "lng": 12.547069
+      }
+    },
+    {
+      "istatCode": "025066",
+      "officialName": "Vodo Cadore",
+      "normalizedName": "vodo cadore",
+      "aliases": [
+        "vodo",
+        "vodocadore"
+      ],
+      "areaKm2": 46.984,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025007",
+        "025008",
+        "025013",
+        "025039",
+        "025063",
+        "025069",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.41368,
+        "lng": 12.213248
+      }
+    },
+    {
+      "istatCode": "025067",
+      "officialName": "Voltago Agordino",
+      "normalizedName": "voltago agordino",
+      "aliases": [
+        "voltago",
+        "voltagoagordino"
+      ],
+      "areaKm2": 23.096,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025001",
+        "025025",
+        "025043",
+        "025059"
+      ],
+      "focusPoint": {
+        "lat": 46.259549,
+        "lng": 11.975629
+      }
+    },
+    {
+      "istatCode": "025069",
+      "officialName": "Zoppè di Cadore",
+      "normalizedName": "zoppe di cadore",
+      "aliases": [
+        "zoppe",
+        "zoppedicadore"
+      ],
+      "areaKm2": 4.26,
+      "baseChips": 217,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025066",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.381526,
+        "lng": 12.182349
+      }
+    },
+    {
+      "istatCode": "025071",
+      "officialName": "Longarone",
+      "normalizedName": "longarone",
+      "aliases": [],
+      "areaKm2": 122.583,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025006",
+        "025027",
+        "025035",
+        "025040",
+        "025053",
+        "025057",
+        "025073"
+      ],
+      "focusPoint": {
+        "lat": 46.267514,
+        "lng": 12.238583
+      }
+    },
+    {
+      "istatCode": "025072",
+      "officialName": "Alpago",
+      "normalizedName": "alpago",
+      "aliases": [],
+      "areaKm2": 80.108,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025006",
+        "025012",
+        "025040",
+        "025057",
+        "025060"
+      ],
+      "focusPoint": {
+        "lat": 46.143457,
+        "lng": 12.360731
+      }
+    },
+    {
+      "istatCode": "025073",
+      "officialName": "Val di Zoldo",
+      "normalizedName": "val di zoldo",
+      "aliases": [
+        "val",
+        "valdizoldo"
+      ],
+      "areaKm2": 141.776,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "025001",
+        "025003",
+        "025007",
+        "025013",
+        "025027",
+        "025035",
+        "025054",
+        "025059",
+        "025066",
+        "025069",
+        "025071"
+      ],
+      "focusPoint": {
+        "lat": 46.352826,
+        "lng": 12.159544
+      }
+    },
+    {
+      "istatCode": "025074",
+      "officialName": "Borgo Valbelluna",
+      "normalizedName": "borgo valbelluna",
+      "aliases": [
+        "borgo",
+        "borgovalbelluna"
+      ],
+      "areaKm2": 167.64,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025011",
+        "025021",
+        "025029",
+        "025048",
+        "025053",
+        "025075"
+      ],
+      "focusPoint": {
+        "lat": 46.025103,
+        "lng": 12.104592
+      }
+    },
+    {
+      "istatCode": "025075",
+      "officialName": "Setteville",
+      "normalizedName": "setteville",
+      "aliases": [],
+      "areaKm2": 82.591,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "025021",
+        "025055",
+        "025074"
+      ],
+      "focusPoint": {
+        "lat": 45.932463,
+        "lng": 11.902293
+      }
+    }
+  ]
+}

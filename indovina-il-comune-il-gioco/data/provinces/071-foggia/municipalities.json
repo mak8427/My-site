@@ -1,0 +1,1441 @@
+{
+  "provinceCode": "071",
+  "label": "Foggia",
+  "officialScopeLabel": "Provincia di Foggia",
+  "sigla": "FG",
+  "slug": "foggia",
+  "sourceYear": 2026,
+  "count": 61,
+  "municipalities": [
+    {
+      "istatCode": "071001",
+      "officialName": "Accadia",
+      "normalizedName": "accadia",
+      "aliases": [],
+      "areaKm2": 30.314,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071007",
+        "071022",
+        "071032",
+        "071037",
+        "071052"
+      ],
+      "focusPoint": {
+        "lat": 41.178666,
+        "lng": 15.327671
+      }
+    },
+    {
+      "istatCode": "071002",
+      "officialName": "Alberona",
+      "normalizedName": "alberona",
+      "aliases": [],
+      "areaKm2": 49.34,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071006",
+        "071028",
+        "071044",
+        "071061",
+        "071062"
+      ],
+      "focusPoint": {
+        "lat": 41.438724,
+        "lng": 15.137326
+      }
+    },
+    {
+      "istatCode": "071003",
+      "officialName": "Anzano di Puglia",
+      "normalizedName": "anzano di puglia",
+      "aliases": [
+        "anzano",
+        "anzanodipuglia"
+      ],
+      "areaKm2": 10.732,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071032",
+        "071052"
+      ],
+      "focusPoint": {
+        "lat": 41.110334,
+        "lng": 15.286176
+      }
+    },
+    {
+      "istatCode": "071004",
+      "officialName": "Apricena",
+      "normalizedName": "apricena",
+      "aliases": [],
+      "areaKm2": 171.632,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071027",
+        "071040",
+        "071041",
+        "071047",
+        "071049",
+        "071050",
+        "071051"
+      ],
+      "focusPoint": {
+        "lat": 41.773124,
+        "lng": 15.460418
+      }
+    },
+    {
+      "istatCode": "071005",
+      "officialName": "Ascoli Satriano",
+      "normalizedName": "ascoli satriano",
+      "aliases": [
+        "ascoli",
+        "ascolisatriano"
+      ],
+      "areaKm2": 334.855,
+      "baseChips": 120,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071009",
+        "071015",
+        "071020",
+        "071022",
+        "071024",
+        "071036",
+        "071055",
+        "071063"
+      ],
+      "focusPoint": {
+        "lat": 41.210693,
+        "lng": 15.594699
+      }
+    },
+    {
+      "istatCode": "071006",
+      "officialName": "Biccari",
+      "normalizedName": "biccari",
+      "aliases": [],
+      "areaKm2": 106.037,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071002",
+        "071016",
+        "071019",
+        "071023",
+        "071028",
+        "071044",
+        "071058"
+      ],
+      "focusPoint": {
+        "lat": 41.425213,
+        "lng": 15.230989
+      }
+    },
+    {
+      "istatCode": "071007",
+      "officialName": "Bovino",
+      "normalizedName": "bovino",
+      "aliases": [],
+      "areaKm2": 84.658,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071001",
+        "071015",
+        "071022",
+        "071035",
+        "071037"
+      ],
+      "focusPoint": {
+        "lat": 41.261457,
+        "lng": 15.376005
+      }
+    },
+    {
+      "istatCode": "071008",
+      "officialName": "Cagnano Varano",
+      "normalizedName": "cagnano varano",
+      "aliases": [
+        "cagnano",
+        "cagnanovarano"
+      ],
+      "areaKm2": 165.879,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071012",
+        "071025",
+        "071033",
+        "071047",
+        "071049"
+      ],
+      "focusPoint": {
+        "lat": 41.841646,
+        "lng": 15.739699
+      }
+    },
+    {
+      "istatCode": "071009",
+      "officialName": "Candela",
+      "normalizedName": "candela",
+      "aliases": [],
+      "areaKm2": 96.273,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071005",
+        "071022",
+        "071042",
+        "071052"
+      ],
+      "focusPoint": {
+        "lat": 41.148042,
+        "lng": 15.525693
+      }
+    },
+    {
+      "istatCode": "071010",
+      "officialName": "Carapelle",
+      "normalizedName": "carapelle",
+      "aliases": [],
+      "areaKm2": 24.373,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071020",
+        "071024",
+        "071029",
+        "071036",
+        "071063"
+      ],
+      "focusPoint": {
+        "lat": 41.362246,
+        "lng": 15.699359
+      }
+    },
+    {
+      "istatCode": "071011",
+      "officialName": "Carlantino",
+      "normalizedName": "carlantino",
+      "aliases": [],
+      "areaKm2": 34.512,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071013",
+        "071018"
+      ],
+      "focusPoint": {
+        "lat": 41.613574,
+        "lng": 14.983977
+      }
+    },
+    {
+      "istatCode": "071012",
+      "officialName": "Carpino",
+      "normalizedName": "carpino",
+      "aliases": [],
+      "areaKm2": 79.266,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071008",
+        "071025",
+        "071033",
+        "071059"
+      ],
+      "focusPoint": {
+        "lat": 41.828913,
+        "lng": 15.86695
+      }
+    },
+    {
+      "istatCode": "071013",
+      "officialName": "Casalnuovo Monterotaro",
+      "normalizedName": "casalnuovo monterotaro",
+      "aliases": [
+        "casalnuovo",
+        "casalnuovomonterotaro"
+      ],
+      "areaKm2": 47.905,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071011",
+        "071014",
+        "071017",
+        "071018",
+        "071039"
+      ],
+      "focusPoint": {
+        "lat": 41.627575,
+        "lng": 15.070086
+      }
+    },
+    {
+      "istatCode": "071014",
+      "officialName": "Casalvecchio di Puglia",
+      "normalizedName": "casalvecchio di puglia",
+      "aliases": [
+        "casalvecchio",
+        "casalvecchiodipuglia"
+      ],
+      "areaKm2": 31.618,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071013",
+        "071017",
+        "071039",
+        "071056"
+      ],
+      "focusPoint": {
+        "lat": 41.635497,
+        "lng": 15.142938
+      }
+    },
+    {
+      "istatCode": "071015",
+      "officialName": "Castelluccio dei Sauri",
+      "normalizedName": "castelluccio dei sauri",
+      "aliases": [
+        "castellucciodeisauri"
+      ],
+      "areaKm2": 50.866,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071005",
+        "071007",
+        "071022",
+        "071024",
+        "071035",
+        "071058"
+      ],
+      "focusPoint": {
+        "lat": 41.304555,
+        "lng": 15.476531
+      }
+    },
+    {
+      "istatCode": "071016",
+      "officialName": "Castelluccio Valmaggiore",
+      "normalizedName": "castelluccio valmaggiore",
+      "aliases": [
+        "castellucciovalmaggiore"
+      ],
+      "areaKm2": 26.577,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071006",
+        "071019",
+        "071058"
+      ],
+      "focusPoint": {
+        "lat": 41.357534,
+        "lng": 15.202078
+      }
+    },
+    {
+      "istatCode": "071017",
+      "officialName": "Castelnuovo della Daunia",
+      "normalizedName": "castelnuovo della daunia",
+      "aliases": [
+        "castelnuovo",
+        "castelnuovodelladaunia"
+      ],
+      "areaKm2": 61.121,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071013",
+        "071014",
+        "071028",
+        "071039",
+        "071056"
+      ],
+      "focusPoint": {
+        "lat": 41.606328,
+        "lng": 15.172519
+      }
+    },
+    {
+      "istatCode": "071018",
+      "officialName": "Celenza Valfortore",
+      "normalizedName": "celenza valfortore",
+      "aliases": [
+        "celenza",
+        "celenzavalfortore"
+      ],
+      "areaKm2": 65.18,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071011",
+        "071013",
+        "071034",
+        "071039",
+        "071048",
+        "071061"
+      ],
+      "focusPoint": {
+        "lat": 41.568657,
+        "lng": 15.006303
+      }
+    },
+    {
+      "istatCode": "071019",
+      "officialName": "Celle di San Vito",
+      "normalizedName": "celle di san vito",
+      "aliases": [
+        "celle",
+        "celle di san",
+        "celledisan",
+        "celledisanvito"
+      ],
+      "areaKm2": 18.247,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071006",
+        "071016",
+        "071023",
+        "071035",
+        "071058"
+      ],
+      "focusPoint": {
+        "lat": 41.327587,
+        "lng": 15.188088
+      }
+    },
+    {
+      "istatCode": "071020",
+      "officialName": "Cerignola",
+      "normalizedName": "cerignola",
+      "aliases": [],
+      "areaKm2": 589.384,
+      "baseChips": 107,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071005",
+        "071010",
+        "071024",
+        "071029",
+        "071036",
+        "071054",
+        "071055",
+        "071064"
+      ],
+      "focusPoint": {
+        "lat": 41.290709,
+        "lng": 15.906301
+      }
+    },
+    {
+      "istatCode": "071021",
+      "officialName": "Chieuti",
+      "normalizedName": "chieuti",
+      "aliases": [],
+      "areaKm2": 60.944,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071053"
+      ],
+      "focusPoint": {
+        "lat": 41.876402,
+        "lng": 15.169876
+      }
+    },
+    {
+      "istatCode": "071022",
+      "officialName": "Deliceto",
+      "normalizedName": "deliceto",
+      "aliases": [],
+      "areaKm2": 75.318,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071001",
+        "071005",
+        "071007",
+        "071009",
+        "071015",
+        "071052"
+      ],
+      "focusPoint": {
+        "lat": 41.229064,
+        "lng": 15.423579
+      }
+    },
+    {
+      "istatCode": "071023",
+      "officialName": "Faeto",
+      "normalizedName": "faeto",
+      "aliases": [],
+      "areaKm2": 25.725,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071006",
+        "071019",
+        "071035",
+        "071044"
+      ],
+      "focusPoint": {
+        "lat": 41.323227,
+        "lng": 15.155064
+      }
+    },
+    {
+      "istatCode": "071024",
+      "officialName": "Foggia",
+      "normalizedName": "foggia",
+      "aliases": [],
+      "areaKm2": 505.915,
+      "baseChips": 111,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071005",
+        "071010",
+        "071015",
+        "071020",
+        "071028",
+        "071029",
+        "071041",
+        "071046",
+        "071047",
+        "071051",
+        "071058",
+        "071063"
+      ],
+      "focusPoint": {
+        "lat": 41.467178,
+        "lng": 15.587494
+      }
+    },
+    {
+      "istatCode": "071025",
+      "officialName": "Ischitella",
+      "normalizedName": "ischitella",
+      "aliases": [],
+      "areaKm2": 84.524,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071008",
+        "071012",
+        "071043",
+        "071059"
+      ],
+      "focusPoint": {
+        "lat": 41.888228,
+        "lng": 15.843492
+      }
+    },
+    {
+      "istatCode": "071026",
+      "officialName": "Isole Tremiti",
+      "normalizedName": "isole tremiti",
+      "aliases": [
+        "isole",
+        "isoletremiti"
+      ],
+      "areaKm2": 3.279,
+      "baseChips": 223,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [],
+      "focusPoint": {
+        "lat": 42.115704,
+        "lng": 15.48749
+      }
+    },
+    {
+      "istatCode": "071027",
+      "officialName": "Lesina",
+      "normalizedName": "lesina",
+      "aliases": [],
+      "areaKm2": 159.659,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071004",
+        "071040",
+        "071049",
+        "071050",
+        "071053"
+      ],
+      "focusPoint": {
+        "lat": 41.862821,
+        "lng": 15.377267
+      }
+    },
+    {
+      "istatCode": "071028",
+      "officialName": "Lucera",
+      "normalizedName": "lucera",
+      "aliases": [],
+      "areaKm2": 337.998,
+      "baseChips": 120,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071002",
+        "071006",
+        "071017",
+        "071024",
+        "071039",
+        "071051",
+        "071056",
+        "071058",
+        "071062"
+      ],
+      "focusPoint": {
+        "lat": 41.501028,
+        "lng": 15.358943
+      }
+    },
+    {
+      "istatCode": "071029",
+      "officialName": "Manfredonia",
+      "normalizedName": "manfredonia",
+      "aliases": [],
+      "areaKm2": 352.514,
+      "baseChips": 119,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071010",
+        "071020",
+        "071024",
+        "071033",
+        "071046",
+        "071047",
+        "071064"
+      ],
+      "focusPoint": {
+        "lat": 41.542014,
+        "lng": 15.816256
+      }
+    },
+    {
+      "istatCode": "071031",
+      "officialName": "Mattinata",
+      "normalizedName": "mattinata",
+      "aliases": [],
+      "areaKm2": 72.827,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071033",
+        "071060"
+      ],
+      "focusPoint": {
+        "lat": 41.731584,
+        "lng": 16.059868
+      }
+    },
+    {
+      "istatCode": "071032",
+      "officialName": "Monteleone di Puglia",
+      "normalizedName": "monteleone di puglia",
+      "aliases": [
+        "monteleone",
+        "monteleonedipuglia"
+      ],
+      "areaKm2": 36.084,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071001",
+        "071003",
+        "071037",
+        "071052"
+      ],
+      "focusPoint": {
+        "lat": 41.155544,
+        "lng": 15.247665
+      }
+    },
+    {
+      "istatCode": "071033",
+      "officialName": "Monte Sant'Angelo",
+      "normalizedName": "monte sant angelo",
+      "aliases": [
+        "monte",
+        "monte sant",
+        "montesant",
+        "montesantangelo"
+      ],
+      "areaKm2": 243.165,
+      "baseChips": 127,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071008",
+        "071012",
+        "071029",
+        "071031",
+        "071046",
+        "071047",
+        "071059",
+        "071060"
+      ],
+      "focusPoint": {
+        "lat": 41.73108,
+        "lng": 15.917088
+      }
+    },
+    {
+      "istatCode": "071034",
+      "officialName": "Motta Montecorvino",
+      "normalizedName": "motta montecorvino",
+      "aliases": [
+        "motta",
+        "mottamontecorvino"
+      ],
+      "areaKm2": 19.943,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071018",
+        "071039",
+        "071061",
+        "071062"
+      ],
+      "focusPoint": {
+        "lat": 41.50228,
+        "lng": 15.113161
+      }
+    },
+    {
+      "istatCode": "071035",
+      "officialName": "Orsara di Puglia",
+      "normalizedName": "orsara di puglia",
+      "aliases": [
+        "orsara",
+        "orsaradipuglia"
+      ],
+      "areaKm2": 82.444,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071007",
+        "071015",
+        "071019",
+        "071023",
+        "071037",
+        "071058"
+      ],
+      "focusPoint": {
+        "lat": 41.286783,
+        "lng": 15.270009
+      }
+    },
+    {
+      "istatCode": "071036",
+      "officialName": "Orta Nova",
+      "normalizedName": "orta nova",
+      "aliases": [
+        "orta",
+        "ortanova"
+      ],
+      "areaKm2": 104.781,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071005",
+        "071010",
+        "071020",
+        "071054",
+        "071055",
+        "071063"
+      ],
+      "focusPoint": {
+        "lat": 41.311578,
+        "lng": 15.708839
+      }
+    },
+    {
+      "istatCode": "071037",
+      "officialName": "Panni",
+      "normalizedName": "panni",
+      "aliases": [],
+      "areaKm2": 32.455,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071001",
+        "071007",
+        "071032",
+        "071035"
+      ],
+      "focusPoint": {
+        "lat": 41.205961,
+        "lng": 15.289158
+      }
+    },
+    {
+      "istatCode": "071038",
+      "officialName": "Peschici",
+      "normalizedName": "peschici",
+      "aliases": [],
+      "areaKm2": 49.08,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071059",
+        "071060"
+      ],
+      "focusPoint": {
+        "lat": 41.903142,
+        "lng": 16.028385
+      }
+    },
+    {
+      "istatCode": "071039",
+      "officialName": "Pietramontecorvino",
+      "normalizedName": "pietramontecorvino",
+      "aliases": [],
+      "areaKm2": 71.354,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071013",
+        "071014",
+        "071017",
+        "071018",
+        "071028",
+        "071034",
+        "071062"
+      ],
+      "focusPoint": {
+        "lat": 41.548881,
+        "lng": 15.133107
+      }
+    },
+    {
+      "istatCode": "071040",
+      "officialName": "Poggio Imperiale",
+      "normalizedName": "poggio imperiale",
+      "aliases": [
+        "poggio",
+        "poggioimperiale"
+      ],
+      "areaKm2": 52.525,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071004",
+        "071027",
+        "071049",
+        "071050"
+      ],
+      "focusPoint": {
+        "lat": 41.834531,
+        "lng": 15.344732
+      }
+    },
+    {
+      "istatCode": "071041",
+      "officialName": "Rignano Garganico",
+      "normalizedName": "rignano garganico",
+      "aliases": [
+        "rignano",
+        "rignanogarganico"
+      ],
+      "areaKm2": 89.423,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071004",
+        "071024",
+        "071047",
+        "071051"
+      ],
+      "focusPoint": {
+        "lat": 41.658648,
+        "lng": 15.583367
+      }
+    },
+    {
+      "istatCode": "071042",
+      "officialName": "Rocchetta Sant'Antonio",
+      "normalizedName": "rocchetta sant antonio",
+      "aliases": [
+        "rocchetta",
+        "rocchetta sant",
+        "rocchettasant",
+        "rocchettasantantonio"
+      ],
+      "areaKm2": 71.86,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071009",
+        "071052"
+      ],
+      "focusPoint": {
+        "lat": 41.103717,
+        "lng": 15.466193
+      }
+    },
+    {
+      "istatCode": "071043",
+      "officialName": "Rodi Garganico",
+      "normalizedName": "rodi garganico",
+      "aliases": [
+        "rodi",
+        "rodigarganico"
+      ],
+      "areaKm2": 13.524,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071025",
+        "071059"
+      ],
+      "focusPoint": {
+        "lat": 41.920153,
+        "lng": 15.870255
+      }
+    },
+    {
+      "istatCode": "071044",
+      "officialName": "Roseto Valfortore",
+      "normalizedName": "roseto valfortore",
+      "aliases": [
+        "roseto",
+        "rosetovalfortore"
+      ],
+      "areaKm2": 49.667,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071002",
+        "071006",
+        "071023"
+      ],
+      "focusPoint": {
+        "lat": 41.361357,
+        "lng": 15.107041
+      }
+    },
+    {
+      "istatCode": "071046",
+      "officialName": "San Giovanni Rotondo",
+      "normalizedName": "san giovanni rotondo",
+      "aliases": [
+        "san giovanni",
+        "sangiovanni",
+        "sangiovannirotondo"
+      ],
+      "areaKm2": 260.149,
+      "baseChips": 126,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071024",
+        "071029",
+        "071033",
+        "071047"
+      ],
+      "focusPoint": {
+        "lat": 41.636682,
+        "lng": 15.768027
+      }
+    },
+    {
+      "istatCode": "071047",
+      "officialName": "San Marco in Lamis",
+      "normalizedName": "san marco in lamis",
+      "aliases": [
+        "sanmarcoinlamis"
+      ],
+      "areaKm2": 232.34,
+      "baseChips": 128,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071004",
+        "071008",
+        "071024",
+        "071029",
+        "071033",
+        "071041",
+        "071046",
+        "071049",
+        "071051"
+      ],
+      "focusPoint": {
+        "lat": 41.695751,
+        "lng": 15.646116
+      }
+    },
+    {
+      "istatCode": "071048",
+      "officialName": "San Marco la Catola",
+      "normalizedName": "san marco la catola",
+      "aliases": [
+        "san marco la",
+        "sanmarcola",
+        "sanmarcolacatola"
+      ],
+      "areaKm2": 28.363,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071018",
+        "071061"
+      ],
+      "focusPoint": {
+        "lat": 41.513337,
+        "lng": 15.003839
+      }
+    },
+    {
+      "istatCode": "071049",
+      "officialName": "San Nicandro Garganico",
+      "normalizedName": "san nicandro garganico",
+      "aliases": [
+        "san nicandro",
+        "sannicandro",
+        "sannicandrogarganico"
+      ],
+      "areaKm2": 171.616,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071004",
+        "071008",
+        "071027",
+        "071040",
+        "071047"
+      ],
+      "focusPoint": {
+        "lat": 41.82594,
+        "lng": 15.578798
+      }
+    },
+    {
+      "istatCode": "071050",
+      "officialName": "San Paolo di Civitate",
+      "normalizedName": "san paolo di civitate",
+      "aliases": [
+        "san paolo",
+        "sanpaolo",
+        "sanpaolodicivitate"
+      ],
+      "areaKm2": 90.131,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071004",
+        "071027",
+        "071040",
+        "071051",
+        "071053",
+        "071056"
+      ],
+      "focusPoint": {
+        "lat": 41.774255,
+        "lng": 15.26624
+      }
+    },
+    {
+      "istatCode": "071051",
+      "officialName": "San Severo",
+      "normalizedName": "san severo",
+      "aliases": [
+        "sansevero"
+      ],
+      "areaKm2": 333.295,
+      "baseChips": 120,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071004",
+        "071024",
+        "071028",
+        "071041",
+        "071047",
+        "071050",
+        "071056"
+      ],
+      "focusPoint": {
+        "lat": 41.662517,
+        "lng": 15.422327
+      }
+    },
+    {
+      "istatCode": "071052",
+      "officialName": "Sant'Agata di Puglia",
+      "normalizedName": "sant agata di puglia",
+      "aliases": [
+        "sant",
+        "sant agata",
+        "santagata",
+        "santagatadipuglia"
+      ],
+      "areaKm2": 115.399,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071001",
+        "071003",
+        "071009",
+        "071022",
+        "071032",
+        "071042"
+      ],
+      "focusPoint": {
+        "lat": 41.140735,
+        "lng": 15.36227
+      }
+    },
+    {
+      "istatCode": "071053",
+      "officialName": "Serracapriola",
+      "normalizedName": "serracapriola",
+      "aliases": [],
+      "areaKm2": 143.073,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071021",
+        "071027",
+        "071050",
+        "071056"
+      ],
+      "focusPoint": {
+        "lat": 41.82315,
+        "lng": 15.176184
+      }
+    },
+    {
+      "istatCode": "071054",
+      "officialName": "Stornara",
+      "normalizedName": "stornara",
+      "aliases": [],
+      "areaKm2": 33.451,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071020",
+        "071036",
+        "071055"
+      ],
+      "focusPoint": {
+        "lat": 41.294416,
+        "lng": 15.777114
+      }
+    },
+    {
+      "istatCode": "071055",
+      "officialName": "Stornarella",
+      "normalizedName": "stornarella",
+      "aliases": [],
+      "areaKm2": 33.617,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071005",
+        "071020",
+        "071036",
+        "071054"
+      ],
+      "focusPoint": {
+        "lat": 41.268104,
+        "lng": 15.726766
+      }
+    },
+    {
+      "istatCode": "071056",
+      "officialName": "Torremaggiore",
+      "normalizedName": "torremaggiore",
+      "aliases": [],
+      "areaKm2": 208.796,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071014",
+        "071017",
+        "071028",
+        "071050",
+        "071051",
+        "071053"
+      ],
+      "focusPoint": {
+        "lat": 41.663063,
+        "lng": 15.235864
+      }
+    },
+    {
+      "istatCode": "071058",
+      "officialName": "Troia",
+      "normalizedName": "troia",
+      "aliases": [],
+      "areaKm2": 167.785,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071006",
+        "071015",
+        "071016",
+        "071019",
+        "071024",
+        "071028",
+        "071035"
+      ],
+      "focusPoint": {
+        "lat": 41.364624,
+        "lng": 15.357643
+      }
+    },
+    {
+      "istatCode": "071059",
+      "officialName": "Vico del Gargano",
+      "normalizedName": "vico del gargano",
+      "aliases": [
+        "vico",
+        "vicodelgargano"
+      ],
+      "areaKm2": 110.438,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071012",
+        "071025",
+        "071033",
+        "071038",
+        "071043",
+        "071060"
+      ],
+      "focusPoint": {
+        "lat": 41.876452,
+        "lng": 15.962931
+      }
+    },
+    {
+      "istatCode": "071060",
+      "officialName": "Vieste",
+      "normalizedName": "vieste",
+      "aliases": [],
+      "areaKm2": 167.784,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071031",
+        "071033",
+        "071038",
+        "071059"
+      ],
+      "focusPoint": {
+        "lat": 41.849143,
+        "lng": 16.120435
+      }
+    },
+    {
+      "istatCode": "071061",
+      "officialName": "Volturara Appula",
+      "normalizedName": "volturara appula",
+      "aliases": [
+        "volturara",
+        "volturaraappula"
+      ],
+      "areaKm2": 51.99,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071002",
+        "071018",
+        "071034",
+        "071048",
+        "071062"
+      ],
+      "focusPoint": {
+        "lat": 41.48317,
+        "lng": 15.051062
+      }
+    },
+    {
+      "istatCode": "071062",
+      "officialName": "Volturino",
+      "normalizedName": "volturino",
+      "aliases": [],
+      "areaKm2": 57.879,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071002",
+        "071028",
+        "071034",
+        "071039",
+        "071061"
+      ],
+      "focusPoint": {
+        "lat": 41.501706,
+        "lng": 15.192554
+      }
+    },
+    {
+      "istatCode": "071063",
+      "officialName": "Ordona",
+      "normalizedName": "ordona",
+      "aliases": [],
+      "areaKm2": 39.27,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "071005",
+        "071010",
+        "071024",
+        "071036"
+      ],
+      "focusPoint": {
+        "lat": 41.30269,
+        "lng": 15.625654
+      }
+    },
+    {
+      "istatCode": "071064",
+      "officialName": "Zapponeta",
+      "normalizedName": "zapponeta",
+      "aliases": [],
+      "areaKm2": 41.5,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "071020",
+        "071029"
+      ],
+      "focusPoint": {
+        "lat": 41.455607,
+        "lng": 15.86866
+      }
+    }
+  ]
+}

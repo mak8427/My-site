@@ -1,0 +1,227 @@
+{
+  "provinceCode": "110",
+  "label": "Barletta-Andria-Trani",
+  "officialScopeLabel": "Provincia di Barletta-Andria-Trani",
+  "sigla": "BT",
+  "slug": "barletta-andria-trani",
+  "sourceYear": 2026,
+  "count": 10,
+  "municipalities": [
+    {
+      "istatCode": "110001",
+      "officialName": "Andria",
+      "normalizedName": "andria",
+      "aliases": [],
+      "areaKm2": 399.846,
+      "baseChips": 116,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110002",
+        "110004",
+        "110006",
+        "110008",
+        "110009"
+      ],
+      "focusPoint": {
+        "lat": 41.138877,
+        "lng": 16.233801
+      }
+    },
+    {
+      "istatCode": "110002",
+      "officialName": "Barletta",
+      "normalizedName": "barletta",
+      "aliases": [],
+      "areaKm2": 148.137,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110001",
+        "110004",
+        "110005",
+        "110007",
+        "110009",
+        "110010"
+      ],
+      "focusPoint": {
+        "lat": 41.295374,
+        "lng": 16.238338
+      }
+    },
+    {
+      "istatCode": "110003",
+      "officialName": "Bisceglie",
+      "normalizedName": "bisceglie",
+      "aliases": [],
+      "areaKm2": 68.478,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110009"
+      ],
+      "focusPoint": {
+        "lat": 41.198896,
+        "lng": 16.478335
+      }
+    },
+    {
+      "istatCode": "110004",
+      "officialName": "Canosa di Puglia",
+      "normalizedName": "canosa di puglia",
+      "aliases": [
+        "canosa",
+        "canosadipuglia"
+      ],
+      "areaKm2": 149.301,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110001",
+        "110002",
+        "110006",
+        "110007"
+      ],
+      "focusPoint": {
+        "lat": 41.193122,
+        "lng": 16.044611
+      }
+    },
+    {
+      "istatCode": "110005",
+      "officialName": "Margherita di Savoia",
+      "normalizedName": "margherita di savoia",
+      "aliases": [
+        "margherita",
+        "margheritadisavoia"
+      ],
+      "areaKm2": 35.499,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110002",
+        "110010"
+      ],
+      "focusPoint": {
+        "lat": 41.379512,
+        "lng": 16.127289
+      }
+    },
+    {
+      "istatCode": "110006",
+      "officialName": "Minervino Murge",
+      "normalizedName": "minervino murge",
+      "aliases": [
+        "minervino",
+        "minervinomurge"
+      ],
+      "areaKm2": 255.582,
+      "baseChips": 126,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110001",
+        "110004",
+        "110008"
+      ],
+      "focusPoint": {
+        "lat": 41.076858,
+        "lng": 16.081314
+      }
+    },
+    {
+      "istatCode": "110007",
+      "officialName": "San Ferdinando di Puglia",
+      "normalizedName": "san ferdinando di puglia",
+      "aliases": [
+        "san",
+        "san ferdinando",
+        "sanferdinando",
+        "sanferdinandodipuglia"
+      ],
+      "areaKm2": 41.089,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110002",
+        "110004",
+        "110010"
+      ],
+      "focusPoint": {
+        "lat": 41.273016,
+        "lng": 16.0357
+      }
+    },
+    {
+      "istatCode": "110008",
+      "officialName": "Spinazzola",
+      "normalizedName": "spinazzola",
+      "aliases": [],
+      "areaKm2": 182.133,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110001",
+        "110006"
+      ],
+      "focusPoint": {
+        "lat": 40.966073,
+        "lng": 16.113572
+      }
+    },
+    {
+      "istatCode": "110009",
+      "officialName": "Trani",
+      "normalizedName": "trani",
+      "aliases": [],
+      "areaKm2": 102.244,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110001",
+        "110002",
+        "110003"
+      ],
+      "focusPoint": {
+        "lat": 41.235623,
+        "lng": 16.396935
+      }
+    },
+    {
+      "istatCode": "110010",
+      "officialName": "Trinitapoli",
+      "normalizedName": "trinitapoli",
+      "aliases": [],
+      "areaKm2": 147.824,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "110002",
+        "110005",
+        "110007"
+      ],
+      "focusPoint": {
+        "lat": 41.366519,
+        "lng": 16.071642
+      }
+    }
+  ]
+}

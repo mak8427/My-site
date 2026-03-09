@@ -1,0 +1,597 @@
+{
+  "provinceCode": "113",
+  "label": "Gallura Nord-Est Sardegna",
+  "officialScopeLabel": "Provincia di Gallura Nord-Est Sardegna",
+  "sigla": "OT",
+  "slug": "gallura-nord-est-sardegna",
+  "sourceYear": 2026,
+  "count": 26,
+  "municipalities": [
+    {
+      "istatCode": "113001",
+      "officialName": "Aggius",
+      "normalizedName": "aggius",
+      "aliases": [],
+      "areaKm2": 86.514,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113002",
+        "113007",
+        "113025",
+        "113026"
+      ],
+      "focusPoint": {
+        "lat": 40.991387,
+        "lng": 9.025527
+      }
+    },
+    {
+      "istatCode": "113002",
+      "officialName": "Aglientu",
+      "normalizedName": "aglientu",
+      "aliases": [],
+      "areaKm2": 148.476,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113001",
+        "113014",
+        "113022",
+        "113025",
+        "113026"
+      ],
+      "focusPoint": {
+        "lat": 41.081989,
+        "lng": 9.097842
+      }
+    },
+    {
+      "istatCode": "113003",
+      "officialName": "Alà dei Sardi",
+      "normalizedName": "ala dei sardi",
+      "aliases": [
+        "ala",
+        "aladeisardi"
+      ],
+      "areaKm2": 197.664,
+      "baseChips": 132,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113006",
+        "113008",
+        "113016",
+        "113017",
+        "113018",
+        "113019"
+      ],
+      "focusPoint": {
+        "lat": 40.664826,
+        "lng": 9.356478
+      }
+    },
+    {
+      "istatCode": "113004",
+      "officialName": "Arzachena",
+      "normalizedName": "arzachena",
+      "aliases": [],
+      "areaKm2": 231.498,
+      "baseChips": 128,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113014",
+        "113015",
+        "113017",
+        "113020",
+        "113023",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 41.085922,
+        "lng": 9.412938
+      }
+    },
+    {
+      "istatCode": "113005",
+      "officialName": "Badesi",
+      "normalizedName": "badesi",
+      "aliases": [],
+      "areaKm2": 31.496,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113026"
+      ],
+      "focusPoint": {
+        "lat": 40.957695,
+        "lng": 8.885899
+      }
+    },
+    {
+      "istatCode": "113006",
+      "officialName": "Berchidda",
+      "normalizedName": "berchidda",
+      "aliases": [],
+      "areaKm2": 202.422,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "113003",
+        "113010",
+        "113016",
+        "113018",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 40.769025,
+        "lng": 9.196057
+      }
+    },
+    {
+      "istatCode": "113007",
+      "officialName": "Bortigiadas",
+      "normalizedName": "bortigiadas",
+      "aliases": [],
+      "areaKm2": 75.728,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113001",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 40.875113,
+        "lng": 8.979494
+      }
+    },
+    {
+      "istatCode": "113008",
+      "officialName": "Buddusò",
+      "normalizedName": "budduso",
+      "aliases": [],
+      "areaKm2": 176.834,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113003",
+        "113018"
+      ],
+      "focusPoint": {
+        "lat": 40.607242,
+        "lng": 9.268308
+      }
+    },
+    {
+      "istatCode": "113009",
+      "officialName": "Budoni",
+      "normalizedName": "budoni",
+      "aliases": [],
+      "areaKm2": 56.23,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113021"
+      ],
+      "focusPoint": {
+        "lat": 40.705436,
+        "lng": 9.657555
+      }
+    },
+    {
+      "istatCode": "113010",
+      "officialName": "Calangianus",
+      "normalizedName": "calangianus",
+      "aliases": [],
+      "areaKm2": 127.089,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "113006",
+        "113015",
+        "113016",
+        "113023",
+        "113024",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 40.919156,
+        "lng": 9.236134
+      }
+    },
+    {
+      "istatCode": "113011",
+      "officialName": "Golfo Aranci",
+      "normalizedName": "golfo aranci",
+      "aliases": [
+        "golfo",
+        "golfoaranci"
+      ],
+      "areaKm2": 37.275,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113017"
+      ],
+      "focusPoint": {
+        "lat": 40.988236,
+        "lng": 9.556977
+      }
+    },
+    {
+      "istatCode": "113012",
+      "officialName": "La Maddalena",
+      "normalizedName": "la maddalena",
+      "aliases": [
+        "la",
+        "lamaddalena"
+      ],
+      "areaKm2": 53.022,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [],
+      "focusPoint": {
+        "lat": 41.238765,
+        "lng": 9.415102
+      }
+    },
+    {
+      "istatCode": "113013",
+      "officialName": "Loiri Porto San Paolo",
+      "normalizedName": "loiri porto san paolo",
+      "aliases": [
+        "loiri",
+        "loiri porto",
+        "loiri porto san",
+        "loiriporto",
+        "loiriportosan",
+        "loiriportosanpaolo"
+      ],
+      "areaKm2": 118.526,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113016",
+        "113017",
+        "113019",
+        "113021"
+      ],
+      "focusPoint": {
+        "lat": 40.83574,
+        "lng": 9.541052
+      }
+    },
+    {
+      "istatCode": "113014",
+      "officialName": "Luogosanto",
+      "normalizedName": "luogosanto",
+      "aliases": [],
+      "areaKm2": 134.919,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "113002",
+        "113004",
+        "113015",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 41.067428,
+        "lng": 9.224545
+      }
+    },
+    {
+      "istatCode": "113015",
+      "officialName": "Luras",
+      "normalizedName": "luras",
+      "aliases": [],
+      "areaKm2": 88.27,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "113004",
+        "113010",
+        "113014",
+        "113023",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 40.970213,
+        "lng": 9.171504
+      }
+    },
+    {
+      "istatCode": "113016",
+      "officialName": "Monti",
+      "normalizedName": "monti",
+      "aliases": [],
+      "areaKm2": 123.814,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "113003",
+        "113006",
+        "113010",
+        "113013",
+        "113017",
+        "113024"
+      ],
+      "focusPoint": {
+        "lat": 40.79811,
+        "lng": 9.35278
+      }
+    },
+    {
+      "istatCode": "113017",
+      "officialName": "Olbia",
+      "normalizedName": "olbia",
+      "aliases": [],
+      "areaKm2": 385.774,
+      "baseChips": 117,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113003",
+        "113004",
+        "113011",
+        "113013",
+        "113016",
+        "113019",
+        "113023",
+        "113024"
+      ],
+      "focusPoint": {
+        "lat": 40.951425,
+        "lng": 9.476598
+      }
+    },
+    {
+      "istatCode": "113018",
+      "officialName": "Oschiri",
+      "normalizedName": "oschiri",
+      "aliases": [],
+      "areaKm2": 215.676,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113003",
+        "113006",
+        "113008",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 40.737785,
+        "lng": 9.111629
+      }
+    },
+    {
+      "istatCode": "113019",
+      "officialName": "Padru",
+      "normalizedName": "padru",
+      "aliases": [],
+      "areaKm2": 158.175,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113003",
+        "113013",
+        "113017",
+        "113021"
+      ],
+      "focusPoint": {
+        "lat": 40.718794,
+        "lng": 9.502012
+      }
+    },
+    {
+      "istatCode": "113020",
+      "officialName": "Palau",
+      "normalizedName": "palau",
+      "aliases": [],
+      "areaKm2": 44.756,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113004",
+        "113022",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 41.168286,
+        "lng": 9.368226
+      }
+    },
+    {
+      "istatCode": "113021",
+      "officialName": "San Teodoro",
+      "normalizedName": "san teodoro",
+      "aliases": [
+        "san",
+        "santeodoro"
+      ],
+      "areaKm2": 105.048,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113009",
+        "113013",
+        "113019"
+      ],
+      "focusPoint": {
+        "lat": 40.776952,
+        "lng": 9.630121
+      }
+    },
+    {
+      "istatCode": "113022",
+      "officialName": "Santa Teresa Gallura",
+      "normalizedName": "santa teresa gallura",
+      "aliases": [
+        "santa",
+        "santa teresa",
+        "santateresa",
+        "santateresagallura"
+      ],
+      "areaKm2": 103.368,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113002",
+        "113020",
+        "113025"
+      ],
+      "focusPoint": {
+        "lat": 41.204787,
+        "lng": 9.216556
+      }
+    },
+    {
+      "istatCode": "113023",
+      "officialName": "Sant'Antonio di Gallura",
+      "normalizedName": "sant antonio di gallura",
+      "aliases": [
+        "sant",
+        "sant antonio",
+        "santantonio",
+        "santantoniodigallura"
+      ],
+      "areaKm2": 81.367,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "113004",
+        "113010",
+        "113015",
+        "113017",
+        "113024"
+      ],
+      "focusPoint": {
+        "lat": 40.971288,
+        "lng": 9.321285
+      }
+    },
+    {
+      "istatCode": "113024",
+      "officialName": "Telti",
+      "normalizedName": "telti",
+      "aliases": [],
+      "areaKm2": 83.423,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "113010",
+        "113016",
+        "113017",
+        "113023"
+      ],
+      "focusPoint": {
+        "lat": 40.903389,
+        "lng": 9.349901
+      }
+    },
+    {
+      "istatCode": "113025",
+      "officialName": "Tempio Pausania",
+      "normalizedName": "tempio pausania",
+      "aliases": [
+        "tempio",
+        "tempiopausania"
+      ],
+      "areaKm2": 210.723,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113001",
+        "113002",
+        "113004",
+        "113006",
+        "113007",
+        "113010",
+        "113014",
+        "113015",
+        "113018",
+        "113020",
+        "113022"
+      ],
+      "focusPoint": {
+        "lat": 41.13656,
+        "lng": 9.256228
+      }
+    },
+    {
+      "istatCode": "113026",
+      "officialName": "Trinità d'Agultu e Vignola",
+      "normalizedName": "trinita d agultu e vignola",
+      "aliases": [
+        "trinita",
+        "trinita d agultu",
+        "trinita d agultu e",
+        "trinitadagultu",
+        "trinitadagultue",
+        "trinitadagultuevignola"
+      ],
+      "areaKm2": 134.2,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "113001",
+        "113002",
+        "113005"
+      ],
+      "focusPoint": {
+        "lat": 41.031908,
+        "lng": 8.970821
+      }
+    }
+  ]
+}

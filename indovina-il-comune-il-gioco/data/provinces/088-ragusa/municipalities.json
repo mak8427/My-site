@@ -1,0 +1,266 @@
+{
+  "provinceCode": "088",
+  "label": "Ragusa",
+  "officialScopeLabel": "Provincia di Ragusa",
+  "sigla": "RG",
+  "slug": "ragusa",
+  "sourceYear": 2026,
+  "count": 12,
+  "municipalities": [
+    {
+      "istatCode": "088001",
+      "officialName": "Acate",
+      "normalizedName": "acate",
+      "aliases": [],
+      "areaKm2": 101.899,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088002",
+        "088012"
+      ],
+      "focusPoint": {
+        "lat": 37.011693,
+        "lng": 14.437563
+      }
+    },
+    {
+      "istatCode": "088002",
+      "officialName": "Chiaramonte Gulfi",
+      "normalizedName": "chiaramonte gulfi",
+      "aliases": [
+        "chiaramonte",
+        "chiaramontegulfi"
+      ],
+      "areaKm2": 127.123,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088001",
+        "088003",
+        "088007",
+        "088009",
+        "088012"
+      ],
+      "focusPoint": {
+        "lat": 37.049155,
+        "lng": 14.636148
+      }
+    },
+    {
+      "istatCode": "088003",
+      "officialName": "Comiso",
+      "normalizedName": "comiso",
+      "aliases": [],
+      "areaKm2": 64.313,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "088002",
+        "088009",
+        "088012"
+      ],
+      "focusPoint": {
+        "lat": 36.975115,
+        "lng": 14.61429
+      }
+    },
+    {
+      "istatCode": "088004",
+      "officialName": "Giarratana",
+      "normalizedName": "giarratana",
+      "aliases": [],
+      "areaKm2": 43.515,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088006",
+        "088007",
+        "088009"
+      ],
+      "focusPoint": {
+        "lat": 37.075948,
+        "lng": 14.805827
+      }
+    },
+    {
+      "istatCode": "088005",
+      "officialName": "Ispica",
+      "normalizedName": "ispica",
+      "aliases": [],
+      "areaKm2": 112.969,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088006",
+        "088008"
+      ],
+      "focusPoint": {
+        "lat": 36.758267,
+        "lng": 14.926315
+      }
+    },
+    {
+      "istatCode": "088006",
+      "officialName": "Modica",
+      "normalizedName": "modica",
+      "aliases": [],
+      "areaKm2": 291.048,
+      "baseChips": 123,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088004",
+        "088005",
+        "088008",
+        "088009",
+        "088011"
+      ],
+      "focusPoint": {
+        "lat": 36.839844,
+        "lng": 14.789035
+      }
+    },
+    {
+      "istatCode": "088007",
+      "officialName": "Monterosso Almo",
+      "normalizedName": "monterosso almo",
+      "aliases": [
+        "monterosso",
+        "monterossoalmo"
+      ],
+      "areaKm2": 56.206,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088002",
+        "088004",
+        "088009"
+      ],
+      "focusPoint": {
+        "lat": 37.074272,
+        "lng": 14.758988
+      }
+    },
+    {
+      "istatCode": "088008",
+      "officialName": "Pozzallo",
+      "normalizedName": "pozzallo",
+      "aliases": [],
+      "areaKm2": 15.277,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088005",
+        "088006"
+      ],
+      "focusPoint": {
+        "lat": 36.734762,
+        "lng": 14.863297
+      }
+    },
+    {
+      "istatCode": "088009",
+      "officialName": "Ragusa",
+      "normalizedName": "ragusa",
+      "aliases": [],
+      "areaKm2": 442.105,
+      "baseChips": 114,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088002",
+        "088003",
+        "088004",
+        "088006",
+        "088007",
+        "088010",
+        "088011",
+        "088012"
+      ],
+      "focusPoint": {
+        "lat": 36.906235,
+        "lng": 14.662489
+      }
+    },
+    {
+      "istatCode": "088010",
+      "officialName": "Santa Croce Camerina",
+      "normalizedName": "santa croce camerina",
+      "aliases": [
+        "santa",
+        "santa croce",
+        "santacroce",
+        "santacrocecamerina"
+      ],
+      "areaKm2": 40.598,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088009"
+      ],
+      "focusPoint": {
+        "lat": 36.823079,
+        "lng": 14.517771
+      }
+    },
+    {
+      "istatCode": "088011",
+      "officialName": "Scicli",
+      "normalizedName": "scicli",
+      "aliases": [],
+      "areaKm2": 137.901,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088006",
+        "088009"
+      ],
+      "focusPoint": {
+        "lat": 36.77998,
+        "lng": 14.684193
+      }
+    },
+    {
+      "istatCode": "088012",
+      "officialName": "Vittoria",
+      "normalizedName": "vittoria",
+      "aliases": [],
+      "areaKm2": 181.97,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "088001",
+        "088002",
+        "088003",
+        "088009"
+      ],
+      "focusPoint": {
+        "lat": 36.960947,
+        "lng": 14.494764
+      }
+    }
+  ]
+}

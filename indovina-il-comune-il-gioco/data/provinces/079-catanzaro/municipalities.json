@@ -1,0 +1,1836 @@
+{
+  "provinceCode": "079",
+  "label": "Catanzaro",
+  "officialScopeLabel": "Provincia di Catanzaro",
+  "sigla": "CZ",
+  "slug": "catanzaro",
+  "sourceYear": 2026,
+  "count": 80,
+  "municipalities": [
+    {
+      "istatCode": "079002",
+      "officialName": "Albi",
+      "normalizedName": "albi",
+      "aliases": [],
+      "areaKm2": 29.513,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079052",
+        "079068",
+        "079092",
+        "079126",
+        "079146",
+        "079157"
+      ],
+      "focusPoint": {
+        "lat": 39.03718,
+        "lng": 16.590188
+      }
+    },
+    {
+      "istatCode": "079003",
+      "officialName": "Amaroni",
+      "normalizedName": "amaroni",
+      "aliases": [],
+      "areaKm2": 9.695,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079059",
+        "079142",
+        "079151"
+      ],
+      "focusPoint": {
+        "lat": 38.793229,
+        "lng": 16.445411
+      }
+    },
+    {
+      "istatCode": "079004",
+      "officialName": "Amato",
+      "normalizedName": "amato",
+      "aliases": [],
+      "areaKm2": 20.802,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079072",
+        "079077",
+        "079096",
+        "079129"
+      ],
+      "focusPoint": {
+        "lat": 38.939974,
+        "lng": 16.452551
+      }
+    },
+    {
+      "istatCode": "079005",
+      "officialName": "Andali",
+      "normalizedName": "andali",
+      "aliases": [],
+      "areaKm2": 17.658,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079009",
+        "079012",
+        "079027",
+        "079036"
+      ],
+      "focusPoint": {
+        "lat": 38.987754,
+        "lng": 16.809245
+      }
+    },
+    {
+      "istatCode": "079007",
+      "officialName": "Argusto",
+      "normalizedName": "argusto",
+      "aliases": [],
+      "areaKm2": 6.791,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079018",
+        "079029",
+        "079055",
+        "079094"
+      ],
+      "focusPoint": {
+        "lat": 38.680827,
+        "lng": 16.439394
+      }
+    },
+    {
+      "istatCode": "079008",
+      "officialName": "Badolato",
+      "normalizedName": "badolato",
+      "aliases": [],
+      "areaKm2": 36.843,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079063",
+        "079116",
+        "079117"
+      ],
+      "focusPoint": {
+        "lat": 38.571725,
+        "lng": 16.520246
+      }
+    },
+    {
+      "istatCode": "079009",
+      "officialName": "Belcastro",
+      "normalizedName": "belcastro",
+      "aliases": [],
+      "areaKm2": 53.024,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079005",
+        "079012",
+        "079027",
+        "079071",
+        "079095"
+      ],
+      "focusPoint": {
+        "lat": 38.985394,
+        "lng": 16.855977
+      }
+    },
+    {
+      "istatCode": "079011",
+      "officialName": "Borgia",
+      "normalizedName": "borgia",
+      "aliases": [],
+      "areaKm2": 42.189,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079023",
+        "079059",
+        "079108",
+        "079142"
+      ],
+      "focusPoint": {
+        "lat": 38.81791,
+        "lng": 16.542125
+      }
+    },
+    {
+      "istatCode": "079012",
+      "officialName": "Botricello",
+      "normalizedName": "botricello",
+      "aliases": [],
+      "areaKm2": 15.105,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079005",
+        "079009",
+        "079036"
+      ],
+      "focusPoint": {
+        "lat": 38.944637,
+        "lng": 16.851524
+      }
+    },
+    {
+      "istatCode": "079017",
+      "officialName": "Caraffa di Catanzaro",
+      "normalizedName": "caraffa di catanzaro",
+      "aliases": [
+        "caraffa",
+        "caraffadicatanzaro"
+      ],
+      "areaKm2": 24.662,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079023",
+        "079069",
+        "079072",
+        "079108",
+        "079131"
+      ],
+      "focusPoint": {
+        "lat": 38.880081,
+        "lng": 16.496549
+      }
+    },
+    {
+      "istatCode": "079018",
+      "officialName": "Cardinale",
+      "normalizedName": "cardinale",
+      "aliases": [],
+      "areaKm2": 30.08,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079007",
+        "079029",
+        "079055",
+        "079116",
+        "079123",
+        "079148"
+      ],
+      "focusPoint": {
+        "lat": 38.634633,
+        "lng": 16.400115
+      }
+    },
+    {
+      "istatCode": "079020",
+      "officialName": "Carlopoli",
+      "normalizedName": "carlopoli",
+      "aliases": [],
+      "areaKm2": 16.368,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079030",
+        "079058",
+        "079134",
+        "079138"
+      ],
+      "focusPoint": {
+        "lat": 39.047765,
+        "lng": 16.446069
+      }
+    },
+    {
+      "istatCode": "079023",
+      "officialName": "Catanzaro",
+      "normalizedName": "catanzaro",
+      "aliases": [],
+      "areaKm2": 110.834,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079011",
+        "079017",
+        "079058",
+        "079092",
+        "079108",
+        "079126",
+        "079131",
+        "079133",
+        "079147"
+      ],
+      "focusPoint": {
+        "lat": 38.88964,
+        "lng": 16.598535
+      }
+    },
+    {
+      "istatCode": "079024",
+      "officialName": "Cenadi",
+      "normalizedName": "cenadi",
+      "aliases": [],
+      "areaKm2": 11.843,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079034",
+        "079088",
+        "079122",
+        "079151"
+      ],
+      "focusPoint": {
+        "lat": 38.734556,
+        "lng": 16.380736
+      }
+    },
+    {
+      "istatCode": "079025",
+      "officialName": "Centrache",
+      "normalizedName": "centrache",
+      "aliases": [],
+      "areaKm2": 8.208,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079081",
+        "079088",
+        "079089",
+        "079094",
+        "079151"
+      ],
+      "focusPoint": {
+        "lat": 38.739004,
+        "lng": 16.436446
+      }
+    },
+    {
+      "istatCode": "079027",
+      "officialName": "Cerva",
+      "normalizedName": "cerva",
+      "aliases": [],
+      "areaKm2": 21.603,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079005",
+        "079009",
+        "079036",
+        "079095",
+        "079130"
+      ],
+      "focusPoint": {
+        "lat": 39.011763,
+        "lng": 16.752989
+      }
+    },
+    {
+      "istatCode": "079029",
+      "officialName": "Chiaravalle Centrale",
+      "normalizedName": "chiaravalle centrale",
+      "aliases": [
+        "chiaravalle",
+        "chiaravallecentrale"
+      ],
+      "areaKm2": 23.461,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079007",
+        "079018",
+        "079094",
+        "079122",
+        "079148"
+      ],
+      "focusPoint": {
+        "lat": 38.690398,
+        "lng": 16.391832
+      }
+    },
+    {
+      "istatCode": "079030",
+      "officialName": "Cicala",
+      "normalizedName": "cicala",
+      "aliases": [],
+      "areaKm2": 9.18,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079020",
+        "079052",
+        "079058",
+        "079134"
+      ],
+      "focusPoint": {
+        "lat": 39.022977,
+        "lng": 16.478046
+      }
+    },
+    {
+      "istatCode": "079033",
+      "officialName": "Conflenti",
+      "normalizedName": "conflenti",
+      "aliases": [],
+      "areaKm2": 29.058,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079043",
+        "079073",
+        "079074",
+        "079083",
+        "079099",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 39.042558,
+        "lng": 16.287679
+      }
+    },
+    {
+      "istatCode": "079034",
+      "officialName": "Cortale",
+      "normalizedName": "cortale",
+      "aliases": [],
+      "areaKm2": 29.705,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079024",
+        "079059",
+        "079065",
+        "079069",
+        "079108",
+        "079151"
+      ],
+      "focusPoint": {
+        "lat": 38.816381,
+        "lng": 16.388529
+      }
+    },
+    {
+      "istatCode": "079036",
+      "officialName": "Cropani",
+      "normalizedName": "cropani",
+      "aliases": [],
+      "areaKm2": 44.459,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079005",
+        "079012",
+        "079027",
+        "079127",
+        "079130"
+      ],
+      "focusPoint": {
+        "lat": 38.959643,
+        "lng": 16.787808
+      }
+    },
+    {
+      "istatCode": "079039",
+      "officialName": "Curinga",
+      "normalizedName": "curinga",
+      "aliases": [],
+      "areaKm2": 52.177,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079065",
+        "079114",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 38.826308,
+        "lng": 16.280436
+      }
+    },
+    {
+      "istatCode": "079042",
+      "officialName": "Davoli",
+      "normalizedName": "davoli",
+      "aliases": [],
+      "areaKm2": 24.653,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079116",
+        "079123"
+      ],
+      "focusPoint": {
+        "lat": 38.638594,
+        "lng": 16.463974
+      }
+    },
+    {
+      "istatCode": "079043",
+      "officialName": "Decollatura",
+      "normalizedName": "decollatura",
+      "aliases": [],
+      "areaKm2": 50.365,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079033",
+        "079058",
+        "079083",
+        "079099",
+        "079115",
+        "079129",
+        "079138"
+      ],
+      "focusPoint": {
+        "lat": 39.05287,
+        "lng": 16.355231
+      }
+    },
+    {
+      "istatCode": "079047",
+      "officialName": "Falerna",
+      "normalizedName": "falerna",
+      "aliases": [],
+      "areaKm2": 24.082,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079060",
+        "079087",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 38.996893,
+        "lng": 16.161478
+      }
+    },
+    {
+      "istatCode": "079048",
+      "officialName": "Feroleto Antico",
+      "normalizedName": "feroleto antico",
+      "aliases": [
+        "feroleto",
+        "feroletoantico"
+      ],
+      "areaKm2": 22.382,
+      "baseChips": 180,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079069",
+        "079096",
+        "079129",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 38.938883,
+        "lng": 16.359397
+      }
+    },
+    {
+      "istatCode": "079052",
+      "officialName": "Fossato Serralta",
+      "normalizedName": "fossato serralta",
+      "aliases": [
+        "fossato",
+        "fossatoserralta"
+      ],
+      "areaKm2": 11.679,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079002",
+        "079030",
+        "079058",
+        "079092",
+        "079134",
+        "079146"
+      ],
+      "focusPoint": {
+        "lat": 39.001226,
+        "lng": 16.574973
+      }
+    },
+    {
+      "istatCode": "079055",
+      "officialName": "Gagliato",
+      "normalizedName": "gagliato",
+      "aliases": [],
+      "areaKm2": 7.209,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079007",
+        "079018",
+        "079094",
+        "079123"
+      ],
+      "focusPoint": {
+        "lat": 38.669974,
+        "lng": 16.453679
+      }
+    },
+    {
+      "istatCode": "079056",
+      "officialName": "Gasperina",
+      "normalizedName": "gasperina",
+      "aliases": [],
+      "areaKm2": 6.514,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079080",
+        "079081",
+        "079089"
+      ],
+      "focusPoint": {
+        "lat": 38.739093,
+        "lng": 16.508069
+      }
+    },
+    {
+      "istatCode": "079058",
+      "officialName": "Gimigliano",
+      "normalizedName": "gimigliano",
+      "aliases": [],
+      "areaKm2": 33.119,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079020",
+        "079023",
+        "079030",
+        "079043",
+        "079052",
+        "079092",
+        "079115",
+        "079134",
+        "079138",
+        "079147"
+      ],
+      "focusPoint": {
+        "lat": 38.982221,
+        "lng": 16.527069
+      }
+    },
+    {
+      "istatCode": "079059",
+      "officialName": "Girifalco",
+      "normalizedName": "girifalco",
+      "aliases": [],
+      "areaKm2": 42.803,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079003",
+        "079011",
+        "079034",
+        "079108",
+        "079142",
+        "079151"
+      ],
+      "focusPoint": {
+        "lat": 38.800203,
+        "lng": 16.413434
+      }
+    },
+    {
+      "istatCode": "079060",
+      "officialName": "Gizzeria",
+      "normalizedName": "gizzeria",
+      "aliases": [],
+      "areaKm2": 36.866,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079047",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 38.966516,
+        "lng": 16.184381
+      }
+    },
+    {
+      "istatCode": "079061",
+      "officialName": "Guardavalle",
+      "normalizedName": "guardavalle",
+      "aliases": [],
+      "areaKm2": 59.894,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079117"
+      ],
+      "focusPoint": {
+        "lat": 38.513534,
+        "lng": 16.461159
+      }
+    },
+    {
+      "istatCode": "079063",
+      "officialName": "Isca sullo Ionio",
+      "normalizedName": "isca sullo ionio",
+      "aliases": [
+        "isca",
+        "isca sullo",
+        "iscasullo",
+        "iscasulloionio"
+      ],
+      "areaKm2": 23.289,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079008",
+        "079116",
+        "079118"
+      ],
+      "focusPoint": {
+        "lat": 38.587266,
+        "lng": 16.501077
+      }
+    },
+    {
+      "istatCode": "079065",
+      "officialName": "Jacurso",
+      "normalizedName": "jacurso",
+      "aliases": [],
+      "areaKm2": 20.988,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079034",
+        "079039",
+        "079069",
+        "079114"
+      ],
+      "focusPoint": {
+        "lat": 38.81111,
+        "lng": 16.367709
+      }
+    },
+    {
+      "istatCode": "079068",
+      "officialName": "Magisano",
+      "normalizedName": "magisano",
+      "aliases": [],
+      "areaKm2": 31.647,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079002",
+        "079126",
+        "079130",
+        "079157"
+      ],
+      "focusPoint": {
+        "lat": 39.032375,
+        "lng": 16.641117
+      }
+    },
+    {
+      "istatCode": "079069",
+      "officialName": "Maida",
+      "normalizedName": "maida",
+      "aliases": [],
+      "areaKm2": 57.528,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079017",
+        "079034",
+        "079048",
+        "079065",
+        "079072",
+        "079096",
+        "079114",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 38.873337,
+        "lng": 16.376944
+      }
+    },
+    {
+      "istatCode": "079071",
+      "officialName": "Marcedusa",
+      "normalizedName": "marcedusa",
+      "aliases": [],
+      "areaKm2": 15.426,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079009",
+        "079095"
+      ],
+      "focusPoint": {
+        "lat": 39.016531,
+        "lng": 16.85311
+      }
+    },
+    {
+      "istatCode": "079072",
+      "officialName": "Marcellinara",
+      "normalizedName": "marcellinara",
+      "aliases": [],
+      "areaKm2": 20.801,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079004",
+        "079017",
+        "079069",
+        "079077",
+        "079096",
+        "079131",
+        "079147"
+      ],
+      "focusPoint": {
+        "lat": 38.915144,
+        "lng": 16.473348
+      }
+    },
+    {
+      "istatCode": "079073",
+      "officialName": "Martirano",
+      "normalizedName": "martirano",
+      "aliases": [],
+      "areaKm2": 14.994,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079033",
+        "079074",
+        "079083"
+      ],
+      "focusPoint": {
+        "lat": 39.069534,
+        "lng": 16.257611
+      }
+    },
+    {
+      "istatCode": "079074",
+      "officialName": "Martirano Lombardo",
+      "normalizedName": "martirano lombardo",
+      "aliases": [
+        "martirano",
+        "martiranolombardo"
+      ],
+      "areaKm2": 19.677,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079033",
+        "079073",
+        "079087",
+        "079110",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 39.054403,
+        "lng": 16.231948
+      }
+    },
+    {
+      "istatCode": "079077",
+      "officialName": "Miglierina",
+      "normalizedName": "miglierina",
+      "aliases": [],
+      "areaKm2": 13.784,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079004",
+        "079072",
+        "079115",
+        "079129",
+        "079147"
+      ],
+      "focusPoint": {
+        "lat": 38.964596,
+        "lng": 16.480399
+      }
+    },
+    {
+      "istatCode": "079080",
+      "officialName": "Montauro",
+      "normalizedName": "montauro",
+      "aliases": [],
+      "areaKm2": 11.766,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079056",
+        "079081",
+        "079089",
+        "079142",
+        "079143"
+      ],
+      "focusPoint": {
+        "lat": 38.746535,
+        "lng": 16.529218
+      }
+    },
+    {
+      "istatCode": "079081",
+      "officialName": "Montepaone",
+      "normalizedName": "montepaone",
+      "aliases": [],
+      "areaKm2": 16.517,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079025",
+        "079056",
+        "079080",
+        "079089",
+        "079094",
+        "079137"
+      ],
+      "focusPoint": {
+        "lat": 38.722922,
+        "lng": 16.4876
+      }
+    },
+    {
+      "istatCode": "079083",
+      "officialName": "Motta Santa Lucia",
+      "normalizedName": "motta santa lucia",
+      "aliases": [
+        "motta",
+        "motta santa",
+        "mottasanta",
+        "mottasantalucia"
+      ],
+      "areaKm2": 25.785,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079033",
+        "079043",
+        "079073"
+      ],
+      "focusPoint": {
+        "lat": 39.081322,
+        "lng": 16.303266
+      }
+    },
+    {
+      "istatCode": "079087",
+      "officialName": "Nocera Terinese",
+      "normalizedName": "nocera terinese",
+      "aliases": [
+        "nocera",
+        "noceraterinese"
+      ],
+      "areaKm2": 45.637,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079047",
+        "079074",
+        "079110",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 39.037495,
+        "lng": 16.16044
+      }
+    },
+    {
+      "istatCode": "079088",
+      "officialName": "Olivadi",
+      "normalizedName": "olivadi",
+      "aliases": [],
+      "areaKm2": 6.732,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079024",
+        "079025",
+        "079094",
+        "079122",
+        "079151"
+      ],
+      "focusPoint": {
+        "lat": 38.733243,
+        "lng": 16.413146
+      }
+    },
+    {
+      "istatCode": "079089",
+      "officialName": "Palermiti",
+      "normalizedName": "palermiti",
+      "aliases": [],
+      "areaKm2": 18.332,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079025",
+        "079056",
+        "079080",
+        "079081",
+        "079142",
+        "079151"
+      ],
+      "focusPoint": {
+        "lat": 38.754685,
+        "lng": 16.455932
+      }
+    },
+    {
+      "istatCode": "079092",
+      "officialName": "Pentone",
+      "normalizedName": "pentone",
+      "aliases": [],
+      "areaKm2": 12.312,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079002",
+        "079023",
+        "079052",
+        "079058",
+        "079126"
+      ],
+      "focusPoint": {
+        "lat": 38.979515,
+        "lng": 16.581955
+      }
+    },
+    {
+      "istatCode": "079094",
+      "officialName": "Petrizzi",
+      "normalizedName": "petrizzi",
+      "aliases": [],
+      "areaKm2": 21.408,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079007",
+        "079025",
+        "079029",
+        "079055",
+        "079081",
+        "079088",
+        "079122",
+        "079123",
+        "079137"
+      ],
+      "focusPoint": {
+        "lat": 38.699895,
+        "lng": 16.483246
+      }
+    },
+    {
+      "istatCode": "079095",
+      "officialName": "Petronà",
+      "normalizedName": "petrona",
+      "aliases": [],
+      "areaKm2": 45.689,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079009",
+        "079027",
+        "079071",
+        "079130",
+        "079157"
+      ],
+      "focusPoint": {
+        "lat": 39.075859,
+        "lng": 16.690716
+      }
+    },
+    {
+      "istatCode": "079096",
+      "officialName": "Pianopoli",
+      "normalizedName": "pianopoli",
+      "aliases": [],
+      "areaKm2": 24.543,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079004",
+        "079048",
+        "079069",
+        "079072",
+        "079129"
+      ],
+      "focusPoint": {
+        "lat": 38.938961,
+        "lng": 16.383101
+      }
+    },
+    {
+      "istatCode": "079099",
+      "officialName": "Platania",
+      "normalizedName": "platania",
+      "aliases": [],
+      "areaKm2": 26.739,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079033",
+        "079043",
+        "079129",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 39.013338,
+        "lng": 16.321679
+      }
+    },
+    {
+      "istatCode": "079108",
+      "officialName": "San Floro",
+      "normalizedName": "san floro",
+      "aliases": [
+        "sanfloro"
+      ],
+      "areaKm2": 18.085,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079011",
+        "079017",
+        "079023",
+        "079034",
+        "079059"
+      ],
+      "focusPoint": {
+        "lat": 38.848345,
+        "lng": 16.522809
+      }
+    },
+    {
+      "istatCode": "079110",
+      "officialName": "San Mango d'Aquino",
+      "normalizedName": "san mango d aquino",
+      "aliases": [
+        "san mango",
+        "sanmango",
+        "sanmangodaquino"
+      ],
+      "areaKm2": 6.676,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079074",
+        "079087"
+      ],
+      "focusPoint": {
+        "lat": 39.059015,
+        "lng": 16.190411
+      }
+    },
+    {
+      "istatCode": "079114",
+      "officialName": "San Pietro a Maida",
+      "normalizedName": "san pietro a maida",
+      "aliases": [
+        "san pietro a",
+        "sanpietroa",
+        "sanpietroamaida"
+      ],
+      "areaKm2": 16.475,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079039",
+        "079065",
+        "079069",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 38.854097,
+        "lng": 16.329494
+      }
+    },
+    {
+      "istatCode": "079115",
+      "officialName": "San Pietro Apostolo",
+      "normalizedName": "san pietro apostolo",
+      "aliases": [
+        "sanpietroapostolo"
+      ],
+      "areaKm2": 11.407,
+      "baseChips": 195,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079043",
+        "079058",
+        "079077",
+        "079129",
+        "079147"
+      ],
+      "focusPoint": {
+        "lat": 39.001462,
+        "lng": 16.460046
+      }
+    },
+    {
+      "istatCode": "079116",
+      "officialName": "San Sostene",
+      "normalizedName": "san sostene",
+      "aliases": [
+        "sansostene"
+      ],
+      "areaKm2": 32.223,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079008",
+        "079018",
+        "079042",
+        "079063",
+        "079118"
+      ],
+      "focusPoint": {
+        "lat": 38.61958,
+        "lng": 16.473719
+      }
+    },
+    {
+      "istatCode": "079117",
+      "officialName": "Santa Caterina dello Ionio",
+      "normalizedName": "santa caterina dello ionio",
+      "aliases": [
+        "santa",
+        "santa caterina",
+        "santa caterina dello",
+        "santacaterina",
+        "santacaterinadello",
+        "santacaterinadelloionio"
+      ],
+      "areaKm2": 40.136,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079008",
+        "079061"
+      ],
+      "focusPoint": {
+        "lat": 38.534447,
+        "lng": 16.527391
+      }
+    },
+    {
+      "istatCode": "079118",
+      "officialName": "Sant'Andrea Apostolo dello Ionio",
+      "normalizedName": "sant andrea apostolo dello ionio",
+      "aliases": [
+        "sant",
+        "sant andrea",
+        "sant andrea apostolo",
+        "sant andrea apostolo dello",
+        "santandrea",
+        "santandreaapostolo",
+        "santandreaapostolodello",
+        "santandreaapostolodelloionio"
+      ],
+      "areaKm2": 21.222,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079063",
+        "079116"
+      ],
+      "focusPoint": {
+        "lat": 38.610576,
+        "lng": 16.552646
+      }
+    },
+    {
+      "istatCode": "079122",
+      "officialName": "San Vito sullo Ionio",
+      "normalizedName": "san vito sullo ionio",
+      "aliases": [
+        "san vito",
+        "san vito sullo",
+        "sanvito",
+        "sanvitosullo",
+        "sanvitosulloionio"
+      ],
+      "areaKm2": 17.117,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079024",
+        "079029",
+        "079088",
+        "079094"
+      ],
+      "focusPoint": {
+        "lat": 38.718956,
+        "lng": 16.368085
+      }
+    },
+    {
+      "istatCode": "079123",
+      "officialName": "Satriano",
+      "normalizedName": "satriano",
+      "aliases": [],
+      "areaKm2": 20.941,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079018",
+        "079042",
+        "079055",
+        "079094",
+        "079137"
+      ],
+      "focusPoint": {
+        "lat": 38.647574,
+        "lng": 16.443226
+      }
+    },
+    {
+      "istatCode": "079126",
+      "officialName": "Sellia",
+      "normalizedName": "sellia",
+      "aliases": [],
+      "areaKm2": 12.746,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079002",
+        "079023",
+        "079068",
+        "079092",
+        "079133",
+        "079139",
+        "079157"
+      ],
+      "focusPoint": {
+        "lat": 38.975634,
+        "lng": 16.63392
+      }
+    },
+    {
+      "istatCode": "079127",
+      "officialName": "Sellia Marina",
+      "normalizedName": "sellia marina",
+      "aliases": [
+        "sellia",
+        "selliamarina"
+      ],
+      "areaKm2": 41.039,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079036",
+        "079130",
+        "079133",
+        "079139",
+        "079157"
+      ],
+      "focusPoint": {
+        "lat": 38.915274,
+        "lng": 16.735465
+      }
+    },
+    {
+      "istatCode": "079129",
+      "officialName": "Serrastretta",
+      "normalizedName": "serrastretta",
+      "aliases": [],
+      "areaKm2": 41.11,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079004",
+        "079043",
+        "079048",
+        "079077",
+        "079096",
+        "079099",
+        "079115",
+        "079160"
+      ],
+      "focusPoint": {
+        "lat": 38.970369,
+        "lng": 16.431547
+      }
+    },
+    {
+      "istatCode": "079130",
+      "officialName": "Sersale",
+      "normalizedName": "sersale",
+      "aliases": [],
+      "areaKm2": 51.886,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079027",
+        "079036",
+        "079068",
+        "079095",
+        "079127",
+        "079157"
+      ],
+      "focusPoint": {
+        "lat": 39.007285,
+        "lng": 16.721343
+      }
+    },
+    {
+      "istatCode": "079131",
+      "officialName": "Settingiano",
+      "normalizedName": "settingiano",
+      "aliases": [],
+      "areaKm2": 14.368,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079017",
+        "079023",
+        "079072",
+        "079147"
+      ],
+      "focusPoint": {
+        "lat": 38.911412,
+        "lng": 16.509587
+      }
+    },
+    {
+      "istatCode": "079133",
+      "officialName": "Simeri Crichi",
+      "normalizedName": "simeri crichi",
+      "aliases": [
+        "simeri",
+        "simericrichi"
+      ],
+      "areaKm2": 46.661,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079023",
+        "079126",
+        "079127",
+        "079139"
+      ],
+      "focusPoint": {
+        "lat": 38.904221,
+        "lng": 16.659012
+      }
+    },
+    {
+      "istatCode": "079134",
+      "officialName": "Sorbo San Basile",
+      "normalizedName": "sorbo san basile",
+      "aliases": [
+        "sorbo",
+        "sorbo san",
+        "sorbosan",
+        "sorbosanbasile"
+      ],
+      "areaKm2": 58.891,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079020",
+        "079030",
+        "079052",
+        "079058",
+        "079146"
+      ],
+      "focusPoint": {
+        "lat": 39.053301,
+        "lng": 16.513886
+      }
+    },
+    {
+      "istatCode": "079137",
+      "officialName": "Soverato",
+      "normalizedName": "soverato",
+      "aliases": [],
+      "areaKm2": 8.002,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079081",
+        "079094",
+        "079123"
+      ],
+      "focusPoint": {
+        "lat": 38.692721,
+        "lng": 16.530958
+      }
+    },
+    {
+      "istatCode": "079138",
+      "officialName": "Soveria Mannelli",
+      "normalizedName": "soveria mannelli",
+      "aliases": [
+        "soveriamannelli"
+      ],
+      "areaKm2": 20.486,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079020",
+        "079043",
+        "079058"
+      ],
+      "focusPoint": {
+        "lat": 39.064465,
+        "lng": 16.390793
+      }
+    },
+    {
+      "istatCode": "079139",
+      "officialName": "Soveria Simeri",
+      "normalizedName": "soveria simeri",
+      "aliases": [
+        "soveriasimeri"
+      ],
+      "areaKm2": 22.134,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079126",
+        "079127",
+        "079133",
+        "079157"
+      ],
+      "focusPoint": {
+        "lat": 38.932192,
+        "lng": 16.685625
+      }
+    },
+    {
+      "istatCode": "079142",
+      "officialName": "Squillace",
+      "normalizedName": "squillace",
+      "aliases": [],
+      "areaKm2": 34.076,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079003",
+        "079011",
+        "079059",
+        "079080",
+        "079089",
+        "079143",
+        "079151"
+      ],
+      "focusPoint": {
+        "lat": 38.794026,
+        "lng": 16.53018
+      }
+    },
+    {
+      "istatCode": "079143",
+      "officialName": "Stalettì",
+      "normalizedName": "staletti",
+      "aliases": [],
+      "areaKm2": 12.055,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079080",
+        "079142"
+      ],
+      "focusPoint": {
+        "lat": 38.762067,
+        "lng": 16.546795
+      }
+    },
+    {
+      "istatCode": "079146",
+      "officialName": "Taverna",
+      "normalizedName": "taverna",
+      "aliases": [],
+      "areaKm2": 130.761,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079002",
+        "079052",
+        "079134",
+        "079157"
+      ],
+      "focusPoint": {
+        "lat": 39.099512,
+        "lng": 16.571013
+      }
+    },
+    {
+      "istatCode": "079147",
+      "officialName": "Tiriolo",
+      "normalizedName": "tiriolo",
+      "aliases": [],
+      "areaKm2": 28.718,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079023",
+        "079058",
+        "079072",
+        "079077",
+        "079115",
+        "079131"
+      ],
+      "focusPoint": {
+        "lat": 38.933605,
+        "lng": 16.525048
+      }
+    },
+    {
+      "istatCode": "079148",
+      "officialName": "Torre di Ruggiero",
+      "normalizedName": "torre di ruggiero",
+      "aliases": [
+        "torre",
+        "torrediruggiero"
+      ],
+      "areaKm2": 25.089,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079018",
+        "079029"
+      ],
+      "focusPoint": {
+        "lat": 38.662734,
+        "lng": 16.36785
+      }
+    },
+    {
+      "istatCode": "079151",
+      "officialName": "Vallefiorita",
+      "normalizedName": "vallefiorita",
+      "aliases": [],
+      "areaKm2": 13.716,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "079003",
+        "079024",
+        "079025",
+        "079034",
+        "079059",
+        "079088",
+        "079089",
+        "079142"
+      ],
+      "focusPoint": {
+        "lat": 38.771602,
+        "lng": 16.438637
+      }
+    },
+    {
+      "istatCode": "079157",
+      "officialName": "Zagarise",
+      "normalizedName": "zagarise",
+      "aliases": [],
+      "areaKm2": 49.07,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079002",
+        "079068",
+        "079095",
+        "079126",
+        "079127",
+        "079130",
+        "079139",
+        "079146"
+      ],
+      "focusPoint": {
+        "lat": 38.980702,
+        "lng": 16.680767
+      }
+    },
+    {
+      "istatCode": "079160",
+      "officialName": "Lamezia Terme",
+      "normalizedName": "lamezia terme",
+      "aliases": [
+        "lamezia",
+        "lameziaterme"
+      ],
+      "areaKm2": 160.897,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "079033",
+        "079039",
+        "079047",
+        "079048",
+        "079060",
+        "079069",
+        "079074",
+        "079087",
+        "079099",
+        "079114",
+        "079129"
+      ],
+      "focusPoint": {
+        "lat": 38.935145,
+        "lng": 16.285396
+      }
+    }
+  ]
+}

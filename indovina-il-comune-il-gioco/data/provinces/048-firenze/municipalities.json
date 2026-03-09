@@ -1,0 +1,966 @@
+{
+  "provinceCode": "048",
+  "label": "Firenze",
+  "officialScopeLabel": "Città Metropolitana di Firenze",
+  "sigla": "FI",
+  "slug": "firenze",
+  "sourceYear": 2026,
+  "count": 41,
+  "municipalities": [
+    {
+      "istatCode": "048001",
+      "officialName": "Bagno a Ripoli",
+      "normalizedName": "bagno a ripoli",
+      "aliases": [
+        "bagno",
+        "bagno a",
+        "bagnoa",
+        "bagnoaripoli"
+      ],
+      "areaKm2": 73.826,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048015",
+        "048017",
+        "048021",
+        "048022",
+        "048033",
+        "048036"
+      ],
+      "focusPoint": {
+        "lat": 43.72901,
+        "lng": 11.324438
+      }
+    },
+    {
+      "istatCode": "048002",
+      "officialName": "Barberino di Mugello",
+      "normalizedName": "barberino di mugello",
+      "aliases": [
+        "barberinodimugello"
+      ],
+      "areaKm2": 132.941,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048005",
+        "048018",
+        "048053"
+      ],
+      "focusPoint": {
+        "lat": 44.027648,
+        "lng": 11.243539
+      }
+    },
+    {
+      "istatCode": "048004",
+      "officialName": "Borgo San Lorenzo",
+      "normalizedName": "borgo san lorenzo",
+      "aliases": [
+        "borgo",
+        "borgo san",
+        "borgosan",
+        "borgosanlorenzo"
+      ],
+      "areaKm2": 146.634,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048015",
+        "048018",
+        "048026",
+        "048031",
+        "048033",
+        "048046",
+        "048049",
+        "048053"
+      ],
+      "focusPoint": {
+        "lat": 43.967501,
+        "lng": 11.398877
+      }
+    },
+    {
+      "istatCode": "048005",
+      "officialName": "Calenzano",
+      "normalizedName": "calenzano",
+      "aliases": [],
+      "areaKm2": 77.474,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048002",
+        "048006",
+        "048043",
+        "048046",
+        "048053"
+      ],
+      "focusPoint": {
+        "lat": 43.892133,
+        "lng": 11.185941
+      }
+    },
+    {
+      "istatCode": "048006",
+      "officialName": "Campi Bisenzio",
+      "normalizedName": "campi bisenzio",
+      "aliases": [
+        "campi",
+        "campibisenzio"
+      ],
+      "areaKm2": 28.749,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048005",
+        "048017",
+        "048041",
+        "048043",
+        "048044"
+      ],
+      "focusPoint": {
+        "lat": 43.821214,
+        "lng": 11.131717
+      }
+    },
+    {
+      "istatCode": "048008",
+      "officialName": "Capraia e Limite",
+      "normalizedName": "capraia e limite",
+      "aliases": [
+        "capraia",
+        "capraia e",
+        "capraiae",
+        "capraiaelimite"
+      ],
+      "areaKm2": 24.995,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048014",
+        "048028",
+        "048050"
+      ],
+      "focusPoint": {
+        "lat": 43.760756,
+        "lng": 10.99347
+      }
+    },
+    {
+      "istatCode": "048010",
+      "officialName": "Castelfiorentino",
+      "normalizedName": "castelfiorentino",
+      "aliases": [],
+      "areaKm2": 66.196,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048012",
+        "048014",
+        "048020",
+        "048027",
+        "048030"
+      ],
+      "focusPoint": {
+        "lat": 43.623309,
+        "lng": 10.942513
+      }
+    },
+    {
+      "istatCode": "048011",
+      "officialName": "Cerreto Guidi",
+      "normalizedName": "cerreto guidi",
+      "aliases": [
+        "cerreto",
+        "cerretoguidi"
+      ],
+      "areaKm2": 49.434,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048014",
+        "048019",
+        "048050"
+      ],
+      "focusPoint": {
+        "lat": 43.756244,
+        "lng": 10.862302
+      }
+    },
+    {
+      "istatCode": "048012",
+      "officialName": "Certaldo",
+      "normalizedName": "certaldo",
+      "aliases": [],
+      "areaKm2": 75.253,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048010",
+        "048020",
+        "048030",
+        "048054"
+      ],
+      "focusPoint": {
+        "lat": 43.56051,
+        "lng": 11.079167
+      }
+    },
+    {
+      "istatCode": "048013",
+      "officialName": "Dicomano",
+      "normalizedName": "dicomano",
+      "aliases": [],
+      "areaKm2": 61.771,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048025",
+        "048026",
+        "048033",
+        "048037",
+        "048039",
+        "048049"
+      ],
+      "focusPoint": {
+        "lat": 43.93243,
+        "lng": 11.551287
+      }
+    },
+    {
+      "istatCode": "048014",
+      "officialName": "Empoli",
+      "normalizedName": "empoli",
+      "aliases": [],
+      "areaKm2": 62.736,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048008",
+        "048010",
+        "048011",
+        "048028",
+        "048030",
+        "048050"
+      ],
+      "focusPoint": {
+        "lat": 43.700177,
+        "lng": 10.94426
+      }
+    },
+    {
+      "istatCode": "048015",
+      "officialName": "Fiesole",
+      "normalizedName": "fiesole",
+      "aliases": [],
+      "areaKm2": 42.165,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048001",
+        "048004",
+        "048017",
+        "048033",
+        "048043",
+        "048046"
+      ],
+      "focusPoint": {
+        "lat": 43.816805,
+        "lng": 11.323712
+      }
+    },
+    {
+      "istatCode": "048017",
+      "officialName": "Firenze",
+      "normalizedName": "firenze",
+      "aliases": [],
+      "areaKm2": 102.179,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048001",
+        "048006",
+        "048015",
+        "048022",
+        "048041",
+        "048043"
+      ],
+      "focusPoint": {
+        "lat": 43.778722,
+        "lng": 11.243952
+      }
+    },
+    {
+      "istatCode": "048018",
+      "officialName": "Firenzuola",
+      "normalizedName": "firenzuola",
+      "aliases": [],
+      "areaKm2": 271.733,
+      "baseChips": 125,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048002",
+        "048004",
+        "048031",
+        "048053"
+      ],
+      "focusPoint": {
+        "lat": 44.140258,
+        "lng": 11.348179
+      }
+    },
+    {
+      "istatCode": "048019",
+      "officialName": "Fucecchio",
+      "normalizedName": "fucecchio",
+      "aliases": [],
+      "areaKm2": 65.294,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048011"
+      ],
+      "focusPoint": {
+        "lat": 43.765242,
+        "lng": 10.768793
+      }
+    },
+    {
+      "istatCode": "048020",
+      "officialName": "Gambassi Terme",
+      "normalizedName": "gambassi terme",
+      "aliases": [
+        "gambassi",
+        "gambassiterme"
+      ],
+      "areaKm2": 83.2,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048010",
+        "048012",
+        "048027"
+      ],
+      "focusPoint": {
+        "lat": 43.519235,
+        "lng": 10.950133
+      }
+    },
+    {
+      "istatCode": "048021",
+      "officialName": "Greve in Chianti",
+      "normalizedName": "greve in chianti",
+      "aliases": [
+        "greve",
+        "greveinchianti"
+      ],
+      "areaKm2": 169.541,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048001",
+        "048022",
+        "048036",
+        "048038",
+        "048052",
+        "048054"
+      ],
+      "focusPoint": {
+        "lat": 43.604879,
+        "lng": 11.329582
+      }
+    },
+    {
+      "istatCode": "048022",
+      "officialName": "Impruneta",
+      "normalizedName": "impruneta",
+      "aliases": [],
+      "areaKm2": 49.293,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048001",
+        "048017",
+        "048021",
+        "048038",
+        "048041"
+      ],
+      "focusPoint": {
+        "lat": 43.695921,
+        "lng": 11.259745
+      }
+    },
+    {
+      "istatCode": "048024",
+      "officialName": "Lastra a Signa",
+      "normalizedName": "lastra a signa",
+      "aliases": [
+        "lastra",
+        "lastra a",
+        "lastraa",
+        "lastraasigna"
+      ],
+      "areaKm2": 42.6,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048028",
+        "048030",
+        "048041",
+        "048044"
+      ],
+      "focusPoint": {
+        "lat": 43.742726,
+        "lng": 11.083492
+      }
+    },
+    {
+      "istatCode": "048025",
+      "officialName": "Londa",
+      "normalizedName": "londa",
+      "aliases": [],
+      "areaKm2": 59.299,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048013",
+        "048037",
+        "048039"
+      ],
+      "focusPoint": {
+        "lat": 43.854027,
+        "lng": 11.597553
+      }
+    },
+    {
+      "istatCode": "048026",
+      "officialName": "Marradi",
+      "normalizedName": "marradi",
+      "aliases": [],
+      "areaKm2": 154.285,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048004",
+        "048013",
+        "048031",
+        "048039",
+        "048049"
+      ],
+      "focusPoint": {
+        "lat": 44.06363,
+        "lng": 11.635917
+      }
+    },
+    {
+      "istatCode": "048027",
+      "officialName": "Montaione",
+      "normalizedName": "montaione",
+      "aliases": [],
+      "areaKm2": 105.03,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048010",
+        "048020"
+      ],
+      "focusPoint": {
+        "lat": 43.556255,
+        "lng": 10.892959
+      }
+    },
+    {
+      "istatCode": "048028",
+      "officialName": "Montelupo Fiorentino",
+      "normalizedName": "montelupo fiorentino",
+      "aliases": [
+        "montelupo",
+        "montelupofiorentino"
+      ],
+      "areaKm2": 25.007,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048008",
+        "048014",
+        "048024",
+        "048030"
+      ],
+      "focusPoint": {
+        "lat": 43.729794,
+        "lng": 11.014845
+      }
+    },
+    {
+      "istatCode": "048030",
+      "officialName": "Montespertoli",
+      "normalizedName": "montespertoli",
+      "aliases": [],
+      "areaKm2": 124.513,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048010",
+        "048012",
+        "048014",
+        "048024",
+        "048028",
+        "048038",
+        "048041",
+        "048054"
+      ],
+      "focusPoint": {
+        "lat": 43.646235,
+        "lng": 11.063998
+      }
+    },
+    {
+      "istatCode": "048031",
+      "officialName": "Palazzuolo sul Senio",
+      "normalizedName": "palazzuolo sul senio",
+      "aliases": [
+        "palazzuolo",
+        "palazzuolosulsenio"
+      ],
+      "areaKm2": 108.852,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048004",
+        "048018",
+        "048026"
+      ],
+      "focusPoint": {
+        "lat": 44.106039,
+        "lng": 11.523331
+      }
+    },
+    {
+      "istatCode": "048032",
+      "officialName": "Pelago",
+      "normalizedName": "pelago",
+      "aliases": [],
+      "areaKm2": 54.734,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048033",
+        "048035",
+        "048036",
+        "048037"
+      ],
+      "focusPoint": {
+        "lat": 43.775232,
+        "lng": 11.519043
+      }
+    },
+    {
+      "istatCode": "048033",
+      "officialName": "Pontassieve",
+      "normalizedName": "pontassieve",
+      "aliases": [],
+      "areaKm2": 114.193,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048001",
+        "048004",
+        "048013",
+        "048015",
+        "048032",
+        "048036",
+        "048037",
+        "048049"
+      ],
+      "focusPoint": {
+        "lat": 43.82709,
+        "lng": 11.413594
+      }
+    },
+    {
+      "istatCode": "048035",
+      "officialName": "Reggello",
+      "normalizedName": "reggello",
+      "aliases": [],
+      "areaKm2": 121.514,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048032",
+        "048036",
+        "048052"
+      ],
+      "focusPoint": {
+        "lat": 43.699256,
+        "lng": 11.530415
+      }
+    },
+    {
+      "istatCode": "048036",
+      "officialName": "Rignano sull'Arno",
+      "normalizedName": "rignano sull arno",
+      "aliases": [
+        "rignano",
+        "rignano sull",
+        "rignanosull",
+        "rignanosullarno"
+      ],
+      "areaKm2": 54.291,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048001",
+        "048021",
+        "048032",
+        "048033",
+        "048035",
+        "048052"
+      ],
+      "focusPoint": {
+        "lat": 43.727432,
+        "lng": 11.425537
+      }
+    },
+    {
+      "istatCode": "048037",
+      "officialName": "Rufina",
+      "normalizedName": "rufina",
+      "aliases": [],
+      "areaKm2": 45.992,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048013",
+        "048025",
+        "048032",
+        "048033"
+      ],
+      "focusPoint": {
+        "lat": 43.823903,
+        "lng": 11.526556
+      }
+    },
+    {
+      "istatCode": "048038",
+      "officialName": "San Casciano in Val di Pesa",
+      "normalizedName": "san casciano in val di pesa",
+      "aliases": [
+        "san casciano",
+        "san casciano in val",
+        "sancasciano",
+        "sancascianoinval",
+        "sancascianoinvaldipesa"
+      ],
+      "areaKm2": 106.911,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048021",
+        "048022",
+        "048030",
+        "048041",
+        "048054"
+      ],
+      "focusPoint": {
+        "lat": 43.646235,
+        "lng": 11.200595
+      }
+    },
+    {
+      "istatCode": "048039",
+      "officialName": "San Godenzo",
+      "normalizedName": "san godenzo",
+      "aliases": [
+        "sangodenzo"
+      ],
+      "areaKm2": 99.294,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048013",
+        "048025",
+        "048026"
+      ],
+      "focusPoint": {
+        "lat": 43.935984,
+        "lng": 11.627561
+      }
+    },
+    {
+      "istatCode": "048041",
+      "officialName": "Scandicci",
+      "normalizedName": "scandicci",
+      "aliases": [],
+      "areaKm2": 59.967,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048006",
+        "048017",
+        "048022",
+        "048024",
+        "048030",
+        "048038",
+        "048044"
+      ],
+      "focusPoint": {
+        "lat": 43.733988,
+        "lng": 11.157419
+      }
+    },
+    {
+      "istatCode": "048043",
+      "officialName": "Sesto Fiorentino",
+      "normalizedName": "sesto fiorentino",
+      "aliases": [
+        "sesto",
+        "sestofiorentino"
+      ],
+      "areaKm2": 48.1,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048005",
+        "048006",
+        "048015",
+        "048017",
+        "048046"
+      ],
+      "focusPoint": {
+        "lat": 43.839999,
+        "lng": 11.230773
+      }
+    },
+    {
+      "istatCode": "048044",
+      "officialName": "Signa",
+      "normalizedName": "signa",
+      "aliases": [],
+      "areaKm2": 18.951,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048006",
+        "048024",
+        "048041"
+      ],
+      "focusPoint": {
+        "lat": 43.793909,
+        "lng": 11.104899
+      }
+    },
+    {
+      "istatCode": "048046",
+      "officialName": "Vaglia",
+      "normalizedName": "vaglia",
+      "aliases": [],
+      "areaKm2": 56.702,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048004",
+        "048005",
+        "048015",
+        "048043",
+        "048053"
+      ],
+      "focusPoint": {
+        "lat": 43.885663,
+        "lng": 11.291097
+      }
+    },
+    {
+      "istatCode": "048049",
+      "officialName": "Vicchio",
+      "normalizedName": "vicchio",
+      "aliases": [],
+      "areaKm2": 137.902,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048004",
+        "048013",
+        "048026",
+        "048033"
+      ],
+      "focusPoint": {
+        "lat": 43.956317,
+        "lng": 11.487825
+      }
+    },
+    {
+      "istatCode": "048050",
+      "officialName": "Vinci",
+      "normalizedName": "vinci",
+      "aliases": [],
+      "areaKm2": 54.071,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048008",
+        "048011",
+        "048014"
+      ],
+      "focusPoint": {
+        "lat": 43.768917,
+        "lng": 10.928408
+      }
+    },
+    {
+      "istatCode": "048052",
+      "officialName": "Figline e Incisa Valdarno",
+      "normalizedName": "figline e incisa valdarno",
+      "aliases": [
+        "figline",
+        "figline e",
+        "figline e incisa",
+        "figlinee",
+        "figlineeincisa",
+        "figlineeincisavaldarno"
+      ],
+      "areaKm2": 97.636,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048021",
+        "048035",
+        "048036"
+      ],
+      "focusPoint": {
+        "lat": 43.628818,
+        "lng": 11.424306
+      }
+    },
+    {
+      "istatCode": "048053",
+      "officialName": "Scarperia e San Piero",
+      "normalizedName": "scarperia e san piero",
+      "aliases": [
+        "scarperia",
+        "scarperia e",
+        "scarperia e san",
+        "scarperiae",
+        "scarperiaesan",
+        "scarperiaesanpiero"
+      ],
+      "areaKm2": 116.255,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "048002",
+        "048004",
+        "048005",
+        "048018",
+        "048046"
+      ],
+      "focusPoint": {
+        "lat": 44.006632,
+        "lng": 11.345956
+      }
+    },
+    {
+      "istatCode": "048054",
+      "officialName": "Barberino Tavarnelle",
+      "normalizedName": "barberino tavarnelle",
+      "aliases": [
+        "barberinotavarnelle"
+      ],
+      "areaKm2": 123.632,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "048012",
+        "048021",
+        "048030",
+        "048038"
+      ],
+      "focusPoint": {
+        "lat": 43.540861,
+        "lng": 11.20134
+      }
+    }
+  ]
+}

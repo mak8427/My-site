@@ -1,0 +1,468 @@
+{
+  "provinceCode": "074",
+  "label": "Brindisi",
+  "officialScopeLabel": "Provincia di Brindisi",
+  "sigla": "BR",
+  "slug": "brindisi",
+  "sourceYear": 2026,
+  "count": 20,
+  "municipalities": [
+    {
+      "istatCode": "074001",
+      "officialName": "Brindisi",
+      "normalizedName": "brindisi",
+      "aliases": [],
+      "areaKm2": 328.772,
+      "baseChips": 120,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074002",
+        "074004",
+        "074009",
+        "074010",
+        "074013",
+        "074016",
+        "074017"
+      ],
+      "focusPoint": {
+        "lat": 40.594382,
+        "lng": 17.931738
+      }
+    },
+    {
+      "istatCode": "074002",
+      "officialName": "Carovigno",
+      "normalizedName": "carovigno",
+      "aliases": [],
+      "areaKm2": 105.287,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074001",
+        "074012",
+        "074017"
+      ],
+      "focusPoint": {
+        "lat": 40.70614,
+        "lng": 17.714869
+      }
+    },
+    {
+      "istatCode": "074003",
+      "officialName": "Ceglie Messapica",
+      "normalizedName": "ceglie messapica",
+      "aliases": [
+        "ceglie",
+        "cegliemessapica"
+      ],
+      "areaKm2": 130.159,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074008",
+        "074012",
+        "074014",
+        "074020"
+      ],
+      "focusPoint": {
+        "lat": 40.645942,
+        "lng": 17.527287
+      }
+    },
+    {
+      "istatCode": "074004",
+      "officialName": "Cellino San Marco",
+      "normalizedName": "cellino san marco",
+      "aliases": [
+        "cellino",
+        "cellino san",
+        "cellinosan",
+        "cellinosanmarco"
+      ],
+      "areaKm2": 37.312,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074001",
+        "074013",
+        "074016"
+      ],
+      "focusPoint": {
+        "lat": 40.482392,
+        "lng": 17.92829
+      }
+    },
+    {
+      "istatCode": "074005",
+      "officialName": "Cisternino",
+      "normalizedName": "cisternino",
+      "aliases": [],
+      "areaKm2": 53.331,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074007",
+        "074012"
+      ],
+      "focusPoint": {
+        "lat": 40.756282,
+        "lng": 17.438142
+      }
+    },
+    {
+      "istatCode": "074006",
+      "officialName": "Erchie",
+      "normalizedName": "erchie",
+      "aliases": [],
+      "areaKm2": 44.187,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074011",
+        "074015",
+        "074019"
+      ],
+      "focusPoint": {
+        "lat": 40.425016,
+        "lng": 17.735383
+      }
+    },
+    {
+      "istatCode": "074007",
+      "officialName": "Fasano",
+      "normalizedName": "fasano",
+      "aliases": [],
+      "areaKm2": 130.208,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074005",
+        "074012"
+      ],
+      "focusPoint": {
+        "lat": 40.823001,
+        "lng": 17.398853
+      }
+    },
+    {
+      "istatCode": "074008",
+      "officialName": "Francavilla Fontana",
+      "normalizedName": "francavilla fontana",
+      "aliases": [
+        "francavilla",
+        "francavillafontana"
+      ],
+      "areaKm2": 175.848,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074003",
+        "074009",
+        "074011",
+        "074014",
+        "074020"
+      ],
+      "focusPoint": {
+        "lat": 40.522683,
+        "lng": 17.548589
+      }
+    },
+    {
+      "istatCode": "074009",
+      "officialName": "Latiano",
+      "normalizedName": "latiano",
+      "aliases": [],
+      "areaKm2": 54.399,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "074001",
+        "074008",
+        "074010",
+        "074011",
+        "074014",
+        "074017"
+      ],
+      "focusPoint": {
+        "lat": 40.5744,
+        "lng": 17.704958
+      }
+    },
+    {
+      "istatCode": "074010",
+      "officialName": "Mesagne",
+      "normalizedName": "mesagne",
+      "aliases": [],
+      "areaKm2": 122.687,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "074001",
+        "074009",
+        "074011",
+        "074013",
+        "074015",
+        "074019"
+      ],
+      "focusPoint": {
+        "lat": 40.534698,
+        "lng": 17.797223
+      }
+    },
+    {
+      "istatCode": "074011",
+      "officialName": "Oria",
+      "normalizedName": "oria",
+      "aliases": [],
+      "areaKm2": 82.503,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074006",
+        "074008",
+        "074009",
+        "074010",
+        "074019"
+      ],
+      "focusPoint": {
+        "lat": 40.497697,
+        "lng": 17.66933
+      }
+    },
+    {
+      "istatCode": "074012",
+      "officialName": "Ostuni",
+      "normalizedName": "ostuni",
+      "aliases": [],
+      "areaKm2": 223.613,
+      "baseChips": 129,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074002",
+        "074003",
+        "074005",
+        "074007",
+        "074014",
+        "074017"
+      ],
+      "focusPoint": {
+        "lat": 40.727795,
+        "lng": 17.557457
+      }
+    },
+    {
+      "istatCode": "074013",
+      "officialName": "San Donaci",
+      "normalizedName": "san donaci",
+      "aliases": [
+        "sandonaci"
+      ],
+      "areaKm2": 33.596,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074001",
+        "074004",
+        "074010",
+        "074015"
+      ],
+      "focusPoint": {
+        "lat": 40.451495,
+        "lng": 17.910352
+      }
+    },
+    {
+      "istatCode": "074014",
+      "officialName": "San Michele Salentino",
+      "normalizedName": "san michele salentino",
+      "aliases": [
+        "san michele",
+        "sanmichele",
+        "sanmichelesalentino"
+      ],
+      "areaKm2": 26.324,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "074003",
+        "074008",
+        "074009",
+        "074012",
+        "074017"
+      ],
+      "focusPoint": {
+        "lat": 40.610338,
+        "lng": 17.627337
+      }
+    },
+    {
+      "istatCode": "074015",
+      "officialName": "San Pancrazio Salentino",
+      "normalizedName": "san pancrazio salentino",
+      "aliases": [
+        "san pancrazio",
+        "sanpancrazio",
+        "sanpancraziosalentino"
+      ],
+      "areaKm2": 56.067,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074006",
+        "074010",
+        "074013",
+        "074019"
+      ],
+      "focusPoint": {
+        "lat": 40.431768,
+        "lng": 17.833853
+      }
+    },
+    {
+      "istatCode": "074016",
+      "officialName": "San Pietro Vernotico",
+      "normalizedName": "san pietro vernotico",
+      "aliases": [
+        "san pietro",
+        "sanpietro",
+        "sanpietrovernotico"
+      ],
+      "areaKm2": 46.113,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074001",
+        "074004",
+        "074018"
+      ],
+      "focusPoint": {
+        "lat": 40.50855,
+        "lng": 17.984816
+      }
+    },
+    {
+      "istatCode": "074017",
+      "officialName": "San Vito dei Normanni",
+      "normalizedName": "san vito dei normanni",
+      "aliases": [
+        "san vito",
+        "sanvito",
+        "sanvitodeinormanni"
+      ],
+      "areaKm2": 66.185,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "074001",
+        "074002",
+        "074009",
+        "074012",
+        "074014"
+      ],
+      "focusPoint": {
+        "lat": 40.639461,
+        "lng": 17.699558
+      }
+    },
+    {
+      "istatCode": "074018",
+      "officialName": "Torchiarolo",
+      "normalizedName": "torchiarolo",
+      "aliases": [],
+      "areaKm2": 32.395,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074016"
+      ],
+      "focusPoint": {
+        "lat": 40.501358,
+        "lng": 18.049718
+      }
+    },
+    {
+      "istatCode": "074019",
+      "officialName": "Torre Santa Susanna",
+      "normalizedName": "torre santa susanna",
+      "aliases": [
+        "torre",
+        "torre santa",
+        "torresanta",
+        "torresantasusanna"
+      ],
+      "areaKm2": 54.788,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "074006",
+        "074010",
+        "074011",
+        "074015"
+      ],
+      "focusPoint": {
+        "lat": 40.486443,
+        "lng": 17.745145
+      }
+    },
+    {
+      "istatCode": "074020",
+      "officialName": "Villa Castelli",
+      "normalizedName": "villa castelli",
+      "aliases": [
+        "villa",
+        "villacastelli"
+      ],
+      "areaKm2": 34.541,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "074003",
+        "074008"
+      ],
+      "focusPoint": {
+        "lat": 40.564922,
+        "lng": 17.479482
+      }
+    }
+  ]
+}

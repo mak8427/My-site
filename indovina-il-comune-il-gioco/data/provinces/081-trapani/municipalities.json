@@ -1,0 +1,555 @@
+{
+  "provinceCode": "081",
+  "label": "Trapani",
+  "officialScopeLabel": "Provincia di Trapani",
+  "sigla": "TP",
+  "slug": "trapani",
+  "sourceYear": 2026,
+  "count": 25,
+  "municipalities": [
+    {
+      "istatCode": "081001",
+      "officialName": "Alcamo",
+      "normalizedName": "alcamo",
+      "aliases": [],
+      "areaKm2": 130.684,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081003",
+        "081005"
+      ],
+      "focusPoint": {
+        "lat": 37.968259,
+        "lng": 12.97181
+      }
+    },
+    {
+      "istatCode": "081002",
+      "officialName": "Buseto Palizzolo",
+      "normalizedName": "buseto palizzolo",
+      "aliases": [
+        "buseto",
+        "busetopalizzolo"
+      ],
+      "areaKm2": 72.979,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "081003",
+        "081005",
+        "081007",
+        "081008",
+        "081021",
+        "081022"
+      ],
+      "focusPoint": {
+        "lat": 37.995289,
+        "lng": 12.729609
+      }
+    },
+    {
+      "istatCode": "081003",
+      "officialName": "Calatafimi-Segesta",
+      "normalizedName": "calatafimi segesta",
+      "aliases": [
+        "calatafimi",
+        "calatafimisegesta"
+      ],
+      "areaKm2": 154.314,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081001",
+        "081002",
+        "081005",
+        "081010",
+        "081018",
+        "081019",
+        "081021",
+        "081023"
+      ],
+      "focusPoint": {
+        "lat": 37.901733,
+        "lng": 12.869616
+      }
+    },
+    {
+      "istatCode": "081004",
+      "officialName": "Campobello di Mazara",
+      "normalizedName": "campobello di mazara",
+      "aliases": [
+        "campobello",
+        "campobellodimazara"
+      ],
+      "areaKm2": 65.705,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081006",
+        "081012"
+      ],
+      "focusPoint": {
+        "lat": 37.613631,
+        "lng": 12.715519
+      }
+    },
+    {
+      "istatCode": "081005",
+      "officialName": "Castellammare del Golfo",
+      "normalizedName": "castellammare del golfo",
+      "aliases": [
+        "castellammare",
+        "castellammaredelgolfo"
+      ],
+      "areaKm2": 126.415,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081001",
+        "081002",
+        "081003",
+        "081007",
+        "081020"
+      ],
+      "focusPoint": {
+        "lat": 38.018174,
+        "lng": 12.826752
+      }
+    },
+    {
+      "istatCode": "081006",
+      "officialName": "Castelvetrano",
+      "normalizedName": "castelvetrano",
+      "aliases": [],
+      "areaKm2": 207.307,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081004",
+        "081012",
+        "081015",
+        "081018",
+        "081019"
+      ],
+      "focusPoint": {
+        "lat": 37.666049,
+        "lng": 12.825752
+      }
+    },
+    {
+      "istatCode": "081007",
+      "officialName": "Custonaci",
+      "normalizedName": "custonaci",
+      "aliases": [],
+      "areaKm2": 70.545,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081002",
+        "081005",
+        "081020",
+        "081022"
+      ],
+      "focusPoint": {
+        "lat": 38.073254,
+        "lng": 12.710358
+      }
+    },
+    {
+      "istatCode": "081008",
+      "officialName": "Erice",
+      "normalizedName": "erice",
+      "aliases": [],
+      "areaKm2": 47.827,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081002",
+        "081013",
+        "081021",
+        "081022"
+      ],
+      "focusPoint": {
+        "lat": 38.010995,
+        "lng": 12.592784
+      }
+    },
+    {
+      "istatCode": "081009",
+      "officialName": "Favignana",
+      "normalizedName": "favignana",
+      "aliases": [],
+      "areaKm2": 38.628,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [],
+      "focusPoint": {
+        "lat": 37.930407,
+        "lng": 12.314705
+      }
+    },
+    {
+      "istatCode": "081010",
+      "officialName": "Gibellina",
+      "normalizedName": "gibellina",
+      "aliases": [],
+      "areaKm2": 46.491,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081003",
+        "081016",
+        "081017",
+        "081018",
+        "081019"
+      ],
+      "focusPoint": {
+        "lat": 37.809729,
+        "lng": 12.960125
+      }
+    },
+    {
+      "istatCode": "081011",
+      "officialName": "Marsala",
+      "normalizedName": "marsala",
+      "aliases": [],
+      "areaKm2": 243.24,
+      "baseChips": 127,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081012",
+        "081018",
+        "081021",
+        "081024",
+        "081025"
+      ],
+      "focusPoint": {
+        "lat": 37.824385,
+        "lng": 12.575539
+      }
+    },
+    {
+      "istatCode": "081012",
+      "officialName": "Mazara del Vallo",
+      "normalizedName": "mazara del vallo",
+      "aliases": [
+        "mazara",
+        "mazaradelvallo"
+      ],
+      "areaKm2": 274.632,
+      "baseChips": 124,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081004",
+        "081006",
+        "081011",
+        "081018",
+        "081024"
+      ],
+      "focusPoint": {
+        "lat": 37.688046,
+        "lng": 12.630268
+      }
+    },
+    {
+      "istatCode": "081013",
+      "officialName": "Paceco",
+      "normalizedName": "paceco",
+      "aliases": [],
+      "areaKm2": 57.742,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081008",
+        "081021",
+        "081025"
+      ],
+      "focusPoint": {
+        "lat": 37.946713,
+        "lng": 12.608745
+      }
+    },
+    {
+      "istatCode": "081014",
+      "officialName": "Pantelleria",
+      "normalizedName": "pantelleria",
+      "aliases": [],
+      "areaKm2": 84.182,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [],
+      "focusPoint": {
+        "lat": 36.790662,
+        "lng": 11.996836
+      }
+    },
+    {
+      "istatCode": "081015",
+      "officialName": "Partanna",
+      "normalizedName": "partanna",
+      "aliases": [],
+      "areaKm2": 82.294,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081006",
+        "081017",
+        "081019"
+      ],
+      "focusPoint": {
+        "lat": 37.716656,
+        "lng": 12.895769
+      }
+    },
+    {
+      "istatCode": "081016",
+      "officialName": "Poggioreale",
+      "normalizedName": "poggioreale",
+      "aliases": [],
+      "areaKm2": 37.72,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081010",
+        "081017"
+      ],
+      "focusPoint": {
+        "lat": 37.785271,
+        "lng": 13.046986
+      }
+    },
+    {
+      "istatCode": "081017",
+      "officialName": "Salaparuta",
+      "normalizedName": "salaparuta",
+      "aliases": [],
+      "areaKm2": 41.242,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081010",
+        "081015",
+        "081016",
+        "081019"
+      ],
+      "focusPoint": {
+        "lat": 37.760624,
+        "lng": 12.985197
+      }
+    },
+    {
+      "istatCode": "081018",
+      "officialName": "Salemi",
+      "normalizedName": "salemi",
+      "aliases": [],
+      "areaKm2": 181.664,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "081003",
+        "081006",
+        "081010",
+        "081011",
+        "081012",
+        "081019",
+        "081021",
+        "081023"
+      ],
+      "focusPoint": {
+        "lat": 37.820545,
+        "lng": 12.778389
+      }
+    },
+    {
+      "istatCode": "081019",
+      "officialName": "Santa Ninfa",
+      "normalizedName": "santa ninfa",
+      "aliases": [
+        "santa",
+        "santaninfa"
+      ],
+      "areaKm2": 63.07,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "081003",
+        "081006",
+        "081010",
+        "081015",
+        "081017",
+        "081018"
+      ],
+      "focusPoint": {
+        "lat": 37.776844,
+        "lng": 12.864488
+      }
+    },
+    {
+      "istatCode": "081020",
+      "officialName": "San Vito Lo Capo",
+      "normalizedName": "san vito lo capo",
+      "aliases": [
+        "san",
+        "san vito",
+        "san vito lo",
+        "sanvito",
+        "sanvitolo",
+        "sanvitolocapo"
+      ],
+      "areaKm2": 59.692,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081005",
+        "081007"
+      ],
+      "focusPoint": {
+        "lat": 38.118558,
+        "lng": 12.755762
+      }
+    },
+    {
+      "istatCode": "081021",
+      "officialName": "Trapani",
+      "normalizedName": "trapani",
+      "aliases": [],
+      "areaKm2": 179.792,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081002",
+        "081003",
+        "081008",
+        "081011",
+        "081013",
+        "081018",
+        "081025"
+      ],
+      "focusPoint": {
+        "lat": 37.903392,
+        "lng": 12.713596
+      }
+    },
+    {
+      "istatCode": "081022",
+      "officialName": "Valderice",
+      "normalizedName": "valderice",
+      "aliases": [],
+      "areaKm2": 52.157,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081002",
+        "081007",
+        "081008"
+      ],
+      "focusPoint": {
+        "lat": 38.031715,
+        "lng": 12.637562
+      }
+    },
+    {
+      "istatCode": "081023",
+      "officialName": "Vita",
+      "normalizedName": "vita",
+      "aliases": [],
+      "areaKm2": 9.131,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "081003",
+        "081018"
+      ],
+      "focusPoint": {
+        "lat": 37.854593,
+        "lng": 12.849212
+      }
+    },
+    {
+      "istatCode": "081024",
+      "officialName": "Petrosino",
+      "normalizedName": "petrosino",
+      "aliases": [],
+      "areaKm2": 45.276,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "081011",
+        "081012"
+      ],
+      "focusPoint": {
+        "lat": 37.703732,
+        "lng": 12.511591
+      }
+    },
+    {
+      "istatCode": "081025",
+      "officialName": "Misiliscemi",
+      "normalizedName": "misiliscemi",
+      "aliases": [],
+      "areaKm2": 92.819,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "081011",
+        "081013",
+        "081021"
+      ],
+      "focusPoint": {
+        "lat": 37.914121,
+        "lng": 12.544992
+      }
+    }
+  ]
+}

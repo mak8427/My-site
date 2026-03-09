@@ -1,0 +1,766 @@
+{
+  "provinceCode": "046",
+  "label": "Lucca",
+  "officialScopeLabel": "Provincia di Lucca",
+  "sigla": "LU",
+  "slug": "lucca",
+  "sourceYear": 2026,
+  "count": 33,
+  "municipalities": [
+    {
+      "istatCode": "046001",
+      "officialName": "Altopascio",
+      "normalizedName": "altopascio",
+      "aliases": [],
+      "areaKm2": 28.646,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046007",
+        "046021",
+        "046026"
+      ],
+      "focusPoint": {
+        "lat": 43.81824,
+        "lng": 10.678988
+      }
+    },
+    {
+      "istatCode": "046002",
+      "officialName": "Bagni di Lucca",
+      "normalizedName": "bagni di lucca",
+      "aliases": [
+        "bagni",
+        "bagnidilucca"
+      ],
+      "areaKm2": 165.029,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046004",
+        "046011",
+        "046034"
+      ],
+      "focusPoint": {
+        "lat": 44.032404,
+        "lng": 10.644974
+      }
+    },
+    {
+      "istatCode": "046003",
+      "officialName": "Barga",
+      "normalizedName": "barga",
+      "aliases": [],
+      "areaKm2": 66.291,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046011",
+        "046014",
+        "046015",
+        "046020"
+      ],
+      "focusPoint": {
+        "lat": 44.095177,
+        "lng": 10.505159
+      }
+    },
+    {
+      "istatCode": "046004",
+      "officialName": "Borgo a Mozzano",
+      "normalizedName": "borgo a mozzano",
+      "aliases": [
+        "borgo",
+        "borgo a",
+        "borgoa",
+        "borgoamozzano"
+      ],
+      "areaKm2": 72.057,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046002",
+        "046007",
+        "046011",
+        "046015",
+        "046017",
+        "046022",
+        "046034",
+        "046036"
+      ],
+      "focusPoint": {
+        "lat": 43.977292,
+        "lng": 10.533046
+      }
+    },
+    {
+      "istatCode": "046005",
+      "officialName": "Camaiore",
+      "normalizedName": "camaiore",
+      "aliases": [],
+      "areaKm2": 84.859,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046017",
+        "046018",
+        "046022",
+        "046024",
+        "046030",
+        "046033"
+      ],
+      "focusPoint": {
+        "lat": 43.924876,
+        "lng": 10.323558
+      }
+    },
+    {
+      "istatCode": "046006",
+      "officialName": "Camporgiano",
+      "normalizedName": "camporgiano",
+      "aliases": [],
+      "areaKm2": 26.963,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046008",
+        "046009",
+        "046019",
+        "046023",
+        "046025",
+        "046027",
+        "046031"
+      ],
+      "focusPoint": {
+        "lat": 44.143732,
+        "lng": 10.337964
+      }
+    },
+    {
+      "istatCode": "046007",
+      "officialName": "Capannori",
+      "normalizedName": "capannori",
+      "aliases": [],
+      "areaKm2": 155.92,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046001",
+        "046004",
+        "046017",
+        "046021",
+        "046026",
+        "046034"
+      ],
+      "focusPoint": {
+        "lat": 43.844216,
+        "lng": 10.579848
+      }
+    },
+    {
+      "istatCode": "046008",
+      "officialName": "Careggine",
+      "normalizedName": "careggine",
+      "aliases": [],
+      "areaKm2": 24.286,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046006",
+        "046009",
+        "046020",
+        "046030",
+        "046031"
+      ],
+      "focusPoint": {
+        "lat": 44.102474,
+        "lng": 10.327541
+      }
+    },
+    {
+      "istatCode": "046009",
+      "officialName": "Castelnuovo di Garfagnana",
+      "normalizedName": "castelnuovo di garfagnana",
+      "aliases": [
+        "castelnuovo",
+        "castelnuovodigarfagnana"
+      ],
+      "areaKm2": 28.643,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046006",
+        "046008",
+        "046014",
+        "046015",
+        "046020",
+        "046025"
+      ],
+      "focusPoint": {
+        "lat": 44.105561,
+        "lng": 10.393087
+      }
+    },
+    {
+      "istatCode": "046010",
+      "officialName": "Castiglione di Garfagnana",
+      "normalizedName": "castiglione di garfagnana",
+      "aliases": [
+        "castiglione",
+        "castiglionedigarfagnana"
+      ],
+      "areaKm2": 48.479,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046025",
+        "046035"
+      ],
+      "focusPoint": {
+        "lat": 44.178449,
+        "lng": 10.466016
+      }
+    },
+    {
+      "istatCode": "046011",
+      "officialName": "Coreglia Antelminelli",
+      "normalizedName": "coreglia antelminelli",
+      "aliases": [
+        "coreglia",
+        "coregliaantelminelli"
+      ],
+      "areaKm2": 53.106,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046002",
+        "046003",
+        "046004",
+        "046015"
+      ],
+      "focusPoint": {
+        "lat": 44.067646,
+        "lng": 10.552016
+      }
+    },
+    {
+      "istatCode": "046013",
+      "officialName": "Forte dei Marmi",
+      "normalizedName": "forte dei marmi",
+      "aliases": [
+        "forte",
+        "fortedeimarmi"
+      ],
+      "areaKm2": 9.26,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046024",
+        "046028"
+      ],
+      "focusPoint": {
+        "lat": 43.963917,
+        "lng": 10.177641
+      }
+    },
+    {
+      "istatCode": "046014",
+      "officialName": "Fosciandora",
+      "normalizedName": "fosciandora",
+      "aliases": [],
+      "areaKm2": 20.178,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046003",
+        "046009",
+        "046015",
+        "046025"
+      ],
+      "focusPoint": {
+        "lat": 44.130802,
+        "lng": 10.476176
+      }
+    },
+    {
+      "istatCode": "046015",
+      "officialName": "Gallicano",
+      "normalizedName": "gallicano",
+      "aliases": [],
+      "areaKm2": 31.205,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046003",
+        "046004",
+        "046009",
+        "046011",
+        "046014",
+        "046020",
+        "046036"
+      ],
+      "focusPoint": {
+        "lat": 44.044131,
+        "lng": 10.428622
+      }
+    },
+    {
+      "istatCode": "046017",
+      "officialName": "Lucca",
+      "normalizedName": "lucca",
+      "aliases": [],
+      "areaKm2": 186.074,
+      "baseChips": 133,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046004",
+        "046005",
+        "046007",
+        "046018",
+        "046022"
+      ],
+      "focusPoint": {
+        "lat": 43.857663,
+        "lng": 10.463295
+      }
+    },
+    {
+      "istatCode": "046018",
+      "officialName": "Massarosa",
+      "normalizedName": "massarosa",
+      "aliases": [],
+      "areaKm2": 67.943,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046005",
+        "046017",
+        "046033"
+      ],
+      "focusPoint": {
+        "lat": 43.868409,
+        "lng": 10.3263
+      }
+    },
+    {
+      "istatCode": "046019",
+      "officialName": "Minucciano",
+      "normalizedName": "minucciano",
+      "aliases": [],
+      "areaKm2": 57.29,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046006",
+        "046023",
+        "046031",
+        "046037"
+      ],
+      "focusPoint": {
+        "lat": 44.173734,
+        "lng": 10.231633
+      }
+    },
+    {
+      "istatCode": "046020",
+      "officialName": "Molazzana",
+      "normalizedName": "molazzana",
+      "aliases": [],
+      "areaKm2": 31.254,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046003",
+        "046008",
+        "046009",
+        "046015",
+        "046030",
+        "046036"
+      ],
+      "focusPoint": {
+        "lat": 44.065764,
+        "lng": 10.378067
+      }
+    },
+    {
+      "istatCode": "046021",
+      "officialName": "Montecarlo",
+      "normalizedName": "montecarlo",
+      "aliases": [],
+      "areaKm2": 16.039,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046001",
+        "046007",
+        "046026"
+      ],
+      "focusPoint": {
+        "lat": 43.850436,
+        "lng": 10.671315
+      }
+    },
+    {
+      "istatCode": "046022",
+      "officialName": "Pescaglia",
+      "normalizedName": "pescaglia",
+      "aliases": [],
+      "areaKm2": 70.563,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046004",
+        "046005",
+        "046017",
+        "046030",
+        "046036"
+      ],
+      "focusPoint": {
+        "lat": 43.951909,
+        "lng": 10.410933
+      }
+    },
+    {
+      "istatCode": "046023",
+      "officialName": "Piazza al Serchio",
+      "normalizedName": "piazza al serchio",
+      "aliases": [
+        "piazza",
+        "piazza al",
+        "piazzaal",
+        "piazzaalserchio"
+      ],
+      "areaKm2": 27.322,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046006",
+        "046019",
+        "046027",
+        "046037"
+      ],
+      "focusPoint": {
+        "lat": 44.192962,
+        "lng": 10.284544
+      }
+    },
+    {
+      "istatCode": "046024",
+      "officialName": "Pietrasanta",
+      "normalizedName": "pietrasanta",
+      "aliases": [],
+      "areaKm2": 42.25,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046005",
+        "046013",
+        "046028",
+        "046030"
+      ],
+      "focusPoint": {
+        "lat": 43.950686,
+        "lng": 10.226861
+      }
+    },
+    {
+      "istatCode": "046025",
+      "officialName": "Pieve Fosciana",
+      "normalizedName": "pieve fosciana",
+      "aliases": [
+        "pieve",
+        "pievefosciana"
+      ],
+      "areaKm2": 28.528,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046006",
+        "046009",
+        "046010",
+        "046014",
+        "046027",
+        "046035"
+      ],
+      "focusPoint": {
+        "lat": 44.145383,
+        "lng": 10.462523
+      }
+    },
+    {
+      "istatCode": "046026",
+      "officialName": "Porcari",
+      "normalizedName": "porcari",
+      "aliases": [],
+      "areaKm2": 18.016,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046001",
+        "046007",
+        "046021"
+      ],
+      "focusPoint": {
+        "lat": 43.827797,
+        "lng": 10.618582
+      }
+    },
+    {
+      "istatCode": "046027",
+      "officialName": "San Romano in Garfagnana",
+      "normalizedName": "san romano in garfagnana",
+      "aliases": [
+        "san",
+        "san romano",
+        "sanromano",
+        "sanromanoingarfagnana"
+      ],
+      "areaKm2": 26.042,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046006",
+        "046023",
+        "046025",
+        "046035",
+        "046037"
+      ],
+      "focusPoint": {
+        "lat": 44.182718,
+        "lng": 10.340703
+      }
+    },
+    {
+      "istatCode": "046028",
+      "officialName": "Seravezza",
+      "normalizedName": "seravezza",
+      "aliases": [],
+      "areaKm2": 39.541,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046013",
+        "046024",
+        "046030"
+      ],
+      "focusPoint": {
+        "lat": 44.019068,
+        "lng": 10.226685
+      }
+    },
+    {
+      "istatCode": "046030",
+      "officialName": "Stazzema",
+      "normalizedName": "stazzema",
+      "aliases": [],
+      "areaKm2": 80.305,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046005",
+        "046008",
+        "046020",
+        "046022",
+        "046024",
+        "046028",
+        "046031",
+        "046036"
+      ],
+      "focusPoint": {
+        "lat": 44.015254,
+        "lng": 10.309322
+      }
+    },
+    {
+      "istatCode": "046031",
+      "officialName": "Vagli Sotto",
+      "normalizedName": "vagli sotto",
+      "aliases": [
+        "vagli",
+        "vaglisotto"
+      ],
+      "areaKm2": 41.309,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046006",
+        "046008",
+        "046019",
+        "046030"
+      ],
+      "focusPoint": {
+        "lat": 44.109012,
+        "lng": 10.26897
+      }
+    },
+    {
+      "istatCode": "046033",
+      "officialName": "Viareggio",
+      "normalizedName": "viareggio",
+      "aliases": [],
+      "areaKm2": 32.77,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046005",
+        "046018"
+      ],
+      "focusPoint": {
+        "lat": 43.856667,
+        "lng": 10.266169
+      }
+    },
+    {
+      "istatCode": "046034",
+      "officialName": "Villa Basilica",
+      "normalizedName": "villa basilica",
+      "aliases": [
+        "villabasilica"
+      ],
+      "areaKm2": 36.35,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046002",
+        "046004",
+        "046007"
+      ],
+      "focusPoint": {
+        "lat": 43.941915,
+        "lng": 10.631892
+      }
+    },
+    {
+      "istatCode": "046035",
+      "officialName": "Villa Collemandina",
+      "normalizedName": "villa collemandina",
+      "aliases": [
+        "villacollemandina"
+      ],
+      "areaKm2": 34.728,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046010",
+        "046025",
+        "046027",
+        "046037"
+      ],
+      "focusPoint": {
+        "lat": 44.194616,
+        "lng": 10.392382
+      }
+    },
+    {
+      "istatCode": "046036",
+      "officialName": "Fabbriche di Vergemoli",
+      "normalizedName": "fabbriche di vergemoli",
+      "aliases": [
+        "fabbriche",
+        "fabbrichedivergemoli"
+      ],
+      "areaKm2": 42.22,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "046004",
+        "046015",
+        "046020",
+        "046022",
+        "046030"
+      ],
+      "focusPoint": {
+        "lat": 44.026787,
+        "lng": 10.368475
+      }
+    },
+    {
+      "istatCode": "046037",
+      "officialName": "Sillano Giuncugnano",
+      "normalizedName": "sillano giuncugnano",
+      "aliases": [
+        "sillano",
+        "sillanogiuncugnano"
+      ],
+      "areaKm2": 81.276,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "046019",
+        "046023",
+        "046027",
+        "046035"
+      ],
+      "focusPoint": {
+        "lat": 44.234255,
+        "lng": 10.343458
+      }
+    }
+  ]
+}

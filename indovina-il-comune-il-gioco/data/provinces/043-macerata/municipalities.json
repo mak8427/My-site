@@ -1,0 +1,1271 @@
+{
+  "provinceCode": "043",
+  "label": "Macerata",
+  "officialScopeLabel": "Provincia di Macerata",
+  "sigla": "MC",
+  "slug": "macerata",
+  "sourceYear": 2026,
+  "count": 55,
+  "municipalities": [
+    {
+      "istatCode": "043002",
+      "officialName": "Apiro",
+      "normalizedName": "apiro",
+      "aliases": [],
+      "areaKm2": 53.489,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043012",
+        "043024",
+        "043040",
+        "043047"
+      ],
+      "focusPoint": {
+        "lat": 43.37714,
+        "lng": 13.118977
+      }
+    },
+    {
+      "istatCode": "043003",
+      "officialName": "Appignano",
+      "normalizedName": "appignano",
+      "aliases": [],
+      "areaKm2": 22.954,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043012",
+        "043023",
+        "043026",
+        "043029",
+        "043054"
+      ],
+      "focusPoint": {
+        "lat": 43.365906,
+        "lng": 13.362211
+      }
+    },
+    {
+      "istatCode": "043004",
+      "officialName": "Belforte del Chienti",
+      "normalizedName": "belforte del chienti",
+      "aliases": [
+        "belforte",
+        "belfortedelchienti"
+      ],
+      "areaKm2": 15.963,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043006",
+        "043008",
+        "043051",
+        "043053"
+      ],
+      "focusPoint": {
+        "lat": 43.162325,
+        "lng": 13.241145
+      }
+    },
+    {
+      "istatCode": "043005",
+      "officialName": "Bolognola",
+      "normalizedName": "bolognola",
+      "aliases": [],
+      "areaKm2": 26.122,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043017",
+        "043049",
+        "043056"
+      ],
+      "focusPoint": {
+        "lat": 42.989599,
+        "lng": 13.217716
+      }
+    },
+    {
+      "istatCode": "043006",
+      "officialName": "Caldarola",
+      "normalizedName": "caldarola",
+      "aliases": [],
+      "areaKm2": 29.264,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043004",
+        "043007",
+        "043008",
+        "043011",
+        "043051",
+        "043058"
+      ],
+      "focusPoint": {
+        "lat": 43.127324,
+        "lng": 13.201791
+      }
+    },
+    {
+      "istatCode": "043007",
+      "officialName": "Camerino",
+      "normalizedName": "camerino",
+      "aliases": [],
+      "areaKm2": 129.446,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043006",
+        "043009",
+        "043017",
+        "043034",
+        "043039",
+        "043050",
+        "043051",
+        "043052",
+        "043058"
+      ],
+      "focusPoint": {
+        "lat": 43.132065,
+        "lng": 13.075771
+      }
+    },
+    {
+      "istatCode": "043008",
+      "officialName": "Camporotondo di Fiastrone",
+      "normalizedName": "camporotondo di fiastrone",
+      "aliases": [
+        "camporotondo",
+        "camporotondodifiastrone"
+      ],
+      "areaKm2": 8.828,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043004",
+        "043006",
+        "043011",
+        "043046",
+        "043053"
+      ],
+      "focusPoint": {
+        "lat": 43.138921,
+        "lng": 13.266036
+      }
+    },
+    {
+      "istatCode": "043009",
+      "officialName": "Castelraimondo",
+      "normalizedName": "castelraimondo",
+      "aliases": [],
+      "areaKm2": 44.349,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043007",
+        "043019",
+        "043020",
+        "043024",
+        "043039",
+        "043047",
+        "043051"
+      ],
+      "focusPoint": {
+        "lat": 43.201686,
+        "lng": 13.051763
+      }
+    },
+    {
+      "istatCode": "043010",
+      "officialName": "Castelsantangelo sul Nera",
+      "normalizedName": "castelsantangelo sul nera",
+      "aliases": [
+        "castelsantangelo",
+        "castelsantangelosulnera"
+      ],
+      "areaKm2": 70.819,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043056",
+        "043057"
+      ],
+      "focusPoint": {
+        "lat": 42.882174,
+        "lng": 13.176862
+      }
+    },
+    {
+      "istatCode": "043011",
+      "officialName": "Cessapalombo",
+      "normalizedName": "cessapalombo",
+      "aliases": [],
+      "areaKm2": 27.217,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043006",
+        "043008",
+        "043017",
+        "043046",
+        "043058"
+      ],
+      "focusPoint": {
+        "lat": 43.083989,
+        "lng": 13.238686
+      }
+    },
+    {
+      "istatCode": "043012",
+      "officialName": "Cingoli",
+      "normalizedName": "cingoli",
+      "aliases": [],
+      "areaKm2": 148.063,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043002",
+        "043003",
+        "043047",
+        "043054"
+      ],
+      "focusPoint": {
+        "lat": 43.391106,
+        "lng": 13.246271
+      }
+    },
+    {
+      "istatCode": "043013",
+      "officialName": "Civitanova Marche",
+      "normalizedName": "civitanova marche",
+      "aliases": [
+        "civitanova",
+        "civitanovamarche"
+      ],
+      "areaKm2": 45.832,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043028",
+        "043043"
+      ],
+      "focusPoint": {
+        "lat": 43.315092,
+        "lng": 13.690712
+      }
+    },
+    {
+      "istatCode": "043014",
+      "officialName": "Colmurano",
+      "normalizedName": "colmurano",
+      "aliases": [],
+      "areaKm2": 11.015,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043022",
+        "043045",
+        "043046",
+        "043053",
+        "043055"
+      ],
+      "focusPoint": {
+        "lat": 43.170191,
+        "lng": 13.362645
+      }
+    },
+    {
+      "istatCode": "043015",
+      "officialName": "Corridonia",
+      "normalizedName": "corridonia",
+      "aliases": [],
+      "areaKm2": 61.681,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043023",
+        "043025",
+        "043031",
+        "043033",
+        "043036",
+        "043053"
+      ],
+      "focusPoint": {
+        "lat": 43.252142,
+        "lng": 13.49234
+      }
+    },
+    {
+      "istatCode": "043016",
+      "officialName": "Esanatoglia",
+      "normalizedName": "esanatoglia",
+      "aliases": [],
+      "areaKm2": 48.242,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043019",
+        "043024"
+      ],
+      "focusPoint": {
+        "lat": 43.243071,
+        "lng": 12.929349
+      }
+    },
+    {
+      "istatCode": "043017",
+      "officialName": "Fiastra",
+      "normalizedName": "fiastra",
+      "aliases": [],
+      "areaKm2": 84.25,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043005",
+        "043007",
+        "043011",
+        "043046",
+        "043049",
+        "043056",
+        "043057",
+        "043058"
+      ],
+      "focusPoint": {
+        "lat": 43.029549,
+        "lng": 13.167495
+      }
+    },
+    {
+      "istatCode": "043019",
+      "officialName": "Fiuminata",
+      "normalizedName": "fiuminata",
+      "aliases": [],
+      "areaKm2": 75.878,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043009",
+        "043016",
+        "043024",
+        "043039",
+        "043050",
+        "043052"
+      ],
+      "focusPoint": {
+        "lat": 43.161698,
+        "lng": 12.896075
+      }
+    },
+    {
+      "istatCode": "043020",
+      "officialName": "Gagliole",
+      "normalizedName": "gagliole",
+      "aliases": [],
+      "areaKm2": 23.919,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043009",
+        "043024",
+        "043047"
+      ],
+      "focusPoint": {
+        "lat": 43.255318,
+        "lng": 13.081404
+      }
+    },
+    {
+      "istatCode": "043021",
+      "officialName": "Gualdo",
+      "normalizedName": "gualdo",
+      "aliases": [],
+      "areaKm2": 22.077,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043035",
+        "043046",
+        "043048",
+        "043049"
+      ],
+      "focusPoint": {
+        "lat": 43.070163,
+        "lng": 13.354834
+      }
+    },
+    {
+      "istatCode": "043022",
+      "officialName": "Loro Piceno",
+      "normalizedName": "loro piceno",
+      "aliases": [
+        "loro",
+        "loropiceno"
+      ],
+      "areaKm2": 32.405,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043014",
+        "043025",
+        "043036",
+        "043045",
+        "043048",
+        "043055"
+      ],
+      "focusPoint": {
+        "lat": 43.165922,
+        "lng": 13.418224
+      }
+    },
+    {
+      "istatCode": "043023",
+      "officialName": "Macerata",
+      "normalizedName": "macerata",
+      "aliases": [],
+      "areaKm2": 92.267,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043003",
+        "043015",
+        "043026",
+        "043030",
+        "043033",
+        "043041",
+        "043044",
+        "043053",
+        "043054"
+      ],
+      "focusPoint": {
+        "lat": 43.301635,
+        "lng": 13.458048
+      }
+    },
+    {
+      "istatCode": "043024",
+      "officialName": "Matelica",
+      "normalizedName": "matelica",
+      "aliases": [],
+      "areaKm2": 81.266,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043002",
+        "043009",
+        "043016",
+        "043019",
+        "043020",
+        "043040",
+        "043047"
+      ],
+      "focusPoint": {
+        "lat": 43.271681,
+        "lng": 13.034026
+      }
+    },
+    {
+      "istatCode": "043025",
+      "officialName": "Mogliano",
+      "normalizedName": "mogliano",
+      "aliases": [],
+      "areaKm2": 29.283,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043015",
+        "043022",
+        "043036"
+      ],
+      "focusPoint": {
+        "lat": 43.189803,
+        "lng": 13.482017
+      }
+    },
+    {
+      "istatCode": "043026",
+      "officialName": "Montecassiano",
+      "normalizedName": "montecassiano",
+      "aliases": [],
+      "areaKm2": 33.664,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043003",
+        "043023",
+        "043029",
+        "043044"
+      ],
+      "focusPoint": {
+        "lat": 43.363361,
+        "lng": 13.437268
+      }
+    },
+    {
+      "istatCode": "043027",
+      "officialName": "Monte Cavallo",
+      "normalizedName": "monte cavallo",
+      "aliases": [
+        "montecavallo"
+      ],
+      "areaKm2": 38.631,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043038",
+        "043052",
+        "043057"
+      ],
+      "focusPoint": {
+        "lat": 42.991541,
+        "lng": 12.984993
+      }
+    },
+    {
+      "istatCode": "043028",
+      "officialName": "Montecosaro",
+      "normalizedName": "montecosaro",
+      "aliases": [],
+      "areaKm2": 21.751,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043013",
+        "043030",
+        "043033",
+        "043043"
+      ],
+      "focusPoint": {
+        "lat": 43.302171,
+        "lng": 13.633973
+      }
+    },
+    {
+      "istatCode": "043029",
+      "officialName": "Montefano",
+      "normalizedName": "montefano",
+      "aliases": [],
+      "areaKm2": 33.639,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043003",
+        "043026",
+        "043044"
+      ],
+      "focusPoint": {
+        "lat": 43.412046,
+        "lng": 13.408106
+      }
+    },
+    {
+      "istatCode": "043030",
+      "officialName": "Montelupone",
+      "normalizedName": "montelupone",
+      "aliases": [],
+      "areaKm2": 32.767,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043023",
+        "043028",
+        "043033",
+        "043043",
+        "043044"
+      ],
+      "focusPoint": {
+        "lat": 43.34259,
+        "lng": 13.555098
+      }
+    },
+    {
+      "istatCode": "043031",
+      "officialName": "Monte San Giusto",
+      "normalizedName": "monte san giusto",
+      "aliases": [
+        "montesangiusto"
+      ],
+      "areaKm2": 20.066,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043015",
+        "043033"
+      ],
+      "focusPoint": {
+        "lat": 43.238448,
+        "lng": 13.581471
+      }
+    },
+    {
+      "istatCode": "043032",
+      "officialName": "Monte San Martino",
+      "normalizedName": "monte san martino",
+      "aliases": [
+        "montesanmartino"
+      ],
+      "areaKm2": 18.837,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043035"
+      ],
+      "focusPoint": {
+        "lat": 43.031071,
+        "lng": 13.423291
+      }
+    },
+    {
+      "istatCode": "043033",
+      "officialName": "Morrovalle",
+      "normalizedName": "morrovalle",
+      "aliases": [],
+      "areaKm2": 42.343,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043015",
+        "043023",
+        "043028",
+        "043030",
+        "043031"
+      ],
+      "focusPoint": {
+        "lat": 43.298158,
+        "lng": 13.573726
+      }
+    },
+    {
+      "istatCode": "043034",
+      "officialName": "Muccia",
+      "normalizedName": "muccia",
+      "aliases": [],
+      "areaKm2": 25.817,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043007",
+        "043038",
+        "043052",
+        "043058"
+      ],
+      "focusPoint": {
+        "lat": 43.074661,
+        "lng": 13.044032
+      }
+    },
+    {
+      "istatCode": "043035",
+      "officialName": "Penna San Giovanni",
+      "normalizedName": "penna san giovanni",
+      "aliases": [
+        "penna",
+        "penna san",
+        "pennasan",
+        "pennasangiovanni"
+      ],
+      "areaKm2": 27.742,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043021",
+        "043032",
+        "043048"
+      ],
+      "focusPoint": {
+        "lat": 43.057113,
+        "lng": 13.421028
+      }
+    },
+    {
+      "istatCode": "043036",
+      "officialName": "Petriolo",
+      "normalizedName": "petriolo",
+      "aliases": [],
+      "areaKm2": 15.648,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043015",
+        "043022",
+        "043025",
+        "043055"
+      ],
+      "focusPoint": {
+        "lat": 43.219824,
+        "lng": 13.462566
+      }
+    },
+    {
+      "istatCode": "043038",
+      "officialName": "Pieve Torina",
+      "normalizedName": "pieve torina",
+      "aliases": [
+        "pieve",
+        "pievetorina"
+      ],
+      "areaKm2": 74.867,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043027",
+        "043034",
+        "043052",
+        "043056",
+        "043057",
+        "043058"
+      ],
+      "focusPoint": {
+        "lat": 43.009491,
+        "lng": 13.055914
+      }
+    },
+    {
+      "istatCode": "043039",
+      "officialName": "Pioraco",
+      "normalizedName": "pioraco",
+      "aliases": [],
+      "areaKm2": 19.776,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043007",
+        "043009",
+        "043019",
+        "043050"
+      ],
+      "focusPoint": {
+        "lat": 43.184436,
+        "lng": 12.99065
+      }
+    },
+    {
+      "istatCode": "043040",
+      "officialName": "Poggio San Vicino",
+      "normalizedName": "poggio san vicino",
+      "aliases": [
+        "poggio",
+        "poggio san",
+        "poggiosan",
+        "poggiosanvicino"
+      ],
+      "areaKm2": 13.16,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043002",
+        "043024"
+      ],
+      "focusPoint": {
+        "lat": 43.361069,
+        "lng": 13.073864
+      }
+    },
+    {
+      "istatCode": "043041",
+      "officialName": "Pollenza",
+      "normalizedName": "pollenza",
+      "aliases": [],
+      "areaKm2": 39.325,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043023",
+        "043053",
+        "043054"
+      ],
+      "focusPoint": {
+        "lat": 43.267147,
+        "lng": 13.349171
+      }
+    },
+    {
+      "istatCode": "043042",
+      "officialName": "Porto Recanati",
+      "normalizedName": "porto recanati",
+      "aliases": [
+        "porto",
+        "portorecanati"
+      ],
+      "areaKm2": 16.941,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043043",
+        "043044"
+      ],
+      "focusPoint": {
+        "lat": 43.438593,
+        "lng": 13.65964
+      }
+    },
+    {
+      "istatCode": "043043",
+      "officialName": "Potenza Picena",
+      "normalizedName": "potenza picena",
+      "aliases": [
+        "potenza",
+        "potenzapicena"
+      ],
+      "areaKm2": 48.376,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043013",
+        "043028",
+        "043030",
+        "043042",
+        "043044"
+      ],
+      "focusPoint": {
+        "lat": 43.363996,
+        "lng": 13.643301
+      }
+    },
+    {
+      "istatCode": "043044",
+      "officialName": "Recanati",
+      "normalizedName": "recanati",
+      "aliases": [],
+      "areaKm2": 103.208,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043023",
+        "043026",
+        "043029",
+        "043030",
+        "043042",
+        "043043"
+      ],
+      "focusPoint": {
+        "lat": 43.394746,
+        "lng": 13.53166
+      }
+    },
+    {
+      "istatCode": "043045",
+      "officialName": "Ripe San Ginesio",
+      "normalizedName": "ripe san ginesio",
+      "aliases": [
+        "ripe",
+        "ripe san",
+        "ripesan",
+        "ripesanginesio"
+      ],
+      "areaKm2": 10.284,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043014",
+        "043022",
+        "043046",
+        "043048"
+      ],
+      "focusPoint": {
+        "lat": 43.145927,
+        "lng": 13.370443
+      }
+    },
+    {
+      "istatCode": "043046",
+      "officialName": "San Ginesio",
+      "normalizedName": "san ginesio",
+      "aliases": [
+        "sanginesio"
+      ],
+      "areaKm2": 77.902,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043008",
+        "043011",
+        "043014",
+        "043017",
+        "043021",
+        "043045",
+        "043048",
+        "043049",
+        "043053"
+      ],
+      "focusPoint": {
+        "lat": 43.100196,
+        "lng": 13.311848
+      }
+    },
+    {
+      "istatCode": "043047",
+      "officialName": "San Severino Marche",
+      "normalizedName": "san severino marche",
+      "aliases": [
+        "san severino",
+        "sanseverino",
+        "sanseverinomarche"
+      ],
+      "areaKm2": 193.941,
+      "baseChips": 132,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043002",
+        "043009",
+        "043012",
+        "043020",
+        "043024",
+        "043051",
+        "043053",
+        "043054"
+      ],
+      "focusPoint": {
+        "lat": 43.274801,
+        "lng": 13.183487
+      }
+    },
+    {
+      "istatCode": "043048",
+      "officialName": "Sant'Angelo in Pontano",
+      "normalizedName": "sant angelo in pontano",
+      "aliases": [
+        "sant",
+        "sant angelo",
+        "santangelo",
+        "santangeloinpontano"
+      ],
+      "areaKm2": 27.469,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043021",
+        "043022",
+        "043035",
+        "043045",
+        "043046"
+      ],
+      "focusPoint": {
+        "lat": 43.104531,
+        "lng": 13.399003
+      }
+    },
+    {
+      "istatCode": "043049",
+      "officialName": "Sarnano",
+      "normalizedName": "sarnano",
+      "aliases": [],
+      "areaKm2": 62.83,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043005",
+        "043017",
+        "043021",
+        "043046"
+      ],
+      "focusPoint": {
+        "lat": 43.01484,
+        "lng": 13.277592
+      }
+    },
+    {
+      "istatCode": "043050",
+      "officialName": "Sefro",
+      "normalizedName": "sefro",
+      "aliases": [],
+      "areaKm2": 42.16,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043007",
+        "043019",
+        "043039",
+        "043052"
+      ],
+      "focusPoint": {
+        "lat": 43.130552,
+        "lng": 12.95306
+      }
+    },
+    {
+      "istatCode": "043051",
+      "officialName": "Serrapetrona",
+      "normalizedName": "serrapetrona",
+      "aliases": [],
+      "areaKm2": 37.459,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043004",
+        "043006",
+        "043007",
+        "043009",
+        "043047",
+        "043053"
+      ],
+      "focusPoint": {
+        "lat": 43.169889,
+        "lng": 13.177716
+      }
+    },
+    {
+      "istatCode": "043052",
+      "officialName": "Serravalle di Chienti",
+      "normalizedName": "serravalle di chienti",
+      "aliases": [
+        "serravalle",
+        "serravalledichienti"
+      ],
+      "areaKm2": 95.94,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043007",
+        "043019",
+        "043027",
+        "043034",
+        "043038",
+        "043050",
+        "043057"
+      ],
+      "focusPoint": {
+        "lat": 43.023934,
+        "lng": 12.924343
+      }
+    },
+    {
+      "istatCode": "043053",
+      "officialName": "Tolentino",
+      "normalizedName": "tolentino",
+      "aliases": [],
+      "areaKm2": 94.96,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043004",
+        "043008",
+        "043014",
+        "043015",
+        "043023",
+        "043041",
+        "043046",
+        "043047",
+        "043051",
+        "043055"
+      ],
+      "focusPoint": {
+        "lat": 43.207264,
+        "lng": 13.295817
+      }
+    },
+    {
+      "istatCode": "043054",
+      "officialName": "Treia",
+      "normalizedName": "treia",
+      "aliases": [],
+      "areaKm2": 93.093,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043003",
+        "043012",
+        "043023",
+        "043041",
+        "043047"
+      ],
+      "focusPoint": {
+        "lat": 43.317673,
+        "lng": 13.316372
+      }
+    },
+    {
+      "istatCode": "043055",
+      "officialName": "Urbisaglia",
+      "normalizedName": "urbisaglia",
+      "aliases": [],
+      "areaKm2": 22.874,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043014",
+        "043022",
+        "043036",
+        "043053"
+      ],
+      "focusPoint": {
+        "lat": 43.205061,
+        "lng": 13.38995
+      }
+    },
+    {
+      "istatCode": "043056",
+      "officialName": "Ussita",
+      "normalizedName": "ussita",
+      "aliases": [],
+      "areaKm2": 54.947,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043005",
+        "043010",
+        "043017",
+        "043038",
+        "043057"
+      ],
+      "focusPoint": {
+        "lat": 42.942619,
+        "lng": 13.16587
+      }
+    },
+    {
+      "istatCode": "043057",
+      "officialName": "Visso",
+      "normalizedName": "visso",
+      "aliases": [],
+      "areaKm2": 100.603,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "043010",
+        "043017",
+        "043027",
+        "043038",
+        "043052",
+        "043056",
+        "043058"
+      ],
+      "focusPoint": {
+        "lat": 42.923392,
+        "lng": 13.050217
+      }
+    },
+    {
+      "istatCode": "043058",
+      "officialName": "Valfornace",
+      "normalizedName": "valfornace",
+      "aliases": [],
+      "areaKm2": 48.154,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "043006",
+        "043007",
+        "043011",
+        "043017",
+        "043034",
+        "043038",
+        "043057"
+      ],
+      "focusPoint": {
+        "lat": 43.095795,
+        "lng": 13.160823
+      }
+    }
+  ]
+}

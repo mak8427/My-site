@@ -1,0 +1,1133 @@
+{
+  "provinceCode": "102",
+  "label": "Vibo Valentia",
+  "officialScopeLabel": "Provincia di Vibo Valentia",
+  "sigla": "VV",
+  "slug": "vibo-valentia",
+  "sourceYear": 2026,
+  "count": 50,
+  "municipalities": [
+    {
+      "istatCode": "102001",
+      "officialName": "Acquaro",
+      "normalizedName": "acquaro",
+      "aliases": [],
+      "areaKm2": 24.762,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102002",
+        "102007",
+        "102008",
+        "102010"
+      ],
+      "focusPoint": {
+        "lat": 38.532144,
+        "lng": 16.20336
+      }
+    },
+    {
+      "istatCode": "102002",
+      "officialName": "Arena",
+      "normalizedName": "arena",
+      "aliases": [],
+      "areaKm2": 34.051,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102001",
+        "102007",
+        "102010",
+        "102016",
+        "102022",
+        "102037"
+      ],
+      "focusPoint": {
+        "lat": 38.542565,
+        "lng": 16.255416
+      }
+    },
+    {
+      "istatCode": "102003",
+      "officialName": "Briatico",
+      "normalizedName": "briatico",
+      "aliases": [],
+      "areaKm2": 27.362,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102006",
+        "102047",
+        "102048",
+        "102049",
+        "102050"
+      ],
+      "focusPoint": {
+        "lat": 38.694775,
+        "lng": 16.013931
+      }
+    },
+    {
+      "istatCode": "102004",
+      "officialName": "Brognaturo",
+      "normalizedName": "brognaturo",
+      "aliases": [],
+      "areaKm2": 25.138,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102038",
+        "102041"
+      ],
+      "focusPoint": {
+        "lat": 38.582872,
+        "lng": 16.396535
+      }
+    },
+    {
+      "istatCode": "102005",
+      "officialName": "Capistrano",
+      "normalizedName": "capistrano",
+      "aliases": [],
+      "areaKm2": 20.998,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102013",
+        "102020",
+        "102023",
+        "102035"
+      ],
+      "focusPoint": {
+        "lat": 38.698265,
+        "lng": 16.298239
+      }
+    },
+    {
+      "istatCode": "102006",
+      "officialName": "Cessaniti",
+      "normalizedName": "cessaniti",
+      "aliases": [],
+      "areaKm2": 17.809,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102003",
+        "102012",
+        "102047",
+        "102050"
+      ],
+      "focusPoint": {
+        "lat": 38.678756,
+        "lng": 16.030179
+      }
+    },
+    {
+      "istatCode": "102007",
+      "officialName": "Dasà",
+      "normalizedName": "dasa",
+      "aliases": [],
+      "areaKm2": 6.33,
+      "baseChips": 209,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102001",
+        "102002",
+        "102008",
+        "102016"
+      ],
+      "focusPoint": {
+        "lat": 38.566355,
+        "lng": 16.177796
+      }
+    },
+    {
+      "istatCode": "102008",
+      "officialName": "Dinami",
+      "normalizedName": "dinami",
+      "aliases": [],
+      "areaKm2": 44.533,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102001",
+        "102007",
+        "102016",
+        "102021"
+      ],
+      "focusPoint": {
+        "lat": 38.542205,
+        "lng": 16.140023
+      }
+    },
+    {
+      "istatCode": "102009",
+      "officialName": "Drapia",
+      "normalizedName": "drapia",
+      "aliases": [],
+      "areaKm2": 21.477,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102026",
+        "102030",
+        "102042",
+        "102044",
+        "102048",
+        "102050"
+      ],
+      "focusPoint": {
+        "lat": 38.649497,
+        "lng": 15.911399
+      }
+    },
+    {
+      "istatCode": "102010",
+      "officialName": "Fabrizia",
+      "normalizedName": "fabrizia",
+      "aliases": [],
+      "areaKm2": 39.568,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102001",
+        "102002",
+        "102022",
+        "102024"
+      ],
+      "focusPoint": {
+        "lat": 38.473193,
+        "lng": 16.298523
+      }
+    },
+    {
+      "istatCode": "102011",
+      "officialName": "Filadelfia",
+      "normalizedName": "filadelfia",
+      "aliases": [],
+      "areaKm2": 31.14,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102014",
+        "102029"
+      ],
+      "focusPoint": {
+        "lat": 38.792548,
+        "lng": 16.310965
+      }
+    },
+    {
+      "istatCode": "102012",
+      "officialName": "Filandari",
+      "normalizedName": "filandari",
+      "aliases": [],
+      "areaKm2": 18.625,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102006",
+        "102017",
+        "102021",
+        "102031",
+        "102032",
+        "102047",
+        "102050"
+      ],
+      "focusPoint": {
+        "lat": 38.619698,
+        "lng": 16.033099
+      }
+    },
+    {
+      "istatCode": "102013",
+      "officialName": "Filogaso",
+      "normalizedName": "filogaso",
+      "aliases": [],
+      "areaKm2": 23.305,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102005",
+        "102020",
+        "102035",
+        "102036",
+        "102045",
+        "102046"
+      ],
+      "focusPoint": {
+        "lat": 38.681801,
+        "lng": 16.224424
+      }
+    },
+    {
+      "istatCode": "102014",
+      "officialName": "Francavilla Angitola",
+      "normalizedName": "francavilla angitola",
+      "aliases": [
+        "francavilla",
+        "francavillaangitola"
+      ],
+      "areaKm2": 28.745,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102011",
+        "102020",
+        "102027",
+        "102029"
+      ],
+      "focusPoint": {
+        "lat": 38.781248,
+        "lng": 16.250853
+      }
+    },
+    {
+      "istatCode": "102015",
+      "officialName": "Francica",
+      "normalizedName": "francica",
+      "aliases": [],
+      "areaKm2": 22.247,
+      "baseChips": 180,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102016",
+        "102021",
+        "102033",
+        "102034",
+        "102043",
+        "102047"
+      ],
+      "focusPoint": {
+        "lat": 38.613689,
+        "lng": 16.124079
+      }
+    },
+    {
+      "istatCode": "102016",
+      "officialName": "Gerocarne",
+      "normalizedName": "gerocarne",
+      "aliases": [],
+      "areaKm2": 44.976,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102002",
+        "102007",
+        "102008",
+        "102015",
+        "102021",
+        "102037",
+        "102039",
+        "102040",
+        "102041",
+        "102043"
+      ],
+      "focusPoint": {
+        "lat": 38.592321,
+        "lng": 16.184771
+      }
+    },
+    {
+      "istatCode": "102017",
+      "officialName": "Jonadi",
+      "normalizedName": "jonadi",
+      "aliases": [],
+      "areaKm2": 8.815,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102012",
+        "102021",
+        "102033",
+        "102034",
+        "102047"
+      ],
+      "focusPoint": {
+        "lat": 38.637125,
+        "lng": 16.061187
+      }
+    },
+    {
+      "istatCode": "102018",
+      "officialName": "Joppolo",
+      "normalizedName": "joppolo",
+      "aliases": [],
+      "areaKm2": 21.528,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102025",
+        "102030",
+        "102042"
+      ],
+      "focusPoint": {
+        "lat": 38.593141,
+        "lng": 15.899982
+      }
+    },
+    {
+      "istatCode": "102019",
+      "officialName": "Limbadi",
+      "normalizedName": "limbadi",
+      "aliases": [],
+      "areaKm2": 29.111,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102025",
+        "102031",
+        "102032",
+        "102042"
+      ],
+      "focusPoint": {
+        "lat": 38.559084,
+        "lng": 15.977985
+      }
+    },
+    {
+      "istatCode": "102020",
+      "officialName": "Maierato",
+      "normalizedName": "maierato",
+      "aliases": [],
+      "areaKm2": 39.765,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102005",
+        "102013",
+        "102014",
+        "102023",
+        "102027",
+        "102029",
+        "102036"
+      ],
+      "focusPoint": {
+        "lat": 38.727481,
+        "lng": 16.220223
+      }
+    },
+    {
+      "istatCode": "102021",
+      "officialName": "Mileto",
+      "normalizedName": "mileto",
+      "aliases": [],
+      "areaKm2": 35.381,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102008",
+        "102012",
+        "102015",
+        "102016",
+        "102017",
+        "102032",
+        "102033"
+      ],
+      "focusPoint": {
+        "lat": 38.581853,
+        "lng": 16.087743
+      }
+    },
+    {
+      "istatCode": "102022",
+      "officialName": "Mongiana",
+      "normalizedName": "mongiana",
+      "aliases": [],
+      "areaKm2": 17.97,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102002",
+        "102010",
+        "102024",
+        "102037"
+      ],
+      "focusPoint": {
+        "lat": 38.504862,
+        "lng": 16.322249
+      }
+    },
+    {
+      "istatCode": "102023",
+      "officialName": "Monterosso Calabro",
+      "normalizedName": "monterosso calabro",
+      "aliases": [
+        "monterosso",
+        "monterossocalabro"
+      ],
+      "areaKm2": 18.153,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102005",
+        "102020",
+        "102029"
+      ],
+      "focusPoint": {
+        "lat": 38.727191,
+        "lng": 16.291077
+      }
+    },
+    {
+      "istatCode": "102024",
+      "officialName": "Nardodipace",
+      "normalizedName": "nardodipace",
+      "aliases": [],
+      "areaKm2": 32.583,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102010",
+        "102022"
+      ],
+      "focusPoint": {
+        "lat": 38.463093,
+        "lng": 16.356592
+      }
+    },
+    {
+      "istatCode": "102025",
+      "officialName": "Nicotera",
+      "normalizedName": "nicotera",
+      "aliases": [],
+      "areaKm2": 27.821,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102018",
+        "102019",
+        "102042"
+      ],
+      "focusPoint": {
+        "lat": 38.551436,
+        "lng": 15.940792
+      }
+    },
+    {
+      "istatCode": "102026",
+      "officialName": "Parghelia",
+      "normalizedName": "parghelia",
+      "aliases": [],
+      "areaKm2": 7.654,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102009",
+        "102044",
+        "102048",
+        "102049"
+      ],
+      "focusPoint": {
+        "lat": 38.682805,
+        "lng": 15.924864
+      }
+    },
+    {
+      "istatCode": "102027",
+      "officialName": "Pizzo",
+      "normalizedName": "pizzo",
+      "aliases": [],
+      "areaKm2": 22.012,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102014",
+        "102020",
+        "102036",
+        "102047"
+      ],
+      "focusPoint": {
+        "lat": 38.766152,
+        "lng": 16.207084
+      }
+    },
+    {
+      "istatCode": "102028",
+      "officialName": "Pizzoni",
+      "normalizedName": "pizzoni",
+      "aliases": [],
+      "areaKm2": 21.568,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102038",
+        "102039",
+        "102040",
+        "102043",
+        "102046"
+      ],
+      "focusPoint": {
+        "lat": 38.621584,
+        "lng": 16.251145
+      }
+    },
+    {
+      "istatCode": "102029",
+      "officialName": "Polia",
+      "normalizedName": "polia",
+      "aliases": [],
+      "areaKm2": 31.436,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102011",
+        "102014",
+        "102020",
+        "102023"
+      ],
+      "focusPoint": {
+        "lat": 38.754552,
+        "lng": 16.316952
+      }
+    },
+    {
+      "istatCode": "102030",
+      "officialName": "Ricadi",
+      "normalizedName": "ricadi",
+      "aliases": [],
+      "areaKm2": 22.351,
+      "baseChips": 180,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102009",
+        "102018",
+        "102042",
+        "102044"
+      ],
+      "focusPoint": {
+        "lat": 38.635609,
+        "lng": 15.855956
+      }
+    },
+    {
+      "istatCode": "102031",
+      "officialName": "Rombiolo",
+      "normalizedName": "rombiolo",
+      "aliases": [],
+      "areaKm2": 22.619,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102012",
+        "102019",
+        "102032",
+        "102042",
+        "102050"
+      ],
+      "focusPoint": {
+        "lat": 38.60597,
+        "lng": 15.991552
+      }
+    },
+    {
+      "istatCode": "102032",
+      "officialName": "San Calogero",
+      "normalizedName": "san calogero",
+      "aliases": [
+        "sancalogero"
+      ],
+      "areaKm2": 25.243,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102012",
+        "102019",
+        "102021",
+        "102031"
+      ],
+      "focusPoint": {
+        "lat": 38.557237,
+        "lng": 16.020245
+      }
+    },
+    {
+      "istatCode": "102033",
+      "officialName": "San Costantino Calabro",
+      "normalizedName": "san costantino calabro",
+      "aliases": [
+        "san costantino",
+        "sancostantino",
+        "sancostantinocalabro"
+      ],
+      "areaKm2": 6.742,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102015",
+        "102017",
+        "102021",
+        "102034"
+      ],
+      "focusPoint": {
+        "lat": 38.625806,
+        "lng": 16.087212
+      }
+    },
+    {
+      "istatCode": "102034",
+      "officialName": "San Gregorio d'Ippona",
+      "normalizedName": "san gregorio d ippona",
+      "aliases": [
+        "san gregorio",
+        "sangregorio",
+        "sangregoriodippona"
+      ],
+      "areaKm2": 12.477,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102015",
+        "102017",
+        "102033",
+        "102047"
+      ],
+      "focusPoint": {
+        "lat": 38.646449,
+        "lng": 16.104465
+      }
+    },
+    {
+      "istatCode": "102035",
+      "officialName": "San Nicola da Crissa",
+      "normalizedName": "san nicola da crissa",
+      "aliases": [
+        "san nicola",
+        "sannicola",
+        "sannicoladacrissa"
+      ],
+      "areaKm2": 19.424,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102005",
+        "102013",
+        "102045"
+      ],
+      "focusPoint": {
+        "lat": 38.673916,
+        "lng": 16.296277
+      }
+    },
+    {
+      "istatCode": "102036",
+      "officialName": "Sant'Onofrio",
+      "normalizedName": "sant onofrio",
+      "aliases": [
+        "sant",
+        "santonofrio"
+      ],
+      "areaKm2": 18.241,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102013",
+        "102020",
+        "102027",
+        "102043",
+        "102046",
+        "102047"
+      ],
+      "focusPoint": {
+        "lat": 38.680158,
+        "lng": 16.181859
+      }
+    },
+    {
+      "istatCode": "102037",
+      "officialName": "Serra San Bruno",
+      "normalizedName": "serra san bruno",
+      "aliases": [
+        "serra",
+        "serra san",
+        "serrasan",
+        "serrasanbruno"
+      ],
+      "areaKm2": 40.136,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102002",
+        "102016",
+        "102022",
+        "102041"
+      ],
+      "focusPoint": {
+        "lat": 38.55316,
+        "lng": 16.320136
+      }
+    },
+    {
+      "istatCode": "102038",
+      "officialName": "Simbario",
+      "normalizedName": "simbario",
+      "aliases": [],
+      "areaKm2": 20.323,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102004",
+        "102028",
+        "102039",
+        "102041",
+        "102045",
+        "102046"
+      ],
+      "focusPoint": {
+        "lat": 38.618872,
+        "lng": 16.338374
+      }
+    },
+    {
+      "istatCode": "102039",
+      "officialName": "Sorianello",
+      "normalizedName": "sorianello",
+      "aliases": [],
+      "areaKm2": 9.601,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102016",
+        "102028",
+        "102038",
+        "102040",
+        "102041"
+      ],
+      "focusPoint": {
+        "lat": 38.594428,
+        "lng": 16.266834
+      }
+    },
+    {
+      "istatCode": "102040",
+      "officialName": "Soriano Calabro",
+      "normalizedName": "soriano calabro",
+      "aliases": [
+        "soriano",
+        "sorianocalabro"
+      ],
+      "areaKm2": 15.564,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102016",
+        "102028",
+        "102039",
+        "102043"
+      ],
+      "focusPoint": {
+        "lat": 38.616813,
+        "lng": 16.204857
+      }
+    },
+    {
+      "istatCode": "102041",
+      "officialName": "Spadola",
+      "normalizedName": "spadola",
+      "aliases": [],
+      "areaKm2": 9.635,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102004",
+        "102016",
+        "102037",
+        "102038",
+        "102039"
+      ],
+      "focusPoint": {
+        "lat": 38.586536,
+        "lng": 16.328594
+      }
+    },
+    {
+      "istatCode": "102042",
+      "officialName": "Spilinga",
+      "normalizedName": "spilinga",
+      "aliases": [],
+      "areaKm2": 17.169,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102009",
+        "102018",
+        "102019",
+        "102025",
+        "102030",
+        "102031",
+        "102050"
+      ],
+      "focusPoint": {
+        "lat": 38.611161,
+        "lng": 15.928818
+      }
+    },
+    {
+      "istatCode": "102043",
+      "officialName": "Stefanaconi",
+      "normalizedName": "stefanaconi",
+      "aliases": [],
+      "areaKm2": 23.176,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102015",
+        "102016",
+        "102028",
+        "102036",
+        "102040",
+        "102046",
+        "102047"
+      ],
+      "focusPoint": {
+        "lat": 38.664731,
+        "lng": 16.157422
+      }
+    },
+    {
+      "istatCode": "102044",
+      "officialName": "Tropea",
+      "normalizedName": "tropea",
+      "aliases": [],
+      "areaKm2": 3.724,
+      "baseChips": 220,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102009",
+        "102026",
+        "102030"
+      ],
+      "focusPoint": {
+        "lat": 38.670689,
+        "lng": 15.8856
+      }
+    },
+    {
+      "istatCode": "102045",
+      "officialName": "Vallelonga",
+      "normalizedName": "vallelonga",
+      "aliases": [],
+      "areaKm2": 17.316,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102013",
+        "102035",
+        "102038",
+        "102046"
+      ],
+      "focusPoint": {
+        "lat": 38.644305,
+        "lng": 16.298357
+      }
+    },
+    {
+      "istatCode": "102046",
+      "officialName": "Vazzano",
+      "normalizedName": "vazzano",
+      "aliases": [],
+      "areaKm2": 20.032,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102013",
+        "102028",
+        "102036",
+        "102038",
+        "102043",
+        "102045"
+      ],
+      "focusPoint": {
+        "lat": 38.640086,
+        "lng": 16.249466
+      }
+    },
+    {
+      "istatCode": "102047",
+      "officialName": "Vibo Valentia",
+      "normalizedName": "vibo valentia",
+      "aliases": [
+        "vibo",
+        "vibovalentia"
+      ],
+      "areaKm2": 46.02,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102003",
+        "102006",
+        "102012",
+        "102015",
+        "102017",
+        "102027",
+        "102034",
+        "102036",
+        "102043"
+      ],
+      "focusPoint": {
+        "lat": 38.680958,
+        "lng": 16.090147
+      }
+    },
+    {
+      "istatCode": "102048",
+      "officialName": "Zaccanopoli",
+      "normalizedName": "zaccanopoli",
+      "aliases": [],
+      "areaKm2": 5.458,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102003",
+        "102009",
+        "102026",
+        "102049",
+        "102050"
+      ],
+      "focusPoint": {
+        "lat": 38.660475,
+        "lng": 15.943212
+      }
+    },
+    {
+      "istatCode": "102049",
+      "officialName": "Zambrone",
+      "normalizedName": "zambrone",
+      "aliases": [],
+      "areaKm2": 15.893,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "102003",
+        "102026",
+        "102048"
+      ],
+      "focusPoint": {
+        "lat": 38.694172,
+        "lng": 15.978326
+      }
+    },
+    {
+      "istatCode": "102050",
+      "officialName": "Zungri",
+      "normalizedName": "zungri",
+      "aliases": [],
+      "areaKm2": 23.269,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "102003",
+        "102006",
+        "102009",
+        "102012",
+        "102031",
+        "102042",
+        "102048"
+      ],
+      "focusPoint": {
+        "lat": 38.641027,
+        "lng": 15.988974
+      }
+    }
+  ]
+}

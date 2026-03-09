@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indovina il comune! Il gioco</title>
+  <meta
+    id="meta-description"
+    name="description"
+    content="Indovina il comune! Il gioco: scegli una provincia italiana, usa la mappa interattiva e prova a trovare tutti i comuni con punteggio, combo e moltiplicatore."
+  >
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link id="canonical-link" rel="canonical" href="/indovina-il-comune-il-gioco/">
+  <meta id="og-title" property="og:title" content="Indovina il comune! Il gioco">
+  <meta
+    id="og-description"
+    property="og:description"
+    content="Scegli una provincia italiana e indovina tutti i comuni su una mappa interattiva con punteggio e moltiplicatore."
+  >
+  <meta id="og-url" property="og:url" content="/indovina-il-comune-il-gioco/">
+  <meta property="og:type" content="website">
+  <meta id="og-image" property="og:image" content="../assets/portal-torino.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta id="twitter-title" name="twitter:title" content="Indovina il comune! Il gioco">
+  <meta
+    id="twitter-description"
+    name="twitter:description"
+    content="Scegli una provincia italiana e indovina tutti i comuni su una mappa interattiva con punteggio e moltiplicatore."
+  >
+  <meta id="twitter-image" name="twitter:image" content="../assets/portal-torino.svg">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  >
+  <link rel="stylesheet" href="./app.css">
+  <script id="seo-schema" type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Indovina il comune! Il gioco",
+      "applicationCategory": "Game",
+      "operatingSystem": "Web",
+      "inLanguage": ["it", "en"],
+      "description": "Gioco web con mappa interattiva per indovinare tutti i comuni delle province italiane."
+    }
+  </script>
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <div class="hero__copy">
+        <p class="eyebrow" id="hero-eyebrow">Indovina il comune! Il gioco</p>
+        <h1 id="hero-title">Indovina tutti i comuni delle province italiane</h1>
+        <p class="hero__lede" id="hero-lede">
+          Scegli una provincia, usa la mappa interattiva e prova a trovare tutti i comuni con punteggio, combo e moltiplicatore.
+        </p>
+      </div>
+      <div class="hero__actions">
+        <a class="ghost-button" id="back-link" href="../">Back to website</a>
+        <button class="ghost-button" id="language-toggle" type="button" aria-label="Switch language">EN 🇬🇧</button>
+        <button class="ghost-button" id="theme-toggle" type="button" aria-label="Toggle theme">Theme</button>
+        <button class="ghost-button ghost-button--danger" id="reset-button" type="button">Reset run</button>
+      </div>
+    </section>
+
+    <section class="panel province-picker">
+      <div class="province-picker__copy">
+        <p class="panel__eyebrow" id="province-picker-eyebrow">Choose Province</p>
+        <h2 id="province-picker-title">Which province do you want to play?</h2>
+        <p class="panel__copy" id="province-picker-copy">
+          Search by province name or abbreviation, then load that province into the map.
+        </p>
+      </div>
+      <div class="province-picker__controls">
+        <div class="province-picker__field">
+          <label class="sr-only" for="province-picker-input">Province</label>
+          <input id="province-picker-input" autocomplete="off" spellcheck="false" placeholder="Type a province" aria-expanded="false" aria-controls="province-options">
+          <div class="province-picker__menu" id="province-options" role="listbox" hidden></div>
+        </div>
+        <button class="province-picker__load" id="province-load-button" type="button">Load province</button>
+      </div>
+    </section>
+
+    <section class="run-hud">
+      <div class="panel panel--modifiers">
+        <div class="panel__header">
+          <h2 id="modifiers-title">Run Modifiers</h2>
+          <span id="modifier-count">3 active</span>
+        </div>
+        <div class="modifier-tray" id="modifier-tray"></div>
+        <p class="panel__copy" id="modifier-help">
+          Smaller municipalities are worth more chips. Each new run draws three scoring modifiers.
+        </p>
+      </div>
+      <div class="panel panel--momentum">
+        <p class="panel__eyebrow" id="momentum-eyebrow">Momentum</p>
+        <h2 id="momentum-label">Build the first chain</h2>
+        <p class="panel__copy" id="score-breakdown">
+          Hit quick guesses, link neighboring municipalities, and stack multiplier for bigger scores.
+        </p>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Game stats">
+      <article class="stat-card">
+        <span class="stat-card__label" id="found-label">Found</span>
+        <strong class="stat-card__value" id="found-count">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-card__label" id="remaining-label">Remaining</span>
+        <strong class="stat-card__value" id="remaining-count">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-card__label" id="progress-label">Progress</span>
+        <strong class="stat-card__value" id="progress-percent">0%</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-card__label" id="timer-label">Timer</span>
+        <strong class="stat-card__value" id="timer-value">00:00</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-card__label" id="best-score-label">Best score</span>
+        <strong class="stat-card__value stat-card__value--small" id="best-score">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-card__label" id="best-time-label">Best local time</span>
+        <strong class="stat-card__value stat-card__value--small" id="best-time">None yet</strong>
+      </article>
+    </section>
+
+    <section class="play-layout">
+      <div class="panel panel--map">
+        <div class="map-toolbar">
+          <span id="map-hover-label">Borders are visible. Names stay hidden until guessed.</span>
+          <button id="reset-view-button" type="button">Reset map view</button>
+        </div>
+        <div class="map-frame" id="map-frame">
+          <div class="map-loading" id="map-loading" aria-hidden="true"></div>
+          <div class="map-canvas" id="map-canvas"></div>
+          <div class="score-burst-layer" id="score-burst-layer" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <div class="control-panel">
+        <div class="panel panel--input">
+          <p class="panel__eyebrow" id="scope-eyebrow">Current province</p>
+          <h2 id="scope-title">Guess Torino</h2>
+          <p class="panel__copy" id="scope-copy">
+            Official map scope: current municipalities in the Turin administrative area.
+          </p>
+          <div class="inline-scoreboard" aria-label="Run score and multiplier">
+            <div class="inline-scoreboard__card">
+              <span class="inline-scoreboard__label" id="score-label">Score</span>
+              <strong class="inline-scoreboard__value" id="score-value">0</strong>
+            </div>
+            <div class="inline-scoreboard__card">
+              <span class="inline-scoreboard__label" id="multiplier-label">Multiplier</span>
+              <strong class="inline-scoreboard__value" id="multiplier-value">x1.00</strong>
+            </div>
+            <div class="inline-scoreboard__card">
+              <span class="inline-scoreboard__label" id="streak-label">Streak</span>
+              <strong class="inline-scoreboard__value" id="streak-value">0</strong>
+            </div>
+          </div>
+          <form id="guess-form" class="guess-form" autocomplete="off">
+            <label class="sr-only" for="guess-input">Municipality guess</label>
+            <input id="guess-input" name="guess" type="text" placeholder="Type a municipality name" spellcheck="false" required>
+            <button id="guess-submit" type="submit">Guess</button>
+          </form>
+          <p class="feedback" id="feedback" aria-live="polite">Start typing to begin.</p>
+          <div class="legend" aria-label="Map legend">
+            <span><i class="legend__swatch legend__swatch--unknown"></i><span id="legend-unguessed">Unguessed</span></span>
+            <span><i class="legend__swatch legend__swatch--found"></i><span id="legend-found">Found</span></span>
+            <span><i class="legend__swatch legend__swatch--active"></i><span id="legend-focused">Focused</span></span>
+          </div>
+          <section class="run-summary" id="run-summary" hidden>
+            <div class="panel__header">
+              <h2 id="summary-title">Run Summary</h2>
+              <span id="summary-rank">Complete</span>
+            </div>
+            <div class="summary-grid">
+              <div>
+                <span class="summary-label" id="summary-score-label">Final score</span>
+                <strong id="summary-score">0</strong>
+              </div>
+              <div>
+                <span class="summary-label" id="summary-multiplier-label">Top multiplier</span>
+                <strong id="summary-multiplier">x1.00</strong>
+              </div>
+              <div>
+                <span class="summary-label" id="summary-streak-label">Longest streak</span>
+                <strong id="summary-streak">0</strong>
+              </div>
+              <div>
+                <span class="summary-label" id="summary-time-label">Finish time</span>
+                <strong id="summary-time">00:00</strong>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="panel panel--list">
+          <div class="panel__header">
+            <h2 id="found-list-title">Found municipalities</h2>
+            <span id="found-list-summary">0 guessed</span>
+          </div>
+          <ol id="found-list" class="found-list"></ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

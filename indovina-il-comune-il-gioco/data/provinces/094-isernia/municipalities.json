@@ -1,0 +1,1226 @@
+{
+  "provinceCode": "094",
+  "label": "Isernia",
+  "officialScopeLabel": "Provincia di Isernia",
+  "sigla": "IS",
+  "slug": "isernia",
+  "sourceYear": 2026,
+  "count": 52,
+  "municipalities": [
+    {
+      "istatCode": "094001",
+      "officialName": "Acquaviva d'Isernia",
+      "normalizedName": "acquaviva d isernia",
+      "aliases": [
+        "acquaviva",
+        "acquavivadisernia"
+      ],
+      "areaKm2": 13.404,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094014",
+        "094020",
+        "094029",
+        "094039"
+      ],
+      "focusPoint": {
+        "lat": 41.678949,
+        "lng": 14.154331
+      }
+    },
+    {
+      "istatCode": "094002",
+      "officialName": "Agnone",
+      "normalizedName": "agnone",
+      "aliases": [],
+      "areaKm2": 95.955,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094004",
+        "094006",
+        "094007",
+        "094013",
+        "094032",
+        "094033",
+        "094035",
+        "094037",
+        "094051"
+      ],
+      "focusPoint": {
+        "lat": 41.805779,
+        "lng": 14.373601
+      }
+    },
+    {
+      "istatCode": "094003",
+      "officialName": "Bagnoli del Trigno",
+      "normalizedName": "bagnoli del trigno",
+      "aliases": [
+        "bagnoli",
+        "bagnolideltrigno"
+      ],
+      "areaKm2": 36.806,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094016"
+      ],
+      "focusPoint": {
+        "lat": 41.696394,
+        "lng": 14.476285
+      }
+    },
+    {
+      "istatCode": "094004",
+      "officialName": "Belmonte del Sannio",
+      "normalizedName": "belmonte del sannio",
+      "aliases": [
+        "belmonte",
+        "belmontedelsannio"
+      ],
+      "areaKm2": 20.515,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094002"
+      ],
+      "focusPoint": {
+        "lat": 41.846906,
+        "lng": 14.405334
+      }
+    },
+    {
+      "istatCode": "094005",
+      "officialName": "Cantalupo nel Sannio",
+      "normalizedName": "cantalupo nel sannio",
+      "aliases": [
+        "cantalupo",
+        "cantaluponelsannio"
+      ],
+      "areaKm2": 15.838,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094026",
+        "094040",
+        "094045"
+      ],
+      "focusPoint": {
+        "lat": 41.521744,
+        "lng": 14.390888
+      }
+    },
+    {
+      "istatCode": "094006",
+      "officialName": "Capracotta",
+      "normalizedName": "capracotta",
+      "aliases": [],
+      "areaKm2": 42.326,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094002",
+        "094009",
+        "094033",
+        "094043",
+        "094046",
+        "094051"
+      ],
+      "focusPoint": {
+        "lat": 41.82062,
+        "lng": 14.276596
+      }
+    },
+    {
+      "istatCode": "094007",
+      "officialName": "Carovilli",
+      "normalizedName": "carovilli",
+      "aliases": [],
+      "areaKm2": 41.734,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094002",
+        "094027",
+        "094032",
+        "094041",
+        "094051"
+      ],
+      "focusPoint": {
+        "lat": 41.701146,
+        "lng": 14.301775
+      }
+    },
+    {
+      "istatCode": "094008",
+      "officialName": "Carpinone",
+      "normalizedName": "carpinone",
+      "aliases": [],
+      "areaKm2": 32.171,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094010",
+        "094022",
+        "094026",
+        "094031",
+        "094034",
+        "094045",
+        "094049"
+      ],
+      "focusPoint": {
+        "lat": 41.597189,
+        "lng": 14.332159
+      }
+    },
+    {
+      "istatCode": "094009",
+      "officialName": "Castel del Giudice",
+      "normalizedName": "castel del giudice",
+      "aliases": [
+        "casteldelgiudice"
+      ],
+      "areaKm2": 15.055,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094006",
+        "094043",
+        "094046"
+      ],
+      "focusPoint": {
+        "lat": 41.852793,
+        "lng": 14.234729
+      }
+    },
+    {
+      "istatCode": "094010",
+      "officialName": "Castelpetroso",
+      "normalizedName": "castelpetroso",
+      "aliases": [],
+      "areaKm2": 22.709,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094008",
+        "094011",
+        "094034",
+        "094045"
+      ],
+      "focusPoint": {
+        "lat": 41.554198,
+        "lng": 14.328738
+      }
+    },
+    {
+      "istatCode": "094011",
+      "officialName": "Castelpizzuto",
+      "normalizedName": "castelpizzuto",
+      "aliases": [],
+      "areaKm2": 15.354,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094010",
+        "094024",
+        "094034",
+        "094040",
+        "094045"
+      ],
+      "focusPoint": {
+        "lat": 41.531777,
+        "lng": 14.295481
+      }
+    },
+    {
+      "istatCode": "094012",
+      "officialName": "Castel San Vincenzo",
+      "normalizedName": "castel san vincenzo",
+      "aliases": [
+        "castel san",
+        "castelsan",
+        "castelsanvincenzo"
+      ],
+      "areaKm2": 21.785,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094014",
+        "094029",
+        "094036",
+        "094042"
+      ],
+      "focusPoint": {
+        "lat": 41.657902,
+        "lng": 14.06478
+      }
+    },
+    {
+      "istatCode": "094013",
+      "officialName": "Castelverrino",
+      "normalizedName": "castelverrino",
+      "aliases": [],
+      "areaKm2": 6.354,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094002",
+        "094035",
+        "094037"
+      ],
+      "focusPoint": {
+        "lat": 41.769466,
+        "lng": 14.391094
+      }
+    },
+    {
+      "istatCode": "094014",
+      "officialName": "Cerro al Volturno",
+      "normalizedName": "cerro al volturno",
+      "aliases": [
+        "cerro",
+        "cerro al",
+        "cerroal",
+        "cerroalvolturno"
+      ],
+      "areaKm2": 23.713,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094001",
+        "094012",
+        "094017",
+        "094020",
+        "094021",
+        "094029",
+        "094042"
+      ],
+      "focusPoint": {
+        "lat": 41.658138,
+        "lng": 14.110345
+      }
+    },
+    {
+      "istatCode": "094015",
+      "officialName": "Chiauci",
+      "normalizedName": "chiauci",
+      "aliases": [],
+      "areaKm2": 15.52,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094016",
+        "094032",
+        "094035",
+        "094049"
+      ],
+      "focusPoint": {
+        "lat": 41.680298,
+        "lng": 14.376121
+      }
+    },
+    {
+      "istatCode": "094016",
+      "officialName": "Civitanova del Sannio",
+      "normalizedName": "civitanova del sannio",
+      "aliases": [
+        "civitanova",
+        "civitanovadelsannio"
+      ],
+      "areaKm2": 49.949,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094003",
+        "094015",
+        "094022",
+        "094032",
+        "094035",
+        "094037",
+        "094049"
+      ],
+      "focusPoint": {
+        "lat": 41.686648,
+        "lng": 14.412661
+      }
+    },
+    {
+      "istatCode": "094017",
+      "officialName": "Colli a Volturno",
+      "normalizedName": "colli a volturno",
+      "aliases": [
+        "colli",
+        "colli a",
+        "collia",
+        "colliavolturno"
+      ],
+      "areaKm2": 25.023,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094014",
+        "094019",
+        "094021",
+        "094025",
+        "094028",
+        "094030",
+        "094042",
+        "094048"
+      ],
+      "focusPoint": {
+        "lat": 41.585568,
+        "lng": 14.099487
+      }
+    },
+    {
+      "istatCode": "094018",
+      "officialName": "Conca Casale",
+      "normalizedName": "conca casale",
+      "aliases": [
+        "conca",
+        "concacasale"
+      ],
+      "areaKm2": 14.751,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094038",
+        "094052"
+      ],
+      "focusPoint": {
+        "lat": 41.506948,
+        "lng": 14.014194
+      }
+    },
+    {
+      "istatCode": "094019",
+      "officialName": "Filignano",
+      "normalizedName": "filignano",
+      "aliases": [],
+      "areaKm2": 30.761,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094017",
+        "094028",
+        "094038",
+        "094042",
+        "094048"
+      ],
+      "focusPoint": {
+        "lat": 41.576658,
+        "lng": 14.016838
+      }
+    },
+    {
+      "istatCode": "094020",
+      "officialName": "Forlì del Sannio",
+      "normalizedName": "forli del sannio",
+      "aliases": [
+        "forli",
+        "forlidelsannio"
+      ],
+      "areaKm2": 32.228,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094001",
+        "094014",
+        "094021",
+        "094023",
+        "094039",
+        "094041",
+        "094051"
+      ],
+      "focusPoint": {
+        "lat": 41.687086,
+        "lng": 14.184747
+      }
+    },
+    {
+      "istatCode": "094021",
+      "officialName": "Fornelli",
+      "normalizedName": "fornelli",
+      "aliases": [],
+      "areaKm2": 23.128,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094014",
+        "094017",
+        "094020",
+        "094023",
+        "094025"
+      ],
+      "focusPoint": {
+        "lat": 41.60935,
+        "lng": 14.142683
+      }
+    },
+    {
+      "istatCode": "094022",
+      "officialName": "Frosolone",
+      "normalizedName": "frosolone",
+      "aliases": [],
+      "areaKm2": 49.551,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094008",
+        "094016",
+        "094026",
+        "094047",
+        "094049"
+      ],
+      "focusPoint": {
+        "lat": 41.609921,
+        "lng": 14.445043
+      }
+    },
+    {
+      "istatCode": "094023",
+      "officialName": "Isernia",
+      "normalizedName": "isernia",
+      "aliases": [],
+      "areaKm2": 68.539,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094020",
+        "094021",
+        "094024",
+        "094025",
+        "094027",
+        "094031",
+        "094034",
+        "094041",
+        "094044"
+      ],
+      "focusPoint": {
+        "lat": 41.607337,
+        "lng": 14.220618
+      }
+    },
+    {
+      "istatCode": "094024",
+      "officialName": "Longano",
+      "normalizedName": "longano",
+      "aliases": [],
+      "areaKm2": 27.391,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094011",
+        "094023",
+        "094030",
+        "094034",
+        "094040",
+        "094044"
+      ],
+      "focusPoint": {
+        "lat": 41.52279,
+        "lng": 14.251699
+      }
+    },
+    {
+      "istatCode": "094025",
+      "officialName": "Macchia d'Isernia",
+      "normalizedName": "macchia d isernia",
+      "aliases": [
+        "macchia",
+        "macchiadisernia"
+      ],
+      "areaKm2": 17.535,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094017",
+        "094021",
+        "094023",
+        "094030",
+        "094044"
+      ],
+      "focusPoint": {
+        "lat": 41.578803,
+        "lng": 14.166094
+      }
+    },
+    {
+      "istatCode": "094026",
+      "officialName": "Macchiagodena",
+      "normalizedName": "macchiagodena",
+      "aliases": [],
+      "areaKm2": 34.097,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094005",
+        "094008",
+        "094022",
+        "094045",
+        "094047"
+      ],
+      "focusPoint": {
+        "lat": 41.558183,
+        "lng": 14.419669
+      }
+    },
+    {
+      "istatCode": "094027",
+      "officialName": "Miranda",
+      "normalizedName": "miranda",
+      "aliases": [],
+      "areaKm2": 22.124,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094007",
+        "094023",
+        "094031",
+        "094032",
+        "094041",
+        "094049"
+      ],
+      "focusPoint": {
+        "lat": 41.645466,
+        "lng": 14.259422
+      }
+    },
+    {
+      "istatCode": "094028",
+      "officialName": "Montaquila",
+      "normalizedName": "montaquila",
+      "aliases": [],
+      "areaKm2": 25.486,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094017",
+        "094019",
+        "094030",
+        "094038"
+      ],
+      "focusPoint": {
+        "lat": 41.544681,
+        "lng": 14.112513
+      }
+    },
+    {
+      "istatCode": "094029",
+      "officialName": "Montenero Val Cocchiara",
+      "normalizedName": "montenero val cocchiara",
+      "aliases": [
+        "montenero",
+        "montenero val",
+        "monteneroval",
+        "montenerovalcocchiara"
+      ],
+      "areaKm2": 22.068,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094001",
+        "094012",
+        "094014",
+        "094036",
+        "094039"
+      ],
+      "focusPoint": {
+        "lat": 41.711961,
+        "lng": 14.079775
+      }
+    },
+    {
+      "istatCode": "094030",
+      "officialName": "Monteroduni",
+      "normalizedName": "monteroduni",
+      "aliases": [],
+      "areaKm2": 37.292,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094017",
+        "094024",
+        "094025",
+        "094028",
+        "094038",
+        "094044"
+      ],
+      "focusPoint": {
+        "lat": 41.519142,
+        "lng": 14.17486
+      }
+    },
+    {
+      "istatCode": "094031",
+      "officialName": "Pesche",
+      "normalizedName": "pesche",
+      "aliases": [],
+      "areaKm2": 12.795,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094008",
+        "094023",
+        "094027",
+        "094034",
+        "094049"
+      ],
+      "focusPoint": {
+        "lat": 41.618404,
+        "lng": 14.289819
+      }
+    },
+    {
+      "istatCode": "094032",
+      "officialName": "Pescolanciano",
+      "normalizedName": "pescolanciano",
+      "aliases": [],
+      "areaKm2": 34.389,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094002",
+        "094007",
+        "094015",
+        "094016",
+        "094027",
+        "094035",
+        "094049"
+      ],
+      "focusPoint": {
+        "lat": 41.712459,
+        "lng": 14.395431
+      }
+    },
+    {
+      "istatCode": "094033",
+      "officialName": "Pescopennataro",
+      "normalizedName": "pescopennataro",
+      "aliases": [],
+      "areaKm2": 18.67,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094002",
+        "094006",
+        "094046"
+      ],
+      "focusPoint": {
+        "lat": 41.879312,
+        "lng": 14.307136
+      }
+    },
+    {
+      "istatCode": "094034",
+      "officialName": "Pettoranello del Molise",
+      "normalizedName": "pettoranello del molise",
+      "aliases": [
+        "pettoranello",
+        "pettoranellodelmolise"
+      ],
+      "areaKm2": 15.633,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094008",
+        "094010",
+        "094011",
+        "094023",
+        "094024",
+        "094031"
+      ],
+      "focusPoint": {
+        "lat": 41.567622,
+        "lng": 14.285456
+      }
+    },
+    {
+      "istatCode": "094035",
+      "officialName": "Pietrabbondante",
+      "normalizedName": "pietrabbondante",
+      "aliases": [],
+      "areaKm2": 27.324,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094002",
+        "094013",
+        "094015",
+        "094016",
+        "094032",
+        "094037"
+      ],
+      "focusPoint": {
+        "lat": 41.73651,
+        "lng": 14.397056
+      }
+    },
+    {
+      "istatCode": "094036",
+      "officialName": "Pizzone",
+      "normalizedName": "pizzone",
+      "aliases": [],
+      "areaKm2": 33.228,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094012",
+        "094029"
+      ],
+      "focusPoint": {
+        "lat": 41.67578,
+        "lng": 14.010121
+      }
+    },
+    {
+      "istatCode": "094037",
+      "officialName": "Poggio Sannita",
+      "normalizedName": "poggio sannita",
+      "aliases": [
+        "poggio",
+        "poggiosannita"
+      ],
+      "areaKm2": 25.514,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094002",
+        "094013",
+        "094016",
+        "094035"
+      ],
+      "focusPoint": {
+        "lat": 41.766273,
+        "lng": 14.435545
+      }
+    },
+    {
+      "istatCode": "094038",
+      "officialName": "Pozzilli",
+      "normalizedName": "pozzilli",
+      "aliases": [],
+      "areaKm2": 34.273,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094018",
+        "094019",
+        "094028",
+        "094030",
+        "094052"
+      ],
+      "focusPoint": {
+        "lat": 41.511796,
+        "lng": 14.08114
+      }
+    },
+    {
+      "istatCode": "094039",
+      "officialName": "Rionero Sannitico",
+      "normalizedName": "rionero sannitico",
+      "aliases": [
+        "rionero",
+        "rionerosannitico"
+      ],
+      "areaKm2": 29.497,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094001",
+        "094020",
+        "094029",
+        "094051"
+      ],
+      "focusPoint": {
+        "lat": 41.727052,
+        "lng": 14.149181
+      }
+    },
+    {
+      "istatCode": "094040",
+      "officialName": "Roccamandolfi",
+      "normalizedName": "roccamandolfi",
+      "aliases": [],
+      "areaKm2": 53.252,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094005",
+        "094011",
+        "094024",
+        "094045"
+      ],
+      "focusPoint": {
+        "lat": 41.482977,
+        "lng": 14.335607
+      }
+    },
+    {
+      "istatCode": "094041",
+      "officialName": "Roccasicura",
+      "normalizedName": "roccasicura",
+      "aliases": [],
+      "areaKm2": 28.571,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094007",
+        "094020",
+        "094023",
+        "094027",
+        "094051"
+      ],
+      "focusPoint": {
+        "lat": 41.690727,
+        "lng": 14.240735
+      }
+    },
+    {
+      "istatCode": "094042",
+      "officialName": "Rocchetta a Volturno",
+      "normalizedName": "rocchetta a volturno",
+      "aliases": [
+        "rocchetta",
+        "rocchetta a",
+        "rocchettaa",
+        "rocchettaavolturno"
+      ],
+      "areaKm2": 23.248,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094012",
+        "094014",
+        "094017",
+        "094019",
+        "094048"
+      ],
+      "focusPoint": {
+        "lat": 41.632358,
+        "lng": 14.023464
+      }
+    },
+    {
+      "istatCode": "094043",
+      "officialName": "San Pietro Avellana",
+      "normalizedName": "san pietro avellana",
+      "aliases": [
+        "san",
+        "san pietro",
+        "sanpietro",
+        "sanpietroavellana"
+      ],
+      "areaKm2": 44.499,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094006",
+        "094009",
+        "094051"
+      ],
+      "focusPoint": {
+        "lat": 41.799689,
+        "lng": 14.206422
+      }
+    },
+    {
+      "istatCode": "094044",
+      "officialName": "Sant'Agapito",
+      "normalizedName": "sant agapito",
+      "aliases": [
+        "santagapito"
+      ],
+      "areaKm2": 15.903,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094023",
+        "094024",
+        "094025",
+        "094030"
+      ],
+      "focusPoint": {
+        "lat": 41.537277,
+        "lng": 14.21459
+      }
+    },
+    {
+      "istatCode": "094045",
+      "officialName": "Santa Maria del Molise",
+      "normalizedName": "santa maria del molise",
+      "aliases": [
+        "santa",
+        "santa maria",
+        "santamaria",
+        "santamariadelmolise"
+      ],
+      "areaKm2": 16.997,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094005",
+        "094008",
+        "094010",
+        "094011",
+        "094026",
+        "094040"
+      ],
+      "focusPoint": {
+        "lat": 41.552853,
+        "lng": 14.376085
+      }
+    },
+    {
+      "istatCode": "094046",
+      "officialName": "Sant'Angelo del Pesco",
+      "normalizedName": "sant angelo del pesco",
+      "aliases": [
+        "sant angelo",
+        "santangelo",
+        "santangelodelpesco"
+      ],
+      "areaKm2": 15.595,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094006",
+        "094009",
+        "094033"
+      ],
+      "focusPoint": {
+        "lat": 41.885927,
+        "lng": 14.267318
+      }
+    },
+    {
+      "istatCode": "094047",
+      "officialName": "Sant'Elena Sannita",
+      "normalizedName": "sant elena sannita",
+      "aliases": [
+        "sant elena",
+        "santelena",
+        "santelenasannita"
+      ],
+      "areaKm2": 13.873,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094022",
+        "094026"
+      ],
+      "focusPoint": {
+        "lat": 41.564236,
+        "lng": 14.465548
+      }
+    },
+    {
+      "istatCode": "094048",
+      "officialName": "Scapoli",
+      "normalizedName": "scapoli",
+      "aliases": [],
+      "areaKm2": 18.988,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094017",
+        "094019",
+        "094042"
+      ],
+      "focusPoint": {
+        "lat": 41.596855,
+        "lng": 14.047406
+      }
+    },
+    {
+      "istatCode": "094049",
+      "officialName": "Sessano del Molise",
+      "normalizedName": "sessano del molise",
+      "aliases": [
+        "sessano",
+        "sessanodelmolise"
+      ],
+      "areaKm2": 25.498,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "094008",
+        "094015",
+        "094016",
+        "094022",
+        "094027",
+        "094031",
+        "094032"
+      ],
+      "focusPoint": {
+        "lat": 41.645293,
+        "lng": 14.327678
+      }
+    },
+    {
+      "istatCode": "094050",
+      "officialName": "Sesto Campano",
+      "normalizedName": "sesto campano",
+      "aliases": [
+        "sesto",
+        "sestocampano"
+      ],
+      "areaKm2": 35.209,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094052"
+      ],
+      "focusPoint": {
+        "lat": 41.425629,
+        "lng": 14.063158
+      }
+    },
+    {
+      "istatCode": "094051",
+      "officialName": "Vastogirardi",
+      "normalizedName": "vastogirardi",
+      "aliases": [],
+      "areaKm2": 60.571,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094002",
+        "094006",
+        "094007",
+        "094020",
+        "094039",
+        "094041",
+        "094043"
+      ],
+      "focusPoint": {
+        "lat": 41.761322,
+        "lng": 14.250266
+      }
+    },
+    {
+      "istatCode": "094052",
+      "officialName": "Venafro",
+      "normalizedName": "venafro",
+      "aliases": [],
+      "areaKm2": 46.447,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "094018",
+        "094038",
+        "094050"
+      ],
+      "focusPoint": {
+        "lat": 41.460304,
+        "lng": 14.055675
+      }
+    }
+  ]
+}

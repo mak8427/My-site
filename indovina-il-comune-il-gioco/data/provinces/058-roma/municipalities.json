@@ -1,0 +1,2811 @@
+{
+  "provinceCode": "058",
+  "label": "Roma",
+  "officialScopeLabel": "Città Metropolitana di Roma",
+  "sigla": "RM",
+  "slug": "roma",
+  "sourceYear": 2026,
+  "count": 121,
+  "municipalities": [
+    {
+      "istatCode": "058001",
+      "officialName": "Affile",
+      "normalizedName": "affile",
+      "aliases": [],
+      "areaKm2": 14.968,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058008",
+        "058012",
+        "058089",
+        "058090",
+        "058103"
+      ],
+      "focusPoint": {
+        "lat": 41.88886,
+        "lng": 13.084291
+      }
+    },
+    {
+      "istatCode": "058002",
+      "officialName": "Agosta",
+      "normalizedName": "agosta",
+      "aliases": [],
+      "areaKm2": 9.658,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058017",
+        "058028",
+        "058055",
+        "058084",
+        "058103"
+      ],
+      "focusPoint": {
+        "lat": 41.974016,
+        "lng": 13.038822
+      }
+    },
+    {
+      "istatCode": "058003",
+      "officialName": "Albano Laziale",
+      "normalizedName": "albano laziale",
+      "aliases": [
+        "albano",
+        "albanolaziale"
+      ],
+      "areaKm2": 23.317,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058009",
+        "058022",
+        "058086",
+        "058091",
+        "058117"
+      ],
+      "focusPoint": {
+        "lat": 41.710852,
+        "lng": 12.612218
+      }
+    },
+    {
+      "istatCode": "058004",
+      "officialName": "Allumiere",
+      "normalizedName": "allumiere",
+      "aliases": [],
+      "areaKm2": 92.093,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058032",
+        "058097",
+        "058105"
+      ],
+      "focusPoint": {
+        "lat": 42.150486,
+        "lng": 11.871877
+      }
+    },
+    {
+      "istatCode": "058005",
+      "officialName": "Anguillara Sabazia",
+      "normalizedName": "anguillara sabazia",
+      "aliases": [
+        "anguillara",
+        "anguillarasabazia"
+      ],
+      "areaKm2": 74.978,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058013",
+        "058015",
+        "058029",
+        "058091",
+        "058107",
+        "058120"
+      ],
+      "focusPoint": {
+        "lat": 42.078633,
+        "lng": 12.268738
+      }
+    },
+    {
+      "istatCode": "058006",
+      "officialName": "Anticoli Corrado",
+      "normalizedName": "anticoli corrado",
+      "aliases": [
+        "anticoli",
+        "anticolicorrado"
+      ],
+      "areaKm2": 15.928,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058053",
+        "058055",
+        "058084",
+        "058092",
+        "058101"
+      ],
+      "focusPoint": {
+        "lat": 42.007415,
+        "lng": 12.987703
+      }
+    },
+    {
+      "istatCode": "058007",
+      "officialName": "Anzio",
+      "normalizedName": "anzio",
+      "aliases": [],
+      "areaKm2": 43.951,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058072",
+        "058117"
+      ],
+      "focusPoint": {
+        "lat": 41.489929,
+        "lng": 12.616102
+      }
+    },
+    {
+      "istatCode": "058008",
+      "officialName": "Arcinazzo Romano",
+      "normalizedName": "arcinazzo romano",
+      "aliases": [
+        "arcinazzo",
+        "arcinazzoromano"
+      ],
+      "areaKm2": 28.277,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058001",
+        "058048",
+        "058090",
+        "058103"
+      ],
+      "focusPoint": {
+        "lat": 41.87026,
+        "lng": 13.132935
+      }
+    },
+    {
+      "istatCode": "058009",
+      "officialName": "Ariccia",
+      "normalizedName": "ariccia",
+      "aliases": [],
+      "areaKm2": 18.653,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058003",
+        "058043",
+        "058050",
+        "058070",
+        "058086",
+        "058117"
+      ],
+      "focusPoint": {
+        "lat": 41.697597,
+        "lng": 12.663401
+      }
+    },
+    {
+      "istatCode": "058010",
+      "officialName": "Arsoli",
+      "normalizedName": "arsoli",
+      "aliases": [],
+      "areaKm2": 12.148,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058028",
+        "058055",
+        "058083",
+        "058092"
+      ],
+      "focusPoint": {
+        "lat": 42.028929,
+        "lng": 13.029314
+      }
+    },
+    {
+      "istatCode": "058011",
+      "officialName": "Artena",
+      "normalizedName": "artena",
+      "aliases": [],
+      "areaKm2": 54.646,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058034",
+        "058074",
+        "058086",
+        "058088",
+        "058102",
+        "058110",
+        "058111",
+        "058115"
+      ],
+      "focusPoint": {
+        "lat": 41.723634,
+        "lng": 12.904863
+      }
+    },
+    {
+      "istatCode": "058012",
+      "officialName": "Bellegra",
+      "normalizedName": "bellegra",
+      "aliases": [],
+      "areaKm2": 18.369,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058001",
+        "058044",
+        "058073",
+        "058077",
+        "058089",
+        "058090",
+        "058100"
+      ],
+      "focusPoint": {
+        "lat": 41.894078,
+        "lng": 13.024881
+      }
+    },
+    {
+      "istatCode": "058013",
+      "officialName": "Bracciano",
+      "normalizedName": "bracciano",
+      "aliases": [],
+      "areaKm2": 142.566,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058005",
+        "058029",
+        "058054",
+        "058105",
+        "058107"
+      ],
+      "focusPoint": {
+        "lat": 42.110015,
+        "lng": 12.180302
+      }
+    },
+    {
+      "istatCode": "058014",
+      "officialName": "Camerata Nuova",
+      "normalizedName": "camerata nuova",
+      "aliases": [
+        "camerata",
+        "cameratanuova"
+      ],
+      "areaKm2": 40.373,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058028",
+        "058103",
+        "058108"
+      ],
+      "focusPoint": {
+        "lat": 41.99254,
+        "lng": 13.145384
+      }
+    },
+    {
+      "istatCode": "058015",
+      "officialName": "Campagnano di Roma",
+      "normalizedName": "campagnano di roma",
+      "aliases": [
+        "campagnano",
+        "campagnanodiroma"
+      ],
+      "areaKm2": 46.897,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058005",
+        "058038",
+        "058052",
+        "058058",
+        "058091",
+        "058093",
+        "058107"
+      ],
+      "focusPoint": {
+        "lat": 42.131294,
+        "lng": 12.373546
+      }
+    },
+    {
+      "istatCode": "058016",
+      "officialName": "Canale Monterano",
+      "normalizedName": "canale monterano",
+      "aliases": [
+        "canale",
+        "canalemonterano"
+      ],
+      "areaKm2": 36.856,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058054",
+        "058105"
+      ],
+      "focusPoint": {
+        "lat": 42.130601,
+        "lng": 12.068735
+      }
+    },
+    {
+      "istatCode": "058017",
+      "officialName": "Canterano",
+      "normalizedName": "canterano",
+      "aliases": [],
+      "areaKm2": 7.437,
+      "baseChips": 205,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058002",
+        "058044",
+        "058084",
+        "058089",
+        "058103"
+      ],
+      "focusPoint": {
+        "lat": 41.943613,
+        "lng": 13.041051
+      }
+    },
+    {
+      "istatCode": "058018",
+      "officialName": "Capena",
+      "normalizedName": "capena",
+      "aliases": [],
+      "areaKm2": 29.501,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058024",
+        "058033",
+        "058036",
+        "058063",
+        "058065",
+        "058068",
+        "058082"
+      ],
+      "focusPoint": {
+        "lat": 42.132756,
+        "lng": 12.552084
+      }
+    },
+    {
+      "istatCode": "058019",
+      "officialName": "Capranica Prenestina",
+      "normalizedName": "capranica prenestina",
+      "aliases": [
+        "capranica",
+        "capranicaprenestina"
+      ],
+      "areaKm2": 20.3,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058021",
+        "058025",
+        "058030",
+        "058042",
+        "058077",
+        "058078",
+        "058085",
+        "058095",
+        "058100"
+      ],
+      "focusPoint": {
+        "lat": 41.893198,
+        "lng": 12.939679
+      }
+    },
+    {
+      "istatCode": "058020",
+      "officialName": "Carpineto Romano",
+      "normalizedName": "carpineto romano",
+      "aliases": [
+        "carpineto",
+        "carpinetoromano"
+      ],
+      "areaKm2": 85.791,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058045",
+        "058062"
+      ],
+      "focusPoint": {
+        "lat": 41.600242,
+        "lng": 13.090402
+      }
+    },
+    {
+      "istatCode": "058021",
+      "officialName": "Casape",
+      "normalizedName": "casape",
+      "aliases": [],
+      "areaKm2": 5.334,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058019",
+        "058078",
+        "058095"
+      ],
+      "focusPoint": {
+        "lat": 41.909806,
+        "lng": 12.892458
+      }
+    },
+    {
+      "istatCode": "058022",
+      "officialName": "Castel Gandolfo",
+      "normalizedName": "castel gandolfo",
+      "aliases": [
+        "castelgandolfo"
+      ],
+      "areaKm2": 14.016,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058003",
+        "058046",
+        "058057",
+        "058086",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 41.745403,
+        "lng": 12.668204
+      }
+    },
+    {
+      "istatCode": "058023",
+      "officialName": "Castel Madama",
+      "normalizedName": "castel madama",
+      "aliases": [
+        "castelmadama"
+      ],
+      "areaKm2": 28.994,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058030",
+        "058094",
+        "058095",
+        "058104",
+        "058112"
+      ],
+      "focusPoint": {
+        "lat": 41.964343,
+        "lng": 12.871658
+      }
+    },
+    {
+      "istatCode": "058024",
+      "officialName": "Castelnuovo di Porto",
+      "normalizedName": "castelnuovo di porto",
+      "aliases": [
+        "castelnuovo",
+        "castelnuovodiporto"
+      ],
+      "areaKm2": 30.43,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058018",
+        "058052",
+        "058065",
+        "058068",
+        "058081",
+        "058093"
+      ],
+      "focusPoint": {
+        "lat": 42.106082,
+        "lng": 12.486814
+      }
+    },
+    {
+      "istatCode": "058025",
+      "officialName": "Castel San Pietro Romano",
+      "normalizedName": "castel san pietro romano",
+      "aliases": [
+        "castel san",
+        "castel san pietro",
+        "castelsan",
+        "castelsanpietro",
+        "castelsanpietroromano"
+      ],
+      "areaKm2": 15.1,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058019",
+        "058074",
+        "058078",
+        "058085",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 41.856767,
+        "lng": 12.907264
+      }
+    },
+    {
+      "istatCode": "058026",
+      "officialName": "Cave",
+      "normalizedName": "cave",
+      "aliases": [],
+      "areaKm2": 18.241,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058042",
+        "058074",
+        "058085",
+        "058110"
+      ],
+      "focusPoint": {
+        "lat": 41.816625,
+        "lng": 12.930686
+      }
+    },
+    {
+      "istatCode": "058027",
+      "officialName": "Cerreto Laziale",
+      "normalizedName": "cerreto laziale",
+      "aliases": [
+        "cerreto",
+        "cerretolaziale"
+      ],
+      "areaKm2": 11.92,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058030",
+        "058044",
+        "058077",
+        "058084",
+        "058094",
+        "058101"
+      ],
+      "focusPoint": {
+        "lat": 41.953196,
+        "lng": 12.979273
+      }
+    },
+    {
+      "istatCode": "058028",
+      "officialName": "Cervara di Roma",
+      "normalizedName": "cervara di roma",
+      "aliases": [
+        "cervara",
+        "cervaradiroma"
+      ],
+      "areaKm2": 31.793,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058002",
+        "058010",
+        "058014",
+        "058055",
+        "058103"
+      ],
+      "focusPoint": {
+        "lat": 41.98969,
+        "lng": 13.080151
+      }
+    },
+    {
+      "istatCode": "058029",
+      "officialName": "Cerveteri",
+      "normalizedName": "cerveteri",
+      "aliases": [],
+      "areaKm2": 134.836,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058005",
+        "058013",
+        "058097",
+        "058105",
+        "058116",
+        "058120"
+      ],
+      "focusPoint": {
+        "lat": 42.004684,
+        "lng": 12.106081
+      }
+    },
+    {
+      "istatCode": "058030",
+      "officialName": "Ciciliano",
+      "normalizedName": "ciciliano",
+      "aliases": [],
+      "areaKm2": 18.758,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058019",
+        "058023",
+        "058027",
+        "058077",
+        "058094",
+        "058095"
+      ],
+      "focusPoint": {
+        "lat": 41.953844,
+        "lng": 12.936994
+      }
+    },
+    {
+      "istatCode": "058031",
+      "officialName": "Cineto Romano",
+      "normalizedName": "cineto romano",
+      "aliases": [
+        "cineto",
+        "cinetoromano"
+      ],
+      "areaKm2": 10.368,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058053",
+        "058076",
+        "058083",
+        "058092",
+        "058109"
+      ],
+      "focusPoint": {
+        "lat": 42.056135,
+        "lng": 12.956935
+      }
+    },
+    {
+      "istatCode": "058032",
+      "officialName": "Civitavecchia",
+      "normalizedName": "civitavecchia",
+      "aliases": [],
+      "areaKm2": 74.864,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058004",
+        "058097"
+      ],
+      "focusPoint": {
+        "lat": 42.106957,
+        "lng": 11.819582
+      }
+    },
+    {
+      "istatCode": "058033",
+      "officialName": "Civitella San Paolo",
+      "normalizedName": "civitella san paolo",
+      "aliases": [
+        "civitella",
+        "civitella san",
+        "civitellasan",
+        "civitellasanpaolo"
+      ],
+      "areaKm2": 20.512,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058018",
+        "058036",
+        "058069",
+        "058082",
+        "058099"
+      ],
+      "focusPoint": {
+        "lat": 42.190825,
+        "lng": 12.5698
+      }
+    },
+    {
+      "istatCode": "058034",
+      "officialName": "Colleferro",
+      "normalizedName": "colleferro",
+      "aliases": [],
+      "areaKm2": 26.728,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058011",
+        "058042",
+        "058102",
+        "058110"
+      ],
+      "focusPoint": {
+        "lat": 41.728367,
+        "lng": 12.986609
+      }
+    },
+    {
+      "istatCode": "058035",
+      "officialName": "Colonna",
+      "normalizedName": "colonna",
+      "aliases": [],
+      "areaKm2": 3.648,
+      "baseChips": 221,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058060",
+        "058091",
+        "058119"
+      ],
+      "focusPoint": {
+        "lat": 41.82469,
+        "lng": 12.759991
+      }
+    },
+    {
+      "istatCode": "058036",
+      "officialName": "Fiano Romano",
+      "normalizedName": "fiano romano",
+      "aliases": [
+        "fiano",
+        "fianoromano"
+      ],
+      "areaKm2": 41.221,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058018",
+        "058033",
+        "058063",
+        "058069"
+      ],
+      "focusPoint": {
+        "lat": 42.154223,
+        "lng": 12.593488
+      }
+    },
+    {
+      "istatCode": "058037",
+      "officialName": "Filacciano",
+      "normalizedName": "filacciano",
+      "aliases": [],
+      "areaKm2": 5.594,
+      "baseChips": 211,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058069",
+        "058080",
+        "058106"
+      ],
+      "focusPoint": {
+        "lat": 42.257644,
+        "lng": 12.597712
+      }
+    },
+    {
+      "istatCode": "058038",
+      "officialName": "Formello",
+      "normalizedName": "formello",
+      "aliases": [],
+      "areaKm2": 31.355,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058015",
+        "058091",
+        "058093"
+      ],
+      "focusPoint": {
+        "lat": 42.066717,
+        "lng": 12.408487
+      }
+    },
+    {
+      "istatCode": "058039",
+      "officialName": "Frascati",
+      "normalizedName": "frascati",
+      "aliases": [],
+      "areaKm2": 22.449,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058046",
+        "058064",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 41.824477,
+        "lng": 12.676532
+      }
+    },
+    {
+      "istatCode": "058040",
+      "officialName": "Gallicano nel Lazio",
+      "normalizedName": "gallicano nel lazio",
+      "aliases": [
+        "gallicano",
+        "gallicanonellazio"
+      ],
+      "areaKm2": 25.676,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058074",
+        "058091",
+        "058114"
+      ],
+      "focusPoint": {
+        "lat": 41.877614,
+        "lng": 12.794762
+      }
+    },
+    {
+      "istatCode": "058041",
+      "officialName": "Gavignano",
+      "normalizedName": "gavignano",
+      "aliases": [],
+      "areaKm2": 15.127,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058062",
+        "058102"
+      ],
+      "focusPoint": {
+        "lat": 41.708091,
+        "lng": 13.066244
+      }
+    },
+    {
+      "istatCode": "058042",
+      "officialName": "Genazzano",
+      "normalizedName": "genazzano",
+      "aliases": [],
+      "areaKm2": 31.467,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058019",
+        "058026",
+        "058034",
+        "058073",
+        "058085",
+        "058100",
+        "058110"
+      ],
+      "focusPoint": {
+        "lat": 41.815957,
+        "lng": 12.982866
+      }
+    },
+    {
+      "istatCode": "058043",
+      "officialName": "Genzano di Roma",
+      "normalizedName": "genzano di roma",
+      "aliases": [
+        "genzano",
+        "genzanodiroma"
+      ],
+      "areaKm2": 17.61,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058009",
+        "058050",
+        "058070",
+        "058111"
+      ],
+      "focusPoint": {
+        "lat": 41.672701,
+        "lng": 12.724578
+      }
+    },
+    {
+      "istatCode": "058044",
+      "officialName": "Gerano",
+      "normalizedName": "gerano",
+      "aliases": [],
+      "areaKm2": 10.204,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058012",
+        "058017",
+        "058027",
+        "058077",
+        "058084",
+        "058089"
+      ],
+      "focusPoint": {
+        "lat": 41.927285,
+        "lng": 12.991762
+      }
+    },
+    {
+      "istatCode": "058045",
+      "officialName": "Gorga",
+      "normalizedName": "gorga",
+      "aliases": [],
+      "areaKm2": 26.062,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058020",
+        "058062"
+      ],
+      "focusPoint": {
+        "lat": 41.644833,
+        "lng": 13.120281
+      }
+    },
+    {
+      "istatCode": "058046",
+      "officialName": "Grottaferrata",
+      "normalizedName": "grottaferrata",
+      "aliases": [],
+      "areaKm2": 18.098,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058022",
+        "058039",
+        "058057",
+        "058060",
+        "058064",
+        "058086",
+        "058091",
+        "058118"
+      ],
+      "focusPoint": {
+        "lat": 41.789119,
+        "lng": 12.683556
+      }
+    },
+    {
+      "istatCode": "058047",
+      "officialName": "Guidonia Montecelio",
+      "normalizedName": "guidonia montecelio",
+      "aliases": [
+        "guidonia",
+        "guidoniamontecelio"
+      ],
+      "areaKm2": 79.759,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058056",
+        "058075",
+        "058091",
+        "058096",
+        "058098",
+        "058104",
+        "058122"
+      ],
+      "focusPoint": {
+        "lat": 41.984557,
+        "lng": 12.713833
+      }
+    },
+    {
+      "istatCode": "058048",
+      "officialName": "Jenne",
+      "normalizedName": "jenne",
+      "aliases": [],
+      "areaKm2": 31.847,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058008",
+        "058103",
+        "058108"
+      ],
+      "focusPoint": {
+        "lat": 41.903894,
+        "lng": 13.172654
+      }
+    },
+    {
+      "istatCode": "058049",
+      "officialName": "Labico",
+      "normalizedName": "labico",
+      "aliases": [],
+      "areaKm2": 11.709,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058074",
+        "058110"
+      ],
+      "focusPoint": {
+        "lat": 41.790013,
+        "lng": 12.861574
+      }
+    },
+    {
+      "istatCode": "058050",
+      "officialName": "Lanuvio",
+      "normalizedName": "lanuvio",
+      "aliases": [],
+      "areaKm2": 43.952,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058009",
+        "058043",
+        "058111"
+      ],
+      "focusPoint": {
+        "lat": 41.6416,
+        "lng": 12.681321
+      }
+    },
+    {
+      "istatCode": "058051",
+      "officialName": "Licenza",
+      "normalizedName": "licenza",
+      "aliases": [],
+      "areaKm2": 18.079,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058053",
+        "058061",
+        "058076",
+        "058087",
+        "058096"
+      ],
+      "focusPoint": {
+        "lat": 42.07875,
+        "lng": 12.896508
+      }
+    },
+    {
+      "istatCode": "058052",
+      "officialName": "Magliano Romano",
+      "normalizedName": "magliano romano",
+      "aliases": [
+        "magliano",
+        "maglianoromano"
+      ],
+      "areaKm2": 20.34,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058015",
+        "058024",
+        "058058",
+        "058068",
+        "058082",
+        "058093"
+      ],
+      "focusPoint": {
+        "lat": 42.149387,
+        "lng": 12.437021
+      }
+    },
+    {
+      "istatCode": "058053",
+      "officialName": "Mandela",
+      "normalizedName": "mandela",
+      "aliases": [],
+      "areaKm2": 13.882,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058006",
+        "058031",
+        "058051",
+        "058076",
+        "058087",
+        "058092",
+        "058101",
+        "058112"
+      ],
+      "focusPoint": {
+        "lat": 42.039136,
+        "lng": 12.929985
+      }
+    },
+    {
+      "istatCode": "058054",
+      "officialName": "Manziana",
+      "normalizedName": "manziana",
+      "aliases": [],
+      "areaKm2": 24.122,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058013",
+        "058016",
+        "058105"
+      ],
+      "focusPoint": {
+        "lat": 42.111082,
+        "lng": 12.10696
+      }
+    },
+    {
+      "istatCode": "058055",
+      "officialName": "Marano Equo",
+      "normalizedName": "marano equo",
+      "aliases": [
+        "marano",
+        "maranoequo"
+      ],
+      "areaKm2": 7.793,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058002",
+        "058006",
+        "058010",
+        "058028",
+        "058084",
+        "058092"
+      ],
+      "focusPoint": {
+        "lat": 41.993402,
+        "lng": 13.011205
+      }
+    },
+    {
+      "istatCode": "058056",
+      "officialName": "Marcellina",
+      "normalizedName": "marcellina",
+      "aliases": [],
+      "areaKm2": 15.466,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058047",
+        "058096",
+        "058104"
+      ],
+      "focusPoint": {
+        "lat": 42.014314,
+        "lng": 12.79732
+      }
+    },
+    {
+      "istatCode": "058057",
+      "officialName": "Marino",
+      "normalizedName": "marino",
+      "aliases": [],
+      "areaKm2": 23.738,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058022",
+        "058046",
+        "058086",
+        "058091",
+        "058118"
+      ],
+      "focusPoint": {
+        "lat": 41.761617,
+        "lng": 12.619952
+      }
+    },
+    {
+      "istatCode": "058058",
+      "officialName": "Mazzano Romano",
+      "normalizedName": "mazzano romano",
+      "aliases": [
+        "mazzano",
+        "mazzanoromano"
+      ],
+      "areaKm2": 29.137,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058015",
+        "058052"
+      ],
+      "focusPoint": {
+        "lat": 42.194081,
+        "lng": 12.393582
+      }
+    },
+    {
+      "istatCode": "058059",
+      "officialName": "Mentana",
+      "normalizedName": "mentana",
+      "aliases": [],
+      "areaKm2": 24.51,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058065",
+        "058075",
+        "058098",
+        "058122"
+      ],
+      "focusPoint": {
+        "lat": 42.041834,
+        "lng": 12.648188
+      }
+    },
+    {
+      "istatCode": "058060",
+      "officialName": "Monte Compatri",
+      "normalizedName": "monte compatri",
+      "aliases": [
+        "montecompatri"
+      ],
+      "areaKm2": 24.725,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058035",
+        "058046",
+        "058064",
+        "058086",
+        "058088",
+        "058091",
+        "058114",
+        "058119"
+      ],
+      "focusPoint": {
+        "lat": 41.870743,
+        "lng": 12.72262
+      }
+    },
+    {
+      "istatCode": "058061",
+      "officialName": "Monteflavio",
+      "normalizedName": "monteflavio",
+      "aliases": [],
+      "areaKm2": 16.596,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058051",
+        "058066",
+        "058067",
+        "058075",
+        "058096"
+      ],
+      "focusPoint": {
+        "lat": 42.114457,
+        "lng": 12.82509
+      }
+    },
+    {
+      "istatCode": "058062",
+      "officialName": "Montelanico",
+      "normalizedName": "montelanico",
+      "aliases": [],
+      "areaKm2": 35.473,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058020",
+        "058041",
+        "058045",
+        "058102"
+      ],
+      "focusPoint": {
+        "lat": 41.643161,
+        "lng": 13.01724
+      }
+    },
+    {
+      "istatCode": "058063",
+      "officialName": "Montelibretti",
+      "normalizedName": "montelibretti",
+      "aliases": [],
+      "areaKm2": 45.591,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058018",
+        "058036",
+        "058065",
+        "058066",
+        "058067",
+        "058071",
+        "058075"
+      ],
+      "focusPoint": {
+        "lat": 42.135576,
+        "lng": 12.695061
+      }
+    },
+    {
+      "istatCode": "058064",
+      "officialName": "Monte Porzio Catone",
+      "normalizedName": "monte porzio catone",
+      "aliases": [
+        "monte porzio",
+        "monteporzio",
+        "monteporziocatone"
+      ],
+      "areaKm2": 9.092,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058039",
+        "058046",
+        "058060",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 41.818029,
+        "lng": 12.708646
+      }
+    },
+    {
+      "istatCode": "058065",
+      "officialName": "Monterotondo",
+      "normalizedName": "monterotondo",
+      "aliases": [],
+      "areaKm2": 40.835,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058018",
+        "058024",
+        "058059",
+        "058063",
+        "058075",
+        "058081",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 42.069295,
+        "lng": 12.6287
+      }
+    },
+    {
+      "istatCode": "058066",
+      "officialName": "Montorio Romano",
+      "normalizedName": "montorio romano",
+      "aliases": [
+        "montorio",
+        "montorioromano"
+      ],
+      "areaKm2": 23.342,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058061",
+        "058063",
+        "058067",
+        "058071"
+      ],
+      "focusPoint": {
+        "lat": 42.136946,
+        "lng": 12.800335
+      }
+    },
+    {
+      "istatCode": "058067",
+      "officialName": "Moricone",
+      "normalizedName": "moricone",
+      "aliases": [],
+      "areaKm2": 19.653,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058061",
+        "058063",
+        "058066",
+        "058075"
+      ],
+      "focusPoint": {
+        "lat": 42.11281,
+        "lng": 12.746751
+      }
+    },
+    {
+      "istatCode": "058068",
+      "officialName": "Morlupo",
+      "normalizedName": "morlupo",
+      "aliases": [],
+      "areaKm2": 24.079,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058018",
+        "058024",
+        "058052",
+        "058082"
+      ],
+      "focusPoint": {
+        "lat": 42.141609,
+        "lng": 12.493902
+      }
+    },
+    {
+      "istatCode": "058069",
+      "officialName": "Nazzano",
+      "normalizedName": "nazzano",
+      "aliases": [],
+      "areaKm2": 12.432,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058033",
+        "058036",
+        "058037",
+        "058080",
+        "058106"
+      ],
+      "focusPoint": {
+        "lat": 42.224399,
+        "lng": 12.594242
+      }
+    },
+    {
+      "istatCode": "058070",
+      "officialName": "Nemi",
+      "normalizedName": "nemi",
+      "aliases": [],
+      "areaKm2": 7.192,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058009",
+        "058043",
+        "058086",
+        "058111"
+      ],
+      "focusPoint": {
+        "lat": 41.709665,
+        "lng": 12.706644
+      }
+    },
+    {
+      "istatCode": "058071",
+      "officialName": "Nerola",
+      "normalizedName": "nerola",
+      "aliases": [],
+      "areaKm2": 17.246,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058063",
+        "058066"
+      ],
+      "focusPoint": {
+        "lat": 42.167442,
+        "lng": 12.759158
+      }
+    },
+    {
+      "istatCode": "058072",
+      "officialName": "Nettuno",
+      "normalizedName": "nettuno",
+      "aliases": [],
+      "areaKm2": 71.497,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058007"
+      ],
+      "focusPoint": {
+        "lat": 41.475228,
+        "lng": 12.695642
+      }
+    },
+    {
+      "istatCode": "058073",
+      "officialName": "Olevano Romano",
+      "normalizedName": "olevano romano",
+      "aliases": [
+        "olevano",
+        "olevanoromano"
+      ],
+      "areaKm2": 25.789,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058012",
+        "058042",
+        "058090",
+        "058100"
+      ],
+      "focusPoint": {
+        "lat": 41.848946,
+        "lng": 13.031341
+      }
+    },
+    {
+      "istatCode": "058074",
+      "officialName": "Palestrina",
+      "normalizedName": "palestrina",
+      "aliases": [],
+      "areaKm2": 46.608,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058011",
+        "058025",
+        "058026",
+        "058040",
+        "058049",
+        "058088",
+        "058091",
+        "058110",
+        "058114",
+        "058119"
+      ],
+      "focusPoint": {
+        "lat": 41.810984,
+        "lng": 12.868667
+      }
+    },
+    {
+      "istatCode": "058075",
+      "officialName": "Palombara Sabina",
+      "normalizedName": "palombara sabina",
+      "aliases": [
+        "palombara",
+        "palombarasabina"
+      ],
+      "areaKm2": 75.878,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058047",
+        "058059",
+        "058061",
+        "058063",
+        "058065",
+        "058067",
+        "058096",
+        "058098"
+      ],
+      "focusPoint": {
+        "lat": 42.07248,
+        "lng": 12.752213
+      }
+    },
+    {
+      "istatCode": "058076",
+      "officialName": "Percile",
+      "normalizedName": "percile",
+      "aliases": [],
+      "areaKm2": 17.771,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058031",
+        "058051",
+        "058053",
+        "058109"
+      ],
+      "focusPoint": {
+        "lat": 42.089134,
+        "lng": 12.92525
+      }
+    },
+    {
+      "istatCode": "058077",
+      "officialName": "Pisoniano",
+      "normalizedName": "pisoniano",
+      "aliases": [],
+      "areaKm2": 12.819,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058012",
+        "058019",
+        "058027",
+        "058030",
+        "058044",
+        "058100"
+      ],
+      "focusPoint": {
+        "lat": 41.907135,
+        "lng": 12.967979
+      }
+    },
+    {
+      "istatCode": "058078",
+      "officialName": "Poli",
+      "normalizedName": "poli",
+      "aliases": [],
+      "areaKm2": 22.064,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058019",
+        "058021",
+        "058025",
+        "058091",
+        "058095"
+      ],
+      "focusPoint": {
+        "lat": 41.88384,
+        "lng": 12.885484
+      }
+    },
+    {
+      "istatCode": "058079",
+      "officialName": "Pomezia",
+      "normalizedName": "pomezia",
+      "aliases": [],
+      "areaKm2": 86.475,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058091",
+        "058117"
+      ],
+      "focusPoint": {
+        "lat": 41.653164,
+        "lng": 12.482356
+      }
+    },
+    {
+      "istatCode": "058080",
+      "officialName": "Ponzano Romano",
+      "normalizedName": "ponzano romano",
+      "aliases": [
+        "ponzano",
+        "ponzanoromano"
+      ],
+      "areaKm2": 19.825,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058037",
+        "058069",
+        "058099"
+      ],
+      "focusPoint": {
+        "lat": 42.258819,
+        "lng": 12.562467
+      }
+    },
+    {
+      "istatCode": "058081",
+      "officialName": "Riano",
+      "normalizedName": "riano",
+      "aliases": [],
+      "areaKm2": 25.235,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058024",
+        "058065",
+        "058091",
+        "058093"
+      ],
+      "focusPoint": {
+        "lat": 42.081142,
+        "lng": 12.523767
+      }
+    },
+    {
+      "istatCode": "058082",
+      "officialName": "Rignano Flaminio",
+      "normalizedName": "rignano flaminio",
+      "aliases": [
+        "rignano",
+        "rignanoflaminio"
+      ],
+      "areaKm2": 39.013,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058018",
+        "058033",
+        "058052",
+        "058068",
+        "058099"
+      ],
+      "focusPoint": {
+        "lat": 42.195139,
+        "lng": 12.477829
+      }
+    },
+    {
+      "istatCode": "058083",
+      "officialName": "Riofreddo",
+      "normalizedName": "riofreddo",
+      "aliases": [],
+      "areaKm2": 12.3,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058010",
+        "058031",
+        "058092",
+        "058109"
+      ],
+      "focusPoint": {
+        "lat": 42.058044,
+        "lng": 13.001277
+      }
+    },
+    {
+      "istatCode": "058084",
+      "officialName": "Rocca Canterano",
+      "normalizedName": "rocca canterano",
+      "aliases": [
+        "roccacanterano"
+      ],
+      "areaKm2": 15.577,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058002",
+        "058006",
+        "058017",
+        "058027",
+        "058044",
+        "058055",
+        "058101"
+      ],
+      "focusPoint": {
+        "lat": 41.96312,
+        "lng": 13.015423
+      }
+    },
+    {
+      "istatCode": "058085",
+      "officialName": "Rocca di Cave",
+      "normalizedName": "rocca di cave",
+      "aliases": [
+        "roccadicave"
+      ],
+      "areaKm2": 11.167,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058019",
+        "058025",
+        "058026",
+        "058042"
+      ],
+      "focusPoint": {
+        "lat": 41.844177,
+        "lng": 12.943905
+      }
+    },
+    {
+      "istatCode": "058086",
+      "officialName": "Rocca di Papa",
+      "normalizedName": "rocca di papa",
+      "aliases": [
+        "roccadipapa"
+      ],
+      "areaKm2": 39.975,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058003",
+        "058009",
+        "058011",
+        "058022",
+        "058046",
+        "058057",
+        "058060",
+        "058070",
+        "058088",
+        "058111",
+        "058115"
+      ],
+      "focusPoint": {
+        "lat": 41.753261,
+        "lng": 12.741079
+      }
+    },
+    {
+      "istatCode": "058087",
+      "officialName": "Roccagiovine",
+      "normalizedName": "roccagiovine",
+      "aliases": [],
+      "areaKm2": 8.243,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058051",
+        "058053",
+        "058096",
+        "058112"
+      ],
+      "focusPoint": {
+        "lat": 42.047784,
+        "lng": 12.880186
+      }
+    },
+    {
+      "istatCode": "058088",
+      "officialName": "Rocca Priora",
+      "normalizedName": "rocca priora",
+      "aliases": [
+        "roccapriora"
+      ],
+      "areaKm2": 28.547,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058011",
+        "058060",
+        "058074",
+        "058086",
+        "058115",
+        "058119"
+      ],
+      "focusPoint": {
+        "lat": 41.784594,
+        "lng": 12.774176
+      }
+    },
+    {
+      "istatCode": "058089",
+      "officialName": "Rocca Santo Stefano",
+      "normalizedName": "rocca santo stefano",
+      "aliases": [
+        "rocca santo",
+        "roccasanto",
+        "roccasantostefano"
+      ],
+      "areaKm2": 9.782,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058001",
+        "058012",
+        "058017",
+        "058044",
+        "058103"
+      ],
+      "focusPoint": {
+        "lat": 41.915472,
+        "lng": 13.030651
+      }
+    },
+    {
+      "istatCode": "058090",
+      "officialName": "Roiate",
+      "normalizedName": "roiate",
+      "aliases": [],
+      "areaKm2": 10.466,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058001",
+        "058008",
+        "058012",
+        "058073"
+      ],
+      "focusPoint": {
+        "lat": 41.87399,
+        "lng": 13.06503
+      }
+    },
+    {
+      "istatCode": "058091",
+      "officialName": "Roma",
+      "normalizedName": "roma",
+      "aliases": [],
+      "areaKm2": 1287.084,
+      "baseChips": 90,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058003",
+        "058005",
+        "058015",
+        "058022",
+        "058025",
+        "058035",
+        "058038",
+        "058039",
+        "058040",
+        "058046",
+        "058047",
+        "058057",
+        "058060",
+        "058064",
+        "058065",
+        "058074",
+        "058078",
+        "058079",
+        "058081",
+        "058093",
+        "058095",
+        "058104",
+        "058107",
+        "058114",
+        "058117",
+        "058118",
+        "058120",
+        "058122"
+      ],
+      "focusPoint": {
+        "lat": 41.879349,
+        "lng": 12.472607
+      }
+    },
+    {
+      "istatCode": "058092",
+      "officialName": "Roviano",
+      "normalizedName": "roviano",
+      "aliases": [],
+      "areaKm2": 8.437,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058006",
+        "058010",
+        "058031",
+        "058053",
+        "058055",
+        "058083"
+      ],
+      "focusPoint": {
+        "lat": 42.023065,
+        "lng": 12.99958
+      }
+    },
+    {
+      "istatCode": "058093",
+      "officialName": "Sacrofano",
+      "normalizedName": "sacrofano",
+      "aliases": [],
+      "areaKm2": 28.445,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058015",
+        "058024",
+        "058038",
+        "058052",
+        "058081",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 42.085437,
+        "lng": 12.450041
+      }
+    },
+    {
+      "istatCode": "058094",
+      "officialName": "Sambuci",
+      "normalizedName": "sambuci",
+      "aliases": [],
+      "areaKm2": 8.576,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058023",
+        "058027",
+        "058030",
+        "058101",
+        "058112"
+      ],
+      "focusPoint": {
+        "lat": 41.991852,
+        "lng": 12.937093
+      }
+    },
+    {
+      "istatCode": "058095",
+      "officialName": "San Gregorio da Sassola",
+      "normalizedName": "san gregorio da sassola",
+      "aliases": [
+        "san gregorio",
+        "sangregorio",
+        "sangregoriodasassola"
+      ],
+      "areaKm2": 35.348,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058019",
+        "058021",
+        "058023",
+        "058030",
+        "058078",
+        "058091",
+        "058104"
+      ],
+      "focusPoint": {
+        "lat": 41.92397,
+        "lng": 12.868642
+      }
+    },
+    {
+      "istatCode": "058096",
+      "officialName": "San Polo dei Cavalieri",
+      "normalizedName": "san polo dei cavalieri",
+      "aliases": [
+        "san polo",
+        "sanpolo",
+        "sanpolodeicavalieri"
+      ],
+      "areaKm2": 42.462,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058047",
+        "058051",
+        "058056",
+        "058061",
+        "058075",
+        "058087",
+        "058104",
+        "058112"
+      ],
+      "focusPoint": {
+        "lat": 42.043597,
+        "lng": 12.810497
+      }
+    },
+    {
+      "istatCode": "058097",
+      "officialName": "Santa Marinella",
+      "normalizedName": "santa marinella",
+      "aliases": [
+        "santa",
+        "santamarinella"
+      ],
+      "areaKm2": 48.885,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058004",
+        "058029",
+        "058032",
+        "058105"
+      ],
+      "focusPoint": {
+        "lat": 42.041869,
+        "lng": 11.871647
+      }
+    },
+    {
+      "istatCode": "058098",
+      "officialName": "Sant'Angelo Romano",
+      "normalizedName": "sant angelo romano",
+      "aliases": [
+        "sant angelo",
+        "santangelo",
+        "santangeloromano"
+      ],
+      "areaKm2": 21.196,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058047",
+        "058059",
+        "058075",
+        "058122"
+      ],
+      "focusPoint": {
+        "lat": 42.027492,
+        "lng": 12.706269
+      }
+    },
+    {
+      "istatCode": "058099",
+      "officialName": "Sant'Oreste",
+      "normalizedName": "sant oreste",
+      "aliases": [
+        "santoreste"
+      ],
+      "areaKm2": 43.101,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058033",
+        "058080",
+        "058082"
+      ],
+      "focusPoint": {
+        "lat": 42.237304,
+        "lng": 12.51953
+      }
+    },
+    {
+      "istatCode": "058100",
+      "officialName": "San Vito Romano",
+      "normalizedName": "san vito romano",
+      "aliases": [
+        "san vito",
+        "sanvito",
+        "sanvitoromano"
+      ],
+      "areaKm2": 12.675,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058012",
+        "058019",
+        "058042",
+        "058073",
+        "058077"
+      ],
+      "focusPoint": {
+        "lat": 41.876541,
+        "lng": 12.978628
+      }
+    },
+    {
+      "istatCode": "058101",
+      "officialName": "Saracinesco",
+      "normalizedName": "saracinesco",
+      "aliases": [],
+      "areaKm2": 10.904,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058006",
+        "058027",
+        "058053",
+        "058084",
+        "058094",
+        "058112"
+      ],
+      "focusPoint": {
+        "lat": 42.000296,
+        "lng": 12.953945
+      }
+    },
+    {
+      "istatCode": "058102",
+      "officialName": "Segni",
+      "normalizedName": "segni",
+      "aliases": [],
+      "areaKm2": 60.748,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058011",
+        "058034",
+        "058041",
+        "058062"
+      ],
+      "focusPoint": {
+        "lat": 41.694159,
+        "lng": 13.005824
+      }
+    },
+    {
+      "istatCode": "058103",
+      "officialName": "Subiaco",
+      "normalizedName": "subiaco",
+      "aliases": [],
+      "areaKm2": 62.594,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058001",
+        "058002",
+        "058008",
+        "058014",
+        "058017",
+        "058028",
+        "058048",
+        "058089",
+        "058108"
+      ],
+      "focusPoint": {
+        "lat": 41.92993,
+        "lng": 13.107876
+      }
+    },
+    {
+      "istatCode": "058104",
+      "officialName": "Tivoli",
+      "normalizedName": "tivoli",
+      "aliases": [],
+      "areaKm2": 67.889,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058023",
+        "058047",
+        "058056",
+        "058091",
+        "058095",
+        "058096",
+        "058112"
+      ],
+      "focusPoint": {
+        "lat": 41.958912,
+        "lng": 12.793623
+      }
+    },
+    {
+      "istatCode": "058105",
+      "officialName": "Tolfa",
+      "normalizedName": "tolfa",
+      "aliases": [],
+      "areaKm2": 167.836,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058004",
+        "058013",
+        "058016",
+        "058029",
+        "058054",
+        "058097"
+      ],
+      "focusPoint": {
+        "lat": 42.124167,
+        "lng": 11.976628
+      }
+    },
+    {
+      "istatCode": "058106",
+      "officialName": "Torrita Tiberina",
+      "normalizedName": "torrita tiberina",
+      "aliases": [
+        "torrita",
+        "torritatiberina"
+      ],
+      "areaKm2": 10.752,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058037",
+        "058069"
+      ],
+      "focusPoint": {
+        "lat": 42.226733,
+        "lng": 12.629952
+      }
+    },
+    {
+      "istatCode": "058107",
+      "officialName": "Trevignano Romano",
+      "normalizedName": "trevignano romano",
+      "aliases": [
+        "trevignano",
+        "trevignanoromano"
+      ],
+      "areaKm2": 38.8,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058005",
+        "058013",
+        "058015",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 42.151083,
+        "lng": 12.252175
+      }
+    },
+    {
+      "istatCode": "058108",
+      "officialName": "Vallepietra",
+      "normalizedName": "vallepietra",
+      "aliases": [],
+      "areaKm2": 52.871,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058014",
+        "058048",
+        "058103"
+      ],
+      "focusPoint": {
+        "lat": 41.922482,
+        "lng": 13.233489
+      }
+    },
+    {
+      "istatCode": "058109",
+      "officialName": "Vallinfreda",
+      "normalizedName": "vallinfreda",
+      "aliases": [],
+      "areaKm2": 16.536,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058031",
+        "058076",
+        "058083",
+        "058113"
+      ],
+      "focusPoint": {
+        "lat": 42.094738,
+        "lng": 12.976939
+      }
+    },
+    {
+      "istatCode": "058110",
+      "officialName": "Valmontone",
+      "normalizedName": "valmontone",
+      "aliases": [],
+      "areaKm2": 40.978,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058011",
+        "058026",
+        "058034",
+        "058042",
+        "058049",
+        "058074"
+      ],
+      "focusPoint": {
+        "lat": 41.775145,
+        "lng": 12.911089
+      }
+    },
+    {
+      "istatCode": "058111",
+      "officialName": "Velletri",
+      "normalizedName": "velletri",
+      "aliases": [],
+      "areaKm2": 118.117,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058011",
+        "058043",
+        "058050",
+        "058070",
+        "058086",
+        "058115"
+      ],
+      "focusPoint": {
+        "lat": 41.655259,
+        "lng": 12.783278
+      }
+    },
+    {
+      "istatCode": "058112",
+      "officialName": "Vicovaro",
+      "normalizedName": "vicovaro",
+      "aliases": [],
+      "areaKm2": 35.614,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058023",
+        "058053",
+        "058087",
+        "058094",
+        "058096",
+        "058101",
+        "058104"
+      ],
+      "focusPoint": {
+        "lat": 42.012455,
+        "lng": 12.890578
+      }
+    },
+    {
+      "istatCode": "058113",
+      "officialName": "Vivaro Romano",
+      "normalizedName": "vivaro romano",
+      "aliases": [
+        "vivaro",
+        "vivaroromano"
+      ],
+      "areaKm2": 12.782,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058109"
+      ],
+      "focusPoint": {
+        "lat": 42.111904,
+        "lng": 13.007033
+      }
+    },
+    {
+      "istatCode": "058114",
+      "officialName": "Zagarolo",
+      "normalizedName": "zagarolo",
+      "aliases": [],
+      "areaKm2": 28.082,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058040",
+        "058060",
+        "058074",
+        "058091",
+        "058119"
+      ],
+      "focusPoint": {
+        "lat": 41.856258,
+        "lng": 12.797238
+      }
+    },
+    {
+      "istatCode": "058115",
+      "officialName": "Lariano",
+      "normalizedName": "lariano",
+      "aliases": [],
+      "areaKm2": 22.574,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058011",
+        "058086",
+        "058088",
+        "058111"
+      ],
+      "focusPoint": {
+        "lat": 41.723067,
+        "lng": 12.829388
+      }
+    },
+    {
+      "istatCode": "058116",
+      "officialName": "Ladispoli",
+      "normalizedName": "ladispoli",
+      "aliases": [],
+      "areaKm2": 26.227,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058029",
+        "058120"
+      ],
+      "focusPoint": {
+        "lat": 41.951131,
+        "lng": 12.1007
+      }
+    },
+    {
+      "istatCode": "058117",
+      "officialName": "Ardea",
+      "normalizedName": "ardea",
+      "aliases": [],
+      "areaKm2": 71.994,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058003",
+        "058007",
+        "058009",
+        "058079",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 41.613556,
+        "lng": 12.5223
+      }
+    },
+    {
+      "istatCode": "058118",
+      "officialName": "Ciampino",
+      "normalizedName": "ciampino",
+      "aliases": [],
+      "areaKm2": 13.353,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058046",
+        "058057",
+        "058091"
+      ],
+      "focusPoint": {
+        "lat": 41.794354,
+        "lng": 12.617751
+      }
+    },
+    {
+      "istatCode": "058119",
+      "officialName": "San Cesareo",
+      "normalizedName": "san cesareo",
+      "aliases": [
+        "sancesareo"
+      ],
+      "areaKm2": 23.235,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058035",
+        "058060",
+        "058074",
+        "058088",
+        "058114"
+      ],
+      "focusPoint": {
+        "lat": 41.831801,
+        "lng": 12.783879
+      }
+    },
+    {
+      "istatCode": "058120",
+      "officialName": "Fiumicino",
+      "normalizedName": "fiumicino",
+      "aliases": [],
+      "areaKm2": 214.31,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "058005",
+        "058029",
+        "058091",
+        "058116"
+      ],
+      "focusPoint": {
+        "lat": 41.879349,
+        "lng": 12.207679
+      }
+    },
+    {
+      "istatCode": "058122",
+      "officialName": "Fonte Nuova",
+      "normalizedName": "fonte nuova",
+      "aliases": [
+        "fonte",
+        "fontenuova"
+      ],
+      "areaKm2": 20.078,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "058047",
+        "058059",
+        "058091",
+        "058098"
+      ],
+      "focusPoint": {
+        "lat": 42.004989,
+        "lng": 12.635513
+      }
+    }
+  ]
+}

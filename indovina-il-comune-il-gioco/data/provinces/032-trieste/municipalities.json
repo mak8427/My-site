@@ -1,0 +1,149 @@
+{
+  "provinceCode": "032",
+  "label": "Trieste",
+  "officialScopeLabel": "Provincia di Trieste",
+  "sigla": "TS",
+  "slug": "trieste",
+  "sourceYear": 2026,
+  "count": 6,
+  "municipalities": [
+    {
+      "istatCode": "032001",
+      "officialName": "Duino Aurisina-Devin NabreÅ¾ina",
+      "normalizedName": "duino aurisina devin nabrea¾ina",
+      "aliases": [
+        "duino",
+        "duino aurisina",
+        "duino aurisina devin",
+        "duinoaurisina",
+        "duinoaurisinadevin",
+        "duinoaurisinadevinnabrea¾ina"
+      ],
+      "areaKm2": 45.21,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "032005",
+        "032006"
+      ],
+      "focusPoint": {
+        "lat": 45.771013,
+        "lng": 13.664272
+      }
+    },
+    {
+      "istatCode": "032002",
+      "officialName": "Monrupino-Repentabor",
+      "normalizedName": "monrupino repentabor",
+      "aliases": [
+        "monrupino",
+        "monrupinorepentabor"
+      ],
+      "areaKm2": 12.749,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "032005",
+        "032006"
+      ],
+      "focusPoint": {
+        "lat": 45.718247,
+        "lng": 13.796989
+      }
+    },
+    {
+      "istatCode": "032003",
+      "officialName": "Muggia",
+      "normalizedName": "muggia",
+      "aliases": [],
+      "areaKm2": 13.801,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "032004",
+        "032006"
+      ],
+      "focusPoint": {
+        "lat": 45.596289,
+        "lng": 13.782206
+      }
+    },
+    {
+      "istatCode": "032004",
+      "officialName": "San Dorligo della Valle-Dolina",
+      "normalizedName": "san dorligo della valle dolina",
+      "aliases": [
+        "san",
+        "san dorligo",
+        "san dorligo della valle",
+        "sandorligo",
+        "sandorligodellavalle",
+        "sandorligodellavalledolina"
+      ],
+      "areaKm2": 24.22,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "032003",
+        "032006"
+      ],
+      "focusPoint": {
+        "lat": 45.613563,
+        "lng": 13.853544
+      }
+    },
+    {
+      "istatCode": "032005",
+      "officialName": "Sgonico-Zgonik",
+      "normalizedName": "sgonico zgonik",
+      "aliases": [
+        "sgonico",
+        "sgonicozgonik"
+      ],
+      "areaKm2": 31.157,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "032001",
+        "032002",
+        "032006"
+      ],
+      "focusPoint": {
+        "lat": 45.738211,
+        "lng": 13.744999
+      }
+    },
+    {
+      "istatCode": "032006",
+      "officialName": "Trieste",
+      "normalizedName": "trieste",
+      "aliases": [],
+      "areaKm2": 84.825,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "032001",
+        "032002",
+        "032003",
+        "032004",
+        "032005"
+      ],
+      "focusPoint": {
+        "lat": 45.672622,
+        "lng": 13.804334
+      }
+    }
+  ]
+}

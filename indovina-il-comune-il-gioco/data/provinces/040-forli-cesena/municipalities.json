@@ -1,0 +1,701 @@
+{
+  "provinceCode": "040",
+  "label": "Forlì-Cesena",
+  "officialScopeLabel": "Provincia di Forlì-Cesena",
+  "sigla": "FC",
+  "slug": "forli-cesena",
+  "sourceYear": 2026,
+  "count": 30,
+  "municipalities": [
+    {
+      "istatCode": "040001",
+      "officialName": "Bagno di Romagna",
+      "normalizedName": "bagno di romagna",
+      "aliases": [
+        "bagno",
+        "bagnodiromagna"
+      ],
+      "areaKm2": 232.887,
+      "baseChips": 128,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040020",
+        "040043",
+        "040044",
+        "040050"
+      ],
+      "focusPoint": {
+        "lat": 43.869147,
+        "lng": 11.952459
+      }
+    },
+    {
+      "istatCode": "040003",
+      "officialName": "Bertinoro",
+      "normalizedName": "bertinoro",
+      "aliases": [],
+      "areaKm2": 57.465,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040007",
+        "040012",
+        "040013",
+        "040019"
+      ],
+      "focusPoint": {
+        "lat": 44.166023,
+        "lng": 12.151484
+      }
+    },
+    {
+      "istatCode": "040004",
+      "officialName": "Borghi",
+      "normalizedName": "borghi",
+      "aliases": [],
+      "areaKm2": 30.319,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040018",
+        "040037",
+        "040046"
+      ],
+      "focusPoint": {
+        "lat": 44.018205,
+        "lng": 12.352673
+      }
+    },
+    {
+      "istatCode": "040005",
+      "officialName": "Castrocaro Terme e Terra del Sole",
+      "normalizedName": "castrocaro terme e terra del sole",
+      "aliases": [
+        "castrocaro",
+        "castrocaro terme",
+        "castrocaro terme e",
+        "castrocaro terme e terra",
+        "castrocaroterme",
+        "castrocarotermee",
+        "castrocarotermeeterra",
+        "castrocarotermeeterradelsole"
+      ],
+      "areaKm2": 39.13,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040011",
+        "040012",
+        "040022",
+        "040032"
+      ],
+      "focusPoint": {
+        "lat": 44.17177,
+        "lng": 11.931283
+      }
+    },
+    {
+      "istatCode": "040007",
+      "officialName": "Cesena",
+      "normalizedName": "cesena",
+      "aliases": [],
+      "areaKm2": 249.294,
+      "baseChips": 127,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040003",
+        "040008",
+        "040009",
+        "040015",
+        "040018",
+        "040019",
+        "040020",
+        "040028",
+        "040037",
+        "040044"
+      ],
+      "focusPoint": {
+        "lat": 44.127901,
+        "lng": 12.252501
+      }
+    },
+    {
+      "istatCode": "040008",
+      "officialName": "Cesenatico",
+      "normalizedName": "cesenatico",
+      "aliases": [],
+      "areaKm2": 45.099,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040007",
+        "040015",
+        "040016"
+      ],
+      "focusPoint": {
+        "lat": 44.176445,
+        "lng": 12.383622
+      }
+    },
+    {
+      "istatCode": "040009",
+      "officialName": "Civitella di Romagna",
+      "normalizedName": "civitella di romagna",
+      "aliases": [
+        "civitella",
+        "civitelladiromagna"
+      ],
+      "areaKm2": 117.677,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040007",
+        "040014",
+        "040019",
+        "040032",
+        "040043",
+        "040044"
+      ],
+      "focusPoint": {
+        "lat": 44.012138,
+        "lng": 11.99812
+      }
+    },
+    {
+      "istatCode": "040011",
+      "officialName": "Dovadola",
+      "normalizedName": "dovadola",
+      "aliases": [],
+      "areaKm2": 39.126,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040005",
+        "040022",
+        "040032",
+        "040036"
+      ],
+      "focusPoint": {
+        "lat": 44.124169,
+        "lng": 11.875363
+      }
+    },
+    {
+      "istatCode": "040012",
+      "officialName": "Forlì",
+      "normalizedName": "forli",
+      "aliases": [],
+      "areaKm2": 227.748,
+      "baseChips": 129,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040003",
+        "040005",
+        "040013",
+        "040019",
+        "040032"
+      ],
+      "focusPoint": {
+        "lat": 44.226717,
+        "lng": 12.060863
+      }
+    },
+    {
+      "istatCode": "040013",
+      "officialName": "Forlimpopoli",
+      "normalizedName": "forlimpopoli",
+      "aliases": [],
+      "areaKm2": 24.341,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040003",
+        "040012"
+      ],
+      "focusPoint": {
+        "lat": 44.188442,
+        "lng": 12.128557
+      }
+    },
+    {
+      "istatCode": "040014",
+      "officialName": "Galeata",
+      "normalizedName": "galeata",
+      "aliases": [],
+      "areaKm2": 62.925,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040009",
+        "040032",
+        "040033",
+        "040036",
+        "040043"
+      ],
+      "focusPoint": {
+        "lat": 43.996778,
+        "lng": 11.896472
+      }
+    },
+    {
+      "istatCode": "040015",
+      "officialName": "Gambettola",
+      "normalizedName": "gambettola",
+      "aliases": [],
+      "areaKm2": 7.919,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040007",
+        "040008",
+        "040016",
+        "040018"
+      ],
+      "focusPoint": {
+        "lat": 44.119717,
+        "lng": 12.345218
+      }
+    },
+    {
+      "istatCode": "040016",
+      "officialName": "Gatteo",
+      "normalizedName": "gatteo",
+      "aliases": [],
+      "areaKm2": 14.006,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040008",
+        "040015",
+        "040018",
+        "040045"
+      ],
+      "focusPoint": {
+        "lat": 44.135513,
+        "lng": 12.388566
+      }
+    },
+    {
+      "istatCode": "040018",
+      "officialName": "Longiano",
+      "normalizedName": "longiano",
+      "aliases": [],
+      "areaKm2": 23.529,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040004",
+        "040007",
+        "040015",
+        "040016",
+        "040028",
+        "040037",
+        "040045"
+      ],
+      "focusPoint": {
+        "lat": 44.078777,
+        "lng": 12.339258
+      }
+    },
+    {
+      "istatCode": "040019",
+      "officialName": "Meldola",
+      "normalizedName": "meldola",
+      "aliases": [],
+      "areaKm2": 79.022,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040003",
+        "040007",
+        "040009",
+        "040012",
+        "040032"
+      ],
+      "focusPoint": {
+        "lat": 44.092782,
+        "lng": 12.063804
+      }
+    },
+    {
+      "istatCode": "040020",
+      "officialName": "Mercato Saraceno",
+      "normalizedName": "mercato saraceno",
+      "aliases": [
+        "mercato",
+        "mercatosaraceno"
+      ],
+      "areaKm2": 99.263,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040001",
+        "040007",
+        "040037",
+        "040044",
+        "040046"
+      ],
+      "focusPoint": {
+        "lat": 43.988006,
+        "lng": 12.14945
+      }
+    },
+    {
+      "istatCode": "040022",
+      "officialName": "Modigliana",
+      "normalizedName": "modigliana",
+      "aliases": [],
+      "areaKm2": 101.507,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040005",
+        "040011",
+        "040036",
+        "040049"
+      ],
+      "focusPoint": {
+        "lat": 44.141726,
+        "lng": 11.791667
+      }
+    },
+    {
+      "istatCode": "040028",
+      "officialName": "Montiano",
+      "normalizedName": "montiano",
+      "aliases": [],
+      "areaKm2": 9.55,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040007",
+        "040018",
+        "040037"
+      ],
+      "focusPoint": {
+        "lat": 44.077449,
+        "lng": 12.302307
+      }
+    },
+    {
+      "istatCode": "040031",
+      "officialName": "Portico e San Benedetto",
+      "normalizedName": "portico e san benedetto",
+      "aliases": [
+        "portico",
+        "portico e",
+        "portico e san",
+        "porticoe",
+        "porticoesan",
+        "porticoesanbenedetto"
+      ],
+      "areaKm2": 61.254,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040033",
+        "040036",
+        "040049"
+      ],
+      "focusPoint": {
+        "lat": 44.003302,
+        "lng": 11.714413
+      }
+    },
+    {
+      "istatCode": "040032",
+      "officialName": "Predappio",
+      "normalizedName": "predappio",
+      "aliases": [],
+      "areaKm2": 91.253,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040005",
+        "040009",
+        "040011",
+        "040012",
+        "040014",
+        "040019",
+        "040036"
+      ],
+      "focusPoint": {
+        "lat": 44.098027,
+        "lng": 11.960014
+      }
+    },
+    {
+      "istatCode": "040033",
+      "officialName": "Premilcuore",
+      "normalizedName": "premilcuore",
+      "aliases": [],
+      "areaKm2": 98.204,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040014",
+        "040031",
+        "040036",
+        "040043"
+      ],
+      "focusPoint": {
+        "lat": 43.965725,
+        "lng": 11.783842
+      }
+    },
+    {
+      "istatCode": "040036",
+      "officialName": "Rocca San Casciano",
+      "normalizedName": "rocca san casciano",
+      "aliases": [
+        "rocca",
+        "rocca san",
+        "roccasan",
+        "roccasancasciano"
+      ],
+      "areaKm2": 50.078,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040011",
+        "040014",
+        "040022",
+        "040031",
+        "040032",
+        "040033",
+        "040049"
+      ],
+      "focusPoint": {
+        "lat": 44.065034,
+        "lng": 11.860966
+      }
+    },
+    {
+      "istatCode": "040037",
+      "officialName": "Roncofreddo",
+      "normalizedName": "roncofreddo",
+      "aliases": [],
+      "areaKm2": 51.447,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "040004",
+        "040007",
+        "040018",
+        "040020",
+        "040028",
+        "040046"
+      ],
+      "focusPoint": {
+        "lat": 44.049,
+        "lng": 12.289629
+      }
+    },
+    {
+      "istatCode": "040041",
+      "officialName": "San Mauro Pascoli",
+      "normalizedName": "san mauro pascoli",
+      "aliases": [
+        "san",
+        "san mauro",
+        "sanmauro",
+        "sanmauropascoli"
+      ],
+      "areaKm2": 16.894,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040045"
+      ],
+      "focusPoint": {
+        "lat": 44.121139,
+        "lng": 12.429529
+      }
+    },
+    {
+      "istatCode": "040043",
+      "officialName": "Santa Sofia",
+      "normalizedName": "santa sofia",
+      "aliases": [
+        "santa",
+        "santasofia"
+      ],
+      "areaKm2": 148.751,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040001",
+        "040009",
+        "040014",
+        "040033",
+        "040044"
+      ],
+      "focusPoint": {
+        "lat": 43.912054,
+        "lng": 11.802993
+      }
+    },
+    {
+      "istatCode": "040044",
+      "officialName": "Sarsina",
+      "normalizedName": "sarsina",
+      "aliases": [],
+      "areaKm2": 101.245,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040001",
+        "040007",
+        "040009",
+        "040020",
+        "040043",
+        "040046",
+        "040050"
+      ],
+      "focusPoint": {
+        "lat": 43.904363,
+        "lng": 12.115161
+      }
+    },
+    {
+      "istatCode": "040045",
+      "officialName": "Savignano sul Rubicone",
+      "normalizedName": "savignano sul rubicone",
+      "aliases": [
+        "savignano",
+        "savignanosulrubicone"
+      ],
+      "areaKm2": 23.336,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040016",
+        "040018",
+        "040041"
+      ],
+      "focusPoint": {
+        "lat": 44.128381,
+        "lng": 12.40948
+      }
+    },
+    {
+      "istatCode": "040046",
+      "officialName": "Sogliano al Rubicone",
+      "normalizedName": "sogliano al rubicone",
+      "aliases": [
+        "sogliano",
+        "sogliano al",
+        "soglianoal",
+        "soglianoalrubicone"
+      ],
+      "areaKm2": 93.065,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040004",
+        "040020",
+        "040037",
+        "040044"
+      ],
+      "focusPoint": {
+        "lat": 43.982968,
+        "lng": 12.285819
+      }
+    },
+    {
+      "istatCode": "040049",
+      "officialName": "Tredozio",
+      "normalizedName": "tredozio",
+      "aliases": [],
+      "areaKm2": 62.769,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040022",
+        "040031",
+        "040036"
+      ],
+      "focusPoint": {
+        "lat": 44.063074,
+        "lng": 11.766096
+      }
+    },
+    {
+      "istatCode": "040050",
+      "officialName": "Verghereto",
+      "normalizedName": "verghereto",
+      "aliases": [],
+      "areaKm2": 117.539,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "040001",
+        "040044"
+      ],
+      "focusPoint": {
+        "lat": 43.804644,
+        "lng": 12.046678
+      }
+    }
+  ]
+}

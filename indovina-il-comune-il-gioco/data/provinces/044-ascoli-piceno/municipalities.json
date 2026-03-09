@@ -1,0 +1,760 @@
+{
+  "provinceCode": "044",
+  "label": "Ascoli Piceno",
+  "officialScopeLabel": "Provincia di Ascoli Piceno",
+  "sigla": "AP",
+  "slug": "ascoli-piceno",
+  "sourceYear": 2026,
+  "count": 33,
+  "municipalities": [
+    {
+      "istatCode": "044001",
+      "officialName": "Acquasanta Terme",
+      "normalizedName": "acquasanta terme",
+      "aliases": [
+        "acquasanta",
+        "acquasantaterme"
+      ],
+      "areaKm2": 138.554,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044006",
+        "044007",
+        "044038",
+        "044064"
+      ],
+      "focusPoint": {
+        "lat": 42.761786,
+        "lng": 13.420277
+      }
+    },
+    {
+      "istatCode": "044002",
+      "officialName": "Acquaviva Picena",
+      "normalizedName": "acquaviva picena",
+      "aliases": [
+        "acquaviva",
+        "acquavivapicena"
+      ],
+      "areaKm2": 20.981,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044023",
+        "044031",
+        "044045",
+        "044054",
+        "044063",
+        "044066"
+      ],
+      "focusPoint": {
+        "lat": 42.938934,
+        "lng": 13.80868
+      }
+    },
+    {
+      "istatCode": "044005",
+      "officialName": "Appignano del Tronto",
+      "normalizedName": "appignano del tronto",
+      "aliases": [
+        "appignano",
+        "appignanodeltronto"
+      ],
+      "areaKm2": 23.266,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044007",
+        "044011",
+        "044012",
+        "044054"
+      ],
+      "focusPoint": {
+        "lat": 42.895129,
+        "lng": 13.656524
+      }
+    },
+    {
+      "istatCode": "044006",
+      "officialName": "Arquata del Tronto",
+      "normalizedName": "arquata del tronto",
+      "aliases": [
+        "arquata",
+        "arquatadeltronto"
+      ],
+      "areaKm2": 91.829,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044001",
+        "044038",
+        "044044"
+      ],
+      "focusPoint": {
+        "lat": 42.756588,
+        "lng": 13.270409
+      }
+    },
+    {
+      "istatCode": "044007",
+      "officialName": "Ascoli Piceno",
+      "normalizedName": "ascoli piceno",
+      "aliases": [
+        "ascoli",
+        "ascolipiceno"
+      ],
+      "areaKm2": 157.541,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044001",
+        "044005",
+        "044011",
+        "044012",
+        "044013",
+        "044014",
+        "044020",
+        "044027",
+        "044064",
+        "044065",
+        "044073"
+      ],
+      "focusPoint": {
+        "lat": 42.850247,
+        "lng": 13.603136
+      }
+    },
+    {
+      "istatCode": "044010",
+      "officialName": "Carassai",
+      "normalizedName": "carassai",
+      "aliases": [],
+      "areaKm2": 22.06,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044016",
+        "044032",
+        "044036",
+        "044063"
+      ],
+      "focusPoint": {
+        "lat": 43.026319,
+        "lng": 13.668987
+      }
+    },
+    {
+      "istatCode": "044011",
+      "officialName": "Castel di Lama",
+      "normalizedName": "castel di lama",
+      "aliases": [
+        "castel",
+        "casteldilama"
+      ],
+      "areaKm2": 10.956,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044005",
+        "044007",
+        "044013",
+        "044054"
+      ],
+      "focusPoint": {
+        "lat": 42.883666,
+        "lng": 13.702664
+      }
+    },
+    {
+      "istatCode": "044012",
+      "officialName": "Castignano",
+      "normalizedName": "castignano",
+      "aliases": [],
+      "areaKm2": 38.469,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044005",
+        "044007",
+        "044016",
+        "044032",
+        "044034",
+        "044054",
+        "044065"
+      ],
+      "focusPoint": {
+        "lat": 42.932306,
+        "lng": 13.621683
+      }
+    },
+    {
+      "istatCode": "044013",
+      "officialName": "Castorano",
+      "normalizedName": "castorano",
+      "aliases": [],
+      "areaKm2": 14.083,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044007",
+        "044011",
+        "044014",
+        "044031",
+        "044054",
+        "044071"
+      ],
+      "focusPoint": {
+        "lat": 42.888613,
+        "lng": 13.738597
+      }
+    },
+    {
+      "istatCode": "044014",
+      "officialName": "Colli del Tronto",
+      "normalizedName": "colli del tronto",
+      "aliases": [
+        "colli",
+        "collideltronto"
+      ],
+      "areaKm2": 5.947,
+      "baseChips": 210,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044007",
+        "044013",
+        "044071"
+      ],
+      "focusPoint": {
+        "lat": 42.872497,
+        "lng": 13.74472
+      }
+    },
+    {
+      "istatCode": "044015",
+      "officialName": "Comunanza",
+      "normalizedName": "comunanza",
+      "aliases": [],
+      "areaKm2": 54.243,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044021",
+        "044038",
+        "044044",
+        "044056",
+        "044064"
+      ],
+      "focusPoint": {
+        "lat": 42.91696,
+        "lng": 13.428304
+      }
+    },
+    {
+      "istatCode": "044016",
+      "officialName": "Cossignano",
+      "normalizedName": "cossignano",
+      "aliases": [],
+      "areaKm2": 15.31,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044010",
+        "044012",
+        "044032",
+        "044054",
+        "044063"
+      ],
+      "focusPoint": {
+        "lat": 42.986252,
+        "lng": 13.684098
+      }
+    },
+    {
+      "istatCode": "044017",
+      "officialName": "Cupra Marittima",
+      "normalizedName": "cupra marittima",
+      "aliases": [
+        "cupra",
+        "cupramarittima"
+      ],
+      "areaKm2": 17.351,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044023",
+        "044029",
+        "044063"
+      ],
+      "focusPoint": {
+        "lat": 43.017694,
+        "lng": 13.84093
+      }
+    },
+    {
+      "istatCode": "044020",
+      "officialName": "Folignano",
+      "normalizedName": "folignano",
+      "aliases": [],
+      "areaKm2": 14.918,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044007",
+        "044027"
+      ],
+      "focusPoint": {
+        "lat": 42.822248,
+        "lng": 13.648573
+      }
+    },
+    {
+      "istatCode": "044021",
+      "officialName": "Force",
+      "normalizedName": "force",
+      "aliases": [],
+      "areaKm2": 34.601,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044015",
+        "044056",
+        "044065",
+        "044073"
+      ],
+      "focusPoint": {
+        "lat": 42.96277,
+        "lng": 13.492165
+      }
+    },
+    {
+      "istatCode": "044023",
+      "officialName": "Grottammare",
+      "normalizedName": "grottammare",
+      "aliases": [],
+      "areaKm2": 17.879,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044002",
+        "044017",
+        "044063",
+        "044066"
+      ],
+      "focusPoint": {
+        "lat": 42.98693,
+        "lng": 13.847871
+      }
+    },
+    {
+      "istatCode": "044027",
+      "officialName": "Maltignano",
+      "normalizedName": "maltignano",
+      "aliases": [],
+      "areaKm2": 8.268,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044007",
+        "044020"
+      ],
+      "focusPoint": {
+        "lat": 42.831518,
+        "lng": 13.689448
+      }
+    },
+    {
+      "istatCode": "044029",
+      "officialName": "Massignano",
+      "normalizedName": "massignano",
+      "aliases": [],
+      "areaKm2": 16.497,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044017",
+        "044036",
+        "044063"
+      ],
+      "focusPoint": {
+        "lat": 43.040797,
+        "lng": 13.810268
+      }
+    },
+    {
+      "istatCode": "044031",
+      "officialName": "Monsampolo del Tronto",
+      "normalizedName": "monsampolo del tronto",
+      "aliases": [
+        "monsampolo",
+        "monsampolodeltronto"
+      ],
+      "areaKm2": 15.368,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044002",
+        "044013",
+        "044045",
+        "044054",
+        "044071"
+      ],
+      "focusPoint": {
+        "lat": 42.900187,
+        "lng": 13.790349
+      }
+    },
+    {
+      "istatCode": "044032",
+      "officialName": "Montalto delle Marche",
+      "normalizedName": "montalto delle marche",
+      "aliases": [
+        "montalto",
+        "montaltodellemarche"
+      ],
+      "areaKm2": 33.82,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044010",
+        "044012",
+        "044016",
+        "044034"
+      ],
+      "focusPoint": {
+        "lat": 42.991503,
+        "lng": 13.618182
+      }
+    },
+    {
+      "istatCode": "044034",
+      "officialName": "Montedinove",
+      "normalizedName": "montedinove",
+      "aliases": [],
+      "areaKm2": 11.976,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044012",
+        "044032",
+        "044065"
+      ],
+      "focusPoint": {
+        "lat": 42.974891,
+        "lng": 13.580942
+      }
+    },
+    {
+      "istatCode": "044036",
+      "officialName": "Montefiore dell'Aso",
+      "normalizedName": "montefiore dell aso",
+      "aliases": [
+        "montefiore",
+        "montefiore dell",
+        "montefioredell",
+        "montefioredellaso"
+      ],
+      "areaKm2": 27.923,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044010",
+        "044029",
+        "044063"
+      ],
+      "focusPoint": {
+        "lat": 43.05155,
+        "lng": 13.742913
+      }
+    },
+    {
+      "istatCode": "044038",
+      "officialName": "Montegallo",
+      "normalizedName": "montegallo",
+      "aliases": [],
+      "areaKm2": 48.108,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044001",
+        "044006",
+        "044015",
+        "044044",
+        "044064"
+      ],
+      "focusPoint": {
+        "lat": 42.843517,
+        "lng": 13.326367
+      }
+    },
+    {
+      "istatCode": "044044",
+      "officialName": "Montemonaco",
+      "normalizedName": "montemonaco",
+      "aliases": [],
+      "areaKm2": 67.398,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044006",
+        "044015",
+        "044038"
+      ],
+      "focusPoint": {
+        "lat": 42.873285,
+        "lng": 13.284682
+      }
+    },
+    {
+      "istatCode": "044045",
+      "officialName": "Monteprandone",
+      "normalizedName": "monteprandone",
+      "aliases": [],
+      "areaKm2": 26.786,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044002",
+        "044031",
+        "044066"
+      ],
+      "focusPoint": {
+        "lat": 42.906617,
+        "lng": 13.837186
+      }
+    },
+    {
+      "istatCode": "044054",
+      "officialName": "Offida",
+      "normalizedName": "offida",
+      "aliases": [],
+      "areaKm2": 49.043,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044002",
+        "044005",
+        "044011",
+        "044012",
+        "044013",
+        "044016",
+        "044031",
+        "044063"
+      ],
+      "focusPoint": {
+        "lat": 42.935372,
+        "lng": 13.715232
+      }
+    },
+    {
+      "istatCode": "044056",
+      "officialName": "Palmiano",
+      "normalizedName": "palmiano",
+      "aliases": [],
+      "areaKm2": 12.358,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044015",
+        "044021",
+        "044064",
+        "044073"
+      ],
+      "focusPoint": {
+        "lat": 42.916525,
+        "lng": 13.469034
+      }
+    },
+    {
+      "istatCode": "044063",
+      "officialName": "Ripatransone",
+      "normalizedName": "ripatransone",
+      "aliases": [],
+      "areaKm2": 74.147,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044002",
+        "044010",
+        "044016",
+        "044017",
+        "044023",
+        "044029",
+        "044036",
+        "044054"
+      ],
+      "focusPoint": {
+        "lat": 42.986344,
+        "lng": 13.766417
+      }
+    },
+    {
+      "istatCode": "044064",
+      "officialName": "Roccafluvione",
+      "normalizedName": "roccafluvione",
+      "aliases": [],
+      "areaKm2": 60.919,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044001",
+        "044007",
+        "044015",
+        "044038",
+        "044056",
+        "044073"
+      ],
+      "focusPoint": {
+        "lat": 42.852306,
+        "lng": 13.439456
+      }
+    },
+    {
+      "istatCode": "044065",
+      "officialName": "Rotella",
+      "normalizedName": "rotella",
+      "aliases": [],
+      "areaKm2": 27.423,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044007",
+        "044012",
+        "044021",
+        "044034",
+        "044073"
+      ],
+      "focusPoint": {
+        "lat": 42.955249,
+        "lng": 13.552217
+      }
+    },
+    {
+      "istatCode": "044066",
+      "officialName": "San Benedetto del Tronto",
+      "normalizedName": "san benedetto del tronto",
+      "aliases": [
+        "san",
+        "san benedetto",
+        "sanbenedetto",
+        "sanbenedettodeltronto"
+      ],
+      "areaKm2": 25.151,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044002",
+        "044023",
+        "044045"
+      ],
+      "focusPoint": {
+        "lat": 42.930134,
+        "lng": 13.877101
+      }
+    },
+    {
+      "istatCode": "044071",
+      "officialName": "Spinetoli",
+      "normalizedName": "spinetoli",
+      "aliases": [],
+      "areaKm2": 12.258,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "044013",
+        "044014",
+        "044031"
+      ],
+      "focusPoint": {
+        "lat": 42.882766,
+        "lng": 13.773527
+      }
+    },
+    {
+      "istatCode": "044073",
+      "officialName": "Venarotta",
+      "normalizedName": "venarotta",
+      "aliases": [],
+      "areaKm2": 29.979,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "044007",
+        "044021",
+        "044056",
+        "044064",
+        "044065"
+      ],
+      "focusPoint": {
+        "lat": 42.89143,
+        "lng": 13.495113
+      }
+    }
+  ]
+}

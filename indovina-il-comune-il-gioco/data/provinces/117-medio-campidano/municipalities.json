@@ -1,0 +1,618 @@
+{
+  "provinceCode": "117",
+  "label": "Medio Campidano",
+  "officialScopeLabel": "Provincia di Medio Campidano",
+  "sigla": "VS",
+  "slug": "medio-campidano",
+  "sourceYear": 2026,
+  "count": 28,
+  "municipalities": [
+    {
+      "istatCode": "117001",
+      "officialName": "Arbus",
+      "normalizedName": "arbus",
+      "aliases": [],
+      "areaKm2": 269.476,
+      "baseChips": 125,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117007",
+        "117008"
+      ],
+      "focusPoint": {
+        "lat": 39.604304,
+        "lng": 8.50379
+      }
+    },
+    {
+      "istatCode": "117002",
+      "officialName": "Barumini",
+      "normalizedName": "barumini",
+      "aliases": [],
+      "areaKm2": 26.194,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117006",
+        "117009",
+        "117022",
+        "117028"
+      ],
+      "focusPoint": {
+        "lat": 39.691659,
+        "lng": 9.015073
+      }
+    },
+    {
+      "istatCode": "117003",
+      "officialName": "Collinas",
+      "normalizedName": "collinas",
+      "aliases": [],
+      "areaKm2": 20.684,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117010",
+        "117016",
+        "117021",
+        "117027"
+      ],
+      "focusPoint": {
+        "lat": 39.643574,
+        "lng": 8.823662
+      }
+    },
+    {
+      "istatCode": "117004",
+      "officialName": "Furtei",
+      "normalizedName": "furtei",
+      "aliases": [],
+      "areaKm2": 25.829,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117015",
+        "117017",
+        "117019",
+        "117026"
+      ],
+      "focusPoint": {
+        "lat": 39.559223,
+        "lng": 8.948876
+      }
+    },
+    {
+      "istatCode": "117005",
+      "officialName": "Genuri",
+      "normalizedName": "genuri",
+      "aliases": [],
+      "areaKm2": 7.72,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117020",
+        "117023"
+      ],
+      "focusPoint": {
+        "lat": 39.738456,
+        "lng": 8.921653
+      }
+    },
+    {
+      "istatCode": "117006",
+      "officialName": "Gesturi",
+      "normalizedName": "gesturi",
+      "aliases": [],
+      "areaKm2": 46.967,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117002",
+        "117020",
+        "117022"
+      ],
+      "focusPoint": {
+        "lat": 39.73705,
+        "lng": 9.024496
+      }
+    },
+    {
+      "istatCode": "117007",
+      "officialName": "Gonnosfanadiga",
+      "normalizedName": "gonnosfanadiga",
+      "aliases": [],
+      "areaKm2": 125.108,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117001",
+        "117008",
+        "117011",
+        "117014",
+        "117025"
+      ],
+      "focusPoint": {
+        "lat": 39.496022,
+        "lng": 8.651742
+      }
+    },
+    {
+      "istatCode": "117008",
+      "officialName": "Guspini",
+      "normalizedName": "guspini",
+      "aliases": [],
+      "areaKm2": 175.433,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117001",
+        "117007",
+        "117011"
+      ],
+      "focusPoint": {
+        "lat": 39.601487,
+        "lng": 8.625544
+      }
+    },
+    {
+      "istatCode": "117009",
+      "officialName": "Las Plassas",
+      "normalizedName": "las plassas",
+      "aliases": [
+        "las",
+        "lasplassas"
+      ],
+      "areaKm2": 11.087,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117002",
+        "117012",
+        "117022",
+        "117026",
+        "117028"
+      ],
+      "focusPoint": {
+        "lat": 39.676407,
+        "lng": 8.981646
+      }
+    },
+    {
+      "istatCode": "117010",
+      "officialName": "Lunamatrona",
+      "normalizedName": "lunamatrona",
+      "aliases": [],
+      "areaKm2": 20.792,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117003",
+        "117012",
+        "117015",
+        "117021",
+        "117026",
+        "117027"
+      ],
+      "focusPoint": {
+        "lat": 39.634551,
+        "lng": 8.908366
+      }
+    },
+    {
+      "istatCode": "117011",
+      "officialName": "Pabillonis",
+      "normalizedName": "pabillonis",
+      "aliases": [],
+      "areaKm2": 37.637,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117007",
+        "117008",
+        "117014",
+        "117016"
+      ],
+      "focusPoint": {
+        "lat": 39.600548,
+        "lng": 8.716125
+      }
+    },
+    {
+      "istatCode": "117012",
+      "officialName": "Pauli Arbarei",
+      "normalizedName": "pauli arbarei",
+      "aliases": [
+        "pauli",
+        "pauliarbarei"
+      ],
+      "areaKm2": 15.303,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117009",
+        "117010",
+        "117021",
+        "117022",
+        "117023",
+        "117024",
+        "117026"
+      ],
+      "focusPoint": {
+        "lat": 39.658695,
+        "lng": 8.930792
+      }
+    },
+    {
+      "istatCode": "117013",
+      "officialName": "Samassi",
+      "normalizedName": "samassi",
+      "aliases": [],
+      "areaKm2": 42.154,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117015",
+        "117018",
+        "117019"
+      ],
+      "focusPoint": {
+        "lat": 39.491883,
+        "lng": 8.907603
+      }
+    },
+    {
+      "istatCode": "117014",
+      "officialName": "San Gavino Monreale",
+      "normalizedName": "san gavino monreale",
+      "aliases": [
+        "san",
+        "san gavino",
+        "sangavino",
+        "sangavinomonreale"
+      ],
+      "areaKm2": 87.591,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117007",
+        "117011",
+        "117015",
+        "117016",
+        "117025"
+      ],
+      "focusPoint": {
+        "lat": 39.557979,
+        "lng": 8.779381
+      }
+    },
+    {
+      "istatCode": "117015",
+      "officialName": "Sanluri",
+      "normalizedName": "sanluri",
+      "aliases": [],
+      "areaKm2": 84.211,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117004",
+        "117010",
+        "117013",
+        "117014",
+        "117016",
+        "117018",
+        "117025",
+        "117026",
+        "117027"
+      ],
+      "focusPoint": {
+        "lat": 39.5492,
+        "lng": 8.887052
+      }
+    },
+    {
+      "istatCode": "117016",
+      "officialName": "Sardara",
+      "normalizedName": "sardara",
+      "aliases": [],
+      "areaKm2": 56.361,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117003",
+        "117011",
+        "117014",
+        "117015",
+        "117027"
+      ],
+      "focusPoint": {
+        "lat": 39.611204,
+        "lng": 8.80761
+      }
+    },
+    {
+      "istatCode": "117017",
+      "officialName": "Segariu",
+      "normalizedName": "segariu",
+      "aliases": [],
+      "areaKm2": 17.082,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117004",
+        "117026"
+      ],
+      "focusPoint": {
+        "lat": 39.567774,
+        "lng": 8.981851
+      }
+    },
+    {
+      "istatCode": "117018",
+      "officialName": "Serramanna",
+      "normalizedName": "serramanna",
+      "aliases": [],
+      "areaKm2": 84.001,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117013",
+        "117015",
+        "117019",
+        "117025"
+      ],
+      "focusPoint": {
+        "lat": 39.437127,
+        "lng": 8.902627
+      }
+    },
+    {
+      "istatCode": "117019",
+      "officialName": "Serrenti",
+      "normalizedName": "serrenti",
+      "aliases": [],
+      "areaKm2": 42.84,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117004",
+        "117013",
+        "117018"
+      ],
+      "focusPoint": {
+        "lat": 39.4996,
+        "lng": 8.974799
+      }
+    },
+    {
+      "istatCode": "117020",
+      "officialName": "Setzu",
+      "normalizedName": "setzu",
+      "aliases": [],
+      "areaKm2": 7.753,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117005",
+        "117006",
+        "117022",
+        "117023"
+      ],
+      "focusPoint": {
+        "lat": 39.735163,
+        "lng": 8.943145
+      }
+    },
+    {
+      "istatCode": "117021",
+      "officialName": "Siddi",
+      "normalizedName": "siddi",
+      "aliases": [],
+      "areaKm2": 11.196,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117003",
+        "117010",
+        "117012",
+        "117024"
+      ],
+      "focusPoint": {
+        "lat": 39.672672,
+        "lng": 8.885401
+      }
+    },
+    {
+      "istatCode": "117022",
+      "officialName": "Tuili",
+      "normalizedName": "tuili",
+      "aliases": [],
+      "areaKm2": 24.468,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117002",
+        "117006",
+        "117009",
+        "117012",
+        "117020",
+        "117023"
+      ],
+      "focusPoint": {
+        "lat": 39.716813,
+        "lng": 8.965112
+      }
+    },
+    {
+      "istatCode": "117023",
+      "officialName": "Turri",
+      "normalizedName": "turri",
+      "aliases": [],
+      "areaKm2": 9.43,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117005",
+        "117012",
+        "117020",
+        "117022",
+        "117024"
+      ],
+      "focusPoint": {
+        "lat": 39.703939,
+        "lng": 8.920364
+      }
+    },
+    {
+      "istatCode": "117024",
+      "officialName": "Ussaramanna",
+      "normalizedName": "ussaramanna",
+      "aliases": [],
+      "areaKm2": 9.554,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117012",
+        "117021",
+        "117023"
+      ],
+      "focusPoint": {
+        "lat": 39.69645,
+        "lng": 8.896203
+      }
+    },
+    {
+      "istatCode": "117025",
+      "officialName": "Villacidro",
+      "normalizedName": "villacidro",
+      "aliases": [],
+      "areaKm2": 183.654,
+      "baseChips": 133,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "117007",
+        "117014",
+        "117015",
+        "117018"
+      ],
+      "focusPoint": {
+        "lat": 39.448603,
+        "lng": 8.747592
+      }
+    },
+    {
+      "istatCode": "117026",
+      "officialName": "Villamar",
+      "normalizedName": "villamar",
+      "aliases": [],
+      "areaKm2": 38.237,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117004",
+        "117009",
+        "117010",
+        "117012",
+        "117015",
+        "117017",
+        "117028"
+      ],
+      "focusPoint": {
+        "lat": 39.621333,
+        "lng": 8.96557
+      }
+    },
+    {
+      "istatCode": "117027",
+      "officialName": "Villanovaforru",
+      "normalizedName": "villanovaforru",
+      "aliases": [],
+      "areaKm2": 10.778,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117003",
+        "117010",
+        "117015",
+        "117016"
+      ],
+      "focusPoint": {
+        "lat": 39.627533,
+        "lng": 8.869403
+      }
+    },
+    {
+      "istatCode": "117028",
+      "officialName": "Villanovafranca",
+      "normalizedName": "villanovafranca",
+      "aliases": [],
+      "areaKm2": 27.746,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "117002",
+        "117009",
+        "117026"
+      ],
+      "focusPoint": {
+        "lat": 39.650607,
+        "lng": 9.009812
+      }
+    }
+  ]
+}

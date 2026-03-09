@@ -1,0 +1,856 @@
+{
+  "provinceCode": "050",
+  "label": "Pisa",
+  "officialScopeLabel": "Provincia di Pisa",
+  "sigla": "PI",
+  "slug": "pisa",
+  "sourceYear": 2026,
+  "count": 37,
+  "municipalities": [
+    {
+      "istatCode": "050001",
+      "officialName": "Bientina",
+      "normalizedName": "bientina",
+      "aliases": [],
+      "areaKm2": 29.58,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050002",
+        "050004",
+        "050009",
+        "050035",
+        "050038"
+      ],
+      "focusPoint": {
+        "lat": 43.741869,
+        "lng": 10.643662
+      }
+    },
+    {
+      "istatCode": "050002",
+      "officialName": "Buti",
+      "normalizedName": "buti",
+      "aliases": [],
+      "areaKm2": 22.945,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050001",
+        "050003",
+        "050038"
+      ],
+      "focusPoint": {
+        "lat": 43.739101,
+        "lng": 10.586174
+      }
+    },
+    {
+      "istatCode": "050003",
+      "officialName": "Calci",
+      "normalizedName": "calci",
+      "aliases": [],
+      "areaKm2": 25.508,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050002",
+        "050031",
+        "050038"
+      ],
+      "focusPoint": {
+        "lat": 43.729451,
+        "lng": 10.522199
+      }
+    },
+    {
+      "istatCode": "050004",
+      "officialName": "Calcinaia",
+      "normalizedName": "calcinaia",
+      "aliases": [],
+      "areaKm2": 14.859,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050001",
+        "050008",
+        "050029",
+        "050035",
+        "050038"
+      ],
+      "focusPoint": {
+        "lat": 43.682722,
+        "lng": 10.624143
+      }
+    },
+    {
+      "istatCode": "050005",
+      "officialName": "Capannoli",
+      "normalizedName": "capannoli",
+      "aliases": [],
+      "areaKm2": 22.951,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050024",
+        "050025",
+        "050028",
+        "050029",
+        "050036",
+        "050040"
+      ],
+      "focusPoint": {
+        "lat": 43.583424,
+        "lng": 10.675176
+      }
+    },
+    {
+      "istatCode": "050006",
+      "officialName": "Casale Marittimo",
+      "normalizedName": "casale marittimo",
+      "aliases": [
+        "casale",
+        "casalemarittimo"
+      ],
+      "areaKm2": 14.637,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050015"
+      ],
+      "focusPoint": {
+        "lat": 43.294783,
+        "lng": 10.614633
+      }
+    },
+    {
+      "istatCode": "050008",
+      "officialName": "Cascina",
+      "normalizedName": "cascina",
+      "aliases": [],
+      "areaKm2": 78.755,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050004",
+        "050026",
+        "050029",
+        "050031",
+        "050038",
+        "050040",
+        "050041"
+      ],
+      "focusPoint": {
+        "lat": 43.67047,
+        "lng": 10.506484
+      }
+    },
+    {
+      "istatCode": "050009",
+      "officialName": "Castelfranco di Sotto",
+      "normalizedName": "castelfranco di sotto",
+      "aliases": [
+        "castelfranco",
+        "castelfrancodisotto"
+      ],
+      "areaKm2": 47.538,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050001",
+        "050022",
+        "050032",
+        "050033",
+        "050035"
+      ],
+      "focusPoint": {
+        "lat": 43.747591,
+        "lng": 10.72391
+      }
+    },
+    {
+      "istatCode": "050010",
+      "officialName": "Castellina Marittima",
+      "normalizedName": "castellina marittima",
+      "aliases": [
+        "castellina",
+        "castellinamarittima"
+      ],
+      "areaKm2": 45.811,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050012",
+        "050030",
+        "050034"
+      ],
+      "focusPoint": {
+        "lat": 43.395903,
+        "lng": 10.546546
+      }
+    },
+    {
+      "istatCode": "050011",
+      "officialName": "Castelnuovo di Val di Cecina",
+      "normalizedName": "castelnuovo di val di cecina",
+      "aliases": [
+        "castelnuovo",
+        "castelnuovo di val",
+        "castelnuovodival",
+        "castelnuovodivaldicecina"
+      ],
+      "areaKm2": 88.833,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050027"
+      ],
+      "focusPoint": {
+        "lat": 43.19186,
+        "lng": 10.874327
+      }
+    },
+    {
+      "istatCode": "050012",
+      "officialName": "Chianni",
+      "normalizedName": "chianni",
+      "aliases": [],
+      "areaKm2": 62.103,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050010",
+        "050016",
+        "050030",
+        "050034",
+        "050036",
+        "050040"
+      ],
+      "focusPoint": {
+        "lat": 43.463748,
+        "lng": 10.640693
+      }
+    },
+    {
+      "istatCode": "050014",
+      "officialName": "Fauglia",
+      "normalizedName": "fauglia",
+      "aliases": [],
+      "areaKm2": 42.641,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050023",
+        "050041"
+      ],
+      "focusPoint": {
+        "lat": 43.567641,
+        "lng": 10.506552
+      }
+    },
+    {
+      "istatCode": "050015",
+      "officialName": "Guardistallo",
+      "normalizedName": "guardistallo",
+      "aliases": [],
+      "areaKm2": 23.572,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050006",
+        "050019",
+        "050020"
+      ],
+      "focusPoint": {
+        "lat": 43.315041,
+        "lng": 10.614872
+      }
+    },
+    {
+      "istatCode": "050016",
+      "officialName": "Lajatico",
+      "normalizedName": "lajatico",
+      "aliases": [],
+      "areaKm2": 72.74,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050012",
+        "050019",
+        "050025",
+        "050030",
+        "050036",
+        "050039"
+      ],
+      "focusPoint": {
+        "lat": 43.463748,
+        "lng": 10.730114
+      }
+    },
+    {
+      "istatCode": "050019",
+      "officialName": "Montecatini Val di Cecina",
+      "normalizedName": "montecatini val di cecina",
+      "aliases": [
+        "montecatini",
+        "montecatini val",
+        "montecatinival",
+        "montecatinivaldicecina"
+      ],
+      "areaKm2": 155.138,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050015",
+        "050016",
+        "050020",
+        "050021",
+        "050027",
+        "050030",
+        "050039"
+      ],
+      "focusPoint": {
+        "lat": 43.329767,
+        "lng": 10.701709
+      }
+    },
+    {
+      "istatCode": "050020",
+      "officialName": "Montescudaio",
+      "normalizedName": "montescudaio",
+      "aliases": [],
+      "areaKm2": 19.996,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050015",
+        "050019",
+        "050030"
+      ],
+      "focusPoint": {
+        "lat": 43.329358,
+        "lng": 10.594011
+      }
+    },
+    {
+      "istatCode": "050021",
+      "officialName": "Monteverdi Marittimo",
+      "normalizedName": "monteverdi marittimo",
+      "aliases": [
+        "monteverdi",
+        "monteverdimarittimo"
+      ],
+      "areaKm2": 98.104,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050019",
+        "050027"
+      ],
+      "focusPoint": {
+        "lat": 43.180629,
+        "lng": 10.708772
+      }
+    },
+    {
+      "istatCode": "050022",
+      "officialName": "Montopoli in Val d'Arno",
+      "normalizedName": "montopoli in val d arno",
+      "aliases": [
+        "montopoli",
+        "montopoli in val",
+        "montopoliinval",
+        "montopoliinvaldarno"
+      ],
+      "areaKm2": 30.657,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050009",
+        "050024",
+        "050029",
+        "050032",
+        "050035"
+      ],
+      "focusPoint": {
+        "lat": 43.66704,
+        "lng": 10.734964
+      }
+    },
+    {
+      "istatCode": "050023",
+      "officialName": "Orciano Pisano",
+      "normalizedName": "orciano pisano",
+      "aliases": [
+        "orciano",
+        "orcianopisano"
+      ],
+      "areaKm2": 11.934,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050014",
+        "050034",
+        "050041"
+      ],
+      "focusPoint": {
+        "lat": 43.490701,
+        "lng": 10.501323
+      }
+    },
+    {
+      "istatCode": "050024",
+      "officialName": "Palaia",
+      "normalizedName": "palaia",
+      "aliases": [],
+      "areaKm2": 73.541,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050005",
+        "050022",
+        "050025",
+        "050029",
+        "050032"
+      ],
+      "focusPoint": {
+        "lat": 43.60305,
+        "lng": 10.76458
+      }
+    },
+    {
+      "istatCode": "050025",
+      "officialName": "Peccioli",
+      "normalizedName": "peccioli",
+      "aliases": [],
+      "areaKm2": 92.376,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050005",
+        "050016",
+        "050024",
+        "050036",
+        "050039"
+      ],
+      "focusPoint": {
+        "lat": 43.530538,
+        "lng": 10.769523
+      }
+    },
+    {
+      "istatCode": "050026",
+      "officialName": "Pisa",
+      "normalizedName": "pisa",
+      "aliases": [],
+      "areaKm2": 185.024,
+      "baseChips": 133,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050008",
+        "050031"
+      ],
+      "focusPoint": {
+        "lat": 43.669214,
+        "lng": 10.358016
+      }
+    },
+    {
+      "istatCode": "050027",
+      "officialName": "Pomarance",
+      "normalizedName": "pomarance",
+      "aliases": [],
+      "areaKm2": 227.517,
+      "baseChips": 129,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050011",
+        "050019",
+        "050021",
+        "050039"
+      ],
+      "focusPoint": {
+        "lat": 43.254587,
+        "lng": 10.835321
+      }
+    },
+    {
+      "istatCode": "050028",
+      "officialName": "Ponsacco",
+      "normalizedName": "ponsacco",
+      "aliases": [],
+      "areaKm2": 20.118,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050005",
+        "050029",
+        "050040"
+      ],
+      "focusPoint": {
+        "lat": 43.617162,
+        "lng": 10.630741
+      }
+    },
+    {
+      "istatCode": "050029",
+      "officialName": "Pontedera",
+      "normalizedName": "pontedera",
+      "aliases": [],
+      "areaKm2": 45.904,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050004",
+        "050005",
+        "050008",
+        "050022",
+        "050024",
+        "050028",
+        "050035",
+        "050040"
+      ],
+      "focusPoint": {
+        "lat": 43.645873,
+        "lng": 10.640902
+      }
+    },
+    {
+      "istatCode": "050030",
+      "officialName": "Riparbella",
+      "normalizedName": "riparbella",
+      "aliases": [],
+      "areaKm2": 58.891,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050010",
+        "050012",
+        "050016",
+        "050019",
+        "050020"
+      ],
+      "focusPoint": {
+        "lat": 43.377752,
+        "lng": 10.614028
+      }
+    },
+    {
+      "istatCode": "050031",
+      "officialName": "San Giuliano Terme",
+      "normalizedName": "san giuliano terme",
+      "aliases": [
+        "san giuliano",
+        "sangiuliano",
+        "sangiulianoterme"
+      ],
+      "areaKm2": 92.269,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050003",
+        "050008",
+        "050026",
+        "050037",
+        "050038"
+      ],
+      "focusPoint": {
+        "lat": 43.766601,
+        "lng": 10.403043
+      }
+    },
+    {
+      "istatCode": "050032",
+      "officialName": "San Miniato",
+      "normalizedName": "san miniato",
+      "aliases": [
+        "sanminiato"
+      ],
+      "areaKm2": 102.035,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050009",
+        "050022",
+        "050024",
+        "050033"
+      ],
+      "focusPoint": {
+        "lat": 43.671374,
+        "lng": 10.842057
+      }
+    },
+    {
+      "istatCode": "050033",
+      "officialName": "Santa Croce sull'Arno",
+      "normalizedName": "santa croce sull arno",
+      "aliases": [
+        "santa croce",
+        "santa croce sull",
+        "santacroce",
+        "santacrocesull",
+        "santacrocesullarno"
+      ],
+      "areaKm2": 16.855,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050009",
+        "050032"
+      ],
+      "focusPoint": {
+        "lat": 43.724887,
+        "lng": 10.768509
+      }
+    },
+    {
+      "istatCode": "050034",
+      "officialName": "Santa Luce",
+      "normalizedName": "santa luce",
+      "aliases": [
+        "santaluce"
+      ],
+      "areaKm2": 66.353,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050010",
+        "050012",
+        "050023",
+        "050040",
+        "050041"
+      ],
+      "focusPoint": {
+        "lat": 43.464646,
+        "lng": 10.547208
+      }
+    },
+    {
+      "istatCode": "050035",
+      "officialName": "Santa Maria a Monte",
+      "normalizedName": "santa maria a monte",
+      "aliases": [
+        "santa maria",
+        "santa maria a",
+        "santamaria",
+        "santamariaa",
+        "santamariaamonte"
+      ],
+      "areaKm2": 38.233,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050001",
+        "050004",
+        "050009",
+        "050022",
+        "050029"
+      ],
+      "focusPoint": {
+        "lat": 43.709723,
+        "lng": 10.689277
+      }
+    },
+    {
+      "istatCode": "050036",
+      "officialName": "Terricciola",
+      "normalizedName": "terricciola",
+      "aliases": [],
+      "areaKm2": 43.069,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050005",
+        "050012",
+        "050016",
+        "050025",
+        "050040"
+      ],
+      "focusPoint": {
+        "lat": 43.529711,
+        "lng": 10.676736
+      }
+    },
+    {
+      "istatCode": "050037",
+      "officialName": "Vecchiano",
+      "normalizedName": "vecchiano",
+      "aliases": [],
+      "areaKm2": 67.794,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050031"
+      ],
+      "focusPoint": {
+        "lat": 43.786835,
+        "lng": 10.340679
+      }
+    },
+    {
+      "istatCode": "050038",
+      "officialName": "Vicopisano",
+      "normalizedName": "vicopisano",
+      "aliases": [],
+      "areaKm2": 26.778,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050001",
+        "050002",
+        "050003",
+        "050004",
+        "050008",
+        "050031"
+      ],
+      "focusPoint": {
+        "lat": 43.695101,
+        "lng": 10.560327
+      }
+    },
+    {
+      "istatCode": "050039",
+      "officialName": "Volterra",
+      "normalizedName": "volterra",
+      "aliases": [],
+      "areaKm2": 253.002,
+      "baseChips": 126,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "050016",
+        "050019",
+        "050025",
+        "050027"
+      ],
+      "focusPoint": {
+        "lat": 43.400058,
+        "lng": 10.896095
+      }
+    },
+    {
+      "istatCode": "050040",
+      "officialName": "Casciana Terme Lari",
+      "normalizedName": "casciana terme lari",
+      "aliases": [
+        "casciana",
+        "casciana terme",
+        "cascianaterme",
+        "cascianatermelari"
+      ],
+      "areaKm2": 81.386,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050005",
+        "050008",
+        "050012",
+        "050028",
+        "050029",
+        "050034",
+        "050036",
+        "050041"
+      ],
+      "focusPoint": {
+        "lat": 43.559559,
+        "lng": 10.598572
+      }
+    },
+    {
+      "istatCode": "050041",
+      "officialName": "Crespina Lorenzana",
+      "normalizedName": "crespina lorenzana",
+      "aliases": [
+        "crespina",
+        "crespinalorenzana"
+      ],
+      "areaKm2": 46.119,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "050008",
+        "050014",
+        "050023",
+        "050034",
+        "050040"
+      ],
+      "focusPoint": {
+        "lat": 43.567478,
+        "lng": 10.555037
+      }
+    }
+  ]
+}

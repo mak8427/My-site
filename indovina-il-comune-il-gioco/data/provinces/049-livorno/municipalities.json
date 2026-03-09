@@ -1,0 +1,411 @@
+{
+  "provinceCode": "049",
+  "label": "Livorno",
+  "officialScopeLabel": "Provincia di Livorno",
+  "sigla": "LI",
+  "slug": "livorno",
+  "sourceYear": 2026,
+  "count": 19,
+  "municipalities": [
+    {
+      "istatCode": "049001",
+      "officialName": "Bibbona",
+      "normalizedName": "bibbona",
+      "aliases": [],
+      "areaKm2": 65.623,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049006",
+        "049007"
+      ],
+      "focusPoint": {
+        "lat": 43.269241,
+        "lng": 10.592948
+      }
+    },
+    {
+      "istatCode": "049002",
+      "officialName": "Campiglia Marittima",
+      "normalizedName": "campiglia marittima",
+      "aliases": [
+        "campiglia",
+        "campigliamarittima"
+      ],
+      "areaKm2": 83.204,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "049012",
+        "049018",
+        "049020"
+      ],
+      "focusPoint": {
+        "lat": 43.044004,
+        "lng": 10.60235
+      }
+    },
+    {
+      "istatCode": "049003",
+      "officialName": "Campo nell'Elba",
+      "normalizedName": "campo nell elba",
+      "aliases": [
+        "campo",
+        "campo nell",
+        "camponell",
+        "camponellelba"
+      ],
+      "areaKm2": 56.172,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049004",
+        "049010",
+        "049014"
+      ],
+      "focusPoint": {
+        "lat": 42.757297,
+        "lng": 10.211171
+      }
+    },
+    {
+      "istatCode": "049004",
+      "officialName": "Capoliveri",
+      "normalizedName": "capoliveri",
+      "aliases": [],
+      "areaKm2": 39.619,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049003",
+        "049013",
+        "049014"
+      ],
+      "focusPoint": {
+        "lat": 42.744213,
+        "lng": 10.386706
+      }
+    },
+    {
+      "istatCode": "049005",
+      "officialName": "Capraia Isola",
+      "normalizedName": "capraia isola",
+      "aliases": [
+        "capraia",
+        "capraiaisola"
+      ],
+      "areaKm2": 19.38,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [],
+      "focusPoint": {
+        "lat": 43.040535,
+        "lng": 9.822198
+      }
+    },
+    {
+      "istatCode": "049006",
+      "officialName": "Castagneto Carducci",
+      "normalizedName": "castagneto carducci",
+      "aliases": [
+        "castagneto",
+        "castagnetocarducci"
+      ],
+      "areaKm2": 142.502,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049001",
+        "049018",
+        "049019",
+        "049020"
+      ],
+      "focusPoint": {
+        "lat": 43.180664,
+        "lng": 10.591413
+      }
+    },
+    {
+      "istatCode": "049007",
+      "officialName": "Cecina",
+      "normalizedName": "cecina",
+      "aliases": [],
+      "areaKm2": 42.514,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049001",
+        "049017"
+      ],
+      "focusPoint": {
+        "lat": 43.321177,
+        "lng": 10.500799
+      }
+    },
+    {
+      "istatCode": "049008",
+      "officialName": "Collesalvetti",
+      "normalizedName": "collesalvetti",
+      "aliases": [],
+      "areaKm2": 107.934,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049009",
+        "049017"
+      ],
+      "focusPoint": {
+        "lat": 43.559581,
+        "lng": 10.440864
+      }
+    },
+    {
+      "istatCode": "049009",
+      "officialName": "Livorno",
+      "normalizedName": "livorno",
+      "aliases": [],
+      "areaKm2": 105.391,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049008",
+        "049017"
+      ],
+      "focusPoint": {
+        "lat": 43.521833,
+        "lng": 10.363782
+      }
+    },
+    {
+      "istatCode": "049010",
+      "officialName": "Marciana",
+      "normalizedName": "marciana",
+      "aliases": [],
+      "areaKm2": 45.338,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049003",
+        "049011",
+        "049014"
+      ],
+      "focusPoint": {
+        "lat": 42.776185,
+        "lng": 10.15083
+      }
+    },
+    {
+      "istatCode": "049011",
+      "officialName": "Marciana Marina",
+      "normalizedName": "marciana marina",
+      "aliases": [
+        "marciana",
+        "marcianamarina"
+      ],
+      "areaKm2": 5.964,
+      "baseChips": 210,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049010"
+      ],
+      "focusPoint": {
+        "lat": 42.797962,
+        "lng": 10.199333
+      }
+    },
+    {
+      "istatCode": "049012",
+      "officialName": "Piombino",
+      "normalizedName": "piombino",
+      "aliases": [],
+      "areaKm2": 131.211,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049002",
+        "049018",
+        "049020"
+      ],
+      "focusPoint": {
+        "lat": 42.975019,
+        "lng": 10.610407
+      }
+    },
+    {
+      "istatCode": "049013",
+      "officialName": "Porto Azzurro",
+      "normalizedName": "porto azzurro",
+      "aliases": [
+        "porto",
+        "portoazzurro"
+      ],
+      "areaKm2": 13.42,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049004",
+        "049014",
+        "049021"
+      ],
+      "focusPoint": {
+        "lat": 42.776762,
+        "lng": 10.388933
+      }
+    },
+    {
+      "istatCode": "049014",
+      "officialName": "Portoferraio",
+      "normalizedName": "portoferraio",
+      "aliases": [],
+      "areaKm2": 48.122,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049003",
+        "049004",
+        "049010",
+        "049013",
+        "049021"
+      ],
+      "focusPoint": {
+        "lat": 42.798304,
+        "lng": 10.29965
+      }
+    },
+    {
+      "istatCode": "049017",
+      "officialName": "Rosignano Marittimo",
+      "normalizedName": "rosignano marittimo",
+      "aliases": [
+        "rosignano",
+        "rosignanomarittimo"
+      ],
+      "areaKm2": 120.668,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049007",
+        "049008",
+        "049009"
+      ],
+      "focusPoint": {
+        "lat": 43.410038,
+        "lng": 10.449948
+      }
+    },
+    {
+      "istatCode": "049018",
+      "officialName": "San Vincenzo",
+      "normalizedName": "san vincenzo",
+      "aliases": [
+        "san",
+        "sanvincenzo"
+      ],
+      "areaKm2": 33.155,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049002",
+        "049006",
+        "049012",
+        "049020"
+      ],
+      "focusPoint": {
+        "lat": 43.068109,
+        "lng": 10.5527
+      }
+    },
+    {
+      "istatCode": "049019",
+      "officialName": "Sassetta",
+      "normalizedName": "sassetta",
+      "aliases": [],
+      "areaKm2": 27.072,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049006",
+        "049020"
+      ],
+      "focusPoint": {
+        "lat": 43.136245,
+        "lng": 10.661544
+      }
+    },
+    {
+      "istatCode": "049020",
+      "officialName": "Suvereto",
+      "normalizedName": "suvereto",
+      "aliases": [],
+      "areaKm2": 92.335,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049002",
+        "049006",
+        "049012",
+        "049018",
+        "049019"
+      ],
+      "focusPoint": {
+        "lat": 43.050489,
+        "lng": 10.713874
+      }
+    },
+    {
+      "istatCode": "049021",
+      "officialName": "Rio",
+      "normalizedName": "rio",
+      "aliases": [],
+      "areaKm2": 36.611,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "049013",
+        "049014"
+      ],
+      "focusPoint": {
+        "lat": 42.824693,
+        "lng": 10.403747
+      }
+    }
+  ]
+}

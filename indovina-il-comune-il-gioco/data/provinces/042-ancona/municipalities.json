@@ -1,0 +1,1092 @@
+{
+  "provinceCode": "042",
+  "label": "Ancona",
+  "officialScopeLabel": "Provincia di Ancona",
+  "sigla": "AN",
+  "slug": "ancona",
+  "sourceYear": 2026,
+  "count": 47,
+  "municipalities": [
+    {
+      "istatCode": "042001",
+      "officialName": "Agugliano",
+      "normalizedName": "agugliano",
+      "aliases": [],
+      "areaKm2": 21.857,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042002",
+        "042007",
+        "042021",
+        "042038"
+      ],
+      "focusPoint": {
+        "lat": 43.557757,
+        "lng": 13.360379
+      }
+    },
+    {
+      "istatCode": "042002",
+      "officialName": "Ancona",
+      "normalizedName": "ancona",
+      "aliases": [],
+      "areaKm2": 123.811,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042001",
+        "042006",
+        "042007",
+        "042018",
+        "042033",
+        "042034",
+        "042038",
+        "042048"
+      ],
+      "focusPoint": {
+        "lat": 43.569905,
+        "lng": 13.4844
+      }
+    },
+    {
+      "istatCode": "042003",
+      "officialName": "Arcevia",
+      "normalizedName": "arcevia",
+      "aliases": [],
+      "areaKm2": 127.685,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042004",
+        "042011",
+        "042020",
+        "042024",
+        "042026",
+        "042040",
+        "042044",
+        "042046",
+        "042047"
+      ],
+      "focusPoint": {
+        "lat": 43.525102,
+        "lng": 12.945931
+      }
+    },
+    {
+      "istatCode": "042004",
+      "officialName": "Barbara",
+      "normalizedName": "barbara",
+      "aliases": [],
+      "areaKm2": 11.021,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042003",
+        "042011",
+        "042036",
+        "042046"
+      ],
+      "focusPoint": {
+        "lat": 43.582319,
+        "lng": 13.018796
+      }
+    },
+    {
+      "istatCode": "042005",
+      "officialName": "Belvedere Ostrense",
+      "normalizedName": "belvedere ostrense",
+      "aliases": [
+        "belvedere",
+        "belvedereostrense"
+      ],
+      "areaKm2": 29.813,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042012",
+        "042023",
+        "042026",
+        "042031",
+        "042035",
+        "042037",
+        "042041",
+        "042045"
+      ],
+      "focusPoint": {
+        "lat": 43.569193,
+        "lng": 13.150678
+      }
+    },
+    {
+      "istatCode": "042006",
+      "officialName": "Camerano",
+      "normalizedName": "camerano",
+      "aliases": [],
+      "areaKm2": 20.215,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042002",
+        "042010",
+        "042034",
+        "042048"
+      ],
+      "focusPoint": {
+        "lat": 43.51797,
+        "lng": 13.550913
+      }
+    },
+    {
+      "istatCode": "042007",
+      "officialName": "Camerata Picena",
+      "normalizedName": "camerata picena",
+      "aliases": [
+        "camerata",
+        "cameratapicena"
+      ],
+      "areaKm2": 12.116,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042001",
+        "042002",
+        "042014",
+        "042018",
+        "042021"
+      ],
+      "focusPoint": {
+        "lat": 43.582718,
+        "lng": 13.365339
+      }
+    },
+    {
+      "istatCode": "042008",
+      "officialName": "Castelbellino",
+      "normalizedName": "castelbellino",
+      "aliases": [],
+      "areaKm2": 6.147,
+      "baseChips": 209,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042021",
+        "042023",
+        "042029"
+      ],
+      "focusPoint": {
+        "lat": 43.493582,
+        "lng": 13.151356
+      }
+    },
+    {
+      "istatCode": "042010",
+      "officialName": "Castelfidardo",
+      "normalizedName": "castelfidardo",
+      "aliases": [],
+      "areaKm2": 33.24,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042006",
+        "042022",
+        "042032",
+        "042034",
+        "042048"
+      ],
+      "focusPoint": {
+        "lat": 43.471281,
+        "lng": 13.574937
+      }
+    },
+    {
+      "istatCode": "042011",
+      "officialName": "Castelleone di Suasa",
+      "normalizedName": "castelleone di suasa",
+      "aliases": [
+        "castelleone",
+        "castelleonedisuasa"
+      ],
+      "areaKm2": 15.884,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042003",
+        "042004",
+        "042015",
+        "042036"
+      ],
+      "focusPoint": {
+        "lat": 43.60911,
+        "lng": 12.993224
+      }
+    },
+    {
+      "istatCode": "042012",
+      "officialName": "Castelplanio",
+      "normalizedName": "castelplanio",
+      "aliases": [],
+      "areaKm2": 15.11,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042005",
+        "042023",
+        "042037",
+        "042040"
+      ],
+      "focusPoint": {
+        "lat": 43.507814,
+        "lng": 13.101676
+      }
+    },
+    {
+      "istatCode": "042013",
+      "officialName": "Cerreto d'Esi",
+      "normalizedName": "cerreto d esi",
+      "aliases": [
+        "cerreto",
+        "cerretodesi"
+      ],
+      "areaKm2": 17.179,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042017"
+      ],
+      "focusPoint": {
+        "lat": 43.319277,
+        "lng": 12.992558
+      }
+    },
+    {
+      "istatCode": "042014",
+      "officialName": "Chiaravalle",
+      "normalizedName": "chiaravalle",
+      "aliases": [],
+      "areaKm2": 17.507,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042007",
+        "042018",
+        "042021",
+        "042027",
+        "042030"
+      ],
+      "focusPoint": {
+        "lat": 43.609202,
+        "lng": 13.318993
+      }
+    },
+    {
+      "istatCode": "042015",
+      "officialName": "Corinaldo",
+      "normalizedName": "corinaldo",
+      "aliases": [],
+      "areaKm2": 48.983,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042011",
+        "042035",
+        "042036",
+        "042050"
+      ],
+      "focusPoint": {
+        "lat": 43.646335,
+        "lng": 13.042752
+      }
+    },
+    {
+      "istatCode": "042016",
+      "officialName": "Cupramontana",
+      "normalizedName": "cupramontana",
+      "aliases": [],
+      "areaKm2": 27.06,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042023",
+        "042024",
+        "042029",
+        "042040",
+        "042042",
+        "042047",
+        "042049"
+      ],
+      "focusPoint": {
+        "lat": 43.449677,
+        "lng": 13.120734
+      }
+    },
+    {
+      "istatCode": "042017",
+      "officialName": "Fabriano",
+      "normalizedName": "fabriano",
+      "aliases": [],
+      "areaKm2": 270.858,
+      "baseChips": 125,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042013",
+        "042020",
+        "042044",
+        "042047"
+      ],
+      "focusPoint": {
+        "lat": 43.316652,
+        "lng": 12.881735
+      }
+    },
+    {
+      "istatCode": "042018",
+      "officialName": "Falconara Marittima",
+      "normalizedName": "falconara marittima",
+      "aliases": [
+        "falconara",
+        "falconaramarittima"
+      ],
+      "areaKm2": 26.225,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042002",
+        "042007",
+        "042014",
+        "042027"
+      ],
+      "focusPoint": {
+        "lat": 43.621006,
+        "lng": 13.384541
+      }
+    },
+    {
+      "istatCode": "042019",
+      "officialName": "Filottrano",
+      "normalizedName": "filottrano",
+      "aliases": [],
+      "areaKm2": 71.233,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042021",
+        "042034",
+        "042043"
+      ],
+      "focusPoint": {
+        "lat": 43.429447,
+        "lng": 13.34722
+      }
+    },
+    {
+      "istatCode": "042020",
+      "officialName": "Genga",
+      "normalizedName": "genga",
+      "aliases": [],
+      "areaKm2": 73.137,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042003",
+        "042017",
+        "042044",
+        "042047"
+      ],
+      "focusPoint": {
+        "lat": 43.426786,
+        "lng": 12.931601
+      }
+    },
+    {
+      "istatCode": "042021",
+      "officialName": "Jesi",
+      "normalizedName": "jesi",
+      "aliases": [],
+      "areaKm2": 108.651,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042001",
+        "042007",
+        "042008",
+        "042014",
+        "042019",
+        "042023",
+        "042025",
+        "042029",
+        "042030",
+        "042038",
+        "042041",
+        "042042",
+        "042043",
+        "042049"
+      ],
+      "focusPoint": {
+        "lat": 43.523633,
+        "lng": 13.255519
+      }
+    },
+    {
+      "istatCode": "042022",
+      "officialName": "Loreto",
+      "normalizedName": "loreto",
+      "aliases": [],
+      "areaKm2": 17.985,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042010"
+      ],
+      "focusPoint": {
+        "lat": 43.440834,
+        "lng": 13.624065
+      }
+    },
+    {
+      "istatCode": "042023",
+      "officialName": "Maiolati Spontini",
+      "normalizedName": "maiolati spontini",
+      "aliases": [
+        "maiolati",
+        "maiolatispontini"
+      ],
+      "areaKm2": 21.461,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042005",
+        "042008",
+        "042012",
+        "042016",
+        "042021",
+        "042029",
+        "042040",
+        "042041"
+      ],
+      "focusPoint": {
+        "lat": 43.499935,
+        "lng": 13.132488
+      }
+    },
+    {
+      "istatCode": "042024",
+      "officialName": "Mergo",
+      "normalizedName": "mergo",
+      "aliases": [],
+      "areaKm2": 7.24,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042003",
+        "042016",
+        "042040",
+        "042047"
+      ],
+      "focusPoint": {
+        "lat": 43.472657,
+        "lng": 13.039365
+      }
+    },
+    {
+      "istatCode": "042025",
+      "officialName": "Monsano",
+      "normalizedName": "monsano",
+      "aliases": [],
+      "areaKm2": 14.661,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042021",
+        "042030",
+        "042041"
+      ],
+      "focusPoint": {
+        "lat": 43.563465,
+        "lng": 13.262373
+      }
+    },
+    {
+      "istatCode": "042026",
+      "officialName": "Montecarotto",
+      "normalizedName": "montecarotto",
+      "aliases": [],
+      "areaKm2": 24.249,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042003",
+        "042005",
+        "042035",
+        "042036",
+        "042037",
+        "042040",
+        "042046"
+      ],
+      "focusPoint": {
+        "lat": 43.540175,
+        "lng": 13.084821
+      }
+    },
+    {
+      "istatCode": "042027",
+      "officialName": "Montemarciano",
+      "normalizedName": "montemarciano",
+      "aliases": [],
+      "areaKm2": 22.321,
+      "baseChips": 180,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042014",
+        "042018",
+        "042030",
+        "042045"
+      ],
+      "focusPoint": {
+        "lat": 43.642071,
+        "lng": 13.305222
+      }
+    },
+    {
+      "istatCode": "042029",
+      "officialName": "Monte Roberto",
+      "normalizedName": "monte roberto",
+      "aliases": [
+        "monteroberto"
+      ],
+      "areaKm2": 13.594,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042008",
+        "042016",
+        "042021",
+        "042023",
+        "042042"
+      ],
+      "focusPoint": {
+        "lat": 43.481595,
+        "lng": 13.171275
+      }
+    },
+    {
+      "istatCode": "042030",
+      "officialName": "Monte San Vito",
+      "normalizedName": "monte san vito",
+      "aliases": [
+        "monte san",
+        "montesan",
+        "montesanvito"
+      ],
+      "areaKm2": 21.823,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042014",
+        "042021",
+        "042025",
+        "042027",
+        "042031",
+        "042041",
+        "042045"
+      ],
+      "focusPoint": {
+        "lat": 43.608205,
+        "lng": 13.266829
+      }
+    },
+    {
+      "istatCode": "042031",
+      "officialName": "Morro d'Alba",
+      "normalizedName": "morro d alba",
+      "aliases": [
+        "morro",
+        "morrodalba"
+      ],
+      "areaKm2": 19.353,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042005",
+        "042030",
+        "042041",
+        "042045"
+      ],
+      "focusPoint": {
+        "lat": 43.609914,
+        "lng": 13.219253
+      }
+    },
+    {
+      "istatCode": "042032",
+      "officialName": "Numana",
+      "normalizedName": "numana",
+      "aliases": [],
+      "areaKm2": 10.988,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042010",
+        "042048"
+      ],
+      "focusPoint": {
+        "lat": 43.489292,
+        "lng": 13.614633
+      }
+    },
+    {
+      "istatCode": "042033",
+      "officialName": "Offagna",
+      "normalizedName": "offagna",
+      "aliases": [],
+      "areaKm2": 10.776,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042002",
+        "042034",
+        "042038"
+      ],
+      "focusPoint": {
+        "lat": 43.532652,
+        "lng": 13.447629
+      }
+    },
+    {
+      "istatCode": "042034",
+      "officialName": "Osimo",
+      "normalizedName": "osimo",
+      "aliases": [],
+      "areaKm2": 106.182,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042002",
+        "042006",
+        "042010",
+        "042019",
+        "042033",
+        "042038",
+        "042043"
+      ],
+      "focusPoint": {
+        "lat": 43.483861,
+        "lng": 13.451239
+      }
+    },
+    {
+      "istatCode": "042035",
+      "officialName": "Ostra",
+      "normalizedName": "ostra",
+      "aliases": [],
+      "areaKm2": 47.016,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042005",
+        "042015",
+        "042026",
+        "042036",
+        "042045",
+        "042050"
+      ],
+      "focusPoint": {
+        "lat": 43.599573,
+        "lng": 13.147023
+      }
+    },
+    {
+      "istatCode": "042036",
+      "officialName": "Ostra Vetere",
+      "normalizedName": "ostra vetere",
+      "aliases": [
+        "ostra",
+        "ostravetere"
+      ],
+      "areaKm2": 30.167,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042004",
+        "042011",
+        "042015",
+        "042026",
+        "042035",
+        "042046"
+      ],
+      "focusPoint": {
+        "lat": 43.600718,
+        "lng": 13.068226
+      }
+    },
+    {
+      "istatCode": "042037",
+      "officialName": "Poggio San Marcello",
+      "normalizedName": "poggio san marcello",
+      "aliases": [
+        "poggio",
+        "poggio san",
+        "poggiosan",
+        "poggiosanmarcello"
+      ],
+      "areaKm2": 13.19,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042005",
+        "042012",
+        "042026",
+        "042040"
+      ],
+      "focusPoint": {
+        "lat": 43.519458,
+        "lng": 13.091501
+      }
+    },
+    {
+      "istatCode": "042038",
+      "officialName": "Polverigi",
+      "normalizedName": "polverigi",
+      "aliases": [],
+      "areaKm2": 24.952,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042001",
+        "042002",
+        "042021",
+        "042033",
+        "042034",
+        "042043"
+      ],
+      "focusPoint": {
+        "lat": 43.520324,
+        "lng": 13.377327
+      }
+    },
+    {
+      "istatCode": "042040",
+      "officialName": "Rosora",
+      "normalizedName": "rosora",
+      "aliases": [],
+      "areaKm2": 9.398,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042003",
+        "042012",
+        "042016",
+        "042023",
+        "042024",
+        "042026",
+        "042037"
+      ],
+      "focusPoint": {
+        "lat": 43.487731,
+        "lng": 13.051284
+      }
+    },
+    {
+      "istatCode": "042041",
+      "officialName": "San Marcello",
+      "normalizedName": "san marcello",
+      "aliases": [
+        "sanmarcello"
+      ],
+      "areaKm2": 25.719,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042005",
+        "042021",
+        "042023",
+        "042025",
+        "042030",
+        "042031"
+      ],
+      "focusPoint": {
+        "lat": 43.554845,
+        "lng": 13.196818
+      }
+    },
+    {
+      "istatCode": "042042",
+      "officialName": "San Paolo di Jesi",
+      "normalizedName": "san paolo di jesi",
+      "aliases": [
+        "san paolo",
+        "sanpaolo",
+        "sanpaolodijesi"
+      ],
+      "areaKm2": 10.051,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042016",
+        "042021",
+        "042029",
+        "042049"
+      ],
+      "focusPoint": {
+        "lat": 43.463302,
+        "lng": 13.183557
+      }
+    },
+    {
+      "istatCode": "042043",
+      "officialName": "Santa Maria Nuova",
+      "normalizedName": "santa maria nuova",
+      "aliases": [
+        "santa",
+        "santa maria",
+        "santamaria",
+        "santamarianuova"
+      ],
+      "areaKm2": 18.444,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042019",
+        "042021",
+        "042034",
+        "042038"
+      ],
+      "focusPoint": {
+        "lat": 43.489733,
+        "lng": 13.325768
+      }
+    },
+    {
+      "istatCode": "042044",
+      "officialName": "Sassoferrato",
+      "normalizedName": "sassoferrato",
+      "aliases": [],
+      "areaKm2": 137.072,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042003",
+        "042017",
+        "042020"
+      ],
+      "focusPoint": {
+        "lat": 43.453647,
+        "lng": 12.835669
+      }
+    },
+    {
+      "istatCode": "042045",
+      "officialName": "Senigallia",
+      "normalizedName": "senigallia",
+      "aliases": [],
+      "areaKm2": 117.895,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042005",
+        "042027",
+        "042030",
+        "042031",
+        "042035",
+        "042050"
+      ],
+      "focusPoint": {
+        "lat": 43.688633,
+        "lng": 13.200744
+      }
+    },
+    {
+      "istatCode": "042046",
+      "officialName": "Serra de' Conti",
+      "normalizedName": "serra de conti",
+      "aliases": [
+        "serradeconti"
+      ],
+      "areaKm2": 24.468,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "042003",
+        "042004",
+        "042026",
+        "042036"
+      ],
+      "focusPoint": {
+        "lat": 43.541792,
+        "lng": 13.033121
+      }
+    },
+    {
+      "istatCode": "042047",
+      "officialName": "Serra San Quirico",
+      "normalizedName": "serra san quirico",
+      "aliases": [
+        "serra san",
+        "serrasan",
+        "serrasanquirico"
+      ],
+      "areaKm2": 49.334,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042003",
+        "042016",
+        "042017",
+        "042020",
+        "042024"
+      ],
+      "focusPoint": {
+        "lat": 43.433222,
+        "lng": 13.036501
+      }
+    },
+    {
+      "istatCode": "042048",
+      "officialName": "Sirolo",
+      "normalizedName": "sirolo",
+      "aliases": [],
+      "areaKm2": 16.762,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042002",
+        "042006",
+        "042010",
+        "042032"
+      ],
+      "focusPoint": {
+        "lat": 43.519461,
+        "lng": 13.606504
+      }
+    },
+    {
+      "istatCode": "042049",
+      "officialName": "Staffolo",
+      "normalizedName": "staffolo",
+      "aliases": [],
+      "areaKm2": 27.5,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042016",
+        "042021",
+        "042042"
+      ],
+      "focusPoint": {
+        "lat": 43.4425,
+        "lng": 13.190044
+      }
+    },
+    {
+      "istatCode": "042050",
+      "officialName": "Trecastelli",
+      "normalizedName": "trecastelli",
+      "aliases": [],
+      "areaKm2": 38.631,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "042015",
+        "042035",
+        "042045"
+      ],
+      "focusPoint": {
+        "lat": 43.689248,
+        "lng": 13.10354
+      }
+    }
+  ]
+}

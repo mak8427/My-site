@@ -1,0 +1,473 @@
+{
+  "provinceCode": "047",
+  "label": "Pistoia",
+  "officialScopeLabel": "Provincia di Pistoia",
+  "sigla": "PT",
+  "slug": "pistoia",
+  "sourceYear": 2026,
+  "count": 20,
+  "municipalities": [
+    {
+      "istatCode": "047002",
+      "officialName": "Agliana",
+      "normalizedName": "agliana",
+      "aliases": [],
+      "areaKm2": 11.748,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047010",
+        "047014",
+        "047017"
+      ],
+      "focusPoint": {
+        "lat": 43.894844,
+        "lng": 11.002167
+      }
+    },
+    {
+      "istatCode": "047003",
+      "officialName": "Buggiano",
+      "normalizedName": "buggiano",
+      "aliases": [],
+      "areaKm2": 16.168,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047008",
+        "047011",
+        "047012",
+        "047016",
+        "047021",
+        "047022"
+      ],
+      "focusPoint": {
+        "lat": 43.894027,
+        "lng": 10.732176
+      }
+    },
+    {
+      "istatCode": "047005",
+      "officialName": "Lamporecchio",
+      "normalizedName": "lamporecchio",
+      "aliases": [],
+      "areaKm2": 21.987,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047006",
+        "047017",
+        "047020"
+      ],
+      "focusPoint": {
+        "lat": 43.820815,
+        "lng": 10.914344
+      }
+    },
+    {
+      "istatCode": "047006",
+      "officialName": "Larciano",
+      "normalizedName": "larciano",
+      "aliases": [],
+      "areaKm2": 25.476,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047005",
+        "047009",
+        "047016",
+        "047020"
+      ],
+      "focusPoint": {
+        "lat": 43.828944,
+        "lng": 10.868717
+      }
+    },
+    {
+      "istatCode": "047007",
+      "officialName": "Marliana",
+      "normalizedName": "marliana",
+      "aliases": [],
+      "areaKm2": 42.703,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047008",
+        "047011",
+        "047012",
+        "047014",
+        "047020",
+        "047024"
+      ],
+      "focusPoint": {
+        "lat": 43.963254,
+        "lng": 10.789486
+      }
+    },
+    {
+      "istatCode": "047008",
+      "officialName": "Massa e Cozzile",
+      "normalizedName": "massa e cozzile",
+      "aliases": [
+        "massa",
+        "massa e",
+        "massae",
+        "massaecozzile"
+      ],
+      "areaKm2": 16.308,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047003",
+        "047007",
+        "047011",
+        "047012"
+      ],
+      "focusPoint": {
+        "lat": 43.897177,
+        "lng": 10.752779
+      }
+    },
+    {
+      "istatCode": "047009",
+      "officialName": "Monsummano Terme",
+      "normalizedName": "monsummano terme",
+      "aliases": [
+        "monsummano",
+        "monsummanoterme"
+      ],
+      "areaKm2": 32.569,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047006",
+        "047013",
+        "047016",
+        "047020"
+      ],
+      "focusPoint": {
+        "lat": 43.847176,
+        "lng": 10.827707
+      }
+    },
+    {
+      "istatCode": "047010",
+      "officialName": "Montale",
+      "normalizedName": "montale",
+      "aliases": [],
+      "areaKm2": 32.26,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047002",
+        "047014"
+      ],
+      "focusPoint": {
+        "lat": 43.949111,
+        "lng": 11.017739
+      }
+    },
+    {
+      "istatCode": "047011",
+      "officialName": "Montecatini-Terme",
+      "normalizedName": "montecatini terme",
+      "aliases": [
+        "montecatini",
+        "montecatiniterme"
+      ],
+      "areaKm2": 17.576,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047003",
+        "047007",
+        "047008",
+        "047013",
+        "047016",
+        "047020"
+      ],
+      "focusPoint": {
+        "lat": 43.890957,
+        "lng": 10.776387
+      }
+    },
+    {
+      "istatCode": "047012",
+      "officialName": "Pescia",
+      "normalizedName": "pescia",
+      "aliases": [],
+      "areaKm2": 78.713,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047003",
+        "047007",
+        "047008",
+        "047021",
+        "047022",
+        "047024"
+      ],
+      "focusPoint": {
+        "lat": 43.942373,
+        "lng": 10.70841
+      }
+    },
+    {
+      "istatCode": "047013",
+      "officialName": "Pieve a Nievole",
+      "normalizedName": "pieve a nievole",
+      "aliases": [
+        "pieve",
+        "pieve a",
+        "pievea",
+        "pieveanievole"
+      ],
+      "areaKm2": 12.966,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047009",
+        "047011",
+        "047016",
+        "047020"
+      ],
+      "focusPoint": {
+        "lat": 43.873599,
+        "lng": 10.793129
+      }
+    },
+    {
+      "istatCode": "047014",
+      "officialName": "Pistoia",
+      "normalizedName": "pistoia",
+      "aliases": [],
+      "areaKm2": 236.514,
+      "baseChips": 128,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047002",
+        "047007",
+        "047010",
+        "047017",
+        "047018",
+        "047020",
+        "047024"
+      ],
+      "focusPoint": {
+        "lat": 43.982949,
+        "lng": 10.913683
+      }
+    },
+    {
+      "istatCode": "047016",
+      "officialName": "Ponte Buggianese",
+      "normalizedName": "ponte buggianese",
+      "aliases": [
+        "ponte",
+        "pontebuggianese"
+      ],
+      "areaKm2": 29.826,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047003",
+        "047006",
+        "047009",
+        "047011",
+        "047013",
+        "047022"
+      ],
+      "focusPoint": {
+        "lat": 43.826739,
+        "lng": 10.767716
+      }
+    },
+    {
+      "istatCode": "047017",
+      "officialName": "Quarrata",
+      "normalizedName": "quarrata",
+      "aliases": [],
+      "areaKm2": 46.051,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047002",
+        "047005",
+        "047014",
+        "047020"
+      ],
+      "focusPoint": {
+        "lat": 43.853999,
+        "lng": 10.972887
+      }
+    },
+    {
+      "istatCode": "047018",
+      "officialName": "Sambuca Pistoiese",
+      "normalizedName": "sambuca pistoiese",
+      "aliases": [
+        "sambuca",
+        "sambucapistoiese"
+      ],
+      "areaKm2": 77.363,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047014"
+      ],
+      "focusPoint": {
+        "lat": 44.06754,
+        "lng": 10.986486
+      }
+    },
+    {
+      "istatCode": "047020",
+      "officialName": "Serravalle Pistoiese",
+      "normalizedName": "serravalle pistoiese",
+      "aliases": [
+        "serravalle",
+        "serravallepistoiese"
+      ],
+      "areaKm2": 41.884,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047005",
+        "047006",
+        "047007",
+        "047009",
+        "047011",
+        "047013",
+        "047014",
+        "047017"
+      ],
+      "focusPoint": {
+        "lat": 43.888316,
+        "lng": 10.871678
+      }
+    },
+    {
+      "istatCode": "047021",
+      "officialName": "Uzzano",
+      "normalizedName": "uzzano",
+      "aliases": [],
+      "areaKm2": 7.807,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "047003",
+        "047012",
+        "047022"
+      ],
+      "focusPoint": {
+        "lat": 43.894733,
+        "lng": 10.707725
+      }
+    },
+    {
+      "istatCode": "047022",
+      "officialName": "Chiesina Uzzanese",
+      "normalizedName": "chiesina uzzanese",
+      "aliases": [
+        "chiesina",
+        "chiesinauzzanese"
+      ],
+      "areaKm2": 7.086,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047003",
+        "047012",
+        "047016",
+        "047021"
+      ],
+      "focusPoint": {
+        "lat": 43.837632,
+        "lng": 10.72305
+      }
+    },
+    {
+      "istatCode": "047023",
+      "officialName": "Abetone Cutigliano",
+      "normalizedName": "abetone cutigliano",
+      "aliases": [
+        "abetone",
+        "abetonecutigliano"
+      ],
+      "areaKm2": 74.931,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047024"
+      ],
+      "focusPoint": {
+        "lat": 44.11488,
+        "lng": 10.703073
+      }
+    },
+    {
+      "istatCode": "047024",
+      "officialName": "San Marcello Piteglio",
+      "normalizedName": "san marcello piteglio",
+      "aliases": [
+        "san",
+        "san marcello",
+        "sanmarcello",
+        "sanmarcellopiteglio"
+      ],
+      "areaKm2": 134.99,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "047007",
+        "047012",
+        "047014",
+        "047023"
+      ],
+      "focusPoint": {
+        "lat": 44.048077,
+        "lng": 10.802636
+      }
+    }
+  ]
+}

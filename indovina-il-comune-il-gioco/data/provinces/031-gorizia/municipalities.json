@@ -1,0 +1,606 @@
+{
+  "provinceCode": "031",
+  "label": "Gorizia",
+  "officialScopeLabel": "Provincia di Gorizia",
+  "sigla": "GO",
+  "slug": "gorizia",
+  "sourceYear": 2026,
+  "count": 25,
+  "municipalities": [
+    {
+      "istatCode": "031001",
+      "officialName": "Capriva del Friuli",
+      "normalizedName": "capriva del friuli",
+      "aliases": [
+        "capriva",
+        "caprivadelfriuli"
+      ],
+      "areaKm2": 6.367,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031002",
+        "031013",
+        "031014",
+        "031019",
+        "031020"
+      ],
+      "focusPoint": {
+        "lat": 45.944466,
+        "lng": 13.511309
+      }
+    },
+    {
+      "istatCode": "031002",
+      "officialName": "Cormons",
+      "normalizedName": "cormons",
+      "aliases": [],
+      "areaKm2": 34.953,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031001",
+        "031004",
+        "031010",
+        "031011",
+        "031013",
+        "031019"
+      ],
+      "focusPoint": {
+        "lat": 45.955637,
+        "lng": 13.467246
+      }
+    },
+    {
+      "istatCode": "031003",
+      "officialName": "Doberdò del Lago-Doberdob",
+      "normalizedName": "doberdo del lago doberdob",
+      "aliases": [
+        "doberdo",
+        "doberdo del lago",
+        "doberdodellago",
+        "doberdodellagodoberdob"
+      ],
+      "areaKm2": 27.096,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031006",
+        "031012",
+        "031016",
+        "031017",
+        "031022"
+      ],
+      "focusPoint": {
+        "lat": 45.847943,
+        "lng": 13.54778
+      }
+    },
+    {
+      "istatCode": "031004",
+      "officialName": "Dolegna del Collio",
+      "normalizedName": "dolegna del collio",
+      "aliases": [
+        "dolegna",
+        "dolegnadelcollio"
+      ],
+      "areaKm2": 12.797,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031002"
+      ],
+      "focusPoint": {
+        "lat": 46.01511,
+        "lng": 13.480971
+      }
+    },
+    {
+      "istatCode": "031005",
+      "officialName": "Farra d'Isonzo",
+      "normalizedName": "farra d isonzo",
+      "aliases": [
+        "farra",
+        "farradisonzo"
+      ],
+      "areaKm2": 10.218,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031007",
+        "031008",
+        "031013",
+        "031014",
+        "031017",
+        "031020",
+        "031022"
+      ],
+      "focusPoint": {
+        "lat": 45.903792,
+        "lng": 13.531192
+      }
+    },
+    {
+      "istatCode": "031006",
+      "officialName": "Fogliano Redipuglia",
+      "normalizedName": "fogliano redipuglia",
+      "aliases": [
+        "fogliano",
+        "foglianoredipuglia"
+      ],
+      "areaKm2": 8.075,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031003",
+        "031008",
+        "031016",
+        "031017",
+        "031021",
+        "031025"
+      ],
+      "focusPoint": {
+        "lat": 45.856223,
+        "lng": 13.493248
+      }
+    },
+    {
+      "istatCode": "031007",
+      "officialName": "Gorizia",
+      "normalizedName": "gorizia",
+      "aliases": [],
+      "areaKm2": 41.27,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031005",
+        "031014",
+        "031019",
+        "031022"
+      ],
+      "focusPoint": {
+        "lat": 45.945457,
+        "lng": 13.596117
+      }
+    },
+    {
+      "istatCode": "031008",
+      "officialName": "Gradisca d'Isonzo",
+      "normalizedName": "gradisca d isonzo",
+      "aliases": [
+        "gradisca",
+        "gradiscadisonzo"
+      ],
+      "areaKm2": 11.074,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031005",
+        "031006",
+        "031010",
+        "031015",
+        "031017",
+        "031025"
+      ],
+      "focusPoint": {
+        "lat": 45.893362,
+        "lng": 13.488988
+      }
+    },
+    {
+      "istatCode": "031009",
+      "officialName": "Grado",
+      "normalizedName": "grado",
+      "aliases": [],
+      "areaKm2": 119.139,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031018",
+        "031023"
+      ],
+      "focusPoint": {
+        "lat": 45.715658,
+        "lng": 13.380943
+      }
+    },
+    {
+      "istatCode": "031010",
+      "officialName": "Mariano del Friuli",
+      "normalizedName": "mariano del friuli",
+      "aliases": [
+        "mariano",
+        "marianodelfriuli"
+      ],
+      "areaKm2": 8.605,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031002",
+        "031008",
+        "031011",
+        "031013",
+        "031015"
+      ],
+      "focusPoint": {
+        "lat": 45.911796,
+        "lng": 13.469268
+      }
+    },
+    {
+      "istatCode": "031011",
+      "officialName": "Medea",
+      "normalizedName": "medea",
+      "aliases": [],
+      "areaKm2": 7.378,
+      "baseChips": 205,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031002",
+        "031010",
+        "031015"
+      ],
+      "focusPoint": {
+        "lat": 45.91595,
+        "lng": 13.421655
+      }
+    },
+    {
+      "istatCode": "031012",
+      "officialName": "Monfalcone",
+      "normalizedName": "monfalcone",
+      "aliases": [],
+      "areaKm2": 20.609,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031003",
+        "031016",
+        "031023"
+      ],
+      "focusPoint": {
+        "lat": 45.794921,
+        "lng": 13.563507
+      }
+    },
+    {
+      "istatCode": "031013",
+      "officialName": "Moraro",
+      "normalizedName": "moraro",
+      "aliases": [],
+      "areaKm2": 3.745,
+      "baseChips": 220,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031001",
+        "031002",
+        "031005",
+        "031010",
+        "031020"
+      ],
+      "focusPoint": {
+        "lat": 45.926716,
+        "lng": 13.498654
+      }
+    },
+    {
+      "istatCode": "031014",
+      "officialName": "Mossa",
+      "normalizedName": "mossa",
+      "aliases": [],
+      "areaKm2": 6.392,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031001",
+        "031005",
+        "031007",
+        "031019",
+        "031020"
+      ],
+      "focusPoint": {
+        "lat": 45.940295,
+        "lng": 13.546542
+      }
+    },
+    {
+      "istatCode": "031015",
+      "officialName": "Romans d'Isonzo",
+      "normalizedName": "romans d isonzo",
+      "aliases": [
+        "romans",
+        "romansdisonzo"
+      ],
+      "areaKm2": 15.731,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031008",
+        "031010",
+        "031011",
+        "031025"
+      ],
+      "focusPoint": {
+        "lat": 45.892478,
+        "lng": 13.435589
+      }
+    },
+    {
+      "istatCode": "031016",
+      "officialName": "Ronchi dei Legionari",
+      "normalizedName": "ronchi dei legionari",
+      "aliases": [
+        "ronchi",
+        "ronchideilegionari"
+      ],
+      "areaKm2": 17.266,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031003",
+        "031006",
+        "031012",
+        "031018",
+        "031021",
+        "031023"
+      ],
+      "focusPoint": {
+        "lat": 45.829025,
+        "lng": 13.509403
+      }
+    },
+    {
+      "istatCode": "031017",
+      "officialName": "Sagrado",
+      "normalizedName": "sagrado",
+      "aliases": [],
+      "areaKm2": 13.895,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031003",
+        "031005",
+        "031006",
+        "031008",
+        "031022"
+      ],
+      "focusPoint": {
+        "lat": 45.877851,
+        "lng": 13.513989
+      }
+    },
+    {
+      "istatCode": "031018",
+      "officialName": "San Canzian d'Isonzo",
+      "normalizedName": "san canzian d isonzo",
+      "aliases": [
+        "san canzian",
+        "sancanzian",
+        "sancanziandisonzo"
+      ],
+      "areaKm2": 33.567,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031009",
+        "031016",
+        "031021",
+        "031023",
+        "031024"
+      ],
+      "focusPoint": {
+        "lat": 45.777845,
+        "lng": 13.45941
+      }
+    },
+    {
+      "istatCode": "031019",
+      "officialName": "San Floriano del Collio-Å teverjan",
+      "normalizedName": "san floriano del collio a teverjan",
+      "aliases": [
+        "san floriano",
+        "san floriano del collio",
+        "san floriano del collio a",
+        "sanfloriano",
+        "sanflorianodelcollio",
+        "sanflorianodelcollioa",
+        "sanflorianodelcollioateverjan"
+      ],
+      "areaKm2": 10.336,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031001",
+        "031002",
+        "031007",
+        "031014"
+      ],
+      "focusPoint": {
+        "lat": 45.970684,
+        "lng": 13.585538
+      }
+    },
+    {
+      "istatCode": "031020",
+      "officialName": "San Lorenzo Isontino",
+      "normalizedName": "san lorenzo isontino",
+      "aliases": [
+        "san lorenzo",
+        "sanlorenzo",
+        "sanlorenzoisontino"
+      ],
+      "areaKm2": 4.33,
+      "baseChips": 217,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031001",
+        "031005",
+        "031013",
+        "031014"
+      ],
+      "focusPoint": {
+        "lat": 45.934673,
+        "lng": 13.525181
+      }
+    },
+    {
+      "istatCode": "031021",
+      "officialName": "San Pier d'Isonzo",
+      "normalizedName": "san pier d isonzo",
+      "aliases": [
+        "san pier",
+        "sanpier",
+        "sanpierdisonzo"
+      ],
+      "areaKm2": 8.83,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031006",
+        "031016",
+        "031018",
+        "031024",
+        "031025"
+      ],
+      "focusPoint": {
+        "lat": 45.844013,
+        "lng": 13.456513
+      }
+    },
+    {
+      "istatCode": "031022",
+      "officialName": "Savogna d'Isonzo-Sovodnje ob SoÄi",
+      "normalizedName": "savogna d isonzo sovodnje ob soa i",
+      "aliases": [
+        "savogna",
+        "savogna d isonzo",
+        "savogna d isonzo sovodnje",
+        "savogna d isonzo sovodnje ob",
+        "savogna d isonzo sovodnje ob soa",
+        "savognadisonzo",
+        "savognadisonzosovodnje",
+        "savognadisonzosovodnjeob",
+        "savognadisonzosovodnjeobsoa",
+        "savognadisonzosovodnjeobsoai"
+      ],
+      "areaKm2": 16.66,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031003",
+        "031005",
+        "031007",
+        "031017"
+      ],
+      "focusPoint": {
+        "lat": 45.8943,
+        "lng": 13.57701
+      }
+    },
+    {
+      "istatCode": "031023",
+      "officialName": "Staranzano",
+      "normalizedName": "staranzano",
+      "aliases": [],
+      "areaKm2": 18.78,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031009",
+        "031012",
+        "031016",
+        "031018"
+      ],
+      "focusPoint": {
+        "lat": 45.77359,
+        "lng": 13.504926
+      }
+    },
+    {
+      "istatCode": "031024",
+      "officialName": "Turriaco",
+      "normalizedName": "turriaco",
+      "aliases": [],
+      "areaKm2": 5.3,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "031018",
+        "031021"
+      ],
+      "focusPoint": {
+        "lat": 45.823475,
+        "lng": 13.444564
+      }
+    },
+    {
+      "istatCode": "031025",
+      "officialName": "Villesse",
+      "normalizedName": "villesse",
+      "aliases": [],
+      "areaKm2": 11.826,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "031006",
+        "031008",
+        "031015",
+        "031021"
+      ],
+      "focusPoint": {
+        "lat": 45.860224,
+        "lng": 13.436006
+      }
+    }
+  ]
+}

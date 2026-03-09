@@ -1,0 +1,407 @@
+{
+  "provinceCode": "039",
+  "label": "Ravenna",
+  "officialScopeLabel": "Provincia di Ravenna",
+  "sigla": "RA",
+  "slug": "ravenna",
+  "sourceYear": 2026,
+  "count": 18,
+  "municipalities": [
+    {
+      "istatCode": "039001",
+      "officialName": "Alfonsine",
+      "normalizedName": "alfonsine",
+      "aliases": [],
+      "areaKm2": 107.241,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039002",
+        "039008",
+        "039011",
+        "039012",
+        "039014"
+      ],
+      "focusPoint": {
+        "lat": 44.545855,
+        "lng": 12.041294
+      }
+    },
+    {
+      "istatCode": "039002",
+      "officialName": "Bagnacavallo",
+      "normalizedName": "bagnacavallo",
+      "aliases": [],
+      "areaKm2": 79.478,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "039001",
+        "039009",
+        "039010",
+        "039011",
+        "039012",
+        "039014",
+        "039016"
+      ],
+      "focusPoint": {
+        "lat": 44.441992,
+        "lng": 12.001989
+      }
+    },
+    {
+      "istatCode": "039003",
+      "officialName": "Bagnara di Romagna",
+      "normalizedName": "bagnara di romagna",
+      "aliases": [
+        "bagnara",
+        "bagnaradiromagna"
+      ],
+      "areaKm2": 10.116,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "039009",
+        "039012",
+        "039018"
+      ],
+      "focusPoint": {
+        "lat": 44.395286,
+        "lng": 11.83806
+      }
+    },
+    {
+      "istatCode": "039004",
+      "officialName": "Brisighella",
+      "normalizedName": "brisighella",
+      "aliases": [],
+      "areaKm2": 193.607,
+      "baseChips": 132,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039005",
+        "039010",
+        "039015"
+      ],
+      "focusPoint": {
+        "lat": 44.188181,
+        "lng": 11.699655
+      }
+    },
+    {
+      "istatCode": "039005",
+      "officialName": "Casola Valsenio",
+      "normalizedName": "casola valsenio",
+      "aliases": [
+        "casola",
+        "casolavalsenio"
+      ],
+      "areaKm2": 84.347,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039004",
+        "039015"
+      ],
+      "focusPoint": {
+        "lat": 44.20624,
+        "lng": 11.608597
+      }
+    },
+    {
+      "istatCode": "039006",
+      "officialName": "Castel Bolognese",
+      "normalizedName": "castel bolognese",
+      "aliases": [
+        "castel",
+        "castelbolognese"
+      ],
+      "areaKm2": 32.22,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039010",
+        "039015",
+        "039018"
+      ],
+      "focusPoint": {
+        "lat": 44.325797,
+        "lng": 11.800018
+      }
+    },
+    {
+      "istatCode": "039007",
+      "officialName": "Cervia",
+      "normalizedName": "cervia",
+      "aliases": [],
+      "areaKm2": 82.204,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039014"
+      ],
+      "focusPoint": {
+        "lat": 44.250286,
+        "lng": 12.309325
+      }
+    },
+    {
+      "istatCode": "039008",
+      "officialName": "Conselice",
+      "normalizedName": "conselice",
+      "aliases": [],
+      "areaKm2": 60.199,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039001",
+        "039012",
+        "039013"
+      ],
+      "focusPoint": {
+        "lat": 44.534908,
+        "lng": 11.82764
+      }
+    },
+    {
+      "istatCode": "039009",
+      "officialName": "Cotignola",
+      "normalizedName": "cotignola",
+      "aliases": [],
+      "areaKm2": 34.928,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "039002",
+        "039003",
+        "039010",
+        "039012",
+        "039018"
+      ],
+      "focusPoint": {
+        "lat": 44.376317,
+        "lng": 11.89981
+      }
+    },
+    {
+      "istatCode": "039010",
+      "officialName": "Faenza",
+      "normalizedName": "faenza",
+      "aliases": [],
+      "areaKm2": 215.888,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039002",
+        "039004",
+        "039006",
+        "039009",
+        "039015",
+        "039016",
+        "039018"
+      ],
+      "focusPoint": {
+        "lat": 44.294092,
+        "lng": 11.890705
+      }
+    },
+    {
+      "istatCode": "039011",
+      "officialName": "Fusignano",
+      "normalizedName": "fusignano",
+      "aliases": [],
+      "areaKm2": 24.433,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "039001",
+        "039002",
+        "039012"
+      ],
+      "focusPoint": {
+        "lat": 44.4773,
+        "lng": 11.965988
+      }
+    },
+    {
+      "istatCode": "039012",
+      "officialName": "Lugo",
+      "normalizedName": "lugo",
+      "aliases": [],
+      "areaKm2": 116.72,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039001",
+        "039002",
+        "039003",
+        "039008",
+        "039009",
+        "039011",
+        "039013",
+        "039017"
+      ],
+      "focusPoint": {
+        "lat": 44.47649,
+        "lng": 11.895646
+      }
+    },
+    {
+      "istatCode": "039013",
+      "officialName": "Massa Lombarda",
+      "normalizedName": "massa lombarda",
+      "aliases": [
+        "massa",
+        "massalombarda"
+      ],
+      "areaKm2": 37.403,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039008",
+        "039012",
+        "039017"
+      ],
+      "focusPoint": {
+        "lat": 44.464376,
+        "lng": 11.820549
+      }
+    },
+    {
+      "istatCode": "039014",
+      "officialName": "Ravenna",
+      "normalizedName": "ravenna",
+      "aliases": [],
+      "areaKm2": 653.085,
+      "baseChips": 105,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039001",
+        "039002",
+        "039007",
+        "039016"
+      ],
+      "focusPoint": {
+        "lat": 44.417638,
+        "lng": 12.1714
+      }
+    },
+    {
+      "istatCode": "039015",
+      "officialName": "Riolo Terme",
+      "normalizedName": "riolo terme",
+      "aliases": [
+        "riolo",
+        "rioloterme"
+      ],
+      "areaKm2": 44.427,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039004",
+        "039005",
+        "039006",
+        "039010"
+      ],
+      "focusPoint": {
+        "lat": 44.279778,
+        "lng": 11.713976
+      }
+    },
+    {
+      "istatCode": "039016",
+      "officialName": "Russi",
+      "normalizedName": "russi",
+      "aliases": [],
+      "areaKm2": 46.105,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "039002",
+        "039010",
+        "039014"
+      ],
+      "focusPoint": {
+        "lat": 44.367732,
+        "lng": 12.040121
+      }
+    },
+    {
+      "istatCode": "039017",
+      "officialName": "Sant'Agata sul Santerno",
+      "normalizedName": "sant agata sul santerno",
+      "aliases": [
+        "sant",
+        "sant agata",
+        "santagata",
+        "santagatasulsanterno"
+      ],
+      "areaKm2": 9.55,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "039012",
+        "039013"
+      ],
+      "focusPoint": {
+        "lat": 44.452186,
+        "lng": 11.864264
+      }
+    },
+    {
+      "istatCode": "039018",
+      "officialName": "Solarolo",
+      "normalizedName": "solarolo",
+      "aliases": [],
+      "areaKm2": 26.051,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "039003",
+        "039006",
+        "039009",
+        "039010"
+      ],
+      "focusPoint": {
+        "lat": 44.358043,
+        "lng": 11.837322
+      }
+    }
+  ]
+}

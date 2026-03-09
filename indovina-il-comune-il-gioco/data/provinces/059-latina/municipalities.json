@@ -1,0 +1,711 @@
+{
+  "provinceCode": "059",
+  "label": "Latina",
+  "officialScopeLabel": "Provincia di Latina",
+  "sigla": "LT",
+  "slug": "latina",
+  "sourceYear": 2026,
+  "count": 33,
+  "municipalities": [
+    {
+      "istatCode": "059001",
+      "officialName": "Aprilia",
+      "normalizedName": "aprilia",
+      "aliases": [],
+      "areaKm2": 178.072,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059005",
+        "059011"
+      ],
+      "focusPoint": {
+        "lat": 41.587954,
+        "lng": 12.644842
+      }
+    },
+    {
+      "istatCode": "059002",
+      "officialName": "Bassiano",
+      "normalizedName": "bassiano",
+      "aliases": [],
+      "areaKm2": 32.082,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059016",
+        "059027",
+        "059028"
+      ],
+      "focusPoint": {
+        "lat": 41.547307,
+        "lng": 13.041501
+      }
+    },
+    {
+      "istatCode": "059003",
+      "officialName": "Campodimele",
+      "normalizedName": "campodimele",
+      "aliases": [],
+      "areaKm2": 38.165,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059007",
+        "059010",
+        "059012"
+      ],
+      "focusPoint": {
+        "lat": 41.383643,
+        "lng": 13.541194
+      }
+    },
+    {
+      "istatCode": "059004",
+      "officialName": "Castelforte",
+      "normalizedName": "castelforte",
+      "aliases": [],
+      "areaKm2": 29.675,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059026"
+      ],
+      "focusPoint": {
+        "lat": 41.304673,
+        "lng": 13.855044
+      }
+    },
+    {
+      "istatCode": "059005",
+      "officialName": "Cisterna di Latina",
+      "normalizedName": "cisterna di latina",
+      "aliases": [
+        "cisterna",
+        "cisternadilatina"
+      ],
+      "areaKm2": 143.636,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059001",
+        "059006",
+        "059011",
+        "059016",
+        "059027"
+      ],
+      "focusPoint": {
+        "lat": 41.5672,
+        "lng": 12.836508
+      }
+    },
+    {
+      "istatCode": "059006",
+      "officialName": "Cori",
+      "normalizedName": "cori",
+      "aliases": [],
+      "areaKm2": 85.154,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059005",
+        "059016",
+        "059022"
+      ],
+      "focusPoint": {
+        "lat": 41.650497,
+        "lng": 12.918449
+      }
+    },
+    {
+      "istatCode": "059007",
+      "officialName": "Fondi",
+      "normalizedName": "fondi",
+      "aliases": [],
+      "areaKm2": 144.16,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059003",
+        "059010",
+        "059012",
+        "059015",
+        "059030",
+        "059032"
+      ],
+      "focusPoint": {
+        "lat": 41.341654,
+        "lng": 13.4364
+      }
+    },
+    {
+      "istatCode": "059008",
+      "officialName": "Formia",
+      "normalizedName": "formia",
+      "aliases": [],
+      "areaKm2": 74.036,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059009",
+        "059010",
+        "059014",
+        "059031"
+      ],
+      "focusPoint": {
+        "lat": 41.29438,
+        "lng": 13.635296
+      }
+    },
+    {
+      "istatCode": "059009",
+      "officialName": "Gaeta",
+      "normalizedName": "gaeta",
+      "aliases": [],
+      "areaKm2": 29.176,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059008",
+        "059010"
+      ],
+      "focusPoint": {
+        "lat": 41.235323,
+        "lng": 13.530159
+      }
+    },
+    {
+      "istatCode": "059010",
+      "officialName": "Itri",
+      "normalizedName": "itri",
+      "aliases": [],
+      "areaKm2": 100.937,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059003",
+        "059007",
+        "059008",
+        "059009",
+        "059030"
+      ],
+      "focusPoint": {
+        "lat": 41.298643,
+        "lng": 13.521777
+      }
+    },
+    {
+      "istatCode": "059011",
+      "officialName": "Latina",
+      "normalizedName": "latina",
+      "aliases": [],
+      "areaKm2": 277.514,
+      "baseChips": 124,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059001",
+        "059005",
+        "059017",
+        "059024",
+        "059027",
+        "059028"
+      ],
+      "focusPoint": {
+        "lat": 41.468924,
+        "lng": 12.870967
+      }
+    },
+    {
+      "istatCode": "059012",
+      "officialName": "Lenola",
+      "normalizedName": "lenola",
+      "aliases": [],
+      "areaKm2": 44.998,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059003",
+        "059007"
+      ],
+      "focusPoint": {
+        "lat": 41.420975,
+        "lng": 13.471483
+      }
+    },
+    {
+      "istatCode": "059013",
+      "officialName": "Maenza",
+      "normalizedName": "maenza",
+      "aliases": [],
+      "areaKm2": 42.002,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059019",
+        "059020",
+        "059021"
+      ],
+      "focusPoint": {
+        "lat": 41.544762,
+        "lng": 13.180358
+      }
+    },
+    {
+      "istatCode": "059014",
+      "officialName": "Minturno",
+      "normalizedName": "minturno",
+      "aliases": [],
+      "areaKm2": 42.254,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059008",
+        "059026",
+        "059031"
+      ],
+      "focusPoint": {
+        "lat": 41.266487,
+        "lng": 13.738304
+      }
+    },
+    {
+      "istatCode": "059015",
+      "officialName": "Monte San Biagio",
+      "normalizedName": "monte san biagio",
+      "aliases": [
+        "monte",
+        "monte san",
+        "montesan",
+        "montesanbiagio"
+      ],
+      "areaKm2": 65.277,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059007",
+        "059029",
+        "059032"
+      ],
+      "focusPoint": {
+        "lat": 41.367137,
+        "lng": 13.315
+      }
+    },
+    {
+      "istatCode": "059016",
+      "officialName": "Norma",
+      "normalizedName": "norma",
+      "aliases": [],
+      "areaKm2": 30.941,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059002",
+        "059005",
+        "059006",
+        "059027"
+      ],
+      "focusPoint": {
+        "lat": 41.608053,
+        "lng": 12.976301
+      }
+    },
+    {
+      "istatCode": "059017",
+      "officialName": "Pontinia",
+      "normalizedName": "pontinia",
+      "aliases": [],
+      "areaKm2": 111.685,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "059011",
+        "059019",
+        "059024",
+        "059028",
+        "059029",
+        "059032"
+      ],
+      "focusPoint": {
+        "lat": 41.398542,
+        "lng": 13.120309
+      }
+    },
+    {
+      "istatCode": "059018",
+      "officialName": "Ponza",
+      "normalizedName": "ponza",
+      "aliases": [],
+      "areaKm2": 10.436,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [],
+      "focusPoint": {
+        "lat": 40.907974,
+        "lng": 12.954677
+      }
+    },
+    {
+      "istatCode": "059019",
+      "officialName": "Priverno",
+      "normalizedName": "priverno",
+      "aliases": [],
+      "areaKm2": 56.907,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "059013",
+        "059017",
+        "059020",
+        "059021",
+        "059023",
+        "059028",
+        "059029"
+      ],
+      "focusPoint": {
+        "lat": 41.465736,
+        "lng": 13.155009
+      }
+    },
+    {
+      "istatCode": "059020",
+      "officialName": "Prossedi",
+      "normalizedName": "prossedi",
+      "aliases": [],
+      "areaKm2": 35.256,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059013",
+        "059019",
+        "059023"
+      ],
+      "focusPoint": {
+        "lat": 41.496073,
+        "lng": 13.254564
+      }
+    },
+    {
+      "istatCode": "059021",
+      "officialName": "Roccagorga",
+      "normalizedName": "roccagorga",
+      "aliases": [],
+      "areaKm2": 24.527,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059013",
+        "059019",
+        "059028"
+      ],
+      "focusPoint": {
+        "lat": 41.530433,
+        "lng": 13.132375
+      }
+    },
+    {
+      "istatCode": "059022",
+      "officialName": "Rocca Massima",
+      "normalizedName": "rocca massima",
+      "aliases": [
+        "rocca",
+        "roccamassima"
+      ],
+      "areaKm2": 18.328,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059006"
+      ],
+      "focusPoint": {
+        "lat": 41.692537,
+        "lng": 12.923221
+      }
+    },
+    {
+      "istatCode": "059023",
+      "officialName": "Roccasecca dei Volsci",
+      "normalizedName": "roccasecca dei volsci",
+      "aliases": [
+        "roccasecca",
+        "roccaseccadeivolsci"
+      ],
+      "areaKm2": 23.412,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059019",
+        "059020",
+        "059029"
+      ],
+      "focusPoint": {
+        "lat": 41.460742,
+        "lng": 13.226107
+      }
+    },
+    {
+      "istatCode": "059024",
+      "officialName": "Sabaudia",
+      "normalizedName": "sabaudia",
+      "aliases": [],
+      "areaKm2": 145.49,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059011",
+        "059017",
+        "059025",
+        "059032"
+      ],
+      "focusPoint": {
+        "lat": 41.340255,
+        "lng": 13.042429
+      }
+    },
+    {
+      "istatCode": "059025",
+      "officialName": "San Felice Circeo",
+      "normalizedName": "san felice circeo",
+      "aliases": [
+        "san",
+        "san felice",
+        "sanfelice",
+        "sanfelicecirceo"
+      ],
+      "areaKm2": 32.667,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059024",
+        "059032"
+      ],
+      "focusPoint": {
+        "lat": 41.253297,
+        "lng": 13.097221
+      }
+    },
+    {
+      "istatCode": "059026",
+      "officialName": "Santi Cosma e Damiano",
+      "normalizedName": "santi cosma e damiano",
+      "aliases": [
+        "santi",
+        "santi cosma",
+        "santi cosma e",
+        "santicosma",
+        "santicosmae",
+        "santicosmaedamiano"
+      ],
+      "areaKm2": 31.615,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059004",
+        "059014"
+      ],
+      "focusPoint": {
+        "lat": 41.276734,
+        "lng": 13.806697
+      }
+    },
+    {
+      "istatCode": "059027",
+      "officialName": "Sermoneta",
+      "normalizedName": "sermoneta",
+      "aliases": [],
+      "areaKm2": 44.937,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "059002",
+        "059005",
+        "059011",
+        "059016",
+        "059028"
+      ],
+      "focusPoint": {
+        "lat": 41.532735,
+        "lng": 12.982353
+      }
+    },
+    {
+      "istatCode": "059028",
+      "officialName": "Sezze",
+      "normalizedName": "sezze",
+      "aliases": [],
+      "areaKm2": 100.324,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "059002",
+        "059011",
+        "059017",
+        "059019",
+        "059021",
+        "059027"
+      ],
+      "focusPoint": {
+        "lat": 41.493671,
+        "lng": 13.045301
+      }
+    },
+    {
+      "istatCode": "059029",
+      "officialName": "Sonnino",
+      "normalizedName": "sonnino",
+      "aliases": [],
+      "areaKm2": 63.968,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059015",
+        "059017",
+        "059019",
+        "059023",
+        "059032"
+      ],
+      "focusPoint": {
+        "lat": 41.404857,
+        "lng": 13.248464
+      }
+    },
+    {
+      "istatCode": "059030",
+      "officialName": "Sperlonga",
+      "normalizedName": "sperlonga",
+      "aliases": [],
+      "areaKm2": 18.398,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059007",
+        "059010"
+      ],
+      "focusPoint": {
+        "lat": 41.259269,
+        "lng": 13.449468
+      }
+    },
+    {
+      "istatCode": "059031",
+      "officialName": "Spigno Saturnia",
+      "normalizedName": "spigno saturnia",
+      "aliases": [
+        "spigno",
+        "spignosaturnia"
+      ],
+      "areaKm2": 38.655,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059008",
+        "059014"
+      ],
+      "focusPoint": {
+        "lat": 41.318918,
+        "lng": 13.698993
+      }
+    },
+    {
+      "istatCode": "059032",
+      "officialName": "Terracina",
+      "normalizedName": "terracina",
+      "aliases": [],
+      "areaKm2": 136.419,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "059007",
+        "059015",
+        "059017",
+        "059024",
+        "059025",
+        "059029"
+      ],
+      "focusPoint": {
+        "lat": 41.320252,
+        "lng": 13.207494
+      }
+    },
+    {
+      "istatCode": "059033",
+      "officialName": "Ventotene",
+      "normalizedName": "ventotene",
+      "aliases": [],
+      "areaKm2": 2.019,
+      "baseChips": 234,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [],
+      "focusPoint": {
+        "lat": 40.794796,
+        "lng": 13.427046
+      }
+    }
+  ]
+}

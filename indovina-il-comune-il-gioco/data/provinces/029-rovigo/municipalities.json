@@ -1,0 +1,1151 @@
+{
+  "provinceCode": "029",
+  "label": "Rovigo",
+  "officialScopeLabel": "Provincia di Rovigo",
+  "sigla": "RO",
+  "slug": "rovigo",
+  "sourceYear": 2026,
+  "count": 50,
+  "municipalities": [
+    {
+      "istatCode": "029001",
+      "officialName": "Adria",
+      "normalizedName": "adria",
+      "aliases": [],
+      "areaKm2": 112.85,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029015",
+        "029017",
+        "029026",
+        "029030",
+        "029034",
+        "029035",
+        "029044",
+        "029046",
+        "029048",
+        "029051"
+      ],
+      "focusPoint": {
+        "lat": 45.057985,
+        "lng": 12.049037
+      }
+    },
+    {
+      "istatCode": "029002",
+      "officialName": "Ariano nel Polesine",
+      "normalizedName": "ariano nel polesine",
+      "aliases": [
+        "ariano",
+        "arianonelpolesine"
+      ],
+      "areaKm2": 81.439,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029017",
+        "029034",
+        "029039",
+        "029046"
+      ],
+      "focusPoint": {
+        "lat": 44.894445,
+        "lng": 12.287154
+      }
+    },
+    {
+      "istatCode": "029003",
+      "officialName": "Arquà Polesine",
+      "normalizedName": "arqua polesine",
+      "aliases": [
+        "arqua",
+        "arquapolesine"
+      ],
+      "areaKm2": 19.646,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029007",
+        "029018",
+        "029023",
+        "029037",
+        "029041",
+        "029049"
+      ],
+      "focusPoint": {
+        "lat": 45.018845,
+        "lng": 11.736257
+      }
+    },
+    {
+      "istatCode": "029004",
+      "officialName": "Badia Polesine",
+      "normalizedName": "badia polesine",
+      "aliases": [
+        "badia",
+        "badiapolesine"
+      ],
+      "areaKm2": 44.268,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029010",
+        "029027",
+        "029029",
+        "029047"
+      ],
+      "focusPoint": {
+        "lat": 45.092637,
+        "lng": 11.495807
+      }
+    },
+    {
+      "istatCode": "029005",
+      "officialName": "Bagnolo di Po",
+      "normalizedName": "bagnolo di po",
+      "aliases": [
+        "bagnolo",
+        "bagnolodipo"
+      ],
+      "areaKm2": 21.193,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029010",
+        "029011",
+        "029021",
+        "029025",
+        "029042",
+        "029045",
+        "029047"
+      ],
+      "focusPoint": {
+        "lat": 45.005235,
+        "lng": 11.505269
+      }
+    },
+    {
+      "istatCode": "029006",
+      "officialName": "Bergantino",
+      "normalizedName": "bergantino",
+      "aliases": [],
+      "areaKm2": 17.911,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029013",
+        "029032"
+      ],
+      "focusPoint": {
+        "lat": 45.064639,
+        "lng": 11.251763
+      }
+    },
+    {
+      "istatCode": "029007",
+      "officialName": "Bosaro",
+      "normalizedName": "bosaro",
+      "aliases": [],
+      "areaKm2": 6.269,
+      "baseChips": 209,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029003",
+        "029028",
+        "029037",
+        "029038",
+        "029041"
+      ],
+      "focusPoint": {
+        "lat": 45.008213,
+        "lng": 11.778277
+      }
+    },
+    {
+      "istatCode": "029008",
+      "officialName": "Calto",
+      "normalizedName": "calto",
+      "aliases": [],
+      "areaKm2": 10.77,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029012",
+        "029014",
+        "029042"
+      ],
+      "focusPoint": {
+        "lat": 44.99902,
+        "lng": 11.34884
+      }
+    },
+    {
+      "istatCode": "029009",
+      "officialName": "Canaro",
+      "normalizedName": "canaro",
+      "aliases": [],
+      "areaKm2": 32.751,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029022",
+        "029023",
+        "029033",
+        "029037"
+      ],
+      "focusPoint": {
+        "lat": 44.941005,
+        "lng": 11.667935
+      }
+    },
+    {
+      "istatCode": "029010",
+      "officialName": "Canda",
+      "normalizedName": "canda",
+      "aliases": [],
+      "areaKm2": 14.418,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029004",
+        "029005",
+        "029011",
+        "029029",
+        "029047"
+      ],
+      "focusPoint": {
+        "lat": 45.047764,
+        "lng": 11.518698
+      }
+    },
+    {
+      "istatCode": "029011",
+      "officialName": "Castelguglielmo",
+      "normalizedName": "castelguglielmo",
+      "aliases": [],
+      "areaKm2": 22.208,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029005",
+        "029010",
+        "029022",
+        "029029",
+        "029036",
+        "029043",
+        "029045"
+      ],
+      "focusPoint": {
+        "lat": 45.012325,
+        "lng": 11.543506
+      }
+    },
+    {
+      "istatCode": "029012",
+      "officialName": "Castelmassa",
+      "normalizedName": "castelmassa",
+      "aliases": [],
+      "areaKm2": 11.794,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029008",
+        "029013",
+        "029014"
+      ],
+      "focusPoint": {
+        "lat": 45.022171,
+        "lng": 11.321675
+      }
+    },
+    {
+      "istatCode": "029013",
+      "officialName": "Castelnovo Bariano",
+      "normalizedName": "castelnovo bariano",
+      "aliases": [
+        "castelnovo",
+        "castelnovobariano"
+      ],
+      "areaKm2": 38.156,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029006",
+        "029012",
+        "029014",
+        "029027"
+      ],
+      "focusPoint": {
+        "lat": 45.05327,
+        "lng": 11.317074
+      }
+    },
+    {
+      "istatCode": "029014",
+      "officialName": "Ceneselli",
+      "normalizedName": "ceneselli",
+      "aliases": [],
+      "areaKm2": 28.61,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029008",
+        "029012",
+        "029013",
+        "029027",
+        "029042",
+        "029047"
+      ],
+      "focusPoint": {
+        "lat": 45.023049,
+        "lng": 11.370025
+      }
+    },
+    {
+      "istatCode": "029015",
+      "officialName": "Ceregnano",
+      "normalizedName": "ceregnano",
+      "aliases": [],
+      "areaKm2": 30.09,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029001",
+        "029019",
+        "029026",
+        "029041",
+        "029048"
+      ],
+      "focusPoint": {
+        "lat": 45.044263,
+        "lng": 11.914003
+      }
+    },
+    {
+      "istatCode": "029017",
+      "officialName": "Corbola",
+      "normalizedName": "corbola",
+      "aliases": [],
+      "areaKm2": 18.559,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029001",
+        "029002",
+        "029034",
+        "029046"
+      ],
+      "focusPoint": {
+        "lat": 45.001332,
+        "lng": 12.105799
+      }
+    },
+    {
+      "istatCode": "029018",
+      "officialName": "Costa di Rovigo",
+      "normalizedName": "costa di rovigo",
+      "aliases": [
+        "costa",
+        "costadirovigo"
+      ],
+      "areaKm2": 16.053,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029003",
+        "029024",
+        "029041",
+        "029049",
+        "029050"
+      ],
+      "focusPoint": {
+        "lat": 45.04914,
+        "lng": 11.700023
+      }
+    },
+    {
+      "istatCode": "029019",
+      "officialName": "Crespino",
+      "normalizedName": "crespino",
+      "aliases": [],
+      "areaKm2": 31.845,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029015",
+        "029026",
+        "029028",
+        "029038",
+        "029041",
+        "029051"
+      ],
+      "focusPoint": {
+        "lat": 45.005046,
+        "lng": 11.883074
+      }
+    },
+    {
+      "istatCode": "029021",
+      "officialName": "Ficarolo",
+      "normalizedName": "ficarolo",
+      "aliases": [],
+      "areaKm2": 17.967,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029005",
+        "029025",
+        "029042"
+      ],
+      "focusPoint": {
+        "lat": 44.954046,
+        "lng": 11.444351
+      }
+    },
+    {
+      "istatCode": "029022",
+      "officialName": "Fiesso Umbertiano",
+      "normalizedName": "fiesso umbertiano",
+      "aliases": [
+        "fiesso",
+        "fiessoumbertiano"
+      ],
+      "areaKm2": 27.463,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029009",
+        "029011",
+        "029023",
+        "029033",
+        "029036",
+        "029045"
+      ],
+      "focusPoint": {
+        "lat": 44.96112,
+        "lng": 11.605835
+      }
+    },
+    {
+      "istatCode": "029023",
+      "officialName": "Frassinelle Polesine",
+      "normalizedName": "frassinelle polesine",
+      "aliases": [
+        "frassinelle",
+        "frassinellepolesine"
+      ],
+      "areaKm2": 21.547,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029003",
+        "029009",
+        "029022",
+        "029036",
+        "029037",
+        "029049"
+      ],
+      "focusPoint": {
+        "lat": 44.981897,
+        "lng": 11.691827
+      }
+    },
+    {
+      "istatCode": "029024",
+      "officialName": "Fratta Polesine",
+      "normalizedName": "fratta polesine",
+      "aliases": [
+        "fratta",
+        "frattapolesine"
+      ],
+      "areaKm2": 20.794,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029018",
+        "029029",
+        "029036",
+        "029043",
+        "029049",
+        "029050"
+      ],
+      "focusPoint": {
+        "lat": 45.023818,
+        "lng": 11.641599
+      }
+    },
+    {
+      "istatCode": "029025",
+      "officialName": "Gaiba",
+      "normalizedName": "gaiba",
+      "aliases": [],
+      "areaKm2": 12.126,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029005",
+        "029021",
+        "029045"
+      ],
+      "focusPoint": {
+        "lat": 44.958541,
+        "lng": 11.483028
+      }
+    },
+    {
+      "istatCode": "029026",
+      "officialName": "Gavello",
+      "normalizedName": "gavello",
+      "aliases": [],
+      "areaKm2": 24.463,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029001",
+        "029015",
+        "029019",
+        "029051"
+      ],
+      "focusPoint": {
+        "lat": 45.023463,
+        "lng": 11.940897
+      }
+    },
+    {
+      "istatCode": "029027",
+      "officialName": "Giacciano con Baruchella",
+      "normalizedName": "giacciano con baruchella",
+      "aliases": [
+        "giacciano",
+        "giacciano con",
+        "giaccianocon",
+        "giaccianoconbaruchella"
+      ],
+      "areaKm2": 18.495,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029004",
+        "029013",
+        "029014",
+        "029047"
+      ],
+      "focusPoint": {
+        "lat": 45.068456,
+        "lng": 11.449619
+      }
+    },
+    {
+      "istatCode": "029028",
+      "officialName": "Guarda Veneta",
+      "normalizedName": "guarda veneta",
+      "aliases": [
+        "guarda",
+        "guardaveneta"
+      ],
+      "areaKm2": 17.171,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029007",
+        "029019",
+        "029037",
+        "029038"
+      ],
+      "focusPoint": {
+        "lat": 44.980682,
+        "lng": 11.803381
+      }
+    },
+    {
+      "istatCode": "029029",
+      "officialName": "Lendinara",
+      "normalizedName": "lendinara",
+      "aliases": [],
+      "areaKm2": 55.43,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029004",
+        "029010",
+        "029011",
+        "029024",
+        "029031",
+        "029043",
+        "029050"
+      ],
+      "focusPoint": {
+        "lat": 45.078966,
+        "lng": 11.582513
+      }
+    },
+    {
+      "istatCode": "029030",
+      "officialName": "Loreo",
+      "normalizedName": "loreo",
+      "aliases": [],
+      "areaKm2": 40.052,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029001",
+        "029040",
+        "029046",
+        "029052"
+      ],
+      "focusPoint": {
+        "lat": 45.063089,
+        "lng": 12.18446
+      }
+    },
+    {
+      "istatCode": "029031",
+      "officialName": "Lusia",
+      "normalizedName": "lusia",
+      "aliases": [],
+      "areaKm2": 17.922,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029029",
+        "029041",
+        "029050"
+      ],
+      "focusPoint": {
+        "lat": 45.095755,
+        "lng": 11.659786
+      }
+    },
+    {
+      "istatCode": "029032",
+      "officialName": "Melara",
+      "normalizedName": "melara",
+      "aliases": [],
+      "areaKm2": 17.556,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029006"
+      ],
+      "focusPoint": {
+        "lat": 45.080162,
+        "lng": 11.208612
+      }
+    },
+    {
+      "istatCode": "029033",
+      "officialName": "Occhiobello",
+      "normalizedName": "occhiobello",
+      "aliases": [],
+      "areaKm2": 32.117,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029009",
+        "029022",
+        "029045"
+      ],
+      "focusPoint": {
+        "lat": 44.918809,
+        "lng": 11.604984
+      }
+    },
+    {
+      "istatCode": "029034",
+      "officialName": "Papozze",
+      "normalizedName": "papozze",
+      "aliases": [],
+      "areaKm2": 21.582,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029001",
+        "029002",
+        "029017",
+        "029051"
+      ],
+      "focusPoint": {
+        "lat": 44.998468,
+        "lng": 12.044497
+      }
+    },
+    {
+      "istatCode": "029035",
+      "officialName": "Pettorazza Grimani",
+      "normalizedName": "pettorazza grimani",
+      "aliases": [
+        "pettorazza",
+        "pettorazzagrimani"
+      ],
+      "areaKm2": 21.501,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029001",
+        "029044"
+      ],
+      "focusPoint": {
+        "lat": 45.116591,
+        "lng": 11.992232
+      }
+    },
+    {
+      "istatCode": "029036",
+      "officialName": "Pincara",
+      "normalizedName": "pincara",
+      "aliases": [],
+      "areaKm2": 17.754,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029011",
+        "029022",
+        "029023",
+        "029024",
+        "029043",
+        "029049"
+      ],
+      "focusPoint": {
+        "lat": 44.989637,
+        "lng": 11.622433
+      }
+    },
+    {
+      "istatCode": "029037",
+      "officialName": "Polesella",
+      "normalizedName": "polesella",
+      "aliases": [],
+      "areaKm2": 16.513,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029003",
+        "029007",
+        "029009",
+        "029023",
+        "029028"
+      ],
+      "focusPoint": {
+        "lat": 44.971927,
+        "lng": 11.744895
+      }
+    },
+    {
+      "istatCode": "029038",
+      "officialName": "Pontecchio Polesine",
+      "normalizedName": "pontecchio polesine",
+      "aliases": [
+        "pontecchio",
+        "pontecchiopolesine"
+      ],
+      "areaKm2": 11.572,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029007",
+        "029019",
+        "029028",
+        "029041"
+      ],
+      "focusPoint": {
+        "lat": 45.015203,
+        "lng": 11.815108
+      }
+    },
+    {
+      "istatCode": "029039",
+      "officialName": "Porto Tolle",
+      "normalizedName": "porto tolle",
+      "aliases": [
+        "portotolle"
+      ],
+      "areaKm2": 259.558,
+      "baseChips": 126,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029002",
+        "029046",
+        "029052"
+      ],
+      "focusPoint": {
+        "lat": 44.915548,
+        "lng": 12.411362
+      }
+    },
+    {
+      "istatCode": "029040",
+      "officialName": "Rosolina",
+      "normalizedName": "rosolina",
+      "aliases": [],
+      "areaKm2": 75.283,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029030",
+        "029052"
+      ],
+      "focusPoint": {
+        "lat": 45.102492,
+        "lng": 12.289654
+      }
+    },
+    {
+      "istatCode": "029041",
+      "officialName": "Rovigo",
+      "normalizedName": "rovigo",
+      "aliases": [],
+      "areaKm2": 108.701,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029003",
+        "029007",
+        "029015",
+        "029018",
+        "029019",
+        "029031",
+        "029038",
+        "029044",
+        "029048",
+        "029050"
+      ],
+      "focusPoint": {
+        "lat": 45.071221,
+        "lng": 11.791772
+      }
+    },
+    {
+      "istatCode": "029042",
+      "officialName": "Salara",
+      "normalizedName": "salara",
+      "aliases": [],
+      "areaKm2": 14.389,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029005",
+        "029008",
+        "029014",
+        "029021",
+        "029047"
+      ],
+      "focusPoint": {
+        "lat": 44.984999,
+        "lng": 11.424535
+      }
+    },
+    {
+      "istatCode": "029043",
+      "officialName": "San Bellino",
+      "normalizedName": "san bellino",
+      "aliases": [
+        "sanbellino"
+      ],
+      "areaKm2": 16.049,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029011",
+        "029024",
+        "029029",
+        "029036"
+      ],
+      "focusPoint": {
+        "lat": 45.018721,
+        "lng": 11.578311
+      }
+    },
+    {
+      "istatCode": "029044",
+      "officialName": "San Martino di Venezze",
+      "normalizedName": "san martino di venezze",
+      "aliases": [
+        "san martino",
+        "sanmartino",
+        "sanmartinodivenezze"
+      ],
+      "areaKm2": 31.154,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029001",
+        "029035",
+        "029041",
+        "029048"
+      ],
+      "focusPoint": {
+        "lat": 45.117842,
+        "lng": 11.902866
+      }
+    },
+    {
+      "istatCode": "029045",
+      "officialName": "Stienta",
+      "normalizedName": "stienta",
+      "aliases": [],
+      "areaKm2": 23.947,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029005",
+        "029011",
+        "029022",
+        "029025",
+        "029033"
+      ],
+      "focusPoint": {
+        "lat": 44.958133,
+        "lng": 11.530013
+      }
+    },
+    {
+      "istatCode": "029046",
+      "officialName": "Taglio di Po",
+      "normalizedName": "taglio di po",
+      "aliases": [
+        "taglio",
+        "tagliodipo"
+      ],
+      "areaKm2": 78.583,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029001",
+        "029002",
+        "029017",
+        "029030",
+        "029039",
+        "029052"
+      ],
+      "focusPoint": {
+        "lat": 44.92142,
+        "lng": 12.3077
+      }
+    },
+    {
+      "istatCode": "029047",
+      "officialName": "Trecenta",
+      "normalizedName": "trecenta",
+      "aliases": [],
+      "areaKm2": 34.863,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029004",
+        "029005",
+        "029010",
+        "029014",
+        "029027",
+        "029042"
+      ],
+      "focusPoint": {
+        "lat": 45.024242,
+        "lng": 11.438419
+      }
+    },
+    {
+      "istatCode": "029048",
+      "officialName": "Villadose",
+      "normalizedName": "villadose",
+      "aliases": [],
+      "areaKm2": 31.963,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029001",
+        "029015",
+        "029041",
+        "029044"
+      ],
+      "focusPoint": {
+        "lat": 45.083263,
+        "lng": 11.90862
+      }
+    },
+    {
+      "istatCode": "029049",
+      "officialName": "Villamarzana",
+      "normalizedName": "villamarzana",
+      "aliases": [],
+      "areaKm2": 14.445,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029003",
+        "029018",
+        "029023",
+        "029024",
+        "029036"
+      ],
+      "focusPoint": {
+        "lat": 45.018824,
+        "lng": 11.686971
+      }
+    },
+    {
+      "istatCode": "029050",
+      "officialName": "Villanova del Ghebbo",
+      "normalizedName": "villanova del ghebbo",
+      "aliases": [
+        "villanovadelghebbo"
+      ],
+      "areaKm2": 11.587,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029018",
+        "029024",
+        "029029",
+        "029031",
+        "029041"
+      ],
+      "focusPoint": {
+        "lat": 45.067057,
+        "lng": 11.66648
+      }
+    },
+    {
+      "istatCode": "029051",
+      "officialName": "Villanova Marchesana",
+      "normalizedName": "villanova marchesana",
+      "aliases": [
+        "villanovamarchesana"
+      ],
+      "areaKm2": 18.086,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "029001",
+        "029019",
+        "029026",
+        "029034"
+      ],
+      "focusPoint": {
+        "lat": 45.006207,
+        "lng": 11.975473
+      }
+    },
+    {
+      "istatCode": "029052",
+      "officialName": "Porto Viro",
+      "normalizedName": "porto viro",
+      "aliases": [
+        "portoviro"
+      ],
+      "areaKm2": 134.136,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "029030",
+        "029039",
+        "029040",
+        "029046"
+      ],
+      "focusPoint": {
+        "lat": 45.010976,
+        "lng": 12.317816
+      }
+    }
+  ]
+}

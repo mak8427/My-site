@@ -1,0 +1,523 @@
+{
+  "provinceCode": "119",
+  "label": "Sulcis Iglesiente",
+  "officialScopeLabel": "Provincia di Sulcis Iglesiente",
+  "sigla": "CI",
+  "slug": "sulcis-iglesiente",
+  "sourceYear": 2026,
+  "count": 24,
+  "municipalities": [
+    {
+      "istatCode": "119001",
+      "officialName": "Buggerru",
+      "normalizedName": "buggerru",
+      "aliases": [],
+      "areaKm2": 48.359,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119006",
+        "119009"
+      ],
+      "focusPoint": {
+        "lat": 39.407705,
+        "lng": 8.438318
+      }
+    },
+    {
+      "istatCode": "119002",
+      "officialName": "Calasetta",
+      "normalizedName": "calasetta",
+      "aliases": [],
+      "areaKm2": 31.237,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119020"
+      ],
+      "focusPoint": {
+        "lat": 39.070064,
+        "lng": 8.377249
+      }
+    },
+    {
+      "istatCode": "119003",
+      "officialName": "Carbonia",
+      "normalizedName": "carbonia",
+      "aliases": [],
+      "areaKm2": 146.117,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "119008",
+        "119009",
+        "119012",
+        "119014",
+        "119016",
+        "119017",
+        "119021"
+      ],
+      "focusPoint": {
+        "lat": 39.205375,
+        "lng": 8.518396
+      }
+    },
+    {
+      "istatCode": "119004",
+      "officialName": "Carloforte",
+      "normalizedName": "carloforte",
+      "aliases": [],
+      "areaKm2": 51.08,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [],
+      "focusPoint": {
+        "lat": 39.142153,
+        "lng": 8.272197
+      }
+    },
+    {
+      "istatCode": "119005",
+      "officialName": "Domusnovas",
+      "normalizedName": "domusnovas",
+      "aliases": [],
+      "areaKm2": 79.991,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119006",
+        "119009",
+        "119011",
+        "119022"
+      ],
+      "focusPoint": {
+        "lat": 39.365184,
+        "lng": 8.614913
+      }
+    },
+    {
+      "istatCode": "119006",
+      "officialName": "Fluminimaggiore",
+      "normalizedName": "fluminimaggiore",
+      "aliases": [],
+      "areaKm2": 108.418,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119001",
+        "119005",
+        "119009"
+      ],
+      "focusPoint": {
+        "lat": 39.428631,
+        "lng": 8.522011
+      }
+    },
+    {
+      "istatCode": "119007",
+      "officialName": "Giba",
+      "normalizedName": "giba",
+      "aliases": [],
+      "areaKm2": 30.278,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119010",
+        "119015",
+        "119017",
+        "119021"
+      ],
+      "focusPoint": {
+        "lat": 39.0564,
+        "lng": 8.577047
+      }
+    },
+    {
+      "istatCode": "119008",
+      "officialName": "Gonnesa",
+      "normalizedName": "gonnesa",
+      "aliases": [],
+      "areaKm2": 48.361,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119003",
+        "119009",
+        "119016"
+      ],
+      "focusPoint": {
+        "lat": 39.260973,
+        "lng": 8.450947
+      }
+    },
+    {
+      "istatCode": "119009",
+      "officialName": "Iglesias",
+      "normalizedName": "iglesias",
+      "aliases": [],
+      "areaKm2": 208.393,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119001",
+        "119003",
+        "119005",
+        "119006",
+        "119008",
+        "119011",
+        "119012",
+        "119022"
+      ],
+      "focusPoint": {
+        "lat": 39.297467,
+        "lng": 8.546585
+      }
+    },
+    {
+      "istatCode": "119010",
+      "officialName": "Masainas",
+      "normalizedName": "masainas",
+      "aliases": [],
+      "areaKm2": 23.904,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119007",
+        "119015",
+        "119019",
+        "119024"
+      ],
+      "focusPoint": {
+        "lat": 39.035186,
+        "lng": 8.626662
+      }
+    },
+    {
+      "istatCode": "119011",
+      "officialName": "Musei",
+      "normalizedName": "musei",
+      "aliases": [],
+      "areaKm2": 20.537,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119005",
+        "119009",
+        "119022"
+      ],
+      "focusPoint": {
+        "lat": 39.302242,
+        "lng": 8.686977
+      }
+    },
+    {
+      "istatCode": "119012",
+      "officialName": "Narcao",
+      "normalizedName": "narcao",
+      "aliases": [],
+      "areaKm2": 85.394,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119003",
+        "119009",
+        "119013",
+        "119014",
+        "119022",
+        "119023"
+      ],
+      "focusPoint": {
+        "lat": 39.179631,
+        "lng": 8.687344
+      }
+    },
+    {
+      "istatCode": "119013",
+      "officialName": "Nuxis",
+      "normalizedName": "nuxis",
+      "aliases": [],
+      "areaKm2": 61.691,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119012",
+        "119018",
+        "119023"
+      ],
+      "focusPoint": {
+        "lat": 39.154544,
+        "lng": 8.764852
+      }
+    },
+    {
+      "istatCode": "119014",
+      "officialName": "Perdaxius",
+      "normalizedName": "perdaxius",
+      "aliases": [],
+      "areaKm2": 29.715,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "119003",
+        "119012",
+        "119021",
+        "119023"
+      ],
+      "focusPoint": {
+        "lat": 39.166241,
+        "lng": 8.616757
+      }
+    },
+    {
+      "istatCode": "119015",
+      "officialName": "Piscinas",
+      "normalizedName": "piscinas",
+      "aliases": [],
+      "areaKm2": 16.828,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "119007",
+        "119010",
+        "119018",
+        "119021",
+        "119023",
+        "119024"
+      ],
+      "focusPoint": {
+        "lat": 39.067661,
+        "lng": 8.668266
+      }
+    },
+    {
+      "istatCode": "119016",
+      "officialName": "Portoscuso",
+      "normalizedName": "portoscuso",
+      "aliases": [],
+      "areaKm2": 38.503,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119003",
+        "119008",
+        "119017"
+      ],
+      "focusPoint": {
+        "lat": 39.198071,
+        "lng": 8.419741
+      }
+    },
+    {
+      "istatCode": "119017",
+      "officialName": "San Giovanni Suergiu",
+      "normalizedName": "san giovanni suergiu",
+      "aliases": [
+        "san",
+        "san giovanni",
+        "sangiovanni",
+        "sangiovannisuergiu"
+      ],
+      "areaKm2": 72.199,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119003",
+        "119007",
+        "119016",
+        "119020",
+        "119021"
+      ],
+      "focusPoint": {
+        "lat": 39.10174,
+        "lng": 8.514337
+      }
+    },
+    {
+      "istatCode": "119018",
+      "officialName": "Santadi",
+      "normalizedName": "santadi",
+      "aliases": [],
+      "areaKm2": 116.236,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119013",
+        "119015",
+        "119023",
+        "119024"
+      ],
+      "focusPoint": {
+        "lat": 39.078032,
+        "lng": 8.767089
+      }
+    },
+    {
+      "istatCode": "119019",
+      "officialName": "Sant'Anna Arresi",
+      "normalizedName": "sant anna arresi",
+      "aliases": [
+        "sant anna",
+        "santanna",
+        "santannaarresi"
+      ],
+      "areaKm2": 36.754,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119010",
+        "119024"
+      ],
+      "focusPoint": {
+        "lat": 38.985137,
+        "lng": 8.603219
+      }
+    },
+    {
+      "istatCode": "119020",
+      "officialName": "Sant'Antioco",
+      "normalizedName": "sant antioco",
+      "aliases": [
+        "santantioco"
+      ],
+      "areaKm2": 88.741,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119002",
+        "119017"
+      ],
+      "focusPoint": {
+        "lat": 39.031738,
+        "lng": 8.418122
+      }
+    },
+    {
+      "istatCode": "119021",
+      "officialName": "Tratalias",
+      "normalizedName": "tratalias",
+      "aliases": [],
+      "areaKm2": 30.999,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "119003",
+        "119007",
+        "119014",
+        "119015",
+        "119017",
+        "119023"
+      ],
+      "focusPoint": {
+        "lat": 39.113522,
+        "lng": 8.576049
+      }
+    },
+    {
+      "istatCode": "119022",
+      "officialName": "Villamassargia",
+      "normalizedName": "villamassargia",
+      "aliases": [],
+      "areaKm2": 91.497,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119005",
+        "119009",
+        "119011",
+        "119012"
+      ],
+      "focusPoint": {
+        "lat": 39.25541,
+        "lng": 8.671884
+      }
+    },
+    {
+      "istatCode": "119023",
+      "officialName": "Villaperuccio",
+      "normalizedName": "villaperuccio",
+      "aliases": [],
+      "areaKm2": 36.726,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "119012",
+        "119013",
+        "119014",
+        "119015",
+        "119018",
+        "119021"
+      ],
+      "focusPoint": {
+        "lat": 39.111778,
+        "lng": 8.649696
+      }
+    },
+    {
+      "istatCode": "119024",
+      "officialName": "Teulada",
+      "normalizedName": "teulada",
+      "aliases": [],
+      "areaKm2": 246.759,
+      "baseChips": 127,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "119010",
+        "119015",
+        "119018",
+        "119019"
+      ],
+      "focusPoint": {
+        "lat": 38.962966,
+        "lng": 8.721862
+      }
+    }
+  ]
+}

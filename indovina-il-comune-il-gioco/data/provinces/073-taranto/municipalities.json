@@ -1,0 +1,647 @@
+{
+  "provinceCode": "073",
+  "label": "Taranto",
+  "officialScopeLabel": "Provincia di Taranto",
+  "sigla": "TA",
+  "slug": "taranto",
+  "sourceYear": 2026,
+  "count": 29,
+  "municipalities": [
+    {
+      "istatCode": "073001",
+      "officialName": "Avetrana",
+      "normalizedName": "avetrana",
+      "aliases": [],
+      "areaKm2": 73.352,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073012"
+      ],
+      "focusPoint": {
+        "lat": 40.360904,
+        "lng": 17.74234
+      }
+    },
+    {
+      "istatCode": "073002",
+      "officialName": "Carosino",
+      "normalizedName": "carosino",
+      "aliases": [],
+      "areaKm2": 10.93,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073008",
+        "073016",
+        "073018",
+        "073024",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.470821,
+        "lng": 17.407649
+      }
+    },
+    {
+      "istatCode": "073003",
+      "officialName": "Castellaneta",
+      "normalizedName": "castellaneta",
+      "aliases": [],
+      "areaKm2": 239.981,
+      "baseChips": 127,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073007",
+        "073009",
+        "073019",
+        "073020",
+        "073021"
+      ],
+      "focusPoint": {
+        "lat": 40.587881,
+        "lng": 16.905962
+      }
+    },
+    {
+      "istatCode": "073004",
+      "officialName": "Crispiano",
+      "normalizedName": "crispiano",
+      "aliases": [],
+      "areaKm2": 110.961,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073008",
+        "073013",
+        "073015",
+        "073017",
+        "073029"
+      ],
+      "focusPoint": {
+        "lat": 40.602462,
+        "lng": 17.245325
+      }
+    },
+    {
+      "istatCode": "073005",
+      "officialName": "Faggiano",
+      "normalizedName": "faggiano",
+      "aliases": [],
+      "areaKm2": 21.24,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073022",
+        "073023",
+        "073024",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.41141,
+        "lng": 17.386185
+      }
+    },
+    {
+      "istatCode": "073006",
+      "officialName": "Fragagnano",
+      "normalizedName": "fragagnano",
+      "aliases": [],
+      "areaKm2": 22.419,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073008",
+        "073011",
+        "073025",
+        "073026",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.431958,
+        "lng": 17.478782
+      }
+    },
+    {
+      "istatCode": "073007",
+      "officialName": "Ginosa",
+      "normalizedName": "ginosa",
+      "aliases": [],
+      "areaKm2": 186.945,
+      "baseChips": 133,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073003",
+        "073009"
+      ],
+      "focusPoint": {
+        "lat": 40.493772,
+        "lng": 16.789726
+      }
+    },
+    {
+      "istatCode": "073008",
+      "officialName": "Grottaglie",
+      "normalizedName": "grottaglie",
+      "aliases": [],
+      "areaKm2": 100.388,
+      "baseChips": 147,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073002",
+        "073004",
+        "073006",
+        "073013",
+        "073016",
+        "073017",
+        "073025",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.537125,
+        "lng": 17.412146
+      }
+    },
+    {
+      "istatCode": "073009",
+      "officialName": "Laterza",
+      "normalizedName": "laterza",
+      "aliases": [],
+      "areaKm2": 159.506,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073003",
+        "073007"
+      ],
+      "focusPoint": {
+        "lat": 40.649694,
+        "lng": 16.784015
+      }
+    },
+    {
+      "istatCode": "073010",
+      "officialName": "Leporano",
+      "normalizedName": "leporano",
+      "aliases": [],
+      "areaKm2": 15.113,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073022",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.387131,
+        "lng": 17.313838
+      }
+    },
+    {
+      "istatCode": "073011",
+      "officialName": "Lizzano",
+      "normalizedName": "lizzano",
+      "aliases": [],
+      "areaKm2": 46.397,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073006",
+        "073026",
+        "073027",
+        "073028"
+      ],
+      "focusPoint": {
+        "lat": 40.3672,
+        "lng": 17.450111
+      }
+    },
+    {
+      "istatCode": "073012",
+      "officialName": "Manduria",
+      "normalizedName": "manduria",
+      "aliases": [],
+      "areaKm2": 177.978,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073001",
+        "073014",
+        "073026"
+      ],
+      "focusPoint": {
+        "lat": 40.37759,
+        "lng": 17.626618
+      }
+    },
+    {
+      "istatCode": "073013",
+      "officialName": "Martina Franca",
+      "normalizedName": "martina franca",
+      "aliases": [
+        "martina",
+        "martinafranca"
+      ],
+      "areaKm2": 295.599,
+      "baseChips": 123,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073004",
+        "073008",
+        "073015",
+        "073019",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.692002,
+        "lng": 17.291878
+      }
+    },
+    {
+      "istatCode": "073014",
+      "officialName": "Maruggio",
+      "normalizedName": "maruggio",
+      "aliases": [],
+      "areaKm2": 48.573,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073012",
+        "073026",
+        "073028"
+      ],
+      "focusPoint": {
+        "lat": 40.327968,
+        "lng": 17.555755
+      }
+    },
+    {
+      "istatCode": "073015",
+      "officialName": "Massafra",
+      "normalizedName": "massafra",
+      "aliases": [],
+      "areaKm2": 127.108,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073004",
+        "073013",
+        "073019",
+        "073021",
+        "073027",
+        "073029"
+      ],
+      "focusPoint": {
+        "lat": 40.597758,
+        "lng": 17.116842
+      }
+    },
+    {
+      "istatCode": "073016",
+      "officialName": "Monteiasi",
+      "normalizedName": "monteiasi",
+      "aliases": [],
+      "areaKm2": 9.625,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073002",
+        "073008",
+        "073024",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.500461,
+        "lng": 17.376235
+      }
+    },
+    {
+      "istatCode": "073017",
+      "officialName": "Montemesola",
+      "normalizedName": "montemesola",
+      "aliases": [],
+      "areaKm2": 16.21,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073004",
+        "073008",
+        "073027",
+        "073029"
+      ],
+      "focusPoint": {
+        "lat": 40.562116,
+        "lng": 17.342062
+      }
+    },
+    {
+      "istatCode": "073018",
+      "officialName": "Monteparano",
+      "normalizedName": "monteparano",
+      "aliases": [],
+      "areaKm2": 3.741,
+      "baseChips": 220,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073002",
+        "073023",
+        "073024",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.449858,
+        "lng": 17.415542
+      }
+    },
+    {
+      "istatCode": "073019",
+      "officialName": "Mottola",
+      "normalizedName": "mottola",
+      "aliases": [],
+      "areaKm2": 210.74,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073003",
+        "073013",
+        "073015",
+        "073020",
+        "073021"
+      ],
+      "focusPoint": {
+        "lat": 40.682765,
+        "lng": 17.045702
+      }
+    },
+    {
+      "istatCode": "073020",
+      "officialName": "Palagianello",
+      "normalizedName": "palagianello",
+      "aliases": [],
+      "areaKm2": 43.588,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073003",
+        "073019",
+        "073021"
+      ],
+      "focusPoint": {
+        "lat": 40.564624,
+        "lng": 16.977911
+      }
+    },
+    {
+      "istatCode": "073021",
+      "officialName": "Palagiano",
+      "normalizedName": "palagiano",
+      "aliases": [],
+      "areaKm2": 69.379,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073003",
+        "073015",
+        "073019",
+        "073020"
+      ],
+      "focusPoint": {
+        "lat": 40.544497,
+        "lng": 17.023577
+      }
+    },
+    {
+      "istatCode": "073022",
+      "officialName": "Pulsano",
+      "normalizedName": "pulsano",
+      "aliases": [],
+      "areaKm2": 18.702,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073005",
+        "073010",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.372352,
+        "lng": 17.364011
+      }
+    },
+    {
+      "istatCode": "073023",
+      "officialName": "Roccaforzata",
+      "normalizedName": "roccaforzata",
+      "aliases": [],
+      "areaKm2": 6.072,
+      "baseChips": 209,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073005",
+        "073018",
+        "073024",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.439637,
+        "lng": 17.394236
+      }
+    },
+    {
+      "istatCode": "073024",
+      "officialName": "San Giorgio Ionico",
+      "normalizedName": "san giorgio ionico",
+      "aliases": [
+        "san giorgio",
+        "sangiorgio",
+        "sangiorgioionico"
+      ],
+      "areaKm2": 23.4,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073002",
+        "073005",
+        "073016",
+        "073018",
+        "073023",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.470294,
+        "lng": 17.361374
+      }
+    },
+    {
+      "istatCode": "073025",
+      "officialName": "San Marzano di San Giuseppe",
+      "normalizedName": "san marzano di san giuseppe",
+      "aliases": [
+        "san marzano",
+        "san marzano di san",
+        "sanmarzano",
+        "sanmarzanodisan",
+        "sanmarzanodisangiuseppe"
+      ],
+      "areaKm2": 19.039,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073006",
+        "073008",
+        "073026",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.453896,
+        "lng": 17.5068
+      }
+    },
+    {
+      "istatCode": "073026",
+      "officialName": "Sava",
+      "normalizedName": "sava",
+      "aliases": [],
+      "areaKm2": 44.018,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073006",
+        "073011",
+        "073012",
+        "073014",
+        "073025",
+        "073028"
+      ],
+      "focusPoint": {
+        "lat": 40.396226,
+        "lng": 17.530605
+      }
+    },
+    {
+      "istatCode": "073027",
+      "officialName": "Taranto",
+      "normalizedName": "taranto",
+      "aliases": [],
+      "areaKm2": 246.198,
+      "baseChips": 127,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073002",
+        "073005",
+        "073006",
+        "073008",
+        "073010",
+        "073011",
+        "073013",
+        "073015",
+        "073016",
+        "073017",
+        "073018",
+        "073022",
+        "073023",
+        "073024",
+        "073025",
+        "073029"
+      ],
+      "focusPoint": {
+        "lat": 40.467719,
+        "lng": 17.287937
+      }
+    },
+    {
+      "istatCode": "073028",
+      "officialName": "Torricella",
+      "normalizedName": "torricella",
+      "aliases": [],
+      "areaKm2": 26.651,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "073011",
+        "073014",
+        "073026"
+      ],
+      "focusPoint": {
+        "lat": 40.350179,
+        "lng": 17.49938
+      }
+    },
+    {
+      "istatCode": "073029",
+      "officialName": "Statte",
+      "normalizedName": "statte",
+      "aliases": [],
+      "areaKm2": 66.575,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "073004",
+        "073015",
+        "073017",
+        "073027"
+      ],
+      "focusPoint": {
+        "lat": 40.545517,
+        "lng": 17.232254
+      }
+    }
+  ]
+}

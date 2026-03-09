@@ -1,0 +1,153 @@
+{
+  "provinceCode": "100",
+  "label": "Prato",
+  "officialScopeLabel": "Provincia di Prato",
+  "sigla": "PO",
+  "slug": "prato",
+  "sourceYear": 2026,
+  "count": 7,
+  "municipalities": [
+    {
+      "istatCode": "100001",
+      "officialName": "Cantagallo",
+      "normalizedName": "cantagallo",
+      "aliases": [],
+      "areaKm2": 95.565,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "100003",
+        "100006",
+        "100007"
+      ],
+      "focusPoint": {
+        "lat": 44.032095,
+        "lng": 11.081636
+      }
+    },
+    {
+      "istatCode": "100002",
+      "officialName": "Carmignano",
+      "normalizedName": "carmignano",
+      "aliases": [],
+      "areaKm2": 38.23,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "100004",
+        "100005"
+      ],
+      "focusPoint": {
+        "lat": 43.798874,
+        "lng": 11.021693
+      }
+    },
+    {
+      "istatCode": "100003",
+      "officialName": "Montemurlo",
+      "normalizedName": "montemurlo",
+      "aliases": [],
+      "areaKm2": 30.883,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "100001",
+        "100005",
+        "100006"
+      ],
+      "focusPoint": {
+        "lat": 43.937917,
+        "lng": 11.056268
+      }
+    },
+    {
+      "istatCode": "100004",
+      "officialName": "Poggio a Caiano",
+      "normalizedName": "poggio a caiano",
+      "aliases": [
+        "poggio",
+        "poggio a",
+        "poggioa",
+        "poggioacaiano"
+      ],
+      "areaKm2": 6.246,
+      "baseChips": 209,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "100002",
+        "100005"
+      ],
+      "focusPoint": {
+        "lat": 43.815036,
+        "lng": 11.048894
+      }
+    },
+    {
+      "istatCode": "100005",
+      "officialName": "Prato",
+      "normalizedName": "prato",
+      "aliases": [],
+      "areaKm2": 97.386,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "100002",
+        "100003",
+        "100004",
+        "100006"
+      ],
+      "focusPoint": {
+        "lat": 43.882591,
+        "lng": 11.076205
+      }
+    },
+    {
+      "istatCode": "100006",
+      "officialName": "Vaiano",
+      "normalizedName": "vaiano",
+      "aliases": [],
+      "areaKm2": 33.829,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "100001",
+        "100003",
+        "100005"
+      ],
+      "focusPoint": {
+        "lat": 43.946598,
+        "lng": 11.139451
+      }
+    },
+    {
+      "istatCode": "100007",
+      "officialName": "Vernio",
+      "normalizedName": "vernio",
+      "aliases": [],
+      "areaKm2": 63.289,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "100001"
+      ],
+      "focusPoint": {
+        "lat": 44.060806,
+        "lng": 11.148447
+      }
+    }
+  ]
+}

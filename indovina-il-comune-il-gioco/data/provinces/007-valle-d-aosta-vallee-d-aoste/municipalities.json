@@ -1,0 +1,1718 @@
+{
+  "provinceCode": "007",
+  "label": "Valle d'Aosta/Vallée d'Aoste",
+  "officialScopeLabel": "Valle d'Aosta/Vallée d'Aoste",
+  "sigla": "AO",
+  "slug": "valle-d-aosta-vallee-d-aoste",
+  "sourceYear": 2026,
+  "count": 74,
+  "municipalities": [
+    {
+      "istatCode": "007001",
+      "officialName": "Allein",
+      "normalizedName": "allein",
+      "aliases": [],
+      "areaKm2": 8.143,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007024",
+        "007026",
+        "007030"
+      ],
+      "focusPoint": {
+        "lat": 45.816963,
+        "lng": 7.274397
+      }
+    },
+    {
+      "istatCode": "007002",
+      "officialName": "Antey-Saint-André",
+      "normalizedName": "antey saint andre",
+      "aliases": [
+        "antey",
+        "antey saint",
+        "anteysaint",
+        "anteysaintandre"
+      ],
+      "areaKm2": 11.766,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007016",
+        "007020",
+        "007039",
+        "007067",
+        "007071"
+      ],
+      "focusPoint": {
+        "lat": 45.809784,
+        "lng": 7.595525
+      }
+    },
+    {
+      "istatCode": "007003",
+      "officialName": "Aosta",
+      "normalizedName": "aosta",
+      "aliases": [],
+      "areaKm2": 21.409,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007019",
+        "007030",
+        "007031",
+        "007049",
+        "007057",
+        "007058",
+        "007066"
+      ],
+      "focusPoint": {
+        "lat": 45.751761,
+        "lng": 7.30417
+      }
+    },
+    {
+      "istatCode": "007004",
+      "officialName": "Arnad",
+      "normalizedName": "arnad",
+      "aliases": [],
+      "areaKm2": 28.537,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007009",
+        "007014",
+        "007023",
+        "007034",
+        "007036",
+        "007037",
+        "007048",
+        "007050",
+        "007073"
+      ],
+      "focusPoint": {
+        "lat": 45.644824,
+        "lng": 7.745033
+      }
+    },
+    {
+      "istatCode": "007005",
+      "officialName": "Arvier",
+      "normalizedName": "arvier",
+      "aliases": [],
+      "areaKm2": 33.321,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007006",
+        "007035",
+        "007041",
+        "007056",
+        "007061",
+        "007068",
+        "007074"
+      ],
+      "focusPoint": {
+        "lat": 45.670237,
+        "lng": 7.104434
+      }
+    },
+    {
+      "istatCode": "007006",
+      "officialName": "Avise",
+      "normalizedName": "avise",
+      "aliases": [],
+      "areaKm2": 52.645,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007005",
+        "007040",
+        "007041",
+        "007061",
+        "007063",
+        "007064"
+      ],
+      "focusPoint": {
+        "lat": 45.725776,
+        "lng": 7.116668
+      }
+    },
+    {
+      "istatCode": "007007",
+      "officialName": "Ayas",
+      "normalizedName": "ayas",
+      "aliases": [],
+      "areaKm2": 129.281,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007012",
+        "007016",
+        "007020",
+        "007032",
+        "007033",
+        "007039",
+        "007065",
+        "007071"
+      ],
+      "focusPoint": {
+        "lat": 45.866612,
+        "lng": 7.733391
+      }
+    },
+    {
+      "istatCode": "007008",
+      "officialName": "Aymavilles",
+      "normalizedName": "aymavilles",
+      "aliases": [],
+      "areaKm2": 53.378,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007021",
+        "007031",
+        "007038",
+        "007063",
+        "007066",
+        "007070",
+        "007074"
+      ],
+      "focusPoint": {
+        "lat": 45.654161,
+        "lng": 7.258758
+      }
+    },
+    {
+      "istatCode": "007009",
+      "officialName": "Bard",
+      "normalizedName": "bard",
+      "aliases": [],
+      "areaKm2": 3.139,
+      "baseChips": 224,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007004",
+        "007023",
+        "007034"
+      ],
+      "focusPoint": {
+        "lat": 45.61603,
+        "lng": 7.748791
+      }
+    },
+    {
+      "istatCode": "007010",
+      "officialName": "Bionaz",
+      "normalizedName": "bionaz",
+      "aliases": [],
+      "areaKm2": 142.43,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007045",
+        "007046",
+        "007047",
+        "007067",
+        "007071"
+      ],
+      "focusPoint": {
+        "lat": 45.91419,
+        "lng": 7.500231
+      }
+    },
+    {
+      "istatCode": "007011",
+      "officialName": "Brissogne",
+      "normalizedName": "brissogne",
+      "aliases": [],
+      "areaKm2": 26.024,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007019",
+        "007021",
+        "007049",
+        "007054",
+        "007060"
+      ],
+      "focusPoint": {
+        "lat": 45.699962,
+        "lng": 7.404974
+      }
+    },
+    {
+      "istatCode": "007012",
+      "officialName": "Brusson",
+      "normalizedName": "brusson",
+      "aliases": [],
+      "areaKm2": 55.15,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007007",
+        "007013",
+        "007025",
+        "007029",
+        "007033",
+        "007036",
+        "007065"
+      ],
+      "focusPoint": {
+        "lat": 45.757867,
+        "lng": 7.752222
+      }
+    },
+    {
+      "istatCode": "007013",
+      "officialName": "Challand-Saint-Anselme",
+      "normalizedName": "challand saint anselme",
+      "aliases": [
+        "challandsaintanselme"
+      ],
+      "areaKm2": 28.054,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007012",
+        "007014",
+        "007025",
+        "007036"
+      ],
+      "focusPoint": {
+        "lat": 45.710706,
+        "lng": 7.760569
+      }
+    },
+    {
+      "istatCode": "007014",
+      "officialName": "Challand-Saint-Victor",
+      "normalizedName": "challand saint victor",
+      "aliases": [
+        "challandsaintvictor"
+      ],
+      "areaKm2": 25.11,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007004",
+        "007013",
+        "007025",
+        "007036",
+        "007043",
+        "007073"
+      ],
+      "focusPoint": {
+        "lat": 45.683706,
+        "lng": 7.734852
+      }
+    },
+    {
+      "istatCode": "007015",
+      "officialName": "Chambave",
+      "normalizedName": "chambave",
+      "aliases": [],
+      "areaKm2": 21.458,
+      "baseChips": 181,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007017",
+        "007027",
+        "007051",
+        "007059",
+        "007072"
+      ],
+      "focusPoint": {
+        "lat": 45.716381,
+        "lng": 7.546796
+      }
+    },
+    {
+      "istatCode": "007016",
+      "officialName": "Chamois",
+      "normalizedName": "chamois",
+      "aliases": [],
+      "areaKm2": 14.906,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007002",
+        "007007",
+        "007039",
+        "007071"
+      ],
+      "focusPoint": {
+        "lat": 45.837897,
+        "lng": 7.641022
+      }
+    },
+    {
+      "istatCode": "007017",
+      "officialName": "Champdepraz",
+      "normalizedName": "champdepraz",
+      "aliases": [],
+      "areaKm2": 48.764,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007015",
+        "007018",
+        "007020",
+        "007027",
+        "007037",
+        "007043",
+        "007051",
+        "007073"
+      ],
+      "focusPoint": {
+        "lat": 45.668009,
+        "lng": 7.590814
+      }
+    },
+    {
+      "istatCode": "007018",
+      "officialName": "Champorcher",
+      "normalizedName": "champorcher",
+      "aliases": [],
+      "areaKm2": 68.336,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007017",
+        "007021",
+        "007027",
+        "007037",
+        "007050"
+      ],
+      "focusPoint": {
+        "lat": 45.602353,
+        "lng": 7.570626
+      }
+    },
+    {
+      "istatCode": "007019",
+      "officialName": "Charvensod",
+      "normalizedName": "charvensod",
+      "aliases": [],
+      "areaKm2": 25.786,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007003",
+        "007011",
+        "007021",
+        "007031",
+        "007049"
+      ],
+      "focusPoint": {
+        "lat": 45.69623,
+        "lng": 7.340331
+      }
+    },
+    {
+      "istatCode": "007020",
+      "officialName": "Châtillon",
+      "normalizedName": "chatillon",
+      "aliases": [],
+      "areaKm2": 39.36,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007002",
+        "007007",
+        "007017",
+        "007039",
+        "007043",
+        "007051",
+        "007059",
+        "007065"
+      ],
+      "focusPoint": {
+        "lat": 45.75811,
+        "lng": 7.623884
+      }
+    },
+    {
+      "istatCode": "007021",
+      "officialName": "Cogne",
+      "normalizedName": "cogne",
+      "aliases": [],
+      "areaKm2": 212.949,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007008",
+        "007011",
+        "007018",
+        "007019",
+        "007027",
+        "007031",
+        "007060",
+        "007070"
+      ],
+      "focusPoint": {
+        "lat": 45.590376,
+        "lng": 7.381369
+      }
+    },
+    {
+      "istatCode": "007022",
+      "officialName": "Courmayeur",
+      "normalizedName": "courmayeur",
+      "aliases": [],
+      "areaKm2": 209.821,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007040",
+        "007041",
+        "007044",
+        "007053",
+        "007064"
+      ],
+      "focusPoint": {
+        "lat": 45.825079,
+        "lng": 6.941046
+      }
+    },
+    {
+      "istatCode": "007023",
+      "officialName": "Donnas",
+      "normalizedName": "donnas",
+      "aliases": [],
+      "areaKm2": 34.092,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007004",
+        "007009",
+        "007034",
+        "007048",
+        "007050",
+        "007052"
+      ],
+      "focusPoint": {
+        "lat": 45.587824,
+        "lng": 7.753712
+      }
+    },
+    {
+      "istatCode": "007024",
+      "officialName": "Doues",
+      "normalizedName": "doues",
+      "aliases": [],
+      "areaKm2": 15.847,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007001",
+        "007026",
+        "007030",
+        "007046",
+        "007057",
+        "007069"
+      ],
+      "focusPoint": {
+        "lat": 45.827123,
+        "lng": 7.298622
+      }
+    },
+    {
+      "istatCode": "007025",
+      "officialName": "Emarèse",
+      "normalizedName": "emarese",
+      "aliases": [],
+      "areaKm2": 10.232,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007012",
+        "007013",
+        "007014",
+        "007043",
+        "007065"
+      ],
+      "focusPoint": {
+        "lat": 45.719057,
+        "lng": 7.70109
+      }
+    },
+    {
+      "istatCode": "007026",
+      "officialName": "Etroubles",
+      "normalizedName": "etroubles",
+      "aliases": [],
+      "areaKm2": 39.639,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007001",
+        "007024",
+        "007030",
+        "007046",
+        "007062"
+      ],
+      "focusPoint": {
+        "lat": 45.842847,
+        "lng": 7.234374
+      }
+    },
+    {
+      "istatCode": "007027",
+      "officialName": "Fénis",
+      "normalizedName": "fenis",
+      "aliases": [],
+      "areaKm2": 68.108,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007015",
+        "007017",
+        "007018",
+        "007021",
+        "007045",
+        "007060",
+        "007072"
+      ],
+      "focusPoint": {
+        "lat": 45.678507,
+        "lng": 7.506911
+      }
+    },
+    {
+      "istatCode": "007028",
+      "officialName": "Fontainemore",
+      "normalizedName": "fontainemore",
+      "aliases": [],
+      "areaKm2": 31.765,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007036",
+        "007042"
+      ],
+      "focusPoint": {
+        "lat": 45.642228,
+        "lng": 7.890559
+      }
+    },
+    {
+      "istatCode": "007029",
+      "officialName": "Gaby",
+      "normalizedName": "gaby",
+      "aliases": [],
+      "areaKm2": 32.795,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007012",
+        "007033",
+        "007036"
+      ],
+      "focusPoint": {
+        "lat": 45.70969,
+        "lng": 7.885395
+      }
+    },
+    {
+      "istatCode": "007030",
+      "officialName": "Gignod",
+      "normalizedName": "gignod",
+      "aliases": [],
+      "areaKm2": 25.921,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007001",
+        "007003",
+        "007024",
+        "007026",
+        "007057",
+        "007062",
+        "007063",
+        "007064",
+        "007066"
+      ],
+      "focusPoint": {
+        "lat": 45.786638,
+        "lng": 7.250771
+      }
+    },
+    {
+      "istatCode": "007031",
+      "officialName": "Gressan",
+      "normalizedName": "gressan",
+      "aliases": [],
+      "areaKm2": 25.374,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007003",
+        "007008",
+        "007019",
+        "007021",
+        "007038",
+        "007066"
+      ],
+      "focusPoint": {
+        "lat": 45.693154,
+        "lng": 7.303383
+      }
+    },
+    {
+      "istatCode": "007032",
+      "officialName": "Gressoney-La-Trinité",
+      "normalizedName": "gressoney la trinite",
+      "aliases": [
+        "gressoney la",
+        "gressoneyla",
+        "gressoneylatrinite"
+      ],
+      "areaKm2": 66.151,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007007",
+        "007033"
+      ],
+      "focusPoint": {
+        "lat": 45.876769,
+        "lng": 7.825264
+      }
+    },
+    {
+      "istatCode": "007033",
+      "officialName": "Gressoney-Saint-Jean",
+      "normalizedName": "gressoney saint jean",
+      "aliases": [
+        "gressoney saint",
+        "gressoneysaint",
+        "gressoneysaintjean"
+      ],
+      "areaKm2": 70.089,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007007",
+        "007012",
+        "007029",
+        "007032"
+      ],
+      "focusPoint": {
+        "lat": 45.783601,
+        "lng": 7.831859
+      }
+    },
+    {
+      "istatCode": "007034",
+      "officialName": "Hône",
+      "normalizedName": "hone",
+      "aliases": [],
+      "areaKm2": 12.756,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007004",
+        "007009",
+        "007023",
+        "007050"
+      ],
+      "focusPoint": {
+        "lat": 45.609578,
+        "lng": 7.723977
+      }
+    },
+    {
+      "istatCode": "007035",
+      "officialName": "Introd",
+      "normalizedName": "introd",
+      "aliases": [],
+      "areaKm2": 19.925,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007005",
+        "007056",
+        "007070",
+        "007074"
+      ],
+      "focusPoint": {
+        "lat": 45.671063,
+        "lng": 7.176682
+      }
+    },
+    {
+      "istatCode": "007036",
+      "officialName": "Issime",
+      "normalizedName": "issime",
+      "aliases": [],
+      "areaKm2": 34.48,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007004",
+        "007012",
+        "007013",
+        "007014",
+        "007028",
+        "007029",
+        "007042",
+        "007048"
+      ],
+      "focusPoint": {
+        "lat": 45.686867,
+        "lng": 7.834263
+      }
+    },
+    {
+      "istatCode": "007037",
+      "officialName": "Issogne",
+      "normalizedName": "issogne",
+      "aliases": [],
+      "areaKm2": 23.534,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007004",
+        "007017",
+        "007018",
+        "007050",
+        "007073"
+      ],
+      "focusPoint": {
+        "lat": 45.653921,
+        "lng": 7.660098
+      }
+    },
+    {
+      "istatCode": "007038",
+      "officialName": "Jovençan",
+      "normalizedName": "jovencan",
+      "aliases": [],
+      "areaKm2": 6.835,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007008",
+        "007031",
+        "007066"
+      ],
+      "focusPoint": {
+        "lat": 45.694225,
+        "lng": 7.277305
+      }
+    },
+    {
+      "istatCode": "007039",
+      "officialName": "La Magdeleine",
+      "normalizedName": "la magdeleine",
+      "aliases": [
+        "lamagdeleine"
+      ],
+      "areaKm2": 8.691,
+      "baseChips": 201,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007002",
+        "007007",
+        "007016",
+        "007020"
+      ],
+      "focusPoint": {
+        "lat": 45.811216,
+        "lng": 7.624137
+      }
+    },
+    {
+      "istatCode": "007040",
+      "officialName": "La Salle",
+      "normalizedName": "la salle",
+      "aliases": [
+        "lasalle"
+      ],
+      "areaKm2": 83.61,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007006",
+        "007022",
+        "007041",
+        "007044",
+        "007064"
+      ],
+      "focusPoint": {
+        "lat": 45.747267,
+        "lng": 7.084163
+      }
+    },
+    {
+      "istatCode": "007041",
+      "officialName": "La Thuile",
+      "normalizedName": "la thuile",
+      "aliases": [
+        "lathuile"
+      ],
+      "areaKm2": 126.057,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007005",
+        "007006",
+        "007022",
+        "007040",
+        "007044",
+        "007053",
+        "007068"
+      ],
+      "focusPoint": {
+        "lat": 45.693285,
+        "lng": 6.920779
+      }
+    },
+    {
+      "istatCode": "007042",
+      "officialName": "Lillianes",
+      "normalizedName": "lillianes",
+      "aliases": [],
+      "areaKm2": 18.647,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007028",
+        "007036",
+        "007048"
+      ],
+      "focusPoint": {
+        "lat": 45.628585,
+        "lng": 7.853816
+      }
+    },
+    {
+      "istatCode": "007043",
+      "officialName": "Montjovet",
+      "normalizedName": "montjovet",
+      "aliases": [],
+      "areaKm2": 18.962,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007014",
+        "007017",
+        "007020",
+        "007025",
+        "007065",
+        "007073"
+      ],
+      "focusPoint": {
+        "lat": 45.719378,
+        "lng": 7.66189
+      }
+    },
+    {
+      "istatCode": "007044",
+      "officialName": "Morgex",
+      "normalizedName": "morgex",
+      "aliases": [],
+      "areaKm2": 43.793,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007022",
+        "007040",
+        "007041",
+        "007053"
+      ],
+      "focusPoint": {
+        "lat": 45.75198,
+        "lng": 7.022961
+      }
+    },
+    {
+      "istatCode": "007045",
+      "officialName": "Nus",
+      "normalizedName": "nus",
+      "aliases": [],
+      "areaKm2": 56.869,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007010",
+        "007027",
+        "007047",
+        "007054",
+        "007060",
+        "007067",
+        "007072"
+      ],
+      "focusPoint": {
+        "lat": 45.807563,
+        "lng": 7.504865
+      }
+    },
+    {
+      "istatCode": "007046",
+      "officialName": "Ollomont",
+      "normalizedName": "ollomont",
+      "aliases": [],
+      "areaKm2": 53.727,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007010",
+        "007024",
+        "007026",
+        "007047",
+        "007069"
+      ],
+      "focusPoint": {
+        "lat": 45.874131,
+        "lng": 7.307553
+      }
+    },
+    {
+      "istatCode": "007047",
+      "officialName": "Oyace",
+      "normalizedName": "oyace",
+      "aliases": [],
+      "areaKm2": 30.355,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007010",
+        "007045",
+        "007046",
+        "007054",
+        "007069"
+      ],
+      "focusPoint": {
+        "lat": 45.843792,
+        "lng": 7.403613
+      }
+    },
+    {
+      "istatCode": "007048",
+      "officialName": "Perloz",
+      "normalizedName": "perloz",
+      "aliases": [],
+      "areaKm2": 23.225,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007004",
+        "007023",
+        "007036",
+        "007042",
+        "007052"
+      ],
+      "focusPoint": {
+        "lat": 45.630163,
+        "lng": 7.803944
+      }
+    },
+    {
+      "istatCode": "007049",
+      "officialName": "Pollein",
+      "normalizedName": "pollein",
+      "aliases": [],
+      "areaKm2": 15.218,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007003",
+        "007011",
+        "007019",
+        "007054",
+        "007058"
+      ],
+      "focusPoint": {
+        "lat": 45.71674,
+        "lng": 7.364753
+      }
+    },
+    {
+      "istatCode": "007050",
+      "officialName": "Pontboset",
+      "normalizedName": "pontboset",
+      "aliases": [],
+      "areaKm2": 33.421,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007004",
+        "007018",
+        "007023",
+        "007034",
+        "007037"
+      ],
+      "focusPoint": {
+        "lat": 45.593779,
+        "lng": 7.671247
+      }
+    },
+    {
+      "istatCode": "007051",
+      "officialName": "Pontey",
+      "normalizedName": "pontey",
+      "aliases": [],
+      "areaKm2": 16.011,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007015",
+        "007017",
+        "007020",
+        "007059"
+      ],
+      "focusPoint": {
+        "lat": 45.716061,
+        "lng": 7.582517
+      }
+    },
+    {
+      "istatCode": "007052",
+      "officialName": "Pont-Saint-Martin",
+      "normalizedName": "pont saint martin",
+      "aliases": [
+        "pont",
+        "pont saint",
+        "pontsaint",
+        "pontsaintmartin"
+      ],
+      "areaKm2": 6.946,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007023",
+        "007048"
+      ],
+      "focusPoint": {
+        "lat": 45.600132,
+        "lng": 7.816363
+      }
+    },
+    {
+      "istatCode": "007053",
+      "officialName": "Pré-Saint-Didier",
+      "normalizedName": "pre saint didier",
+      "aliases": [
+        "pre",
+        "pre saint",
+        "presaint",
+        "presaintdidier"
+      ],
+      "areaKm2": 33.417,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007022",
+        "007041",
+        "007044"
+      ],
+      "focusPoint": {
+        "lat": 45.757476,
+        "lng": 6.943167
+      }
+    },
+    {
+      "istatCode": "007054",
+      "officialName": "Quart",
+      "normalizedName": "quart",
+      "aliases": [],
+      "areaKm2": 62.129,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007011",
+        "007045",
+        "007047",
+        "007049",
+        "007058",
+        "007060",
+        "007069"
+      ],
+      "focusPoint": {
+        "lat": 45.768697,
+        "lng": 7.417285
+      }
+    },
+    {
+      "istatCode": "007055",
+      "officialName": "Rhêmes-Notre-Dame",
+      "normalizedName": "rhemes notre dame",
+      "aliases": [
+        "rhemes notre",
+        "rhemesnotre",
+        "rhemesnotredame"
+      ],
+      "areaKm2": 86.889,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007056",
+        "007068",
+        "007070"
+      ],
+      "focusPoint": {
+        "lat": 45.532637,
+        "lng": 7.105949
+      }
+    },
+    {
+      "istatCode": "007056",
+      "officialName": "Rhêmes-Saint-Georges",
+      "normalizedName": "rhemes saint georges",
+      "aliases": [
+        "rhemes saint",
+        "rhemessaint",
+        "rhemessaintgeorges"
+      ],
+      "areaKm2": 36.409,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007005",
+        "007035",
+        "007055",
+        "007068",
+        "007070"
+      ],
+      "focusPoint": {
+        "lat": 45.622718,
+        "lng": 7.139797
+      }
+    },
+    {
+      "istatCode": "007057",
+      "officialName": "Roisan",
+      "normalizedName": "roisan",
+      "aliases": [],
+      "areaKm2": 14.715,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007003",
+        "007024",
+        "007030",
+        "007058",
+        "007069"
+      ],
+      "focusPoint": {
+        "lat": 45.786638,
+        "lng": 7.327528
+      }
+    },
+    {
+      "istatCode": "007058",
+      "officialName": "Saint-Christophe",
+      "normalizedName": "saint christophe",
+      "aliases": [
+        "saintchristophe"
+      ],
+      "areaKm2": 14.522,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007003",
+        "007049",
+        "007054",
+        "007057",
+        "007069"
+      ],
+      "focusPoint": {
+        "lat": 45.765305,
+        "lng": 7.353074
+      }
+    },
+    {
+      "istatCode": "007059",
+      "officialName": "Saint-Denis",
+      "normalizedName": "saint denis",
+      "aliases": [
+        "saintdenis"
+      ],
+      "areaKm2": 11.392,
+      "baseChips": 195,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007015",
+        "007020",
+        "007051",
+        "007067",
+        "007072"
+      ],
+      "focusPoint": {
+        "lat": 45.764508,
+        "lng": 7.570745
+      }
+    },
+    {
+      "istatCode": "007060",
+      "officialName": "Saint-Marcel",
+      "normalizedName": "saint marcel",
+      "aliases": [
+        "saintmarcel"
+      ],
+      "areaKm2": 42.507,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007011",
+        "007021",
+        "007027",
+        "007045",
+        "007054"
+      ],
+      "focusPoint": {
+        "lat": 45.681731,
+        "lng": 7.448356
+      }
+    },
+    {
+      "istatCode": "007061",
+      "officialName": "Saint-Nicolas",
+      "normalizedName": "saint nicolas",
+      "aliases": [
+        "saintnicolas"
+      ],
+      "areaKm2": 15.331,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007005",
+        "007006",
+        "007063",
+        "007074"
+      ],
+      "focusPoint": {
+        "lat": 45.730153,
+        "lng": 7.151773
+      }
+    },
+    {
+      "istatCode": "007062",
+      "officialName": "Saint-Oyen",
+      "normalizedName": "saint oyen",
+      "aliases": [
+        "saintoyen"
+      ],
+      "areaKm2": 9.6,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007026",
+        "007030",
+        "007064"
+      ],
+      "focusPoint": {
+        "lat": 45.825844,
+        "lng": 7.210827
+      }
+    },
+    {
+      "istatCode": "007063",
+      "officialName": "Saint-Pierre",
+      "normalizedName": "saint pierre",
+      "aliases": [
+        "saintpierre"
+      ],
+      "areaKm2": 26.219,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007006",
+        "007008",
+        "007030",
+        "007061",
+        "007064",
+        "007066",
+        "007074"
+      ],
+      "focusPoint": {
+        "lat": 45.742328,
+        "lng": 7.192598
+      }
+    },
+    {
+      "istatCode": "007064",
+      "officialName": "Saint-Rhémy-en-Bosses",
+      "normalizedName": "saint rhemy en bosses",
+      "aliases": [
+        "saint rhemy",
+        "saint rhemy en",
+        "saintrhemy",
+        "saintrhemyen",
+        "saintrhemyenbosses"
+      ],
+      "areaKm2": 64.771,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007006",
+        "007022",
+        "007030",
+        "007040",
+        "007062",
+        "007063"
+      ],
+      "focusPoint": {
+        "lat": 45.824457,
+        "lng": 7.144856
+      }
+    },
+    {
+      "istatCode": "007065",
+      "officialName": "Saint-Vincent",
+      "normalizedName": "saint vincent",
+      "aliases": [
+        "saintvincent"
+      ],
+      "areaKm2": 20.864,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007007",
+        "007012",
+        "007020",
+        "007025",
+        "007043"
+      ],
+      "focusPoint": {
+        "lat": 45.759311,
+        "lng": 7.67355
+      }
+    },
+    {
+      "istatCode": "007066",
+      "officialName": "Sarre",
+      "normalizedName": "sarre",
+      "aliases": [],
+      "areaKm2": 28.445,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007003",
+        "007008",
+        "007030",
+        "007031",
+        "007038",
+        "007063"
+      ],
+      "focusPoint": {
+        "lat": 45.74384,
+        "lng": 7.252078
+      }
+    },
+    {
+      "istatCode": "007067",
+      "officialName": "Torgnon",
+      "normalizedName": "torgnon",
+      "aliases": [],
+      "areaKm2": 42.505,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007002",
+        "007010",
+        "007045",
+        "007059",
+        "007071",
+        "007072"
+      ],
+      "focusPoint": {
+        "lat": 45.825453,
+        "lng": 7.56638
+      }
+    },
+    {
+      "istatCode": "007068",
+      "officialName": "Valgrisenche",
+      "normalizedName": "valgrisenche",
+      "aliases": [],
+      "areaKm2": 113.598,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007005",
+        "007041",
+        "007055",
+        "007056"
+      ],
+      "focusPoint": {
+        "lat": 45.580162,
+        "lng": 7.037862
+      }
+    },
+    {
+      "istatCode": "007069",
+      "officialName": "Valpelline",
+      "normalizedName": "valpelline",
+      "aliases": [],
+      "areaKm2": 31.63,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007024",
+        "007046",
+        "007047",
+        "007054",
+        "007057",
+        "007058"
+      ],
+      "focusPoint": {
+        "lat": 45.831896,
+        "lng": 7.349239
+      }
+    },
+    {
+      "istatCode": "007070",
+      "officialName": "Valsavarenche",
+      "normalizedName": "valsavarenche",
+      "aliases": [],
+      "areaKm2": 138.108,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007008",
+        "007021",
+        "007035",
+        "007055",
+        "007056",
+        "007074"
+      ],
+      "focusPoint": {
+        "lat": 45.560337,
+        "lng": 7.225623
+      }
+    },
+    {
+      "istatCode": "007071",
+      "officialName": "Valtournenche",
+      "normalizedName": "valtournenche",
+      "aliases": [],
+      "areaKm2": 116.256,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "007002",
+        "007007",
+        "007010",
+        "007016",
+        "007067"
+      ],
+      "focusPoint": {
+        "lat": 45.911939,
+        "lng": 7.619892
+      }
+    },
+    {
+      "istatCode": "007072",
+      "officialName": "Verrayes",
+      "normalizedName": "verrayes",
+      "aliases": [],
+      "areaKm2": 22.556,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007015",
+        "007027",
+        "007045",
+        "007059",
+        "007067"
+      ],
+      "focusPoint": {
+        "lat": 45.769534,
+        "lng": 7.523986
+      }
+    },
+    {
+      "istatCode": "007073",
+      "officialName": "Verrès",
+      "normalizedName": "verres",
+      "aliases": [],
+      "areaKm2": 8.468,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007004",
+        "007014",
+        "007017",
+        "007037",
+        "007043"
+      ],
+      "focusPoint": {
+        "lat": 45.666375,
+        "lng": 7.702623
+      }
+    },
+    {
+      "istatCode": "007074",
+      "officialName": "Villeneuve",
+      "normalizedName": "villeneuve",
+      "aliases": [],
+      "areaKm2": 8.639,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "007005",
+        "007008",
+        "007035",
+        "007061",
+        "007063",
+        "007070"
+      ],
+      "focusPoint": {
+        "lat": 45.679272,
+        "lng": 7.206551
+      }
+    }
+  ]
+}

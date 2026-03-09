@@ -1,0 +1,1416 @@
+{
+  "provinceCode": "098",
+  "label": "Lodi",
+  "officialScopeLabel": "Provincia di Lodi",
+  "sigla": "LO",
+  "slug": "lodi",
+  "sourceYear": 2026,
+  "count": 60,
+  "municipalities": [
+    {
+      "istatCode": "098001",
+      "officialName": "Abbadia Cerreto",
+      "normalizedName": "abbadia cerreto",
+      "aliases": [
+        "abbadia",
+        "abbadiacerreto"
+      ],
+      "areaKm2": 6.401,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098017",
+        "098024",
+        "098025"
+      ],
+      "focusPoint": {
+        "lat": 45.31961,
+        "lng": 9.597836
+      }
+    },
+    {
+      "istatCode": "098002",
+      "officialName": "Bertonico",
+      "normalizedName": "bertonico",
+      "aliases": [],
+      "areaKm2": 20.863,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098014",
+        "098057",
+        "098058"
+      ],
+      "focusPoint": {
+        "lat": 45.246342,
+        "lng": 9.67568
+      }
+    },
+    {
+      "istatCode": "098003",
+      "officialName": "Boffalora d'Adda",
+      "normalizedName": "boffalora d adda",
+      "aliases": [
+        "boffalora",
+        "boffaloradadda"
+      ],
+      "areaKm2": 8.601,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098027",
+        "098031",
+        "098040",
+        "098061"
+      ],
+      "focusPoint": {
+        "lat": 45.360728,
+        "lng": 9.489103
+      }
+    },
+    {
+      "istatCode": "098004",
+      "officialName": "Borghetto Lodigiano",
+      "normalizedName": "borghetto lodigiano",
+      "aliases": [
+        "borghetto",
+        "borghettolodigiano"
+      ],
+      "areaKm2": 24.192,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098006",
+        "098028",
+        "098030",
+        "098044",
+        "098060"
+      ],
+      "focusPoint": {
+        "lat": 45.212894,
+        "lng": 9.501915
+      }
+    },
+    {
+      "istatCode": "098005",
+      "officialName": "Borgo San Giovanni",
+      "normalizedName": "borgo san giovanni",
+      "aliases": [
+        "borgo",
+        "borgo san",
+        "borgosan",
+        "borgosangiovanni"
+      ],
+      "areaKm2": 7.719,
+      "baseChips": 204,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098015",
+        "098032",
+        "098045",
+        "098046",
+        "098050"
+      ],
+      "focusPoint": {
+        "lat": 45.274275,
+        "lng": 9.421953
+      }
+    },
+    {
+      "istatCode": "098006",
+      "officialName": "Brembio",
+      "normalizedName": "brembio",
+      "aliases": [],
+      "areaKm2": 17.28,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098004",
+        "098010",
+        "098030",
+        "098034",
+        "098043",
+        "098044",
+        "098052"
+      ],
+      "focusPoint": {
+        "lat": 45.20874,
+        "lng": 9.57438
+      }
+    },
+    {
+      "istatCode": "098008",
+      "officialName": "Casaletto Lodigiano",
+      "normalizedName": "casaletto lodigiano",
+      "aliases": [
+        "casaletto",
+        "casalettolodigiano"
+      ],
+      "areaKm2": 9.376,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098012",
+        "098046"
+      ],
+      "focusPoint": {
+        "lat": 45.297291,
+        "lng": 9.367046
+      }
+    },
+    {
+      "istatCode": "098009",
+      "officialName": "Casalmaiocco",
+      "normalizedName": "casalmaiocco",
+      "aliases": [],
+      "areaKm2": 4.78,
+      "baseChips": 215,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098041",
+        "098055",
+        "098056"
+      ],
+      "focusPoint": {
+        "lat": 45.356621,
+        "lng": 9.371516
+      }
+    },
+    {
+      "istatCode": "098010",
+      "officialName": "Casalpusterlengo",
+      "normalizedName": "casalpusterlengo",
+      "aliases": [],
+      "areaKm2": 25.592,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098006",
+        "098019",
+        "098043",
+        "098052",
+        "098054",
+        "098057",
+        "098058"
+      ],
+      "focusPoint": {
+        "lat": 45.198062,
+        "lng": 9.621678
+      }
+    },
+    {
+      "istatCode": "098011",
+      "officialName": "Caselle Landi",
+      "normalizedName": "caselle landi",
+      "aliases": [
+        "casellelandi"
+      ],
+      "areaKm2": 25.914,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098013",
+        "098022",
+        "098023",
+        "098038",
+        "098051"
+      ],
+      "focusPoint": {
+        "lat": 45.090699,
+        "lng": 9.80601
+      }
+    },
+    {
+      "istatCode": "098012",
+      "officialName": "Caselle Lurani",
+      "normalizedName": "caselle lurani",
+      "aliases": [
+        "casellelurani"
+      ],
+      "areaKm2": 7.554,
+      "baseChips": 205,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098008",
+        "098015",
+        "098036",
+        "098046",
+        "098059"
+      ],
+      "focusPoint": {
+        "lat": 45.270763,
+        "lng": 9.363145
+      }
+    },
+    {
+      "istatCode": "098013",
+      "officialName": "Castelnuovo Bocca d'Adda",
+      "normalizedName": "castelnuovo bocca d adda",
+      "aliases": [
+        "castelnuovo",
+        "castelnuovo bocca",
+        "castelnuovobocca",
+        "castelnuovoboccadadda"
+      ],
+      "areaKm2": 20.69,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098011",
+        "098033",
+        "098038"
+      ],
+      "focusPoint": {
+        "lat": 45.105948,
+        "lng": 9.86504
+      }
+    },
+    {
+      "istatCode": "098014",
+      "officialName": "Castiglione d'Adda",
+      "normalizedName": "castiglione d adda",
+      "aliases": [
+        "castiglione",
+        "castiglionedadda"
+      ],
+      "areaKm2": 13.03,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098002",
+        "098057",
+        "098062"
+      ],
+      "focusPoint": {
+        "lat": 45.224109,
+        "lng": 9.704224
+      }
+    },
+    {
+      "istatCode": "098015",
+      "officialName": "Castiraga Vidardo",
+      "normalizedName": "castiraga vidardo",
+      "aliases": [
+        "castiraga",
+        "castiragavidardo"
+      ],
+      "areaKm2": 5.142,
+      "baseChips": 213,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098005",
+        "098012",
+        "098036",
+        "098046",
+        "098050"
+      ],
+      "focusPoint": {
+        "lat": 45.265262,
+        "lng": 9.394006
+      }
+    },
+    {
+      "istatCode": "098017",
+      "officialName": "Cavenago d'Adda",
+      "normalizedName": "cavenago d adda",
+      "aliases": [
+        "cavenago",
+        "cavenagodadda"
+      ],
+      "areaKm2": 16.115,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098001",
+        "098024",
+        "098034",
+        "098044",
+        "098048",
+        "098058"
+      ],
+      "focusPoint": {
+        "lat": 45.279063,
+        "lng": 9.598913
+      }
+    },
+    {
+      "istatCode": "098018",
+      "officialName": "Cervignano d'Adda",
+      "normalizedName": "cervignano d adda",
+      "aliases": [
+        "cervignano",
+        "cervignanodadda"
+      ],
+      "areaKm2": 4.16,
+      "baseChips": 218,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098027",
+        "098041",
+        "098061"
+      ],
+      "focusPoint": {
+        "lat": 45.375205,
+        "lng": 9.425614
+      }
+    },
+    {
+      "istatCode": "098019",
+      "officialName": "Codogno",
+      "normalizedName": "codogno",
+      "aliases": [],
+      "areaKm2": 21.014,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098010",
+        "098026",
+        "098035",
+        "098047",
+        "098054",
+        "098057",
+        "098062"
+      ],
+      "focusPoint": {
+        "lat": 45.163897,
+        "lng": 9.69445
+      }
+    },
+    {
+      "istatCode": "098020",
+      "officialName": "Comazzo",
+      "normalizedName": "comazzo",
+      "aliases": [],
+      "areaKm2": 12.788,
+      "baseChips": 193,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098039"
+      ],
+      "focusPoint": {
+        "lat": 45.446774,
+        "lng": 9.467363
+      }
+    },
+    {
+      "istatCode": "098021",
+      "officialName": "Cornegliano Laudense",
+      "normalizedName": "cornegliano laudense",
+      "aliases": [
+        "cornegliano",
+        "corneglianolaudense"
+      ],
+      "areaKm2": 5.96,
+      "baseChips": 210,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098031",
+        "098037",
+        "098045",
+        "098048"
+      ],
+      "focusPoint": {
+        "lat": 45.28561,
+        "lng": 9.4802
+      }
+    },
+    {
+      "istatCode": "098022",
+      "officialName": "Corno Giovine",
+      "normalizedName": "corno giovine",
+      "aliases": [
+        "corno",
+        "cornogiovine"
+      ],
+      "areaKm2": 9.985,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098011",
+        "098023",
+        "098035",
+        "098051"
+      ],
+      "focusPoint": {
+        "lat": 45.128673,
+        "lng": 9.773612
+      }
+    },
+    {
+      "istatCode": "098023",
+      "officialName": "Cornovecchio",
+      "normalizedName": "cornovecchio",
+      "aliases": [],
+      "areaKm2": 6.522,
+      "baseChips": 208,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098011",
+        "098022",
+        "098035",
+        "098038"
+      ],
+      "focusPoint": {
+        "lat": 45.144172,
+        "lng": 9.810526
+      }
+    },
+    {
+      "istatCode": "098024",
+      "officialName": "Corte Palasio",
+      "normalizedName": "corte palasio",
+      "aliases": [
+        "corte",
+        "cortepalasio"
+      ],
+      "areaKm2": 15.474,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098001",
+        "098017",
+        "098025",
+        "098031",
+        "098048"
+      ],
+      "focusPoint": {
+        "lat": 45.308128,
+        "lng": 9.55956
+      }
+    },
+    {
+      "istatCode": "098025",
+      "officialName": "Crespiatica",
+      "normalizedName": "crespiatica",
+      "aliases": [],
+      "areaKm2": 7.185,
+      "baseChips": 206,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098001",
+        "098024"
+      ],
+      "focusPoint": {
+        "lat": 45.348385,
+        "lng": 9.578666
+      }
+    },
+    {
+      "istatCode": "098026",
+      "officialName": "Fombio",
+      "normalizedName": "fombio",
+      "aliases": [],
+      "areaKm2": 7.275,
+      "baseChips": 205,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098019",
+        "098029",
+        "098047",
+        "098049",
+        "098051",
+        "098054"
+      ],
+      "focusPoint": {
+        "lat": 45.12834,
+        "lng": 9.683154
+      }
+    },
+    {
+      "istatCode": "098027",
+      "officialName": "Galgagnano",
+      "normalizedName": "galgagnano",
+      "aliases": [],
+      "areaKm2": 5.995,
+      "baseChips": 210,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098003",
+        "098018",
+        "098040",
+        "098041",
+        "098061"
+      ],
+      "focusPoint": {
+        "lat": 45.355055,
+        "lng": 9.453936
+      }
+    },
+    {
+      "istatCode": "098028",
+      "officialName": "Graffignana",
+      "normalizedName": "graffignana",
+      "aliases": [],
+      "areaKm2": 10.683,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098004",
+        "098050",
+        "098060"
+      ],
+      "focusPoint": {
+        "lat": 45.209211,
+        "lng": 9.444708
+      }
+    },
+    {
+      "istatCode": "098029",
+      "officialName": "Guardamiglio",
+      "normalizedName": "guardamiglio",
+      "aliases": [],
+      "areaKm2": 10.441,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098026",
+        "098049",
+        "098054"
+      ],
+      "focusPoint": {
+        "lat": 45.110465,
+        "lng": 9.667923
+      }
+    },
+    {
+      "istatCode": "098030",
+      "officialName": "Livraga",
+      "normalizedName": "livraga",
+      "aliases": [],
+      "areaKm2": 12.307,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098004",
+        "098006",
+        "098042",
+        "098043"
+      ],
+      "focusPoint": {
+        "lat": 45.184584,
+        "lng": 9.545557
+      }
+    },
+    {
+      "istatCode": "098031",
+      "officialName": "Lodi",
+      "normalizedName": "lodi",
+      "aliases": [],
+      "areaKm2": 41.124,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098003",
+        "098021",
+        "098024",
+        "098032",
+        "098040",
+        "098048",
+        "098056"
+      ],
+      "focusPoint": {
+        "lat": 45.310531,
+        "lng": 9.495388
+      }
+    },
+    {
+      "istatCode": "098032",
+      "officialName": "Lodi Vecchio",
+      "normalizedName": "lodi vecchio",
+      "aliases": [
+        "lodi",
+        "lodivecchio"
+      ],
+      "areaKm2": 16.547,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098005",
+        "098031",
+        "098045",
+        "098046",
+        "098056"
+      ],
+      "focusPoint": {
+        "lat": 45.300407,
+        "lng": 9.420632
+      }
+    },
+    {
+      "istatCode": "098033",
+      "officialName": "Maccastorna",
+      "normalizedName": "maccastorna",
+      "aliases": [],
+      "areaKm2": 5.438,
+      "baseChips": 212,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098013",
+        "098038"
+      ],
+      "focusPoint": {
+        "lat": 45.146941,
+        "lng": 9.855552
+      }
+    },
+    {
+      "istatCode": "098034",
+      "officialName": "Mairago",
+      "normalizedName": "mairago",
+      "aliases": [],
+      "areaKm2": 11.186,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098006",
+        "098017",
+        "098044",
+        "098052",
+        "098058"
+      ],
+      "focusPoint": {
+        "lat": 45.25667,
+        "lng": 9.585876
+      }
+    },
+    {
+      "istatCode": "098035",
+      "officialName": "Maleo",
+      "normalizedName": "maleo",
+      "aliases": [],
+      "areaKm2": 19.707,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098019",
+        "098022",
+        "098023",
+        "098047",
+        "098051",
+        "098062"
+      ],
+      "focusPoint": {
+        "lat": 45.161658,
+        "lng": 9.764623
+      }
+    },
+    {
+      "istatCode": "098036",
+      "officialName": "Marudo",
+      "normalizedName": "marudo",
+      "aliases": [],
+      "areaKm2": 4.306,
+      "baseChips": 217,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098012",
+        "098015",
+        "098050",
+        "098059"
+      ],
+      "focusPoint": {
+        "lat": 45.25733,
+        "lng": 9.376291
+      }
+    },
+    {
+      "istatCode": "098037",
+      "officialName": "Massalengo",
+      "normalizedName": "massalengo",
+      "aliases": [],
+      "areaKm2": 8.481,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098021",
+        "098044",
+        "098045",
+        "098048",
+        "098060"
+      ],
+      "focusPoint": {
+        "lat": 45.264321,
+        "lng": 9.494306
+      }
+    },
+    {
+      "istatCode": "098038",
+      "officialName": "Meleti",
+      "normalizedName": "meleti",
+      "aliases": [],
+      "areaKm2": 7.421,
+      "baseChips": 205,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098011",
+        "098013",
+        "098023",
+        "098033"
+      ],
+      "focusPoint": {
+        "lat": 45.131837,
+        "lng": 9.827434
+      }
+    },
+    {
+      "istatCode": "098039",
+      "officialName": "Merlino",
+      "normalizedName": "merlino",
+      "aliases": [],
+      "areaKm2": 10.704,
+      "baseChips": 197,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098020",
+        "098061"
+      ],
+      "focusPoint": {
+        "lat": 45.433217,
+        "lng": 9.431327
+      }
+    },
+    {
+      "istatCode": "098040",
+      "officialName": "Montanaso Lombardo",
+      "normalizedName": "montanaso lombardo",
+      "aliases": [
+        "montanaso",
+        "montanasolombardo"
+      ],
+      "areaKm2": 9.733,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098003",
+        "098027",
+        "098031",
+        "098041",
+        "098056"
+      ],
+      "focusPoint": {
+        "lat": 45.337779,
+        "lng": 9.461756
+      }
+    },
+    {
+      "istatCode": "098041",
+      "officialName": "Mulazzano",
+      "normalizedName": "mulazzano",
+      "aliases": [],
+      "areaKm2": 15.493,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098009",
+        "098018",
+        "098027",
+        "098040",
+        "098056",
+        "098061"
+      ],
+      "focusPoint": {
+        "lat": 45.367447,
+        "lng": 9.40146
+      }
+    },
+    {
+      "istatCode": "098042",
+      "officialName": "Orio Litta",
+      "normalizedName": "orio litta",
+      "aliases": [
+        "orio",
+        "oriolitta"
+      ],
+      "areaKm2": 9.887,
+      "baseChips": 199,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098030",
+        "098043",
+        "098053"
+      ],
+      "focusPoint": {
+        "lat": 45.158015,
+        "lng": 9.554192
+      }
+    },
+    {
+      "istatCode": "098043",
+      "officialName": "Ospedaletto Lodigiano",
+      "normalizedName": "ospedaletto lodigiano",
+      "aliases": [
+        "ospedaletto",
+        "ospedalettolodigiano"
+      ],
+      "areaKm2": 8.392,
+      "baseChips": 202,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098006",
+        "098010",
+        "098030",
+        "098042",
+        "098053",
+        "098054"
+      ],
+      "focusPoint": {
+        "lat": 45.169551,
+        "lng": 9.586621
+      }
+    },
+    {
+      "istatCode": "098044",
+      "officialName": "Ossago Lodigiano",
+      "normalizedName": "ossago lodigiano",
+      "aliases": [
+        "ossago",
+        "ossagolodigiano"
+      ],
+      "areaKm2": 11.316,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098004",
+        "098006",
+        "098017",
+        "098034",
+        "098037",
+        "098048",
+        "098060"
+      ],
+      "focusPoint": {
+        "lat": 45.243097,
+        "lng": 9.53707
+      }
+    },
+    {
+      "istatCode": "098045",
+      "officialName": "Pieve Fissiraga",
+      "normalizedName": "pieve fissiraga",
+      "aliases": [
+        "pieve",
+        "pievefissiraga"
+      ],
+      "areaKm2": 12.098,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098005",
+        "098021",
+        "098032",
+        "098037",
+        "098050",
+        "098060"
+      ],
+      "focusPoint": {
+        "lat": 45.267966,
+        "lng": 9.457285
+      }
+    },
+    {
+      "istatCode": "098046",
+      "officialName": "Salerano sul Lambro",
+      "normalizedName": "salerano sul lambro",
+      "aliases": [
+        "salerano",
+        "saleranosullambro"
+      ],
+      "areaKm2": 4.363,
+      "baseChips": 217,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098005",
+        "098008",
+        "098012",
+        "098015",
+        "098032"
+      ],
+      "focusPoint": {
+        "lat": 45.29393,
+        "lng": 9.383384
+      }
+    },
+    {
+      "istatCode": "098047",
+      "officialName": "San Fiorano",
+      "normalizedName": "san fiorano",
+      "aliases": [
+        "sanfiorano"
+      ],
+      "areaKm2": 9.071,
+      "baseChips": 200,
+      "sizeQuartile": 1,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098019",
+        "098026",
+        "098035",
+        "098051"
+      ],
+      "focusPoint": {
+        "lat": 45.134505,
+        "lng": 9.713487
+      }
+    },
+    {
+      "istatCode": "098048",
+      "officialName": "San Martino in Strada",
+      "normalizedName": "san martino in strada",
+      "aliases": [
+        "san martino",
+        "sanmartino",
+        "sanmartinoinstrada"
+      ],
+      "areaKm2": 13.412,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098017",
+        "098021",
+        "098024",
+        "098031",
+        "098037",
+        "098044"
+      ],
+      "focusPoint": {
+        "lat": 45.275859,
+        "lng": 9.532325
+      }
+    },
+    {
+      "istatCode": "098049",
+      "officialName": "San Rocco al Porto",
+      "normalizedName": "san rocco al porto",
+      "aliases": [
+        "san rocco",
+        "san rocco al",
+        "sanrocco",
+        "sanroccoal",
+        "sanroccoalporto"
+      ],
+      "areaKm2": 30.95,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098026",
+        "098029",
+        "098051"
+      ],
+      "focusPoint": {
+        "lat": 45.083981,
+        "lng": 9.694208
+      }
+    },
+    {
+      "istatCode": "098050",
+      "officialName": "Sant'Angelo Lodigiano",
+      "normalizedName": "sant angelo lodigiano",
+      "aliases": [
+        "sant",
+        "sant angelo",
+        "santangelo",
+        "santangelolodigiano"
+      ],
+      "areaKm2": 19.957,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098005",
+        "098015",
+        "098028",
+        "098036",
+        "098045",
+        "098060"
+      ],
+      "focusPoint": {
+        "lat": 45.22978,
+        "lng": 9.410633
+      }
+    },
+    {
+      "istatCode": "098051",
+      "officialName": "Santo Stefano Lodigiano",
+      "normalizedName": "santo stefano lodigiano",
+      "aliases": [
+        "santo",
+        "santo stefano",
+        "santostefano",
+        "santostefanolodigiano"
+      ],
+      "areaKm2": 10.368,
+      "baseChips": 198,
+      "sizeQuartile": 1,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098011",
+        "098022",
+        "098026",
+        "098035",
+        "098047",
+        "098049"
+      ],
+      "focusPoint": {
+        "lat": 45.121237,
+        "lng": 9.736474
+      }
+    },
+    {
+      "istatCode": "098052",
+      "officialName": "Secugnago",
+      "normalizedName": "secugnago",
+      "aliases": [],
+      "areaKm2": 6.852,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098006",
+        "098010",
+        "098034",
+        "098058"
+      ],
+      "focusPoint": {
+        "lat": 45.235966,
+        "lng": 9.589075
+      }
+    },
+    {
+      "istatCode": "098053",
+      "officialName": "Senna Lodigiana",
+      "normalizedName": "senna lodigiana",
+      "aliases": [
+        "senna",
+        "sennalodigiana"
+      ],
+      "areaKm2": 26.982,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098042",
+        "098043",
+        "098054"
+      ],
+      "focusPoint": {
+        "lat": 45.135564,
+        "lng": 9.595142
+      }
+    },
+    {
+      "istatCode": "098054",
+      "officialName": "Somaglia",
+      "normalizedName": "somaglia",
+      "aliases": [],
+      "areaKm2": 21.005,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098010",
+        "098019",
+        "098026",
+        "098029",
+        "098043",
+        "098053"
+      ],
+      "focusPoint": {
+        "lat": 45.153632,
+        "lng": 9.646283
+      }
+    },
+    {
+      "istatCode": "098055",
+      "officialName": "Sordio",
+      "normalizedName": "sordio",
+      "aliases": [],
+      "areaKm2": 2.714,
+      "baseChips": 227,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098009",
+        "098056"
+      ],
+      "focusPoint": {
+        "lat": 45.337939,
+        "lng": 9.373705
+      }
+    },
+    {
+      "istatCode": "098056",
+      "officialName": "Tavazzano con Villavesco",
+      "normalizedName": "tavazzano con villavesco",
+      "aliases": [
+        "tavazzano",
+        "tavazzano con",
+        "tavazzanocon",
+        "tavazzanoconvillavesco"
+      ],
+      "areaKm2": 15.908,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098009",
+        "098031",
+        "098032",
+        "098040",
+        "098041",
+        "098055"
+      ],
+      "focusPoint": {
+        "lat": 45.334138,
+        "lng": 9.405065
+      }
+    },
+    {
+      "istatCode": "098057",
+      "officialName": "Terranova dei Passerini",
+      "normalizedName": "terranova dei passerini",
+      "aliases": [
+        "terranova",
+        "terranovadeipasserini"
+      ],
+      "areaKm2": 11.149,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098002",
+        "098010",
+        "098014",
+        "098019",
+        "098058",
+        "098062"
+      ],
+      "focusPoint": {
+        "lat": 45.202956,
+        "lng": 9.691395
+      }
+    },
+    {
+      "istatCode": "098058",
+      "officialName": "Turano Lodigiano",
+      "normalizedName": "turano lodigiano",
+      "aliases": [
+        "turano",
+        "turanolodigiano"
+      ],
+      "areaKm2": 16.051,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098002",
+        "098010",
+        "098017",
+        "098034",
+        "098052",
+        "098057"
+      ],
+      "focusPoint": {
+        "lat": 45.25074,
+        "lng": 9.627397
+      }
+    },
+    {
+      "istatCode": "098059",
+      "officialName": "Valera Fratta",
+      "normalizedName": "valera fratta",
+      "aliases": [
+        "valera",
+        "valerafratta"
+      ],
+      "areaKm2": 8.086,
+      "baseChips": 203,
+      "sizeQuartile": 1,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098012",
+        "098036"
+      ],
+      "focusPoint": {
+        "lat": 45.254966,
+        "lng": 9.333114
+      }
+    },
+    {
+      "istatCode": "098060",
+      "officialName": "Villanova del Sillaro",
+      "normalizedName": "villanova del sillaro",
+      "aliases": [
+        "villanova",
+        "villanovadelsillaro"
+      ],
+      "areaKm2": 13.485,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "098004",
+        "098028",
+        "098037",
+        "098044",
+        "098045",
+        "098050"
+      ],
+      "focusPoint": {
+        "lat": 45.23845,
+        "lng": 9.473591
+      }
+    },
+    {
+      "istatCode": "098061",
+      "officialName": "Zelo Buon Persico",
+      "normalizedName": "zelo buon persico",
+      "aliases": [
+        "zelo",
+        "zelo buon",
+        "zelobuon",
+        "zelobuonpersico"
+      ],
+      "areaKm2": 18.643,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098003",
+        "098018",
+        "098027",
+        "098039",
+        "098041"
+      ],
+      "focusPoint": {
+        "lat": 45.398946,
+        "lng": 9.434868
+      }
+    },
+    {
+      "istatCode": "098062",
+      "officialName": "Castelgerundo",
+      "normalizedName": "castelgerundo",
+      "aliases": [],
+      "areaKm2": 20.254,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "098014",
+        "098019",
+        "098035",
+        "098057"
+      ],
+      "focusPoint": {
+        "lat": 45.199615,
+        "lng": 9.737199
+      }
+    }
+  ]
+}

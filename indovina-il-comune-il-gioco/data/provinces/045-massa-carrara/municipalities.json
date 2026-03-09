@@ -1,0 +1,369 @@
+{
+  "provinceCode": "045",
+  "label": "Massa-Carrara",
+  "officialScopeLabel": "Provincia di Massa-Carrara",
+  "sigla": "MS",
+  "slug": "massa-carrara",
+  "sourceYear": 2026,
+  "count": 17,
+  "municipalities": [
+    {
+      "istatCode": "045001",
+      "officialName": "Aulla",
+      "normalizedName": "aulla",
+      "aliases": [],
+      "areaKm2": 59.81,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045007",
+        "045008",
+        "045009",
+        "045013"
+      ],
+      "focusPoint": {
+        "lat": 44.20709,
+        "lng": 9.999214
+      }
+    },
+    {
+      "istatCode": "045002",
+      "officialName": "Bagnone",
+      "normalizedName": "bagnone",
+      "aliases": [],
+      "areaKm2": 74.318,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045006",
+        "045009",
+        "045016"
+      ],
+      "focusPoint": {
+        "lat": 44.330428,
+        "lng": 10.01834
+      }
+    },
+    {
+      "istatCode": "045003",
+      "officialName": "Carrara",
+      "normalizedName": "carrara",
+      "aliases": [],
+      "areaKm2": 71.1,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045007",
+        "045008",
+        "045010"
+      ],
+      "focusPoint": {
+        "lat": 44.073104,
+        "lng": 10.099405
+      }
+    },
+    {
+      "istatCode": "045004",
+      "officialName": "Casola in Lunigiana",
+      "normalizedName": "casola in lunigiana",
+      "aliases": [
+        "casola",
+        "casolainlunigiana"
+      ],
+      "areaKm2": 42.002,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045007"
+      ],
+      "focusPoint": {
+        "lat": 44.200029,
+        "lng": 10.162204
+      }
+    },
+    {
+      "istatCode": "045005",
+      "officialName": "Comano",
+      "normalizedName": "comano",
+      "aliases": [],
+      "areaKm2": 53.958,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045007",
+        "045009"
+      ],
+      "focusPoint": {
+        "lat": 44.313081,
+        "lng": 10.144344
+      }
+    },
+    {
+      "istatCode": "045006",
+      "officialName": "Filattiera",
+      "normalizedName": "filattiera",
+      "aliases": [],
+      "areaKm2": 48.666,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045002",
+        "045012",
+        "045014",
+        "045016"
+      ],
+      "focusPoint": {
+        "lat": 44.358377,
+        "lng": 9.939327
+      }
+    },
+    {
+      "istatCode": "045007",
+      "officialName": "Fivizzano",
+      "normalizedName": "fivizzano",
+      "aliases": [],
+      "areaKm2": 180.846,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045001",
+        "045003",
+        "045004",
+        "045005",
+        "045008",
+        "045009",
+        "045010"
+      ],
+      "focusPoint": {
+        "lat": 44.20189,
+        "lng": 10.086137
+      }
+    },
+    {
+      "istatCode": "045008",
+      "officialName": "Fosdinovo",
+      "normalizedName": "fosdinovo",
+      "aliases": [],
+      "areaKm2": 48.21,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045001",
+        "045003",
+        "045007"
+      ],
+      "focusPoint": {
+        "lat": 44.134518,
+        "lng": 10.034089
+      }
+    },
+    {
+      "istatCode": "045009",
+      "officialName": "Licciana Nardi",
+      "normalizedName": "licciana nardi",
+      "aliases": [
+        "licciana",
+        "licciananardi"
+      ],
+      "areaKm2": 55.959,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "045001",
+        "045002",
+        "045005",
+        "045007",
+        "045013",
+        "045015",
+        "045016"
+      ],
+      "focusPoint": {
+        "lat": 44.2844,
+        "lng": 10.056645
+      }
+    },
+    {
+      "istatCode": "045010",
+      "officialName": "Massa",
+      "normalizedName": "massa",
+      "aliases": [],
+      "areaKm2": 93.941,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045003",
+        "045007",
+        "045011"
+      ],
+      "focusPoint": {
+        "lat": 44.045403,
+        "lng": 10.152788
+      }
+    },
+    {
+      "istatCode": "045011",
+      "officialName": "Montignoso",
+      "normalizedName": "montignoso",
+      "aliases": [],
+      "areaKm2": 16.977,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045010"
+      ],
+      "focusPoint": {
+        "lat": 44.006249,
+        "lng": 10.165341
+      }
+    },
+    {
+      "istatCode": "045012",
+      "officialName": "Mulazzo",
+      "normalizedName": "mulazzo",
+      "aliases": [],
+      "areaKm2": 62.354,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045006",
+        "045014",
+        "045015",
+        "045016",
+        "045017"
+      ],
+      "focusPoint": {
+        "lat": 44.294552,
+        "lng": 9.88055
+      }
+    },
+    {
+      "istatCode": "045013",
+      "officialName": "Podenzana",
+      "normalizedName": "podenzana",
+      "aliases": [],
+      "areaKm2": 17.24,
+      "baseChips": 186,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045001",
+        "045009",
+        "045015"
+      ],
+      "focusPoint": {
+        "lat": 44.215268,
+        "lng": 9.941717
+      }
+    },
+    {
+      "istatCode": "045014",
+      "officialName": "Pontremoli",
+      "normalizedName": "pontremoli",
+      "aliases": [],
+      "areaKm2": 182.838,
+      "baseChips": 134,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045006",
+        "045012",
+        "045017"
+      ],
+      "focusPoint": {
+        "lat": 44.396669,
+        "lng": 9.848472
+      }
+    },
+    {
+      "istatCode": "045015",
+      "officialName": "Tresana",
+      "normalizedName": "tresana",
+      "aliases": [],
+      "areaKm2": 44.644,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045009",
+        "045012",
+        "045013",
+        "045016"
+      ],
+      "focusPoint": {
+        "lat": 44.248053,
+        "lng": 9.905843
+      }
+    },
+    {
+      "istatCode": "045016",
+      "officialName": "Villafranca in Lunigiana",
+      "normalizedName": "villafranca in lunigiana",
+      "aliases": [
+        "villafranca",
+        "villafrancainlunigiana"
+      ],
+      "areaKm2": 28.894,
+      "baseChips": 175,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "045002",
+        "045006",
+        "045009",
+        "045012",
+        "045015"
+      ],
+      "focusPoint": {
+        "lat": 44.293303,
+        "lng": 9.961194
+      }
+    },
+    {
+      "istatCode": "045017",
+      "officialName": "Zeri",
+      "normalizedName": "zeri",
+      "aliases": [],
+      "areaKm2": 73.535,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "045012",
+        "045014"
+      ],
+      "focusPoint": {
+        "lat": 44.338046,
+        "lng": 9.772241
+      }
+    }
+  ]
+}

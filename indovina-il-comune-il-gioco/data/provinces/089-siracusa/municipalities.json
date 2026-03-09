@@ -1,0 +1,466 @@
+{
+  "provinceCode": "089",
+  "label": "Siracusa",
+  "officialScopeLabel": "Provincia di Siracusa",
+  "sigla": "SR",
+  "slug": "siracusa",
+  "sourceYear": 2026,
+  "count": 21,
+  "municipalities": [
+    {
+      "istatCode": "089001",
+      "officialName": "Augusta",
+      "normalizedName": "augusta",
+      "aliases": [],
+      "areaKm2": 110.972,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089006",
+        "089012"
+      ],
+      "focusPoint": {
+        "lat": 37.273414,
+        "lng": 15.184797
+      }
+    },
+    {
+      "istatCode": "089002",
+      "officialName": "Avola",
+      "normalizedName": "avola",
+      "aliases": [],
+      "areaKm2": 74.309,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089013",
+        "089017"
+      ],
+      "focusPoint": {
+        "lat": 36.922145,
+        "lng": 15.117508
+      }
+    },
+    {
+      "istatCode": "089003",
+      "officialName": "Buccheri",
+      "normalizedName": "buccheri",
+      "aliases": [],
+      "areaKm2": 56.846,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089004",
+        "089006",
+        "089008",
+        "089010"
+      ],
+      "focusPoint": {
+        "lat": 37.163724,
+        "lng": 14.873633
+      }
+    },
+    {
+      "istatCode": "089004",
+      "officialName": "Buscemi",
+      "normalizedName": "buscemi",
+      "aliases": [],
+      "areaKm2": 51.972,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089003",
+        "089007",
+        "089008",
+        "089015"
+      ],
+      "focusPoint": {
+        "lat": 37.081667,
+        "lng": 14.883417
+      }
+    },
+    {
+      "istatCode": "089005",
+      "officialName": "Canicattini Bagni",
+      "normalizedName": "canicattini bagni",
+      "aliases": [
+        "canicattini",
+        "canicattinibagni"
+      ],
+      "areaKm2": 14.961,
+      "baseChips": 189,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "089013",
+        "089017"
+      ],
+      "focusPoint": {
+        "lat": 37.036933,
+        "lng": 15.074113
+      }
+    },
+    {
+      "istatCode": "089006",
+      "officialName": "Carlentini",
+      "normalizedName": "carlentini",
+      "aliases": [],
+      "areaKm2": 158.038,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089001",
+        "089003",
+        "089008",
+        "089010",
+        "089011",
+        "089012",
+        "089019"
+      ],
+      "focusPoint": {
+        "lat": 37.259969,
+        "lng": 14.989196
+      }
+    },
+    {
+      "istatCode": "089007",
+      "officialName": "Cassaro",
+      "normalizedName": "cassaro",
+      "aliases": [],
+      "areaKm2": 19.621,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "089004",
+        "089008",
+        "089015",
+        "089019"
+      ],
+      "focusPoint": {
+        "lat": 37.103153,
+        "lng": 14.952328
+      }
+    },
+    {
+      "istatCode": "089008",
+      "officialName": "Ferla",
+      "normalizedName": "ferla",
+      "aliases": [],
+      "areaKm2": 24.85,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "089003",
+        "089004",
+        "089006",
+        "089007",
+        "089019"
+      ],
+      "focusPoint": {
+        "lat": 37.141608,
+        "lng": 14.934773
+      }
+    },
+    {
+      "istatCode": "089009",
+      "officialName": "Floridia",
+      "normalizedName": "floridia",
+      "aliases": [],
+      "areaKm2": 26.406,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "089015",
+        "089017",
+        "089018"
+      ],
+      "focusPoint": {
+        "lat": 37.082399,
+        "lng": 15.109246
+      }
+    },
+    {
+      "istatCode": "089010",
+      "officialName": "Francofonte",
+      "normalizedName": "francofonte",
+      "aliases": [],
+      "areaKm2": 74.115,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089003",
+        "089006",
+        "089011"
+      ],
+      "focusPoint": {
+        "lat": 37.218655,
+        "lng": 14.83664
+      }
+    },
+    {
+      "istatCode": "089011",
+      "officialName": "Lentini",
+      "normalizedName": "lentini",
+      "aliases": [],
+      "areaKm2": 215.253,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089006",
+        "089010"
+      ],
+      "focusPoint": {
+        "lat": 37.330176,
+        "lng": 14.896464
+      }
+    },
+    {
+      "istatCode": "089012",
+      "officialName": "Melilli",
+      "normalizedName": "melilli",
+      "aliases": [],
+      "areaKm2": 135.32,
+      "baseChips": 140,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089001",
+        "089006",
+        "089017",
+        "089019",
+        "089021"
+      ],
+      "focusPoint": {
+        "lat": 37.216362,
+        "lng": 15.108737
+      }
+    },
+    {
+      "istatCode": "089013",
+      "officialName": "Noto",
+      "normalizedName": "noto",
+      "aliases": [],
+      "areaKm2": 551.313,
+      "baseChips": 109,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089002",
+        "089005",
+        "089014",
+        "089015",
+        "089016",
+        "089017"
+      ],
+      "focusPoint": {
+        "lat": 36.893251,
+        "lng": 15.008894
+      }
+    },
+    {
+      "istatCode": "089014",
+      "officialName": "Pachino",
+      "normalizedName": "pachino",
+      "aliases": [],
+      "areaKm2": 50.579,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089013",
+        "089020"
+      ],
+      "focusPoint": {
+        "lat": 36.696405,
+        "lng": 15.079468
+      }
+    },
+    {
+      "istatCode": "089015",
+      "officialName": "Palazzolo Acreide",
+      "normalizedName": "palazzolo acreide",
+      "aliases": [
+        "palazzolo",
+        "palazzoloacreide"
+      ],
+      "areaKm2": 86.58,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "089004",
+        "089007",
+        "089009",
+        "089013",
+        "089017",
+        "089018",
+        "089019"
+      ],
+      "focusPoint": {
+        "lat": 37.059668,
+        "lng": 14.932612
+      }
+    },
+    {
+      "istatCode": "089016",
+      "officialName": "Rosolini",
+      "normalizedName": "rosolini",
+      "aliases": [],
+      "areaKm2": 75.982,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089013"
+      ],
+      "focusPoint": {
+        "lat": 36.838288,
+        "lng": 14.918628
+      }
+    },
+    {
+      "istatCode": "089017",
+      "officialName": "Siracusa",
+      "normalizedName": "siracusa",
+      "aliases": [],
+      "areaKm2": 206.675,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089002",
+        "089005",
+        "089009",
+        "089012",
+        "089013",
+        "089015",
+        "089018",
+        "089021"
+      ],
+      "focusPoint": {
+        "lat": 37.030667,
+        "lng": 15.213314
+      }
+    },
+    {
+      "istatCode": "089018",
+      "officialName": "Solarino",
+      "normalizedName": "solarino",
+      "aliases": [],
+      "areaKm2": 13.104,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "089009",
+        "089015",
+        "089017",
+        "089019",
+        "089021"
+      ],
+      "focusPoint": {
+        "lat": 37.103665,
+        "lng": 15.106044
+      }
+    },
+    {
+      "istatCode": "089019",
+      "officialName": "Sortino",
+      "normalizedName": "sortino",
+      "aliases": [],
+      "areaKm2": 91.91,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "089006",
+        "089007",
+        "089008",
+        "089012",
+        "089015",
+        "089018",
+        "089021"
+      ],
+      "focusPoint": {
+        "lat": 37.140541,
+        "lng": 15.037883
+      }
+    },
+    {
+      "istatCode": "089020",
+      "officialName": "Portopalo di Capo Passero",
+      "normalizedName": "portopalo di capo passero",
+      "aliases": [
+        "portopalo",
+        "portopalo di capo",
+        "portopalodicapo",
+        "portopalodicapopassero"
+      ],
+      "areaKm2": 14.717,
+      "baseChips": 190,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089014"
+      ],
+      "focusPoint": {
+        "lat": 36.669398,
+        "lng": 15.089379
+      }
+    },
+    {
+      "istatCode": "089021",
+      "officialName": "Priolo Gargallo",
+      "normalizedName": "priolo gargallo",
+      "aliases": [
+        "priolo",
+        "priologargallo"
+      ],
+      "areaKm2": 56.885,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "089012",
+        "089017",
+        "089018",
+        "089019"
+      ],
+      "focusPoint": {
+        "lat": 37.139182,
+        "lng": 15.171084
+      }
+    }
+  ]
+}

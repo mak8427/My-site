@@ -1,0 +1,536 @@
+{
+  "provinceCode": "116",
+  "label": "Ogliastra",
+  "officialScopeLabel": "Provincia di Ogliastra",
+  "sigla": "OG",
+  "slug": "ogliastra",
+  "sourceYear": 2026,
+  "count": 23,
+  "municipalities": [
+    {
+      "istatCode": "116001",
+      "officialName": "Arzana",
+      "normalizedName": "arzana",
+      "aliases": [],
+      "areaKm2": 162.879,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116005",
+        "116006",
+        "116008",
+        "116009",
+        "116010",
+        "116017",
+        "116022",
+        "116023"
+      ],
+      "focusPoint": {
+        "lat": 39.937867,
+        "lng": 9.354537
+      }
+    },
+    {
+      "istatCode": "116002",
+      "officialName": "Bari Sardo",
+      "normalizedName": "bari sardo",
+      "aliases": [
+        "bari",
+        "barisardo"
+      ],
+      "areaKm2": 37.652,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116004",
+        "116008",
+        "116010",
+        "116011",
+        "116017"
+      ],
+      "focusPoint": {
+        "lat": 39.831061,
+        "lng": 9.655668
+      }
+    },
+    {
+      "istatCode": "116003",
+      "officialName": "Baunei",
+      "normalizedName": "baunei",
+      "aliases": [],
+      "areaKm2": 212.104,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116012",
+        "116015",
+        "116018",
+        "116020"
+      ],
+      "focusPoint": {
+        "lat": 40.104215,
+        "lng": 9.6278
+      }
+    },
+    {
+      "istatCode": "116004",
+      "officialName": "Cardedu",
+      "normalizedName": "cardedu",
+      "aliases": [],
+      "areaKm2": 33.484,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116002",
+        "116006",
+        "116009",
+        "116010",
+        "116013",
+        "116016"
+      ],
+      "focusPoint": {
+        "lat": 39.765187,
+        "lng": 9.643904
+      }
+    },
+    {
+      "istatCode": "116005",
+      "officialName": "Elini",
+      "normalizedName": "elini",
+      "aliases": [],
+      "areaKm2": 11.024,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116001",
+        "116008",
+        "116010",
+        "116017"
+      ],
+      "focusPoint": {
+        "lat": 39.901784,
+        "lng": 9.620491
+      }
+    },
+    {
+      "istatCode": "116006",
+      "officialName": "Gairo",
+      "normalizedName": "gairo",
+      "aliases": [],
+      "areaKm2": 78.012,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116001",
+        "116004",
+        "116009",
+        "116010",
+        "116013",
+        "116016",
+        "116019",
+        "116021",
+        "116023"
+      ],
+      "focusPoint": {
+        "lat": 39.868274,
+        "lng": 9.471777
+      }
+    },
+    {
+      "istatCode": "116007",
+      "officialName": "Girasole",
+      "normalizedName": "girasole",
+      "aliases": [],
+      "areaKm2": 13.109,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116012",
+        "116017",
+        "116022"
+      ],
+      "focusPoint": {
+        "lat": 39.955327,
+        "lng": 9.647276
+      }
+    },
+    {
+      "istatCode": "116008",
+      "officialName": "Ilbono",
+      "normalizedName": "ilbono",
+      "aliases": [],
+      "areaKm2": 30.717,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116001",
+        "116002",
+        "116005",
+        "116010",
+        "116011",
+        "116017"
+      ],
+      "focusPoint": {
+        "lat": 39.882728,
+        "lng": 9.601048
+      }
+    },
+    {
+      "istatCode": "116009",
+      "officialName": "Jerzu",
+      "normalizedName": "jerzu",
+      "aliases": [],
+      "areaKm2": 102.322,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116001",
+        "116004",
+        "116006",
+        "116010",
+        "116013",
+        "116016",
+        "116019"
+      ],
+      "focusPoint": {
+        "lat": 39.760581,
+        "lng": 9.542553
+      }
+    },
+    {
+      "istatCode": "116010",
+      "officialName": "Lanusei",
+      "normalizedName": "lanusei",
+      "aliases": [],
+      "areaKm2": 53.064,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116001",
+        "116002",
+        "116004",
+        "116005",
+        "116006",
+        "116008",
+        "116009",
+        "116011",
+        "116013",
+        "116016"
+      ],
+      "focusPoint": {
+        "lat": 39.62047,
+        "lng": 9.627781
+      }
+    },
+    {
+      "istatCode": "116011",
+      "officialName": "Loceri",
+      "normalizedName": "loceri",
+      "aliases": [],
+      "areaKm2": 19.445,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116002",
+        "116008",
+        "116010",
+        "116013",
+        "116016"
+      ],
+      "focusPoint": {
+        "lat": 39.851596,
+        "lng": 9.594607
+      }
+    },
+    {
+      "istatCode": "116012",
+      "officialName": "Lotzorai",
+      "normalizedName": "lotzorai",
+      "aliases": [],
+      "areaKm2": 16.91,
+      "baseChips": 187,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116003",
+        "116007",
+        "116015",
+        "116017",
+        "116018",
+        "116022"
+      ],
+      "focusPoint": {
+        "lat": 39.971631,
+        "lng": 9.649128
+      }
+    },
+    {
+      "istatCode": "116013",
+      "officialName": "Osini",
+      "normalizedName": "osini",
+      "aliases": [],
+      "areaKm2": 39.579,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116004",
+        "116006",
+        "116009",
+        "116010",
+        "116011",
+        "116016",
+        "116019",
+        "116021"
+      ],
+      "focusPoint": {
+        "lat": 39.834879,
+        "lng": 9.474024
+      }
+    },
+    {
+      "istatCode": "116014",
+      "officialName": "Perdasdefogu",
+      "normalizedName": "perdasdefogu",
+      "aliases": [],
+      "areaKm2": 78.15,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116019",
+        "116023"
+      ],
+      "focusPoint": {
+        "lat": 39.665301,
+        "lng": 9.452507
+      }
+    },
+    {
+      "istatCode": "116015",
+      "officialName": "Talana",
+      "normalizedName": "talana",
+      "aliases": [],
+      "areaKm2": 118.79,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116003",
+        "116012",
+        "116018",
+        "116020",
+        "116022"
+      ],
+      "focusPoint": {
+        "lat": 40.04274,
+        "lng": 9.480232
+      }
+    },
+    {
+      "istatCode": "116016",
+      "officialName": "Tertenia",
+      "normalizedName": "tertenia",
+      "aliases": [],
+      "areaKm2": 117.818,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116004",
+        "116006",
+        "116009",
+        "116010",
+        "116011",
+        "116013",
+        "116019"
+      ],
+      "focusPoint": {
+        "lat": 39.675694,
+        "lng": 9.598746
+      }
+    },
+    {
+      "istatCode": "116017",
+      "officialName": "Tortolì",
+      "normalizedName": "tortoli",
+      "aliases": [],
+      "areaKm2": 40.445,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116001",
+        "116002",
+        "116005",
+        "116007",
+        "116008",
+        "116012",
+        "116022"
+      ],
+      "focusPoint": {
+        "lat": 39.915013,
+        "lng": 9.657792
+      }
+    },
+    {
+      "istatCode": "116018",
+      "officialName": "Triei",
+      "normalizedName": "triei",
+      "aliases": [],
+      "areaKm2": 32.873,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116003",
+        "116012",
+        "116015"
+      ],
+      "focusPoint": {
+        "lat": 40.01893,
+        "lng": 9.627332
+      }
+    },
+    {
+      "istatCode": "116019",
+      "officialName": "Ulassai",
+      "normalizedName": "ulassai",
+      "aliases": [],
+      "areaKm2": 122.454,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116006",
+        "116009",
+        "116013",
+        "116014",
+        "116016",
+        "116021",
+        "116023"
+      ],
+      "focusPoint": {
+        "lat": 39.712486,
+        "lng": 9.502526
+      }
+    },
+    {
+      "istatCode": "116020",
+      "officialName": "Urzulei",
+      "normalizedName": "urzulei",
+      "aliases": [],
+      "areaKm2": 129.73,
+      "baseChips": 141,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116003",
+        "116015"
+      ],
+      "focusPoint": {
+        "lat": 40.134068,
+        "lng": 9.506607
+      }
+    },
+    {
+      "istatCode": "116021",
+      "officialName": "Ussassai",
+      "normalizedName": "ussassai",
+      "aliases": [],
+      "areaKm2": 47.466,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "116006",
+        "116013",
+        "116019",
+        "116023"
+      ],
+      "focusPoint": {
+        "lat": 39.820622,
+        "lng": 9.400624
+      }
+    },
+    {
+      "istatCode": "116022",
+      "officialName": "Villagrande Strisaili",
+      "normalizedName": "villagrande strisaili",
+      "aliases": [
+        "villagrande",
+        "villagrandestrisaili"
+      ],
+      "areaKm2": 210.399,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116001",
+        "116007",
+        "116012",
+        "116015",
+        "116017"
+      ],
+      "focusPoint": {
+        "lat": 40.011805,
+        "lng": 9.362967
+      }
+    },
+    {
+      "istatCode": "116023",
+      "officialName": "Seui",
+      "normalizedName": "seui",
+      "aliases": [],
+      "areaKm2": 147.896,
+      "baseChips": 138,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "116001",
+        "116006",
+        "116014",
+        "116019",
+        "116021"
+      ],
+      "focusPoint": {
+        "lat": 39.827532,
+        "lng": 9.33488
+      }
+    }
+  ]
+}

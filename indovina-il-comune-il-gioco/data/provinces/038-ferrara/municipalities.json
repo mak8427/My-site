@@ -1,0 +1,482 @@
+{
+  "provinceCode": "038",
+  "label": "Ferrara",
+  "officialScopeLabel": "Provincia di Ferrara",
+  "sigla": "FE",
+  "slug": "ferrara",
+  "sourceYear": 2026,
+  "count": 21,
+  "municipalities": [
+    {
+      "istatCode": "038001",
+      "officialName": "Argenta",
+      "normalizedName": "argenta",
+      "aliases": [],
+      "areaKm2": 311.55,
+      "baseChips": 122,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038006",
+        "038008",
+        "038019",
+        "038023"
+      ],
+      "focusPoint": {
+        "lat": 44.638499,
+        "lng": 11.902257
+      }
+    },
+    {
+      "istatCode": "038003",
+      "officialName": "Bondeno",
+      "normalizedName": "bondeno",
+      "aliases": [],
+      "areaKm2": 174.314,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038004",
+        "038008",
+        "038022",
+        "038028"
+      ],
+      "focusPoint": {
+        "lat": 44.892543,
+        "lng": 11.384564
+      }
+    },
+    {
+      "istatCode": "038004",
+      "officialName": "Cento",
+      "normalizedName": "cento",
+      "aliases": [],
+      "areaKm2": 65.074,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038003",
+        "038028"
+      ],
+      "focusPoint": {
+        "lat": 44.771127,
+        "lng": 11.297454
+      }
+    },
+    {
+      "istatCode": "038005",
+      "officialName": "Codigoro",
+      "normalizedName": "codigoro",
+      "aliases": [],
+      "areaKm2": 168.799,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038006",
+        "038010",
+        "038011",
+        "038014",
+        "038025",
+        "038027",
+        "038029"
+      ],
+      "focusPoint": {
+        "lat": 44.857216,
+        "lng": 12.117178
+      }
+    },
+    {
+      "istatCode": "038006",
+      "officialName": "Comacchio",
+      "normalizedName": "comacchio",
+      "aliases": [],
+      "areaKm2": 283.426,
+      "baseChips": 124,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038001",
+        "038005",
+        "038011",
+        "038017",
+        "038019"
+      ],
+      "focusPoint": {
+        "lat": 44.682512,
+        "lng": 12.175141
+      }
+    },
+    {
+      "istatCode": "038007",
+      "officialName": "Copparo",
+      "normalizedName": "copparo",
+      "aliases": [],
+      "areaKm2": 157.401,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038008",
+        "038010",
+        "038029",
+        "038030"
+      ],
+      "focusPoint": {
+        "lat": 44.891281,
+        "lng": 11.859489
+      }
+    },
+    {
+      "istatCode": "038008",
+      "officialName": "Ferrara",
+      "normalizedName": "ferrara",
+      "aliases": [],
+      "areaKm2": 405.313,
+      "baseChips": 116,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038001",
+        "038003",
+        "038007",
+        "038012",
+        "038017",
+        "038018",
+        "038022",
+        "038023",
+        "038029",
+        "038030"
+      ],
+      "focusPoint": {
+        "lat": 44.807076,
+        "lng": 11.658378
+      }
+    },
+    {
+      "istatCode": "038010",
+      "officialName": "Jolanda di Savoia",
+      "normalizedName": "jolanda di savoia",
+      "aliases": [
+        "jolanda",
+        "jolandadisavoia"
+      ],
+      "areaKm2": 108.427,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038005",
+        "038007",
+        "038027",
+        "038029",
+        "038030"
+      ],
+      "focusPoint": {
+        "lat": 44.877802,
+        "lng": 11.972609
+      }
+    },
+    {
+      "istatCode": "038011",
+      "officialName": "Lagosanto",
+      "normalizedName": "lagosanto",
+      "aliases": [],
+      "areaKm2": 34.267,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038005",
+        "038006",
+        "038017",
+        "038027"
+      ],
+      "focusPoint": {
+        "lat": 44.773905,
+        "lng": 12.143409
+      }
+    },
+    {
+      "istatCode": "038012",
+      "officialName": "Masi Torello",
+      "normalizedName": "masi torello",
+      "aliases": [
+        "masi",
+        "masitorello"
+      ],
+      "areaKm2": 22.746,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038008",
+        "038017",
+        "038019",
+        "038023"
+      ],
+      "focusPoint": {
+        "lat": 44.783073,
+        "lng": 11.801213
+      }
+    },
+    {
+      "istatCode": "038014",
+      "officialName": "Mesola",
+      "normalizedName": "mesola",
+      "aliases": [],
+      "areaKm2": 84.618,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038005",
+        "038025",
+        "038029"
+      ],
+      "focusPoint": {
+        "lat": 44.889835,
+        "lng": 12.217804
+      }
+    },
+    {
+      "istatCode": "038017",
+      "officialName": "Ostellato",
+      "normalizedName": "ostellato",
+      "aliases": [],
+      "areaKm2": 173.188,
+      "baseChips": 135,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038006",
+        "038008",
+        "038011",
+        "038012",
+        "038019",
+        "038027",
+        "038030"
+      ],
+      "focusPoint": {
+        "lat": 44.725412,
+        "lng": 11.981219
+      }
+    },
+    {
+      "istatCode": "038018",
+      "officialName": "Poggio Renatico",
+      "normalizedName": "poggio renatico",
+      "aliases": [
+        "poggio",
+        "poggiorenatico"
+      ],
+      "areaKm2": 79.735,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038008",
+        "038022",
+        "038028"
+      ],
+      "focusPoint": {
+        "lat": 44.764708,
+        "lng": 11.482459
+      }
+    },
+    {
+      "istatCode": "038019",
+      "officialName": "Portomaggiore",
+      "normalizedName": "portomaggiore",
+      "aliases": [],
+      "areaKm2": 126.363,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038001",
+        "038006",
+        "038012",
+        "038017",
+        "038023"
+      ],
+      "focusPoint": {
+        "lat": 44.704707,
+        "lng": 11.82371
+      }
+    },
+    {
+      "istatCode": "038022",
+      "officialName": "Vigarano Mainarda",
+      "normalizedName": "vigarano mainarda",
+      "aliases": [
+        "vigarano",
+        "vigaranomainarda"
+      ],
+      "areaKm2": 41.985,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038003",
+        "038008",
+        "038018",
+        "038028"
+      ],
+      "focusPoint": {
+        "lat": 44.855124,
+        "lng": 11.484016
+      }
+    },
+    {
+      "istatCode": "038023",
+      "officialName": "Voghiera",
+      "normalizedName": "voghiera",
+      "aliases": [],
+      "areaKm2": 40.348,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038001",
+        "038008",
+        "038012",
+        "038019"
+      ],
+      "focusPoint": {
+        "lat": 44.753734,
+        "lng": 11.74445
+      }
+    },
+    {
+      "istatCode": "038025",
+      "officialName": "Goro",
+      "normalizedName": "goro",
+      "aliases": [],
+      "areaKm2": 26.418,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038005",
+        "038014"
+      ],
+      "focusPoint": {
+        "lat": 44.837976,
+        "lng": 12.332519
+      }
+    },
+    {
+      "istatCode": "038027",
+      "officialName": "Fiscaglia",
+      "normalizedName": "fiscaglia",
+      "aliases": [],
+      "areaKm2": 116.365,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038005",
+        "038010",
+        "038011",
+        "038017",
+        "038030"
+      ],
+      "focusPoint": {
+        "lat": 44.793657,
+        "lng": 12.007195
+      }
+    },
+    {
+      "istatCode": "038028",
+      "officialName": "Terre del Reno",
+      "normalizedName": "terre del reno",
+      "aliases": [
+        "terre",
+        "terredelreno"
+      ],
+      "areaKm2": 51.465,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 3,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038003",
+        "038004",
+        "038018",
+        "038022"
+      ],
+      "focusPoint": {
+        "lat": 44.802422,
+        "lng": 11.402185
+      }
+    },
+    {
+      "istatCode": "038029",
+      "officialName": "Riva del Po",
+      "normalizedName": "riva del po",
+      "aliases": [
+        "riva",
+        "rivadelpo"
+      ],
+      "areaKm2": 111.232,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "038005",
+        "038007",
+        "038008",
+        "038010",
+        "038014"
+      ],
+      "focusPoint": {
+        "lat": 44.93972,
+        "lng": 12.080932
+      }
+    },
+    {
+      "istatCode": "038030",
+      "officialName": "Tresignana",
+      "normalizedName": "tresignana",
+      "aliases": [],
+      "areaKm2": 42.643,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "038007",
+        "038008",
+        "038010",
+        "038017",
+        "038027"
+      ],
+      "focusPoint": {
+        "lat": 44.823623,
+        "lng": 11.883076
+      }
+    }
+  ]
+}

@@ -1,0 +1,3146 @@
+{
+  "provinceCode": "021",
+  "label": "Bolzano/Bozen",
+  "officialScopeLabel": "Provincia di Bolzano/Bozen",
+  "sigla": "BZ",
+  "slug": "bolzano-bozen",
+  "sourceYear": 2026,
+  "count": 116,
+  "municipalities": [
+    {
+      "istatCode": "021001",
+      "officialName": "Aldino/Aldein",
+      "normalizedName": "aldino aldein",
+      "aliases": [
+        "aldino",
+        "aldinoaldein"
+      ],
+      "areaKm2": 62.838,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021012",
+        "021053",
+        "021059",
+        "021060",
+        "021102"
+      ],
+      "focusPoint": {
+        "lat": 46.360029,
+        "lng": 11.39966
+      }
+    },
+    {
+      "istatCode": "021002",
+      "officialName": "Andriano/Andrian",
+      "normalizedName": "andriano andrian",
+      "aliases": [
+        "andriano",
+        "andrianoandrian"
+      ],
+      "areaKm2": 5.254,
+      "baseChips": 213,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021004",
+        "021055",
+        "021097"
+      ],
+      "focusPoint": {
+        "lat": 46.516814,
+        "lng": 11.233087
+      }
+    },
+    {
+      "istatCode": "021003",
+      "officialName": "Anterivo/Altrei",
+      "normalizedName": "anterivo altrei",
+      "aliases": [
+        "anterivo",
+        "anterivoaltrei"
+      ],
+      "areaKm2": 10.96,
+      "baseChips": 196,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021102"
+      ],
+      "focusPoint": {
+        "lat": 46.278258,
+        "lng": 11.370218
+      }
+    },
+    {
+      "istatCode": "021004",
+      "officialName": "Appiano sulla strada del vino/Eppan an der Weinstraße",
+      "normalizedName": "appiano sulla strada del vino eppan an der weinstraße",
+      "aliases": [
+        "appiano",
+        "appiano sulla strada",
+        "appiano sulla strada del vino",
+        "appiano sulla strada del vino eppan",
+        "appiano sulla strada del vino eppan an",
+        "appiano sulla strada del vino eppan an der",
+        "appianosullastrada",
+        "appianosullastradadelvino",
+        "appianosullastradadelvinoeppan",
+        "appianosullastradadelvinoeppanan",
+        "appianosullastradadelvinoeppanander",
+        "appianosullastradadelvinoeppananderweinstraße"
+      ],
+      "areaKm2": 58.939,
+      "baseChips": 159,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021002",
+        "021008",
+        "021015",
+        "021055",
+        "021097",
+        "021105",
+        "021118"
+      ],
+      "focusPoint": {
+        "lat": 46.460357,
+        "lng": 11.260514
+      }
+    },
+    {
+      "istatCode": "021005",
+      "officialName": "Avelengo/Hafling",
+      "normalizedName": "avelengo hafling",
+      "aliases": [
+        "avelengo",
+        "avelengohafling"
+      ],
+      "areaKm2": 27.265,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021051",
+        "021086",
+        "021087",
+        "021112"
+      ],
+      "focusPoint": {
+        "lat": 46.664348,
+        "lng": 11.253622
+      }
+    },
+    {
+      "istatCode": "021006",
+      "officialName": "Badia/Abtei",
+      "normalizedName": "badia abtei",
+      "aliases": [
+        "badia",
+        "badiaabtei"
+      ],
+      "areaKm2": 82.582,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021026",
+        "021047",
+        "021082",
+        "021117"
+      ],
+      "focusPoint": {
+        "lat": 46.583337,
+        "lng": 11.911793
+      }
+    },
+    {
+      "istatCode": "021007",
+      "officialName": "Barbiano/Barbian",
+      "normalizedName": "barbiano barbian",
+      "aliases": [
+        "barbiano",
+        "barbianobarbian"
+      ],
+      "areaKm2": 24.532,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021019",
+        "021039",
+        "021065",
+        "021072",
+        "021114"
+      ],
+      "focusPoint": {
+        "lat": 46.607963,
+        "lng": 11.491065
+      }
+    },
+    {
+      "istatCode": "021008",
+      "officialName": "Bolzano/Bozen",
+      "normalizedName": "bolzano bozen",
+      "aliases": [
+        "bolzano",
+        "bolzanobozen"
+      ],
+      "areaKm2": 51.824,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021004",
+        "021023",
+        "021040",
+        "021059",
+        "021072",
+        "021079",
+        "021097",
+        "021105"
+      ],
+      "focusPoint": {
+        "lat": 46.487346,
+        "lng": 11.343617
+      }
+    },
+    {
+      "istatCode": "021009",
+      "officialName": "Braies/Prags",
+      "normalizedName": "braies prags",
+      "aliases": [
+        "braies",
+        "braiesprags"
+      ],
+      "areaKm2": 90.513,
+      "baseChips": 149,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021028",
+        "021047",
+        "021052",
+        "021106",
+        "021113"
+      ],
+      "focusPoint": {
+        "lat": 46.688806,
+        "lng": 12.103635
+      }
+    },
+    {
+      "istatCode": "021010",
+      "officialName": "Brennero/Brenner",
+      "normalizedName": "brennero brenner",
+      "aliases": [
+        "brennero",
+        "brennerobrenner"
+      ],
+      "areaKm2": 114.808,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021070",
+        "021107",
+        "021115"
+      ],
+      "focusPoint": {
+        "lat": 46.966116,
+        "lng": 11.320273
+      }
+    },
+    {
+      "istatCode": "021011",
+      "officialName": "Bressanone/Brixen",
+      "normalizedName": "bressanone brixen",
+      "aliases": [
+        "bressanone",
+        "bressanonebrixen"
+      ],
+      "areaKm2": 84.986,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021033",
+        "021044",
+        "021057",
+        "021082",
+        "021111",
+        "021116"
+      ],
+      "focusPoint": {
+        "lat": 46.705547,
+        "lng": 11.663507
+      }
+    },
+    {
+      "istatCode": "021012",
+      "officialName": "Bronzolo/Branzoll",
+      "normalizedName": "bronzolo branzoll",
+      "aliases": [
+        "bronzolo",
+        "bronzolobranzoll"
+      ],
+      "areaKm2": 7.503,
+      "baseChips": 205,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021001",
+        "021040",
+        "021059",
+        "021060",
+        "021105"
+      ],
+      "focusPoint": {
+        "lat": 46.396079,
+        "lng": 11.318554
+      }
+    },
+    {
+      "istatCode": "021013",
+      "officialName": "Brunico/Bruneck",
+      "normalizedName": "brunico bruneck",
+      "aliases": [
+        "brunico",
+        "brunicobruneck"
+      ],
+      "areaKm2": 44.927,
+      "baseChips": 165,
+      "sizeQuartile": 4,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021030",
+        "021034",
+        "021047",
+        "021063",
+        "021071",
+        "021081",
+        "021106"
+      ],
+      "focusPoint": {
+        "lat": 46.792768,
+        "lng": 11.939436
+      }
+    },
+    {
+      "istatCode": "021014",
+      "officialName": "Caines/Kuens",
+      "normalizedName": "caines kuens",
+      "aliases": [
+        "caines",
+        "caineskuens"
+      ],
+      "areaKm2": 1.62,
+      "baseChips": 239,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021073",
+        "021087",
+        "021101"
+      ],
+      "focusPoint": {
+        "lat": 46.70305,
+        "lng": 11.166133
+      }
+    },
+    {
+      "istatCode": "021015",
+      "officialName": "Caldaro sulla strada del vino/Kaltern an der Weinstraße",
+      "normalizedName": "caldaro sulla strada del vino kaltern an der weinstraße",
+      "aliases": [
+        "caldaro",
+        "caldaro sulla strada",
+        "caldaro sulla strada del vino",
+        "caldaro sulla strada del vino kaltern",
+        "caldaro sulla strada del vino kaltern an",
+        "caldaro sulla strada del vino kaltern an der",
+        "caldarosullastrada",
+        "caldarosullastradadelvino",
+        "caldarosullastradadelvinokaltern",
+        "caldarosullastradadelvinokalternan",
+        "caldarosullastradadelvinokalternander",
+        "caldarosullastradadelvinokalternanderweinstraße"
+      ],
+      "areaKm2": 48.568,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021004",
+        "021029",
+        "021098",
+        "021105"
+      ],
+      "focusPoint": {
+        "lat": 46.382568,
+        "lng": 11.238722
+      }
+    },
+    {
+      "istatCode": "021016",
+      "officialName": "Campo di Trens/Freienfeld",
+      "normalizedName": "campo di trens freienfeld",
+      "aliases": [
+        "campo di trens",
+        "campoditrens",
+        "campoditrensfreienfeld"
+      ],
+      "areaKm2": 95.857,
+      "baseChips": 148,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021032",
+        "021070",
+        "021074",
+        "021086",
+        "021107",
+        "021115"
+      ],
+      "focusPoint": {
+        "lat": 46.851914,
+        "lng": 11.512178
+      }
+    },
+    {
+      "istatCode": "021017",
+      "officialName": "Campo Tures/Sand in Taufers",
+      "normalizedName": "campo tures sand in taufers",
+      "aliases": [
+        "campo tures",
+        "campo tures sand",
+        "campotures",
+        "campoturessand",
+        "campoturessandintaufers"
+      ],
+      "areaKm2": 163.601,
+      "baseChips": 136,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021034",
+        "021063",
+        "021068",
+        "021071",
+        "021088",
+        "021108"
+      ],
+      "focusPoint": {
+        "lat": 46.940162,
+        "lng": 12.04353
+      }
+    },
+    {
+      "istatCode": "021018",
+      "officialName": "Castelbello-Ciardes/Kastelbell-Tschars",
+      "normalizedName": "castelbello ciardes kastelbell tschars",
+      "aliases": [
+        "castelbello",
+        "castelbello ciardes",
+        "castelbello ciardes kastelbell",
+        "castelbellociardes",
+        "castelbellociardeskastelbell",
+        "castelbellociardeskastelbelltschars"
+      ],
+      "areaKm2": 53.815,
+      "baseChips": 161,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021037",
+        "021056",
+        "021091",
+        "021104"
+      ],
+      "focusPoint": {
+        "lat": 46.62176,
+        "lng": 10.929008
+      }
+    },
+    {
+      "istatCode": "021019",
+      "officialName": "Castelrotto/Kastelruth",
+      "normalizedName": "castelrotto kastelruth",
+      "aliases": [
+        "castelrotto",
+        "castelrottokastelruth"
+      ],
+      "areaKm2": 117.697,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021007",
+        "021031",
+        "021039",
+        "021061",
+        "021065",
+        "021072",
+        "021085",
+        "021100"
+      ],
+      "focusPoint": {
+        "lat": 46.54735,
+        "lng": 11.60784
+      }
+    },
+    {
+      "istatCode": "021020",
+      "officialName": "Cermes/Tscherms",
+      "normalizedName": "cermes tscherms",
+      "aliases": [
+        "cermes",
+        "cermestscherms"
+      ],
+      "areaKm2": 6.64,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021041",
+        "021048",
+        "021051"
+      ],
+      "focusPoint": {
+        "lat": 46.630813,
+        "lng": 11.138986
+      }
+    },
+    {
+      "istatCode": "021021",
+      "officialName": "Chienes/Kiens",
+      "normalizedName": "chienes kiens",
+      "aliases": [
+        "chienes",
+        "chieneskiens"
+      ],
+      "areaKm2": 33.731,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021030",
+        "021075",
+        "021081",
+        "021088",
+        "021096",
+        "021110"
+      ],
+      "focusPoint": {
+        "lat": 46.821603,
+        "lng": 11.831805
+      }
+    },
+    {
+      "istatCode": "021022",
+      "officialName": "Chiusa/Klausen",
+      "normalizedName": "chiusa klausen",
+      "aliases": [
+        "chiusa",
+        "chiusaklausen"
+      ],
+      "areaKm2": 51.064,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021033",
+        "021039",
+        "021086",
+        "021111",
+        "021114",
+        "021116"
+      ],
+      "focusPoint": {
+        "lat": 46.670879,
+        "lng": 11.516641
+      }
+    },
+    {
+      "istatCode": "021023",
+      "officialName": "Cornedo all'Isarco/Karneid",
+      "normalizedName": "cornedo all isarco karneid",
+      "aliases": [
+        "cornedo",
+        "cornedo all",
+        "cornedo all isarco",
+        "cornedoall",
+        "cornedoallisarco",
+        "cornedoallisarcokarneid"
+      ],
+      "areaKm2": 40.868,
+      "baseChips": 167,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021008",
+        "021031",
+        "021058",
+        "021059",
+        "021072",
+        "021100"
+      ],
+      "focusPoint": {
+        "lat": 46.46445,
+        "lng": 11.466719
+      }
+    },
+    {
+      "istatCode": "021024",
+      "officialName": "Cortaccia sulla strada del vino/Kurtatsch an der Weinstraße",
+      "normalizedName": "cortaccia sulla strada del vino kurtatsch an der weinstraße",
+      "aliases": [
+        "cortaccia",
+        "cortaccia sulla strada",
+        "cortaccia sulla strada del vino",
+        "cortaccia sulla strada del vino kurtatsch",
+        "cortaccia sulla strada del vino kurtatsch an",
+        "cortaccia sulla strada del vino kurtatsch an der",
+        "cortacciasullastrada",
+        "cortacciasullastradadelvino",
+        "cortacciasullastradadelvinokurtatsch",
+        "cortacciasullastradadelvinokurtatschan",
+        "cortacciasullastradadelvinokurtatschander",
+        "cortacciasullastradadelvinokurtatschanderweinstraße"
+      ],
+      "areaKm2": 29.282,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021029",
+        "021045",
+        "021098"
+      ],
+      "focusPoint": {
+        "lat": 46.309289,
+        "lng": 11.209675
+      }
+    },
+    {
+      "istatCode": "021025",
+      "officialName": "Cortina sulla strada del vino/Kurtinig an der Weinstraße",
+      "normalizedName": "cortina sulla strada del vino kurtinig an der weinstraße",
+      "aliases": [
+        "cortina",
+        "cortina sulla strada",
+        "cortina sulla strada del vino",
+        "cortina sulla strada del vino kurtinig",
+        "cortina sulla strada del vino kurtinig an",
+        "cortina sulla strada del vino kurtinig an der",
+        "cortinasullastrada",
+        "cortinasullastradadelvino",
+        "cortinasullastradadelvinokurtinig",
+        "cortinasullastradadelvinokurtinigan",
+        "cortinasullastradadelvinokurtinigander",
+        "cortinasullastradadelvinokurtiniganderweinstraße"
+      ],
+      "areaKm2": 2.046,
+      "baseChips": 234,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021029",
+        "021045",
+        "021076"
+      ],
+      "focusPoint": {
+        "lat": 46.266991,
+        "lng": 11.223119
+      }
+    },
+    {
+      "istatCode": "021026",
+      "officialName": "Corvara in Badia/Corvara",
+      "normalizedName": "corvara in badia corvara",
+      "aliases": [
+        "corvara",
+        "corvara in badia",
+        "corvarainbadia",
+        "corvarainbadiacorvara"
+      ],
+      "areaKm2": 38.764,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021006",
+        "021089"
+      ],
+      "focusPoint": {
+        "lat": 46.549153,
+        "lng": 11.858449
+      }
+    },
+    {
+      "istatCode": "021027",
+      "officialName": "Curon Venosta/Graun im Vinschgau",
+      "normalizedName": "curon venosta graun im vinschgau",
+      "aliases": [
+        "curon",
+        "curon venosta",
+        "curon venosta graun",
+        "curon venosta graun im",
+        "curonvenosta",
+        "curonvenostagraun",
+        "curonvenostagraunim",
+        "curonvenostagraunimvinschgau"
+      ],
+      "areaKm2": 210.114,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021046"
+      ],
+      "focusPoint": {
+        "lat": 46.803624,
+        "lng": 10.55471
+      }
+    },
+    {
+      "istatCode": "021028",
+      "officialName": "Dobbiaco/Toblach",
+      "normalizedName": "dobbiaco toblach",
+      "aliases": [
+        "dobbiaco",
+        "dobbiacotoblach"
+      ],
+      "areaKm2": 124.875,
+      "baseChips": 142,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021009",
+        "021077",
+        "021092",
+        "021109",
+        "021113"
+      ],
+      "focusPoint": {
+        "lat": 46.69583,
+        "lng": 12.224192
+      }
+    },
+    {
+      "istatCode": "021029",
+      "officialName": "Egna/Neumarkt",
+      "normalizedName": "egna neumarkt",
+      "aliases": [
+        "egna",
+        "egnaneumarkt"
+      ],
+      "areaKm2": 23.548,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021015",
+        "021024",
+        "021025",
+        "021045",
+        "021053",
+        "021076",
+        "021098"
+      ],
+      "focusPoint": {
+        "lat": 46.29737,
+        "lng": 11.273735
+      }
+    },
+    {
+      "istatCode": "021030",
+      "officialName": "Falzes/Pfalzen",
+      "normalizedName": "falzes pfalzen",
+      "aliases": [
+        "falzes",
+        "falzespfalzen"
+      ],
+      "areaKm2": 33.194,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021013",
+        "021021",
+        "021034",
+        "021081",
+        "021088"
+      ],
+      "focusPoint": {
+        "lat": 46.834776,
+        "lng": 11.876171
+      }
+    },
+    {
+      "istatCode": "021031",
+      "officialName": "Fiè allo Sciliar/Völs am Schlern",
+      "normalizedName": "fie allo sciliar vols am schlern",
+      "aliases": [
+        "fie",
+        "fie allo",
+        "fie allo sciliar",
+        "fie allo sciliar vols",
+        "fie allo sciliar vols am",
+        "fieallo",
+        "fieallosciliar",
+        "fieallosciliarvols",
+        "fieallosciliarvolsam",
+        "fieallosciliarvolsamschlern"
+      ],
+      "areaKm2": 43.744,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021019",
+        "021023",
+        "021072",
+        "021100"
+      ],
+      "focusPoint": {
+        "lat": 46.511926,
+        "lng": 11.51852
+      }
+    },
+    {
+      "istatCode": "021032",
+      "officialName": "Fortezza/Franzensfeste",
+      "normalizedName": "fortezza franzensfeste",
+      "aliases": [
+        "fortezza",
+        "fortezzafranzensfeste"
+      ],
+      "areaKm2": 62.015,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021016",
+        "021057",
+        "021074",
+        "021086",
+        "021111"
+      ],
+      "focusPoint": {
+        "lat": 46.793807,
+        "lng": 11.55748
+      }
+    },
+    {
+      "istatCode": "021033",
+      "officialName": "Funes/Villnöß",
+      "normalizedName": "funes villnoß",
+      "aliases": [
+        "funes",
+        "funesvillnoß"
+      ],
+      "areaKm2": 81.445,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021011",
+        "021022",
+        "021039",
+        "021061",
+        "021082",
+        "021085",
+        "021116"
+      ],
+      "focusPoint": {
+        "lat": 46.637461,
+        "lng": 11.722355
+      }
+    },
+    {
+      "istatCode": "021034",
+      "officialName": "Gais/Gais",
+      "normalizedName": "gais gais",
+      "aliases": [
+        "gais",
+        "gaisgais"
+      ],
+      "areaKm2": 60.5,
+      "baseChips": 158,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021013",
+        "021017",
+        "021030",
+        "021063",
+        "021088"
+      ],
+      "focusPoint": {
+        "lat": 46.859178,
+        "lng": 11.97125
+      }
+    },
+    {
+      "istatCode": "021035",
+      "officialName": "Gargazzone/Gargazon",
+      "normalizedName": "gargazzone gargazon",
+      "aliases": [
+        "gargazzone",
+        "gargazzonegargazon"
+      ],
+      "areaKm2": 4.96,
+      "baseChips": 214,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021041",
+        "021050",
+        "021055",
+        "021066",
+        "021097",
+        "021099"
+      ],
+      "focusPoint": {
+        "lat": 46.579563,
+        "lng": 11.202604
+      }
+    },
+    {
+      "istatCode": "021036",
+      "officialName": "Glorenza/Glurns",
+      "normalizedName": "glorenza glurns",
+      "aliases": [
+        "glorenza",
+        "glorenzaglurns"
+      ],
+      "areaKm2": 13.171,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021046",
+        "021067",
+        "021094",
+        "021103"
+      ],
+      "focusPoint": {
+        "lat": 46.656549,
+        "lng": 10.547284
+      }
+    },
+    {
+      "istatCode": "021037",
+      "officialName": "Laces/Latsch",
+      "normalizedName": "laces latsch",
+      "aliases": [
+        "laces",
+        "laceslatsch"
+      ],
+      "areaKm2": 78.786,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021018",
+        "021049",
+        "021091",
+        "021093",
+        "021104"
+      ],
+      "focusPoint": {
+        "lat": 46.605464,
+        "lng": 10.850295
+      }
+    },
+    {
+      "istatCode": "021038",
+      "officialName": "Lagundo/Algund",
+      "normalizedName": "lagundo algund",
+      "aliases": [
+        "lagundo",
+        "lagundoalgund"
+      ],
+      "areaKm2": 23.333,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021041",
+        "021048",
+        "021051",
+        "021056",
+        "021062",
+        "021064",
+        "021101"
+      ],
+      "focusPoint": {
+        "lat": 46.697245,
+        "lng": 11.106012
+      }
+    },
+    {
+      "istatCode": "021039",
+      "officialName": "Laion/Lajen",
+      "normalizedName": "laion lajen",
+      "aliases": [
+        "laion",
+        "laionlajen"
+      ],
+      "areaKm2": 37.61,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021007",
+        "021019",
+        "021022",
+        "021033",
+        "021061",
+        "021065",
+        "021114"
+      ],
+      "focusPoint": {
+        "lat": 46.607431,
+        "lng": 11.599182
+      }
+    },
+    {
+      "istatCode": "021040",
+      "officialName": "Laives/Leifers",
+      "normalizedName": "laives leifers",
+      "aliases": [
+        "laives",
+        "laivesleifers"
+      ],
+      "areaKm2": 24.552,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021008",
+        "021012",
+        "021059",
+        "021105"
+      ],
+      "focusPoint": {
+        "lat": 46.440888,
+        "lng": 11.344032
+      }
+    },
+    {
+      "istatCode": "021041",
+      "officialName": "Lana/Lana",
+      "normalizedName": "lana lana",
+      "aliases": [
+        "lana",
+        "lanalana"
+      ],
+      "areaKm2": 35.867,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021020",
+        "021035",
+        "021038",
+        "021048",
+        "021051",
+        "021056",
+        "021066",
+        "021084",
+        "021099"
+      ],
+      "focusPoint": {
+        "lat": 46.601904,
+        "lng": 11.14993
+      }
+    },
+    {
+      "istatCode": "021042",
+      "officialName": "Lasa/Laas",
+      "normalizedName": "lasa laas",
+      "aliases": [
+        "lasa",
+        "lasalaas"
+      ],
+      "areaKm2": 110.228,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021046",
+        "021049",
+        "021067",
+        "021093",
+        "021094",
+        "021095"
+      ],
+      "focusPoint": {
+        "lat": 46.597767,
+        "lng": 10.665101
+      }
+    },
+    {
+      "istatCode": "021043",
+      "officialName": "Lauregno/Laurein",
+      "normalizedName": "lauregno laurein",
+      "aliases": [
+        "lauregno",
+        "lauregnolaurein"
+      ],
+      "areaKm2": 13.839,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021069",
+        "021084",
+        "021104"
+      ],
+      "focusPoint": {
+        "lat": 46.475622,
+        "lng": 11.047325
+      }
+    },
+    {
+      "istatCode": "021044",
+      "officialName": "Luson/Lüsen",
+      "normalizedName": "luson lusen",
+      "aliases": [
+        "luson",
+        "lusonlusen"
+      ],
+      "areaKm2": 74.299,
+      "baseChips": 154,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021011",
+        "021047",
+        "021057",
+        "021075",
+        "021081",
+        "021082"
+      ],
+      "focusPoint": {
+        "lat": 46.723767,
+        "lng": 11.78385
+      }
+    },
+    {
+      "istatCode": "021045",
+      "officialName": "Magrè sulla strada del vino/Margreid an der Weinstraße",
+      "normalizedName": "magre sulla strada del vino margreid an der weinstraße",
+      "aliases": [
+        "magre",
+        "magre sulla strada",
+        "magre sulla strada del vino",
+        "magre sulla strada del vino margreid",
+        "magre sulla strada del vino margreid an",
+        "magre sulla strada del vino margreid an der",
+        "magresullastrada",
+        "magresullastradadelvino",
+        "magresullastradadelvinomargreid",
+        "magresullastradadelvinomargreidan",
+        "magresullastradadelvinomargreidander",
+        "magresullastradadelvinomargreidanderweinstraße"
+      ],
+      "areaKm2": 13.717,
+      "baseChips": 191,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021024",
+        "021025",
+        "021029",
+        "021076"
+      ],
+      "focusPoint": {
+        "lat": 46.276156,
+        "lng": 11.209305
+      }
+    },
+    {
+      "istatCode": "021046",
+      "officialName": "Malles Venosta/Mals",
+      "normalizedName": "malles venosta mals",
+      "aliases": [
+        "malles",
+        "malles venosta",
+        "mallesvenosta",
+        "mallesvenostamals"
+      ],
+      "areaKm2": 247.887,
+      "baseChips": 127,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021027",
+        "021036",
+        "021042",
+        "021091",
+        "021093",
+        "021094",
+        "021103"
+      ],
+      "focusPoint": {
+        "lat": 46.721132,
+        "lng": 10.569398
+      }
+    },
+    {
+      "istatCode": "021047",
+      "officialName": "Marebbe/Enneberg",
+      "normalizedName": "marebbe enneberg",
+      "aliases": [
+        "marebbe",
+        "marebbeenneberg"
+      ],
+      "areaKm2": 159.624,
+      "baseChips": 137,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021006",
+        "021009",
+        "021013",
+        "021044",
+        "021081",
+        "021082",
+        "021106",
+        "021117"
+      ],
+      "focusPoint": {
+        "lat": 46.647777,
+        "lng": 12.027798
+      }
+    },
+    {
+      "istatCode": "021048",
+      "officialName": "Marlengo/Marling",
+      "normalizedName": "marlengo marling",
+      "aliases": [
+        "marlengo",
+        "marlengomarling"
+      ],
+      "areaKm2": 13.021,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021020",
+        "021038",
+        "021041",
+        "021051",
+        "021062"
+      ],
+      "focusPoint": {
+        "lat": 46.662877,
+        "lng": 11.127871
+      }
+    },
+    {
+      "istatCode": "021049",
+      "officialName": "Martello/Martell",
+      "normalizedName": "martello martell",
+      "aliases": [
+        "martello",
+        "martellomartell"
+      ],
+      "areaKm2": 142.336,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021037",
+        "021042",
+        "021093",
+        "021095",
+        "021104"
+      ],
+      "focusPoint": {
+        "lat": 46.518436,
+        "lng": 10.722523
+      }
+    },
+    {
+      "istatCode": "021050",
+      "officialName": "Meltina/Mölten",
+      "normalizedName": "meltina molten",
+      "aliases": [
+        "meltina",
+        "meltinamolten"
+      ],
+      "areaKm2": 37.181,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021035",
+        "021066",
+        "021079",
+        "021086",
+        "021097",
+        "021112"
+      ],
+      "focusPoint": {
+        "lat": 46.594741,
+        "lng": 11.253599
+      }
+    },
+    {
+      "istatCode": "021051",
+      "officialName": "Merano/Meran",
+      "normalizedName": "merano meran",
+      "aliases": [
+        "merano",
+        "meranomeran"
+      ],
+      "areaKm2": 25.987,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021005",
+        "021020",
+        "021038",
+        "021041",
+        "021048",
+        "021066",
+        "021087",
+        "021101",
+        "021112"
+      ],
+      "focusPoint": {
+        "lat": 46.655034,
+        "lng": 11.178912
+      }
+    },
+    {
+      "istatCode": "021052",
+      "officialName": "Monguelfo-Tesido/Welsberg-Taisten",
+      "normalizedName": "monguelfo tesido welsberg taisten",
+      "aliases": [
+        "monguelfo",
+        "monguelfo tesido",
+        "monguelfo tesido welsberg",
+        "monguelfotesido",
+        "monguelfotesidowelsberg",
+        "monguelfotesidowelsbergtaisten"
+      ],
+      "areaKm2": 46.225,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021009",
+        "021071",
+        "021106",
+        "021109",
+        "021113"
+      ],
+      "focusPoint": {
+        "lat": 46.785755,
+        "lng": 12.118686
+      }
+    },
+    {
+      "istatCode": "021053",
+      "officialName": "Montagna sulla strada del vino/Montan an der Weinstraße",
+      "normalizedName": "montagna sulla strada del vino montan an der weinstraße",
+      "aliases": [
+        "montagna",
+        "montagna sulla strada",
+        "montagna sulla strada del vino",
+        "montagna sulla strada del vino montan",
+        "montagna sulla strada del vino montan an",
+        "montagna sulla strada del vino montan an der",
+        "montagnasullastrada",
+        "montagnasullastradadelvino",
+        "montagnasullastradadelvinomontan",
+        "montagnasullastradadelvinomontanan",
+        "montagnasullastradadelvinomontanander",
+        "montagnasullastradadelvinomontananderweinstraße"
+      ],
+      "areaKm2": 19.168,
+      "baseChips": 184,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021001",
+        "021029",
+        "021060",
+        "021076",
+        "021098",
+        "021102"
+      ],
+      "focusPoint": {
+        "lat": 46.310473,
+        "lng": 11.311064
+      }
+    },
+    {
+      "istatCode": "021054",
+      "officialName": "Moso in Passiria/Moos in Passeier",
+      "normalizedName": "moso in passiria moos in passeier",
+      "aliases": [
+        "moso",
+        "moso in passiria",
+        "moso in passiria moos",
+        "mosoinpassiria",
+        "mosoinpassiriamoos",
+        "mosoinpassiriamoosinpasseier"
+      ],
+      "areaKm2": 193.834,
+      "baseChips": 132,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021062",
+        "021070",
+        "021073",
+        "021080",
+        "021083",
+        "021091",
+        "021101"
+      ],
+      "focusPoint": {
+        "lat": 46.83173,
+        "lng": 11.14753
+      }
+    },
+    {
+      "istatCode": "021055",
+      "officialName": "Nalles/Nals",
+      "normalizedName": "nalles nals",
+      "aliases": [
+        "nalles",
+        "nallesnals"
+      ],
+      "areaKm2": 12.216,
+      "baseChips": 194,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021002",
+        "021004",
+        "021035",
+        "021097",
+        "021099",
+        "021118"
+      ],
+      "focusPoint": {
+        "lat": 46.533618,
+        "lng": 11.20642
+      }
+    },
+    {
+      "istatCode": "021056",
+      "officialName": "Naturno/Naturns",
+      "normalizedName": "naturno naturns",
+      "aliases": [
+        "naturno",
+        "naturnonaturns"
+      ],
+      "areaKm2": 66.768,
+      "baseChips": 156,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021018",
+        "021038",
+        "021041",
+        "021062",
+        "021064",
+        "021084",
+        "021091",
+        "021104"
+      ],
+      "focusPoint": {
+        "lat": 46.636963,
+        "lng": 11.007026
+      }
+    },
+    {
+      "istatCode": "021057",
+      "officialName": "Naz-Sciaves/Natz-Schabs",
+      "normalizedName": "naz sciaves natz schabs",
+      "aliases": [
+        "naz",
+        "naz sciaves",
+        "naz sciaves natz",
+        "nazsciaves",
+        "nazsciavesnatz",
+        "nazsciavesnatzschabs"
+      ],
+      "areaKm2": 15.711,
+      "baseChips": 188,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021011",
+        "021032",
+        "021044",
+        "021074",
+        "021075",
+        "021111"
+      ],
+      "focusPoint": {
+        "lat": 46.764997,
+        "lng": 11.674213
+      }
+    },
+    {
+      "istatCode": "021058",
+      "officialName": "Nova Levante/Welschnofen",
+      "normalizedName": "nova levante welschnofen",
+      "aliases": [
+        "nova levante",
+        "novalevante",
+        "novalevantewelschnofen"
+      ],
+      "areaKm2": 51.073,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021023",
+        "021059",
+        "021100"
+      ],
+      "focusPoint": {
+        "lat": 46.419293,
+        "lng": 11.570228
+      }
+    },
+    {
+      "istatCode": "021059",
+      "officialName": "Nova Ponente/Deutschnofen",
+      "normalizedName": "nova ponente deutschnofen",
+      "aliases": [
+        "nova ponente",
+        "novaponente",
+        "novaponentedeutschnofen"
+      ],
+      "areaKm2": 111.758,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021001",
+        "021008",
+        "021012",
+        "021023",
+        "021040",
+        "021058"
+      ],
+      "focusPoint": {
+        "lat": 46.402781,
+        "lng": 11.441295
+      }
+    },
+    {
+      "istatCode": "021060",
+      "officialName": "Ora/Auer",
+      "normalizedName": "ora auer",
+      "aliases": [
+        "ora",
+        "oraauer"
+      ],
+      "areaKm2": 11.613,
+      "baseChips": 195,
+      "sizeQuartile": 2,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021001",
+        "021012",
+        "021053",
+        "021098",
+        "021105"
+      ],
+      "focusPoint": {
+        "lat": 46.36367,
+        "lng": 11.309386
+      }
+    },
+    {
+      "istatCode": "021061",
+      "officialName": "Ortisei/St. Ulrich",
+      "normalizedName": "ortisei st ulrich",
+      "aliases": [
+        "ortisei",
+        "ortisei st",
+        "ortiseist",
+        "ortiseistulrich"
+      ],
+      "areaKm2": 24.128,
+      "baseChips": 179,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021019",
+        "021033",
+        "021039",
+        "021085"
+      ],
+      "focusPoint": {
+        "lat": 46.587637,
+        "lng": 11.684248
+      }
+    },
+    {
+      "istatCode": "021062",
+      "officialName": "Parcines/Partschins",
+      "normalizedName": "parcines partschins",
+      "aliases": [
+        "parcines",
+        "parcinespartschins"
+      ],
+      "areaKm2": 55.839,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021038",
+        "021048",
+        "021054",
+        "021056",
+        "021064",
+        "021091",
+        "021101"
+      ],
+      "focusPoint": {
+        "lat": 46.69357,
+        "lng": 11.045416
+      }
+    },
+    {
+      "istatCode": "021063",
+      "officialName": "Perca/Percha",
+      "normalizedName": "perca percha",
+      "aliases": [
+        "perca",
+        "percapercha"
+      ],
+      "areaKm2": 30.745,
+      "baseChips": 173,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021013",
+        "021017",
+        "021034",
+        "021071"
+      ],
+      "focusPoint": {
+        "lat": 46.833719,
+        "lng": 12.034697
+      }
+    },
+    {
+      "istatCode": "021064",
+      "officialName": "Plaus/Plaus",
+      "normalizedName": "plaus plaus",
+      "aliases": [
+        "plaus",
+        "plausplaus"
+      ],
+      "areaKm2": 5.093,
+      "baseChips": 213,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021038",
+        "021056",
+        "021062"
+      ],
+      "focusPoint": {
+        "lat": 46.646185,
+        "lng": 11.049123
+      }
+    },
+    {
+      "istatCode": "021065",
+      "officialName": "Ponte Gardena/Waidbruck",
+      "normalizedName": "ponte gardena waidbruck",
+      "aliases": [
+        "ponte",
+        "ponte gardena",
+        "pontegardena",
+        "pontegardenawaidbruck"
+      ],
+      "areaKm2": 2.439,
+      "baseChips": 230,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021007",
+        "021019",
+        "021039"
+      ],
+      "focusPoint": {
+        "lat": 46.587811,
+        "lng": 11.529669
+      }
+    },
+    {
+      "istatCode": "021066",
+      "officialName": "Postal/Burgstall",
+      "normalizedName": "postal burgstall",
+      "aliases": [
+        "postal",
+        "postalburgstall"
+      ],
+      "areaKm2": 6.673,
+      "baseChips": 207,
+      "sizeQuartile": 1,
+      "sizeDecile": 1,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021035",
+        "021041",
+        "021050",
+        "021051",
+        "021112"
+      ],
+      "focusPoint": {
+        "lat": 46.598539,
+        "lng": 11.197712
+      }
+    },
+    {
+      "istatCode": "021067",
+      "officialName": "Prato allo Stelvio/Prad am Stilfserjoch",
+      "normalizedName": "prato allo stelvio prad am stilfserjoch",
+      "aliases": [
+        "prato",
+        "prato allo",
+        "prato allo stelvio",
+        "prato allo stelvio prad",
+        "prato allo stelvio prad am",
+        "pratoallo",
+        "pratoallostelvio",
+        "pratoallostelvioprad",
+        "pratoallostelviopradam",
+        "pratoallostelviopradamstilfserjoch"
+      ],
+      "areaKm2": 50.752,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021036",
+        "021042",
+        "021094",
+        "021095",
+        "021103"
+      ],
+      "focusPoint": {
+        "lat": 46.601014,
+        "lng": 10.583389
+      }
+    },
+    {
+      "istatCode": "021068",
+      "officialName": "Predoi/Prettau",
+      "normalizedName": "predoi prettau",
+      "aliases": [
+        "predoi",
+        "predoiprettau"
+      ],
+      "areaKm2": 86.554,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021017",
+        "021108"
+      ],
+      "focusPoint": {
+        "lat": 47.035856,
+        "lng": 12.138078
+      }
+    },
+    {
+      "istatCode": "021069",
+      "officialName": "Proves/Proveis",
+      "normalizedName": "proves proveis",
+      "aliases": [
+        "proves",
+        "provesproveis"
+      ],
+      "areaKm2": 18.522,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021043",
+        "021104"
+      ],
+      "focusPoint": {
+        "lat": 46.481793,
+        "lng": 11.014076
+      }
+    },
+    {
+      "istatCode": "021070",
+      "officialName": "Racines/Ratschings",
+      "normalizedName": "racines ratschings",
+      "aliases": [
+        "racines",
+        "racinesratschings"
+      ],
+      "areaKm2": 203.174,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021010",
+        "021016",
+        "021054",
+        "021080",
+        "021086",
+        "021115"
+      ],
+      "focusPoint": {
+        "lat": 46.8853,
+        "lng": 11.284695
+      }
+    },
+    {
+      "istatCode": "021071",
+      "officialName": "Rasun-Anterselva/Rasen-Antholz",
+      "normalizedName": "rasun anterselva rasen antholz",
+      "aliases": [
+        "rasun",
+        "rasun anterselva",
+        "rasun anterselva rasen",
+        "rasunanterselva",
+        "rasunanterselvarasen",
+        "rasunanterselvarasenantholz"
+      ],
+      "areaKm2": 121.485,
+      "baseChips": 143,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021013",
+        "021017",
+        "021052",
+        "021063",
+        "021106",
+        "021109"
+      ],
+      "focusPoint": {
+        "lat": 46.838038,
+        "lng": 12.112978
+      }
+    },
+    {
+      "istatCode": "021072",
+      "officialName": "Renon/Ritten",
+      "normalizedName": "renon ritten",
+      "aliases": [
+        "renon",
+        "renonritten"
+      ],
+      "areaKm2": 111.541,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021007",
+        "021008",
+        "021019",
+        "021023",
+        "021031",
+        "021079",
+        "021086",
+        "021114"
+      ],
+      "focusPoint": {
+        "lat": 46.561903,
+        "lng": 11.441601
+      }
+    },
+    {
+      "istatCode": "021073",
+      "officialName": "Rifiano/Riffian",
+      "normalizedName": "rifiano riffian",
+      "aliases": [
+        "rifiano",
+        "rifianoriffian"
+      ],
+      "areaKm2": 35.547,
+      "baseChips": 170,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021014",
+        "021054",
+        "021080",
+        "021083",
+        "021087",
+        "021101"
+      ],
+      "focusPoint": {
+        "lat": 46.746633,
+        "lng": 11.134611
+      }
+    },
+    {
+      "istatCode": "021074",
+      "officialName": "Rio di Pusteria/Mühlbach",
+      "normalizedName": "rio di pusteria muhlbach",
+      "aliases": [
+        "rio",
+        "rio di pusteria",
+        "riodipusteria",
+        "riodipusteriamuhlbach"
+      ],
+      "areaKm2": 83.708,
+      "baseChips": 151,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021016",
+        "021032",
+        "021057",
+        "021075",
+        "021107",
+        "021110"
+      ],
+      "focusPoint": {
+        "lat": 46.851914,
+        "lng": 11.638079
+      }
+    },
+    {
+      "istatCode": "021075",
+      "officialName": "Rodengo/Rodeneck",
+      "normalizedName": "rodengo rodeneck",
+      "aliases": [
+        "rodengo",
+        "rodengorodeneck"
+      ],
+      "areaKm2": 29.724,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021021",
+        "021044",
+        "021057",
+        "021074",
+        "021081",
+        "021110"
+      ],
+      "focusPoint": {
+        "lat": 46.788031,
+        "lng": 11.729845
+      }
+    },
+    {
+      "istatCode": "021076",
+      "officialName": "Salorno sulla strada del vino/Salurn an der Weinstraße",
+      "normalizedName": "salorno sulla strada del vino salurn an der weinstraße",
+      "aliases": [
+        "salorno",
+        "salorno sulla strada",
+        "salorno sulla strada del vino",
+        "salorno sulla strada del vino salurn",
+        "salorno sulla strada del vino salurn an",
+        "salorno sulla strada del vino salurn an der",
+        "salornosullastrada",
+        "salornosullastradadelvino",
+        "salornosullastradadelvinosalurn",
+        "salornosullastradadelvinosalurnan",
+        "salornosullastradadelvinosalurnander",
+        "salornosullastradadelvinosalurnanderweinstraße"
+      ],
+      "areaKm2": 33.51,
+      "baseChips": 171,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021025",
+        "021029",
+        "021045",
+        "021053"
+      ],
+      "focusPoint": {
+        "lat": 46.251365,
+        "lng": 11.23715
+      }
+    },
+    {
+      "istatCode": "021077",
+      "officialName": "San Candido/Innichen",
+      "normalizedName": "san candido innichen",
+      "aliases": [
+        "san candido",
+        "sancandido",
+        "sancandidoinnichen"
+      ],
+      "areaKm2": 80.263,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021028",
+        "021092"
+      ],
+      "focusPoint": {
+        "lat": 46.709265,
+        "lng": 12.285343
+      }
+    },
+    {
+      "istatCode": "021079",
+      "officialName": "San Genesio Atesino/Jenesien",
+      "normalizedName": "san genesio atesino jenesien",
+      "aliases": [
+        "san genesio",
+        "san genesio atesino",
+        "sangenesio",
+        "sangenesioatesino",
+        "sangenesioatesinojenesien"
+      ],
+      "areaKm2": 68.595,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021008",
+        "021050",
+        "021072",
+        "021086",
+        "021097"
+      ],
+      "focusPoint": {
+        "lat": 46.567546,
+        "lng": 11.330021
+      }
+    },
+    {
+      "istatCode": "021080",
+      "officialName": "San Leonardo in Passiria/St. Leonhard in Passeier",
+      "normalizedName": "san leonardo in passiria st leonhard in passeier",
+      "aliases": [
+        "san leonardo",
+        "san leonardo in passiria",
+        "san leonardo in passiria st",
+        "san leonardo in passiria st leonhard",
+        "sanleonardo",
+        "sanleonardoinpassiria",
+        "sanleonardoinpassiriast",
+        "sanleonardoinpassiriastleonhard",
+        "sanleonardoinpassiriastleonhardinpasseier"
+      ],
+      "areaKm2": 88.81,
+      "baseChips": 150,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021054",
+        "021070",
+        "021073",
+        "021083",
+        "021086",
+        "021087"
+      ],
+      "focusPoint": {
+        "lat": 46.786929,
+        "lng": 11.274382
+      }
+    },
+    {
+      "istatCode": "021081",
+      "officialName": "San Lorenzo di Sebato/St. Lorenzen",
+      "normalizedName": "san lorenzo di sebato st lorenzen",
+      "aliases": [
+        "san lorenzo",
+        "san lorenzo di sebato",
+        "san lorenzo di sebato st",
+        "sanlorenzo",
+        "sanlorenzodisebato",
+        "sanlorenzodisebatost",
+        "sanlorenzodisebatostlorenzen"
+      ],
+      "areaKm2": 51.174,
+      "baseChips": 162,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021013",
+        "021021",
+        "021030",
+        "021044",
+        "021047",
+        "021075"
+      ],
+      "focusPoint": {
+        "lat": 46.765203,
+        "lng": 11.871199
+      }
+    },
+    {
+      "istatCode": "021082",
+      "officialName": "San Martino in Badia/St. Martin in Thurn",
+      "normalizedName": "san martino in badia st martin in thurn",
+      "aliases": [
+        "san martino in badia",
+        "san martino in badia st",
+        "san martino in badia st martin",
+        "sanmartinoinbadia",
+        "sanmartinoinbadiast",
+        "sanmartinoinbadiastmartin",
+        "sanmartinoinbadiastmartininthurn"
+      ],
+      "areaKm2": 76.251,
+      "baseChips": 153,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021006",
+        "021011",
+        "021033",
+        "021044",
+        "021047",
+        "021085",
+        "021089",
+        "021117"
+      ],
+      "focusPoint": {
+        "lat": 46.650447,
+        "lng": 11.841388
+      }
+    },
+    {
+      "istatCode": "021083",
+      "officialName": "San Martino in Passiria/St. Martin in Passeier",
+      "normalizedName": "san martino in passiria st martin in passeier",
+      "aliases": [
+        "san martino in passiria",
+        "san martino in passiria st",
+        "san martino in passiria st martin",
+        "sanmartinoinpassiria",
+        "sanmartinoinpassiriast",
+        "sanmartinoinpassiriastmartin",
+        "sanmartinoinpassiriastmartininpasseier"
+      ],
+      "areaKm2": 30.304,
+      "baseChips": 174,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021054",
+        "021073",
+        "021080"
+      ],
+      "focusPoint": {
+        "lat": 46.774888,
+        "lng": 11.190441
+      }
+    },
+    {
+      "istatCode": "021084",
+      "officialName": "San Pancrazio/St. Pankraz",
+      "normalizedName": "san pancrazio st pankraz",
+      "aliases": [
+        "san pancrazio",
+        "san pancrazio st",
+        "sanpancrazio",
+        "sanpancraziost",
+        "sanpancraziostpankraz"
+      ],
+      "areaKm2": 63.198,
+      "baseChips": 157,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021041",
+        "021043",
+        "021056",
+        "021099",
+        "021104",
+        "021118"
+      ],
+      "focusPoint": {
+        "lat": 46.564207,
+        "lng": 11.072846
+      }
+    },
+    {
+      "istatCode": "021085",
+      "officialName": "Santa Cristina Valgardena/St. Christina in Gröden",
+      "normalizedName": "santa cristina valgardena st christina in groden",
+      "aliases": [
+        "santa",
+        "santa cristina",
+        "santa cristina valgardena",
+        "santa cristina valgardena st",
+        "santa cristina valgardena st christina",
+        "santacristina",
+        "santacristinavalgardena",
+        "santacristinavalgardenast",
+        "santacristinavalgardenastchristina",
+        "santacristinavalgardenastchristinaingroden"
+      ],
+      "areaKm2": 31.824,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021019",
+        "021033",
+        "021061",
+        "021082",
+        "021089"
+      ],
+      "focusPoint": {
+        "lat": 46.561466,
+        "lng": 11.714626
+      }
+    },
+    {
+      "istatCode": "021086",
+      "officialName": "Sarentino/Sarntal",
+      "normalizedName": "sarentino sarntal",
+      "aliases": [
+        "sarentino",
+        "sarentinosarntal"
+      ],
+      "areaKm2": 301.956,
+      "baseChips": 122,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021005",
+        "021016",
+        "021022",
+        "021032",
+        "021050",
+        "021070",
+        "021072",
+        "021079",
+        "021080",
+        "021087",
+        "021111",
+        "021112",
+        "021114"
+      ],
+      "focusPoint": {
+        "lat": 46.698271,
+        "lng": 11.38637
+      }
+    },
+    {
+      "istatCode": "021087",
+      "officialName": "Scena/Schenna",
+      "normalizedName": "scena schenna",
+      "aliases": [
+        "scena",
+        "scenaschenna"
+      ],
+      "areaKm2": 48.003,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021005",
+        "021014",
+        "021051",
+        "021073",
+        "021080",
+        "021086",
+        "021101"
+      ],
+      "focusPoint": {
+        "lat": 46.713407,
+        "lng": 11.235088
+      }
+    },
+    {
+      "istatCode": "021088",
+      "officialName": "Selva dei Molini/Mühlwald",
+      "normalizedName": "selva dei molini muhlwald",
+      "aliases": [
+        "selva dei molini",
+        "selvadeimolini",
+        "selvadeimolinimuhlwald"
+      ],
+      "areaKm2": 105.12,
+      "baseChips": 146,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021017",
+        "021021",
+        "021030",
+        "021034",
+        "021096",
+        "021107",
+        "021108",
+        "021110"
+      ],
+      "focusPoint": {
+        "lat": 46.924972,
+        "lng": 11.782929
+      }
+    },
+    {
+      "istatCode": "021089",
+      "officialName": "Selva di Val Gardena/Wolkenstein in Gröden",
+      "normalizedName": "selva di val gardena wolkenstein in groden",
+      "aliases": [
+        "selva di val",
+        "selva di val gardena",
+        "selva di val gardena wolkenstein",
+        "selvadival",
+        "selvadivalgardena",
+        "selvadivalgardenawolkenstein",
+        "selvadivalgardenawolkensteiningroden"
+      ],
+      "areaKm2": 56.371,
+      "baseChips": 160,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021026",
+        "021082",
+        "021085"
+      ],
+      "focusPoint": {
+        "lat": 46.549382,
+        "lng": 11.769053
+      }
+    },
+    {
+      "istatCode": "021091",
+      "officialName": "Senales/Schnals",
+      "normalizedName": "senales schnals",
+      "aliases": [
+        "senales",
+        "senalesschnals"
+      ],
+      "areaKm2": 209.803,
+      "baseChips": 130,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021018",
+        "021037",
+        "021046",
+        "021054",
+        "021056",
+        "021062",
+        "021093"
+      ],
+      "focusPoint": {
+        "lat": 46.728259,
+        "lng": 10.860912
+      }
+    },
+    {
+      "istatCode": "021092",
+      "officialName": "Sesto/Sexten",
+      "normalizedName": "sesto sexten",
+      "aliases": [
+        "sesto",
+        "sestosexten"
+      ],
+      "areaKm2": 80.053,
+      "baseChips": 152,
+      "sizeQuartile": 4,
+      "sizeDecile": 8,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021028",
+        "021077"
+      ],
+      "focusPoint": {
+        "lat": 46.672073,
+        "lng": 12.385449
+      }
+    },
+    {
+      "istatCode": "021093",
+      "officialName": "Silandro/Schlanders",
+      "normalizedName": "silandro schlanders",
+      "aliases": [
+        "silandro",
+        "silandroschlanders"
+      ],
+      "areaKm2": 115.123,
+      "baseChips": 144,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021037",
+        "021042",
+        "021046",
+        "021049",
+        "021091"
+      ],
+      "focusPoint": {
+        "lat": 46.646536,
+        "lng": 10.767983
+      }
+    },
+    {
+      "istatCode": "021094",
+      "officialName": "Sluderno/Schluderns",
+      "normalizedName": "sluderno schluderns",
+      "aliases": [
+        "sluderno",
+        "sludernoschluderns"
+      ],
+      "areaKm2": 20.969,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021036",
+        "021042",
+        "021046",
+        "021067"
+      ],
+      "focusPoint": {
+        "lat": 46.654159,
+        "lng": 10.600034
+      }
+    },
+    {
+      "istatCode": "021095",
+      "officialName": "Stelvio/Stilfs",
+      "normalizedName": "stelvio stilfs",
+      "aliases": [
+        "stelvio",
+        "stelviostilfs"
+      ],
+      "areaKm2": 141.933,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021042",
+        "021049",
+        "021067"
+      ],
+      "focusPoint": {
+        "lat": 46.542465,
+        "lng": 10.555894
+      }
+    },
+    {
+      "istatCode": "021096",
+      "officialName": "Terento/Terenten",
+      "normalizedName": "terento terenten",
+      "aliases": [
+        "terento",
+        "terentoterenten"
+      ],
+      "areaKm2": 42.506,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021021",
+        "021088",
+        "021110"
+      ],
+      "focusPoint": {
+        "lat": 46.85208,
+        "lng": 11.782861
+      }
+    },
+    {
+      "istatCode": "021097",
+      "officialName": "Terlano/Terlan",
+      "normalizedName": "terlano terlan",
+      "aliases": [
+        "terlano",
+        "terlanoterlan"
+      ],
+      "areaKm2": 18.397,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021002",
+        "021004",
+        "021008",
+        "021035",
+        "021050",
+        "021055",
+        "021079"
+      ],
+      "focusPoint": {
+        "lat": 46.537115,
+        "lng": 11.251025
+      }
+    },
+    {
+      "istatCode": "021098",
+      "officialName": "Termeno sulla strada del vino/Tramin an der Weinstraße",
+      "normalizedName": "termeno sulla strada del vino tramin an der weinstraße",
+      "aliases": [
+        "termeno",
+        "termeno sulla strada",
+        "termeno sulla strada del vino",
+        "termeno sulla strada del vino tramin",
+        "termeno sulla strada del vino tramin an",
+        "termeno sulla strada del vino tramin an der",
+        "termenosullastrada",
+        "termenosullastradadelvino",
+        "termenosullastradadelvinotramin",
+        "termenosullastradadelvinotraminan",
+        "termenosullastradadelvinotraminander",
+        "termenosullastradadelvinotraminanderweinstraße"
+      ],
+      "areaKm2": 19.879,
+      "baseChips": 183,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021015",
+        "021024",
+        "021029",
+        "021053",
+        "021060",
+        "021105"
+      ],
+      "focusPoint": {
+        "lat": 46.336448,
+        "lng": 11.238097
+      }
+    },
+    {
+      "istatCode": "021099",
+      "officialName": "Tesimo/Tisens",
+      "normalizedName": "tesimo tisens",
+      "aliases": [
+        "tesimo",
+        "tesimotisens"
+      ],
+      "areaKm2": 37.936,
+      "baseChips": 169,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021035",
+        "021041",
+        "021055",
+        "021084",
+        "021118"
+      ],
+      "focusPoint": {
+        "lat": 46.553179,
+        "lng": 11.15374
+      }
+    },
+    {
+      "istatCode": "021100",
+      "officialName": "Tires/Tiers",
+      "normalizedName": "tires tiers",
+      "aliases": [
+        "tires",
+        "tirestiers"
+      ],
+      "areaKm2": 42.177,
+      "baseChips": 166,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021019",
+        "021023",
+        "021031",
+        "021058"
+      ],
+      "focusPoint": {
+        "lat": 46.468582,
+        "lng": 11.567256
+      }
+    },
+    {
+      "istatCode": "021101",
+      "officialName": "Tirolo/Tirol",
+      "normalizedName": "tirolo tirol",
+      "aliases": [
+        "tirolo",
+        "tirolotirol"
+      ],
+      "areaKm2": 26.237,
+      "baseChips": 177,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021014",
+        "021038",
+        "021051",
+        "021054",
+        "021062",
+        "021073",
+        "021087"
+      ],
+      "focusPoint": {
+        "lat": 46.709468,
+        "lng": 11.142261
+      }
+    },
+    {
+      "istatCode": "021102",
+      "officialName": "Trodena nel parco naturale/Truden im Naturpark",
+      "normalizedName": "trodena nel parco naturale truden im naturpark",
+      "aliases": [
+        "trodena",
+        "trodena nel parco",
+        "trodena nel parco naturale",
+        "trodena nel parco naturale truden",
+        "trodena nel parco naturale truden im",
+        "trodenanelparco",
+        "trodenanelparconaturale",
+        "trodenanelparconaturaletruden",
+        "trodenanelparconaturaletrudenim",
+        "trodenanelparconaturaletrudenimnaturpark"
+      ],
+      "areaKm2": 20.932,
+      "baseChips": 182,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021001",
+        "021003",
+        "021053"
+      ],
+      "focusPoint": {
+        "lat": 46.318415,
+        "lng": 11.36051
+      }
+    },
+    {
+      "istatCode": "021103",
+      "officialName": "Tubre/Taufers im Münstertal",
+      "normalizedName": "tubre taufers im munstertal",
+      "aliases": [
+        "tubre",
+        "tubre taufers",
+        "tubre taufers im",
+        "tubretaufers",
+        "tubretaufersim",
+        "tubretaufersimmunstertal"
+      ],
+      "areaKm2": 46.12,
+      "baseChips": 164,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021036",
+        "021046",
+        "021067"
+      ],
+      "focusPoint": {
+        "lat": 46.657728,
+        "lng": 10.442089
+      }
+    },
+    {
+      "istatCode": "021104",
+      "officialName": "Ultimo/Ulten",
+      "normalizedName": "ultimo ulten",
+      "aliases": [
+        "ultimo",
+        "ultimoulten"
+      ],
+      "areaKm2": 208.575,
+      "baseChips": 131,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021018",
+        "021037",
+        "021043",
+        "021049",
+        "021056",
+        "021069",
+        "021084"
+      ],
+      "focusPoint": {
+        "lat": 46.509445,
+        "lng": 10.896978
+      }
+    },
+    {
+      "istatCode": "021105",
+      "officialName": "Vadena/Pfatten",
+      "normalizedName": "vadena pfatten",
+      "aliases": [
+        "vadena",
+        "vadenapfatten"
+      ],
+      "areaKm2": 13.403,
+      "baseChips": 192,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021004",
+        "021008",
+        "021012",
+        "021015",
+        "021040",
+        "021060",
+        "021098"
+      ],
+      "focusPoint": {
+        "lat": 46.395977,
+        "lng": 11.294343
+      }
+    },
+    {
+      "istatCode": "021106",
+      "officialName": "Valdaora/Olang",
+      "normalizedName": "valdaora olang",
+      "aliases": [
+        "valdaora",
+        "valdaoraolang"
+      ],
+      "areaKm2": 49.232,
+      "baseChips": 163,
+      "sizeQuartile": 4,
+      "sizeDecile": 6,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021009",
+        "021013",
+        "021047",
+        "021052",
+        "021071"
+      ],
+      "focusPoint": {
+        "lat": 46.739441,
+        "lng": 12.013208
+      }
+    },
+    {
+      "istatCode": "021107",
+      "officialName": "Val di Vizze/Pfitsch",
+      "normalizedName": "val di vizze pfitsch",
+      "aliases": [
+        "val",
+        "val di vizze",
+        "valdivizze",
+        "valdivizzepfitsch"
+      ],
+      "areaKm2": 142.157,
+      "baseChips": 139,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021010",
+        "021016",
+        "021074",
+        "021088",
+        "021110",
+        "021115"
+      ],
+      "focusPoint": {
+        "lat": 46.947781,
+        "lng": 11.573276
+      }
+    },
+    {
+      "istatCode": "021108",
+      "officialName": "Valle Aurina/Ahrntal",
+      "normalizedName": "valle aurina ahrntal",
+      "aliases": [
+        "valle aurina",
+        "valleaurina",
+        "valleaurinaahrntal"
+      ],
+      "areaKm2": 188.382,
+      "baseChips": 133,
+      "sizeQuartile": 4,
+      "sizeDecile": 10,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021017",
+        "021068",
+        "021088"
+      ],
+      "focusPoint": {
+        "lat": 46.985085,
+        "lng": 11.942697
+      }
+    },
+    {
+      "istatCode": "021109",
+      "officialName": "Valle di Casies/Gsies",
+      "normalizedName": "valle di casies gsies",
+      "aliases": [
+        "valle di casies",
+        "valledicasies",
+        "valledicasiesgsies"
+      ],
+      "areaKm2": 110.259,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021028",
+        "021052",
+        "021071",
+        "021113"
+      ],
+      "focusPoint": {
+        "lat": 46.826978,
+        "lng": 12.235642
+      }
+    },
+    {
+      "istatCode": "021110",
+      "officialName": "Vandoies/Vintl",
+      "normalizedName": "vandoies vintl",
+      "aliases": [
+        "vandoies",
+        "vandoiesvintl"
+      ],
+      "areaKm2": 110.498,
+      "baseChips": 145,
+      "sizeQuartile": 4,
+      "sizeDecile": 9,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021021",
+        "021074",
+        "021075",
+        "021088",
+        "021096",
+        "021107"
+      ],
+      "focusPoint": {
+        "lat": 46.874617,
+        "lng": 11.721476
+      }
+    },
+    {
+      "istatCode": "021111",
+      "officialName": "Varna/Vahrn",
+      "normalizedName": "varna vahrn",
+      "aliases": [
+        "varna",
+        "varnavahrn"
+      ],
+      "areaKm2": 70.038,
+      "baseChips": 155,
+      "sizeQuartile": 4,
+      "sizeDecile": 7,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021011",
+        "021022",
+        "021032",
+        "021057",
+        "021086",
+        "021116"
+      ],
+      "focusPoint": {
+        "lat": 46.742778,
+        "lng": 11.580945
+      }
+    },
+    {
+      "istatCode": "021112",
+      "officialName": "Verano/Vöran",
+      "normalizedName": "verano voran",
+      "aliases": [
+        "verano",
+        "veranovoran"
+      ],
+      "areaKm2": 22.763,
+      "baseChips": 180,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021005",
+        "021050",
+        "021051",
+        "021066",
+        "021086"
+      ],
+      "focusPoint": {
+        "lat": 46.617637,
+        "lng": 11.241841
+      }
+    },
+    {
+      "istatCode": "021113",
+      "officialName": "Villabassa/Niederdorf",
+      "normalizedName": "villabassa niederdorf",
+      "aliases": [
+        "villabassa",
+        "villabassaniederdorf"
+      ],
+      "areaKm2": 17.965,
+      "baseChips": 185,
+      "sizeQuartile": 2,
+      "sizeDecile": 2,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021009",
+        "021028",
+        "021052",
+        "021109"
+      ],
+      "focusPoint": {
+        "lat": 46.730687,
+        "lng": 12.174261
+      }
+    },
+    {
+      "istatCode": "021114",
+      "officialName": "Villandro/Villanders",
+      "normalizedName": "villandro villanders",
+      "aliases": [
+        "villandro",
+        "villandrovillanders"
+      ],
+      "areaKm2": 43.968,
+      "baseChips": 165,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021007",
+        "021022",
+        "021039",
+        "021072",
+        "021086"
+      ],
+      "focusPoint": {
+        "lat": 46.64427,
+        "lng": 11.486745
+      }
+    },
+    {
+      "istatCode": "021115",
+      "officialName": "Vipiteno/Sterzing",
+      "normalizedName": "vipiteno sterzing",
+      "aliases": [
+        "vipiteno",
+        "vipitenosterzing"
+      ],
+      "areaKm2": 32.692,
+      "baseChips": 172,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021010",
+        "021016",
+        "021070",
+        "021107"
+      ],
+      "focusPoint": {
+        "lat": 46.908834,
+        "lng": 11.412683
+      }
+    },
+    {
+      "istatCode": "021116",
+      "officialName": "Velturno/Feldthurns",
+      "normalizedName": "velturno feldthurns",
+      "aliases": [
+        "velturno",
+        "velturnofeldthurns"
+      ],
+      "areaKm2": 24.402,
+      "baseChips": 178,
+      "sizeQuartile": 3,
+      "sizeDecile": 3,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021011",
+        "021022",
+        "021033",
+        "021111"
+      ],
+      "focusPoint": {
+        "lat": 46.683286,
+        "lng": 11.594166
+      }
+    },
+    {
+      "istatCode": "021117",
+      "officialName": "La Valle/Wengen",
+      "normalizedName": "la valle wengen",
+      "aliases": [
+        "la",
+        "la valle",
+        "lavalle",
+        "lavallewengen"
+      ],
+      "areaKm2": 39.157,
+      "baseChips": 168,
+      "sizeQuartile": 3,
+      "sizeDecile": 5,
+      "isBorderMunicipality": false,
+      "neighbors": [
+        "021006",
+        "021047",
+        "021082"
+      ],
+      "focusPoint": {
+        "lat": 46.652862,
+        "lng": 11.934997
+      }
+    },
+    {
+      "istatCode": "021118",
+      "officialName": "Senale-San Felice/Unsere Liebe Frau im Walde-St. Felix",
+      "normalizedName": "senale san felice unsere liebe frau im walde st felix",
+      "aliases": [
+        "senale",
+        "senale san",
+        "senale san felice",
+        "senale san felice unsere",
+        "senale san felice unsere liebe",
+        "senale san felice unsere liebe frau",
+        "senale san felice unsere liebe frau im",
+        "senale san felice unsere liebe frau im walde",
+        "senale san felice unsere liebe frau im walde st",
+        "senalesan",
+        "senalesanfelice",
+        "senalesanfeliceunsere",
+        "senalesanfeliceunsereliebe",
+        "senalesanfeliceunsereliebefrau",
+        "senalesanfeliceunsereliebefrauim",
+        "senalesanfeliceunsereliebefrauimwalde",
+        "senalesanfeliceunsereliebefrauimwaldest",
+        "senalesanfeliceunsereliebefrauimwaldestfelix"
+      ],
+      "areaKm2": 27.776,
+      "baseChips": 176,
+      "sizeQuartile": 3,
+      "sizeDecile": 4,
+      "isBorderMunicipality": true,
+      "neighbors": [
+        "021004",
+        "021055",
+        "021084",
+        "021099"
+      ],
+      "focusPoint": {
+        "lat": 46.510702,
+        "lng": 11.13566
+      }
+    }
+  ]
+}
