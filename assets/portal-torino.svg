@@ -1,0 +1,25 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Provincia di Torino game portal">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4EFE5"/>
+      <stop offset="100%" stop-color="#D5C5A4"/>
+    </linearGradient>
+    <linearGradient id="map" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#115E59"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="120" fill="url(#sky)"/>
+  <circle cx="790" cy="252" r="122" fill="#ffffff" fill-opacity="0.5"/>
+  <path d="M240 226C204 274 188 332 194 402C200 476 236 540 304 598C368 652 412 704 430 754C448 804 478 842 520 868C566 896 620 898 682 872C740 846 780 800 804 734C832 662 836 590 818 518C804 460 780 418 746 392C714 368 682 346 654 330C612 304 586 268 576 220L240 226Z" fill="url(#map)"/>
+  <path d="M394 314L460 368L430 458L510 506L476 620L560 690" fill="none" stroke="#F4EFE5" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M566 248L626 306L598 382L674 438L642 534L706 602" fill="none" stroke="#D6F4EE" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="110" y="716" width="314" height="146" rx="52" fill="#1F1D18" fill-opacity="0.84"/>
+  <text x="160" y="806" fill="#FDF8EF" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="700">TO</text>
+  <circle cx="770" cy="760" r="122" fill="url(#badge)"/>
+  <text x="695" y="790" fill="#FFF7ED" font-family="Inter, Arial, sans-serif" font-size="126" font-weight="700">?</text>
+</svg>
