@@ -556,7 +556,7 @@ function renderProvinceMenu(query = els.provincePickerInput.value) {
         option.addEventListener('click', () => {
             els.provincePickerInput.value = provinceDisplayValue(province);
             closeProvinceMenu();
-            loadProvince(province.provinceCode).catch(console.error);
+            loadProvince(province.provinceCode, { restoreSession: false }).catch(console.error);
         });
         els.provinceOptions.appendChild(option);
     });
@@ -898,7 +898,7 @@ async function loadManifest() {
     buildProvinceLookup();
 }
 
-async function loadProvince(provinceCode) {
+async function loadProvince(provinceCode, { restoreSession = true } = {}) {
     const province = provinceIndex.get(provinceCode);
     if (!province) {
         return false;
@@ -933,7 +933,12 @@ async function loadProvince(provinceCode) {
     municipalities = metadata.municipalities;
     codeIndex = new Map(municipalities.map(entry => [entry.istatCode, entry]));
     answerIndex = buildAnswerIndex(municipalities, aliases);
-    state = restoreState(loadSession(provinceCode), municipalities.map(entry => entry.istatCode));
+    if (restoreSession) {
+        state = restoreState(loadSession(provinceCode), municipalities.map(entry => entry.istatCode));
+    } else {
+        clearSession(provinceCode);
+        state = createEmptyState();
+    }
     bestTime = loadBestTime(provinceCode);
     bestScore = loadBestScore(provinceCode);
     ensureRunModifiers();
@@ -973,7 +978,7 @@ function tryLoadProvinceFromInput() {
         return;
     }
     closeProvinceMenu();
-    loadProvince(provinceCode).catch(error => {
+    loadProvince(provinceCode, { restoreSession: false }).catch(error => {
         console.error(error);
         setFeedback('provinceNotFound', 'error', { value: els.provincePickerInput.value.trim() || provinceCode });
     });
@@ -998,7 +1003,7 @@ function bindUi() {
         clearSession(activeProvince.provinceCode);
         state = createEmptyState();
         lastScoreEvent = null;
-        loadProvince(activeProvince.provinceCode).catch(console.error);
+        loadProvince(activeProvince.provinceCode, { restoreSession: false }).catch(console.error);
     });
 
     els.resetViewButton.addEventListener('click', () => {
@@ -1043,7 +1048,7 @@ function bindUi() {
                 if (province) {
                     els.provincePickerInput.value = provinceDisplayValue(province);
                     closeProvinceMenu();
-                    loadProvince(provinceCode).catch(console.error);
+                    loadProvince(provinceCode, { restoreSession: false }).catch(console.error);
                     return;
                 }
             }
@@ -1084,7 +1089,7 @@ async function init() {
             ? loadLastProvince(defaultProvinceCode)
             : defaultProvinceCode;
         applyLanguage(currentLanguage);
-        await loadProvince(startupProvince);
+        await loadProvince(startupProvince, { restoreSession: true });
     } catch (error) {
         console.error(error);
         els.mapLoading.hidden = false;

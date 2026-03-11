@@ -32,10 +32,16 @@ export function loadSession(provinceCode) {
 
 export function saveSession(provinceCode, value) {
     writeJson(provinceKey('session', provinceCode), value);
+    if (provinceCode === '001') {
+        window.localStorage.removeItem(LEGACY_SESSION_KEY);
+    }
 }
 
 export function clearSession(provinceCode) {
     window.localStorage.removeItem(provinceKey('session', provinceCode));
+    if (provinceCode === '001') {
+        window.localStorage.removeItem(LEGACY_SESSION_KEY);
+    }
 }
 
 export function loadBestTime(provinceCode) {
