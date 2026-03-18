@@ -1,187 +1,110 @@
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+@media screen and (max-width: 1100px) {
+  .hero-section,
+  .section-split,
+  .experience-layout,
+  .publication-feature {
+    grid-template-columns: 1fr;
   }
-  .about-containers {
-    flex-wrap: wrap;
+
+  .hero-proof-list,
+  .capability-matrix {
+    grid-template-columns: 1fr;
   }
-  #contact,
-  #projects {
-    height: fit-content;
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card--feature,
+  .project-card--wide {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .case-study__intro,
+  .case-study__layout {
+    grid-template-columns: 1fr;
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 769px) {
+@media screen and (max-width: 820px) {
   #desktop-nav {
     display: none;
   }
-  #hamburger-nav {
-    display: flex;
-  }
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
-  #profile {
-    gap: 2rem;
-    padding: 0 2rem;
-  }
-  .section__pic-container {
-    width: 250px;
-    height: 250px;
-    margin: 0;
-  }
-  .section__pic-container img {
-    width: 250px;
-    height: 250px;
-  }
-  .title {
-    font-size: 2rem;
-  }
-  .arrow {
-    display: none;
-  }
-  section,
-  .section-container {
-    height: fit-content;
-  }
-  section {
-    margin: 0 5%;
-  }
-  /* Stack About layout on medium screens */
-  #about .about-layout {
-    display: block;
-  }
-  .about-containers {
-    margin-top: 0;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  #desktop-nav {
-    display: none;
-  }
   #hamburger-nav {
     display: flex;
   }
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
+
+  .hero-title {
+    max-width: 10ch;
   }
-  #profile,
-  .section-container {
-    display: block;
-    height: auto;
+
+  .capability-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
   }
-  .arrow {
-    display: none;
-  }
-  section,
-  .section-container {
-    height: fit-content;
-  }
-  section { margin: 0 5%; }
-  /* Add breathing room between Publications and Contact on small screens */
-  #publications { padding-bottom: 10vh; }
-  #contact { padding-top: 6vh; }
-  /* Stack About layout on small screens */
-  #about .about-layout {
-    display: block;
-  }
-  /* Make Contact a bit more compact on tablets */
-  #contact { padding-top: 4vh; padding-bottom: 6vh; }
-  #contact .contact-panel { margin: 1.25rem auto; padding: 1rem; }
-  #contact .contact-grid { gap: 0.9rem; padding: 0.75rem; }
-  #contact .contact-card { grid-template-columns: 52px 1fr; padding: 0.75rem 0.9rem; border-radius: 12px; }
-  #contact .contact-icon-wrap { width: 52px; height: 52px; border-radius: 10px; }
-  #contact .contact-svg { width: 24px; height: 24px; }
-  #contact .title { font-size: 1.9rem; }
-  .section__pic-container {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 2rem;
-  }
-  /* Smaller project portals on tablets */
-  #projects .project-img { width: 200px; height: 200px; }
-  #projects .image-link { padding: 4px; }
-  .about-containers {
-    margin-top: 0;
+
+  .contact-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
+  #desktop-nav,
+  #hamburger-nav,
+  section,
   footer {
-    height: auto; /* avoid cropping on small devices */
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-  /* Contact grid stacks cleanly on phones */
-  #contact .contact-grid {
-    grid-template-columns: 1fr;
-    padding: 0.6rem;
+
+  .logo {
+    font-size: 0.82rem;
+    letter-spacing: 0.06em;
+  }
+
+  .nav-links {
+    gap: 0.9rem;
+  }
+
+  .menu-links {
+    min-width: min(16rem, calc(100vw - 2rem));
+  }
+
+  section {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .text-link {
+    width: 100%;
+  }
+
+  .hero-links {
+    flex-direction: column;
     gap: 0.6rem;
   }
-  #profile {
-    height: 83vh;
-    margin-bottom: 0;
+
+  .project-card,
+  .hero-portrait {
+    border-radius: 1rem;
   }
-  article {
-    font-size: 1rem;
+
+  .project-tags {
+    gap: 0.45rem;
   }
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
+
+  .project-actions--case-study {
+    align-items: stretch;
   }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
-    flex-wrap: wrap;
-  }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
-  }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .section__pic-container {
-      width: 80%;                /* Adjust width for smaller screens */
-      max-width: 150px;
-      margin: 0 auto 20px;       /* Center image and add bottom margin */
-  }
-  .section__pic-container img {
-      width: 100%;
-      height: auto;
-  }
-  .section__text__p2 {
-    font-size: 1.25rem;
-  }
-  .title {
-    font-size: 2rem;
-  }
-  /* Even smaller portals on phones */
-  #projects .project-img { width: 160px; height: 160px; }
-  #projects .image-link { padding: 3px; }
-  .text-container {
-    text-align: justify;
-  }
-  /* Compact Contact cards further on phones */
-  #contact { padding-top: 3.5vh; padding-bottom: 6vh; }
-  #contact .title { font-size: 1.75rem; }
-  #contact .contact-panel { margin: 1rem auto; padding: 0.75rem; }
-  #contact .contact-card { grid-template-columns: 48px 1fr; padding: 0.6rem 0.75rem; border-radius: 10px; }
-  #contact .contact-icon-wrap { width: 48px; height: 48px; border-radius: 10px; }
-  #contact .contact-svg { width: 22px; height: 22px; }
-  #contact .contact-label { font-size: 0.95rem; }
 }

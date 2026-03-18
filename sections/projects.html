@@ -1,29 +1,97 @@
 <section id="projects">
-    <p class="section__text__p1">Browse My Portals</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-        <div class="about-containers">
-            <a href="https://github.com/mak8427" class="image-link" aria-label="Open Machine Learning projects on GitHub">
-                <img src="./assets/portal-ml.svg" alt="Machine Learning Portal" class="project-img" />
-            </a>
-
-            <a href="Rp!/landing.html" class="image-link" aria-label="Open Roleplay portal">
-                <img src="./assets/portal-roleplay.svg" alt="Roleplay Portal" class="project-img" />
-            </a>
-
-            <a href="finance/finance.html" class="image-link" aria-label="Open Personal Finance portal">
-                <img src="./assets/portal-finance.svg" alt="Personal Finance Portal" class="project-img" />
-            </a>
-
-            <a href="indovina-il-comune-il-gioco/" class="image-link" aria-label="Open Indovina il comune! Il gioco">
-                <img src="./assets/portal-torino.svg" alt="Indovina il comune! Il gioco" class="project-img" />
-            </a>
+  <div class="section-intro section-intro--wide">
+    <p class="section-eyebrow">Selected Work</p>
+    <h2 class="section-title">Projects that show how I build remote-sensing systems.</h2>
+    <p class="section-copy">
+      One featured case study, then two supporting projects in reproducible UAV workflows and EO
+      open-source engineering.
+    </p>
+  </div>
+  <div class="project-grid">
+    <article class="project-card project-card--feature case-study">
+      <div class="case-study__intro">
+        <div>
+          <p class="card-eyebrow">Featured System</p>
+          <h3>SegEdge</h3>
         </div>
-    </div>
-    <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            onclick="location.href='#education'"
-    />
+        <p class="case-study__lede">Built to move from orthophoto tiles to repeatable segmentation runs.</p>
+      </div>
+
+      <div class="case-study__layout">
+        <div class="case-study__visual" aria-hidden="true">
+          <div class="case-study__pipeline">
+            <div class="pipeline-step">
+              <span class="pipeline-step__eyebrow">Input</span>
+              <strong>Orthophotos</strong>
+            </div>
+            <div class="pipeline-step">
+              <span class="pipeline-step__eyebrow">Model Stack</span>
+              <strong>DINOv3 + SAM 2</strong>
+            </div>
+            <div class="pipeline-step">
+              <span class="pipeline-step__eyebrow">Delivery</span>
+              <strong>SLURM-ready runs</strong>
+            </div>
+          </div>
+          <p class="case-study__visual-note">
+            Structured package code, experiment runners, and wrappers for batch inference.
+          </p>
+        </div>
+
+        <div class="case-study__content">
+          <p class="project-summary">
+            A remote-sensing segmentation system for tree-crown delineation and agricultural field
+            extraction, organized so experiments and operational runs use the same backbone.
+          </p>
+          <div class="project-meta">
+            <span>Role: repository design, experiment runners, reusable wrappers</span>
+            <span>Why it matters: turns research segmentation into repeatable batch inference</span>
+          </div>
+          <ul class="project-tags">
+            <li>Tree crowns</li>
+            <li>Farmland</li>
+            <li>HPC inference</li>
+          </ul>
+          <div class="project-actions project-actions--case-study">
+            <a class="btn btn-primary" href="https://github.com/GIS-Remote-Sensing-Goettingen/SegEdge" target="_blank" rel="noopener">View repository</a>
+            <p class="project-note">Best example of research code shaped into an operational workflow.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card project-card--supporting">
+      <p class="card-eyebrow">Research Workflow</p>
+      <h3>Multi-angular UAV reflectance extraction</h3>
+      <p class="project-summary">
+        A reproducible workflow for extracting multi-angular UAV reflectance data from orthophotos,
+        camera geometry, and field samples without rebuilding the analysis from scratch each time.
+      </p>
+      <div class="project-meta">
+        <span>Role: structured the pipeline for research reuse and repeatable outputs</span>
+        <span>Stack: Python, R, Metashape</span>
+      </div>
+      <div class="project-actions">
+        <p class="project-note">Useful when a field workflow has to survive beyond one experiment cycle.</p>
+        <a class="text-link" href="https://github.com/ReneHeim/proj_on_uav" target="_blank" rel="noopener">Open repository</a>
+      </div>
+    </article>
+
+    <article class="project-card project-card--supporting">
+      <p class="card-eyebrow">Open-Source Contribution</p>
+      <h3>ESA OpenSR contribution</h3>
+      <p class="project-summary">
+        Contribution work on opensr-model, the latent-diffusion super-resolution project for
+        RGB-NIR Sentinel-2 imagery, with package-oriented and HPC-aware engineering.
+      </p>
+      <div class="project-meta">
+        <span>Role: contribution work on repository structure and execution workflow</span>
+        <span>Focus: EO super-resolution for Sentinel-2</span>
+      </div>
+      <div class="project-actions">
+        <p class="project-note">Shows how I work inside an existing open-source research codebase.</p>
+        <a class="text-link" href="https://github.com/ESAOpenSR/opensr-model" target="_blank" rel="noopener">Open repository</a>
+      </div>
+    </article>
+  </div>
 </section>

@@ -1,35 +1,46 @@
-<section id="profile">
-    <div class="section__pic-container">
-        <img src="./assets/Chad.jpg" alt="Davide Mattioli profile picture"/>
+<section id="profile" class="hero-section">
+  <div class="hero-copy">
+    <p class="section-eyebrow">Davide Mattioli · ML Engineer · Data Engineer · PhD Candidate</p>
+    <h1 class="hero-title">ML and data engineering for remote sensing.</h1>
+    <p class="hero-lede">
+      PhD Candidate in AI/DL for Remote Sensing at the University of Goettingen, working across Earth
+      observation models, scalable data pipelines, and scientific ML systems.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projects">View Selected Work</a>
+      <a class="btn btn-secondary" href="./assets/CV.pdf" target="_blank" rel="noopener">Download CV</a>
+      <a class="text-link" href="mailto:davide.mattioli.2001@gmail.com">Email me</a>
     </div>
-    <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Davide Mattioli</h1>
-        <p class="section__text__p2">Data Engineer</p>
-        <div class="btn-container">
-            <button
-                    class="btn btn-color-2"
-                    onclick="window.open('./assets/CV.pdf')"
-            >
-                Download CV
-            </button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'">
-                Contact Info
-            </button>
-        </div>
-        <div id="socials-container">
-            <img
-                    src="./assets/linkedin.png"
-                    alt="My LinkedIn profile"
-                    class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/davide-mattioli-605ab41b3/'"
-            />
-            <img
-                    src="./assets/github.png"
-                    alt="My Github profile"
-                    class="icon"
-                    onclick="location.href='https://github.com/mak8427'"
-            />
-        </div>
+    <div class="hero-proof-list">
+      <article class="hero-proof">
+        <h2>Geospatial AI and remote sensing</h2>
+        <p>UAV and VHR imagery, canopy mapping, segmentation, and geospatial ETL.</p>
+      </article>
+      <article class="hero-proof">
+        <h2>ML engineering for EO and CV</h2>
+        <p>Foundation models, weak supervision, segmentation, and retrieval.</p>
+      </article>
+      <article class="hero-proof">
+        <h2>Data engineering and HPC</h2>
+        <p>SLURM analytics, distributed inference, and reproducible research pipelines.</p>
+      </article>
     </div>
+  </div>
+  <div class="hero-aside">
+    <figure class="hero-portrait">
+      <img src="./assets/Chad.jpg" alt="Davide Mattioli portrait" />
+    </figure>
+    <div class="hero-context">
+      <p class="hero-context__label">Current focus</p>
+      <ul class="hero-context__list">
+        <li>PhD research in AI/DL for remote sensing at the University of Goettingen.</li>
+        <li>ML engineering for Earth observation models, segmentation, and explainability.</li>
+        <li>Data engineering for geospatial ETL and scientific compute workflows.</li>
+      </ul>
+      <div class="hero-links">
+        <a href="https://www.linkedin.com/in/davide-mattioli-605ab41b3/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/mak8427" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
 </section>
